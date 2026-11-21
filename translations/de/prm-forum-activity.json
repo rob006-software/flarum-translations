@@ -2,42 +2,42 @@
     "prm-forum-activity": {
         "admin": {
             "permissions": {
-                "feature_label": ""
+                "feature_label": "Diskussionen hervorheben"
             },
             "settings": {
-                "default_tab_label": "",
+                "default_tab_label": "Standard-Aktivitäts-Tab",
                 "default_tab_help": "",
-                "default_tab_latest": "",
-                "default_tab_featured": "",
-                "default_tab_newest": "",
+                "default_tab_latest": "Neue Beiträge",
+                "default_tab_featured": "Hervorgehoben",
+                "default_tab_newest": "Neue Diskussionen",
                 "default_tab_popular": ""
             }
         },
         "forum": {
-            "title": "",
+            "title": "Aktivitäten im Forum",
             "tabs": {
-                "latest": "",
-                "featured": "",
-                "newest": "",
+                "latest": "Neue Beiträge",
+                "featured": "Hervorgehoben",
+                "newest": "Neue Diskussionen",
                 "popular": ""
             },
             "columns": {
-                "topic": "",
-                "forum": "",
-                "posts": "",
-                "last_poster": ""
+                "topic": "Diskussion",
+                "forum": "Forum",
+                "posts": "Antworten",
+                "last_poster": "Letzte Antwort"
             },
-            "sticky_section": "",
-            "normal_section": "",
-            "sticky_label": "",
-            "empty": "",
-            "load_more": "",
+            "sticky_section": "Angeheftete Diskussionen",
+            "normal_section": "Normale Diskussionen",
+            "sticky_label": "Angeheftete Diskussion",
+            "empty": "Keine Diskussionen vorhanden.",
+            "load_more": "Mehr laden",
             "discussion_controls": {
-                "feature": "",
-                "unfeature": ""
+                "feature": "Hervorheben",
+                "unfeature": "Hervorhebung zurücknehmen"
             },
             "badge": {
-                "featured_tooltip": ""
+                "featured_tooltip": "Hervorgehobene Diskussion"
             }
         }
     }

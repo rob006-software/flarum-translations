@@ -2,72 +2,72 @@
     "huoxin-money-with-history": {
         "admin": {
             "settings": {
-                "title": "",
-                "post_reward_amount": "",
-                "discussion_reward_amount": "",
-                "money_name": "",
-                "min_post_length": "",
-                "exclude_mentions_from_length": "",
-                "hide_zero_balances": "",
-                "remove_money_trigger": "",
-                "cascade_money_removal": "",
-                "reward_private_discussion": "",
-                "like_reward_amount": "",
-                "help_extension_likes": "",
-                "reward_self_like": ""
+                "title": "Налаштування",
+                "post_reward_amount": "Винагорода за новий допис",
+                "discussion_reward_amount": "Винагорода за нове обговорення",
+                "money_name": "Назва валюти (наприклад, [money] балів)",
+                "min_post_length": "Мінімальна довжина допису для винагороди (0 — вимкнути)",
+                "exclude_mentions_from_length": "Підраховувати слова у відповідях лише в основному тексті",
+                "hide_zero_balances": "Приховувати нульовий баланс",
+                "remove_money_trigger": "Автоматично оновлювати баланс",
+                "cascade_money_removal": "Видаляти гроші за дописи, коли обговорення видалено",
+                "reward_private_discussion": "Дозволити заробляти в приватних обговореннях",
+                "like_reward_amount": "Винагорода за вподобання допису",
+                "help_extension_likes": "Необхідне розширення <code>flarum/likes</code>",
+                "reward_self_like": "Дозволити отримувати винагороду за вподобання власних дописів"
             },
             "permissions": {
-                "edit_money_label": "",
-                "disable_money_label": "",
-                "query_others_history": ""
+                "edit_money_label": "Редагувати кошти",
+                "disable_money_label": "Вимкнути винагороди",
+                "query_others_history": "Переглядати історію балансу інших користувачів"
             },
             "remove_money_trigger": [
-                "",
-                "",
-                ""
+                "Ніколи не списувати кошти",
+                "Коли обговорення/допис приховано або відновлено (за замовчуванням)",
+                "Після видалення обговорення або допису"
             ]
         },
         "forum": {
-            "nav": "",
-            "title": "",
-            "list-empty": "",
-            "money-list-load-more": "",
+            "nav": "Історія балансу",
+            "title": "Історія балансу",
+            "list-empty": "Записів не знайдено",
+            "money-list-load-more": "Завантажити ще",
             "money-history": {
-                "discussion-deleted": "",
-                "discussion-hidden": "",
-                "discussion-restored": "",
-                "discussion-reward": "",
-                "manual-adjustment": "",
-                "manual-adjustment-with-reason": "",
-                "post-deleted": "",
-                "post-hidden": "",
-                "post-liked": "",
-                "post-restored": "",
-                "post-reward": "",
-                "post-unliked": ""
+                "discussion-deleted": "Списання за видалення обговорення",
+                "discussion-hidden": "Списання за приховування обговорення",
+                "discussion-restored": "Винагорода за відновлення обговорення",
+                "discussion-reward": "Винагорода за обговорення",
+                "manual-adjustment": "Ручне коригування балансу",
+                "manual-adjustment-with-reason": "Ручне коригування: {reason}",
+                "post-deleted": "Списання за видалення допису",
+                "post-hidden": "Списання за приховування допису",
+                "post-liked": "Винагорода за вподобання допису",
+                "post-restored": "Винагорода за відновлення допису",
+                "post-reward": "Винагорода за допис",
+                "post-unliked": "Списання після скасування вподобання допису"
             },
             "record": {
-                "from": "",
-                "money-out": "",
-                "money-in": "",
-                "money-list-type": "",
-                "money-list-assign-at": "",
-                "money-list-id": "",
-                "money-list-from-user": "",
-                "money-list-target-user": "",
-                "money-list-amount": "",
-                "money-list-transfer-notes": "",
-                "money-list-balance": ""
+                "from": "від",
+                "money-out": "Списання",
+                "money-in": "Винагорода",
+                "money-list-type": "Тип",
+                "money-list-assign-at": "Час",
+                "money-list-id": "ID",
+                "money-list-from-user": "Хто виконав",
+                "money-list-target-user": "Обліковий запис",
+                "money-list-amount": "Сума",
+                "money-list-transfer-notes": "Призначення",
+                "money-list-balance": "Баланс"
             },
             "user_controls": {
-                "money_button": ""
+                "money_button": "Редагувати кошти"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "reason": "",
-                "reason_placeholder": "",
-                "submit_button": ""
+                "title": "Кошти користувача {username}",
+                "current": "Поточний:",
+                "reason": "Причина або примітка (необов’язково)",
+                "reason_placeholder": "Поясніть, чому баланс скориговано…",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

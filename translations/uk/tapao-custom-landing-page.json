@@ -2,10 +2,10 @@
     "tapao-custom-landing-page": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "guests_only_label": "",
-                "guests_only_help": "",
-                "html_label": "",
+                "enabled_label": "Увімкнути власну цільову сторінку",
+                "guests_only_label": "Показувати лише гостям",
+                "guests_only_help": "Якщо ввімкнено, користувачі, які увійшли, бачать звичайну сторінку форуму. Встановіть fof/direct-links для окремих сторінок /login і /register або використовуйте змінні шаблону '{{ login_url }}' та '{{ register_url }}' у своєму HTML.\n",
+                "html_label": "HTML цільової сторінки",
                 "html_help": ""
             }
         }

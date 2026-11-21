@@ -2,42 +2,42 @@
     "prm-forum-activity": {
         "admin": {
             "permissions": {
-                "feature_label": ""
+                "feature_label": "Вибирати рекомендовані обговорення"
             },
             "settings": {
-                "default_tab_label": "",
+                "default_tab_label": "Типова вкладка активності",
                 "default_tab_help": "",
-                "default_tab_latest": "",
-                "default_tab_featured": "",
-                "default_tab_newest": "",
+                "default_tab_latest": "Нові дописи",
+                "default_tab_featured": "Рекомендовані",
+                "default_tab_newest": "Нові обговорення",
                 "default_tab_popular": ""
             }
         },
         "forum": {
-            "title": "",
+            "title": "Активність форуму",
             "tabs": {
-                "latest": "",
-                "featured": "",
-                "newest": "",
+                "latest": "Нові дописи",
+                "featured": "Рекомендовані",
+                "newest": "Нові обговорення",
                 "popular": ""
             },
             "columns": {
-                "topic": "",
-                "forum": "",
-                "posts": "",
-                "last_poster": ""
+                "topic": "Обговорення",
+                "forum": "Форум",
+                "posts": "Відповіді",
+                "last_poster": "Автор останнього допису"
             },
-            "sticky_section": "",
-            "normal_section": "",
-            "sticky_label": "",
-            "empty": "",
-            "load_more": "",
+            "sticky_section": "Закріплені обговорення",
+            "normal_section": "Звичайні обговорення",
+            "sticky_label": "Закріплене обговорення",
+            "empty": "Немає обговорень для показу.",
+            "load_more": "Завантажити ще",
             "discussion_controls": {
-                "feature": "",
-                "unfeature": ""
+                "feature": "Рекомендувати",
+                "unfeature": "Прибрати з рекомендованих"
             },
             "badge": {
-                "featured_tooltip": ""
+                "featured_tooltip": "Рекомендоване обговорення"
             }
         }
     }

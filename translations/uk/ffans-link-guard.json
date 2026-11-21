@@ -2,30 +2,30 @@
     "ffans-link-guard": {
         "admin": {
             "settings": {
-                "warning_title_label": "",
-                "warning_title_help": "",
-                "warning_message_label": "",
-                "warning_message_help": "",
-                "trusted_domains_label": "",
-                "trusted_domains_help": "",
-                "use_modal_label": "",
-                "use_modal_help": ""
+                "warning_title_label": "Заголовок попередження",
+                "warning_title_help": "Залиште поле порожнім, щоб використати заголовок за замовчуванням. Підтримується лише простий текст.",
+                "warning_message_label": "Текст попередження",
+                "warning_message_help": "Залиште поле порожнім, щоб використати попередження за замовчуванням. Підтримується лише простий текст із переносами рядків.",
+                "trusted_domains_label": "Довірені домени",
+                "trusted_domains_help": "Введіть по одному домену в рядку. Для посилань із того самого джерела попередження не з’являється. <code>example.com</code> охоплює лише цей домен. <code>*.example.com</code> охоплює його піддомени, за винятком самого <code>example.com</code>.",
+                "use_modal_label": "Показувати попередження в діалоговому вікні",
+                "use_modal_help": "Відкриває попередження в діалоговому вікні на поточній сторінці."
             }
         },
         "forum": {
-            "page_title": "",
-            "destination_label": "",
-            "invalid_title": "",
-            "invalid_message": "",
-            "close_button": "",
-            "cancel_button": "",
-            "continue_button": "",
-            "close_fallback": ""
+            "page_title": "Перехід із форуму",
+            "destination_label": "Цільовий сайт",
+            "invalid_title": "Недійсне зовнішнє посилання",
+            "invalid_message": "Не вдалося розпізнати адресу. Поверніться до спільноти й відкрийте посилання ще раз.",
+            "close_button": "Закрити цю вкладку",
+            "cancel_button": "Скасувати",
+            "continue_button": "Продовжити",
+            "close_fallback": "Якщо вкладка залишилася відкритою, закрийте її вручну або <a>поверніться до спільноти</a>."
         },
         "lib": {
-            "default_forum_name": "",
-            "default_warning_title": "",
-            "default_warning_message": ""
+            "default_forum_name": "цей сайт",
+            "default_warning_title": "Ви переходите із сайту «{forumName}»",
+            "default_warning_message": "Подбайте про безпеку облікового запису й особистих даних."
         }
     }
 }

@@ -2,7 +2,7 @@
     "ralkage-word-counter": {
         "forum": {
             "composer": {
-                "word_counter": ""
+                "word_counter": "{words, plural, one {Слів: {words}} other {Слів: {words}}}, {chars, plural, one {символів: {chars}} other {символів: {chars}}}"
             }
         }
     }

@@ -3,132 +3,132 @@
         "admin": {
             "overall": {
                 "ready": "",
-                "blocked": "",
-                "tasks": "",
-                "unchecked_only": "",
+                "blocked": "Заблоковано: {reasons}",
+                "tasks": "Буде готово після виконання завдань ({count, plural, one {залишилося #} other {залишилося #}})",
+                "unchecked_only": "Майже готово. Не вдалося перевірити розширення ({count, plural, one {#} other {#}})",
                 "reasons": {
                     "no_path": "",
-                    "check": "",
-                    "unchecked": ""
+                    "check": "Потрібно виправити: {title}",
+                    "unchecked": "Не вдалося перевірити розширення ({count, plural, one {#} other {#}})"
                 }
             },
             "checks": {
                 "php-version": {
-                    "title": "",
-                    "chip": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "Версія PHP",
+                    "chip": "PHP {current}",
+                    "pass": "Використовується PHP {current}.",
+                    "warning": "Не вдалося визначити версію PHP.",
+                    "fail": "Установлено PHP {current}, але потрібна версія {required} або новіша."
                 },
                 "database-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning_unknown": "",
-                    "warning_below_recommended": "",
+                    "title": "Версія бази даних",
+                    "pass": "Використовується {current}.",
+                    "warning_unknown": "Не вдалося визначити версію сервера бази даних.",
+                    "warning_below_recommended": "Версія {current} працює, але для найкращої роботи рекомендовано {recommended} або новішу.",
                     "fail": ""
                 },
                 "extension-compatibility": {
-                    "title": ""
+                    "title": "Сумісність розширень"
                 }
             },
             "extensions": {
                 "contact": {
-                    "forum": "",
-                    "issues": "",
-                    "source": ""
+                    "forum": "Гілка підтримки",
+                    "issues": "Проблеми",
+                    "source": "Джерело"
                 }
             },
             "summary": {
-                "progress": "",
-                "ready": "",
-                "tasks": "",
-                "blocked": "",
-                "unknown": "",
-                "checked": "",
-                "data_as_of": "",
-                "data_as_of_help": "",
-                "recommended": "",
-                "refresh": "",
-                "refresh_cooldown": "",
-                "export": ""
+                "progress": "Розширень, готових без змін: {percent}%",
+                "ready": "Готові без змін: {count}",
+                "tasks": "Потребують дій: {count}",
+                "blocked": "Заблоковані: {count}",
+                "unknown": "Не вдалося перевірити: {count}",
+                "checked": "Перевірено {time}",
+                "data_as_of": "Дані про пакети станом на {time}",
+                "data_as_of_help": "Запити про пакети кешуються до 6 годин. Оновіть, щоб отримати найсвіжіші дані.",
+                "recommended": "Рекомендовано {version}",
+                "refresh": "Оновити",
+                "refresh_cooldown": "Оновити ({seconds} с)",
+                "export": "Експортувати CSV"
             },
             "list": {
-                "before": "",
-                "after": "",
-                "copy": "",
-                "copied": "",
-                "configure": "",
+                "before": "Перед оновленням",
+                "after": "Після оновлення",
+                "copy": "Копіювати",
+                "copied": "Скопійовано",
+                "configure": "Налаштувати доступ до репозиторіїв",
                 "groups": {
                     "environment": {
-                        "title": "",
-                        "description": ""
+                        "title": "Серверне середовище",
+                        "description": "Виправте це перед оновленням."
                     },
                     "decision": {
-                        "title": "",
+                        "title": "Потрібне рішення",
                         "description": ""
                     },
                     "unknown": {
-                        "title": "",
-                        "description": ""
+                        "title": "Не вдалося перевірити",
+                        "description": "Зазвичай це платні або приватні розширення. Додайте доступ до репозиторію, щоб радник міг їх перевірити."
                     },
                     "replace": {
-                        "title": "",
-                        "description": ""
+                        "title": "Видалити або замінити",
+                        "description": "Видаліть їх перед оновленням; за потреби встановіть заміни після завершення."
                     },
                     "ready": {
-                        "title": "",
+                        "title": "Готово",
                         "description": ""
                     }
                 },
                 "details": {
-                    "none": "",
+                    "none": "{version}",
                     "none_unversioned": "",
-                    "remove": "",
-                    "replacement": "",
+                    "remove": "Вбудовано в ядро",
+                    "replacement": "→ {replacement}",
                     "replacement_unverified": "",
-                    "abandoned": "",
+                    "abandoned": "Більше не підтримується, заміни немає",
                     "replacement_not_ready": "",
                     "latest": "",
                     "no_release": "",
-                    "unknown": ""
+                    "unknown": "Не знайдено"
                 }
             },
             "hints": {
                 "none": "",
                 "none_unversioned": "",
                 "remove": "",
-                "swap_after_upgrade": "",
+                "swap_after_upgrade": "Видаліть перед оновленням, а потім установіть {replacement}.",
                 "switch_replacement": "",
                 "switch_replacement_unverified": "",
                 "no_path": "",
                 "no_path_unversioned": "",
-                "no_path_abandoned": "",
+                "no_path_abandoned": "Більше не підтримується й не має заміни. Заплануйте видалення або знайдіть альтернативу.",
                 "no_path_replacement_not_ready": "",
-                "unknown": ""
+                "unknown": "Не знайдено на Packagist або в налаштованих репозиторіях. Якщо розширення платне чи приватне, додайте доступ до репозиторію."
             },
             "tabs": {
-                "report": "",
-                "repositories": ""
+                "report": "Звіт про готовність",
+                "repositories": "Репозиторії"
             },
             "repositories": {
-                "help": "",
-                "empty": "",
-                "add_floxum": "",
-                "add_composer": "",
-                "type_floxum": "",
-                "type_composer": "",
-                "url": "",
-                "username": "",
-                "token": "",
-                "remove": "",
-                "test": "",
-                "test_ok": "",
-                "test_fail_auth": "",
-                "test_fail_unreachable": "",
-                "test_fail_invalid": ""
+                "help": "Додайте приватні або торговельні репозиторії Composer, щоб радник міг перевіряти розширення, яких немає на публічному Packagist. Вони використовуються лише тоді, коли розширення не знайдено на Packagist.\n",
+                "empty": "Додаткових репозиторіїв не налаштовано.",
+                "add_floxum": "Додати Floxum",
+                "add_composer": "Додати репозиторій",
+                "type_floxum": "Floxum",
+                "type_composer": "Приватний Packagist / Власний",
+                "url": "URL-адреса репозиторію",
+                "username": "Ім'я користувача",
+                "token": "Токен",
+                "remove": "Видалити репозиторій",
+                "test": "Тестове підключення",
+                "test_ok": "З’єднано",
+                "test_fail_auth": "Помилка автентифікації — перевірте токен",
+                "test_fail_unreachable": "Не вдалося зв’язатися з репозиторієм",
+                "test_fail_invalid": "Некоректна відповідь — перевірте URL-адресу"
             },
             "errors": {
-                "load_failed": ""
+                "load_failed": "Не вдалося перевірити готовність. Спробуйте ще раз."
             }
         }
     }

@@ -4,7 +4,7 @@
             "settings": {
                 "help_text": "Отримайте свої облікові дані Google reCAPTCHA <a>тут</a>.",
                 "secret_key_label": "Секретний ключ",
-                "site_key_label": "Site Key",
+                "site_key_label": "Ключ сайту",
                 "type_label": "Тип reCAPTCHA",
                 "type_help": "Це розширення підтримує тільки reCAPTCHA v2. Обраний тип повинен відповідати типу ваших облікових даних reCAPTCHA.",
                 "signup": "=> core.forum.sign_up.title",
@@ -20,7 +20,7 @@
                 "reload_button": "Перезавантажити"
             },
             "permissions": {
-                "post_without_captcha": "Створювати дописи та дискусії без CAPTCHA"
+                "post_without_captcha": "Створювати дописи та обговорення без CAPTCHA"
             }
         },
         "forum": {

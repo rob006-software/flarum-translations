@@ -1,24 +1,24 @@
 {
     "prm-hero-image": {
         "admin": {
-            "title": "",
-            "help": "",
-            "profile_help": "",
-            "upload_label": "",
-            "upload_help": "",
-            "upload_button": "",
-            "remove_button": "",
-            "overlay_label": "",
-            "overlay_help": "",
-            "preview_empty": "",
-            "saved": "",
+            "title": "Зображення головної сторінки",
+            "help": "Замінює вітальний банер зображенням того самого розміру з легким затемненням.",
+            "profile_help": "Дозвольте групам змінювати власну обкладинку профілю на вкладці «Дозволи». Завантажені зображення перекодовуються на сервері.",
+            "upload_label": "Зображення",
+            "upload_help": "PNG, JPG, GIF або WEBP. Максимум 3 МБ. Найкраще підходить широке горизонтальне зображення.",
+            "upload_button": "Завантажити зображення",
+            "remove_button": "Видалити зображення",
+            "overlay_label": "Затемнення",
+            "overlay_help": "Більше значення сильніше затемнює зображення.",
+            "preview_empty": "Зображення ще немає.",
+            "saved": "Збережено",
             "permissions": {
-                "profile_hero_label": ""
+                "profile_hero_label": "Завантажити зображення обкладинки профілю"
             }
         },
         "forum": {
-            "upload": "",
-            "remove": ""
+            "upload": "Завантажити обкладинку",
+            "remove": "Видалити обкладинку"
         }
     }
 }

@@ -2,65 +2,65 @@
     "tapao-line-notification": {
         "forum": {
             "settings": {
-                "line_section_heading": "",
-                "line_connect_button": "",
-                "line_disconnect_button": "",
-                "line_connected_as": "",
-                "line_linking_description": "",
-                "line_disconnect_confirm": "",
+                "line_section_heading": "Сповіщення LINE",
+                "line_connect_button": "Підключити LINE",
+                "line_disconnect_button": "Від’єднати LINE",
+                "line_connected_as": "Підключено як {name}",
+                "line_linking_description": "Підключіть обліковий запис LINE, щоб отримувати сповіщення форуму через LINE.",
+                "line_disconnect_confirm": "Від’єднати обліковий запис LINE?",
                 "line_link_success": "",
                 "line_disconnect_success": "",
-                "line_error": ""
+                "line_error": "Не вдалося підключити LINE: {error}"
             }
         },
         "admin": {
             "settings": {
-                "line_heading": "",
-                "line_login_channel_id_label": "",
-                "line_login_channel_id_help": "",
-                "line_login_channel_secret_label": "",
-                "line_login_channel_secret_help": "",
-                "line_messaging_token_label": "",
-                "line_messaging_token_help": "",
-                "line_messaging_channel_secret_label": "",
-                "line_messaging_channel_secret_help": "",
-                "flex_header_color_label": "",
-                "flex_header_color_help": "",
-                "flex_button_color_label": "",
-                "flex_button_color_help": "",
-                "flex_title_color_label": "",
-                "flex_title_color_help": "",
-                "use_first_image_as_thumbnail_label": "",
-                "use_first_image_as_thumbnail_help": "",
-                "disabled_notification_types_label": "",
-                "disabled_notification_types_help": ""
+                "line_heading": "Сповіщення LINE",
+                "line_login_channel_id_label": "Ідентифікатор каналу LINE Login",
+                "line_login_channel_id_help": "Ідентифікатор каналу LINE Login із LINE Developers Console.",
+                "line_login_channel_secret_label": "Секрет каналу LINE Login",
+                "line_login_channel_secret_help": "Секрет вашого каналу LINE Login.",
+                "line_messaging_token_label": "Токен доступу до каналу Messaging API",
+                "line_messaging_token_help": "Довготривалий токен доступу до вашого каналу Messaging API.",
+                "line_messaging_channel_secret_label": "Секрет каналу Messaging API",
+                "line_messaging_channel_secret_help": "Секрет вашого каналу Messaging API для перевірки підпису вебхука.",
+                "flex_header_color_label": "Колір шапки Flex Message",
+                "flex_header_color_help": "Колір тла верхньої панелі сповіщення. Типове значення — #06C755 (зелений LINE).",
+                "flex_button_color_label": "Колір кнопки Flex Message",
+                "flex_button_color_help": "Колір кнопки дії в сповіщенні. Типове значення — #06C755 (зелений LINE).",
+                "flex_title_color_label": "Колір заголовка Flex Message",
+                "flex_title_color_help": "Колір тексту заголовка обговорення в тілі сповіщення. Типове значення — #111111.",
+                "use_first_image_as_thumbnail_label": "Використовувати перше зображення як мініатюру",
+                "use_first_image_as_thumbnail_help": "Якщо допис містить зображення, перше з них слугуватиме головною мініатюрою Flex Message.",
+                "disabled_notification_types_label": "Вимкнені типи сповіщень",
+                "disabled_notification_types_help": "Укажіть через кому типи сповіщень, які не слід надсилати через LINE, наприклад <code>postMentioned, postLiked, newPost, discussionCreated</code>. Перемикачі цих типів також зникнуть зі сторінки налаштувань користувача."
             }
         },
         "lib": {
             "notification": {
-                "line_driver_label": ""
+                "line_driver_label": "LINE"
             },
             "line_message": {
-                "notification_postMentioned": "",
-                "notification_userMentioned": "",
-                "notification_postLiked": "",
-                "notification_newPost": "",
-                "notification_privateDiscussion": "",
-                "notification_default": "",
-                "view_post_button": "",
-                "fallback_title": "",
-                "connection_success_header": "",
-                "connection_success_greeting_name": "",
-                "connection_success_greeting": "",
-                "connection_success_body": "",
-                "connection_success_features_intro": "",
-                "connection_success_feature_mention": "",
-                "connection_success_feature_user_mention": "",
-                "connection_success_feature_like": "",
-                "connection_success_feature_new_post": "",
-                "connection_success_settings_hint": "",
-                "connection_success_open_forum": "",
-                "connection_success_alt_text": ""
+                "notification_postMentioned": "💬 Хтось згадав ваш допис",
+                "notification_userMentioned": "📣 Хтось згадав вас",
+                "notification_postLiked": "❤️ Хтось уподобав ваш допис",
+                "notification_newPost": "🔔 Новий допис в обговоренні, яке ви відстежуєте",
+                "notification_privateDiscussion": "✉️ Ви отримали приватне повідомлення",
+                "notification_default": "🔔 Нове сповіщення від {forum}",
+                "view_post_button": "Переглянути допис",
+                "fallback_title": "Нове сповіщення",
+                "connection_success_header": "✅ Підключення успішне",
+                "connection_success_greeting_name": "Вітаємо, {name}!",
+                "connection_success_greeting": "Вітаємо!",
+                "connection_success_body": "Ваш обліковий запис LINE підключено до форуму «{forum}» (ім’я користувача — {username}).",
+                "connection_success_features_intro": "Ви отримуватимете сповіщення форуму через LINE, коли хтось:",
+                "connection_success_feature_mention": "💬 згадує ваш допис",
+                "connection_success_feature_user_mention": "📣 згадує вас",
+                "connection_success_feature_like": "❤️ уподобає ваш допис",
+                "connection_success_feature_new_post": "🔔 пише в обговоренні, яке ви відстежуєте",
+                "connection_success_settings_hint": "Керувати сповіщеннями можна на сторінці налаштувань форуму.",
+                "connection_success_open_forum": "Відкрити {forum}",
+                "connection_success_alt_text": "✅ Обліковий запис LINE підключено до форуму «{forum}»"
             }
         }
     }

@@ -2,66 +2,66 @@
     "ralkage-profile-messages": {
         "admin": {
             "permissions": {
-                "post_label": "",
-                "delete_own_label": "",
-                "edit_any_label": ""
+                "post_label": "Публікувати повідомлення в профілях",
+                "delete_own_label": "Видаляти власні повідомлення в профілях",
+                "edit_any_label": "Редагувати будь-які повідомлення в профілях"
             }
         },
         "forum": {
             "user": {
-                "messages_link": "",
-                "messages_empty_text": "",
-                "messages_load_more_button": ""
+                "messages_link": "Повідомлення профілю",
+                "messages_empty_text": "У цьому профілі ще немає повідомлень.",
+                "messages_load_more_button": "Завантажити ще"
             },
             "composer": {
-                "placeholder": "",
-                "submit_button": "",
-                "save_button": "",
-                "heading": "",
-                "reply_heading": "",
-                "edit_heading": "",
-                "confirm_exit": "",
-                "posted_message": "",
-                "preview_heading": "",
-                "saved_message": "",
-                "validation_empty": "",
-                "validation_too_long": "",
-                "validation_blocked": ""
+                "placeholder": "Напишіть повідомлення в цьому профілі…",
+                "submit_button": "Опублікувати повідомлення",
+                "save_button": "Зберегти зміни",
+                "heading": "Повідомлення в профілі користувача {username}",
+                "reply_heading": "Відповідь у профілі користувача {username}",
+                "edit_heading": "Редагування повідомлення",
+                "confirm_exit": "Повідомлення ще не опубліковано. Відхилити зміни?",
+                "posted_message": "Ваше повідомлення опубліковано.",
+                "preview_heading": "Попередній перегляд",
+                "saved_message": "Ваше повідомлення оновлено.",
+                "validation_empty": "Повідомлення не може бути порожнім.",
+                "validation_too_long": "Повідомлення може містити до 2000 символів.",
+                "validation_blocked": "Цей користувач вимкнув повідомлення у своєму профілі."
             },
             "message": {
-                "delete_button": "",
-                "delete_confirm": "",
-                "edit_button": "",
-                "reply_button": "",
-                "reply_placeholder": "",
-                "reply_submit": "",
-                "report_button": "",
-                "permalink_button": "",
-                "permalink_copied": "",
-                "show_replies": "",
-                "hide_replies": ""
+                "delete_button": "Видалити",
+                "delete_confirm": "Видалити це повідомлення?",
+                "edit_button": "Редагувати",
+                "reply_button": "Відповісти",
+                "reply_placeholder": "Напишіть відповідь…",
+                "reply_submit": "Відповісти",
+                "report_button": "Поскаржитися",
+                "permalink_button": "Постійне посилання",
+                "permalink_copied": "Посилання скопійовано до буфера обміну.",
+                "show_replies": "{count, plural, one {Показати # відповідь} few {Показати # відповіді} many {Показати # відповідей} other {Показати # відповіді}}",
+                "hide_replies": "Приховати відповіді"
             },
             "report": {
-                "title": "",
-                "reason_inappropriate": "",
-                "reason_spam": "",
-                "reason_harassment": "",
-                "reason_other": "",
-                "detail_placeholder": "",
-                "submit_button": "",
-                "success": "",
-                "cannot_report_own": "",
-                "already_reported": ""
+                "title": "Скарга на повідомлення",
+                "reason_inappropriate": "Неприйнятний вміст",
+                "reason_spam": "Спам",
+                "reason_harassment": "Переслідування",
+                "reason_other": "Інше",
+                "detail_placeholder": "Додайте подробиці (необов’язково)…",
+                "submit_button": "Надіслати скаргу",
+                "success": "Скаргу на повідомлення надіслано.",
+                "cannot_report_own": "Ви не можете скаржитися на власні повідомлення.",
+                "already_reported": "Ви вже скаржилися на це повідомлення."
             },
             "notification": {
-                "new_profile_message_text": "",
-                "new_profile_message_reply_text": ""
+                "new_profile_message_text": "Користувач {username} залишив повідомлення у вашому профілі.",
+                "new_profile_message_reply_text": "Користувач {username} відповів на ваше повідомлення у профілі користувача {profileOwner}."
             },
             "settings": {
-                "profile_heading": "",
-                "notify_new_profile_message_label": "",
-                "block_profile_messages_label": "",
-                "default_view_label": ""
+                "profile_heading": "Профіль",
+                "notify_new_profile_message_label": "Хтось публікує повідомлення в моєму профілі",
+                "block_profile_messages_label": "Вимкнути повідомлення від інших користувачів у моєму профілі",
+                "default_view_label": "Типово відкривати в профілі розділ «Повідомлення профілю»"
             }
         }
     }

@@ -24,12 +24,12 @@
                 "popup_height_label": "OAuth felugró ablakának magassága",
                 "popup_height_help": "Az OAuth felugró ablakának magasságának beállítása. Ez a beállítás figyelmen kívül lesz hagyva, ha a „Teljes képernyős felugró ablak használata az OAuth-hoz” beállítás be van kapcsolva.",
                 "providers": {
-                    "callback_url_text": "Ha szükséges, akkor állítsa a visszahívási URL-t erre: {url}.",
+                    "callback_url_text": "Ha szükséges, akkor állítsa a visszahívási webcímet erre: {url}.",
                     "group_label": "Csoport hozzárendelése",
                     "group_help": "Válasszon egy automatikusan hozzárendelendő csoportot az ezen a szolgáltatón keresztül regisztráló felhasználókhoz.",
                     "no_group_label": "Nincs csoport-hozzárendelés",
                     "discord": {
-                        "description": "Hozzon létre egy alkalmazást itt: {link}. Adja meg az átirányítási URL-t az OAuth2 lapon.",
+                        "description": "Hozzon létre egy alkalmazást itt: {link}. Adja hozzá az átirányítási webcímet az OAuth2 lapon.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
@@ -47,7 +47,7 @@
                         "description": "Hozza létre az alkalmazást itt: {link}. Adjon az alkalmazásnak <code>read_user</code> hatókört.",
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
-                        "domain_label": "GitLab domén"
+                        "domain_label": "GitLab domain"
                     },
                     "twitter": {
                         "description": "Hozzon létre egy alkalmazást itt: {link}. Be kell állítani a Szolgáltatási feltételek webcímét és az Adatvédelmi irányelvek webcímét. Ezután adja hozzá az e-mail-kérési engedélyt.",

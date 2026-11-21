@@ -2,9 +2,9 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "Хтось створює дискусію в тезі, за яким я стежу",
+                "notify_new_discussion_label": "Хтось створює обговорення в тезі, за яким я стежу",
                 "notify_new_post_label": "Хтось публікує в тезі, за яким я стежу",
-                "notify_new_discussion_tag_label": "Хтось перетегує дискусію в тег, за яким я стежу"
+                "notify_new_discussion_tag_label": "Хтось перетегує обговорення в тег, за яким я стежу"
             },
             "index": {
                 "follow_tag_button": "Слідкувати",
@@ -23,7 +23,7 @@
                 "subscription_label": "Оберіть свій рівень підписки для {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
-                "following_text": "Отримувати повідомлення про всі нові дискусії.",
+                "following_text": "Отримувати повідомлення про всі нові обговорення.",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
                 "hiding_text": "Приховати обговорення зі сторінки «Всі обговорення».",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
@@ -45,40 +45,40 @@
                 "new_discussion_tag_text": "{username} змінив тег"
             },
             "prompt": {
-                "choose_button": "",
-                "modal_title": "",
-                "later_button": "",
-                "continue_button": ""
+                "choose_button": "Вибрати теги для стеження",
+                "modal_title": "Вибрати теги для стеження",
+                "later_button": "Нагадати пізніше",
+                "continue_button": "Перейти до форуму"
             },
             "user": {
                 "settings": {
                     "heading": "Слідкувати за тегами",
-                    "filter_label": "Що показувати за налаштуванням на наступній сторінці"
+                    "filter_label": "Що показувати за замовчуванням на наступній сторінці"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "Фільтрація наступних сторінок за налаштуванням",
+                "following_page_default_label": "Фільтрація наступних сторінок за замовчуванням",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
-                "prompt_new_users_label": "",
-                "prompt_new_users_help": "",
-                "prompt_button_on_following_page_label": "",
-                "prompt_tag_strategy_label": "",
+                "prompt_new_users_label": "Пропонувати новим користувачам вибрати теги для стеження",
+                "prompt_new_users_help": "Користувачі, які ще не підтвердили вибір, бачитимуть вікно з пропозицією стежити за тегами. Воно з’являтиметься під час кожного відвідування, доки користувач не натисне «Перейти до форуму».\n",
+                "prompt_button_on_following_page_label": "Показувати кнопку «Вибрати теги для стеження» на сторінці відстежуваних обговорень",
+                "prompt_tag_strategy_label": "Теги для пропозиції",
                 "prompt_tag_strategy_options": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Основні теги першого рівня",
+                    "primaryAndChildren": "Усі основні теги будь-якого рівня",
+                    "primaryAndSecondary": "Основні теги першого рівня та додаткові теги",
+                    "secondary": "Лише додаткові теги",
+                    "all": "Усі теги",
+                    "list": "Вибрані нижче теги"
                 },
-                "prompt_tag_ids_label": "",
-                "all_discussions_on_following_page_for_guests_label": ""
+                "prompt_tag_ids_label": "Теги для пропозиції",
+                "all_discussions_on_following_page_for_guests_label": "Показувати гостям усі обговорення на сторінці відстежуваних обговорень"
             },
             "basics": {
-                "following_label": ""
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {
@@ -100,7 +100,7 @@
             "ignoring": "Ігнорування",
             "lurking": "Причаїний",
             "filtering_options": {
-                "none": "Стеження за дискусіями",
+                "none": "Стеження за обговореннями",
                 "tags": "Стеження за тегами"
             }
         }

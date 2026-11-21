@@ -2,105 +2,105 @@
     "flarum-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "Переглядати журнал аудиту",
+                "viewLimited": "Переглядати журнал аудиту з обмеженим доступом"
             },
             "header": {
-                "title": ""
+                "title": "Аудит"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "Налаштувати",
+                "title": "Налаштування обмеженого доступу",
+                "introduction": "Налаштуйте, що можуть бачити користувачі з дозволом на обмежений доступ",
+                "requiresExtension": "Потрібне розширення {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Переглядати IP-адресу"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "Журнал аудиту",
+                "discussion-audit": "Журнал аудиту",
+                "user-audit": "Журнал аудиту (зміни облікового запису)",
+                "actor-audit": "Журнал аудиту (дії користувача)"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "Журнал аудиту",
+                "discussion-title": "Журнал аудиту обговорення",
+                "user-title": "Журнал аудиту користувача",
+                "actor-title": "Журнал аудиту виконавця дій"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
-                "filtersHint": "",
+                "filterPlaceholder": "Фільтрувати записи журналу",
+                "filterApply": "Застосувати",
+                "filterClear": "Очистити фільтр",
+                "refresh": "Оновити",
+                "filtersHint": "Фільтри:",
                 "filters": {
-                    "actor": "",
-                    "user": "",
-                    "action": "",
-                    "client": "",
-                    "ip": "",
-                    "discussion": ""
+                    "actor": "Хто виконав дію. Використовуйте actor:guest для системних дій або дій неавторизованих користувачів.",
+                    "user": "Користувач, якого стосується дія, за ім’ям користувача.",
+                    "action": "Тип дії, наприклад action:post.created.",
+                    "client": "Спосіб надсилання запиту.",
+                    "ip": "IP-адреса, з якої виконано дію.",
+                    "discussion": "Дії, що стосуються певного обговорення, за його ID."
                 },
                 "help": {
-                    "toggle": "",
-                    "multiple": "",
-                    "negate": ""
+                    "toggle": "Довідка з пошуку",
+                    "multiple": "Перелічіть значення через кому, щоб знайти збіги з будь-яким із них, наприклад action:post.created,post.deleted",
+                    "negate": "Додайте мінус перед фільтром, щоб виключити збіги, наприклад -client:cli"
                 },
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "empty": "Результати відсутні",
+                "loadMore": "Завантажити більше",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Обговорення #{id}",
+                    "group": "Група #{id}",
+                    "post": "Допис #{id}",
+                    "tag": "Тег #{id}",
+                    "user": "Користувач #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Коментар",
+                    "post": "Допис"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(без значення)",
+                "noReason": "(без причини)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Вебсеанс",
+                    "api_key": "Ключ API",
+                    "access_token": "Токен доступу",
+                    "cli": "Командний рядок",
+                    "unknown": "Невідомий клієнт"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Приховати необроблений запис журналу",
+                    "showRaw": "Показати необроблений запис журналу",
+                    "filterActor": "Показати записи про дії цього виконавця",
+                    "filterIp": "Показати записи з цієї IP-адреси",
+                    "filterClient": "Показати записи для цього типу клієнта",
+                    "filterAction": "Показати записи про таку саму дію",
+                    "filterUser": "Показати записи, що стосуються цього користувача",
+                    "filterDiscussion": "Показати записи, що стосуються цього обговорення"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "Видалено записи з журналів аудиту: {deleted_count}",
+                "cache_cleared": "Кеш очищено вручну",
                 "discussion": {
-                    "created": "",
+                    "created": "Розпочато обговорення {discussion}",
                     "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
+                    "deleted": "Видалено обговорення {discussion}",
+                    "hidden": "Приховано обговорення {discussion}",
                     "locked": "",
                     "merged_away": "",
                     "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
+                    "renamed": "Обговорення перейменовано з «{old_title}» на «{new_title}»",
+                    "restored": "Відновлено обговорення {discussion}",
                     "split_away": "",
                     "split_into": "",
                     "stickied": "",
@@ -110,62 +110,62 @@
                     "user_changed": ""
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": "",
-                    "uninstalled": ""
+                    "disabled": "Вимкнено розширення {package}",
+                    "enabled": "Увімкнено розширення {package}",
+                    "uninstalled": "Видалено розширення {package}"
                 },
                 "fof_ban_ips": {
                     "banned": "",
                     "unbanned": ""
                 },
-                "permission_changed": "",
+                "permission_changed": "Дозвіл {permission} змінено з {old_groups} на {new_groups}",
                 "post": {
                     "approved": "",
-                    "created": "",
+                    "created": "Створено {post} в обговоренні {discussion}",
                     "create_date_changed": "",
-                    "deleted": "",
+                    "deleted": "Видалено {post} користувача {postuser} в обговоренні {discussion}",
                     "dismissed_flags": "",
                     "edit_date_changed": "",
                     "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
+                    "hidden": "Приховано {post} користувача {postuser} в обговоренні {discussion}",
+                    "restored": "Відновлено {post} користувача {postuser} в обговоренні {discussion}",
+                    "revised": "Відредаговано {post} користувача {postuser} в обговоренні {discussion}",
                     "user_changed": ""
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Змінено налаштування {key}",
+                "setting_changed_with_values": "Значення налаштування {key} змінено з {old_value} на {new_value}",
                 "tag": {
                     "created": "",
                     "deleted": "",
                     "updated": ""
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
+                    "activated": "Обліковий запис користувача {username} активовано вручну",
+                    "activated_with_email": "Обліковий запис користувача {username} активовано за посиланням підтвердження",
+                    "avatar_changed": "Змінено аватар користувача {username}",
+                    "avatar_removed": "Видалено аватар користувача {username}",
                     "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
+                    "created": "Створено обліковий запис користувача {username}",
+                    "deleted": "Видалено користувача {username}",
+                    "email_changed": "Електронну адресу користувача {username} змінено з {old_email} на {new_email}",
+                    "email_change_requested": "Надіслано запит на зміну електронної адреси користувача {username} на {new_email}",
+                    "groups_changed": "Групи користувача {username} змінено з {old_groups} на {new_groups}",
                     "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
+                    "logged_in": "Виконано вхід до облікового запису користувача {username}",
+                    "logged_in_with_provider": "Виконано вхід до облікового запису користувача {username} за допомогою {provider}",
+                    "logged_out": "Виконано вихід з облікового запису користувача {username}",
                     "nickname_changed": "",
                     "nickname_requested": "",
                     "nickname_request_approved": "",
                     "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "password_reset_attempted": "",
-                    "password_reset_attempted_unmatched": "",
-                    "provider_connected": "",
+                    "password_changed": "Змінено пароль користувача {username}",
+                    "password_change_requested": "Надіслано запит на зміну пароля користувача {username}",
+                    "password_reset_attempted": "Надіслано запит на скидання пароля користувача {username}",
+                    "password_reset_attempted_unmatched": "Надіслано запит на скидання пароля для {email} (відповідного облікового запису немає)",
+                    "provider_connected": "Сервіс {provider} під’єднано до облікового запису користувача {username}",
                     "suspended": "",
                     "unsuspended": "",
-                    "username_changed": "",
+                    "username_changed": "Ім’я користувача {username} змінено з {old_username} на {new_username}",
                     "username_requested": "",
                     "username_request_approved": "",
                     "username_request_rejected": ""

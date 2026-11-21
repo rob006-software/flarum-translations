@@ -32,7 +32,7 @@
         "file": ":attribute має бути файл.",
         "file_too_large": ":attribute завеликий.",
         "file_upload_failed": "Не вдалося завантажити :attribute.",
-        "filled": "Поле :attribute вимагається.",
+        "filled": "Поле :attribute має містити значення.",
         "gt": {
             "numeric": ":attribute має бути більшим ніж :value.",
             "file": ":attribute має бути більшим ніж :value kilobytes.",
@@ -88,12 +88,12 @@
         "regex": ":attribute неприпустимий формат.",
         "required": "Поле :attribute вимагається.",
         "required_array_keys": "Масив :attribute повинен містити записи для: :values.",
-        "required_if": "Поле :attribute вимагається коли :other є :value.",
-        "required_unless": "Поле :attribute вимагається за винятком коли :other є :values.",
-        "required_with": "Поле :attribute вимагається коли :values присутне.",
-        "required_with_all": "Поле :attribute вимагається коли всі :values присутні.",
-        "required_without": "Поле :attribute вимагається коли :values немає.",
-        "required_without_all": "Поле :attribute вимагається коли жодного з :values немає.",
+        "required_if": "Поле :attribute вимагається, коли :other є :value.",
+        "required_unless": "Поле :attribute обов’язкове, якщо :other не входить до :values.",
+        "required_with": "Поле :attribute обов’язкове, якщо задано :values.",
+        "required_with_all": "Поле :attribute вимагається, коли всі :values присутні.",
+        "required_without": "Поле :attribute вимагається, коли :values немає.",
+        "required_without_all": "Поле :attribute вимагається, коли жодного з :values немає.",
         "prohibited": "Поле :attribute заборонено.",
         "prohibited_if": "Поле :attribute заборонено, коли :other є :value.",
         "prohibited_unless": "Поле :attribute заборонено, якщо :other не міститься в :values.",
@@ -119,8 +119,8 @@
             "content": "вміст",
             "name_singular": "ім'я в однині",
             "name_plural": "ім'я в множині",
-            "tag_count_primary": "число первинних тегів",
-            "tag_count_secondary": "число вторинних тегів"
+            "tag_count_primary": "кількість основних тегів",
+            "tag_count_secondary": "кількість додаткових тегів"
         }
     }
 }

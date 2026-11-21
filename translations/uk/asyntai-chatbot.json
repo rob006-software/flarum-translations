@@ -2,12 +2,12 @@
     "asyntai-chatbot": {
         "admin": {
             "settings": {
-                "widget_id_label": "",
-                "widget_id_help": "",
-                "hide_for_members_label": "",
-                "hide_for_members_help": "",
-                "script_url_label": "",
-                "script_url_help": ""
+                "widget_id_label": "Ідентифікатор віджета Asyntai",
+                "widget_id_help": "Вставте фрагмент коду з панелі Asyntai або лише ідентифікатор віджета. Залиште поле порожнім, щоб вимкнути чат. Ідентифікатор доступний на asyntai.com у розділі Setup & Integration.\n",
+                "hide_for_members_label": "Показувати лише гостям",
+                "hide_for_members_help": "Учасники, які увійшли в обліковий запис, не бачать чат.",
+                "script_url_label": "Адреса скрипту (необов’язково)",
+                "script_url_help": "Залиште поле порожнім, щоб використовувати стандартну адресу https://widget.asyntai.com/static/js/chat-widget.js\n"
             }
         }
     }

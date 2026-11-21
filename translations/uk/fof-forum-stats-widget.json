@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "decimal_places": {
-                    "label": "",
-                    "help": ""
+                    "label": "Знаків після коми",
+                    "help": "Кількість знаків після коми для великих чисел (0-2)."
                 }
             }
         },
         "forum": {
             "widget": {
                 "stats": {
-                    "comment_post_count": "",
-                    "discussion_count": "",
-                    "user_count": ""
+                    "comment_post_count": "Дописи",
+                    "discussion_count": "Обговорення",
+                    "user_count": "Користувачі"
                 },
-                "title": ""
+                "title": "Статистика форуму"
             }
         }
     }

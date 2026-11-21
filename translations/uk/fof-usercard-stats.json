@@ -2,8 +2,8 @@
     "fof-usercard-stats": {
         "forum": {
             "user": {
-                "discussion-count": "",
-                "post-count": ""
+                "discussion-count": "{count, plural, one {Обговорень: {count}} other {Обговорень: {count}}}",
+                "post-count": "{count, plural, one {Дописів: {count}} other {Дописів: {count}}}"
             }
         }
     }

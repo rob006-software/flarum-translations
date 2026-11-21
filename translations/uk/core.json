@@ -28,10 +28,10 @@
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
-                "default_language_heading": "Мова за налаштуванням",
+                "default_language_heading": "Мова за замовчуванням",
                 "description": "Додайте назву форуму, мову та інші базові налаштування.",
                 "display_name_heading": "Показувати ім'я користувача",
-                "display_name_text": "Оберіть драйвер, який слід використовувати для показу імен користувачів. За налаштуванням показується ім'я користувача.",
+                "display_name_text": "Оберіть драйвер, який слід використовувати для показу імен користувачів. За замовчуванням показується ім'я користувача.",
                 "forum_description_heading": "Опис форуму",
                 "forum_description_text": "Введіть короткий опис спільноти. Опис з'явиться в meta-тегу і буде відображатися в пошукових системах.",
                 "forum_title_heading": "Назва форуму",
@@ -43,12 +43,12 @@
                 "title": "Налаштування",
                 "welcome_banner_heading": "Банер вітання",
                 "welcome_banner_text": "Введіть текст, який буде відображатися на всіх сторінках форуму. Використовуйте цей елемент для того, щоб вітати гостей форуму.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Розширення, які більше не підтримуються",
+                "abandoned_extensions_text": "Flarum веде <a>спільнотний список розширень, які більше не підтримуються</a>. Якщо встановлене розширення потрапить до списку, його буде позначено в панелі адміністратора.",
+                "abandoned_extensions_sync_button": "Перевірити зараз",
+                "abandoned_extensions_sync_success": "Список розширень, які більше не підтримуються, оновлено. Збігів зі встановленими розширеннями: {count}.",
+                "abandoned_extensions_sync_error": "Не вдалося отримати список розширень, які більше не підтримуються. Спробуйте пізніше.",
+                "abandoned_extensions_notify_admins_label": "Сповіщати адміністраторів електронною поштою, якщо щотижнева перевірка виявить нове розширення, підтримку якого припинено"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -61,7 +61,7 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "{count, plural, one {# коментар} other {# коментарі}}",
+                "comments_label": "{count, plural, one {# коментар} few {# коментарі} many {# коментарів} other {# коментаря}}",
                 "description": "Останні новини та оголошення від команди Flarum.",
                 "empty": "Оголошень не знайдено.",
                 "load_error": "Не вдалося завантажити оголошення. Спробуйте ще раз пізніше.",
@@ -199,10 +199,10 @@
                 "categories": {
                     "authentication": "Автентифікація",
                     "core": "Основна конфігурація",
-                    "discussion": "Дискусія",
+                    "discussion": "Обговорення",
                     "feature": "Особливості",
                     "formatting": "Форматування",
-                    "forum-widget": "",
+                    "forum-widget": "Віджети форуму",
                     "language": "Мови",
                     "moderation": "Модерація",
                     "other": "Інші розширення",
@@ -224,8 +224,8 @@
                 "allow_renaming_label": "Дозволити перейменування",
                 "create_access_token_label": "Створити токен доступу",
                 "create_heading": "Створити",
-                "delete_discussions_forever_label": "Видалити дискусії назавжди",
-                "delete_discussions_label": "Видалити дискусії",
+                "delete_discussions_forever_label": "Видаляти обговорення назавжди",
+                "delete_discussions_label": "Видаляти обговорення",
                 "delete_posts_forever_label": "Видалити допис назавжди",
                 "delete_posts_label": "Видалити дописи",
                 "description": "Налаштуйте, хто може бачити та щось робити.",
@@ -241,13 +241,13 @@
                 "post_without_throttle_label": "Відповідайте кілька разів без очікування",
                 "read_heading": "Читати",
                 "remove_scope_label": "Видалити область дії {scope}",
-                "rename_discussions_label": "Перейменовувати дискусії",
-                "reply_to_discussions_label": "Відповідати в дискусіях",
+                "rename_discussions_label": "Перейменовувати обговорення",
+                "reply_to_discussions_label": "Відповідати в обговореннях",
                 "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "Реєстрація",
-                "start_discussions_label": "Почати дискусії",
+                "start_discussions_label": "Розпочинати обговорення",
                 "title": "Дозволи",
-                "view_forum_label": "Перегляд форуму (дискусії та користувачів)",
+                "view_forum_label": "Переглядати форум (обговорення та користувачів)",
                 "view_hidden_groups_label": "Перегляд прихованих бейджів груп",
                 "view_last_seen_at_label": "Завжди переглядати час останнього відвідування користувача",
                 "view_post_ips_label": "Переглядати IP-адреси"
@@ -255,7 +255,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "Необмежено",
                 "allow_never_button": "=> core.ref.never",
-                "allow_some_minutes_button": "{count, plural, one {На # хвилину} other {На # хвилин}}",
+                "allow_some_minutes_button": "{count, plural, one {На # хвилину} few {На # хвилини} many {На # хвилин} other {На # хвилини}}",
                 "allow_ten_minutes_button": "На 10 хвилин",
                 "allow_until_reply_button": "До наступної відповіді",
                 "everyone_button": "Усі",
@@ -333,7 +333,7 @@
             },
             "change_password": {
                 "send_button": "Надіслати пароль на електронну пошту",
-                "text": "Натисніть на кнопку нижче для відправки посилання для зміни пароля на вашу електронну адресу.",
+                "text": "Натисніть кнопку нижче та перевірте електронну пошту: ви отримаєте посилання для зміни пароля.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -345,10 +345,10 @@
             },
             "composer_discussion": {
                 "body_placeholder": "Додати допис...",
-                "discard_confirmation": "Ви не створили дискусію. Ви бажаєте скасувати створення дискусії?",
+                "discard_confirmation": "Ви ще не опублікували обговорення. Скасувати його створення?",
                 "submit_button": "Надіслати",
                 "title": "=> core.ref.start_a_discussion",
-                "title_placeholder": "Заголовок дискусії"
+                "title_placeholder": "Заголовок обговорення"
             },
             "composer_edit": {
                 "discard_confirmation": "Ви не зберегли зміни. Ви бажаєте відмовитися від них?",
@@ -366,23 +366,23 @@
             },
             "discussion_controls": {
                 "cannot_reply_button": "Відповідь відсутня",
-                "cannot_reply_text": "У вас немає прав доступу для публікації відповіді в цій дискусії.",
+                "cannot_reply_text": "У вас немає дозволу відповідати в цьому обговоренні.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Ви впевнені, що бажаєте видалити дискусію?",
+                "delete_confirmation": "Ви впевнені, що бажаєте видалити обговорення?",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "Увійти для відповіді",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Перемкнути спадне меню дій дискусії"
+                "toggle_dropdown_accessible_label": "Відкрити або закрити спадне меню дій обговорення"
             },
             "discussion_list": {
-                "empty_text": "Складається враження, що тут немає ніяких дискусій.",
+                "empty_text": "Схоже, тут ще немає обговорень.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "Відповідь від {username} {ago}",
                 "started_text": "Створено {username} {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# відповідь} other {# відповіді}}",
-                "unread_replies_a11y_label": "{count, plural, one {# непрочитана відповідь} other {# непрочитані відповіді}}. Позначити {count, plural, one {непрочитану відповідь як прочитану} other {непрочитані відповіді як прочитані}}."
+                "total_replies_a11y_label": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}",
+                "unread_replies_a11y_label": "{count, plural, one {# непрочитана відповідь} few {# непрочитані відповіді} many {# непрочитаних відповідей} other {# непрочитаної відповіді}}. Позначити {count, plural, =1 {непрочитану відповідь як прочитану} one {непрочитані відповіді як прочитані} other {непрочитані відповіді як прочитані}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -395,7 +395,7 @@
             },
             "header": {
                 "admin_button": "Адміністрування",
-                "back_to_index_tooltip": "Назад до списку дискусій",
+                "back_to_index_tooltip": "Назад до списку обговорень",
                 "locale_dropdown_accessible_label": "Змінити локаль форуму",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
@@ -409,8 +409,8 @@
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
-                "cannot_start_discussion_button": "Неможливо створити дискусію",
-                "mark_all_as_read_confirmation": "Ви впевнені, що бажаєте позначити всі дискусії як прочитані?",
+                "cannot_start_discussion_button": "Неможливо створити обговорення",
+                "mark_all_as_read_confirmation": "Ви впевнені, що бажаєте позначити всі обговорення як прочитані?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Оновити",
@@ -464,7 +464,7 @@
                 "now_link": "Зараз",
                 "original_post_link": "Оригінальний допис",
                 "unread_text": "{count} не прочитано",
-                "viewing_text": "{count, plural, one {{index} з {formattedCount} допис} other {{index} з {formattedCount} дописів}}"
+                "viewing_text": "{count, plural, one {Допис {index} із {formattedCount}} other {Допис {index} із {formattedCount}}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Старий заголовок був: «{old}»",
@@ -475,7 +475,7 @@
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
-                "title": "Перейменувати дискусію"
+                "title": "Перейменувати обговорення"
             },
             "search": {
                 "all_discussions_button": "Пошук за запитом: «{query}»",
@@ -506,7 +506,7 @@
                 "revoke_access_token": "Відкликати",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Активні сесії",
-                "session_terminated": "{count, plural, one {Сесія завершена} other {# Сесії завершено}}.",
+                "session_terminated": "{count, plural, =1 {Сесію завершено} one {Завершено # сесію} few {Завершено # сесії} many {Завершено # сесій} other {Завершено # сесії}}.",
                 "session_termination_failed": "Під час завершення сеансів сталася помилка.",
                 "show_access_token": "Переглянути токен",
                 "terminate_all_other_sessions": "Завершити всі інші сесії",
@@ -525,7 +525,7 @@
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Веб",
-                "notify_discussion_renamed_label": "Хтось перейменував мою дискусію",
+                "notify_discussion_renamed_label": "Хтось перейменував моє обговорення",
                 "privacy_disclose_online_label": "Показувати іншим мій онлайн-статус",
                 "privacy_heading": "Конфіденційність",
                 "title": "=> core.ref.settings"
@@ -573,7 +573,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "З’єднання відновлено.",
             "debug_button": "Налагодження",
             "alert": {
                 "dismiss_a11y_label": "Відбій тривоги"
@@ -608,9 +608,9 @@
                 "generic_message": "Ой! Будь ласка, оновіть сторінку та спробуйте ще раз.",
                 "generic_cross_origin_message": "Ой! Щось пішло не так під час перехресного запиту на походження. Будь ласка, перезавантажте сторінку і спробуйте ще раз.",
                 "missing_dependencies_message": "Неможливо ввімкнути {extension}, доки не ввімкнемо такі залежності: {extensions}",
-                "network_message": "",
+                "network_message": "Схоже, виникла проблема зі з’єднанням. Перевірте мережу та спробуйте ще раз.",
                 "not_found_message": "Ресурс не знайдено.",
-                "offline_message": "",
+                "offline_message": "Схоже, немає з’єднання з мережею. Перевірте підключення та спробуйте ще раз.",
                 "payload_too_large_message": "Корисне навантаження запиту було занадто великим.",
                 "permission_denied_message": "У вас немає прав доступу для виконання цієї дії.",
                 "rate_limit_exceeded_message": "Ви рухаєтесь занадто швидко. Будь ласка, спробуйте ще раз через кілька секунд.",
@@ -731,14 +731,14 @@
                 "body": "Привіт {username}!\n\nЦе тестове повідомлення того, що електронна пошта Flarum налаштована.\n\nЯкщо це були ви, цей електронний лист означає, що ваша конфігурація працює!\n\nЯкщо це були не ви, проігноруйте цей електронний лист.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Потрібна дія: виявлено розширення, які більше не підтримуються",
                 "body": "",
                 "line_with_replacement": "",
                 "line_no_replacement": ""
             }
         },
         "ref": {
-            "all_discussions": "Всі дискусії",
+            "all_discussions": "Усі обговорення",
             "change_email": "Змінити адресу електронної пошти",
             "change_password": "Змінити пароль",
             "color": "Колір",
@@ -751,7 +751,7 @@
             "custom_header_title": "Редагувати користувацьку шапку",
             "delete": "Видалити",
             "delete_forever": "Видалити назавжди",
-            "discussions": "Дискусії",
+            "discussions": "Обговорення",
             "edit": "Редагувати",
             "edit_user": "Редагувати користувача",
             "email": "Електронна пошта",
@@ -783,7 +783,7 @@
             "settings": "Налаштування",
             "sign_up": "Реєстрація",
             "some_others": "{count, plural, one {# іншому} other {# іншим}}",
-            "start_a_discussion": "Розпочати дискусію",
+            "start_a_discussion": "Розпочати обговорення",
             "username": "Ім'я користувача",
             "users": "Користувачі",
             "view": "Перегляд",

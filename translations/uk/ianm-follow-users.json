@@ -17,12 +17,12 @@
             },
             "settings": {
                 "button-on-profile-label": "Показувати кнопку \"Підписатися\" безпосередньо в шапці профілю користувача",
-                "stats-on-profile-label": "Показувати кількість підписників і фоловерів у профілях користувачів"
+                "stats-on-profile-label": "Показувати в профілях кількість підписників і користувачів, за якими вони стежать"
             }
         },
         "forum": {
             "followed": "Слідкували",
-            "followers": "{count, plural, one {Послідовник} other {Послідовники}}",
+            "followers": "{count, plural, one {Підписник} few {Підписники} many {Підписників} other {Підписника}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "followers_link": "Підписники",
             "profile_page": {
@@ -37,8 +37,8 @@
             "settings": {
                 "notify_new_follower_label": "Хтось слідкує за мною",
                 "notify_new_unfollower_label": "Хтось перестає за мною слідкувати",
-                "notify_new_discussion_label": "Хтось, за ким я стежу, починає дискусію",
-                "notify_new_post_label": "Хтось, за ким я стежу, пише в існуючій дискусії",
+                "notify_new_discussion_label": "Хтось, за ким я стежу, починає обговорення",
+                "notify_new_post_label": "Хтось, за ким я стежу, пише в наявному обговоренні",
                 "block_follow": "Заборонити користувачам стежити за мною"
             },
             "index": {
@@ -46,19 +46,19 @@
                 "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "{username} підписався",
-                "new_post_text": "{username} написав допис в дискусії",
-                "new_follower_text": "{username} слідкував за тобою",
-                "new_unfollower_text": "{username} припинив слідкувати за тобою"
+                "new_discussion_text": "Користувач {username} розпочав обговорення",
+                "new_post_text": "Користувач {username} написав допис в обговоренні",
+                "new_follower_text": "Користувач {username} почав стежити за вами",
+                "new_unfollower_text": "Користувач {username} припинив стежити за вами"
             },
             "badge": {
                 "label": {
-                    "follow": "Дискусії які відстежуються",
+                    "follow": "Обговорення, за якими ви стежите",
                     "lurk": "Відстежуються всі"
                 }
             },
             "filter": {
-                "following": "Користувачі для відстежування"
+                "following": "Користувачі, за якими ви стежите"
             },
             "modals": {
                 "select_follow_level": {
@@ -85,18 +85,18 @@
             "following_link": "Підписані користувачі",
             "follow": "Підписатися",
             "change_follow_type": "Змінити тип відстеження",
-            "unfollow": "Відмінити",
+            "unfollow": "Припинити стежити",
             "follow_levels": {
                 "unfollow": {
                     "name": "Не підписуватися",
                     "description": "Не отримувати сповіщення про активність <em>{username}</em>\n"
                 },
                 "follow": {
-                    "name": "Відстеження дискусій",
+                    "name": "Відстеження обговорень",
                     "description": "Отримувати сповіщення, коли <em>{username}</em> починає нове обговорення.\n"
                 },
                 "lurk": {
-                    "name": "Слідкуйте за усіма",
+                    "name": "Стежити за всією активністю",
                     "description": "Отримувати сповіщення, коли <em>{username}</em> починає нове обговорення або пише в будь-якому обговоренні.\n"
                 }
             }

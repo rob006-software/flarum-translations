@@ -2,56 +2,56 @@
     "shebaoting-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "initialmoney": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": "",
+                "title": "Налаштування",
+                "initialmoney": "Початкові бали для нових користувачів",
+                "moneyforpost": "Гроші за новий допис",
+                "moneyfordiscussion": "Гроші за нове обговорення",
+                "moneyname": "Назва валюти (наприклад, балів: [money])",
+                "postminimumlength": "Мінімальна довжина допису для нарахування балів (0 — вимкнути)",
+                "noshowzero": "Не показувати, якщо значення дорівнює нулю",
+                "autoremove": "Автоматично оновлювати кошти",
+                "moneyforlike": "Гроші за вподобаний допис",
+                "helpextensionlikes": "Необхідне розширення <code>flarum/likes</code>",
                 "extra_char_threshold": "",
-                "extra_char_threshold_help": "",
+                "extra_char_threshold_help": "Мінімальна кількість символів до зміни балів за довжину допису.",
                 "extra_char_increment": "",
-                "extra_char_increment_help": "",
+                "extra_char_increment_help": "За кожні X символів понад поріг кількість балів змінюватиметься.",
                 "extra_char_points": "",
-                "extra_char_points_help": ""
+                "extra_char_points_help": "Скільки балів додавати або списувати за кожен крок."
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Редагувати кошти"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Ніколи не знімати кошти",
+                "Коли обговорення/допис приховано або відновлено (за замовчуванням)",
+                "Коли обговорення/допис видаляється"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Кошти",
+                "action_name": "Переказати бали"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Редагувати кошти"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Кошти користувача {username}",
+                "current": "Поточний:",
+                "submit_button": "=> core.ref.save_changes"
             },
-            "log_time": "",
-            "log_type": "",
-            "log_amount": "",
-            "log_balance": "",
-            "log_description": "",
-            "log_type_deposit": "",
-            "log_type_withdrawal": "",
-            "log_type_transfer": "",
-            "log_type_reward": "",
-            "no_money_logs": "",
-            "load_more": "",
+            "log_time": "Час",
+            "log_type": "Тип",
+            "log_amount": "Сума",
+            "log_balance": "Баланс",
+            "log_description": "Опис",
+            "log_type_deposit": "Поповнення",
+            "log_type_withdrawal": "Списання",
+            "log_type_transfer": "Переказ",
+            "log_type_reward": "Винагорода",
+            "no_money_logs": "Записів про зміни балансу немає",
+            "load_more": "Завантажити ще",
             "logs_description": {
                 "created_discussion": "",
                 "created_reply": "",
@@ -60,45 +60,45 @@
                 "liked_by": "",
                 "unliked_post": "",
                 "unliked_by": "",
-                "initial_registration": "",
-                "admin_updated": "",
+                "initial_registration": "Отримано початкові бали за реєстрацію.",
+                "admin_updated": "Адміністратор змінив кількість балів на {amount}.",
                 "discussion_started": "",
                 "discussion_restored": "",
                 "discussion_hidden": "",
                 "discussion_deleted": "",
                 "posted_reply": "",
-                "extra_characters": "",
-                "no_permission": ""
+                "extra_characters": "Вміст перевищив поріг на {extra_chars} симв. Балів: {points} ({action}).",
+                "no_permission": "У вас немає дозволу переглядати історію балів інших користувачів."
             },
             "logs_type": {
-                "discussion_started": "",
-                "post_created": "",
-                "post_restored": "",
-                "post_hidden": "",
-                "post_deleted": "",
-                "discussion_restored": "",
-                "discussion_hidden": "",
-                "discussion_deleted": "",
-                "liked": "",
-                "liked_by_others": "",
-                "admin_updated": "",
-                "registration": "",
-                "discussion_replied": ""
+                "discussion_started": "Початок обговорення",
+                "post_created": "Створення допису",
+                "post_restored": "Відновлення допису",
+                "post_hidden": "Приховування допису",
+                "post_deleted": "Видалення допису",
+                "discussion_restored": "Відновлення обговорення",
+                "discussion_hidden": "Приховування обговорення",
+                "discussion_deleted": "Видалення обговорення",
+                "liked": "Уподобання допису",
+                "liked_by_others": "Уподобання допису іншим користувачем",
+                "admin_updated": "Зміна адміністратором",
+                "registration": "Бонус за реєстрацію",
+                "discussion_replied": "Відповідь в обговоренні"
             },
             "point_log": {
-                "title": "",
-                "link": "",
-                "empty_text": "",
+                "title": "Історія змін балансу",
+                "link": "Історія балів",
+                "empty_text": "Записів про зміни балансу не знайдено.",
                 "table": {
                     "headers": {
-                        "date": "",
-                        "amount": "",
-                        "balance": "",
-                        "reason": ""
+                        "date": "Дата",
+                        "amount": "Сума",
+                        "balance": "Баланс",
+                        "reason": "Причина"
                     }
                 },
-                "load_more": "",
-                "no_permission": ""
+                "load_more": "Завантажити ще",
+                "no_permission": "У вас немає дозволу переглядати історію балів інших користувачів."
             }
         }
     }

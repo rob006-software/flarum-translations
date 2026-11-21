@@ -1,89 +1,89 @@
 {
     "shebaoting-dependency-collector": {
         "forum": {
-            "nav_title": "",
+            "nav_title": "Залежності",
             "list": {
-                "submit_button": "",
+                "submit_button": "Подати залежність",
                 "filter_by_tag": "",
                 "all_tags": "",
-                "empty_text": "",
-                "my_favorites_button": ""
+                "empty_text": "Залежностей не знайдено.",
+                "my_favorites_button": "Моє обране"
             },
             "item": {
-                "pending_approval": "",
-                "delete_button_label": "",
-                "delete_confirmation_title": "",
-                "delete_confirmation_text": "",
-                "favorite_button_label": "",
-                "unfavorite_button_label": ""
+                "pending_approval": "Очікує схвалення",
+                "delete_button_label": "Видалити",
+                "delete_confirmation_title": "Видалення залежності",
+                "delete_confirmation_text": "Видалити цю залежність? Цю дію неможливо скасувати.",
+                "favorite_button_label": "Додати до обраного",
+                "unfavorite_button_label": "Вилучити з обраного"
             },
             "modal": {
-                "submit_title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "link_label": "",
-                "description_label": "",
-                "description_placeholder": "",
+                "submit_title": "Подати нову залежність",
+                "title_label": "Заголовок",
+                "title_placeholder": "Наприклад: Awesome Library",
+                "link_label": "Посилання",
+                "description_label": "Опис",
+                "description_placeholder": "Коротко опишіть, що робить ця залежність.",
                 "tags_label": "",
                 "tags_help": "",
-                "submit_button": ""
+                "submit_button": "Надіслати"
             }
         },
         "admin": {
             "nav": {
-                "title": "",
+                "title": "Dependency Collector",
                 "description": ""
             },
             "page": {
-                "pending_items_title": "",
-                "no_pending_items": "",
-                "approved_items_title": "",
-                "no_approved_items": "",
+                "pending_items_title": "Залежності на розгляді",
+                "no_pending_items": "Немає залежностей, які очікують розгляду.",
+                "approved_items_title": "Схвалені залежності",
+                "no_approved_items": "Схвалених залежностей ще немає.",
                 "manage_tags_title": "",
                 "no_plugin_tags": ""
             },
             "table": {
-                "title": "",
-                "submitted_by": "",
-                "submitted_at": "",
-                "approved_by": "",
-                "approved_at": "",
+                "title": "Заголовок",
+                "submitted_by": "Хто подав",
+                "submitted_at": "Дата подання",
+                "approved_by": "Хто схвалив",
+                "approved_at": "Дата схвалення",
                 "tags": "",
                 "tag_name": "",
-                "tag_slug": "",
-                "tag_color_icon": "",
-                "tag_item_count": "",
-                "actions": "",
-                "tag_color": "",
-                "tag_icon": ""
+                "tag_slug": "Ідентифікатор у посиланні",
+                "tag_color_icon": "Колір і піктограма",
+                "tag_item_count": "Елементи",
+                "actions": "Дії",
+                "tag_color": "Колір",
+                "tag_icon": "Значок"
             },
             "actions": {
                 "create_tag": "",
-                "approve": "",
-                "reject": ""
+                "approve": "Схвалити",
+                "reject": "Відхилити"
             },
             "confirm": {
-                "approve": "",
-                "reject": "",
-                "delete": "",
+                "approve": "Схвалити залежність",
+                "reject": "Відхилити залежність",
+                "delete": "Видалити залежність",
                 "delete_tag": ""
             },
             "modal": {
                 "edit_tag_title": "",
                 "create_tag_title": "",
-                "tag_name_label": "",
-                "tag_slug_label": "",
-                "tag_description_label": "",
-                "tag_color_label": "",
-                "tag_icon_label": "",
-                "tag_icon_help": ""
+                "tag_name_label": "Назва",
+                "tag_slug_label": "Ідентифікатор у посиланні",
+                "tag_description_label": "Опис (необов’язково)",
+                "tag_color_label": "Колір (наприклад,",
+                "tag_icon_label": "Піктограма (наприклад, fas fa-code)",
+                "tag_icon_help": "Знайдіть піктограми в <a>Font Awesome</a>."
             },
             "permissions": {
-                "submit_label": "",
-                "moderate_label": "",
+                "submit_label": "Подавати залежності",
+                "moderate_label": "Модерувати залежності (схвалювати, відхиляти, редагувати й видаляти)",
                 "manage_tags_label": "",
-                "delete_label": "",
-                "favorite_items_label": ""
+                "delete_label": "Видаляти залежності",
+                "favorite_items_label": "Додавати залежності до обраного"
             }
         }
     }

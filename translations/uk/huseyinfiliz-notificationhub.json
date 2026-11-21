@@ -2,87 +2,87 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Типи сповіщень"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "Надсилати сповіщення всім користувачам",
+                "send_user": "Надсилати сповіщення окремим користувачам"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.group"
             },
             "modal_notification": {
-                "recipients_placeholder": ""
+                "recipients_placeholder": "=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "Додати тип сповіщень",
+                "no_data": "Типів сповіщень ще немає.",
+                "delete_confirm": "Видалити цей тип сповіщень і всі пов’язані з ним сповіщення?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": "",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "actions": "Дії",
+                    "name": "Назва типу сповіщень",
+                    "excerpt_key": "Типовий уривок",
+                    "description": "Опис типу сповіщень",
+                    "icon": "Типова піктограма",
+                    "default_message_key": "Типове повідомлення",
+                    "permission": "Дозвіл для типу сповіщень",
+                    "color": "Колір типу сповіщень",
+                    "default_url": "Типове посилання",
+                    "default_recipients": "Типові одержувачі",
+                    "sort_order": "Порядок сортування",
+                    "active": "Активний",
+                    "color_invalid": "Укажіть колір у шістнадцятковому форматі, наприклад #ff0000 або #f00.",
+                    "preview": "Попередній перегляд",
+                    "preview_placeholder": "Назва типу сповіщень",
+                    "permission_help": "Виберіть групи учасників, які можуть надсилати це сповіщення. Якщо залишити поле порожнім, його зможуть надсилати всі модератори й адміністратори з відповідним дозволом.",
+                    "permission_placeholder": "Введіть назву групи…"
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "Зберегти",
+                "edit_notification_type": "Редагування типу сповіщень",
+                "add_notification_type": "Додавання типу сповіщень"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "Надіслати сповіщення",
+                "notification_all": "Надіслати сповіщення"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": "",
-                "preview_all_members": ""
+                "title_text": "Надсилання сповіщення",
+                "recipients_label": "Одержувачі",
+                "recipients_placeholder": "Введіть ім’я користувача або назву групи…",
+                "message_label": "Повідомлення",
+                "url_label": "Цільове посилання",
+                "url_placeholder": "https://www.example.com",
+                "submit_button": "Надіслати сповіщення",
+                "notification_sent_message": "Сповіщення надіслано. Кількість одержувачів — {recipientsCount}.",
+                "notification_type_label": "Тип сповіщень",
+                "no_notification_types": "Активних типів сповіщень не знайдено.",
+                "preview_title": "Попередній перегляд сповіщення",
+                "preview_message_placeholder": "Текст сповіщення…",
+                "preview_all_members": "Усі учасники"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "Користувач",
+                "group": "Група"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": "",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": "",
-            "sort_order_invalid": "",
-            "field_too_long": "",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "message_required": "Введіть повідомлення.",
+            "user_ids_required": "Укажіть ідентифікатори користувачів.",
+            "subject_id_required": "Виберіть тип сповіщень.",
+            "no_valid_recipients": "Не знайдено жодного допустимого одержувача.",
+            "name_required": "Укажіть назву типу сповіщень.",
+            "invalid_url": "Неприпустимий протокол URL.",
+            "name_too_long": "Назва може містити до 255 символів.",
+            "message_too_long": "Повідомлення може містити до 5000 символів.",
+            "url_too_long": "URL може містити до 2048 символів.",
+            "invalid_url_scheme": "Неприпустима схема URL. Дозволено лише HTTP, HTTPS, mailto, tel або відносні посилання.",
+            "sort_order_invalid": "Порядок сортування має бути невід’ємним числом.",
+            "field_too_long": "Значення в цьому полі надто довге.",
+            "invalid_color": "Укажіть колір у шістнадцятковому форматі (наприклад, #ff0000 або #f00).",
+            "multiple_recipients_not_allowed": "У вас немає дозволу надсилати сповіщення кільком одержувачам одночасно."
         }
     }
 }

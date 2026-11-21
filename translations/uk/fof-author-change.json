@@ -2,30 +2,30 @@
     "fof-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Змінити автора й дату"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "Змінити автора й дату допису",
+                "title-discussion": "Змінити автора й дату обговорення",
+                "user": "Автор",
+                "created_at": "Час створення",
+                "edited_at": "Час редагування",
+                "sync-with-discussion": "Синхронізувати з обговоренням",
+                "sync-with-post": "Синхронізувати з першим дописом",
+                "sync-impossible": "Не вдалося знайти перший допис. Спробуйте прокрутити до початку обговорення.",
+                "submit": "Зберегти",
+                "cancel": "Скасувати"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Пошук користувачів",
+                "type-more": "Введіть 3 символи для пошуку в базі даних",
+                "no-results": "Результати відсутні"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Змінювати автора обговорень і дописів",
+                "edit-date": "Змінювати дату обговорень і дописів"
             }
         }
     }

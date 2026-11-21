@@ -2,50 +2,50 @@
     "prm-messages": {
         "admin": {
             "permissions": {
-                "start_label": ""
+                "start_label": "Надсилати приватні повідомлення"
             },
             "settings": {
-                "public_chat_label": "",
-                "public_chat_help": ""
+                "public_chat_label": "Публічний чат",
+                "public_chat_help": "Якщо ввімкнено, учасники можуть спілкуватися в спільному чаті. Якщо вимкнено, сторінку й пункт меню приховано."
             }
         },
         "forum": {
-            "header": "",
-            "title": "",
-            "empty": "",
-            "compose": "",
-            "search_user": "",
-            "search_placeholder": "",
-            "no_users": "",
-            "to": "",
-            "subject": "",
-            "subject_placeholder": "",
-            "message": "",
-            "send": "",
-            "sending": "",
-            "sent": "",
-            "back": "",
-            "hide": "",
-            "hide_confirm": "",
-            "you": "",
-            "type_placeholder": "",
-            "unread": "",
+            "header": "Повідомлення",
+            "title": "Приватні повідомлення",
+            "empty": "У вас ще немає приватних повідомлень.",
+            "compose": "Нове повідомлення",
+            "search_user": "Шукати користувачів",
+            "search_placeholder": "Введіть ім’я користувача…",
+            "no_users": "Користувачів не знайдено.",
+            "to": "Кому",
+            "subject": "Тема",
+            "subject_placeholder": "Наприклад, «Щодо оплати» (необов’язково)",
+            "message": "Повідомлення",
+            "send": "Надіслати",
+            "sending": "Надсилання…",
+            "sent": "Повідомлення надіслано.",
+            "back": "Вхідні",
+            "hide": "Приховати розмову",
+            "hide_confirm": "Розмова зникне з ваших вхідних. Співрозмовник і далі зможе її бачити.",
+            "you": "Ви",
+            "type_placeholder": "Напишіть повідомлення… (Enter — надіслати)",
+            "unread": "Непрочитані",
             "user_controls": {
-                "message": ""
+                "message": "Надіслати повідомлення"
             },
             "chat": {
-                "header": "",
-                "title": "",
-                "intro": "",
-                "empty": "",
-                "placeholder": "",
-                "login": "",
-                "disabled": "",
-                "delete": ""
+                "header": "Чат",
+                "title": "Публічний чат",
+                "intro": "Спільний чат, у якому можуть писати всі учасники.",
+                "empty": "Повідомлень ще немає. Напишіть перше.",
+                "placeholder": "Напишіть усім… (Enter — надіслати)",
+                "login": "Увійдіть, щоб писати в чаті.",
+                "disabled": "Публічний чат вимкнено.",
+                "delete": "Видалити"
             },
             "notifications": {
-                "received": "",
-                "notify_label": ""
+                "received": "Ви отримали повідомлення від користувача {username}",
+                "notify_label": "Мені надійшло приватне повідомлення"
             }
         }
     }

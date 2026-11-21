@@ -1,31 +1,31 @@
 {
     "quasimo-tag-sidebar": {
         "forum": {
-            "edit_button": "",
-            "modal_title": "",
-            "sidebar_label": "",
-            "sidebar_label_html": "",
-            "sidebar_placeholder": "",
-            "sidebar_placeholder_html": "",
-            "save_button": "",
-            "cancel_button": "",
-            "sidebar_empty": ""
+            "edit_button": "Редагувати бічну панель",
+            "modal_title": "Редагування бічної панелі: {tag}",
+            "sidebar_label": "Вміст бічної панелі (Markdown)",
+            "sidebar_label_html": "Вміст бічної панелі (HTML)",
+            "sidebar_placeholder": "Введіть вміст бічної панелі у форматі Markdown...\n\n## Посилання\n- [Приклад](https://example.com)\n\nПідтримуються **жирний текст**, *курсив* і зображення ![опис](https://example.com/image.png).",
+            "sidebar_placeholder_html": "Введіть вміст бічної панелі у форматі HTML...\n\n<h2>Посилання</h2>\n<p><a href=\"https://example.com\">Приклад</a></p>\n<img src=\"https://example.com/image.png\" alt=\"example\">",
+            "save_button": "Зберегти",
+            "cancel_button": "Скасувати",
+            "sidebar_empty": "(Бічна панель поки порожня)"
         },
         "admin": {
-            "instructions_title": "",
-            "instruction_1": "",
-            "instruction_2": "",
-            "instruction_3": "",
-            "instruction_4": "",
-            "setting_position": "",
-            "setting_position_help": "",
-            "position_left": "",
-            "position_right": "",
-            "setting_content_type": "",
-            "setting_content_type_help": "",
-            "content_type_markdown": "",
-            "content_type_html": "",
-            "permission_edit_sidebar": ""
+            "instructions_title": "Як користуватися",
+            "instruction_1": "Перейдіть на сторінку будь-якого тега на форумі.",
+            "instruction_2": "Користувачі з відповідним дозволом побачать кнопку «Редагувати бічну панель».",
+            "instruction_3": "Натисніть кнопку, щоб відкрити редактор, введіть вміст і збережіть зміни.",
+            "instruction_4": "Надайте модераторам дозвіл нижче, щоб вони могли редагувати вміст бічної панелі.",
+            "setting_position": "Розташування бічної панелі (на комп’ютері)",
+            "setting_position_help": "На мобільних пристроях віджет завжди відображається під списком дописів.",
+            "position_left": "Ліворуч, після бічної навігації (типово)",
+            "position_right": "Праворуч, поруч зі списком дописів",
+            "setting_content_type": "Формат вмісту",
+            "setting_content_type_help": "Виберіть Markdown, щоб безпечно й легко оформлювати вміст. HTML дає повний контроль над оформленням. Дозвіл на його редагування слід надавати лише довіреним користувачам.",
+            "content_type_markdown": "Markdown",
+            "content_type_html": "HTML",
+            "permission_edit_sidebar": "Редагувати вміст бічної панелі тегів"
         }
     }
 }
