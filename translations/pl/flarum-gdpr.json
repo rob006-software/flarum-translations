@@ -105,25 +105,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Potwierdź chęć usunięcia konta",
-                "body": "Cześć {display_name}!\n\nKtoś (mamy nadzieję, że Ty) właśnie złożył wniosek o usunięcie konta `{display_name}`.\n\nAby potwierdzić tę operację, kliknij poniższy link. Wniosek zostanie następnie rozpatrzony przez nasz zespół.\n\n{erasure_confirm_url}\n"
+                "body": "Witaj {display_name}!\n\nKtoś (mamy nadzieję, że Ty) właśnie złożył wniosek o usunięcie konta `{display_name}`.\n\nAby potwierdzić tę operację, kliknij poniższy link. Wniosek zostanie następnie rozpatrzony przez nasz zespół.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Usuwanie konta zakończone",
-                    "body": "Cześć {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało usunięte.\n"
+                    "body": "Witaj {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało usunięte.\n"
                 },
                 "anonymization": {
                     "subject": "Anonimizacja konta zakończona",
-                    "body": "Cześć {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało zanonimizowane.\n"
+                    "body": "Witaj {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało zanonimizowane.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Wniosek o usunięcie konta został anulowany",
-                "body": "Cześć {display_name}!\n\nTo jest automatyczne powiadomienie. Twój wniosek o anulowanie usunięcia konta został przetworzony.\n\nTwoje konto nie zostanie usunięte.\n"
+                "body": "Witaj {display_name}!\n\nTo jest automatyczne powiadomienie. Twój wniosek o anulowanie usunięcia konta został przetworzony.\n\nTwoje konto nie zostanie usunięte.\n"
             },
             "export_available": {
                 "subject": "Eksport danych dostępny",
-                "body": "Cześć {display_name}!\n\nEksport danych konta dla {username} został pomyślnie wygenerowany i jest teraz dostępny:\n\n{url}\n\nEksport będzie dostępny do {destroys_at}.\n"
+                "body": "Witaj {display_name}!\n\nEksport danych konta dla {username} został pomyślnie wygenerowany i jest teraz dostępny:\n\n{url}\n\nEksport będzie dostępny do {destroys_at}.\n"
             }
         },
         "forum": {
