@@ -3,97 +3,97 @@
         "admin": {
             "create_button": "Utwórz",
             "help": {
-                "intro": "",
-                "preconnect": "",
-                "cache": "",
-                "pages": "",
-                "location": ""
+                "intro": "Dodaj własne znaczniki, które zostaną wstawione do kodu HTML forum. Elementy są zapisywane w pamięci podręcznej i wydajnie serwowane – bez zapytań do bazy danych przy wczytywaniu strony.",
+                "preconnect": "Dla znaczników link i script wskazujących na zewnętrzne domeny automatycznie generowane są wskazówki preconnect i dns-prefetch, które nawiązują połączenie, zanim przeglądarka będzie go potrzebować.",
+                "cache": "Wygenerowany kod HTML jest zapisywany w pamięci podręcznej podczas zapisywania. Zmiany działają od razu, bez czyszczenia całej pamięci podręcznej strony.",
+                "pages": "Każdy element może dotyczyć forum, panelu administracyjnego lub obu.",
+                "location": "Elementy mogą być wstawiane do sekcji head lub na końcu sekcji body."
             },
             "table": {
-                "drag_handle": "",
+                "drag_handle": "Przeciągnij, aby zmienić kolejność",
                 "description_label": "Opis",
-                "type_label": "",
-                "location_label": "",
-                "pages_label": "",
+                "type_label": "Typ",
+                "location_label": "Lokalizacja",
+                "pages_label": "Strony",
                 "active_label": "Aktywny",
                 "empty_text": "Brak elementów. Kliknij „Utwórz”, aby dodać pierwszy element sekcji head.",
                 "delete_button": "Usuń",
                 "edit_button": "Edytuj",
-                "delete_confirm": "",
+                "delete_confirm": "Czy na pewno chcesz usunąć ten element?",
                 "header_label": "Element w <code>head</code>"
             },
             "modal": {
                 "create_title": "Utwórz element sekcji head",
                 "edit_title": "Edytuj element sekcji head",
                 "description_label": "Opis",
-                "description_help": "",
-                "type_label": "",
-                "location_label": "",
-                "location_help": "",
-                "pages_label": "",
+                "description_help": "Etykieta tylko do Twojej informacji – nie jest wstawiana na stronę.",
+                "type_label": "Typ",
+                "location_label": "Wstaw do",
+                "location_help": "Head: wczytywane przed wyrenderowaniem strony, najlepsze dla stylów i kluczowych znaczników meta. Stopka: wczytywane po treści strony, najlepsze dla mniej istotnych skryptów.",
+                "pages_label": "Zastosuj do",
                 "save_button": "Zapisz",
                 "type": {
-                    "meta": "",
-                    "link": "",
-                    "script": "",
-                    "style": "",
-                    "raw": ""
+                    "meta": "Znacznik meta",
+                    "link": "Link",
+                    "script": "Skrypt",
+                    "style": "Style",
+                    "raw": "Surowy HTML"
                 },
                 "location": {
-                    "head": "",
-                    "foot": ""
+                    "head": "Head",
+                    "foot": "Stopka"
                 },
                 "pages": {
-                    "forum": "",
-                    "admin": ""
+                    "forum": "Forum",
+                    "admin": "Panel administracyjny"
                 },
                 "meta": {
-                    "variant_label": "",
-                    "name_label": "",
-                    "name_placeholder": "",
-                    "name_help": "",
-                    "property_label": "",
-                    "property_placeholder": "",
-                    "content_label": ""
+                    "variant_label": "Wariant",
+                    "name_label": "name=\"\"",
+                    "name_placeholder": "Wybierz lub wpisz nazwę",
+                    "name_help": "Elementy o nazwie description, viewport lub theme-color zastępują znacznik, który Flarum już generuje, zamiast dodawać drugi.",
+                    "property_label": "property=\"\" (Open Graph)",
+                    "property_placeholder": "Wybierz lub wpisz właściwość",
+                    "content_label": "Treść"
                 },
                 "link": {
-                    "rel_label": "",
-                    "href_label": "",
-                    "as_label": "",
-                    "as_help": "",
-                    "crossorigin_label": "",
-                    "crossorigin_help": "",
-                    "fetchpriority_label": "",
-                    "fetchpriority_default": "",
-                    "fetchpriority_help": "",
-                    "extras_label": "",
-                    "extras_add": "",
-                    "extras_remove": ""
+                    "rel_label": "rel=\"\"",
+                    "href_label": "href=\"\" (URL)",
+                    "as_label": "as=\"\"",
+                    "as_help": "Informuje przeglądarkę, jakiego typu zasób jest wczytywany z wyprzedzeniem, aby mogła ustawić prawidłowe nagłówki żądania. Wymagane dla rel=preload.",
+                    "crossorigin_label": "Dodaj crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Wymagane dla czcionek i skryptów wczytywanych z innej domeny, aby przeglądarka mogła współdzielić połączenie. Włącz tę opcję, jeśli zasób znajduje się w innej domenie.",
+                    "fetchpriority_label": "fetchpriority=\"\"",
+                    "fetchpriority_default": "domyślne ustawienie przeglądarki",
+                    "fetchpriority_help": "Wskazówka dla przeglądarki dotycząca względnego priorytetu tego zasobu. high: wczytaj wcześniej (np. główny obrazek lub kluczowy arkusz stylów). low: wczytaj później (np. zasób poniżej pierwszego ekranu). Pozostaw nieustawione, aby przeglądarka zdecydowała sama.",
+                    "extras_label": "Dodatkowe atrybuty",
+                    "extras_add": "Dodaj atrybut",
+                    "extras_remove": "Usuń"
                 },
                 "script": {
-                    "external_label": "",
-                    "inline_label": "",
-                    "src_label": "",
-                    "inline_content_label": "",
-                    "defer_label": "",
-                    "defer_help": "",
-                    "async_label": "",
-                    "async_help": "",
-                    "module_label": "",
-                    "module_help": "",
-                    "crossorigin_label": "",
-                    "crossorigin_help": ""
+                    "external_label": "Zewnętrzny (src)",
+                    "inline_label": "Wbudowany (inline)",
+                    "src_label": "src=\"\" (URL)",
+                    "inline_content_label": "Treść skryptu",
+                    "defer_label": "defer",
+                    "defer_help": "Skrypt jest uruchamiany po przetworzeniu strony, bez blokowania renderowania. Najlepsze dla większości skryptów.",
+                    "async_label": "async",
+                    "async_help": "Skrypt jest uruchamiany zaraz po pobraniu, bez zachowania kolejności. Najlepsze dla niezależnych skryptów, takich jak statystyki.",
+                    "module_label": "type=\"module\"",
+                    "module_help": "Włącz tę opcję, jeśli dokumentacja dostawcy skryptu zaleca użycie type=\"module\". Moduły są wczytywane po stronie, bez jej blokowania.",
+                    "crossorigin_label": "crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Wymagane przy wczytywaniu z innej domeny skryptów, które potrzebują dostępu CORS."
                 },
                 "style": {
-                    "inline_label": "",
-                    "inline_help": ""
+                    "inline_label": "Treść CSS",
+                    "inline_help": "Stosowane globalnie na każdej stronie, której dotyczy ten element. Używaj precyzyjnych reguł, aby uniknąć niezamierzonych skutków ubocznych."
                 },
                 "raw": {
-                    "content_label": "",
-                    "help_text": ""
+                    "content_label": "HTML",
+                    "help_text": "Wpisz surowy kod HTML. Wskazówki preconnect są automatycznie generowane dla wszystkich znaczników link i script wskazujących na inne domeny. Kolejność i przełącznik aktywności działają normalnie, ale funkcje specyficzne dla typów (fetchpriority, defer itp.) nie są dostępne – jeśli ich potrzebujesz, użyj typu strukturalnego."
                 },
-                "preview_label": "",
-                "preview_empty": "",
+                "preview_label": "Podgląd",
+                "preview_empty": "Wypełnij powyższe pola, aby zobaczyć podgląd.",
                 "text": "Upewnij się, że składnia jest prawidłowa, ponieważ możliwe jest zepsucie forum poprzez dodanie nieprawidłowych tagów w sekcji <code>head</code> forum. Po zapisaniu, włącz nowy element wykorzystując odpowiedni przełącznik.",
                 "header_label": "Niestandardowy element w <code>head</code>"
             }
