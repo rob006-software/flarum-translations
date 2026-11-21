@@ -41,7 +41,7 @@
                 "storage_configure_another": "Inne usługi przechowywania są zainstalowane, ale nie zostały jeszcze skonfigurowane. Sama konfiguracja usługi nie zmieni miejsca zapisywania plików, dopóki nie przypiszesz jej do wybranego typu plików.\n",
                 "storage_not_installed": "Szukasz Amazon S3, Cloudflare R2 lub Qiniu? Te usługi wymagają dodatkowego pakietu – zobacz <a>instalowanie adapterów pamięci masowej</a>.",
                 "local_cdn": "Opcjonalne. Jeśli udostępniasz <code>assets/files</code> przez CDN, podaj jego bazowy adres URL. Linki do przesłanych plików będą wtedy korzystać z tego adresu. Pozostaw puste, aby pliki były udostępniane bezpośrednio z forum.\n",
-                "s3_provider": "Wybór dostawcy automatycznie ustawia format endpointu, sposób adresowania oraz obsługę ACL. Jeśli Twojego dostawcy nie ma na liście, wybierz „Inny zgodny z S3”.\n",
+                "s3_provider": "Wybór dostawcy automatycznie ustawia format punktu końcowego, sposób adresowania oraz obsługę ACL. Jeśli Twojego dostawcy nie ma na liście, wybierz „Inny zgodny z S3”.\n",
                 "s3_endpoint": "Adres URL API S3 dostawcy – nie publiczny adres URL bucketu. W przypadku Amazon S3 nie trzeba go podawać.\n",
                 "s3_acl": "Stosowane do każdego przesłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n",
                 "s3_acl_unsupported": "{provider} nie obsługuje ACL. Dostęp publiczny skonfiguruj bezpośrednio w panelu dostawcy.\n",
@@ -72,7 +72,7 @@
                     "title": "Magazyn S3",
                     "provider": "Dostawca",
                     "advanced_title": "Opcje zaawansowane",
-                    "endpoint": "Endpoint",
+                    "endpoint": "Punkt końcowy",
                     "use_path_style_endpoint": "Adresowanie path-style",
                     "acl": "Access Control List (ACL)",
                     "custom_url": "Publiczny adres URL"
