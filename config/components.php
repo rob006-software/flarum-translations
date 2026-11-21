@@ -189,6 +189,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/el-choco/error-analyzer/v1.0.0/locale/en.yml',
 		'__builtInLanguages' => ['de'],
 	],
+	'el-choco-repo-sync' => [
+		'beta' => 'https://raw.githubusercontent.com/el-choco/repo-sync/v0.1.0-beta.1/locale/en.yml',
+		'__builtInLanguages' => ['de'],
+	],
 	'ernestdefoe-answers' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/answers/1.1.1/locale/en.yml',
 	],
