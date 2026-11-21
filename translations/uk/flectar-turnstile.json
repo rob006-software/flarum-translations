@@ -14,18 +14,18 @@
             "not_loaded_error": "Не вдалося завантажити Cloudflare Turnstile. Оновіть сторінку й перевірте блокувальник реклами.",
             "validation_error": "Будь ласка, виконайте завдання Turnstile.",
             "error": "Під час перевірки, що ви людина, сталася помилка. Будь ласка, спробуйте ще раз.",
-            "verifying": "",
-            "slow_error": ""
+            "verifying": "Перевіряємо, чи ви людина...",
+            "slow_error": "Перевірка Turnstile триває довше, ніж зазвичай. Спробуйте ще раз за мить."
         }
     },
     "validation": {
         "turnstile": "Ми не змогли перевірити, чи є ви роботом чи ні. Будь ласка, оновіть сторінку та спробуйте ще раз.",
         "custom": {
             "turnstileToken": {
-                "required": ""
+                "required": "Пройдіть перевірку Turnstile."
             },
             "turnstile": {
-                "required": ""
+                "required": "Пройдіть перевірку Turnstile."
             }
         }
     }
