@@ -107,7 +107,7 @@
             },
             "tag_selection_modal": {
                 "bypass_requirements": "Pomiń wymóg podania tagów",
-                "choose_primary_placeholder": "{count, plural, one {Wybierz główny tag} few {Wybierz # główne tagi} other {Wybierz # głównych tagów}}",
+                "choose_primary_placeholder": "{count, plural, one {Wybierz główny tag} few {Wybierz # główne tagi} many {Wybierz # głównych tagów} other {Wybierz # głównego tagu}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -116,7 +116,7 @@
         },
         "ref": {
             "choose_tags": "Wybierz tagi",
-            "choose_tags_placeholder": "{count, plural, one {Wybierz 1 dodatkowy tag} few {Wybierz # dodatkowe tagi} other {Wybierz # dodatkowych tagów}}",
+            "choose_tags_placeholder": "{count, plural, one {Wybierz 1 dodatkowy tag} few {Wybierz # dodatkowe tagi} many {Wybierz # dodatkowych tagów} other {Wybierz # dodatkowego tagu}}",
             "name": "Nazwa",
             "tags": "Tagi"
         }
