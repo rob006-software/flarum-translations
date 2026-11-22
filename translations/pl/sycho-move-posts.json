@@ -28,7 +28,7 @@
                 "new_discussion": "Nowa dyskusja",
                 "selected_posts": "Wybrano {count, plural, one {jeden post} few {{count} posty} many {{count} postów} other {{count} posta}}",
                 "status": {
-                    "complex_move": "Będzie to złożone przeniesienie, posty będą dodawane między postami, w skutek czego odnośniki do postów w docelowej dyskusji również mogą się zmienić.",
+                    "complex_move": "Będzie to złożone przeniesienie, posty będą dodawane między postami, wskutek czego odnośniki do postów w docelowej dyskusji również mogą się zmienić.",
                     "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
                     "simple_move": "Będzie to proste przeniesienie, posty zostaną dodane na końcu dyskusji."
                 },
@@ -36,7 +36,7 @@
                 "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": "Jeden z Twoich postów został przeniesiony do {targetDiscussionTitle}."
+                "post_moved_text": "Co najmniej jeden z Twoich postów został przeniesiony do {targetDiscussionTitle}."
             },
             "post": {
                 "unmove": "Odznacz do przeniesienia",

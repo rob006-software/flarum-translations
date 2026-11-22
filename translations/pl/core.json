@@ -41,8 +41,8 @@
                 },
                 "fontawesome": {
                     "section_label": "Ikony FontAwesome",
-                    "source_label": "Źródło ikony",
-                    "source_help": "Wybierz sposób wczytywania ikon FontAwesome. Local korzysta z dołączonych czcionek, CDN wczytuje je z CDN, a Kit korzysta z zestawów FontAwesome z niestandardowymi ikonami.",
+                    "source_label": "Źródło ikon",
+                    "source_help": "Wybierz sposób wczytywania ikon FontAwesome. Tryb lokalny korzysta z dołączonych czcionek, CDN wczytuje je z sieci CDN, a zestaw FontAwesome (Kit) korzysta z zestawów z niestandardowymi ikonami.",
                     "source_local": "Lokalny (pakiet)",
                     "source_cdn": "CDN",
                     "source_kit": "Zestaw FontAwesome",
@@ -284,7 +284,7 @@
                 "suggested_by": "Sugerowane przez {extension}"
             },
             "database-driver-mismatch-warning": {
-                "detail": "W pliku <code>config.php</code> wybrano sterownik bazy danych <code>{configured}</code>, ale Flarum wykrył, że serwer bazy danych to <code>{actual}</code>.\n\nNiewłaściwy sterownik może powodować trudne do zdiagnozowania błędy. W sekcji <code>database</code> pliku <code>config.php</code> ustaw <code>'driver' => ''{actual}''</code>. Więcej informacji znajdziesz w <link>dokumentacji Flarum</link>.\n",
+                "detail": "W pliku <code>config.php</code> wybrano sterownik bazy danych <code>{configured}</code>, ale Flarum wykryło, że serwer bazy danych to <code>{actual}</code>.\n\nNiewłaściwy sterownik może powodować trudne do zdiagnozowania błędy. W sekcji <code>database</code> pliku <code>config.php</code> ustaw <code>'driver' => ''{actual}''</code>. Więcej informacji znajdziesz w <link>dokumentacji Flarum</link>.\n",
                 "label": "Niewłaściwy sterownik bazy danych"
             },
             "database-version-warning": {
@@ -1188,7 +1188,7 @@
             "next_page": "Następna strona",
             "notifications": "Powiadomienia",
             "okay": "OK",
-            "oldest": "Najstarsze dyskusje",
+            "oldest": "Najstarsze",
             "password": "Hasło",
             "posts": "Posty",
             "previous_page": "Poprzednia strona",
