@@ -42,8 +42,8 @@
             },
             "widgets": {
                 "html": {
-                    "name": "",
-                    "title": ""
+                    "name": "HTML personalizado",
+                    "title": "Contenido personalizado"
                 },
                 "divider": {
                     "name": "Divisor / espaciador",
@@ -199,12 +199,12 @@
             "configuration": "JSON de configuración de la página de inicio",
             "apply_json": "Aplicar JSON al editor",
             "invalid_config": "Utilice versión 1, un máximo de 50 widgets, identificadores únicos y regiones y audiencias válidas.",
-            "invalid_html": "",
+            "invalid_html": "El código fuente HTML no debe superar los 50.000 caracteres.",
             "unavailable_type": "La extensión que proporciona este widget no está disponible. Se conservará su configuración.",
             "choose_fof": "Seleccione un widget FoF registrado…",
             "bridge_help": "Con la extensión opcional Friends of Flarum Widgets habilitada, las instancias nativas también aparecerán en su catálogo de widgets y podrán ubicarse en otras páginas del foro. Esta configuración solo excluye la instancia de esta página de inicio; los ajustes de visibilidad y estado activo se seguirán aplicando.",
             "fields": {
-                "html": "",
+                "html": "Código fuente HTML",
                 "dividerStyle": "Estilo de separador",
                 "height": "Altura del contenido (px)",
                 "eyebrow": "Título pequeño / antetítulo",
@@ -230,7 +230,7 @@
                 "stats": "Estadísticas"
             },
             "field_help": {
-                "html": "",
+                "html": "Introduzca un fragmento HTML de confianza (máximo 50.000 caracteres; toda la configuración tiene un límite de 128 KiB). El código se inserta tal cual, sin filtrado de seguridad ni reemplazo de variables. Tanto los estilos CSS como los atributos de eventos pueden alterar la página y comprometer su seguridad; nunca pegue código de origen dudoso ni datos confidenciales. Utilice selectores exclusivos de este widget para aplicar sus estilos. Este editor muestra únicamente el código fuente y no admite la carga de scripts mediante etiquetas <script>..",
                 "query": "Utilice la sintaxis de búsqueda de Flarum, por ejemplo tag:noticias. Para usuarios, utilice la búsqueda de usuarios admitida por su foro.",
                 "ids": "ID numéricos separados por comas o espacios; hasta 20. Si se configuran, tienen prioridad sobre la búsqueda y mantienen este orden. Se omiten los registros invisibles.",
                 "discussion_ids": "Hasta 20 ID numéricos, separados por comas o espacios. Se mostrarán al inicio en el orden especificado; los resultados de búsqueda completarán los huecos restantes sin duplicar. Se omiten los registros invisibles.",
