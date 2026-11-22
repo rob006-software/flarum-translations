@@ -5,8 +5,8 @@
             "assign_others": "No tiene permisos para asignar reportes a otros moderadores.",
             "cannot_see": "Ese miembro no puede ver este reporte, por lo que no se le puede asignar.",
             "cannot_restore": "Rechazar este reporte restaura la publicación original y usted no tiene permisos para restaurarla.",
-            "busy": "",
-            "reopen_active": ""
+            "busy": "Otro usuario está modificando este reporte en este momento. Inténtelo de nuevo en unos instantes.",
+            "reopen_active": "Esta publicación tiene un reporte abierto más reciente. Gestione ese en su lugar."
         },
         "email": {
             "assigned": {
@@ -179,8 +179,8 @@
                 "crowd_held_staff": "{people} miembros lo reportaron (suficiente para ocultarlo), pero el autor pertenece al equipo de moderación: dejado a su criterio",
                 "crowd_held_exempt": "{people} miembros lo reportaron (suficiente para ocultarlo), pero el grupo del autor está exento: dejado a su criterio",
                 "crowd_held_cooldown": "{people} miembros lo reportaron (suficiente para ocultarlo), pero fue restaurado recientemente: dejado a su criterio",
-                "merged": "",
-                "crowd_moved": "",
+                "merged": "Se fusionó con el reporte #{id}, que ya estaba abierto para la misma publicación",
+                "crowd_moved": "Se ocultó en su lugar: se desactivó la aprobación mientras la publicación esperaba ser revisada",
                 "crowd_restored": "{actor} restauró el contenido ocultado por los reportes; esto penaliza el historial de los denunciantes"
             },
             "crowd": {
