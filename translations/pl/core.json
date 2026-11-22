@@ -284,7 +284,7 @@
                 "suggested_by": "Sugerowane przez {extension}"
             },
             "database-driver-mismatch-warning": {
-                "detail": "W pliku <code>config.php</code> wybrano sterownik bazy danych <code>{configured}</code>, ale Flarum wykrył, że serwer bazy danych to <code>{actual}</code>.\n\nNiewłaściwy sterownik może powodować trudne do zdiagnozowania błędy. W sekcji <code>database</code> pliku <code>config.php</code> ustaw <code>'driver' => ''{actual}''</code>. Więcej informacji znajdziesz w <link>dokumentacji Flarum</link>.\n",
+                "detail": "W pliku <code>config.php</code> wybrano sterownik bazy danych <code>{configured}</code>, ale Flarum wykryło, że serwer bazy danych to <code>{actual}</code>.\n\nNiewłaściwy sterownik może powodować trudne do zdiagnozowania błędy. W sekcji <code>database</code> pliku <code>config.php</code> ustaw <code>'driver' => ''{actual}''</code>. Więcej informacji znajdziesz w <link>dokumentacji Flarum</link>.\n",
                 "label": "Niewłaściwy sterownik bazy danych"
             },
             "database-version-warning": {
