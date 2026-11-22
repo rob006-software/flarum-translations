@@ -28,7 +28,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {Scalono # post z {titles}.} few {Scalono # posty z {titles}.} other {Scalono # postów z {titles}.}}"
+                "merged": "{count, plural, one {Scalono # post z {titles}.} few {Scalono # posty z {titles}.} many {Scalono # postów z {titles}.} other {Scalono # posta z {titles}.}}"
             }
         },
         "admin": {

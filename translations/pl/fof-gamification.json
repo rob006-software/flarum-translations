@@ -28,7 +28,7 @@
             },
             "user": {
                 "card": {
-                    "points": "{count, plural, one {{count} punkt} few {{count} punkty} other {{count} punktów}}"
+                    "points": "{count, plural, one {{count} punkt} few {{count} punkty} many {{count} punktów} other {{count} punktu}}"
                 },
                 "rank": "{rank}",
                 "votes_link": "Głosy"

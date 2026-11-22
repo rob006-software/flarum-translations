@@ -148,7 +148,7 @@
                 "awaiting_review": "Zgłoszenia oczekujące na sprawdzenie",
                 "this_week": "{count, plural, other {# w tym tygodniu}}",
                 "vs_last_week": "W porównaniu z poprzednimi siedmioma dniami",
-                "top_reason": "Najczęściej: {reason} ({count, plural, one {# blokada} few {# blokady} other {# blokad}})",
+                "top_reason": "Najczęściej: {reason} ({count, plural, one {# blokada} few {# blokady} many {# blokad} other {# blokady}})",
                 "view_all": "Zobacz zablokowane rejestracje",
                 "failed": "Nie udało się wczytać statystyk spamu."
             },
@@ -166,7 +166,7 @@
                 "sfs-data": "Dane StopForumSpam",
                 "reasons": "Zapisane przyczyny blokady",
                 "delete_entry": "Usuń rekord",
-                "total": "{count, plural, one {# zablokowana rejestracja} few {# zablokowane rejestracje} other {# zablokowanych rejestracji}}",
+                "total": "{count, plural, one {# zablokowana rejestracja} few {# zablokowane rejestracje} many {# zablokowanych rejestracji} other {# zablokowanej rejestracji}}",
                 "filters": {
                     "placeholder": "Szukaj lub użyj filtra klucz:wartość",
                     "apply": "Zastosuj",

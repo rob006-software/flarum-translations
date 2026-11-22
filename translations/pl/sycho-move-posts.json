@@ -26,7 +26,7 @@
                 "discussion_help": "Zostaną użyte tagi dyskusji źródłowej, mogą być zmienione po utworzeniu.",
                 "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
                 "new_discussion": "Nowa dyskusja",
-                "selected_posts": "Wybrano {count, plural, one {jeden post} few {{count} posty} other {{count} postów}}",
+                "selected_posts": "Wybrano {count, plural, one {jeden post} few {{count} posty} many {{count} postów} other {{count} posta}}",
                 "status": {
                     "complex_move": "Będzie to złożone przeniesienie, posty będą dodawane między postami, w skutek czego odnośniki do postów w docelowej dyskusji również mogą się zmienić.",
                     "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
@@ -44,7 +44,7 @@
                 "moving": "Przenoszenie posta"
             },
             "post_stream": {
-                "post_moved": "{username} przeniósł {count, plural, one{post} few{{count} posty} other{{count} postów}} do {target_discussion}."
+                "post_moved": "{username} przeniósł {count, plural, one{post} few{{count} posty} many{{count} postów} other{{count} posta}} do {target_discussion}."
             }
         },
         "ref": {

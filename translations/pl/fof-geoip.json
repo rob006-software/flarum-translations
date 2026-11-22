@@ -30,7 +30,7 @@
                 "service_maxmind_description": "Sprawdzaj adresy IP w lokalnych bazach danych w formacie MaxMind (.mmdb) zamiast korzystać z zewnętrznego API. Obsługiwane są bazy GeoLite2/GeoIP2 firmy MaxMind oraz wersje Lite firmy DB-IP. Wyszukiwanie jest natychmiastowe, bez limitów, a dane nie opuszczają Twojego serwera. Pliki baz danych musisz jednak samodzielnie zainstalować i aktualizować. Przykłady znajdziesz na stronie <b>https://github.com/FriendsOfFlarum/geoip</b>.",
                 "service_forced": "Usługa sprawdzania adresów IP została ustawiona na {service} przez rozszerzenie Flarum, dlatego nie można jej tutaj zmienić.",
                 "service_unavailable": "Wybrana usługa sprawdzania adresów IP jest niedostępna, dlatego informacje o adresach IP nie są zapisywane. Jeśli korzystasz z lokalnych baz danych, sprawdź, czy poniżej podano ścieżkę do co najmniej jednej bazy i czy wskazuje ona na plik .mmdb z uprawnieniami do odczytu.",
-                "access_key_label": "Access Key",
+                "access_key_label": "Klucz dostępu",
                 "quota_label": "Limit zapytań",
                 "databases_heading": "Pliki baz danych",
                 "databases_help": "Podaj bezwzględne ścieżki do plików .mmdb. Wszystkie trzy bazy są opcjonalne i działają niezależnie od siebie. Sama baza krajów wystarczy do wyświetlania flag, baza miast udostępnia współrzędne do mapy, a baza ASN – informacje o dostawcy internetu i organizacji. Wersje Lite baz DB-IP nie zawierają kodów pocztowych, a żadna lokalna baza nie zawiera danych o zagrożeniach.",
