@@ -27,7 +27,7 @@
                 "discussion_help": "Zastosowane zostaną tagi z dyskusji źródłowej. Można je zmienić po utworzeniu nowej.",
                 "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
                 "new_discussion": "Nowa dyskusja",
-                "selected_posts": "Wybrano {count, plural, one {jeden post} few {{count} posty} other {{count} postów}}",
+                "selected_posts": "Wybrano {count, plural, one {jeden post} few {{count} posty} many {{count} postów} other {{count} posta}}",
                 "status": {
                     "complex_move": "Będzie to złożone przeniesienie. Przenoszone posty zostaną wstawione pomiędzy te już istniejące, wskutek czego stare odnośniki do postów w docelowej dyskusji również mogą ulec zmianie.",
                     "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
@@ -38,7 +38,7 @@
                 "confirm_move_all_to_new_discussion": "Zamierzasz przenieść wszystkie posty z tej dyskusji do nowej. W większości przypadków lepiej zamiast tego edytować istniejącą dyskusję, na przykład zmieniając jej tytuł, tagi lub inne atrybuty. Czy chcesz kontynuować?"
             },
             "alerts": {
-                "posts_moved_to": "{count, plural, one {Post został przeniesiony do {target_discussion}.} few {Przeniesiono {count} posty do {target_discussion}.} other {Przeniesiono {count} postów do {target_discussion}.}}",
+                "posts_moved_to": "{count, plural, one {Post został przeniesiony do {target_discussion}.} few {Przeniesiono {count} posty do {target_discussion}.} many {Przeniesiono {count} postów do {target_discussion}.} other {Przeniesiono {count} posta do {target_discussion}.}}",
                 "posts_moved": "{count, plural, one {Post został przeniesiony.} few {Przeniesiono {count} posty.} other {Przeniesiono {count} postów.}}"
             },
             "notifications": {
@@ -50,7 +50,7 @@
                 "moving": "Przenoszenie posta"
             },
             "post_stream": {
-                "post_moved": "{username} przeniósł {count, plural, one{post} few{{count} posty} other{{count} postów}} do {target_discussion}."
+                "post_moved": "{username} przeniósł {count, plural, one{post} few{{count} posty} many{{count} postów} other{{count} posta}} do {target_discussion}."
             }
         },
         "ref": {

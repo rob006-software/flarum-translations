@@ -45,7 +45,7 @@
                 "search_knowledge_base": "Przeszukaj naszą bazę wiedzy",
                 "searching": "Wyszukiwanie",
                 "searching_for": "Wyszukiwanie dla {searchterm}",
-                "searched_for": "Wyszukałeś {searchterm}, znaleziono {results, plural, one {# wynik} few {# wyniki} other {# wyników}}.",
+                "searched_for": "Wyszukałeś {searchterm}, znaleziono {results, plural, one {# wynik} few {# wyniki} many {# wyników} other {# wyniku}}.",
                 "use_searchbox_below": "Użyj poniższego pola wyszukiwania, aby przeszukać naszą bazę wiedzy.",
                 "no_results": "Nie udało nam się znaleźć niczego dla {searchterm}."
             },
@@ -146,7 +146,7 @@
                 "ticket_overview": "Przegląd zgłoszeń",
                 "opened_on": "Otwarto",
                 "ticket_activity": "Przez {username}, ostatnia aktywność {date}",
-                "reminders_sent": "{count, plural, one {Wysłano przypomnienie} few {# wysłane przypomnienia} other {# wysłanych przypomnień}}",
+                "reminders_sent": "{count, plural, one {Wysłano przypomnienie} few {# wysłane przypomnienia} many {# wysłanych przypomnień} other {# wysłanego przypomnienia}}",
                 "convert_to_ticket": {
                     "button": "Konwertuj na zgłoszenie",
                     "confirm": "Czy na pewno chcesz przekształcić tę dyskusję w zgłoszenie?",
