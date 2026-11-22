@@ -59,7 +59,7 @@
                         "landscape_primary": "Pozioma (podstawowa)",
                         "landscape_secondary": "Pozioma (alternatywna)"
                     },
-                    "push_notif_preference_default_to_email_label": "Domyślne ustawienia push zgodne z e-mail",
+                    "push_notif_preference_default_to_email_label": "Domyślne ustawienia push zgodne z ustawieniami e-mail",
                     "push_notif_preference_default_to_email_text": "Po włączeniu powiadomienia push będą domyślnie aktywne dla wszystkich typów powiadomień, dla których domyślnie włączone są powiadomienia e-mail. Po wyłączeniu powiadomienia push będą domyślnie wyłączone.",
                     "window_controls_overlay_label": "Włącz Window Controls Overlay",
                     "window_controls_overlay_text": "W przeglądarkach komputerowych obsługujących tę funkcję Window Controls Overlay ma pierwszeństwo przed wybranym trybem wyświetlania.\n\nPo włączeniu użytkownicy mogą uzyskać bardziej immersyjne środowisko przypominające natywną aplikację dzięki ukryciu systemowego paska tytułu. Dostępność Window Controls Overlay zależy od ustawień użytkownika i obsługi przez przeglądarkę. Po włączeniu musisz dostosować pasek tytułu za pomocą CSS/JS. W przeciwnym razie kontrolki mogą zasłonić elementy górnego paska nawigacyjnego forum, a przeciąganie okna będzie bardzo utrudnione.\n\nZobacz także: <compatibilitylink>zgodność przeglądarek z Window Controls Overlay</compatibilitylink> i <learnlink>informacje o Window Controls Overlay w Microsoft Learn</learnlink>\n",
@@ -82,7 +82,7 @@
             },
             "status": {
                 "config_no_https": "Adres URL w pliku config.php nie korzysta z HTTPS. HTTPS jest wymagany do działania progresywnych aplikacji internetowych.",
-                "possible_https_disabled": "Wygląda na to, że strona może nie korzystać z HTTPS. Pomóc może wyczyszczenie pamięci podręcznej (panel administracyjny => Narzędzia). Jeśli HTTPS działa, zignoruj ten komunikat. W przeciwnym razie pamiętaj, że jest ono wymagane do działania progresywnych aplikacji internetowych.",
+                "possible_https_disabled": "Wygląda na to, że strona może nie korzystać z HTTPS. Pomóc może wyczyszczenie pamięci podręcznej (panel administracyjny => Narzędzia). Jeśli HTTPS działa, zignoruj ten komunikat. W przeciwnym razie pamiętaj, że jest on wymagany do działania progresywnych aplikacji internetowych.",
                 "no_logo": "Aby aplikację można było zainstalować, musisz przesłać co najmniej jedno logo o rozmiarze minimum 144 × 144 px.",
                 "no_name": "Aby aplikacja działała, musisz podać jej pełną nazwę.",
                 "no_vapid_keys": "Nie znaleziono kluczy VAPID. Są one wymagane do wysyłania powiadomień push. Możesz je zresetować poniżej.",
