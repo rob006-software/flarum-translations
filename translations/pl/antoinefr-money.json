@@ -3,29 +3,29 @@
         "admin": {
             "settings": {
                 "title": "Ustawienia",
-                "moneyforpost": "Pieniądze przyznane za nowy post",
-                "moneyfordiscussion": "Pieniądze przyznane za nową dyskusję",
-                "moneyname": "Nazwa dla pieniędzy (np. [money] punktów)",
-                "postminimumlength": "Minimalna długość posta kwalifikując go do otrzymania pieniędzy (ustaw 0 dla braku limitu)",
+                "moneyforpost": "Kwota przyznawana za nowy post",
+                "moneyfordiscussion": "Kwota przyznawana za nową dyskusję",
+                "moneyname": "Nazwa waluty (np. [money] punktów)",
+                "postminimumlength": "Minimalna długość posta, za który przyznawana jest waluta (ustaw 0 dla braku limitu)",
                 "ignore_notifying_users": "Przy sprawdzaniu liczby słów w odpowiedziach uwzględniaj tylko właściwą treść",
                 "noshowzero": "Nie pokazuj, jeśli wartość to zero",
                 "autoremove": "Automatycznie aktualizuj saldo",
-                "cascaderemove": "Odbieraj pieniądze za posty po usunięciu dyskusji",
-                "moneyforlike": "Pieniądze przyznane, gdy post zostanie polubiony",
+                "cascaderemove": "Odbieraj walutę za posty po usunięciu dyskusji",
+                "moneyforlike": "Kwota przyznawana za polubienie posta",
                 "helpextensionlikes": "Wymaga rozszerzenia <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "Edytowanie pieniędzy",
-                "disable_money_label": "Wyłączenie pieniędzy"
+                "edit_money_label": "Edytowanie salda",
+                "disable_money_label": "Brak przyznawania waluty za aktywność"
             },
             "autoremove": [
-                "Nigdy nie odbieraj pieniędzy",
+                "Nigdy nie odbieraj waluty",
                 "Gdy post lub dyskusja zostaje ukryta lub przywrócona (domyślne)",
                 "Gdy post lub dyskusja zostaje usunięta"
             ],
             "automoderator": {
-                "metric_name": "Pieniądze",
-                "action_name": "Przyznaj pieniądze"
+                "metric_name": "Saldo",
+                "action_name": "Przyznaj walutę"
             }
         },
         "forum": {
@@ -33,7 +33,7 @@
                 "money_button": "Edytuj saldo"
             },
             "modal": {
-                "title": "Pieniądze użytkownika {username}",
+                "title": "Saldo użytkownika {username}",
                 "current": "Obecnie:",
                 "submit_button": "=> core.ref.save_changes"
             }
