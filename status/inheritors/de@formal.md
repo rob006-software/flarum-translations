@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **367** are translated differently and **3** are
+sides, but do not match between them: **366** are translated differently and **3** are
 translated only in `de@formal`. Altogether they cover **57** components.
 
 <!-- {% raw %} -->
@@ -63,7 +63,7 @@ translated only in `de@formal`. Altogether they cover **57** components.
 | `fof-username-request` | [20](#fof-username-request) | 0 |
 | `forumaker-magicbb` | [1](#forumaker-magicbb) | 0 |
 | `ianm-follow-users` | [6](#ianm-follow-users) | 0 |
-| `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) | 0 |
+| `ralkage-hcaptcha` | [1](#ralkage-hcaptcha) | 0 |
 | `ramon-canela` | [6](#ramon-canela) | 0 |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) | 0 |
 | `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) | 0 |
@@ -3266,11 +3266,11 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 > You must provide a public comment.
 
 ```diff
--Du musst eine öffentliche Begründung abgeben.
+-Du musst eine öffentliche Begründung angeben.
 +Sie müssen eine öffentliche Begründung abgeben.
 ```
 
-<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> eine öffentliche Begründung abgeben.
+<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> eine öffentliche Begründung <del>angeben.</del><ins>abgeben.</ins>
 
 #### [`fof-moderator-warnings.forum.warning_modal.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.confirmation_message%22)
 
@@ -4444,17 +4444,6 @@ Anscheinend <del>folgst</del><ins>folgen</ins> <del>du</del><ins>Sie</ins> niema
 ```
 
 Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget. <del>Aktiviere</del><ins>Aktivieren Sie</ins> diese Option, wenn <del>dein</del><ins>Ihr</ins> Forum ein dunkles Design verwendet.
-
-#### [`ralkage-hcaptcha.admin.settings.enable_login_help`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.enable_login_help%22)
-
-> Require hCaptcha when users log in. Helps protect against brute-force attacks.
-
-```diff
--Bei der Anmeldung von Benutzern hCaptcha anfordern. Dies trägt zum Schutz vor Brute-Force-Angriffen bei.
-+Bei der Anmeldung der Benutzer hCaptcha anfordern. Dies trägt zum Schutz vor Brute-Force-Angriffen bei.
-```
-
-Bei der Anmeldung <del>von</del><ins>der</ins> <del>Benutzern</del><ins>Benutzer</ins> hCaptcha anfordern. Dies trägt zum Schutz vor Brute-Force-Angriffen bei.
 
 
 ### `ramon-canela`

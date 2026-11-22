@@ -2,22 +2,11 @@
 
 Translations for **87** languages are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. Reports below list all strings which have the same source string on both
-sides, but do not match between them - **14** languages have such strings, the remaining ones
+sides, but do not match between them - **3** languages have such strings, the remaining ones
 are fully in sync and are not listed here.
 
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
-| [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 379 | 3 | 3 |
-| [Estonian](et.md) (`et`) | 0 | 9 | 9 |
-| [French](fr.md) (`fr`) | 15 | 26 | 7 |
-| [German](de.md) (`de`) | 4 | 80 | 9 |
-| [German (formal)](de@formal.md) (`de@formal`) | 6 | 80 | 11 |
-| [Hungarian](hu.md) (`hu`) | 30 | 3 | 14 |
-| [Italian](it.md) (`it`) | 0 | 3 | 3 |
-| [Persian](fa.md) (`fa`) | 0 | 13 | 6 |
-| [Polish](pl.md) (`pl`) | 2 | 0 | 2 |
-| [Portuguese](pt.md) (`pt`) | 0 | 4 | 1 |
-| [Sinhala](si.md) (`si`) | 4 | 0 | 2 |
-| [Spanish](es.md) (`es`) | 25 | 613 | 14 |
-| [Spanish (formal)](es@formal.md) (`es@formal`) | 25 | 613 | 14 |
-| [Ukrainian](uk.md) (`uk`) | 468 | 4412 | 173 |
+| [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 3 | 0 | 1 |
+| [Polish](pl.md) (`pl`) | 1 | 0 | 1 |
+| [Ukrainian](uk.md) (`uk`) | 0 | 7 | 1 |
