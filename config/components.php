@@ -182,7 +182,7 @@ return [
 		'__builtInLanguages' => ['de', 'es'],
 	],
 	'el-choco-editorial' => [
-		'tag' => 'https://raw.githubusercontent.com/el-choco/editorial/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/el-choco/editorial/v1.0.2/locale/en.yml',
 		'__builtInLanguages' => ['de'],
 	],
 	'el-choco-error-analyzer' => [
