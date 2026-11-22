@@ -91,7 +91,7 @@
                     "filterUser": "Pokaż logi dotyczące tego samego użytkownika",
                     "filterDiscussion": "Pokaż logi dotyczące tej samej dyskusji"
                 },
-                "audit_log_cleared": "Usunięto {deleted_count} wpisów z dziennika audytu",
+                "audit_log_cleared": "Usunięto {deleted_count, plural, one {# wpis} few {# wpisy} many {# wpisów} other {# wpisu}} z dziennika audytu",
                 "cache_cleared": "Ręcznie wyczyszczono pamięć podręczną",
                 "developer_token_created": "Utworzono token deweloperski „{title}” dla użytkownika {username}",
                 "discussion": {

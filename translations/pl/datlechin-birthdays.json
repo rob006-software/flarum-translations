@@ -84,7 +84,7 @@
         },
         "api": {
             "future_birthday_message": "Data urodzenia nie może być z przyszłości.",
-            "invalid_birthday_filter_message": "Filtr urodzin przyjmuje datę lub zakres obejmujący maksymalnie {max} dni, np. 2026-06-05..2026-06-11.",
+            "invalid_birthday_filter_message": "Filtr urodzin przyjmuje datę lub zakres obejmujący maksymalnie {max, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}}, np. 2026-06-05..2026-06-11.",
             "min_age_message": "Musisz mieć co najmniej {age, plural, one {# rok} few {# lata} many {# lat} other {# roku}}.",
             "invalid_dob_message": "Nieprawidłowa data urodzenia",
             "invalid_age_message": "Twój wiek musi wynosić co najmniej {minAge, plural, one {1 rok} few {# lata} other {# lat}}."

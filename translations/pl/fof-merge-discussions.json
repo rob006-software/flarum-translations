@@ -66,7 +66,7 @@
             "browser": {
                 "discussion": {
                     "merged_away": "Scalono dyskusję {discussion} z {new_discussion}",
-                    "merged_into": "Do {discussion} scalono posty z {original_discussion_ids_count} dyskusji (łącznie: {post_count})"
+                    "merged_into": "Scalono {post_count, plural, one {# post} few {# posty} many {# postów} other {# posta}} z {original_discussion_ids_count} dyskusji w dyskusję {discussion}"
                 }
             }
         }

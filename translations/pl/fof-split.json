@@ -32,8 +32,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "split_away": "Wydzielono posty ({post_count}) z dyskusji {discussion} do dyskusji {new_discussion}",
-                    "split_into": "Wydzielono posty ({post_count}) do nowej dyskusji {discussion}"
+                    "split_away": "Wydzielono {post_count, plural, one {# post} few {# posty} many {# postów} other {# posta}} z dyskusji {discussion} do dyskusji {new_discussion}",
+                    "split_into": "Wydzielono {post_count, plural, one {# post} few {# posty} many {# postów} other {# posta}} do nowej dyskusji {discussion}"
                 }
             }
         }
