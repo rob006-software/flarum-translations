@@ -28,7 +28,7 @@
             },
             "help_texts": {
                 "disable-download-logging": "Wyłącz rejestrowanie każdego pobrania przez użytkowników Twojego forum. Pozostawienie tej opcji włączonej pozwoli Ci na zobaczenie ilości pobrań i innych statystyk w niedalekiej przyszłości.\n",
-                "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n",
+                "disable-hotlink-protection": "Ochrona przed linkowaniem z innych stron sprawia, że pliki do pobrania można otworzyć tylko z poziomu forum. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n",
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "Skonfiguruj poniżej mapowanie. Każde wyrażenie regularne dla typu MIME będzie obsłużone przez odpowiedni adapter przesyłania i szablon pobierania.\n",
                 "resize": "Wybierz czy chcesz przeskalować obrazy zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazu.\n",
@@ -58,7 +58,7 @@
                     "toggle": "Wyłącz"
                 },
                 "disable-hotlink-protection": {
-                    "title": "Wyłącz ochronę przed hotlinkowaniem",
+                    "title": "Wyłącz ochronę przed linkowaniem z innych stron",
                     "toggle": "Wyłącz"
                 },
                 "imgur": {
@@ -123,17 +123,17 @@
             },
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
-                "file_description": "Wyświetla nazwę pliku i podstawowe informacje o nim. Przekierowuje pobieranie przez PHP, pozwalając na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
+                "file_description": "Wyświetla nazwę pliku i podstawowe informacje o nim. Przekierowuje pobieranie przez PHP, pozwalając na zbieranie statystyk i ochronę przed linkowaniem z innych stron.\n",
                 "image": "Domyślny szablon dla obrazów",
-                "image_description": "Wyświetla miniaturę obrazu i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
+                "image_description": "Wyświetla miniaturę obrazu i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed linkowaniem z innych stron.\n",
                 "image-preview": "Szablon z podglądem kompletnego obrazu",
-                "image-preview_description": "Wyświetla cały obraz in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
+                "image-preview_description": "Wyświetla cały obraz w treści posta. Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed linkowaniem z innych stron jest ignorowana.\n",
                 "markdown-image": "Szablon obrazu Markdown",
-                "markdown-image_description": "Pokazuje kompletny obraz liniowo za pomocą Markdown. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/markdown, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
+                "markdown-image_description": "Wyświetla cały obraz w treści posta za pomocą Markdown. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/markdown, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed linkowaniem z innych stron jest ignorowana.\n",
                 "bbcode-image": "Szablon obrazu BBCode",
-                "bbcode-image_description": "Pokazuje kompletny obraz liniowo za pomocą BBCode. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/bbcode, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
+                "bbcode-image_description": "Wyświetla cały obraz w treści posta za pomocą BBCode. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/bbcode, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed linkowaniem z innych stron jest ignorowana.\n",
                 "just-url": "Jedynie URL",
-                "just-url_description": "Wstawia jedynie URL. Renderowanie może być obsłużone przez inne rozszerzenie umożliwiające automatycznie formatowanie. Brak obsługi pobierania, zliczania statystyk oraz ochrony przed hotlinkowaniem.\n",
+                "just-url_description": "Wstawia jedynie URL. Renderowanie może być obsłużone przez inne rozszerzenie umożliwiające automatyczne tworzenie linków. Brak obsługi pobierania, zliczania statystyk oraz ochrony przed linkowaniem z innych stron.\n",
                 "text-preview": "Podgląd tekstu",
                 "text-preview_description": "Wstawia podgląd (pierwsze 5 wierszy) pliku tekstowego z opcją rozwinięcia w celu wyświetlenia pełnej zawartości pliku.\n"
             },
