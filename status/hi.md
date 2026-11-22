@@ -5012,9 +5012,20 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/nwnuyhs/flarum-user-manager" title="nwnuyhs/flarum-user-manager"><code>nwnuyhs/flarum-user-manager</code></a>
+		</td>
+		<td align="center">454</td>
+		<td align="center"><a href="https://packagist.org/packages/nwnuyhs/flarum-user-manager/stats">1</a></td>
+		<td align="center"><a href="https://packagist.org/packages/nwnuyhs/flarum-user-manager/stats">1</a></td>
+		<td align="center"><a href="https://packagist.org/packages/nwnuyhs/flarum-user-manager/stats">1</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum2/nwnuyhs-user-manager/hi/"><img src="https://weblate.rob006.net/widgets/flarum2/hi/nwnuyhs-user-manager/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/shebaoting/flarum-dependency-collector" title="shebaoting/flarum-dependency-collector"><code>shebaoting/flarum-dependency-collector</code></a>
 		</td>
-		<td align="center">454<br /><img src="https://img.shields.io/badge/-%2B47-red" alt="+47" title="Change from last week"></td>
+		<td align="center">455<br /><img src="https://img.shields.io/badge/-%2B48-red" alt="+48" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/shebaoting/flarum-dependency-collector/stats">64<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/shebaoting/flarum-dependency-collector/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/shebaoting/flarum-dependency-collector/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -5025,7 +5036,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/Xiaoxiaobai5724/catch-the-fish" title="xxb5724/catch-the-fish"><code>xxb5724/catch-the-fish</code></a>
 		</td>
-		<td align="center">455<br /><img src="https://img.shields.io/badge/-%2B47-red" alt="+47" title="Change from last week"></td>
+		<td align="center">456<br /><img src="https://img.shields.io/badge/-%2B48-red" alt="+48" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/xxb5724/catch-the-fish/stats">47<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/xxb5724/catch-the-fish/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/xxb5724/catch-the-fish/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -5036,7 +5047,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/Xiaoxiaobai5724/ner" title="xxb5724/ner"><code>xxb5724/ner</code></a>
 		</td>
-		<td align="center">456<br /><img src="https://img.shields.io/badge/-%2B52-red" alt="+52" title="Change from last week"></td>
+		<td align="center">457<br /><img src="https://img.shields.io/badge/-%2B53-red" alt="+53" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/xxb5724/ner/stats">26<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/xxb5724/ner/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/xxb5724/ner/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -5047,7 +5058,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/Tapao-NonSen/LINE-Notification" title="tapao/line-notification"><code>tapao/line-notification</code></a>
 		</td>
-		<td align="center">457<br /><img src="https://img.shields.io/badge/-%2B48-red" alt="+48" title="Change from last week"></td>
+		<td align="center">458<br /><img src="https://img.shields.io/badge/-%2B49-red" alt="+49" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/tapao/line-notification/stats">19<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/tapao/line-notification/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/tapao/line-notification/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -5058,7 +5069,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/smmpanelscripts1/prm-moderation" title="prm/moderation"><code>prm/moderation</code></a>
 		</td>
-		<td align="center">458<br /><img src="https://img.shields.io/badge/-%2B67-red" alt="+67" title="Change from last week"></td>
+		<td align="center">459<br /><img src="https://img.shields.io/badge/-%2B68-red" alt="+68" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/prm/moderation/stats">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/prm/moderation/stats">0<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/prm/moderation/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -5069,7 +5080,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/Xiaoxiaobai5724/clipboardjs" title="xxb5724/clipboardjs"><code>xxb5724/clipboardjs</code></a>
 		</td>
-		<td align="center">459<br /><img src="https://img.shields.io/badge/-%2B49-red" alt="+49" title="Change from last week"></td>
+		<td align="center">460<br /><img src="https://img.shields.io/badge/-%2B50-red" alt="+50" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/xxb5724/clipboardjs/stats">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/xxb5724/clipboardjs/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/xxb5724/clipboardjs/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
