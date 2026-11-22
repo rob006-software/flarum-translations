@@ -26,7 +26,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {Włączono <b>{count}</b> post z {titles}.} few {Włączono <b>{count}</b> posty z {titles}.} other {Włączono <b>{count}</b> postów z {titles}.}}"
+                "merged": "{count, plural, one {Włączono <b>{count}</b> post z {titles}.} few {Włączono <b>{count}</b> posty z {titles}.} many {Włączono <b>{count}</b> postów z {titles}.} other {Włączono <b>{count}</b> posta z {titles}.}}"
             }
         },
         "admin": {
