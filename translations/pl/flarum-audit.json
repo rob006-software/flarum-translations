@@ -89,7 +89,7 @@
                     "filterUser": "Pokaż logi dotyczące tego samego użytkownika",
                     "filterDiscussion": "Pokaż logi dotyczące tej samej dyskusji"
                 },
-                "audit_log_cleared": "Usunięto {deleted_count} wpisów z dziennika audytu",
+                "audit_log_cleared": "Usunięto {deleted_count, plural, one {# wpis} few {# wpisy} many {# wpisów} other {# wpisu}} z dziennika audytu",
                 "cache_cleared": "Ręcznie wyczyszczono pamięć podręczną",
                 "discussion": {
                     "created": "Rozpoczęto dyskusję {discussion}",
@@ -98,11 +98,11 @@
                     "hidden": "Ukryto dyskusję {discussion}",
                     "locked": "Zamknięto dyskusję {discussion}",
                     "merged_away": "Scalono dyskusję {discussion} z {new_discussion}",
-                    "merged_into": "Scalono {post_count} postów z {original_discussion_ids_count} dyskusji w dyskusję {discussion}",
+                    "merged_into": "Scalono {post_count, plural, one {# post} few {# posty} many {# postów} other {# posta}} z {original_discussion_ids_count} dyskusji w dyskusję {discussion}",
                     "renamed": "Zmieniono tytuł dyskusji z {old_title} na {new_title}",
                     "restored": "Przywrócono dyskusję {discussion}",
-                    "split_away": "Wydzielono {post_count} postów z dyskusji {discussion} do {new_discussion}",
-                    "split_into": "Wydzielono {post_count} postów do nowej dyskusji {discussion}",
+                    "split_away": "Wydzielono {post_count, plural, one {# post} few {# posty} many {# postów} other {# posta}} z dyskusji {discussion} do {new_discussion}",
+                    "split_into": "Wydzielono {post_count, plural, one {# post} few {# posty} many {# postów} other {# posta}} do nowej dyskusji {discussion}",
                     "stickied": "Przypięto dyskusję {discussion}",
                     "tagged": "Zmieniono tagi dyskusji {discussion} z {old_tags} na {new_tags}",
                     "unlocked": "Otwarto dyskusję {discussion}",

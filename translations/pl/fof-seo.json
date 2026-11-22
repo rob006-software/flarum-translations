@@ -211,7 +211,7 @@
         },
         "forum": {
             "profile_title": "Profil użytkownika {username}",
-            "profile_description": "Profil użytkownika {username} | {discussion_count} dyskusji | {comment_count} postów",
+            "profile_description": "Profil użytkownika {username} | {discussion_count, plural, one {# dyskusja} few {# dyskusje} many {# dyskusji} other {# dyskusji}} | {comment_count, plural, one {# post} few {# posty} many {# postów} other {# posta}}",
             "controls": {
                 "configure_seo": "Skonfiguruj SEO",
                 "update_seo": "Zaktualizuj SEO",
