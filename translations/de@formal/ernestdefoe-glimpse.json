@@ -114,7 +114,7 @@
                 "ring_seen": ""
             },
             "audience": {
-                "everyone": "",
+                "everyone": "Jeder",
                 "members": "Mitglieder",
                 "followers": "Follower"
             },
@@ -140,13 +140,13 @@
                 "reply_placeholder": "Antwort an {name}…",
                 "reply_prefix": "",
                 "reply_sent": "",
-                "reply_failed": "",
+                "reply_failed": "Deine Antwort wurde nicht gesendet. Bitte versuche es erneut.",
                 "send": "Senden",
                 "reported": "",
                 "muted": "",
                 "copied": "Link kopiert",
                 "copy_failed": "Der Link konnte nicht kopiert werden.",
-                "highlighted": "",
+                "highlighted": "Zu {title} hinzugefügt",
                 "hidden": "",
                 "deleted": "Story gelöscht",
                 "delete_confirm": "",
@@ -192,7 +192,7 @@
                 "title": "Gesehen von",
                 "private": "Nur du kannst das sehen",
                 "empty": "Diese Story hat noch niemand gesehen.",
-                "more": "",
+                "more": "Weitere anzeigen",
                 "reacted": ""
             },
             "report": {
@@ -221,16 +221,16 @@
             "page": {
                 "title": "Einblicke",
                 "intro": "",
-                "add": "",
+                "add": "Eine Story hinzufügen",
                 "all": "Alle",
                 "following": "",
                 "empty": "",
-                "load_more": "",
-                "open": "",
-                "gone": ""
+                "load_more": "Mehr laden",
+                "open": "Story von {name} öffnen",
+                "gone": "Diese Story ist nicht mehr verfügbar."
             },
             "profile": {
-                "live": "",
+                "live": "Einblicke jetzt gerade",
                 "empty": "",
                 "empty_own": "",
                 "pending": "",
@@ -240,12 +240,12 @@
             "queue": {
                 "title": "",
                 "pending": "",
-                "reported": "",
-                "approve": "",
-                "decline": "",
-                "dismiss": "",
-                "hide": "",
-                "delete": "",
+                "reported": "Gemeldet",
+                "approve": "Genehmigen",
+                "decline": "Ablehnen",
+                "dismiss": "Verwerfen",
+                "hide": "Story ausblenden",
+                "delete": "Story löschen",
                 "pending_empty": "",
                 "reported_empty": ""
             },
