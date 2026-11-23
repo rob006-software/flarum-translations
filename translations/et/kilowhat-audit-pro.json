@@ -26,13 +26,13 @@
                 "all-audit": "Augiti logi",
                 "discussion-audit": "Logi audit",
                 "user-audit": "Auditi logi (konto muudatused)",
-                "actor-audit": ""
+                "actor-audit": "Auditi logi (kasutaja)"
             },
             "modal": {
                 "all-title": "Logi audit",
                 "discussion-title": "Vestluste auditi logi",
                 "user-title": "Kasutaja auditi logi",
-                "actor-title": ""
+                "actor-title": "Tegelase auditi logi"
             }
         },
         "lib": {
@@ -69,7 +69,7 @@
                 "controls": {
                     "hideRaw": "Peida logi toorandmed",
                     "showRaw": "Näita logi toorandmeid",
-                    "filterActor": "",
+                    "filterActor": "Näita selle tegelase logisid",
                     "filterIp": "Näita selle IP logisid",
                     "filterClient": "Näita selle kliendi tüübi logisid",
                     "filterAction": "Näita sama toimingu logisid",
