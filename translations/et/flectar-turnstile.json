@@ -13,17 +13,17 @@
         "forum": {
             "not_loaded_error": "Cloudflare Turnstile laadimine ebaõnnestus. Palun värskenda lehekülge ja kontrolli oma reklaamide blokeerijat.",
             "validation_error": "Palun lõpeta Turnstile väljakutse.",
-            "error": ""
+            "error": "Meil ei õnnestunud teha kindlaks, kas sa oled inimene. Palun proovi uuesti."
         }
     },
     "validation": {
         "turnstile": "Me ei suutnud kinnitada kas sa oled robot või mitte. Palun värskenda lehekülge ja proovi uuesti.",
         "custom": {
             "turnstileToken": {
-                "required": ""
+                "required": "Palun lahenda see Turnstile väljakutse."
             },
             "turnstile": {
-                "required": ""
+                "required": "Palun lahenda see Turnstile väljakutse."
             }
         }
     }
