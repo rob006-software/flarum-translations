@@ -2,50 +2,50 @@
     "prm-messages": {
         "admin": {
             "permissions": {
-                "start_label": ""
+                "start_label": "Saada privaatsõnumeid"
             },
             "settings": {
-                "public_chat_label": "",
+                "public_chat_label": "Avalik vestlus",
                 "public_chat_help": ""
             }
         },
         "forum": {
-            "header": "",
-            "title": "",
-            "empty": "",
-            "compose": "",
-            "search_user": "",
-            "search_placeholder": "",
-            "no_users": "",
-            "to": "",
-            "subject": "",
-            "subject_placeholder": "",
-            "message": "",
-            "send": "",
-            "sending": "",
-            "sent": "",
-            "back": "",
-            "hide": "",
-            "hide_confirm": "",
-            "you": "",
-            "type_placeholder": "",
-            "unread": "",
+            "header": "Sõnumid",
+            "title": "Privaatsõnumid",
+            "empty": "Sul pole veel ühtegi privaatsõnumit.",
+            "compose": "Uus sõnum",
+            "search_user": "Otsi kasutajaid",
+            "search_placeholder": "Sisesta kasutajanimi…",
+            "no_users": "Kasutajaid ei leitud.",
+            "to": "Saaja",
+            "subject": "Pealkiri",
+            "subject_placeholder": "nt. Küsimus makse kohta (valikuline)",
+            "message": "Sõnum",
+            "send": "Saada",
+            "sending": "Saatmine…",
+            "sent": "Sõnum on saadetud.",
+            "back": "Sisse",
+            "hide": "Peida vestlus",
+            "hide_confirm": "See vestlus kustutatakse sinu postkastist. Teine inimene näeb seda ikka.",
+            "you": "Sina",
+            "type_placeholder": "Kirjuta sõnum... (Saatmiseks vajuta sisestusklahvi)",
+            "unread": "Lugemata",
             "user_controls": {
-                "message": ""
+                "message": "Saada sõnum"
             },
             "chat": {
-                "header": "",
-                "title": "",
-                "intro": "",
-                "empty": "",
-                "placeholder": "",
+                "header": "Kiirvestlus",
+                "title": "Avalik vestlus",
+                "intro": "Jagatud ruum, kui kõik liikmed saavad vestlusest osa võtta.",
+                "empty": "Sõnumeid pole veel. Ole esimene kirjutama.",
+                "placeholder": "Sõnum kõigile... (saatmiseks vajuta sisestusklahvi)",
                 "login": "",
                 "disabled": "",
-                "delete": ""
+                "delete": "Kustuta"
             },
             "notifications": {
-                "received": "",
-                "notify_label": ""
+                "received": "{username} saatis sulle sõnumi",
+                "notify_label": "Keegi saadab mulle privaatsõnumi"
             }
         }
     }
