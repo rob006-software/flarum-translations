@@ -11,20 +11,20 @@
                 "webhook_url_help": "",
                 "webhook_token_label": "",
                 "webhook_token_help": "",
-                "timeout_label": "",
-                "timeout_help": "",
-                "retry_count_label": "",
+                "timeout_label": "Aegumine (sekundites)",
+                "timeout_help": "Pärundy aegumine sekundites. Vaikeväärtus on 30.",
+                "retry_count_label": "Uuesti proovimiste arv",
                 "retry_count_help": "",
-                "channel_icon_label": "",
-                "channel_icon_help": "",
-                "channel_label_label": "",
-                "channel_label_help": ""
+                "channel_icon_label": "Kanali ikoon",
+                "channel_icon_help": " ikooni klass (nt., fas fa-globe).",
+                "channel_label_label": "Kanali silt",
+                "channel_label_help": "Teavituste kanali näidata nimi kasutaja seadetes."
             },
             "validation": {
-                "timeout_invalid": "",
-                "retry_count_invalid": "",
-                "channel_icon_invalid": "",
-                "channel_label_required": ""
+                "timeout_invalid": "Aegumine peab olema vahemikus 1 kuni 300 sekundit.",
+                "retry_count_invalid": "Uuesti proovimiste arv peab olema vahemikus 0 kuni 10.",
+                "channel_icon_invalid": "Vigane ikooni vorming. Kasuta Font Awesome vormingut (nt. fas fa.globe).",
+                "channel_label_required": "Kui ikoon on määratud, siis on ka kanali silt nõutud."
             }
         }
     }
