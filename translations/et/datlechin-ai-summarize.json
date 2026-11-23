@@ -2,33 +2,33 @@
     "datlechin-ai-summarize": {
         "admin": {
             "permissions": {
-                "ai_summarize_label": ""
+                "ai_summarize_label": "Tee vestlusest kokkuvõte AI-ga"
             },
             "settings": {
-                "title": "",
-                "enabled_label": "",
-                "min_posts_label": "",
-                "min_posts_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "system_prompt_label": "",
+                "title": "AI kokkuvõtete seaded",
+                "enabled_label": "Luba AI kokkuvõtted",
+                "min_posts_label": "Minimaalne nõutud postituste arv",
+                "min_posts_help": "Minimaalne postituste arv vestluses enne, kui sellest saab kokkuvõtet teha",
+                "max_posts_label": "Maksimaalne postituste arv",
+                "max_posts_help": "Maksimaalne postituste arv, mida kokkuvõttesse kaasata",
+                "system_prompt_label": "Kohandatud süsteemi prompt",
                 "system_prompt_help": ""
             }
         },
         "forum": {
             "discussion_controls": {
-                "summarize_button": "",
-                "regenerate_button": ""
+                "summarize_button": "Kokkuvõte AI-ga",
+                "regenerate_button": "Loo kokkuvõte uuesti"
             },
             "summary": {
-                "title": "",
-                "error": "",
-                "generated_with": "",
-                "generated_at": "",
-                "posts_summarized": "",
+                "title": "AI kokkuvõte",
+                "error": "Kokkuvõtte loomine ebaõnnestus. Palun proovi uuesti.",
+                "generated_with": "Loodud {provider} poolt mudeliga {model}",
+                "generated_at": "Loomise aeg {time}",
+                "posts_summarized": "{count} postituse kokkuvõte",
                 "regenerate_confirm": "",
-                "not_enough_posts": "",
-                "close": ""
+                "not_enough_posts": "Selles vestluses pole piisavalt postitusi, et kokkuvõtet luua.",
+                "close": "Sulge"
             }
         }
     }
