@@ -2,11 +2,11 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": "Ligipääs logifailile läbi API"
+                "access_logfile_api": "Logifailide vaatamine ja haldamine"
             },
             "settings": {
-                "max-file-size": "",
-                "max-file-size-help": "",
+                "max-file-size": "Maksimaalne logifaili suurus (MB)",
+                "max-file-size-help": "Kui logifail ületab selle suuruse, siis see jagatakse mitmeks osaks. Failideks jagamise väljalülitamiseks sisesta 0. Vaikeväärtus on 1MB. Maksimaalne lubatud suurus on 150MB.",
                 "purge-days": "Kustuta logifailid nii mitme päeva pärast",
                 "purge-days-help": "Sõltub sellest, kas Flarumi ajastaja on aktiivne. 0 tähendab, et see on välja lülitatud."
             },
@@ -16,10 +16,10 @@
                 "file_size": "Suurus (baitides): {size}",
                 "last_updated": "Viimati uuendatud: {updated}",
                 "no_file_selected": "Vali logifail, et selle sisu näha.",
-                "view_log": "",
-                "download_log": "",
-                "delete_log": "",
-                "confirm_delete": ""
+                "view_log": "Vaata logifaili",
+                "download_log": "Laadi logifail alla",
+                "delete_log": "Kustuta logifail",
+                "confirm_delete": "Oled sa kindel, et soovid selle logifaili kustutada? Seda toimingut ei saa tagasi võtta."
             }
         }
     }
