@@ -27,10 +27,10 @@ Each entry contains the English source string, followed by a diff between the tr
 > You must select "nickname" as the display name driver on the &lt;a&gt;&lt;strong&gt;Basics Page&lt;/strong&gt;&lt;/a&gt; for this extension to take effect.
 
 ```diff
--Musisz wybrać „nickname” jako sterownik, który powinien być używany do wyświetlania nazw użytkowników, na stronie <a><strong>podstawowych ustawień</strong></a>, aby to rozszerzenie zadziałało.
-+Musisz wybrać „Pseudonim” jako sterownik, który powinien być używany do wyświetlania nazw użytkowników, na stronie <a><strong>podstawowych ustawień</strong></a>, aby to rozszerzenie zadziałało.
+-Aby to rozszerzenie działało, wybierz „nickname” w ustawieniu „Wyświetlana nazwa użytkownika” na stronie <a><strong>podstawowych ustawień</strong></a>.
++Aby to rozszerzenie działało, wybierz „Pseudonim” w ustawieniu „Wyświetlana nazwa użytkownika” na stronie <a><strong>podstawowych ustawień</strong></a>.
 ```
 
-Musisz wybrać <del>„nickname”</del><ins>„Pseudonim”</ins> jako sterownik, który powinien być używany do wyświetlania nazw użytkowników, na stronie &lt;a&gt;&lt;strong&gt;podstawowych ustawień&lt;/strong&gt;&lt;/a&gt;, aby to rozszerzenie zadziałało.
+Aby to rozszerzenie działało, wybierz <del>„nickname”</del><ins>„Pseudonim”</ins> w ustawieniu „Wyświetlana nazwa użytkownika” na stronie &lt;a&gt;&lt;strong&gt;podstawowych ustawień&lt;/strong&gt;&lt;/a&gt;.
 
 <!-- {% endraw %} -->
