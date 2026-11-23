@@ -214,8 +214,8 @@
                 "deletion_off": "",
                 "group": "Gruppe",
                 "admin_group_note": "",
-                "until": "",
-                "until_days": "",
+                "until": "Sperren für",
+                "until_days": "{count, plural, one {# Tag} other {# Tage}}",
                 "until_forever": "",
                 "until_date": "",
                 "reason": "",
@@ -243,7 +243,7 @@
                 "and_more": "",
                 "skipped": "{count, plural, one {# Mitglied wurde} other {# Mitglieder wurden}} übersprungen:",
                 "type": "",
-                "cancel": ""
+                "cancel": "Abbrechen"
             },
             "skip": {
                 "self": "",
@@ -375,8 +375,8 @@
                 "status_rejected": ""
             },
             "ips": {
-                "title": "",
-                "none": "",
+                "title": "IP-Adressen",
+                "none": "Keine IP-Adressen erfasst.",
                 "seen": "",
                 "source_sessions": "",
                 "source_posts": "",
