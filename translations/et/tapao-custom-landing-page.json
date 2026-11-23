@@ -2,11 +2,11 @@
     "tapao-custom-landing-page": {
         "admin": {
             "settings": {
-                "enabled_label": "",
+                "enabled_label": "Lülita kohandatud avaleht sisse",
                 "guests_only_label": "Näita ainult külalistele",
-                "guests_only_help": "",
-                "html_label": "",
-                "html_help": ""
+                "guests_only_help": "When enabled, logged-in users bypass the landing page and see the normal forum. Install fof/direct-links for dedicated /login and /register pages, or use the '{{ login_url }}' and '{{ register_url }}' template variables in your HTML.\n",
+                "html_label": "Avalehe HTML",
+                "html_help": "Kopeeri oma täielik HTML dokument siia (kaasa arvatud sildid <!DOCTYPE html> ja <html>). Saadaolevad kujunduse muutujad: '{{ forum_title }}', '{{ forum_url }}', '{{ login_url }}', '{{ register_url }}', '{{ year }}'.\n"
             }
         }
     }
