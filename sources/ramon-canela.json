@@ -281,6 +281,8 @@
                 "palette_light": "Light",
                 "palette_dark": "Dark",
                 "shell": {
+                    "update_blocked": "This forum's composer.json holds {constraint}, so composer update will not bring the next Canela version (in 0.x, a caret stays on the same minor).",
+                    "update_blocked_fix": "Run once, in the forum folder:",
                     "group_navigation": "Header and sidebar",
                     "group_auth": "Log in and sign up",
                     "group_auth_desc": "The log in and sign up pages: when they show up, their layout, background and texts.",
