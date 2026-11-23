@@ -263,7 +263,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/detour/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-digest-mail' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.2.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.2.9/locale/en.yml',
 	],
 	'ernestdefoe-discussion-participants' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/discussion-participants/v1.0.6/locale/en.yml',
