@@ -119,6 +119,7 @@
                 "back": "All courses"
             },
             "course": {
+                "skills": "Skills you'll earn",
                 "draft": "Draft",
                 "draft_notice": "This course is a draft. Only its instructors can see it.",
                 "featured": "Featured",
@@ -226,6 +227,9 @@
                 "co_instructors_help": "Members who may create courses can teach this one with you.",
                 "certificate": "Certificate",
                 "certificate_after_save": "Save the course to design its certificate.",
+                "skills": "Skills students earn",
+                "skills_placeholder": "e.g. Photogrammetry, 3D Reconstruction, RealityCapture",
+                "skills_help": "Short names, separated by commas (up to 20). They show on the course page, and members who finish the course earn them with their certificate.",
                 "find_member": "Find a member",
                 "remove": "Remove",
                 "published": "Published",
@@ -384,6 +388,7 @@
             "too_big": "That file is too big. The limit is {mb} MB.",
             "not_an_image": "That isn't a JPEG, PNG, GIF or WebP image.",
             "image_too_large": "That image is too large. Please use one under 40 megapixels.",
+            "too_many_skills": "A course can list up to {max} skills.",
             "video_off": "Video uploads are turned off on this forum.",
             "video_type": "Videos must be MP4, WebM or Ogg.",
             "file_type": "That type of file can't be submitted. Allowed: {types}.",

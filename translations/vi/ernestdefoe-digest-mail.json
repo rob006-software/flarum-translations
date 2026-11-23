@@ -201,8 +201,11 @@
                 "error_generic": "Không kiểm tra được token."
             },
             "stats": {
-                "total_members": "Tổng số thành viên",
+                "can_get_digests": "",
+                "members_of_total": "",
+                "unconfirmed_members": "",
                 "subscribers": "Người đăng ký",
+                "subscribers_hint": "",
                 "subscription_rate": "Tỷ lệ đăng ký",
                 "of_confirmed_members": "trong số thành viên đã xác nhận",
                 "user_count": "{count, plural, one{# người dùng} other{# người dùng}}",
@@ -224,7 +227,8 @@
                 "no_subscribers_found": "Không tìm thấy người đăng ký nào.",
                 "never": "Không bao giờ",
                 "error_load_subscribers": "Không tải được danh sách người đăng ký.",
-                "error_load_stats": "Không thể tải thống kê."
+                "error_load_stats": "Không thể tải thống kê.",
+                "total_members": "Tổng số thành viên"
             },
             "server": {
                 "copy_to_clipboard": "Sao chép vào bộ nhớ tạm",

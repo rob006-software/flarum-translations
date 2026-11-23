@@ -201,8 +201,11 @@
                 "error_generic": "No se pudo verificar el token."
             },
             "stats": {
-                "total_members": "Total de miembros",
+                "can_get_digests": "",
+                "members_of_total": "",
+                "unconfirmed_members": "",
                 "subscribers": "Suscriptores",
+                "subscribers_hint": "",
                 "subscription_rate": "Tasa de suscripción",
                 "of_confirmed_members": "de miembros confirmados",
                 "user_count": "{count, plural, one{# usuario} other{# usuarios}}",
@@ -224,7 +227,8 @@
                 "no_subscribers_found": "No se encontraron suscriptores.",
                 "never": "Nunca",
                 "error_load_subscribers": "Error al cargar los suscriptores.",
-                "error_load_stats": "Error al cargar las estadísticas."
+                "error_load_stats": "Error al cargar las estadísticas.",
+                "total_members": "Total de miembros"
             },
             "server": {
                 "copy_to_clipboard": "Copiar al portapapeles",

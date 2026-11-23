@@ -201,10 +201,13 @@
                 "error_generic": "Failed to check token."
             },
             "stats": {
-                "total_members": "Total Members",
+                "can_get_digests": "Members who can get digests",
+                "members_of_total": "{confirmed} of {total} members.",
+                "unconfirmed_members": "{count, plural, one {# hasn't} other {# haven't}} confirmed their email.",
                 "subscribers": "Subscribers",
+                "subscribers_hint": "chose to get a digest",
                 "subscription_rate": "Subscription Rate",
-                "of_confirmed_members": "of confirmed members",
+                "of_confirmed_members": "of members who can get digests",
                 "user_count": "{count, plural, one{# user} other{# users}}",
                 "view": "View",
                 "hide": "Hide",

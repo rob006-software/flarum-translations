@@ -201,8 +201,11 @@
                 "error_generic": "无法检查令牌。"
             },
             "stats": {
-                "total_members": "成员总数",
+                "can_get_digests": "",
+                "members_of_total": "",
+                "unconfirmed_members": "",
                 "subscribers": "订阅者",
+                "subscribers_hint": "",
                 "subscription_rate": "订阅率",
                 "of_confirmed_members": "占已确认成员",
                 "user_count": "{count, plural, other{# 位用户}}",
@@ -224,7 +227,8 @@
                 "no_subscribers_found": "未找到订阅者。",
                 "never": "从未",
                 "error_load_subscribers": "无法加载订阅者。",
-                "error_load_stats": "无法加载统计数据。"
+                "error_load_stats": "无法加载统计数据。",
+                "total_members": "成员总数"
             },
             "server": {
                 "copy_to_clipboard": "复制到剪贴板",

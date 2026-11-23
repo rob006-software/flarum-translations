@@ -12,6 +12,7 @@
             "settings": {
                 "retention": "Gelöschte Namen von Mitgliedern im Protokoll behalten für (in Tagen)",
                 "retention_help": "Danach enthalten die Protokolleinträge eines anonymisierten oder gelöschten Mitglieds nur noch dessen ID und die entsprechenden Zählwerte. Bis zu diesem Zeitpunkt werden dessen E-Mail-Adresse und IP-Adressen lediglich als „gesalzene“ Hashes gespeichert: pseudonym, nicht anonym (jemand, der sowohl die Datenbank als auch das Geheimnis dieses Forums kennt, könnte Vermutungen anstellen), weshalb auch diese Daten entfernt werden.",
+                "replaces": "",
                 "open": "Mitgliederverwaltung aufrufen"
             },
             "permissions": {

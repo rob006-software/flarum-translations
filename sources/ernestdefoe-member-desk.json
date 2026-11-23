@@ -12,6 +12,7 @@
             "settings": {
                 "retention": "Keep erased members' names in the log for (days)",
                 "retention_help": "After this, an anonymized or deleted member's log entries keep only their ID and counts. Until then their email and IPs are kept only as salted hashes: pseudonymous, not anonymous (someone holding the database and this forum's secret could test guesses), so they are removed too.",
+                "replaces": "Member Desk replaces Flarum's Users page. Find, filter and manage your members in Member Desk.",
                 "open": "Open Member Desk"
             },
             "permissions": {

@@ -17,7 +17,12 @@
                 "wish": "Wunsch",
                 "wished": "Gewünscht",
                 "wish_label": "Wünsche {name} einen guten Tag",
-                "wish_sent": "{name} wird deine Wünsche erhalten."
+                "wish_sent": "{name} wird deine Wünsche erhalten.",
+                "courses": "",
+                "congratulate": "",
+                "congratulated": "",
+                "congratulate_label": "",
+                "congratulate_sent": ""
             },
             "badge": {
                 "birthday": "Heute Geburtstag",
@@ -26,6 +31,7 @@
             "notifications": {
                 "wish_birthday": "{username} gratuliert dir zum Geburtstag",
                 "wish_anniversary": "{username} gratuliert dir zum Jahrestag",
+                "wish_course": "",
                 "day_birthday": "Herzlichen Glückwunsch zum Geburtstag von allen bei {forum}!",
                 "day_anniversary": "Ist heute seit {count, plural, one {# Jahr} other {# Jahre}} bei {forum}. Schön, dass du da bist!"
             },
@@ -105,7 +111,13 @@
                 "eid_sub": "Dir und deiner Familie ein gesegnetes Eid.",
                 "halloween_title": "Happy Halloween!",
                 "thanksgiving_title": "Happy Thanksgiving!",
-                "thanksgiving_sub": "Wir sind jedem Einzelnen von euch dankbar."
+                "thanksgiving_sub": "Wir sind jedem Einzelnen von euch dankbar.",
+                "course_title": "",
+                "course_sub": "",
+                "course_sample": "",
+                "view_certificate": "",
+                "custom_title": "",
+                "custom_title_unnamed": ""
             }
         },
         "admin": {
@@ -144,7 +156,13 @@
                 "quiet_help": "In diesen Stunden gibt es in der Zeitzone des Forums keine Konfettiexplosionen oder Bewegungseffekte. Der Moment wird weiterhin angezeigt. Für „keine“ bitte leer lassen.",
                 "timezone": "Zeitzone",
                 "timezone_help": "Der Tag im Forum beginnt hier um Mitternacht. Leer verwendet zunächst die Zeitzone von Festoon, anschließend die des Servers.",
-                "preview_people": "Vorschau für Mitgliedsereignisse:"
+                "preview_people": "Vorschau für Mitgliedsereignisse:",
+                "courses_heading": "",
+                "courses_help": "",
+                "courses": "",
+                "courses_public": "",
+                "courses_public_help": "",
+                "preview_course": ""
             },
             "occasions": {
                 "birthday": "Dein Geburtstag",

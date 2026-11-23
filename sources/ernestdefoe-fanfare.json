@@ -17,7 +17,12 @@
                 "wish": "Wish",
                 "wished": "Wished",
                 "wish_label": "Wish {name} a happy day",
-                "wish_sent": "{name} will get your wish."
+                "wish_sent": "{name} will get your wish.",
+                "courses": "Finished a course",
+                "congratulate": "Congratulate",
+                "congratulated": "Congratulated",
+                "congratulate_label": "Congratulate {name}",
+                "congratulate_sent": "{name} will get your congratulations."
             },
             "badge": {
                 "birthday": "Birthday today",
@@ -26,6 +31,7 @@
             "notifications": {
                 "wish_birthday": "{username} wished you a happy birthday",
                 "wish_anniversary": "{username} wished you a happy anniversary",
+                "wish_course": "{username} congratulated you on finishing {course}",
                 "day_birthday": "Happy birthday from everyone at {forum}!",
                 "day_anniversary": "{count, plural, one {# year} other {# years}} on {forum} today. Thank you for being here!"
             },
@@ -105,7 +111,13 @@
                 "eid_sub": "Wishing you and your family a blessed Eid.",
                 "halloween_title": "Happy Halloween!",
                 "thanksgiving_title": "Happy Thanksgiving!",
-                "thanksgiving_sub": "We're thankful for every one of you."
+                "thanksgiving_sub": "We're thankful for every one of you.",
+                "course_title": "Congratulations, {name}!",
+                "course_sub": "You completed {course}",
+                "course_sample": "Introduction to Flarum",
+                "view_certificate": "View certificate",
+                "custom_title": "Happy {name}!",
+                "custom_title_unnamed": "Happy celebrations!"
             }
         },
         "admin": {
@@ -117,7 +129,7 @@
             "settings": {
                 "occasions_heading": "Occasions",
                 "occasions_help": "Turn each one on or off. Next dates are worked out live in the forum's timezone ({timezone}). Preview shows the forum as if it were that day; only you see it.",
-                "festoon_help": "Festoon is installed, so dates it knows come from Festoon and the two always agree.",
+                "festoon_help": "Festoon is installed, so dates it knows come from Festoon and the two always agree. The days you made in Festoon are listed too.",
                 "occasion": "Occasion",
                 "next": "Next",
                 "shift": "Shift",
@@ -144,7 +156,13 @@
                 "quiet_help": "No bursts or moving effects in these hours, in the forum's timezone. The moment still shows. Leave empty for none.",
                 "timezone": "Timezone",
                 "timezone_help": "The forum's day starts at midnight here. Empty uses Festoon's timezone, then the server's.",
-                "preview_people": "Preview a member's moment:"
+                "preview_people": "Preview a member's moment:",
+                "courses_heading": "Course completions",
+                "courses_help": "When a member completes a Syllabus course, a graduation moment opens on their next visit. It then waits behind the header button for three days.",
+                "courses": "Celebrate course completions",
+                "courses_public": "Show other members who finished a course",
+                "courses_public_help": "Listed in Today's birthdays with a Congratulate button. Members who keep their courses private in Syllabus are never listed, and members only see courses they could open themselves.",
+                "preview_course": "Preview a course completion"
             },
             "occasions": {
                 "birthday": "Your birthday",

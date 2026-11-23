@@ -85,7 +85,9 @@
                 "months": "{count, plural, one {# місяць} few {# місяці} many {# місяців} other {# місяця}}"
             },
             "skills": {
-                "other": "Інше"
+                "other": "Інше",
+                "verified": "",
+                "verified_by": ""
             },
             "languages": {
                 "native": "Рідна",
@@ -118,7 +120,13 @@
             },
             "certificates": {
                 "verify": "Перевірити",
-                "picture_of": "Зображення «{title}»"
+                "picture_of": "Зображення «{title}»",
+                "from_course": "",
+                "hidden": "",
+                "hide": "",
+                "show": "",
+                "hide_from": "",
+                "show_on": ""
             },
             "links": {
                 "kinds": {
@@ -217,7 +225,9 @@
                     "name_help": "Адміністратор може додати її до спільного списку.",
                     "category": "Категорія",
                     "level": "Рівень",
-                    "level_percent": "Рівень у відсотках"
+                    "level_percent": "Рівень у відсотках",
+                    "earned": "",
+                    "verified_option": ""
                 }
             }
         },

@@ -201,8 +201,11 @@
                 "error_generic": "Не вдалося перевірити токен."
             },
             "stats": {
-                "total_members": "Усього учасників",
+                "can_get_digests": "",
+                "members_of_total": "",
+                "unconfirmed_members": "",
                 "subscribers": "Підписники",
+                "subscribers_hint": "",
                 "subscription_rate": "Частка підписників",
                 "of_confirmed_members": "від учасників із підтвердженою адресою",
                 "user_count": "{count, plural, one {# користувач} few {# користувачі} many {# користувачів} other {# користувача}}",
@@ -224,7 +227,8 @@
                 "no_subscribers_found": "Підписників не знайдено.",
                 "never": "Ніколи",
                 "error_load_subscribers": "Не вдалося завантажити підписників.",
-                "error_load_stats": "Не вдалося завантажити статистику."
+                "error_load_stats": "Не вдалося завантажити статистику.",
+                "total_members": "Усього учасників"
             },
             "server": {
                 "copy_to_clipboard": "Скопіювати до буфера обміну",

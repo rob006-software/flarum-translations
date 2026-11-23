@@ -17,7 +17,12 @@
                 "wish": "Привітати",
                 "wished": "Привітання надіслано",
                 "wish_label": "Привітати учасника {name} зі святом",
-                "wish_sent": "Ваше привітання отримає {name}."
+                "wish_sent": "Ваше привітання отримає {name}.",
+                "courses": "",
+                "congratulate": "",
+                "congratulated": "",
+                "congratulate_label": "",
+                "congratulate_sent": ""
             },
             "badge": {
                 "birthday": "День народження сьогодні",
@@ -26,6 +31,7 @@
             "notifications": {
                 "wish_birthday": "Користувач {username} привітав вас із днем народження",
                 "wish_anniversary": "Користувач {username} привітав вас із річницею",
+                "wish_course": "",
                 "day_birthday": "З днем народження від усієї спільноти {forum}!",
                 "day_anniversary": "Сьогодні {count, plural, one {# рік} few {# роки} many {# років} other {# року}} на форумі «{forum}». Дякуємо, що ви з нами!"
             },
@@ -105,7 +111,13 @@
                 "eid_sub": "Бажаємо вам і вашій родині благословенного Іду.",
                 "halloween_title": "Веселого Гелловіну!",
                 "thanksgiving_title": "Щасливого Дня подяки!",
-                "thanksgiving_sub": "Ми вдячні кожному з вас."
+                "thanksgiving_sub": "Ми вдячні кожному з вас.",
+                "course_title": "",
+                "course_sub": "",
+                "course_sample": "",
+                "view_certificate": "",
+                "custom_title": "",
+                "custom_title_unnamed": ""
             }
         },
         "admin": {
@@ -144,7 +156,13 @@
                 "quiet_help": "У ці години за часовим поясом форуму немає спалахів і анімованих ефектів. Саме привітання все одно відображається. Залиште поля порожніми, щоб не задавати тихих годин.",
                 "timezone": "Часовий пояс",
                 "timezone_help": "День на форумі починається опівночі за цим поясом. Якщо поле порожнє, використовується пояс Festoon, а за його відсутності — пояс сервера.",
-                "preview_people": "Перегляд привітань:"
+                "preview_people": "Перегляд привітань:",
+                "courses_heading": "",
+                "courses_help": "",
+                "courses": "",
+                "courses_public": "",
+                "courses_public_help": "",
+                "preview_course": ""
             },
             "occasions": {
                 "birthday": "Ваш день народження",

@@ -161,6 +161,9 @@
                 "corkboard_card": "Finished cards (Corkboard)",
                 "panels_publish": "Chapters published (Panels)",
                 "panels_read": "Chapters read (Panels)",
+                "syllabus_enroll": "Courses joined (Syllabus)",
+                "syllabus_complete": "Courses completed (Syllabus)",
+                "syllabus_certificate": "Certificates earned (Syllabus)",
                 "admin": "Added by staff"
             },
             "prestige": {
@@ -225,7 +228,8 @@
                 "ernestdefoe-answers": "Answers",
                 "ernestdefoe-testimonials": "Testimonials",
                 "ernestdefoe-corkboard": "Corkboard",
-                "ernestdefoe-panels": "Panels"
+                "ernestdefoe-panels": "Panels",
+                "ernestdefoe-syllabus": "Syllabus"
             },
             "status": {
                 "heading": "Status",
@@ -256,13 +260,16 @@
                 "testimonial": "Testimonial approved (once per subject)",
                 "corkboard_card": "Card finished, split among its assignees (Corkboard)",
                 "panels_publish": "Chapter published, once per chapter (Panels)",
-                "panels_read": "Chapter finished, once per chapter, never your own (Panels)"
+                "panels_read": "Chapter finished, once per chapter, never your own (Panels)",
+                "syllabus_enroll": "Course joined, once per course (Syllabus)",
+                "syllabus_complete": "Course completed, once per course (Syllabus)",
+                "syllabus_certificate": "Certificate issued, once per certificate (Syllabus)"
             },
             "rules": {
                 "heading": "Anti-farming",
                 "help": "These apply to activity after install, never to the history replay. A running Double XP event multiplies the caps too. 0 turns a rule off. Days reset at midnight UTC, for the caps and the daily visit.",
                 "cap_daily": "Daily XP cap",
-                "cap_daily_help": "The most XP a member can earn in a day, all sources together. Staff adjustments don't count.",
+                "cap_daily_help": "The most XP a member can earn in a day, all sources together. Staff adjustments, course completions and certificates (Syllabus) don't count and aren't limited by it.",
                 "cap_corkboard": "Daily XP cap for finished cards",
                 "cap_panels_read": "Daily XP cap for chapters read",
                 "cap_panels_read_help": "The most XP a member can earn in a day from reading chapters. Each chapter pays once, and never its own uploader.",
