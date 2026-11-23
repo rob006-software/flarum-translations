@@ -912,9 +912,7 @@ return [
 	],
 	'justoverclock-flachievements' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flachievements/1.1.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'es',
-		],
+		'__builtInLanguages' => ['es'],
 	],
 	'justoverclock-frontend-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-frontend-blog.yml',
