@@ -1357,6 +1357,13 @@
             }
         }
     },
+    "el-choco-admin-console.json": {
+        "el-choco-admin-console": {
+            "admin": {
+                "title": "d41d8cd98f00b204e9800998ecf8427e e21a4ddc8248f91b87f800733fa42386"
+            }
+        }
+    },
     "ffans-geetest.json": {
         "ffans-geetest": {
             "admin": {
@@ -1401,6 +1408,15 @@
                     "not_pass_message": "e20885baab24400006d86bab31cdd6b3 e20885baab24400006d86bab31cdd6b3",
                     "required_message": "70aa295594aacb733b322c65cd832d81 70aa295594aacb733b322c65cd832d81",
                     "success_message": "510b55f4d54fa35a24d65be3c5e51973 510b55f4d54fa35a24d65be3c5e51973"
+                }
+            }
+        }
+    },
+    "ffans-link-guard.json": {
+        "ffans-link-guard": {
+            "admin": {
+                "settings": {
+                    "warning_title_label": "d41d8cd98f00b204e9800998ecf8427e 930ff3b5c415686e26dbda6b729a8683"
                 }
             }
         }
@@ -2568,6 +2584,17 @@
                     "no-results": "2d316c6b1bb82ef96e2036086fb93f1b 2d316c6b1bb82ef96e2036086fb93f1b",
                     "placeholder": "9352dde83f775167f68aad3290b5d1b9 9352dde83f775167f68aad3290b5d1b9",
                     "type-more": "532272a175f54829e66681147b1bfd8b 532272a175f54829e66681147b1bfd8b"
+                }
+            }
+        }
+    },
+    "fof-badges.json": {
+        "fof-badges": {
+            "defaults": {
+                "categories": {
+                    "getting-started": {
+                        "name": "d41d8cd98f00b204e9800998ecf8427e 4d15089a0018c5d13982eaaec15799b5"
+                    }
                 }
             }
         }
@@ -5063,6 +5090,7 @@
     "fof-sentry.json": {
         "fof-sentry": {
             "admin": {
+                "sentry_settings": "d41d8cd98f00b204e9800998ecf8427e 1a05b5bd52b5796bb7a9117ee28c445a",
                 "settings": {
                     "dsn_backend_label": "fa93367c7eb0c4ac565bed83cc81832e fa93367c7eb0c4ac565bed83cc81832e",
                     "dsn_label": "9e9bf69d39beecef3ebc9c6bf2db0cc9 9e9bf69d39beecef3ebc9c6bf2db0cc9",
@@ -6317,6 +6345,7 @@
                         "mobile": "659a470d19e79b24411e37e10618db79 659a470d19e79b24411e37e10618db79",
                         "never": "19cb5fc8f39cb8c532fd02edcb09f563 19cb5fc8f39cb8c532fd02edcb09f563"
                     },
+                    "title": "d41d8cd98f00b204e9800998ecf8427e e822d5a60477a987c0d2d284da5e1891",
                     "web_section_title": "a3941a1d7a52a552aea203b5f60953bd a3941a1d7a52a552aea203b5f60953bd"
                 }
             }
@@ -6844,6 +6873,15 @@
             }
         }
     },
+    "michaelbelgium-ai-autoreply.json": {
+        "michaelbelgium-ai-autoreply": {
+            "admin": {
+                "settings": {
+                    "platform_label": "d41d8cd98f00b204e9800998ecf8427e 419f3742e6de8e0ec4b22cce005e7630"
+                }
+            }
+        }
+    },
     "michaelbelgium-discussion-views.json": {
         "core": {
             "forum": {
@@ -6986,6 +7024,72 @@
             }
         }
     },
+    "pianotell-flamoji.json": {
+        "pianotell-flamoji": {
+            "admin": {
+                "settings": {
+                    "emoji_settings_heading": "d41d8cd98f00b204e9800998ecf8427e 4704c964f711d23d9d54a268190772d2"
+                }
+            }
+        }
+    },
+    "prm-forum-activity.json": {
+        "prm-forum-activity": {
+            "admin": {
+                "permissions": {
+                    "feature_label": "d41d8cd98f00b204e9800998ecf8427e 98acbe04972be2fb7abc61f3d0316d61"
+                }
+            }
+        }
+    },
+    "prm-hero-image.json": {
+        "prm-hero-image": {
+            "admin": {
+                "title": "d41d8cd98f00b204e9800998ecf8427e 0f8737ff2dea64986fc08cfaf08c110e"
+            }
+        }
+    },
+    "prm-messages.json": {
+        "prm-messages": {
+            "admin": {
+                "permissions": {
+                    "start_label": "d41d8cd98f00b204e9800998ecf8427e 8793e2711bd46926ef3f2fc1cacc5f7b"
+                }
+            }
+        }
+    },
+    "prm-sleek-dark.json": {
+        "prm-sleek-dark": {
+            "forum": {
+                "staff_moderator": "d41d8cd98f00b204e9800998ecf8427e 35c272c34763d9afee9e752080081096"
+            }
+        }
+    },
+    "quasimo-tag-sidebar.json": {
+        "quasimo-tag-sidebar": {
+            "forum": {
+                "edit_button": "d41d8cd98f00b204e9800998ecf8427e a7e674d0086681ddaaef965918740fb0"
+            }
+        }
+    },
+    "ralkage-ad-management.json": {
+        "ralkage-ad-management": {
+            "admin": {
+                "nav": {
+                    "title": "d41d8cd98f00b204e9800998ecf8427e ff353681161dadf6197018b15ec8ccad"
+                }
+            }
+        }
+    },
+    "ralkage-cap-captcha.json": {
+        "ralkage-cap-captcha": {
+            "admin": {
+                "settings": {
+                    "api_endpoint_label": "d41d8cd98f00b204e9800998ecf8427e 59668c82de76b3f9d7c28d575200e9c2"
+                }
+            }
+        }
+    },
     "ralkage-hcaptcha.json": {
         "ralkage-hcaptcha": {
             "admin": {
@@ -7007,11 +7111,45 @@
             "hcaptcha": "9e90a3696d7a8753e380ea84c318e1c2 9e90a3696d7a8753e380ea84c318e1c2"
         }
     },
+    "ralkage-linked-accounts.json": {
+        "ralkage-linked-accounts": {
+            "admin": {
+                "tabs": {
+                    "settings": "d41d8cd98f00b204e9800998ecf8427e a3317fc60ac1d0394cea23b86972cafe"
+                }
+            }
+        }
+    },
+    "ralkage-word-censor.json": {
+        "ralkage-word-censor": {
+            "admin": {
+                "settings": {
+                    "word_list_label": "d41d8cd98f00b204e9800998ecf8427e 22f30323689c7d3c642e08b9c9a23309"
+                }
+            }
+        }
+    },
     "ralkage-word-counter.json": {
         "ralkage-word-counter": {
             "forum": {
                 "composer": {
                     "word_counter": "911caf58965534772a38de443387f7f5 911caf58965534772a38de443387f7f5"
+                }
+            }
+        }
+    },
+    "resofire-blog-cards.json": {
+        "resofire_blog_cards": {
+            "forum": {
+                "replies": "d41d8cd98f00b204e9800998ecf8427e 85da3bf46f3f3cb15ce0c8b0bff6c8ab"
+            }
+        }
+    },
+    "resofire-menu-control.json": {
+        "resofire-menu-control": {
+            "admin": {
+                "nav_order": {
+                    "title": "d41d8cd98f00b204e9800998ecf8427e bc6e7510a8e9c2f2670535c1627582ec"
                 }
             }
         }
@@ -7309,10 +7447,20 @@
             }
         }
     },
+    "tapao-auto-ai-moderation.json": {
+        "tapao-moderationai": {
+            "admin": {
+                "settings": {
+                    "title": "d41d8cd98f00b204e9800998ecf8427e 4f2ff4f9619af7a8292861bb7ccf29a6"
+                }
+            }
+        }
+    },
     "tapao-custom-landing-page.json": {
         "tapao-custom-landing-page": {
             "admin": {
                 "settings": {
+                    "enabled_label": "d41d8cd98f00b204e9800998ecf8427e 5d1584f598a4d508e89333e06a8e42d4",
                     "guests_only_label": "b3ca2728b27531e1c1bd21fdd4fb4c35 b3ca2728b27531e1c1bd21fdd4fb4c35"
                 }
             }
