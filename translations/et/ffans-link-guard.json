@@ -2,30 +2,30 @@
     "ffans-link-guard": {
         "admin": {
             "settings": {
-                "warning_title_label": "",
-                "warning_title_help": "",
-                "warning_message_label": "",
-                "warning_message_help": "",
-                "trusted_domains_label": "",
-                "trusted_domains_help": "",
-                "use_modal_label": "",
-                "use_modal_help": ""
+                "warning_title_label": "Hoiatuse pealkiri",
+                "warning_title_help": "Vaikimisi pealkirja kasutamiseks jäta tühjaks. Ainult lihttekst.",
+                "warning_message_label": "Hoiatuse sõnum",
+                "warning_message_help": "Vaikimisi hoiatuse kasutamiseks jäta tühjaks. Ainult lihttekst. Reavahetused on lubatud.",
+                "trusted_domains_label": "Usaldusväärsed domeenid",
+                "trusted_domains_help": "Sisesta rea kohta üks domeen. Sama lähtekohaga linkide osas ei hoiatata. <code>veebisait.ee</code> kattub ainult selle domeeniga. <code>*.veebisait.ee</code> sobib alamdomeenidega, aga mitte domeeniga <code>veebisait.ee</code>.",
+                "use_modal_label": "Näita hoiatust hüpikaknas",
+                "use_modal_help": "Näitab hoiatust praegusel lehel hüpikaknas."
             }
         },
         "forum": {
-            "page_title": "",
-            "destination_label": "",
-            "invalid_title": "",
-            "invalid_message": "",
-            "close_button": "",
-            "cancel_button": "",
-            "continue_button": "",
-            "close_fallback": ""
+            "page_title": "Foorumist lahkummine",
+            "destination_label": "Sihtsait",
+            "invalid_title": "Vigane väline link",
+            "invalid_message": "Seda aadressi ei tuntud ära. Palun mine tagasi foorumisse ja ava see link uuesti.",
+            "close_button": "Sulge see vahekaart",
+            "cancel_button": "Loobu",
+            "continue_button": "Jätka",
+            "close_fallback": "Kui see vahekaart ei sulgenud, siis sulge see käsitsi või <a>mine tagasi foorumisse</a>."
         },
         "lib": {
-            "default_forum_name": "",
-            "default_warning_title": "",
-            "default_warning_message": ""
+            "default_forum_name": "see sait",
+            "default_warning_title": "Oled lahkumas foorumist {forumName}",
+            "default_warning_message": "Palun hoia oma kasutajakonto ja isiklik info turvalisena."
         }
     }
 }
