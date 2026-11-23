@@ -3,15 +3,15 @@
         "admin": {
             "settings": {
                 "word_list_label": "Tsenseeritud sõnad",
-                "word_list_help": "",
-                "replacement_label": "",
-                "replacement_help": ""
+                "word_list_help": "Üks sõna või fraas rea kohta. Need asendatakse kasutajale näitamisel asendusmärkidega.",
+                "replacement_label": "Asendatav täht",
+                "replacement_help": "Märgid mida kasutatakse iga tähe asendamisel tsenseeritud sõnas. Vaikeväärtus: *"
             }
         },
         "forum": {
             "settings": {
-                "word_censor_label": "",
-                "word_censor_help": ""
+                "word_censor_label": "Lülita sõnade tsenseerimine sisse",
+                "word_censor_help": "Kui see on sisse lülitatud, siis seadistatud sõnad tsenseeritakse postitutes. LÜlita see välja, et näha tsenseerimata sisu."
             }
         }
     }

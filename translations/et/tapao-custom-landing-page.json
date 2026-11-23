@@ -4,7 +4,7 @@
             "settings": {
                 "enabled_label": "Lülita sisse kohandatud avaleht",
                 "guests_only_label": "Näita ainult külalistele",
-                "guests_only_help": "When enabled, logged-in users bypass the landing page and see the normal forum. Install fof/direct-links for dedicated /login and /register pages, or use the '{{ login_url }}' and '{{ register_url }}' template variables in your HTML.\n",
+                "guests_only_help": "Kui see on sisse lülitatud, siis sisseloginud kasutajatele avalehte ei näidata ning talle näidatakse tavalist foorumit. Paigalda lisaprogramm fof/direct-links eraldi /login ja /register lehekülgede jaoks või kasuta oma HTML-is muutujaid '{{ login_url }}' ja '{{ register_url }}'.\n",
                 "html_label": "Avalehe HTML",
                 "html_help": ""
             }
