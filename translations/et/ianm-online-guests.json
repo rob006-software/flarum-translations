@@ -5,7 +5,7 @@
                 "view_online_guests_label": "Vaata saidil olevaid külalisi"
             },
             "settings": {
-                "online_duration_label": "",
+                "online_duration_label": "Veebisessiooni kestus",
                 "cache_duration_label": "Puhvri pikkus"
             }
         },
@@ -13,7 +13,7 @@
             "widget": {
                 "title": "Külalisi saidil",
                 "description": "Näitab saiti vaatavate külaliste arvu",
-                "guests_online": ""
+                "guests_online": "{count, plural, one {külaline saidil} other {külalist saidil}}"
             }
         }
     }

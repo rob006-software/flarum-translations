@@ -1,14 +1,14 @@
 {
     "ekumanov-inline-audio": {
         "forum": {
-            "bbcode_description": ""
+            "bbcode_description": "Põimitud helipleier: [player]URL[/player]"
         },
         "admin": {
             "settings": {
-                "show_download_button": "",
-                "show_right_click_download": "",
-                "auto_play": "",
-                "strip_upload_prefix": ""
+                "show_download_button": "Näita pleieri ribal allalaadimise nuppu",
+                "show_right_click_download": "Luba teha failinimel paremklikk ja fail salvestada",
+                "auto_play": "Alusta esitamist kohe, kui failinime klikitakse",
+                "strip_upload_prefix": "Peida numbriline eesliide üleslaetud failinimedest (nt. \"1774205518-685373-song.mp3\" → \"song.mp3\")"
             }
         }
     }

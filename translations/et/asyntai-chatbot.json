@@ -2,12 +2,12 @@
     "asyntai-chatbot": {
         "admin": {
             "settings": {
-                "widget_id_label": "",
-                "widget_id_help": "",
-                "hide_for_members_label": "",
-                "hide_for_members_help": "",
-                "script_url_label": "",
-                "script_url_help": ""
+                "widget_id_label": "Asyntai vidina ID",
+                "widget_id_help": "Kopeeri siia Asyntai töölaualt koodijupp või vidina ID. Vestluse välja lülitamiseks jäta väli tühjaks. ID leiad saidilt asyntai.com lehelt Setup & Integration.\n",
+                "hide_for_members_label": "Näita ainult külalistele",
+                "hide_for_members_help": "Sisseloginud kasutajad ei näe kunagi vestlust.",
+                "script_url_label": "Skripti aadress (valikuline)",
+                "script_url_help": "Standardse aadressi https://widget.asyntai.com/static/js/chat-widget.js kasutamiseks jäta väli tühjaks\n"
             }
         }
     }
