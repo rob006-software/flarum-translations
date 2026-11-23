@@ -94,7 +94,7 @@
                     "delete_posts_label": "Kustuta postitused",
                     "delete_posts_help": "See kustutab jäädavalt kõigi selle kasutaja poolt tehtud postitused. Kui see on välja lülitatud, siis pannakse postitused prügikasti.",
                     "heading": "Vaikimisi modereerimise tegevused",
-                    "introduction": "Kui kasutaja märgitakse spämmijaks, siis saavad moderaatorid valida erinevate tegevuste vahel vastavalt sellele, kuidas nad soovivad seda juhtumit käsitleda. Need seaded võimaldavad sul määratleda eelnevalt tegevused, mida sa tavapäraselt teed, et protsessi kiirendada, aga samas jätab see sulle vajaduse korral alles ka paindlikkuse.\n",
+                    "introduction": "Kui kasutaja märgitakse spämmijaks, siis saavad moderaatorid valida erinevate tegevuste vahel vastavalt sellele, kuidas nad soovivad seda juhtumit käsitleda. Need seaded võimaldavad sul määratleda eelnevalt tegevused, mida sa tavapäraselt teed, et protsessi kiirendada, aga samas jätab see sulle vajaduse korral alles ka paindlikkuse.",
                     "move_discussions_to_tags_label": "Liiguta vestlused siltide alla",
                     "move_discussions_to_tags_help": "See liigutab kõik selle kasutaja poolt tehtud postitused sinu valitud sildi (siltide) alla. Siltide valiku eemaldamine jätab vestluse selle alge sildi (või siltide) alla. Sellel pole mingit mõju, kui valik 'Kustuta vestlused' on sisse lülitatud."
                 },
@@ -267,10 +267,10 @@
         "lib": {
             "browser": {
                 "user": {
-                    "marked_as_spammer": ""
+                    "marked_as_spammer": "Märkis kasutaja {username} spämmeriks"
                 },
                 "registration": {
-                    "blocked": ""
+                    "blocked": "Blokeeris kasutaja {username} ({email}) registreerimise aadressilt {ip}"
                 }
             }
         }
