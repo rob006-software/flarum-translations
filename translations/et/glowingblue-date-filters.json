@@ -2,26 +2,26 @@
     "glowingblue-date-filters": {
         "admin": {
             "permissions": {
-                "view_date_filter_label": ""
+                "view_date_filter_label": "Kuupäeva filter foorumis"
             }
         },
         "forum": {
             "index_date_filter": {
-                "toggle_dropdown_accessible_label": "",
-                "allTime_button": "",
-                "today_button": "",
-                "yesterday_button": "",
-                "past-7-days_button": "",
-                "past-30-days_button": "",
-                "past-365-days_button": "",
-                "custom_date_range_button": ""
+                "toggle_dropdown_accessible_label": "Lülita kuupäeva filtri rippvalikut",
+                "allTime_button": "Kõik ajad",
+                "today_button": "Täna",
+                "yesterday_button": "Eile",
+                "past-7-days_button": "Viimane nädal",
+                "past-30-days_button": "Viimane kuu",
+                "past-365-days_button": "Viimane aasta",
+                "custom_date_range_button": "Kohandatud..."
             },
             "custom_date_range_modal": {
-                "title": "",
-                "start_date_label": "",
-                "end_date_label": "",
-                "cancel_button": "",
-                "apply_button": ""
+                "title": "Vali kohandatud kuupäevade vahemik",
+                "start_date_label": "Alguse kuupäev:",
+                "end_date_label": "Lõpu kuupäev:",
+                "cancel_button": "Loobu",
+                "apply_button": "Rakenda"
             }
         }
     }

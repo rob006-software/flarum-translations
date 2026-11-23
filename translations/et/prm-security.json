@@ -2,22 +2,22 @@
     "prm-security": {
         "admin": {
             "settings": {
-                "provider_label": "",
-                "provider_help": "",
-                "provider_none": "",
-                "provider_recaptcha": "",
-                "provider_hcaptcha": "",
-                "provider_turnstile": "",
-                "site_key_label": "",
-                "site_key_help": "",
-                "secret_key_label": "",
-                "secret_key_help": "",
-                "on_login_label": "",
-                "on_register_label": ""
+                "provider_label": "Captcha teenusepakkuja",
+                "provider_help": "Vali, millise väljakutse peab kasutaja enne sisselogimist ja registreerumist lahendama. Jäta väljalülitatuks, kui sa pole võtmeid veel sisestanud.",
+                "provider_none": "Väljas",
+                "provider_recaptcha": "Google reCAPTCHA v2",
+                "provider_hcaptcha": "hCaptcha",
+                "provider_turnstile": "Cloudflare Turnstile",
+                "site_key_label": "Saidi võti",
+                "site_key_help": "Avalik võti teenusepakkuja töölaualt. Selle näitamine brauseris on ok.",
+                "secret_key_label": "Salajane võti",
+                "secret_key_help": "Salajane võti. Ära jaga seda mitte kunagi. Võtme saad Google reCAPTCHA, hCaptcha või Cloudflare Turnstile saitidelt.",
+                "on_login_label": "Nõua sisselogimisel",
+                "on_register_label": "Nõua liitumisel"
             }
         },
         "forum": {
-            "invalid": ""
+            "invalid": "Palun sisesta captcha ja proovi uuesti."
         }
     }
 }

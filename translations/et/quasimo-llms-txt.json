@@ -2,24 +2,24 @@
     "quasimo-llms-txt": {
         "admin": {
             "settings": {
-                "urls_label": "",
-                "urls_help": "",
-                "open_label": "",
-                "enabled_label": "",
-                "enabled_help": "",
-                "full_enabled_label": "",
-                "full_enabled_help": "",
-                "sort_label": "",
-                "sort_latest": "",
-                "sort_top": "",
-                "sort_help": "",
-                "max_discussions_label": "",
-                "max_discussions_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "custom_intro_label": "",
-                "custom_intro_placeholder": "",
-                "custom_intro_help": ""
+                "urls_label": "Lõpp-punkti URL-id",
+                "urls_help": "Kui see on sisse lülitatud, siis järgmised URL-id pakuvad sinu foorumile LLM-sõbralikku sisu.",
+                "open_label": "Ava uuel vahekaardil",
+                "enabled_label": "Kasuta faili llms.txt",
+                "enabled_help": "Kokkuvõtlik indeks sinu foorumist lingil {url} — lingid kategooriatele ja viimastele vestlustele.",
+                "full_enabled_label": "Kasuta faili llms-full.txt",
+                "full_enabled_help": "Täistekstiga indeks sinu foorumist lingil {url} — kaasab iga postituse sisu.",
+                "sort_label": "Vestluste sorteerimise järjekord",
+                "sort_latest": "Viimane tegevus",
+                "sort_top": "Enim vastuseid",
+                "sort_help": "Kuidas vestlusi sorteeritakse mõlemas genereeritud failis.",
+                "max_discussions_label": "Maks. kaasatavaid vestlusi",
+                "max_discussions_help": "Maksimaalne vestluste arv nimekirjas (1-1000). Vaikeväärtus: 100.",
+                "max_posts_label": "Maks. postitusi vestluse kohta (ainult llms-full.txt)",
+                "max_posts_help": "Maksimaalne postituste arv vestluse kohta (1-1000). Vaikeväärtus: 50.",
+                "custom_intro_label": "Kohandatud sissejuhatav lõik",
+                "custom_intro_placeholder": "Sisesta valikuline sissejuhatus, mida näitadake mõlemas failis foorumi pealkirja all.",
+                "custom_intro_help": "Eemaldamiseks jäta tühjaks. Toetatud on lihttekst või Markdown."
             }
         }
     }
