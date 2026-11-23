@@ -2,18 +2,18 @@
     "fof-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Kasutajate nimekirja vahemälus hoidmise aeg (sekundites)",
+                "last_seen_interval": "Viimati nähtud intervall (minutites), et pidada kasutajat veebis olevaks",
+                "max_users": "Maks. näidatavaid kasutajaid"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Saidil olevate kasutajate näitamine"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Kasutajad saidil",
+                "empty": "Ükski kasutaja pole praegu saidil."
             }
         }
     }
