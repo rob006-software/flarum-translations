@@ -700,10 +700,7 @@ return [
 	],
 	'qwe987299-auto-ban-spam' => [
 		'tag' => 'https://raw.githubusercontent.com/qwe987299/flarum-auto-ban-spam/v1.0.7/locale/en.yml',
-		'__builtInLanguages' => [
-			'ja',
-			'zh_Hant',
-		],
+		'__builtInLanguages' => ['ja', 'zh_Hant'],
 	],
 	'ralkage-account-lockout' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-account-lockout/v2.0.0-beta.8/resources/locale/en.yml',
