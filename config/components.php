@@ -274,6 +274,9 @@ return [
 	'ernestdefoe-dossier' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/dossier/1.4.0/locale/en.yml',
 	],
+	'ernestdefoe-duskline' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/duskline/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-earshot' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/earshot/1.0.4/locale/en.yml',
 	],
