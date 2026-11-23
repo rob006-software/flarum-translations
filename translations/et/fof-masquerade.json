@@ -37,7 +37,7 @@
                 "title": "Väljad",
                 "add": "Lisa väli {field}",
                 "edit": "Lisa väli {field}",
-                "delete-confirmation": "",
+                "delete-confirmation": "Oled sa kindel, et soovid kustutada välja {field}? Seda ei saa tühistada.",
                 "name": "Välja nimi",
                 "name-help": "Avalikult nähtav (mittetõlgitav) välja silt.\n",
                 "description": "Välja kirjeldus",
@@ -80,10 +80,10 @@
         "lib": {
             "browser": {
                 "masquerade": {
-                    "field_created": "",
-                    "field_updated": "",
-                    "field_deleted": "",
-                    "profile_updated": ""
+                    "field_created": "Loodud profiili väli",
+                    "field_updated": "Uuendatud profiili väli",
+                    "field_deleted": "Kustutatud profiili väli",
+                    "profile_updated": "Uuendatud kasutaja {username} profiili väljad"
                 }
             }
         }
