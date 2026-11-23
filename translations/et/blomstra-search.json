@@ -7,20 +7,20 @@
             "elastic-index": "Indeks",
             "analyzer": {
                 "label": "Analüüsi keel",
-                "help": "Analüüside võimaldab otsingul aru saada, millal sõnad lõppevad ning võtab\nindekseerimiseks ette keelepõhised parandamised.\n"
+                "help": "Analüüside võimaldab otsingul aru saada, millal sõnad lõppevad ning võtab\nindekseerimiseks ette keelepõhised parandamised. Selle muutmise järel on vaja kogu indeks uuesti luua.\n"
             },
-            "index-settings-changed": "",
+            "index-settings-changed": "Otsingu indeksi seadeid on muudetud. Käivita käsk: php flarum blomstra:search:index build",
             "reindex-required": {
-                "title": "",
-                "detail": ""
+                "title": "Otsinguindeksi uuesti ehitamine on nõutud",
+                "detail": "Otsinguindeks pole selle lisaprogrammi versiooniga ühilduv. Käivita käsk: php flarum blomstra:search:index build"
             },
             "search-discussion-subjects": "Otsi vestluste pealkirjadest",
             "search-post-bodies": "Otsi kommentaaridest",
             "match-sentences": "Otsi ainult täispikka lauset",
             "match-words": "Otsing otsib ainult täissõnu",
             "min-search-length": {
-                "label": "",
-                "help": ""
+                "label": "Minimaalne otsingupäringu pikkus",
+                "help": "Minimaalne märkide arv enne kui otsing käivitatakse. Hiina, jaapani ja korea keelte puhul pane siia 1 või 2\nkuna neis keeltes on ühel märgil juba tähendus olemas.\nSelle muutmise järel on vaja indeks uuesti luua.\n"
             }
         }
     }
