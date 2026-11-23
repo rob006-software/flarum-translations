@@ -464,7 +464,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/reel/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-renown' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/renown/1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/renown/1.4.1/locale/en.yml',
 	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.7/locale/en.yml',
