@@ -6,8 +6,8 @@
                 "description": "Mitgliederverwaltung: Finde, durchsuche und verwalte eure Mitglieder.",
                 "member_title": "Mitglied",
                 "member_description": "Alles über ein bestimmtes Mitglied und was du in Bezug auf dieses Mitglied tun kannst.",
-                "log_title": "",
-                "log_description": ""
+                "log_title": "Protokoll der Mitgliederverwaltung",
+                "log_description": "Jede in der Mitgliederverwaltung durchgeführte Aktion, wer sie durchgeführt hat und wie der Mitgliedstatus zum jeweiligen Zeitpunkt war."
             },
             "settings": {
                 "retention": "Gelöschte Namen von Mitgliedern im Protokoll behalten für (in Tagen)",
@@ -26,25 +26,25 @@
             "title": "Mitgliederverwaltung",
             "nav": "Mitgliederverwaltung",
             "open_member": "In der Mitgliederverwaltung öffnen",
-            "no_access": ""
+            "no_access": "Du hast keine Berechtigung, die Mitgliederverwaltung zu öffnen."
         },
         "lib": {
             "never": "nie",
             "error": {
-                "generic": ""
+                "generic": "Das hat nicht geklappt. Bitte versuche es erneut."
             },
             "status": {
                 "active": "Aktiv",
                 "admin": "Admin",
                 "anonymized": "Anonymisiert",
-                "banned_ip": "",
-                "unconfirmed": "",
+                "banned_ip": "Gesperrte IP",
+                "unconfirmed": "Nicht bestätigt",
                 "open_reports": "{count, plural, one {# Bericht öffnen} other {# Berichte öffnen}}",
                 "suspended_forever": "Gesperrt",
                 "suspended_until": "Gesperrt bis {date}"
             },
             "list": {
-                "views": "",
+                "views": "Aufrufe der Mitgliederverwaltung",
                 "tab_members": "Mitglieder",
                 "tab_log": "Protokoll",
                 "export": "CSV exportieren",
@@ -163,10 +163,10 @@
                 "seen_to": "Gesehen bis {date}",
                 "min_posts": "Mindestens {count} Beiträge",
                 "max_posts": "Höchstens {count} Beiträge",
-                "reported_P7D": "",
-                "reported_P30D": "",
-                "reported_P90D": "",
-                "reported_ever": "",
+                "reported_P7D": "{count}+ Mal in 7 Tagen gemeldet",
+                "reported_P30D": "{count}+ Mal in 30 Tagen gemeldet",
+                "reported_P90D": "{count}+ Mal in 90 Tagen gemeldet",
+                "reported_ever": "{count}+ Mal gemeldet",
                 "remove": "Diesen Filter entfernen",
                 "clear": "Alle löschen"
             },
@@ -224,7 +224,7 @@
                     "anonymize": "Beibehalten: Ihre {posts, plural, one {# Beitrag} other {# Beiträge}} sowie {discussions, plural, one {# Diskussion} other {# Diskussionen}} bleiben erhalten, werden einem anonymen Namen zugeordnet und ihre Beitragszahlen bleiben bestehen.",
                     "delete": "",
                     "spammer": "",
-                    "suspend": ""
+                    "suspend": "Es wird nichts gelöscht. Sie können weiterhin Beiträge lesen, aber erst nach Ablauf der Sperre wieder Beiträge verfassen."
                 },
                 "gone": {
                     "anonymize": "",
@@ -239,16 +239,16 @@
                     "unspam": ""
                 },
                 "queued": "",
-                "names_label": "",
-                "and_more": "",
+                "names_label": "Mitglieder, auf die es angewendet wird",
+                "and_more": "und {count} weitere",
                 "skipped": "{count, plural, one {# Mitglied wurde} other {# Mitglieder wurden}} übersprungen:",
-                "type": "",
+                "type": "Zur Bestätigung {count} eingeben",
                 "cancel": "Abbrechen"
             },
             "skip": {
-                "self": "",
-                "admin": "",
-                "anonymized": "",
+                "self": "dein eigenes Konto",
+                "admin": "einen Admin",
+                "anonymized": "bereits anonymisiert",
                 "nothing": "",
                 "permission": "",
                 "invalid": "",
@@ -257,12 +257,12 @@
             "result": {
                 "queued": "",
                 "done": "",
-                "done_ok": "Fertig: {count, plural, one {# Mitglied} other {# Mitglieder}} aktualisiert.",
+                "done_ok": "Abgeschlossen: {count, plural, one {# Mitglied} other {# Mitglieder}} aktualisiert.",
                 "done_failed": ""
             },
             "done": {
                 "confirm": "",
-                "unsuspend": ""
+                "unsuspend": "Sperrung aufgehoben."
             },
             "member": {
                 "back": "Alle Mitglieder",
@@ -310,7 +310,7 @@
                 "reports": "Meldungen",
                 "ips": "IPs & andere Konten",
                 "notes": "Anmerkungen",
-                "warnings": "",
+                "warnings": "Warnungen & Sperrungen",
                 "log": ""
             },
             "profile": {
@@ -334,7 +334,7 @@
                 "title": "Gruppen",
                 "toggle": "In der Gruppe {name}",
                 "added": "hinzugefügt {date} von {by}",
-                "help": ""
+                "help": "Änderungen werden sofort gespeichert und im Admin-Protokoll erfasst."
             },
             "activity": {
                 "chart": "Beiträge in den letzten 12 Monaten",
@@ -369,20 +369,20 @@
                 "assignee": "",
                 "about": "",
                 "outcome": "",
-                "status_open": "",
-                "status_in_progress": "",
+                "status_open": "Offen",
+                "status_in_progress": "In Bearbeitung",
                 "status_resolved": "",
                 "status_rejected": ""
             },
             "ips": {
                 "title": "IP-Adressen",
                 "none": "Keine IP-Adressen erfasst.",
-                "seen": "",
-                "source_sessions": "",
-                "source_posts": "",
+                "seen": "{sources}, {count} Mal, zuerst {first}, zuletzt {last}",
+                "source_sessions": "Sitzungen",
+                "source_posts": "Beiträge",
                 "others": "",
-                "no_others": "",
-                "ban": "",
+                "no_others": "Keine anderen Konten auf dieser IP.",
+                "ban": "IP sperren",
                 "banned": "",
                 "ban_confirm": "",
                 "banned_done": ""
@@ -396,39 +396,39 @@
                 "no_permission": ""
             },
             "warnings": {
-                "suspension": "",
-                "not_suspended": "",
-                "until": "",
-                "forever": "",
-                "reason": "",
-                "message": "",
-                "title": "",
+                "suspension": "Aktuelle Sperrung",
+                "not_suspended": "Nicht gesperrt.",
+                "until": "Bis",
+                "forever": "Bis sie jemand aufhebt",
+                "reason": "Grund (Mitarbeiter)",
+                "message": "Nachricht (für Mitglied)",
+                "title": "Verwarnungen",
                 "no_permission": "",
-                "none": "",
+                "none": "Keine Verwarnungen.",
                 "strikes": "",
                 "strike_n": "",
                 "history": "",
                 "no_history": ""
             },
             "action": {
-                "addGroup": "",
-                "removeGroup": "",
-                "suspend": "",
-                "unsuspend": "",
-                "confirm": "",
+                "addGroup": "Zu Gruppe hinzugefügt",
+                "removeGroup": "Aus Gruppe entfernt",
+                "suspend": "Gesperrt",
+                "unsuspend": "Sperrung aufgehoben",
+                "confirm": "E-Mail bestätigt",
                 "signOut": "",
-                "spammer": "",
-                "unspam": "",
-                "anonymize": "",
-                "delete": "",
-                "export": "",
-                "banIp": "",
+                "spammer": "Als Spammer markiert",
+                "unspam": "Spammer-Markierung entfernt",
+                "anonymize": "Anonymisiert",
+                "delete": "Gelöscht",
+                "export": "CSV exportiert",
+                "banIp": "IP gesperrt",
                 "hashCheck": ""
             },
             "log": {
                 "member_title": "",
                 "none": "",
-                "by": "",
+                "by": "{actor}, {ago}",
                 "system": "",
                 "status_running": "",
                 "status_queued": "",
