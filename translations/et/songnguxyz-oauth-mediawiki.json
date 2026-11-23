@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "mediawiki": {
-                        "description": "",
-                        "base_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "user_agent_label": "",
-                        "icon_label": ""
+                        "description": "Seadista oma MediaWiki OAuth2 rakendus. Vaata dokumentatsiooni: {link}",
+                        "base_url_label": "MediaWiki baas URL",
+                        "client_id_label": "Kliendi võti",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "user_agent_label": "Kasutaja agent",
+                        "icon_label": "Teenusepakkuja ikoon (FontAwesome klass)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_mediawiki_button": ""
+                "with_mediawiki_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "error": {
-                "wiki_user_blocked": "",
-                "invalid_email": ""
+                "wiki_user_blocked": "Sinu MediaWiki konto on blokeeritud ja sa ei saa sellesse foorumisse sisse logida.",
+                "invalid_email": "E-posti saamine sinu MediaWiki kontolt ebaõnnestus. Palun kasuta mõnda teist sisselogimise viisi."
             },
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "=> fof-oauth.lib.providers.mediawiki"
             }
         },
         "lib": {
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "MediaWiki"
             }
         }
     }
