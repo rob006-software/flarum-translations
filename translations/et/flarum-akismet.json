@@ -3,7 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API võti",
-                "invalid_api_key_message": "",
+                "invalid_api_key_message": "Akismet lükkas selle API võtme tagasi. Kontrolli seda veel kord oma Akismeti kontolt ja proovi uuesti.",
                 "title": "Akismeti seaded",
                 "delete_blatant_spam_label": "Kustuta spämm automaatselt",
                 "delete_blatant_spam_help": "Kui Akismet on tuvastanud, et postitus on spämm, siis selle märkimise asemel, postitus kustutatakse automaatselt"
@@ -13,8 +13,8 @@
             },
             "sections": {
                 "spam_filtering": {
-                    "description": "",
-                    "label": ""
+                    "description": "Ühenda oma Akismeti konto ja vali, mis juhtub postitustega, mis märgitakse rämpspostiks.",
+                    "label": "Rämpsposti filter"
                 }
             }
         },
