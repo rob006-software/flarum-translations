@@ -2,13 +2,13 @@
     "flarum-emoji": {
         "admin": {
             "settings": {
-                "cdn_label": "",
-                "cdn_help": ""
+                "cdn_label": "CDN peegli aadress",
+                "cdn_help": "nt. https://cdn.jsdelivr.net/gh/jdecked/twemoji@[version]/assets/, Praegune versioon on: {version}"
             },
             "sections": {
                 "images": {
-                    "description": "",
-                    "label": ""
+                    "description": "Kust postituses ja redaktoris näidatavaid emoji pilte laaditakse.",
+                    "label": "Emoji pildid"
                 }
             }
         },
