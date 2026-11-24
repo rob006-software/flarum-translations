@@ -690,6 +690,7 @@ return [
 	],
 	'flarum-realtime' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/realtime/v2.0.2/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/realtime/v2.1.0-beta.1/resources/locale/en.yml',
 	],
 	'flarum-statistics' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.1/locale/en.yml',
