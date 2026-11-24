@@ -658,6 +658,7 @@ return [
 	],
 	'flarum-gdpr' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/gdpr/v2.0.1/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/gdpr/v2.1.0-beta.1/resources/locale/en.yml',
 	],
 	'flarum-likes' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/likes/v2.0.2/locale/en.yml',
