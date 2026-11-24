@@ -9,18 +9,14 @@
                     "submit_button": "Envoyer",
                     "token_label": "Jeton",
                     "type_label": "Type",
-                    "unchanged_token_placeholder": "(inchangé)",
-                    "username_placeholder": "",
-                    "secret_placeholder": ""
+                    "unchanged_token_placeholder": "(inchangé)"
                 },
                 "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette méthode d'authentification ?",
                 "delete_label": "Supprimer la méthode d'authentification",
                 "edit_label": "Modifier la méthode d'authentification",
                 "fields": {
                     "host": "Hôte",
-                    "token": "Jeton",
-                    "username": "",
-                    "password": ""
+                    "token": "Jeton"
                 },
                 "no_auth_methods_configured": "Aucune méthode d'authentification n'a été configurée. Il s'agit d'une fonctionnalité avancée facultative autorisant l'installation à partir de dépôts privés.",
                 "remove_button_label": "Supprimer la méthode d'authentification",
@@ -29,28 +25,8 @@
                     "github-oauth": "GitHub OAuth",
                     "gitlab-oauth": "GitLab OAuth",
                     "gitlab-token": "Jeton GitLab",
-                    "bearer": "Porteur HTTP",
-                    "http-basic": ""
-                },
-                "help": "",
-                "stat": "",
-                "remove_host_label": "",
-                "remove_q": "",
-                "submit_button": "",
-                "token_stored": "",
-                "username_stored": "",
-                "show": "",
-                "hide": "",
-                "type_help": {
-                    "github-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": "",
-                    "http-basic": ""
-                },
-                "create_github_token": "",
-                "create_gitlab_token": "",
-                "github_token_note": "",
-                "write_only": ""
+                    "bearer": "Porteur HTTP"
+                }
             },
             "composer": {
                 "add_repository_label": "Ajouter un dépôt",
@@ -67,23 +43,6 @@
                         "beta": "Bêta",
                         "alpha": "Alpha",
                         "dev": "Développement"
-                    },
-                    "stat": "",
-                    "recommended": "",
-                    "prefer_stable": "",
-                    "prefer_stable_help": "",
-                    "short": {
-                        "stable": "",
-                        "rc": "",
-                        "alpha": "",
-                        "dev": ""
-                    },
-                    "means": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
                     }
                 },
                 "repositories": {
@@ -92,36 +51,15 @@
                     "types": {
                         "composer": "composer",
                         "vcs": "vcs",
-                        "path": "chemin",
-                        "artifact": ""
+                        "path": "chemin"
                     },
                     "add_modal": {
                         "name_label": "Nom",
                         "type_label": "Type",
                         "url": "URL",
                         "submit_button": "Envoyer"
-                    },
-                    "none": "",
-                    "stat": "",
-                    "filter": "",
-                    "no_match": "",
-                    "open": "",
-                    "remove_named": "",
-                    "duplicate": "",
-                    "will_add": "",
-                    "type_help": {
-                        "vcs": "",
-                        "composer": "",
-                        "path": ""
-                    },
-                    "placeholders": {
-                        "vcs": "",
-                        "composer": "",
-                        "path": ""
                     }
-                },
-                "config_failed": "",
-                "remove_repository_label": ""
+                }
             },
             "exceptions": {
                 "composer_command_failure": "Échec de l'exécution. Vérifiez les journaux de Composer dans storage/logs/composer.",
@@ -146,20 +84,7 @@
                 "successful_update": "L'extension {extension} a été mise à jour, redirection en cours…",
                 "update": "Mettre à jour",
                 "update_soft_label": "Mise à jour douce",
-                "update_hard_label": "Mise à jour rigoureuse",
-                "update_one": "",
-                "repin_confirm": "",
-                "remove_files": "",
-                "remove_confirm": "",
-                "enabled": "",
-                "disabled": "",
-                "version_unknown": "",
-                "library": "",
-                "library_why": "",
-                "path_install": "",
-                "path_install_why": "",
-                "open_settings": "",
-                "learn_more": ""
+                "update_hard_label": "Mise à jour rigoureuse"
             },
             "file_permissions": "Le gestionnaire d'extension requiert des droits de lecture et d'écriture sur les fichiers et répertoires suivants : composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
@@ -191,15 +116,7 @@
                             "premium": "Premium",
                             "unstable": "Instable"
                         },
-                        "downloads": "{count, plural, one {{formattedCount} téléchargement} other {{formattedCount} téléchargements}}",
-                        "abandoned_why": "",
-                        "abandoned_for": "",
-                        "replaced": "",
-                        "replaced_by": "",
-                        "replaced_why": "",
-                        "install_replacement": "",
-                        "installed_as": "",
-                        "replacement_installed": ""
+                        "downloads": "{count, plural, one {{formattedCount} téléchargement} other {{formattedCount} téléchargements}}"
                     },
                     "search": "Rechercher…",
                     "server_error": "Le service est actuellement indisponible, veuillez réessayer plus tard.",
@@ -212,28 +129,9 @@
                         "discover": "Découvrir",
                         "extensions": "Extensions",
                         "languages": "Langues",
-                        "themes": "Thèmes",
-                        "label": "",
-                        "all": "",
-                        "widgets": ""
+                        "themes": "Thèmes"
                     },
                     "title": "Extensions",
-                    "search_button": "",
-                    "searching": "",
-                    "hint": "",
-                    "against": "",
-                    "no_match": "",
-                    "show_more": "",
-                    "loading_more": "",
-                    "open_packagist": "",
-                    "compat": {
-                        "incompatible": "",
-                        "incompatible_why": "",
-                        "unknown": "",
-                        "needs_stability": "",
-                        "prerelease": "",
-                        "checking": ""
-                    },
                     "premium_extension_terms": "Conditions d'utilisation des extension premium",
                     "party_filter": {
                         "all": "Toutes",
@@ -272,23 +170,14 @@
                         "success": "Succès",
                         "failure": "Échec",
                         "pending": "En attente",
-                        "running": "En cours d'exécution",
-                        "rolled_back": ""
+                        "running": "En cours d'exécution"
                     },
                     "task_just_started": "La tâche vient de commencer",
-                    "title": "File d'attente",
-                    "flarum": "",
-                    "new_version": "",
-                    "removed_version": "",
-                    "nothing": "",
-                    "migrations": ""
+                    "title": "File d'attente"
                 },
                 "settings": {
                     "title": "Options et file d'attente",
                     "description": "Configurez le gestionnaire d'extensions et vérifiez les opérations dans la file d'attente."
-                },
-                "installed": {
-                    "title": ""
                 }
             },
             "settings": {
@@ -308,511 +197,11 @@
                 "last_update_checked_at": "Dernière vérification des mises à jour : ",
                 "run_global_update": "Exécuter la mise à jour globale",
                 "updater_title": "Mises à jour",
-                "updater_help": "Vérifie les nouvelles mises à jour des extensions et de Flarum.",
-                "some_newer": "",
-                "core_newer": "",
-                "some_newer_and_core": "",
-                "check_line": "",
-                "check_now": "",
-                "check_overdue": "",
-                "checking": "",
-                "update_all": "",
-                "starting": "",
-                "ago": {
-                    "minutes": "",
-                    "hours": "",
-                    "days": ""
-                },
-                "banner": {
-                    "title": "",
-                    "details": "",
-                    "more": "",
-                    "open": "",
-                    "dismiss": ""
-                },
-                "core": {
-                    "loading": "",
-                    "running": "",
-                    "current": "",
-                    "update_to": "",
-                    "confirm": "",
-                    "preflight": "",
-                    "failed": "",
-                    "blocked": "",
-                    "clear": "",
-                    "updating_too": "",
-                    "checking": "",
-                    "overrides": "",
-                    "row_overrides": "",
-                    "row_blocked": "",
-                    "row_updating": "",
-                    "row_unknown": "",
-                    "nightly": {
-                        "title": "",
-                        "help": "",
-                        "button": "",
-                        "confirm": ""
-                    }
-                }
+                "updater_help": "Vérifie les nouvelles mises à jour des extensions et de Flarum."
             },
             "update_successful": "Flarum a été mis à jour.",
             "why_not_modal": {
                 "title": "Pourquoi la mise à jour ne s'effectue-t-elle pas ?"
-            },
-            "actions": {
-                "add": "",
-                "cancel": "",
-                "remove": "",
-                "save": ""
-            },
-            "page": {
-                "load_failed": "",
-                "load_timeout": "",
-                "try_again": ""
-            },
-            "release_notes": {
-                "title": "",
-                "on_github": "",
-                "none": "",
-                "empty_release": "",
-                "failed": ""
-            },
-            "run": {
-                "abandoned": {
-                    "intro": "",
-                    "intro_stopped": "",
-                    "announce": "",
-                    "no_replacement": "",
-                    "replaced": ""
-                },
-                "working": "",
-                "done": "",
-                "failed": "",
-                "rolled_back": "",
-                "target": {
-                    "update": "",
-                    "install": "",
-                    "remove": "",
-                    "more": ""
-                },
-                "details": "",
-                "start_failed": "",
-                "phases_label": "",
-                "phases": {
-                    "plan": "",
-                    "fetch": "",
-                    "apply": "",
-                    "finalise": ""
-                },
-                "working_out": "",
-                "working_on": "",
-                "steps": {
-                    "check_the_site": "",
-                    "work_out_what_changes": "",
-                    "check_file_permissions": "",
-                    "register": "",
-                    "migrations": "",
-                    "assets": "",
-                    "caches": "",
-                    "code_cache": "",
-                    "check_the_site_again": "",
-                    "tidy_the_trash": ""
-                },
-                "failed_at": "",
-                "failed_at_step": "",
-                "roll_back": "",
-                "rolling_back": "",
-                "roll_back_confirm": "",
-                "roll_back_confirm_db": "",
-                "rollback_failed": "",
-                "dismiss": "",
-                "reload_page": "",
-                "reload_page_why": "",
-                "another_driver": "",
-                "nothing_moved": "",
-                "cannot_drive": "",
-                "cannot_reach_short": "",
-                "cannot_reach": ""
-            },
-            "trash": {
-                "title": "",
-                "help": "",
-                "size": "",
-                "size_value": "",
-                "freeable": "",
-                "freeable_value": "",
-                "freeable_none": "",
-                "last": "",
-                "last_value": "",
-                "last_never": "",
-                "keep_days": "",
-                "days": "",
-                "keep_runs": "",
-                "runs": "",
-                "prune": "",
-                "pruning": "",
-                "saved": "",
-                "rule": "",
-                "confirm": "",
-                "done": "",
-                "failed": ""
-            },
-            "host": {
-                "title": "",
-                "status": {
-                    "ok": "",
-                    "warn": "",
-                    "fail": ""
-                },
-                "spawn_ok": "",
-                "spawn_ok_why": "",
-                "in_process": "",
-                "in_process_why": "",
-                "in_process_limits": "",
-                "in_process_fix_ini": "",
-                "in_process_fix": "",
-                "in_process_no_php": "",
-                "memory_in_process": "",
-                "memory_in_process_why": "",
-                "time_none": "",
-                "time_limit": "",
-                "time_in_process_lifted": "",
-                "time_in_process_locked": "",
-                "time_in_process_retry": "",
-                "git_needed": "",
-                "git_needed_why": "",
-                "git_needed_token": "",
-                "git_needed_git": "",
-                "ssh_differs": "",
-                "php_found": "",
-                "php_found_why": "",
-                "php_found_override_why": "",
-                "php_hidden": "",
-                "php_hidden_why": "",
-                "php_hidden_fix_plesk": "",
-                "php_hidden_fix_cpanel": "",
-                "php_hidden_fix_generic": "",
-                "php_fails": "",
-                "php_fails_why": "",
-                "php_missing": "",
-                "php_missing_why": "",
-                "php_override_broken_title": "",
-                "php_override_broken": "",
-                "php_override_detected": "",
-                "php_override_hint": "",
-                "summary_in_process": "",
-                "summary_in_process_time": "",
-                "summary_in_process_git": "",
-                "php_setting_label": "",
-                "php_setting_help": "",
-                "php_setting_save": "",
-                "php_setting_clear": "",
-                "php_setting_saved": "",
-                "php_setting_cleared": ""
-            }
-        },
-        "api": {
-            "unknown_action": "",
-            "apply": {
-                "local_path": "",
-                "move_aside_failed": "",
-                "move_in_failed": "",
-                "previous_unfinished": ""
-            },
-            "change": {
-                "added": "",
-                "removed": ""
-            },
-            "check": {
-                "no_lock": ""
-            },
-            "composer": {
-                "abandoned_no_replacement": "",
-                "abandoned_replaced": "",
-                "advice_memory": "",
-                "advice_time": "",
-                "and_more": "",
-                "assets_published": "",
-                "autoloader_copy_failed": "",
-                "broke_site_no_restore": "",
-                "broke_site_restored": "",
-                "caches_cleared": "",
-                "autoload_files_pruned": "",
-                "composer_failed": "",
-                "core_db_failed": "",
-                "core_db_failed_undone": "",
-                "core_db_unchanged": "",
-                "core_moved": "",
-                "core_same_version": "",
-                "downloaded": "",
-                "flarum_command_failed": "",
-                "health_503_waiting": "",
-                "health_down_before": "",
-                "health_no_address": "",
-                "health_not_checked": "",
-                "health_ok_after": "",
-                "health_ok_before": "",
-                "health_still_down": "",
-                "limit_joiner": "",
-                "limit_memory": "",
-                "limit_note": "",
-                "limit_time": "",
-                "migrations_none": "",
-                "migrations_run": "",
-                "missing": "",
-                "needs_git": "",
-                "no_archive": "",
-                "not_in_plan": "",
-                "nothing_changed_install": "",
-                "nothing_changed_remove": "",
-                "nothing_moved_pinned": "",
-                "nothing_to_do": "",
-                "nothing_to_update": "",
-                "permissions_not_checked": "",
-                "plan_unreadable": "",
-                "permissions_ok": "",
-                "pin_raised": "",
-                "pinned_to": "",
-                "plan_unwritable": "",
-                "registered": "",
-                "reread_done": "",
-                "resolve_failed": "",
-                "abandoned_blocked": "",
-                "resolve_gave_up": "",
-                "resolve_retrying": "",
-                "save_before_resolve_failed": "",
-                "still_wants_changes": "",
-                "stopped": "",
-                "stopped_memory": "",
-                "stopped_time": "",
-                "stopped_unknown": "",
-                "the_error_was": "",
-                "replaced_core_class": "",
-                "tidy_left": "",
-                "tidy_no_storage": "",
-                "tidy_nothing": "",
-                "tidy_removed": "",
-                "tidy_rest_tonight": "",
-                "wait_too_long": "",
-                "waiting_reread": "",
-                "web_cache_cleared": "",
-                "will_change": ""
-            },
-            "config": {
-                "basic_needs_username": "",
-                "credential_empty": "",
-                "json_encode_failed": "",
-                "json_invalid": "",
-                "json_refuse_write": "",
-                "json_replace_failed": "",
-                "json_unreadable": "",
-                "json_write_failed": "",
-                "no_credential": "",
-                "not_a_hostname": "",
-                "repo_ambiguous": "",
-                "repo_bad_url": "",
-                "repo_exists": "",
-                "repo_insecure": "",
-                "repo_missing": "",
-                "repo_needs_url": "",
-                "repo_path_not_url": "",
-                "repo_type_unsupported": "",
-                "stability_invalid": "",
-                "takes_effect_next_time": "",
-                "unknown_credential_type": "",
-                "unknown_error": ""
-            },
-            "core": {
-                "no_lock": ""
-            },
-            "discover": {
-                "unexpected": "",
-                "unreachable": ""
-            },
-            "fetch": {
-                "checksum": "",
-                "download_failed": "",
-                "not_archive": "",
-                "not_https": "",
-                "path_escapes": "",
-                "private_hint": "",
-                "read_entry_failed": "",
-                "staging_failed": ""
-            },
-            "flarum_command": {
-                "no_console": "",
-                "unknown": ""
-            },
-            "fresh": {
-                "cleared": "",
-                "needs_web": "",
-                "waiting_request": ""
-            },
-            "fs": {
-                "create_failed": "",
-                "read_failed": ""
-            },
-            "git": {
-                "add_token": "",
-                "blocked": "",
-                "git_only": ""
-            },
-            "health": {
-                "answered": "",
-                "asked_directly": "",
-                "never_reached": "",
-                "no_answer": "",
-                "no_response": ""
-            },
-            "capability": {
-                "disk_free": "",
-                "disk_unknown": "",
-                "disk_why": "",
-                "memory": "",
-                "memory_full": "",
-                "memory_none": "",
-                "memory_targeted": "",
-                "opcache_delay": "",
-                "opcache_handled": "",
-                "opcache_never_rereads": "",
-                "opcache_off": "",
-                "opcache_off_why": "",
-                "opcache_rereads": "",
-                "opcache_restart": "",
-                "summary_full": "",
-                "summary_none": "",
-                "summary_targeted": "",
-                "time_limit": "",
-                "time_limit_why": "",
-                "time_none": "",
-                "time_none_why": "",
-                "unlimited": ""
-            },
-            "installed": {
-                "rewrite_failed": ""
-            },
-            "journal": {
-                "append_failed": "",
-                "dir_failed": "",
-                "read_failed": "",
-                "write_failed": ""
-            },
-            "migrations": {
-                "already_reversed": "",
-                "irreversible": "",
-                "irreversible_ext": "",
-                "none_reversed": "",
-                "reversed": "",
-                "undo_stopped": ""
-            },
-            "opcache": {
-                "cleared": "",
-                "cli_delay": "",
-                "cli_restart": "",
-                "fine": "",
-                "not_cleared_delay": "",
-                "not_cleared_restart": ""
-            },
-            "permissions": {
-                "and_more": "",
-                "blocked": "",
-                "web_user": ""
-            },
-            "php": {
-                "exit_code": "",
-                "wrong_sapi": ""
-            },
-            "php_path": {
-                "not_absolute": "",
-                "missing": "",
-                "not_executable": "",
-                "hidden_and_silent": "",
-                "did_not_run": "",
-                "not_cli": ""
-            },
-            "process": {
-                "start_failed": "",
-                "the_command": "",
-                "the_command_start": "",
-                "timeout": ""
-            },
-            "prune": {
-                "base_not_dir": "",
-                "cannot_list": "",
-                "journal_unreadable": "",
-                "not_inside": "",
-                "not_readable": "",
-                "not_single_name": "",
-                "remove_dir_failed": "",
-                "remove_failed": "",
-                "resolves_outside": ""
-            },
-            "release_notes": {
-                "none": ""
-            },
-            "restore": {
-                "assets_rebuilt": "",
-                "command_failed": "",
-                "composer_failed": "",
-                "migrations_queued": "",
-                "record_failed": "",
-                "record_put_back": ""
-            },
-            "rollback": {
-                "busy": "",
-                "move_aside_failed": "",
-                "nothing": "",
-                "nothing_changed": "",
-                "put_back_failed": "",
-                "remove_failed": "",
-                "restore_failed": "",
-                "restored": ""
-            },
-            "run": {
-                "dir_failed": "",
-                "failed_database": "",
-                "failed_during": "",
-                "failed_internal": "",
-                "failed_network": "",
-                "finished": "",
-                "finished_phase": "",
-                "lock_dir_failed": "",
-                "lock_failed": "",
-                "no_worker": "",
-                "nothing_to_undo": "",
-                "put_back": "",
-                "queue_worker": "",
-                "rolled_back": "",
-                "starting": "",
-                "state_move_failed": "",
-                "state_write_failed": "",
-                "worker_available": "",
-                "worker_stopped": ""
-            },
-            "stale_cache": {
-                "set_aside": ""
-            },
-            "start": {
-                "abandoned_for": "",
-                "abandoned_no_usable": "",
-                "in_progress": "",
-                "in_progress_stale": "",
-                "lock_unwritable": "",
-                "no_nightly": "",
-                "not_a_package": "",
-                "not_direct": "",
-                "not_enough_memory": "",
-                "nothing_selected": "",
-                "replaced": "",
-                "replaced_by": "",
-                "replaced_unchecked": "",
-                "still_enabled": ""
-            },
-            "updater": {
-                "answered": "",
-                "no_storage": "",
-                "token_refused": "",
-                "unreachable": ""
             }
         }
     }
