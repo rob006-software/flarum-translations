@@ -13,11 +13,11 @@
             }
         },
         "api": {
-            "empty_draft_message": ""
+            "empty_draft_message": "Sellesse mustandisse pole veel midagi salvestada."
         },
         "console": {
             "scheduled_drafts_disabled": "Ajastatud mustandite kasutamine on seadetest välja lülitatud.",
-            "no_title_error": ""
+            "no_title_error": "Mustand jäeti vahele: vestluse pealkiri puudub."
         },
         "ref": {
             "schedule_draft": "Ajasta mustand"
@@ -54,16 +54,16 @@
                 "schedule_time_preview": "See mustand avaldatakse automaatselt <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Vigane kuupäev ja/või kellaaeg",
-                "no_title_error": ""
+                "no_title_error": "Enne ajastamist on vaja lisada vestluse pealkiri."
             },
             "user": {
                 "settings": {
                     "drafts_heading": "Mustandid",
-                    "draft_autosave_enable": "Luba mustandi automaatne salvestamine?",
+                    "draft_autosave_enable": "Mustandi automaatne salvestamine",
                     "draft_autosave_interval_label": "Automaatse salvestamise intervall (sekundites)",
                     "draft_autosave_interval_button": "Uuendamise intervall",
                     "draft_autosave_interval_invalid": "Intervall peab olema täisarv, mis on suurem kui 4.",
-                    "draft_autosave_interval_saved_message": ""
+                    "draft_autosave_interval_saved_message": "Automaatse salvestamise intervalli uuendati."
                 }
             }
         }
@@ -71,8 +71,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "Lülita mustandi automaatne salvestamine vaikimisi sisse",
+                "draftAutosaveInterval": "Automaatse salvestamise vaikimisi intervall (sekundites)"
             }
         }
     },
