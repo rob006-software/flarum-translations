@@ -14480,11 +14480,14 @@
                         "email_bounced_unmatched": "a487f4342e22f12303c7da75eec7e50e a487f4342e22f12303c7da75eec7e50e",
                         "email_change_requested": "269e428b8adf8ebe581a7c4fcbf3257d 269e428b8adf8ebe581a7c4fcbf3257d",
                         "email_changed": "3122e3b1c70f6e1d98eac0b073934144 3122e3b1c70f6e1d98eac0b073934144",
+                        "email_complained": "3a6cd72ca520ee52fb4e607be40b16fe 3a6cd72ca520ee52fb4e607be40b16fe",
+                        "email_complained_unmatched": "9064bff49a99ccf0600fc044e9ba6b3e 9064bff49a99ccf0600fc044e9ba6b3e",
                         "groups_changed": "97729934a64d9a3bd16b8ae5402943e9 97729934a64d9a3bd16b8ae5402943e9",
                         "impersonated": "dd921f834d6fe9fbb6097d4ac31e4ec7 dd921f834d6fe9fbb6097d4ac31e4ec7",
                         "logged_in": "9ddfa567f8cd2900af52c652788ea99a 9ddfa567f8cd2900af52c652788ea99a",
                         "logged_in_with_provider": "7234ed45020d9dd9826339e13cce8f27 7234ed45020d9dd9826339e13cce8f27",
                         "logged_out": "7260a484076e54c2a05e976f52e7add5 7260a484076e54c2a05e976f52e7add5",
+                        "logged_out_everywhere": "b2b55456fa7bc60e2d2c1f1224eda50d b2b55456fa7bc60e2d2c1f1224eda50d",
                         "nickname_request_approved": "367108ae77edc5286ff40e98134439c2 367108ae77edc5286ff40e98134439c2",
                         "nickname_request_rejected": "f4cad8018ed1448d3f81f486bfc2829e f4cad8018ed1448d3f81f486bfc2829e",
                         "nickname_requested": "f5cdf1b8492743e88525ebd6e24376f4 f5cdf1b8492743e88525ebd6e24376f4",
@@ -15098,6 +15101,14 @@
                     "anonymization": {
                         "description": "8e5074cfd6968f3b46159db0550e9773 8e5074cfd6968f3b46159db0550e9773",
                         "label": "fb9b1e03701b162c06e5a6894fc4fd51 fb9b1e03701b162c06e5a6894fc4fd51"
+                    },
+                    "erasure": {
+                        "description": "77639d6beeea7e3fae85b1079034f889 77639d6beeea7e3fae85b1079034f889",
+                        "label": "0ff186ea3b201e0c762edc0de6af50f1 0ff186ea3b201e0c762edc0de6af50f1"
+                    },
+                    "overview": {
+                        "description": "765ad11bfb2db4b16147eb57c9825711 765ad11bfb2db4b16147eb57c9825711",
+                        "label": "b69cf150e3d988e41278f41e807b9418 b69cf150e3d988e41278f41e807b9418"
                     }
                 },
                 "settings": {
@@ -15217,6 +15228,10 @@
                     "default_user_action": "8ff59bcc8aecccb00adad5cd886cf5b0 8ff59bcc8aecccb00adad5cd886cf5b0",
                     "discussions": {
                         "export_description": "1fc10b5ac9cf5447a3babef70b3f3463 1fc10b5ac9cf5447a3babef70b3f3463"
+                    },
+                    "emailbounceevents": {
+                        "anonymize_description": "5ace997c8d6ff7b1a4f6a585788ed7b3 5ace997c8d6ff7b1a4f6a585788ed7b3",
+                        "delete_description": "c246f3316db6fef171e911620b13841b c246f3316db6fef171e911620b13841b"
                     },
                     "forum": {
                         "export_description": "d2a9a468b2f7d82a702857707d692984 d2a9a468b2f7d82a702857707d692984"
