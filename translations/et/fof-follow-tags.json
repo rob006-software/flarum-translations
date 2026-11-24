@@ -45,10 +45,10 @@
                 "new_discussion_tag_text": "{username} muutis silti"
             },
             "prompt": {
-                "choose_button": "",
-                "modal_title": "",
-                "later_button": "",
-                "continue_button": ""
+                "choose_button": "Vali sildid, mida jälgida",
+                "modal_title": "Vali sildid, mida jälgida",
+                "later_button": "Tuleta mulle hiljem meelde",
+                "continue_button": "Edasi foorumisse"
             },
             "user": {
                 "settings": {
@@ -71,10 +71,10 @@
                     "primaryAndChildren": "",
                     "primaryAndSecondary": "",
                     "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "all": "Kõik sildid",
+                    "list": "All valitud sildid"
                 },
-                "prompt_tag_ids_label": "",
+                "prompt_tag_ids_label": "Sildid, mis on pakkumisel",
                 "all_discussions_on_following_page_for_guests_label": ""
             },
             "basics": {
@@ -136,7 +136,7 @@
         "email": {
             "notification": {
                 "types": {
-                    "newDiscussionInTag": "",
+                    "newDiscussionInTag": "Sildi all, mida jälgid, on uus vestlus",
                     "newDiscussionTag": "",
                     "newPostInTag": ""
                 }
