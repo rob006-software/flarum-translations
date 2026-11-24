@@ -1,0 +1,146 @@
+{
+    "ernestdefoe-duskline": {
+        "admin": {
+            "scene": {
+                "dawn": "Dawn",
+                "day": "Day",
+                "golden": "Golden hour",
+                "sunset": "Sunset",
+                "night": "Night"
+            },
+            "hero_mode": {
+                "label": "Hero",
+                "help": "What sits at the top of the discussion list. The sky follows each visitor's own clock, or stays on one time of day.",
+                "clock": "Sky that follows each visitor's clock",
+                "fixed": "Sky at one time of day",
+                "image": "Your own picture",
+                "video": "Your own video",
+                "off": "Flarum's own welcome banner"
+            },
+            "hero_scene": {
+                "label": "Time of day for a fixed sky"
+            },
+            "hero_image": {
+                "label": "Picture address",
+                "help": "A picture for the hero (https). With a video, it is also shown before the video plays, and instead of it for visitors who reduce motion or save data."
+            },
+            "hero_video": {
+                "label": "Video address",
+                "help": "A short muted loop (https, MP4 or WebM). It never plays for visitors who reduce motion or save data."
+            },
+            "accent": {
+                "label": "Accent color",
+                "help": "Buttons, links and highlights. Members can pick their own in the paint shop.",
+                "coral": "Coral",
+                "magenta": "Magenta",
+                "teal": "Teal",
+                "amber": "Amber",
+                "ice": "Ice"
+            },
+            "tag_strip": {
+                "label": "Tag tiles on the discussion list",
+                "top": "Above the list",
+                "off": "Hidden"
+            },
+            "radar": {
+                "label": "Show who is online",
+                "help": "A radar under the navigation. Everyone sees how many are online; faces show only to visitors allowed to search members, and never for members who hide their online status."
+            },
+            "player_cards": {
+                "label": "Player cards",
+                "help": "With Renown, an XP ring and level around each post author's avatar, XP to the next level on profiles, and a rank road above a member's posts."
+            },
+            "paint_shop": {
+                "label": "Paint shop",
+                "help": "Lets visitors pick their own accent, sky, density and motion on their device."
+            },
+            "profile_sky": {
+                "label": "Members pick their profile sky",
+                "help": "The time of day shown behind a member's profile card, seen by everyone who visits it."
+            },
+            "hud": {
+                "label": "Phone bar",
+                "help": "A bottom bar on phones with Home, Tags, New, Alerts and your profile. It stays off when Mobile Tab is installed."
+            }
+        },
+        "forum": {
+            "scene": {
+                "dawn": "Dawn",
+                "day": "Day",
+                "golden": "Golden hour",
+                "sunset": "Sunset",
+                "night": "Night"
+            },
+            "radar": {
+                "title": "On the radar",
+                "count": "{count, plural, one {# online} other {# online}}",
+                "label": "{count, plural, one {# member online} other {# members online}}",
+                "empty": "All quiet right now"
+            },
+            "hero": {
+                "by": "by {name}",
+                "replies": "{count, plural, =0 {No replies yet} one {# reply} other {# replies}}",
+                "read": "Read {read} of {total}",
+                "tags_title": "Tags",
+                "tags_count": "{count, plural, one {# tag to explore} other {# tags to explore}}"
+            },
+            "tiles": {
+                "label": "Tags",
+                "new": "New",
+                "discussions": "{count, plural, one {# discussion} other {# discussions}}"
+            },
+            "xp": {
+                "label": "Progress to the next level",
+                "next": "Next: level {level}",
+                "max": "Top level reached",
+                "progress": "{into} / {step} XP"
+            },
+            "road": {
+                "title": "Rank road",
+                "to_next": "{count, plural, one {# level to {rank}} other {# levels to {rank}}}",
+                "top": "The top rank",
+                "all": "All ranks"
+            },
+            "hud": {
+                "label": "Main",
+                "home": "Home",
+                "tags": "Tags",
+                "alerts": "Alerts",
+                "unread": "{count, plural, one {# unread notification} other {# unread notifications}}",
+                "me": "Me"
+            },
+            "paint": {
+                "open": "Paint shop",
+                "title": "Paint shop",
+                "note": "Your choices are saved on this device. Your profile sky is saved to your account.",
+                "accent": {
+                    "label": "Accent",
+                    "coral": "Coral",
+                    "magenta": "Magenta",
+                    "teal": "Teal",
+                    "amber": "Amber",
+                    "ice": "Ice"
+                },
+                "sky": {
+                    "label": "Sky",
+                    "clock": "Follow my clock"
+                },
+                "profile": {
+                    "label": "Your profile sky",
+                    "visitor": "The visitor's time"
+                },
+                "density": {
+                    "label": "Density",
+                    "comfortable": "Comfortable",
+                    "compact": "Compact"
+                },
+                "motion": {
+                    "label": "Motion",
+                    "full": "Full",
+                    "reduced": "Reduced",
+                    "off": "Off"
+                }
+            }
+        }
+    }
+}
