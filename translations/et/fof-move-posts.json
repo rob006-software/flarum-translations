@@ -49,13 +49,13 @@
                 "moving": "Postituse liigutamine"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} liigutas postituse {target_discussion}.} other {{username} liigutas {count} postitust vestlusesse {target_discussion}.}}"
             }
         },
         "ref": {
             "move_posts": "Liiguta postitusi",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Vana postitust ei saa liigutada uuemasse vestlusesse."
             }
         },
         "lib": {
