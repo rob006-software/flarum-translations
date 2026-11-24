@@ -1,39 +1,39 @@
 {
     "flarum-realtime": {
         "forum": {
-            "discussion-removed": "",
+            "discussion-removed": "See vestlus on kustutatud.",
             "push": {
                 "discussion-list-new-activity": "",
                 "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "hidden-user": "",
-                "people-are-typing": "",
+                "anonymous-user": "[Peidetud]",
+                "hidden-user": "{username} (peidetud)",
+                "people-are-typing": "{number, plural, one {# inimene kirjutab} other {# inimest kirjutavad}}",
                 "users-are-typing": "",
-                "no-activity": ""
+                "no-activity": "Keegi ei kirjuta"
             },
             "index-typing": {
-                "someone-typing": "",
-                "someone-typing-tag": ""
+                "someone-typing": "Keegi kirjutab sellesse vestlusesse",
+                "someone-typing-tag": "Keegi kirjutab selle sildi alla"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Reaalajas",
                     "typing-indicator-type": {
                         "help": "",
-                        "label": ""
+                        "label": "Näita, kes kirjutab"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-all-typing": "",
-                "view-who-types": ""
+                "view-all-typing": "Näe, kes kirjutab ükskõik kus foorumis",
+                "view-who-types": "Vaata, kes kirjutab"
             },
             "settings": {
-                "release-discussion-updates": "",
+                "release-discussion-updates": "Vestluste nimekirja uuendused",
                 "release-discussion-updates-help": "",
                 "release-discussion-updates-interval": "",
                 "release-discussion-updates-interval-help": "",
@@ -53,11 +53,11 @@
                 },
                 "notifications": {
                     "description": "",
-                    "label": ""
+                    "label": "Teavitused"
                 },
                 "typing": {
                     "description": "",
-                    "label": ""
+                    "label": "Kirjutamise indikaatorid"
                 }
             }
         }
