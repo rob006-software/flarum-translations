@@ -638,6 +638,7 @@ return [
 	],
 	'flarum-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.1.0-beta.1/locale/en.yml',
 	],
 	'flarum-deck' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/deck/v2.0.2/locale/en.yml',
