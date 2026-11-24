@@ -13,16 +13,16 @@
             },
             "sections": {
                 "groups": {
-                    "description": "",
+                    "description": "Unterhaltungen, die mit mehreren Mitgliedern gleichzeitig begonnen wurden.",
                     "label": "Gruppenkonversationen"
                 }
             },
             "settings": {
-                "recipient_groups_label": "",
-                "recipient_groups_help": "",
-                "allow_group_names_help": "",
-                "allow_group_names_label": "",
-                "max_recipients_help": "",
+                "recipient_groups_label": "Gruppen, die Gruppennachrichten empfangen dürfen",
+                "recipient_groups_help": "Absender, die berechtigt sind, Unterhaltungen mit Gruppen zu starten, können diese Gruppen auswählen. Standardmäßig verfügen nur Administratoren über diese Berechtigung. Das Deaktivieren einer Gruppe an dieser Stelle führt nicht dazu, dass sie aus bestehenden Unterhaltungen entfernt wird. Jeder, der die Gruppenmitgliedschaft verwalten kann, kann Zugriff auf den gesamten Unterhaltungsverlauf gewähren.",
+                "allow_group_names_help": "Teilnehmer, die in einer Gruppenunterhaltung schreiben können, können dieser einen Namen geben, der dann allen Teilnehmern anstelle der Mitgliederliste angezeigt wird. Wenn diese Funktion deaktiviert wird, werden bereits vergebene Namen ausgeblendet.",
+                "allow_group_names_label": "Mitglieder dürfen Gruppenkonversationen benennen",
+                "max_recipients_help": "An wie viele Mitglieder eine Nachricht gesendet werden kann. Bei mehr als einem wird eine Gruppenunterhaltung gestartet, daher deaktiviert die Einstellung „1“ Gruppenunterhaltungen. Maximal 50.",
                 "max_recipients_label": "Empfänger pro Nachricht"
             }
         },
@@ -33,7 +33,7 @@
                 "recipients": "Empfänger",
                 "submit_button": "Nachricht senden",
                 "to": "An:",
-                "title": ""
+                "title": "Neue Nachricht"
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
@@ -42,15 +42,15 @@
                 "title": "Nachrichten",
                 "unread_count_text": "{count} ungelesen",
                 "view_all": "Alle Nachrichten ansehen",
-                "group_last_message_preview": ""
+                "group_last_message_preview": "{username}: {content}"
             },
             "dialog_section": {
                 "back_label": "Zurück",
                 "cannot_reply_text": "Dieser Benutzer kann nicht antworten",
                 "controls": {
                     "details_button": "Details",
-                    "leave_button": "",
-                    "rename_button": ""
+                    "leave_button": "Unterhaltung verlassen",
+                    "rename_button": "Unterhaltung umbenennen"
                 },
                 "controls_toggle_label": "Dialogsteuerungsaktionen",
                 "details_modal": {
@@ -58,8 +58,8 @@
                     "recipients": "Teilnehmer",
                     "title": "Konversationsdetails"
                 },
-                "leave_confirmation": "",
-                "members_button": ""
+                "leave_confirmation": "Diese Unterhaltung verlassen? Dann wirst du sie nicht mehr sehen und auch nicht mehr über neue Nachrichten darin benachrichtigt. Was du geschrieben hast, bleibt für die anderen sichtbar.",
+                "members_button": "{count, plural, one {# Mitglied} other {# Mitglieder}}"
             },
             "header": {
                 "dropdown_tooltip": "Nachrichten"
@@ -75,10 +75,10 @@
             "message_controls": {
                 "delete_button": "Löschen",
                 "delete_confirmation": "Möchtest du diese Nachricht wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
-                "delete_forever_button": "",
-                "delete_forever_confirmation": "",
-                "edit_button": "",
-                "restore_button": ""
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "delete_forever_confirmation": "Möchtest du diese Nachricht wirklich endgültig löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+                "edit_button": "=> core.ref.edit",
+                "restore_button": "=> core.ref.restore"
             },
             "messages_page": {
                 "cannot_send_message_button": "Kann keine Nachricht senden",
@@ -95,17 +95,17 @@
                     "load_next_button": "Nächste Nachrichten laden",
                     "start_of_the_conversation": "Beginn der Unterhaltung",
                     "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
-                    "name_removed_text": "",
-                    "renamed_text": "",
-                    "user_left_text": ""
+                    "name_removed_text": "{username} hat den Namen der Unterhaltung entfernt",
+                    "renamed_text": "{username} hat die Unterhaltung „{name}“ benannt",
+                    "user_left_text": "{username} hat die Unterhaltung verlassen"
                 },
                 "title": "Nachrichten"
             },
             "recipient_selection_modal": {
                 "cannot_reply_text": "Kann nicht auf Nachrichten antworten",
                 "title": "Wähle die Empfänger für diese Nachricht",
-                "groups_heading": "",
-                "groups_help": ""
+                "groups_heading": "Gruppen",
+                "groups_help": "Aktuelle und zukünftige Mitglieder dieser Gruppen können die gesamte Unterhaltung lesen. Bis zu 10 Gruppen."
             },
             "search_source": {
                 "conversation_with": "Unterhaltung mit {username}",
@@ -113,8 +113,8 @@
             },
             "settings": {
                 "notify_message_received_label": "Jemand schickt mir eine Nachricht",
-                "notify_message_liked_label": "",
-                "privacy_disclose_read_receipts_label": ""
+                "notify_message_liked_label": "Jemand liked eine meiner Nachrichten",
+                "privacy_disclose_read_receipts_label": "Anderen anzeigen, wenn ich ihre Nachrichten gelesen habe (und sehen, wann sie meine gelesen haben)"
             },
             "user_controls": {
                 "send_message_button": "Nachricht senden",
@@ -122,32 +122,32 @@
             },
             "notifications": {
                 "message_received_text": "Benachrichtigung über dein Erhalt einer Nachricht von {user}",
-                "message_liked_text": ""
+                "message_liked_text": "{username} hat deine Nachricht geliked"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "submit_button": "",
-                "title": ""
+                "discard_confirmation": "=> core.forum.composer_edit.discard_confirmation",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Nachricht bearbeiten"
             },
             "message": {
-                "deleted_text": "",
-                "edited_text": "",
-                "edited_tooltip": "",
+                "deleted_text": "Diese Nachricht wurde gelöscht.",
+                "edited_text": "=> core.forum.post.edited_text",
+                "edited_tooltip": "=> core.forum.post.edited_tooltip",
                 "read_status": {
-                    "read_by_everyone_tooltip": "",
-                    "read_by_some_tooltip": "",
-                    "read_tooltip": "",
-                    "sent_tooltip": ""
+                    "read_by_everyone_tooltip": "Von allen gelesen",
+                    "read_by_some_tooltip": "Gelesen von {count} von {total}",
+                    "read_tooltip": "Gelesen",
+                    "sent_tooltip": "Gesendet"
                 }
             },
             "read_by_modal": {
-                "title": ""
+                "title": "Gelesen von"
             },
             "rename_dialog_modal": {
-                "help_text": "",
-                "name_label": "",
-                "submit_button": "",
-                "title": ""
+                "help_text": "Jeder in der Unterhaltung sieht diesen Namen. Lasse das Feld leer, um stattdessen anzuzeigen, wer daran teilnimmt.",
+                "name_label": "Name",
+                "submit_button": "Speichern",
+                "title": "Unterhaltung umbenennen"
             }
         },
         "email": {
