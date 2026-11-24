@@ -8,67 +8,67 @@
                 "max_columns_help": "",
                 "max_columns_label": "",
                 "poll_interval_help": "",
-                "poll_interval_label": ""
+                "poll_interval_label": "Värskenduse intervall (sekundites)"
             },
             "sections": {
                 "columns": {
                     "description": "",
-                    "label": ""
+                    "label": "Veergu"
                 }
             }
         },
         "forum": {
             "add_column": {
-                "author_label": "",
-                "author_placeholder": "",
-                "back_button": "",
-                "discussion_label": "",
-                "discussion_placeholder": "",
+                "author_label": "Liige",
+                "author_placeholder": "Otsi liiget",
+                "back_button": "Tagasi",
+                "discussion_label": "Vestlus",
+                "discussion_placeholder": "Otsi vestlust",
                 "filter_help": "",
                 "filter_invalid_message": "",
-                "filter_label": "",
-                "group_invalid_message": "",
-                "group_label": "",
+                "filter_label": "Filtrid",
+                "group_invalid_message": "Vali grupp.",
+                "group_label": "Grupp",
                 "in_deck_badge": "",
                 "in_deck_count_badge": "",
                 "filter_placeholder": "",
                 "invalid_value_message": "",
                 "pick_a_result_message": "",
-                "submit_button": "",
-                "title": "",
-                "use_filters_button": "",
+                "submit_button": "Lisa veerg",
+                "title": "Lisa veerg",
+                "use_filters_button": "Kasuta neid filtreid",
                 "filter_unknown_message": ""
             },
             "column": {
                 "controls_label": "",
                 "drag_handle_label": "",
-                "move_left_button": "",
-                "move_right_button": "",
-                "move_to_bottom_row_button": "",
-                "move_to_top_row_button": "",
+                "move_left_button": "Liiguta vasakule",
+                "move_right_button": "Liiguta paremale",
+                "move_to_bottom_row_button": "Liiguta alumisse ritta",
+                "move_to_top_row_button": "Liiguta ülemisse ritta",
                 "moved_announcement": "",
                 "moved_in_bottom_row_announcement": "",
                 "moved_in_top_row_announcement": "",
                 "new_items_button": "",
-                "open_discussion_button": "",
-                "refresh_button": "",
-                "remove_button": "",
-                "reset_width_button": "",
+                "open_discussion_button": "Ava vestlus",
+                "refresh_button": "Värskenda",
+                "remove_button": "Eemalda veerg",
+                "reset_width_button": "Nulli laius",
                 "resize_label": "",
-                "edit_button": ""
+                "edit_button": "Muuda veergu"
             },
             "column_types": {
-                "all": "",
-                "author": "",
-                "author_posts": "",
+                "all": "Kõik vestlused",
+                "author": "Liikme vestlused",
+                "author_posts": "Liikme postitused",
                 "author_posts_title": "",
                 "author_title": "",
-                "discussion": "",
-                "filter": "",
+                "discussion": "Vestlus",
+                "filter": "Kohandatud filter",
                 "group_posts": "",
                 "group_posts_title": "",
                 "typing": "",
-                "unread": ""
+                "unread": "Lugemata"
             },
             "discussion_controls": {
                 "add_to_deck_button": "",
@@ -78,40 +78,40 @@
                 "deck_link": ""
             },
             "typing": {
-                "empty_text": "",
+                "empty_text": "Keegi ei kirjuta praegu.",
                 "offline_text": "",
                 "replying_text": "",
-                "someone": "",
+                "someone": "Keegi",
                 "starting_in_text": "",
                 "starting_text": "",
                 "was_replying_text": "",
                 "was_starting_in_text": "",
-                "was_starting_text": ""
+                "was_starting_text": "{name} alustas vestlust"
             },
             "page": {
-                "add_column_button": "",
+                "add_column_button": "Lisa veerg",
                 "column_limit_reached_text": "",
                 "drop_row_hint": "",
                 "empty_text": "",
-                "exit_fullscreen_button": "",
-                "fullscreen_button": "",
+                "exit_fullscreen_button": "Välju täisekraanilt",
+                "fullscreen_button": "Täisekraan",
                 "hero": {
-                    "hide_label": "",
+                    "hide_label": "Peida see tutvustus",
                     "subtitle": ""
                 },
-                "navigator_label": "",
+                "navigator_label": "Veerud",
                 "options_label": "",
-                "reset_button": "",
-                "resize_rows_label": "",
+                "reset_button": "Nulli veerud",
+                "resize_rows_label": "Muuda ridade kürgust",
                 "reset_confirmation": "",
-                "scroll_left_label": "",
-                "scroll_right_label": "",
+                "scroll_left_label": "Keri vasakule",
+                "scroll_right_label": "Keri paremale",
                 "title": ""
             },
             "edit_column": {
-                "name_label": "",
-                "submit_button": "",
-                "title": ""
+                "name_label": "Nimi",
+                "submit_button": "Salvesta",
+                "title": "Muuda veergu"
             }
         }
     }

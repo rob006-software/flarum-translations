@@ -13,42 +13,42 @@
                     "bisect_modal": {
                         "description": "",
                         "end_button": "",
-                        "issue_question": "",
+                        "issue_question": "Kas see probleem on veel alles?",
                         "issue_question_help": "",
-                        "no_button": "",
+                        "no_button": "Ei",
                         "result_description": "",
                         "start_button": "",
                         "stop_button": "",
                         "steps_left": "",
                         "total_steps": "",
                         "title": "",
-                        "yes_button": ""
+                        "yes_button": "Jah"
                     },
                     "config_override": {
-                        "label": "",
+                        "label": "Sinu fail <code>config.php</code> kirjutab need seaded üle.",
                         "help": ""
                     },
                     "help": "",
                     "options": {
-                        "none": "",
+                        "none": "Pole hooldamisel.",
                         "high": "",
                         "low": "",
                         "safe": ""
                     },
                     "safe_mode_extensions": "",
                     "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "section_label": "Hooldamine"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
+                    "section_label": "FontAwesome ikoonid",
+                    "source_label": "Ikooni allikas",
                     "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
+                    "source_local": "Kohalik (kaasatud)",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome komplekt",
+                    "cdn_url_label": "CDN URL",
                     "cdn_url_help": "",
-                    "kit_url_label": "",
+                    "kit_url_label": "Komplekti URL",
                     "kit_url_help": "",
                     "forced_style_label": "",
                     "forced_style_help": "",
@@ -57,49 +57,49 @@
                         "help": ""
                     },
                     "preview": {
-                        "button": "",
-                        "label": "",
+                        "button": "Ikoonide eelvaade",
+                        "label": "Ikooni eelvaade",
                         "help": "",
-                        "fa5_fa6_label": "",
-                        "fa7_label": "",
-                        "pro_label": ""
+                        "fa5_fa6_label": "FA5/FA6 aliased",
+                        "fa7_label": "FA7 klassid",
+                        "pro_label": "Ainult Pro"
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Otsi seadistus, mida kasutada"
                 },
                 "queue": {
                     "pause_label": "",
                     "pause_all_label": "",
                     "pause_queue_label": "",
                     "pause_help": "",
-                    "section_label": "",
+                    "section_label": "Järjekord",
                     "sync_info": "",
                     "sync_help": "",
                     "custom_driver": "",
                     "retries_label": "",
                     "retries_help": "",
-                    "memory_label": "",
+                    "memory_label": "Mälu limiit (MB)",
                     "memory_help": "",
-                    "timeout_label": "",
+                    "timeout_label": "Töö aegumine (sekundites)",
                     "timeout_help": "",
-                    "rest_label": "",
+                    "rest_label": "Puhkamise aeg (sekundites)",
                     "rest_help": "",
                     "backoff_label": "",
                     "backoff_help": ""
                 },
                 "search": {
-                    "section_label": "",
-                    "driver_heading": "",
+                    "section_label": "Otsi draivereid",
+                    "driver_heading": "Otsi draiverit: {model}",
                     "driver_text": "",
                     "driver_options": {
-                        "default": ""
+                        "default": "Vaikimisi andmebaasi otsing"
                     },
                     "no_other_drivers": "",
                     "cjk_mode_label": "",
                     "cjk_mode_help": ""
                 },
-                "title": ""
+                "title": "Edasijõudnutele"
             },
             "appearance": {
                 "allow_user_color_scheme_label": "",
@@ -119,25 +119,25 @@
                 "edit_css_button": "Kohandatud CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "email_logo_heading": "",
+                "email_logo_heading": "E-posti logo",
                 "email_logo_text": "",
                 "enter_hex_message": "Sisesta kuueteistkümnendsüsteemis värvikood.",
                 "favicon_heading": "Väikeikoon",
                 "favicon_text": "Laadi üles pilt, mida näidatakse foorumi otsetee ikoonil.",
                 "logo_heading": "Logo",
                 "logo_text": "Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.",
-                "logo_dark_mode_heading": "",
+                "logo_dark_mode_heading": "Tumeda režiimi logo",
                 "logo_dark_mode_text": "",
                 "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "show_theme_selector_label": "Näita teema valijat",
                 "title": "Välimus",
-                "color_scheme_label": "",
+                "color_scheme_label": "Värviskeem (vaikeväärtus)",
                 "color_schemes": {
                     "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
@@ -145,17 +145,17 @@
                 "default_language_heading": "Vaikimisi keel",
                 "description": "Määra oma foorumi pealkiri, keel ja teised põhiseaded.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "Kasutajanimi"
                 },
                 "display_name_heading": "Kasutaja kuvatav nimi",
                 "display_name_text": "Vali, kuidas näidatakse kasutajate nimesid. Vaikimisi näidatakse kasutajanime.",
                 "avatar_driver_options": {
-                    "default": ""
+                    "default": "Vaikeväärtus"
                 },
-                "avatar_driver_heading": "",
+                "avatar_driver_heading": "Kasutaja avatar",
                 "avatar_driver_text": "",
                 "forum_description_heading": "Foorumi kirjeldus",
-                "forum_description_text": "Sisesta lühike lause või kaks, mis kirjeldab sinu kasutajaskonda. See läheb meta sildi sisse ja seda kasutatakse otsingumootorite poolt.",
+                "forum_description_text": "Sisesta lühike lause või kaks, mis kirjeldab sinu foorumit. See läheb meta sildi sisse ja seda kasutatakse otsingumootorite poolt.",
                 "forum_title_heading": "Foorumi pealkiri",
                 "home_page_heading": "Koduleht",
                 "home_page_text": "Vali leht, mida näidatakse foorumi külastajatele avalehena.",
@@ -166,9 +166,9 @@
                         "utf8": ""
                     },
                     "users": {
-                        "default": "",
-                        "id": "",
-                        "id_with_display_name": ""
+                        "default": "Kasutajanimi",
+                        "id": "ID",
+                        "id_with_display_name": "ID näidatava nimega"
                     }
                 },
                 "slug_driver_heading": "Slug draiver: {model}",
@@ -208,28 +208,28 @@
                 "view_all": "Vaata kõiki lehel discuss.flarum.org"
             },
             "queue_widget": {
-                "title": "",
-                "pending": "",
-                "reserved": "",
-                "failed": "",
-                "refresh": ""
+                "title": "Järjekord",
+                "pending": "Ootel",
+                "reserved": "Töös",
+                "failed": "Ebaõnnestus",
+                "refresh": "Värskenda"
             },
             "failed_jobs": {
-                "title": "",
-                "none": "",
-                "meta": "",
-                "details": "",
-                "retry": "",
-                "retry_all": "",
-                "delete": ""
+                "title": "Ebaõnnestunud tööd",
+                "none": "Ebaõnnestunud töid pole.",
+                "meta": "Järjekord {queue} · ebaõnnestus {time}",
+                "details": "Üksikasjad",
+                "retry": "Proovi uuesti",
+                "retry_all": "Proovi kõiki uuesti",
+                "delete": "Kustuta"
             },
             "dashboard": {
                 "queue_paused_warning": "",
                 "queue_paused_all_warning": "",
-                "queue_paused_manage": "",
+                "queue_paused_manage": "Haldamine",
                 "clear_cache_button": "Puhasta vahemälu",
                 "clear_cache_modal": {
-                    "title": "",
+                    "title": "Tühjenda vahemälu",
                     "working": "",
                     "cleared": "",
                     "cleared_files": "",
@@ -239,8 +239,8 @@
                     "empty": "",
                     "chunks": "",
                     "failed": "",
-                    "took": "",
-                    "reload_button": ""
+                    "took": "{time}ms",
+                    "reload_button": "Laadi uuesti"
                 },
                 "description": "Foorumi ülevaade.",
                 "info_button": "Süsteemi info",
@@ -268,16 +268,16 @@
                 "tools_button": "Tööriistad"
             },
             "extensions-health-widget": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
-                "all_healthy": "",
-                "section_abandoned_empty": "",
-                "section_suggested_empty": "",
-                "section_disabled_empty": "",
-                "title": "",
-                "section_abandoned_heading": "",
+                "abandoned_no_replacement": "Asendust pole saadaval",
+                "abandoned_with_replacement": "Asendus {replacement}",
+                "all_healthy": "Kõik lisaprogrammid on terved.",
+                "section_abandoned_empty": "Probleeme ei leitud.",
+                "section_suggested_empty": "Soovitusi pole.",
+                "section_disabled_empty": "Kõik lisaprogrammid on sisse lülitatud.",
+                "title": "Lisaprogrammi tervis",
+                "section_abandoned_heading": "Vajab tähelepanu",
                 "section_abandoned_help": "",
-                "section_suggested_heading": "",
+                "section_suggested_heading": "Soovitatud",
                 "section_suggested_help": "",
                 "section_disabled_heading": "",
                 "section_disabled_help": "",
@@ -285,11 +285,11 @@
             },
             "database-driver-mismatch-warning": {
                 "detail": "",
-                "label": ""
+                "label": "Andmebaasi draiver ei kattu"
             },
             "database-version-warning": {
                 "below-recommended-detail": "",
-                "below-recommended-label": ""
+                "below-recommended-label": "Andmebaasi versioon on aegunud"
             },
             "debug-warning": {
                 "detail": "Kui <code>silumisrežiim</code> on aktiivne, siis Flarum taasloob <code>Javascripti</code> ja <code>CSS</code> failid igal päringul ning võib potensiaalselt lekkida muud tundlikku informatsiooni - nagu näiteks salastatud andmed andmebaasis, keskkonnamuutujad jne.\n\nRangelt soovituslik on toodangukeskkonnas <code>silumisrežiim</code> välja lülitada <code>config.php</code> konfiguratsioonifailist. Lisainformatsiooni leiab <link>Flarumi dokumentatsioonist</link>.\n",
@@ -330,10 +330,10 @@
                 "driver_label": "Draiver",
                 "format": {
                     "multipart_option": "",
-                    "plain_option": "",
-                    "html_option": ""
+                    "plain_option": "Lihttekst",
+                    "html_option": "HTML"
                 },
-                "format_heading": "",
+                "format_heading": "Väljuvate e-kirjade vorming",
                 "format_help": "",
                 "from_label": "Saatja",
                 "mail_encryption_label": "Krüpteering",
@@ -347,13 +347,13 @@
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
                 "mail_postmark_message_stream_label": "",
-                "mail_postmark_token_label": "",
-                "mail_smtp_verify_peer_label": "",
+                "mail_postmark_token_label": "Serveri kontrollkood",
+                "mail_smtp_verify_peer_label": "Kinnita SSL sertifikaat",
                 "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun seaded",
-                "postmark_heading": "",
-                "postmark_description": "",
+                "postmark_heading": "Poastmarki seaded",
+                "postmark_description": "Saada e-kirjad Postmarki HTTP API kaudu. Soovi korral võid määrata nitte-vaikimisi sõnumite voogu.",
                 "not_sending_message": "Hetkel Flarum e-posti ei saada. See võib olla tingitud valitud draiverist või selle valedest seadetest.",
                 "send_test_mail_button": "Saada",
                 "send_test_mail_heading": "Saada proovimeil",
@@ -393,7 +393,7 @@
                 },
                 "replaced": "Asendatud",
                 "reset_settings": {
-                    "button": "",
+                    "button": "Nulli seaded",
                     "cancel_button": "",
                     "confirm_button": "",
                     "warning": "",
