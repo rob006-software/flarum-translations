@@ -22,7 +22,7 @@
             "permissions": {
                 "refresh_label": "",
                 "translate_any_language_label": "",
-                "translate_label": ""
+                "translate_label": "Tõlgi sisu"
             },
             "settings": {
                 "ai": {
@@ -41,46 +41,46 @@
                     "effort_help": "",
                     "effort_label": "",
                     "effort_options": {
-                        "high": "",
-                        "low": "",
-                        "medium": ""
+                        "high": "Kõrge",
+                        "low": "Madal",
+                        "medium": "Keskmine"
                     },
                     "intro": "",
                     "model_help": "",
-                    "model_label": ""
+                    "model_label": "Mudel"
                 },
                 "deepl": {
                     "api_key_label": "",
                     "en_choice_help": "",
-                    "en_choice_label": "",
+                    "en_choice_label": "Inglisekeelne variant",
                     "intro": "",
                     "pt_choice_help": "",
-                    "pt_choice_label": "",
+                    "pt_choice_label": "Portugali variant",
                     "formality_help": "",
-                    "formality_label": "",
+                    "formality_label": "Formaaldud",
                     "formality_options": {
-                        "default": "",
-                        "prefer_less": "",
-                        "prefer_more": ""
+                        "default": "Vaikimisi",
+                        "prefer_less": "Eelista mitteametlikku",
+                        "prefer_more": "Eelista ametlikku"
                     },
                     "glossaries_empty": "",
                     "glossaries_failed": "",
                     "glossaries_heading": "",
                     "glossaries_help": "",
-                    "glossaries_reload_button": "",
-                    "glossaries_retry_button": "",
-                    "glossary_none_option": "",
-                    "glossary_pair_label": "",
+                    "glossaries_reload_button": "Laadi uuesti",
+                    "glossaries_retry_button": "Proovi uuesti",
+                    "glossary_none_option": "Sõnastikku pole",
+                    "glossary_pair_label": "{source} → {target}",
                     "model_type_help": "",
-                    "model_type_label": "",
+                    "model_type_label": "Mudeli liik",
                     "model_type_options": {
-                        "latency_optimized": "",
-                        "prefer_quality_optimized": ""
+                        "latency_optimized": "Kiirem",
+                        "prefer_quality_optimized": "Kõrgem kvaliteet"
                     }
                 },
                 "driver_help": "",
                 "driver_label": "",
-                "driver_none_option": "",
+                "driver_none_option": "Pole",
                 "driver_not_configured": "",
                 "driver_recommended_option": "",
                 "driver_section_heading": "",
@@ -98,7 +98,7 @@
                 "env_override": "",
                 "env_override_named": "",
                 "glossary": {
-                    "add_button": "",
+                    "add_button": "Lisa termin",
                     "empty_text": "",
                     "help": "",
                     "label": "",
@@ -119,14 +119,14 @@
                     "think_help": "",
                     "think_label": "",
                     "think_options": {
-                        "high": "",
-                        "low": "",
-                        "medium": "",
-                        "off": ""
+                        "high": "Kõrge",
+                        "low": "Madal",
+                        "medium": "Keskmine",
+                        "off": "Väljas"
                     }
                 },
                 "openai": {
-                    "api_key_label": "",
+                    "api_key_label": "API võti",
                     "base_url_env_help": "",
                     "base_url_help": "",
                     "base_url_label": "",
@@ -134,58 +134,58 @@
                     "max_tokens_help": "",
                     "max_tokens_label": "",
                     "model_help": "",
-                    "model_label": ""
+                    "model_label": "Mudel"
                 },
                 "post_translation_display_help": "",
                 "post_translation_display_label": "",
                 "post_translation_display_options": {
-                    "below": "",
-                    "replace": ""
+                    "below": "Originaali all",
+                    "replace": "Asenda originaal"
                 },
                 "short_content_length_help": "",
                 "short_content_length_label": "",
                 "throttle_per_minute_help": "",
                 "throttle_per_minute_label": "",
                 "timeout_help": "",
-                "timeout_label": "",
+                "timeout_label": "Aegumine",
                 "translate_all_enabled_help": "",
                 "translate_all_enabled_label": "",
                 "use_native_locale_names_help": "",
                 "use_native_locale_names_label": ""
             },
             "test": {
-                "button": "",
+                "button": "Testi tõlget",
                 "detected_text": "",
                 "failed_text": "",
-                "failed_unknown_text": "",
+                "failed_unknown_text": "Test ebaõnnestus.",
                 "help": "",
                 "markup_warning": "",
-                "source_label": "",
+                "source_label": "Näidis",
                 "success_text": "",
                 "translation_label": ""
             }
         },
         "forum": {
             "poll": {
-                "show_original_button": ""
+                "show_original_button": "Näita algset"
             },
             "translate_button": {
                 "dropdown_accessible_label": "",
-                "label": "",
+                "label": "Tõlgi",
                 "label_from": "",
                 "target_tooltip": ""
             },
             "translation": {
-                "close_button": "",
+                "close_button": "Sulge tõlge",
                 "header_from": "",
                 "header_to": "",
                 "loading_text": "",
                 "meta": "",
-                "refresh_button": "",
-                "show_original_button": "",
+                "refresh_button": "Värskenda tõlge",
+                "show_original_button": "Näita algset",
                 "stale_text": "",
                 "status_from": "",
-                "status_text": "",
+                "status_text": "Tõlgitud",
                 "thread_failed_text": ""
             }
         },
@@ -204,10 +204,10 @@
         "lib": {
             "drivers": {
                 "claude": "",
-                "deepl": "",
-                "google": "",
-                "ollama": "",
-                "openai": ""
+                "deepl": "DeepL",
+                "google": "Google Translate",
+                "ollama": "Ollama",
+                "openai": "OpenAI"
             }
         }
     },

@@ -10,7 +10,7 @@
             },
             "sections": {
                 "format": {
-                    "description": "Mis süntaksi",
+                    "description": "Mis süntaksi saab kasutada teiste isikute mainimiseks.",
                     "label": "Mainimise vorming"
                 }
             }
@@ -71,16 +71,16 @@
                     "body": "{mentioner_display_name} mainis sind postituses {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} mainis sind postituses [{title}]({url})."
                 }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} mainis gruppi, mille liige sa oled vestluses {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} mainis vestluses {title} gruppi, mille liige sa oled.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} mainis vestluses [{title}]({url}) gruppi, mille liige sa oled."
                 }
             }
         },
@@ -88,8 +88,8 @@
             "gambits": {
                 "posts": {
                     "mentioned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "mainitud",
+                        "hint": "Mainitud kasutaja ID või kasutajanimi"
                     }
                 }
             }
@@ -99,9 +99,9 @@
         "email": {
             "notification": {
                 "types": {
-                    "groupMentioned": "",
-                    "postMentioned": "",
-                    "userMentioned": ""
+                    "groupMentioned": "Sinu grupi mainimine",
+                    "postMentioned": "Vastused sinu postitustele",
+                    "userMentioned": "Sinu mainimine"
                 }
             }
         }

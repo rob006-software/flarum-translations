@@ -52,12 +52,12 @@
                 "s3_compatible_storage": "Järgnevad seaded on vajalikud ainult siis, kui kasutad S3-ga ühilduvat säilitusteenust. Kui kasutad AWS-i, siis võid need tühjaks jätta.\n"
             },
             "tabs": {
-                "files": "",
+                "files": "Failid",
                 "storage": "",
-                "images": "",
-                "advanced": "",
+                "images": "Pildid",
+                "advanced": "Lisavalikud",
                 "unsaved_changes": "",
-                "unsaved_hint": ""
+                "unsaved_hint": "Mõned muudatused on salvestamata."
             },
             "labels": {
                 "storage": {
@@ -66,16 +66,16 @@
                 },
                 "aws-s3": {
                     "bucket": "Korv",
-                    "key": "Võti",
+                    "key": "Ligipääsuvõtme ID",
                     "region": "Regioon",
                     "secret": "Salasõna",
-                    "title": "AWS S3 salvestamise seaded",
-                    "provider": "",
-                    "advanced_title": "S3 säilituskoha lisaseaded",
+                    "title": "S3 salvestusruum",
+                    "provider": "Teenusepakkuja",
+                    "advanced_title": "Lisavalikud",
                     "endpoint": "Lõpp-punkt",
-                    "use_path_style_endpoint": "Kasuta asukoha-stiilis lõpp-punkti",
+                    "use_path_style_endpoint": "Kasuta asukoha-stiilis linke",
                     "acl": "Ligipääsuõigused (ACL)",
-                    "custom_url": "Kohandatud S3 URL"
+                    "custom_url": "Avalik URL"
                 },
                 "disable-download-logging": {
                     "title": "Lülita allalaadimiste logimine välja",
@@ -103,20 +103,20 @@
                     "bucket": "Korv"
                 },
                 "preferences": {
-                    "max_file_size": "Maksimaalne failisuurus (kilobaitides)",
+                    "max_file_size": "Maksimaalne failisuurus",
                     "max_file_size_equivalent": "",
-                    "mime_types": "Seadista oma failitüüpi, üleslaadimise tüübi kaardistamine",
-                    "mime_type_regex_placeholder": "",
+                    "mime_types": "Failitüübid",
+                    "mime_type_regex_placeholder": "nt. ^pilt/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "",
-                    "mime_type_permission_placeholder": "",
-                    "mime_type_remove": "",
-                    "mime_type_add": "",
-                    "mime_column_pattern": "",
+                    "mime_type_permission_placeholder": "Valikuline, nt. pildid",
+                    "mime_type_remove": "Eemalda see failitüüp",
+                    "mime_type_add": "Lisa see failitüüp",
+                    "mime_column_pattern": "Failitüüp",
                     "mime_column_pattern_help": "",
                     "mime_column_storage": "",
                     "mime_column_storage_help": "",
-                    "mime_column_display": "",
-                    "mime_column_display_help": "",
+                    "mime_column_display": "Näidatakse kui",
+                    "mime_column_display_help": "Kuidas seda postituses näidatakse. Eelvaatena, allalaadimise nupuna jne.",
                     "mime_column_permission": "",
                     "mime_column_permission_help": "",
                     "mime_move_up": "",
@@ -128,19 +128,19 @@
                     "mime_add_subtype_placeholder": "",
                     "mime_remove_subtype": "",
                     "mime_add_prompt": "",
-                    "mime_add_custom": "",
+                    "mime_add_custom": "Kohandatud muster…",
                     "title": "Üldised eelistused",
                     "php_ini_values": "Sinu <code>php.ini</code> väärtused on <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Veendu, et siin määratud suurused oleksid väiksemad, kui need suurused või siis kohanda neid seadeid vastavalt oma vajadustele. Kui kasutad <code>Nginx</code>-i, siis veendu, et seade <code>client_max_body_size</code> suurus oleks sinu maksimaalse suurusega kooskõlas ja sinu vajadustele vastav."
                 },
                 "mime_presets": {
-                    "images": "",
-                    "pdf": "",
-                    "documents": "",
-                    "spreadsheets": "",
-                    "archives": "",
-                    "audio": "",
-                    "video": "",
-                    "title": "",
+                    "images": "Pildid",
+                    "pdf": "PDF dokumendid",
+                    "documents": "Wordi dokimendid",
+                    "spreadsheets": "Arvutustabelid",
+                    "archives": "Pakitud failid (zip, tar, 7z)",
+                    "audio": "Heli",
+                    "video": "Video",
+                    "title": "Üldised eelistused",
                     "php_ini_values": ""
                 },
                 "resize": {
@@ -150,18 +150,18 @@
                 },
                 "client_extension": {
                     "title": "Kasutaja lisatud failide laiendid",
-                    "placeholder": ""
+                    "placeholder": "nt. docx, xlsx, epub"
                 },
                 "thumbnails": {
-                    "title": "",
+                    "title": "Pisipildid",
                     "toggle": "",
                     "webp_toggle": "",
                     "max_width": "",
-                    "quality": ""
+                    "quality": "Pisipildi kvaliteet"
                 },
                 "watermark": {
                     "file": "Laadi vesipilt üles",
-                    "opacity": "",
+                    "opacity": "Vesipildi läbipaistmatus (0-100)",
                     "padding": "",
                     "position": "Vesipildi asukoht",
                     "size_percent": "",
@@ -193,9 +193,9 @@
                 "upload_label": "",
                 "upload_mime_label": "",
                 "view_user_uploads_label": "Kasutaja üleslaadimiste vaatamine",
-                "delete_uploads_of_others_label": "Kustuta kasutajate üleslaadimised",
-                "delete_own_uploads_label": "",
-                "upload_shared_label": "Jagatud failide üleslaadimine",
+                "delete_uploads_of_others_label": "Peida ja kustuta kasutajate üleslaadimised",
+                "delete_own_uploads_label": "Omaenda üleslaadimiste kustutamine",
+                "upload_shared_label": "Jagatud failide üleslaadimine, peitmine ja kustutamine",
                 "access_shared_label": "Ligipääs jagatud failidele failihalduris"
             },
             "templates": {
@@ -241,8 +241,8 @@
                 "title": "",
                 "title_plural": "",
                 "help": "",
-                "insert": "",
-                "use_file_name": ""
+                "insert": "Sisesta",
+                "use_file_name": "Kasuta failinimesid"
             },
             "buttons": {
                 "attach": "Lisa fail",
@@ -256,8 +256,8 @@
             "states": {
                 "error": "Viga",
                 "loading": "Üleslaadimine",
-                "unauthorized": "Sul pole lubatud faile alla laadida",
-                "permission_required": ""
+                "unauthorized": "Sul pole lubatud seda faili alla laadida",
+                "permission_required": "Ligipääs on vajalik"
             },
             "validation": {
                 "max_size": "Üleslaadimisi, mis on suuremad kui {max} kb ei aktsepteerita."
@@ -265,7 +265,7 @@
             "text_preview": {
                 "expand": "Laienda eelvaateid",
                 "collapse": "Sulge eelvaade",
-                "download": "",
+                "download": "Laadi fail alla",
                 "error": "Viga faili eelvaate loomisel. See võib olla kustutatud või faili ID on vigane.\n",
                 "no_snippet_preview": "<eelvaadet näidatakse siin pärast postitamist>",
                 "no_snippet": "<eelvaate vidinat pole saadaval>"
@@ -274,7 +274,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Seda tüüpi failide üleslaadimine pole lubatud.",
-                "mime_permission_denied": "",
+                "mime_permission_denied": "Sul pole õigusi seda tüüpi pildi üleslaadimiseks.",
                 "unsupported_type": "Üleslaadimise adapter ei toeta failitüüpi: {mime}.",
                 "could_not_detect_mime": "Selle failitüübi tuvastamine ebaõnnestus, palun proovi uuesti.",
                 "max_upload_file_size_ini": "Üleslaetava faili maksimaalne suurus on php.ini-s ületatud.",
@@ -297,7 +297,7 @@
             "file_list": {
                 "loading": "Failide laadimine...",
                 "empty": "Pole faile, mida näidata.",
-                "load_error": "",
+                "load_error": "Faili laadimine ebaõnnestus. Palun proovi uuesti.",
                 "release_to_upload": "Vabasta, et üles laadida",
                 "modal_empty_desktop": "Sinu fail on tühi. Kliki nupule või lohista üleslaaditav fail siia.",
                 "modal_empty_phone": "Sinu failide nimekiri on tühi. Vajuta ülevalolevale nupule, et fail üles laadida.",

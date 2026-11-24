@@ -18,28 +18,28 @@
             },
             "checks": {
                 "php-version": {
-                    "title": "",
-                    "chip": "",
-                    "pass": "",
-                    "warning": "",
+                    "title": "PHP versioon",
+                    "chip": "PHP {current}",
+                    "pass": "Töötav PHP {current}.",
+                    "warning": "PHP versiooni tuvastamine ebaõnnestus.",
                     "fail": ""
                 },
                 "database-version": {
-                    "title": "",
+                    "title": "Andmebaasi versioon",
                     "pass": "",
                     "warning_unknown": "",
                     "warning_below_recommended": "",
                     "fail": ""
                 },
                 "extension-compatibility": {
-                    "title": ""
+                    "title": "Lisaprogrammide ühilduvus"
                 }
             },
             "extensions": {
                 "contact": {
                     "forum": "",
-                    "issues": "",
-                    "source": ""
+                    "issues": "Probleemid",
+                    "source": "Allikas"
                 }
             },
             "summary": {
@@ -51,50 +51,50 @@
                 "checked": "",
                 "data_as_of": "",
                 "data_as_of_help": "",
-                "recommended": "",
-                "refresh": "",
+                "recommended": "Soovitatud versioon {version}",
+                "refresh": "Värskenda",
                 "refresh_cooldown": "",
-                "export": ""
+                "export": "Ekspordi CSV"
             },
             "list": {
-                "before": "",
-                "after": "",
-                "copy": "",
-                "copied": "",
+                "before": "Enne uuendamist",
+                "after": "Pärast uuendamist",
+                "copy": "Kopeeri",
+                "copied": "Kopeeritud",
                 "configure": "",
                 "groups": {
                     "environment": {
-                        "title": "",
+                        "title": "Serveri keskond",
                         "description": ""
                     },
                     "decision": {
-                        "title": "",
+                        "title": "Vajab otsust",
                         "description": ""
                     },
                     "unknown": {
-                        "title": "",
+                        "title": "Kontrollimine ebaõnnestus",
                         "description": ""
                     },
                     "replace": {
-                        "title": "",
+                        "title": "Eemalda või asenda",
                         "description": ""
                     },
                     "ready": {
-                        "title": "",
+                        "title": "Valmis",
                         "description": ""
                     }
                 },
                 "details": {
-                    "none": "",
+                    "none": "{version}",
                     "none_unversioned": "",
                     "remove": "",
-                    "replacement": "",
+                    "replacement": "→ {replacement}",
                     "replacement_unverified": "",
-                    "abandoned": "",
+                    "abandoned": "Hüljatud, asendust pole",
                     "replacement_not_ready": "",
                     "latest": "",
                     "no_release": "",
-                    "unknown": ""
+                    "unknown": "Ei leitud"
                 }
             },
             "hints": {
@@ -111,24 +111,24 @@
                 "unknown": ""
             },
             "tabs": {
-                "report": "",
-                "repositories": ""
+                "report": "Valmiduse aruanne",
+                "repositories": "Hoidlad"
             },
             "repositories": {
                 "help": "",
                 "empty": "",
-                "add_floxum": "",
-                "add_composer": "",
-                "type_floxum": "",
+                "add_floxum": "Lisa Floxum",
+                "add_composer": "Lisa hoidla",
+                "type_floxum": "Floxum",
                 "type_composer": "",
-                "url": "",
-                "username": "",
-                "token": "",
-                "remove": "",
-                "test": "",
-                "test_ok": "",
+                "url": "Hoidla URL",
+                "username": "Kasutajanimi",
+                "token": "Kontrollkood",
+                "remove": "Eemalda hoidla",
+                "test": "Testi ühendust",
+                "test_ok": "Ühendatud",
                 "test_fail_auth": "",
-                "test_fail_unreachable": "",
+                "test_fail_unreachable": "Koguga ühenduse loomine ebaõnnestus",
                 "test_fail_invalid": ""
             },
             "errors": {
