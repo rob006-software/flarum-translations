@@ -13,14 +13,14 @@
                 "hidden": "Ein Mitglied"
             },
             "wallet": {
-                "left": "",
+                "left": "{count, plural, =0 {Keine Kudos mehr} one {# verbleibende Kudos} other {# verbleibende Kudos}}",
                 "resets": "Neue Kudos in {time}"
             },
             "week": {
                 "this_week": "Diese Woche",
                 "week_of": "Woche vom {date}",
                 "count": "",
-                "ends": "",
+                "ends": "endet in {time}",
                 "older": "Ältere Woche",
                 "newer": "Neuere Woche",
                 "back_to_this_week": "Aktuelle Woche"
@@ -35,7 +35,7 @@
                 "last_week": "",
                 "that_week": "",
                 "count": "",
-                "see_kudos": ""
+                "see_kudos": "Ihre Kudos ansehen"
             },
             "banner": {
                 "eyebrow": "",
@@ -50,64 +50,64 @@
                 "cta": ""
             },
             "wall": {
-                "more": ""
+                "more": "Mehr anzeigen"
             },
             "archive": {
-                "title": ""
+                "title": "Letzte Wochen"
             },
             "card": {
-                "kudos_to": "",
-                "thanks_from": "",
-                "week_of": "",
-                "from": "",
+                "kudos_to": "Kudos an",
+                "thanks_from": "Dank von",
+                "week_of": "Woche vom {date}",
+                "from": "von {name}",
                 "for_post": "",
                 "note_removed": "",
                 "note_hidden_mod": "",
                 "pending": "",
                 "controls": "",
-                "approve": "",
+                "approve": "Genehmigen",
                 "hide_note": "",
                 "restore_note": "",
                 "delete": "",
-                "withdraw": "",
+                "withdraw": "Zurücknehmen",
                 "delete_confirm": "",
                 "withdraw_confirm": ""
             },
             "designs": {
-                "sunrise": "",
-                "meadow": "",
-                "tide": "",
-                "confetti": "",
-                "starlight": "",
-                "letterpress": ""
+                "sunrise": "Sonnenaufgang",
+                "meadow": "Wiese",
+                "tide": "Gezeiten",
+                "confetti": "Konfetti",
+                "starlight": "Sternenlicht",
+                "letterpress": "Briefumschlag"
             },
             "give": {
-                "title": "",
-                "post_control": "",
-                "user_control": "",
+                "title": "Kudos geben",
+                "post_control": "Kudos geben",
+                "user_control": "Kudos geben",
                 "to": "",
                 "search_placeholder": "",
                 "no_match": "",
-                "change": "",
+                "change": "Ändern",
                 "already": "",
                 "for_post": "",
                 "remove_post": "",
                 "note": "",
                 "note_placeholder": "",
-                "design": "",
-                "preview_note": "",
+                "design": "Karte auswählen",
+                "preview_note": "Deine Notiz wird hier angezeigt.",
                 "preview_receiver": "",
                 "left": "",
                 "none_left": "",
-                "submit": "",
-                "sent": "",
+                "submit": "Kudos senden",
+                "sent": "Kudos gesendet an {name}!",
                 "sent_pending": ""
             },
             "profile": {
                 "tab": "",
-                "received": "",
-                "this_week": "",
-                "given": "",
+                "received": "{count, plural, one {Kudos erhalten} other {Kudos erhalten}}",
+                "this_week": "diese Woche",
+                "given": "{count, plural, one {vergeben} other {vergeben}}",
                 "spotlights": "",
                 "give": "",
                 "top_givers": "",
