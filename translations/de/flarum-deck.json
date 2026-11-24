@@ -12,8 +12,8 @@
             },
             "sections": {
                 "columns": {
-                    "description": "",
-                    "label": ""
+                    "description": "Wie viele Spalten Mitglieder zu ihrem Deck hinzufügen können und wie oft diese Spalten aktualisiert werden.",
+                    "label": "Spalten"
                 }
             }
         },
@@ -37,7 +37,7 @@
                 "submit_button": "Spalte hinzufügen",
                 "title": "Eine Spalte hinzufügen",
                 "use_filters_button": "Diese Filter verwenden",
-                "filter_unknown_message": ""
+                "filter_unknown_message": "{count, plural, one {{parts} ist kein Filter für Diskussionen.} other{{parts} sind keine Filter für Diskussionen.}} Verwende Filter wie „tag:support“ oder „is:unread“."
             },
             "column": {
                 "controls_label": "{title} Spaltenoptionen",
@@ -55,7 +55,7 @@
                 "remove_button": "Spalte entfernen",
                 "reset_width_button": "Breite zurücksetzen",
                 "resize_label": "Größe von {title} anpassen",
-                "edit_button": ""
+                "edit_button": "Spalte bearbeiten"
             },
             "column_types": {
                 "all": "Alle Diskussionen",
@@ -109,9 +109,9 @@
                 "title": "Deck"
             },
             "edit_column": {
-                "name_label": "",
-                "submit_button": "",
-                "title": ""
+                "name_label": "Name",
+                "submit_button": "Speichern",
+                "title": "Spalte bearbeiten"
             }
         }
     }
