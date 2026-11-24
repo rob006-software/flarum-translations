@@ -2,7 +2,7 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "",
+                "description": "Seadista oma foorumit veelgi täpsemalt.",
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "",
@@ -19,8 +19,8 @@
                         "result_description": "",
                         "start_button": "",
                         "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
+                        "steps_left": "Samme järgi: {steps}",
+                        "total_steps": "Sellega läheb umbes {steps} sammu.",
                         "title": "",
                         "yes_button": "Jah"
                     },
@@ -71,13 +71,13 @@
                 "queue": {
                     "pause_label": "",
                     "pause_all_label": "",
-                    "pause_queue_label": "",
+                    "pause_queue_label": "Peata järjekord {queue}",
                     "pause_help": "",
                     "section_label": "Järjekord",
                     "sync_info": "",
                     "sync_help": "",
                     "custom_driver": "",
-                    "retries_label": "",
+                    "retries_label": "Töö uuesti proovimised",
                     "retries_help": "",
                     "memory_label": "Mälu limiit (MB)",
                     "memory_help": "",
@@ -339,14 +339,14 @@
                 "mail_encryption_label": "Krüpteering",
                 "mail_encryption_tls_help": "",
                 "mail_encryption_ssl_help": "",
-                "mail_encryption_none_help": "",
+                "mail_encryption_none_help": "Krüpteeringut pole. Reaalsel saidil kasutamine pole soovitatav.",
                 "mail_host_label": "Server",
                 "mail_mailgun_domain_label": "Domeen",
                 "mail_mailgun_region_label": "Regioon",
                 "mail_mailgun_secret_label": "Salavõti",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
-                "mail_postmark_message_stream_label": "",
+                "mail_postmark_message_stream_label": "Sõnumi voog",
                 "mail_postmark_token_label": "Serveri kontrollkood",
                 "mail_smtp_verify_peer_label": "Kinnita SSL sertifikaat",
                 "mail_smtp_verify_peer_help": "",
@@ -398,7 +398,7 @@
                     "confirm_button": "Nulli",
                     "warning": "",
                     "title": "Nulli seaded",
-                    "title_extension": ""
+                    "title_extension": "Nulli {extensionTitle} seaded"
                 },
                 "safe_mode_warning": ""
             },
@@ -471,7 +471,7 @@
                 "post_without_throttle_label": "Ilma vahepausita vastamine",
                 "read_heading": "Vaatamine",
                 "remove_scope_label": "Eemalda ulatus {scope}",
-                "remove_scope_confirmation": "",
+                "remove_scope_confirmation": "Oled sa kindel, et soovid eemaldada ulatust {scope}?",
                 "rename_discussions_label": "Vestluste ümbernimetamine",
                 "reply_to_discussions_label": "Vestlustele vastamine",
                 "search_users_label": "Kasutajate otsimine",
@@ -669,7 +669,7 @@
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "",
+                "delete_all_confirm": "Oled sa kindel, et soovid kustutada kõik teavitused? Seda ei saa tagasi võtta",
                 "delete_all_tooltip": "Kustuta kõik teated",
                 "discussion_renamed_text": "{username} muutis pealkirja",
                 "empty_text": "Teateid pole",
@@ -694,9 +694,9 @@
                 "toggle_dropdown_accessible_label": "Näita postituse juhtmenüüd"
             },
             "post_list": {
-                "empty_text": "",
-                "in_discussion_text": "",
-                "load_more_button": ""
+                "empty_text": "Näib, et sul pole siin ühtegi postitust.",
+                "in_discussion_text": "Vestluses {discussion}",
+                "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
                 "now_link": "Nüüd",
@@ -712,12 +712,12 @@
                 "time_lapsed_text": "{period} hiljem"
             },
             "posts_sort": {
-                "newest_button": "",
+                "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
-                "relevance_button": ""
+                "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
-                "meta_title_text": "",
+                "meta_title_text": "Postituste otsimise tulemus",
                 "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
@@ -833,7 +833,7 @@
                 "dismiss_a11y_label": "Hülga teavitus"
             },
             "assets_updated": {
-                "message": "",
+                "message": "Sellest lehest on saadaval uuem versioon.",
                 "reload_button": "Laadi uuesti"
             },
             "badge": {
@@ -861,10 +861,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Tuvastati probleemsed sõltuvused: {extensions}. Katkestamine. Palun lülita üks lisaprogrammidest välja ja proovi siis uuesti.",
-                "db_error_message": "",
+                "db_error_message": "Andmebaasi päring ebaõnnestus. Selle põhjuseks võib olla see, et lisaprogramm, et sobi kokku sinu andmebaasi draiveriga.",
                 "dependent_extensions_message": "{extension} laiendust ei saa keelata enne nende laienduste keelamist: {extensions}",
                 "extension_initialiation_failed_message": "{extension} paigaldamine ebaõnnestus - lisainformatsiooni võid leida brauseri konsoolist.",
-                "extension_runtime_failed_message": "",
+                "extension_runtime_failed_message": "{extension} andis käivitades vea. Lisainfot vaata brauseri konsoolist.",
                 "generic_message": "Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.",
                 "generic_cross_origin_message": "Ups! Päringuga läks midagi valesti. Palun laadi lehekülg ja proovi uuesti.",
                 "missing_dependencies_message": "{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}",
@@ -878,18 +878,18 @@
             },
             "gambits": {
                 "group_keys": {
-                    "allows": "",
-                    "has": "",
-                    "is": ""
+                    "allows": "lubab",
+                    "has": "sisaldab",
+                    "is": "on"
                 },
                 "discussions": {
                     "author": {
                         "key": "autor",
-                        "hint": ""
+                        "hint": "kasutajanimi või komadega eraldatud nimekiri kasutajanimedest"
                     },
                     "created": {
                         "key": "loodud",
-                        "hint": ""
+                        "hint": "2020-12-31 või 2020-12-31..2021-09-30"
                     },
                     "hidden": {
                         "key": "peidetud"
@@ -901,17 +901,17 @@
                 "posts": {
                     "discussion": {
                         "key": "vestlus",
-                        "hint": ""
+                        "hint": "vestluse ID"
                     }
                 },
                 "users": {
                     "email": {
                         "key": "e-post",
-                        "hint": ""
+                        "hint": "example@machine.local"
                     },
                     "group": {
-                        "key": "",
-                        "hint": ""
+                        "key": "grupp",
+                        "hint": "grupi nimi ainsuses või mitmuses"
                     }
                 }
             },
@@ -932,7 +932,7 @@
                 "close": "Sulge"
             },
             "multi_select": {
-                "placeholder": ""
+                "placeholder": "Tee mitu valikut"
             },
             "nav": {
                 "drawer_button": "Ava navigatsioon",
@@ -972,13 +972,13 @@
                 "gambit_plus_button_a11y_label": "Lisa positiivne filter",
                 "gambit_minus_button_a11y_label": "Lisa negatiivne filter",
                 "title": "Otsi",
-                "no_results_text": "",
+                "no_results_text": "Tundub, et tulemusi pole.",
                 "no_search_text": "",
                 "options_heading": "Otsingu valikud",
                 "placeholder": "Otsi...",
                 "preview_heading": "Otsingu eelvaade",
                 "search_active_button_accessible_label": "Muuda otsingut: {query}",
-                "search_clear_button_accessible_label": ""
+                "search_clear_button_accessible_label": "Tühjenda otsingu päring"
             },
             "search_source": {
                 "discussions": {
@@ -1145,8 +1145,8 @@
                 "subject": "Toiming on vajalik: tuvastati hüljatud lisaprogramm(e)",
                 "body_intro": "",
                 "body_outro": "",
-                "line_with_replacement": "",
-                "line_no_replacement": ""
+                "line_with_replacement": "{package} (soovitatud asendus: {replacement})",
+                "line_no_replacement": "{package} (asendust pole saadaval)"
             }
         },
         "ref": {
@@ -1161,7 +1161,7 @@
             "custom_footer_title": "Kohandatud jalus",
             "custom_header_text": "Lisa lehe päisesse Flarumi päise kohale see HTML.",
             "custom_header_title": "Kohandatud päis",
-            "dark_hc_mode_label": "",
+            "dark_hc_mode_label": "Tume kõrge kontrastiga režiim",
             "dark_mode_label": "Tume režiim",
             "delete": "Kustuta",
             "delete_forever": "Kustuta igaveseks",
@@ -1172,9 +1172,9 @@
             "extensions": "Laiendused",
             "generic_confirmation_message": "Oled sa kindel, et soovid jätkata? Seda toimingut ei saa tühistada.",
             "icon": "Ikoon",
-            "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> eesliitega.",
+            "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> eesliitega (nt. <code>fas fa-flag</code> või <code>fa-solid fa-flag</code>).",
             "invalid_login_message": "Sinu kasutaja andmed polnud korrektsed.",
-            "light_hc_mode_label": "",
+            "light_hc_mode_label": "Hele kõrge kontrastiga režiim",
             "light_mode_label": "Hele režiim",
             "load_more": "Laadi rohkem",
             "latest": "Viimased",
@@ -1209,7 +1209,7 @@
             "start_a_discussion": "Alusta uut vestlust",
             "title_az": "Pealkiri (A-Z)",
             "title_za": "Pealkiri (Z-A)",
-            "too_many_login_attempts_message": "",
+            "too_many_login_attempts_message": "Liiga palju ebaõnnestunud sisselogimise katseid. Palun oota mõned minutid ja proovi siis uuesti.",
             "top": "Üles",
             "username": "Kasutajanimi",
             "username_or_email_placeholder": "Kasutajanimi või e-post",
