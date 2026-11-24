@@ -1106,6 +1106,9 @@ return [
 	'huseyinfiliz-sticky-title' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/2.0.1/locale/en.yml',
 	],
+	'huseyinfiliz-theme-transitions' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/theme-transitions/1.0/locale/en.yml',
+	],
 	'huseyinfiliz-traderfeedback' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/traderfeedback/v3.2.1/resources/locale/en.yml',
 	],
