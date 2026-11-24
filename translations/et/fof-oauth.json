@@ -38,8 +38,8 @@
                     "flarum": {
                         "description": "",
                         "forum_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "github": {
                         "description": "Loo OAuth rakendus lingil {link}.",
@@ -85,7 +85,7 @@
                 "with_button": "Logi sisse teenusega {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
-                "with_flarum_button": "",
+                "with_flarum_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_google_button": "=> fof-oauth.forum.log_in.with_button",
@@ -109,7 +109,7 @@
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
-                "flarum": "",
+                "flarum": "=> fof-oauth.lib.providers.flarum",
                 "github": "=> fof-oauth.lib.providers.github",
                 "gitlab": "=> fof-oauth.lib.providers.gitlab",
                 "google": "=> fof-oauth.lib.providers.google",
@@ -117,9 +117,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
+                "title": "Seotud konto",
                 "body": "",
-                "dismiss_button": ""
+                "dismiss_button": "Selge"
             },
             "signup": {
                 "username_help": "Palun vali kasutajanimi, mida kasutada siin"
@@ -128,7 +128,7 @@
             "error": {
                 "bad_verification_code": "Vigane või aegunud kinnituskood. Palun proovi uuesti.",
                 "invalid_state": "Vigane staatus. Palun proovi uuesti.",
-                "already_linked": "",
+                "already_linked": "Konto on juba seotud teise kasutajaga.",
                 "provider_misconfigured": ""
             }
         },
@@ -142,7 +142,7 @@
             "providers": {
                 "discord": "Discord",
                 "facebook": "Facebook",
-                "flarum": "",
+                "flarum": "Flarum",
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "google": "Google",
@@ -151,8 +151,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "sisselogimise teenusepakkuja"
                 }
             }
         },
