@@ -25,8 +25,8 @@
                 "slug_label": "Slug (Teil der URL)",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Tag erstellen",
-                "icon_image_label": "",
-                "icon_image_text": ""
+                "icon_image_label": "=> core.ref.icon_image",
+                "icon_image_text": "=> core.ref.icon_image_text"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -60,13 +60,13 @@
             },
             "sections": {
                 "requirements": {
-                    "label": "",
-                    "description": ""
+                    "label": "Tag-Anforderungen",
+                    "description": "Wie viele Tags jede neue Diskussion benötigt. Mitglieder mit der Berechtigung „Tag-Anforderungen umgehen“ können Beiträge mit einer beliebigen Anzahl von Tags verfassen."
                 }
             },
             "tabs": {
-                "settings": "",
-                "tags": ""
+                "settings": "=> flarum-tags.admin.tags.settings_heading",
+                "tags": "=> flarum-tags.ref.tags"
             }
         },
         "forum": {
@@ -133,7 +133,7 @@
             "tags": "Tags"
         },
         "api": {
-            "cannot_change_is_primary_message": ""
+            "cannot_change_is_primary_message": "Ein Tag wird durch Ändern der Tag-Reihenfolge als primäres oder sekundäres Tag festgelegt."
         }
     },
     "flarum-audit": {
