@@ -3719,7 +3719,12 @@
                 "settings": {
                     "following_none_label": "c2b7927faa73f9f639de8389ee34c245 c2b7927faa73f9f639de8389ee34c245",
                     "following_page_default_label": "7a1ca28d49c337938c5411c5eec36147 7a1ca28d49c337938c5411c5eec36147",
-                    "following_tags_label": "186170da9a7c0ef08f1154991cf808dd 186170da9a7c0ef08f1154991cf808dd"
+                    "following_tags_label": "186170da9a7c0ef08f1154991cf808dd 186170da9a7c0ef08f1154991cf808dd",
+                    "prompt_tag_ids_label": "d41d8cd98f00b204e9800998ecf8427e 58d8d7d2440adba72e7a22e3bed51545",
+                    "prompt_tag_strategy_options": {
+                        "all": "d41d8cd98f00b204e9800998ecf8427e 6fd89d0c640b3907a083d20868a88e70",
+                        "list": "d41d8cd98f00b204e9800998ecf8427e c4afccc59e4782f9207183d779bed92a"
+                    }
                 }
             },
             "forum": {
@@ -3742,6 +3747,12 @@
                     "new_discussion_tag_text": "c6a6480f843edb370be6a2b51554aea3 c6a6480f843edb370be6a2b51554aea3",
                     "new_discussion_text": "9fb4f7a00c9cfa064a68e7da41e6559b 9fb4f7a00c9cfa064a68e7da41e6559b",
                     "new_post_text": "890d0cfcf3bd1a9dfbc356f6bbad9f6e 890d0cfcf3bd1a9dfbc356f6bbad9f6e"
+                },
+                "prompt": {
+                    "choose_button": "d41d8cd98f00b204e9800998ecf8427e 96b9f8cf13ebebf7e8090253feb05a3f",
+                    "continue_button": "d41d8cd98f00b204e9800998ecf8427e 995836a4bde21aef01a4a7786d96043c",
+                    "later_button": "d41d8cd98f00b204e9800998ecf8427e 99298eece1fa591de7b8a49c3b1b6486",
+                    "modal_title": "d41d8cd98f00b204e9800998ecf8427e 96b9f8cf13ebebf7e8090253feb05a3f"
                 },
                 "settings": {
                     "notify_new_discussion_label": "de06e7e124a48ae53806213c1ff552c2 de06e7e124a48ae53806213c1ff552c2",
@@ -4700,10 +4711,16 @@
                 },
                 "post": {
                     "moving": "d41d8cd98f00b204e9800998ecf8427e cc0b65cbc992ccb118a0c7d03afac81f"
+                },
+                "post_stream": {
+                    "post_moved": "d41d8cd98f00b204e9800998ecf8427e 96f69da944128ac0aef10787dc20aaee"
                 }
             },
             "ref": {
-                "move_posts": "d41d8cd98f00b204e9800998ecf8427e 0334056ae39b1747c37147ba4a644a7e"
+                "move_posts": "d41d8cd98f00b204e9800998ecf8427e 0334056ae39b1747c37147ba4a644a7e",
+                "status": {
+                    "old_to_new_move": "d41d8cd98f00b204e9800998ecf8427e a4230295f19e254707e94f714a3ad974"
+                }
             }
         }
     },
