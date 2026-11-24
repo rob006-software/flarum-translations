@@ -1,37 +1,37 @@
 {
     "clarkwinkelmann-popular-discussion-badge": {
         "forum": {
-            "badge_label": ""
+            "badge_label": "Népszerű"
         },
         "admin": {
             "settings": {
-                "mode": "",
-                "mode_help": "",
+                "mode": "Működés módja",
+                "mode_help": "Az előtétprogram mód egy hatékony megoldás, amely nem használja az adatbázist. Az ütemező módhoz CRON beállítása szükséges, és ez lehetővé teszi az időablakok használatát a feltételekben.\n",
                 "mode_options": {
-                    "frontend": "",
-                    "scheduler": ""
+                    "frontend": "Előtétprogram",
+                    "scheduler": "Ütemező (CRON)"
                 },
-                "scheduler_frequency": "",
-                "scheduler_frequency_help": "",
+                "scheduler_frequency": "Az ütemezett mód gyakorisága",
+                "scheduler_frequency_help": "Milyen gyakran frissül a népszerű állapot ütemező (CRON) módban. (Előtétprogram módban az állapot mindig azonnal frissül)\n",
                 "scheduler_frequency_options": {
-                    "everyFiveMinutes": "",
-                    "everyTenMinutes": "",
-                    "everyFifteenMinutes": "",
-                    "everyThirtyMinutes": "",
-                    "hourly": ""
+                    "everyFiveMinutes": "5 percenként",
+                    "everyTenMinutes": "10 percenként",
+                    "everyFifteenMinutes": "15 percenként",
+                    "everyThirtyMinutes": "30 percenként",
+                    "hourly": "Óránként"
                 },
-                "conditions": "",
-                "conditions_help": "",
-                "add": "",
-                "comments": "",
-                "comments_placeholder": "",
-                "views": "",
-                "views_placeholder": "",
-                "within": "",
-                "within_placeholder": "",
-                "hours": "",
-                "and": "",
-                "or": ""
+                "conditions": "Népszerű jelvény feltételei",
+                "conditions_help": "A bejegyzések száma a hozzászólások és a kezdőbejegyzés darabszáma összesen. A megtekintések a MichaelBelgium vagy a Flarumite bővítményekből kerülnek lekérésre. A megadott időablak az előző n óra bejegyzéseinek vagy megtekintéseinek összeszámlálására szolgál. Csak a MichaelBelgium bővítmény támogatja az időablakos megtekintéseket. Hagyja üresen vagy állítsa 0-ra, hogy az összes bejegyzést vagy megtekintést figyelembe vegye.\n",
+                "add": "További feltétel hozzáadása",
+                "comments": "Bejegyzések",
+                "comments_placeholder": "0",
+                "views": "Megtekintések",
+                "views_placeholder": "0",
+                "within": "ebben:",
+                "within_placeholder": "összes",
+                "hours": "ó",
+                "and": "ÉS",
+                "or": "VAGY"
             }
         }
     }

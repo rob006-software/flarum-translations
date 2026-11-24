@@ -1,37 +1,37 @@
 {
     "clarkwinkelmann-popular-discussion-badge": {
         "forum": {
-            "badge_label": ""
+            "badge_label": "Популярно"
         },
         "admin": {
             "settings": {
-                "mode": "",
-                "mode_help": "",
+                "mode": "Режим работы",
+                "mode_help": "Режим Frontend — эффективное решение, не использующее базу данных. Режим Scheduler требует настройки CRON и позволяет использовать временные рамки в условиях.\n",
                 "mode_options": {
-                    "frontend": "",
-                    "scheduler": ""
+                    "frontend": "Frontend",
+                    "scheduler": "Планировщик CRON"
                 },
-                "scheduler_frequency": "",
-                "scheduler_frequency_help": "",
+                "scheduler_frequency": "Частота в режиме планировщика",
+                "scheduler_frequency_help": "Определяет, как часто будет обновляться статус популярности в режиме планировщика CRON. В режиме Frontend статус обновляется мгновенно.\n",
                 "scheduler_frequency_options": {
-                    "everyFiveMinutes": "",
-                    "everyTenMinutes": "",
-                    "everyFifteenMinutes": "",
-                    "everyThirtyMinutes": "",
-                    "hourly": ""
+                    "everyFiveMinutes": "Каждые 5 минут",
+                    "everyTenMinutes": "Каждые 10 минут",
+                    "everyFifteenMinutes": "Каждые 15 минут",
+                    "everyThirtyMinutes": "Каждые 30 минут",
+                    "hourly": "Раз в час"
                 },
-                "conditions": "",
-                "conditions_help": "",
-                "add": "",
-                "comments": "",
-                "comments_placeholder": "",
-                "views": "",
-                "views_placeholder": "",
-                "within": "",
-                "within_placeholder": "",
-                "hours": "",
-                "and": "",
-                "or": ""
+                "conditions": "Условия для значка популярности",
+                "conditions_help": "Комментарии — это общее количество сообщений в теме, включая первое сообщение. Количество просмотров берётся из расширений MichaelBelgium или Flarumite. Указанные временные рамки используются для подсчёта комментариев или просмотров за последние N часов. Подсчёт просмотров в рамках временного периода поддерживается только расширением MichaelBelgium. Оставьте поле временного периода пустым или укажите 0 часов, чтобы учитывать все комментарии или просмотры за всё время.\n",
+                "add": "Добавить ещё одно условие",
+                "comments": "Комментарии",
+                "comments_placeholder": "0",
+                "views": "Просмотров",
+                "views_placeholder": "0",
+                "within": "в течение",
+                "within_placeholder": "все",
+                "hours": "ч.",
+                "and": "И",
+                "or": "ИЛИ"
             }
         }
     }

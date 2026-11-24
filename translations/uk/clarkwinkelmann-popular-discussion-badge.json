@@ -1,37 +1,37 @@
 {
     "clarkwinkelmann-popular-discussion-badge": {
         "forum": {
-            "badge_label": ""
+            "badge_label": "Популярний"
         },
         "admin": {
             "settings": {
-                "mode": "",
-                "mode_help": "",
+                "mode": "Режим роботи",
+                "mode_help": "Фронтенд-режим - це ефективне рішення, яке не використовує базу даних. Режим планувальника вимагає налаштування CRON і дозволяє використовувати часові рамки в умовах.\n",
                 "mode_options": {
-                    "frontend": "",
-                    "scheduler": ""
+                    "frontend": "Фоонтенд",
+                    "scheduler": "Планувальник (CRON)"
                 },
-                "scheduler_frequency": "",
-                "scheduler_frequency_help": "",
+                "scheduler_frequency": "Періодичність для запланованого режиму",
+                "scheduler_frequency_help": "Як часто буде оновлюватися популярний статус у режимі Планувальника (CRON). (У режимі Frontend статус завжди оновлюється негайно)\n",
                 "scheduler_frequency_options": {
-                    "everyFiveMinutes": "",
-                    "everyTenMinutes": "",
-                    "everyFifteenMinutes": "",
-                    "everyThirtyMinutes": "",
-                    "hourly": ""
+                    "everyFiveMinutes": "Кожні 5 хвилин",
+                    "everyTenMinutes": "Кожні 10 хвилин",
+                    "everyFifteenMinutes": "Кожні 15 хвилин",
+                    "everyThirtyMinutes": "Кожні 30 хвилин",
+                    "hourly": "Раз на годину"
                 },
-                "conditions": "",
-                "conditions_help": "",
-                "add": "",
-                "comments": "",
-                "comments_placeholder": "",
-                "views": "",
-                "views_placeholder": "",
-                "within": "",
-                "within_placeholder": "",
-                "hours": "",
-                "and": "",
-                "or": ""
+                "conditions": "Умови для популярного бейджа",
+                "conditions_help": "Коментарі - це загальна кількість дописів з коментарями, включно з першим дописом. Перегляди отримуються з розширень MichaelBelgium або Flarumite. Вказаний проміжок часу буде використано для підрахунку коментарів або переглядів за останні n годин. Тільки розширення MichaelBelgium підтримується для переглядів з часовими рамками. Залиште таймфрейм порожнім або встановіть 0 годин, щоб порахувати всі коментарі або перегляди за весь час.\n",
+                "add": "Додайте ще одну умову",
+                "comments": "Коментарі",
+                "comments_placeholder": "0",
+                "views": "Перегляди",
+                "views_placeholder": "0",
+                "within": "в межах",
+                "within_placeholder": "усі",
+                "hours": "год",
+                "and": "І",
+                "or": "ЧИ"
             }
         }
     }
