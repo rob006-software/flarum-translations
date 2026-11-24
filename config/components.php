@@ -36,6 +36,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v2.0.0/locale/en.yml',
 		'__builtInLanguages' => ['fr'],
 	],
+	'archlinux-de-click-image' => [
+		'tag' => 'https://raw.githubusercontent.com/archlinux-de/flarum-click-image/2.0.0/locale/en.yml',
+		'__builtInLanguages' => ['de'],
+	],
 	'asyntai-chatbot' => [
 		'tag' => 'https://raw.githubusercontent.com/asyntai/flarum-chatbot/v1.0.1/locale/en.yml',
 	],
