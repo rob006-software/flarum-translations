@@ -287,7 +287,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.10/locale/en.yml',
 	],
 	'ernestdefoe-fanfare' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/fanfare/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/fanfare/1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-federation' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.1.3/resources/locale/en.yml',
