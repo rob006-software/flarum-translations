@@ -3,36 +3,36 @@
         "admin": {
             "page": {
                 "access_destructive": "",
-                "access_read": "",
-                "access_write": "",
-                "capabilities_failed": "",
+                "access_read": "Lesen",
+                "access_write": "Schreiben",
+                "capabilities_failed": "Die Liste konnte nicht geladen werden.",
                 "chatgpt_steps": "",
-                "chatgpt_title": "",
+                "chatgpt_title": "ChatGPT",
                 "claude_steps": "",
-                "claude_title": "",
-                "column_access": "",
-                "column_kind": "",
-                "column_name": "",
-                "column_source": "",
+                "claude_title": "Claude",
+                "column_access": "Zugang",
+                "column_kind": "Art",
+                "column_name": "Name",
+                "column_source": "Hinzugefügt von",
                 "copied": "",
-                "copy_button": "",
+                "copy_button": "Kopieren",
                 "copy_failed": "",
-                "kind_prompt": "",
+                "kind_prompt": "Prompt",
                 "kind_resource": "",
                 "kind_template": "",
                 "kind_tool": "",
                 "metadata_url_label": "",
-                "server_url_label": "",
+                "server_url_label": "Server-URL",
                 "sub_path_apache": "",
                 "sub_path_nginx": "",
                 "sub_path_warning": "",
                 "token_steps": "",
                 "token_title": "",
                 "vscode_steps": "",
-                "vscode_title": ""
+                "vscode_title": "VS Code"
             },
             "permissions": {
-                "heading": "",
+                "heading": "MCP",
                 "use_label": ""
             },
             "sections": {
@@ -46,12 +46,12 @@
                 },
                 "server": {
                     "description": "",
-                    "label": ""
+                    "label": "Server"
                 }
             },
             "tabs": {
-                "capabilities": "",
-                "connect": ""
+                "capabilities": "Fähigkeiten",
+                "connect": "Verbinden"
             }
         },
         "api": {
@@ -61,7 +61,7 @@
             "invalid": "",
             "invalid_token": "",
             "not_exposed": "",
-            "not_found": "",
+            "not_found": "Nicht gefunden.",
             "requires_read_scope": "",
             "requires_sign_in": "",
             "requires_write_scope": "",
