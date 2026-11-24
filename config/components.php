@@ -690,6 +690,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/v2.0.1/locale/en.yml',
 		'beta' => 'https://raw.githubusercontent.com/flarum/nicknames/v2.1.0-beta.1/locale/en.yml',
 	],
+	'flarum-oauth-provider' => [
+		'beta' => 'https://raw.githubusercontent.com/flarum/oauth-provider/v2.1.0-beta.1/resources/locale/en.yml',
+	],
 	'flarum-pusher' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/pusher/v2.0.0/locale/en.yml',
 		'beta' => 'https://raw.githubusercontent.com/flarum/pusher/v2.1.0-beta.1/locale/en.yml',
