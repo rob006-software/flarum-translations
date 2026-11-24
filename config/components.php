@@ -710,6 +710,7 @@ return [
 	],
 	'flarum-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v2.0.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/tags/v2.1.0-beta.1/locale/en.yml',
 	],
 	'flectar-turnstile' => [
 		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/2.0.1/locale/en.yml',
