@@ -165,14 +165,14 @@
         "lib": {
             "dialog": {
                 "title": "Unterhaltung {username}",
-                "private_group_title": "",
-                "group_title": ""
+                "private_group_title": "Private Unterhaltung",
+                "group_title": "{names}{others, plural, =0 {} other { +#}}"
             },
             "no_other_members_message": "Sonst ist niemand in dieser Unterhaltung.",
             "recipient_cannot_reply_message": "{username} kann nicht auf Nachrichten antworten.",
             "recipient_unavailable_message": "{username} kann keine Nachrichten empfangen.",
-            "too_many_groups_message": "",
-            "groups_unavailable_message": "",
+            "too_many_groups_message": "Eine Nachricht darf an maximal {count} Gruppen gehen.",
+            "groups_unavailable_message": "Diese Gruppen können keine Nachrichten empfangen.",
             "too_many_recipients_message": ""
         }
     },
@@ -195,7 +195,7 @@
                     "posted": "Hat eine private Nachricht an {username} gesendet",
                     "group_started": "",
                     "group_posted": "",
-                    "message_edited": "",
+                    "message_edited": "Hat eine private Nachricht von {username} bearbeitet",
                     "message_hidden": "",
                     "message_restored": "",
                     "message_deleted": ""
