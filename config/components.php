@@ -675,6 +675,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/markdown/v2.0.1/locale/en.yml',
 		'beta' => 'https://raw.githubusercontent.com/flarum/markdown/v2.1.0-beta.1/locale/en.yml',
 	],
+	'flarum-mcp' => [
+		'beta' => 'https://raw.githubusercontent.com/flarum/mcp/v2.1.0-beta.1/locale/en.yml',
+	],
 	'flarum-mentions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v2.0.3/locale/en.yml',
 		'beta' => 'https://raw.githubusercontent.com/flarum/mentions/v2.1.0-beta.1/locale/en.yml',
