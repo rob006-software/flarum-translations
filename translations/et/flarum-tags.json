@@ -4,17 +4,17 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "Vaikimisi",
+                    "id_with_slug": "ID lühinimega"
                 }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Kustuta silt",
-                "default_sort_label": "",
-                "default_sort_none": "",
+                "default_sort_label": "Vaikimisi sorteerimine",
+                "default_sort_none": "Kasuta foorumi vaikeväärtust",
                 "default_sort_text": "",
-                "default_sort_unavailable": "",
+                "default_sort_unavailable": "{sort} (pole enam saadaval)",
                 "delete_tag_confirmation": "Oled kindel, et soovid seda silti kustutada? Selle sildiga vestlusi ei kustutata.",
                 "description_label": "Kirjeldus",
                 "hide_label": "Peida kõiki vestluste nimekirjast",
@@ -25,8 +25,8 @@
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Loo uus silt",
-                "icon_image_label": "",
-                "icon_image_text": ""
+                "icon_image_label": "=> core.ref.icon_image",
+                "icon_image_text": "=> core.ref.icon_image_text"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -60,13 +60,13 @@
             },
             "sections": {
                 "requirements": {
-                    "label": "",
+                    "label": "Sildi nõuded",
                     "description": ""
                 }
             },
             "tabs": {
-                "settings": "",
-                "tags": ""
+                "settings": "=> flarum-tags.admin.tags.settings_heading",
+                "tags": "=> flarum-tags.ref.tags"
             }
         },
         "forum": {
@@ -82,9 +82,9 @@
                 "choose_tags_link": "Vali sildid"
             },
             "deck": {
-                "column_label": "",
-                "tag_label": "",
-                "tag_placeholder": ""
+                "column_label": "Silt",
+                "tag_label": "Silt",
+                "tag_placeholder": "Otsi silti"
             },
             "discussion_controls": {
                 "edit_tags_button": "Muuda silte"
@@ -112,7 +112,7 @@
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "",
+                        "key": "silt",
                         "hint": ""
                     }
                 }
@@ -143,9 +143,9 @@
                     "tagged": ""
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Lisati silt {tag}",
+                    "updated": "Uuendati silti {tag}",
+                    "deleted": "Kustutati silt {tag}"
                 }
             }
         }
