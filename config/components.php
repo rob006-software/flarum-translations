@@ -653,7 +653,6 @@ return [
 	],
 	'flarum-extension-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/extension-manager/v2.0.1/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/flarum/extension-manager/v2.1.0-beta.1/locale/en.yml',
 	],
 	'flarum-flags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v2.0.1/locale/en.yml',
