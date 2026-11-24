@@ -7,14 +7,14 @@
             "settings": {
                 "title": "Kasutaja kehastamine",
                 "require_reason": "Nõua enne teise kasutaja kehastamist põhjuse sisestamist.",
-                "require_reason_help": "",
-                "no_settings_available": "Seadeid pole praegu saadaval Proovi paigaldada lisaprogramm fof/moderator-notes"
+                "require_reason_help": "Põhjus salvestatakse auditi logisse (flarum/audit) ja/või kui moderaatori märkmetena mõlemale kontole (fof/moderator-notes), kumbiganes lisaprogrammidest on sisse lülitatud.",
+                "no_settings_available": "Seadeid pole praegu saadaval Proovi paigaldada lisaprogramm fof/moderator-notes või flarum/audit"
             }
         },
         "lib": {
             "modal": {
                 "title": "Logi sisse kui teine kasutaja",
-                "label": "Suure võimuga tuleb ka suur vastutus. Jätkates oled sa kasutaja {username} kuni sa välja logid.",
+                "label": "Suure võimuga tuleb ka suur vastutus. Jätkates oled sa kasutaja {username} kuni sa tagasi lülitud.",
                 "placeholder_optional": "(valikuline) Sisesta põhjus, miks sa lülitud sellele kasutajakontole",
                 "placeholder_required": "Enne jätkamist pead sisestama põhjuse, miks sa lülitud sellele kasutajakontole",
                 "impersonate_username": "Logi sisse kui {username}"
@@ -25,10 +25,10 @@
         },
         "forum": {
             "notice": {
-                "message": ""
+                "message": "Kehastad hetkel kasutajat {username}."
             },
             "return": {
-                "button": ""
+                "button": "Tagasi kasutajale {username}"
             }
         }
     },
@@ -36,8 +36,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": "",
-                    "impersonation_ended": ""
+                    "impersonated": "Kehastatud kasutaja {username}",
+                    "impersonation_ended": "Tagasi kasutajana {username}"
                 }
             }
         }
