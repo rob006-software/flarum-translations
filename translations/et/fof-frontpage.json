@@ -5,24 +5,24 @@
                 "front_button": "Avaleht"
             },
             "badge": {
-                "frontpage_tooltip": ""
+                "frontpage_tooltip": "Märgitud avaleheks"
             },
             "post_controls": {
-                "push_to_front_button": "",
-                "pull_from_front_button": ""
+                "push_to_front_button": "Lisa avalehele",
+                "pull_from_front_button": "Eemalda avalehelt"
             }
         }
     },
     "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": ""
+                "can_push_to_frontpage_label": "Võib lisada avalehele"
             }
         },
         "lib": {
             "gambits": {
                 "frontpage": {
-                    "key": ""
+                    "key": "avaleht"
                 }
             }
         }
