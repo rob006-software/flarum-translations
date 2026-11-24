@@ -2,15 +2,15 @@
     "ernestdefoe-renown": {
         "lib": {
             "ranks": {
-                "1": "",
-                "2": "",
-                "3": "",
+                "1": "Neuling",
+                "2": "Besucher",
+                "3": "Mitglied",
                 "4": "",
                 "5": "",
                 "6": "",
                 "7": "",
                 "8": "",
-                "9": "",
+                "9": "Veteran",
                 "10": "",
                 "11": "",
                 "12": "",
@@ -52,16 +52,16 @@
             }
         },
         "forum": {
-            "nav": "",
+            "nav": "Rangliste",
             "card": {
-                "level": ""
+                "level": "Stufe {level}"
             },
             "toast": {
-                "ranked_up": "",
-                "title": ""
+                "ranked_up": "Stufenanstieg",
+                "title": "{rank} · Stufe {level}"
             },
             "notification": {
-                "prestige_ready": "",
+                "prestige_ready": "Du hast Stufe 100 erreicht. Prestige wartet ab jetzt auf dich.",
                 "preference": ""
             },
             "buzz": {
@@ -69,14 +69,14 @@
                 "prestige": ""
             },
             "boost": {
-                "title_2": "",
-                "title_3": "",
-                "until": "",
-                "starts": "",
-                "in_tag": ""
+                "title_2": "Doppelte EP",
+                "title_3": "Dreifache EP",
+                "until": "bis {time}",
+                "starts": "beginnt {time}",
+                "in_tag": "in {tag}"
             },
             "board": {
-                "title": "",
+                "title": "Rangliste",
                 "period_all": "",
                 "period_month": "",
                 "period_week": "",
