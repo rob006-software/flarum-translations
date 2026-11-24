@@ -1020,6 +1020,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-discussion-participants`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-discussion-participants) | [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants) |
 | [`ernestdefoe-docket`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-docket) | [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) |
 | [`ernestdefoe-dossier`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-dossier) | [`ernestdefoe/dossier`](https://github.com/ernestdefoe/dossier) |
+| [`ernestdefoe-duskline`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-duskline) | [`ernestdefoe/duskline`](https://github.com/ernestdefoe/duskline) |
 | [`ernestdefoe-earshot`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-earshot) | [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) |
 | [`ernestdefoe-fanfare`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-fanfare) | [`ernestdefoe/fanfare`](https://github.com/ernestdefoe/fanfare) |
 | [`ernestdefoe-federation`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-federation) | [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation) |
