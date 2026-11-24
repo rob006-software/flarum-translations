@@ -18,7 +18,7 @@
                 "limitedIpAddress": "IP-Adresse anzeigen"
             },
             "tabs": {
-                "log": ""
+                "log": "Protokoll"
             }
         },
         "forum": {
@@ -157,8 +157,8 @@
                     "password_reset_attempted_unmatched": "Passwortzurücksetzung für {email} angefordert (kein dazugehöriges Konto)",
                     "provider_connected": "Hat Provider {provider} mit Konto {username} verbunden",
                     "username_changed": "{username}s Benutzernamen von {old_username} zu {new_username} geändert",
-                    "email_bounced": "",
-                    "email_bounced_unmatched": "",
+                    "email_bounced": "Mail an {username} wurde zurückgewiesen: {reason}",
+                    "email_bounced_unmatched": "Mail an {email} (kein dazugehöriges Konto gefunden) wurde zurückgewiesen: {reason}",
                     "email_complained": "",
                     "email_complained_unmatched": "",
                     "logged_out_everywhere": "",
