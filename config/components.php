@@ -686,6 +686,7 @@ return [
 	],
 	'flarum-pusher' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/pusher/v2.0.0/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/pusher/v2.1.0-beta.1/locale/en.yml',
 	],
 	'flarum-realtime' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/realtime/v2.0.2/resources/locale/en.yml',
