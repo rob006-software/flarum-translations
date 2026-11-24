@@ -678,6 +678,7 @@ return [
 	],
 	'flarum-messages' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/messages/v2.0.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/messages/v2.1.0-beta.1/locale/en.yml',
 	],
 	'flarum-nicknames' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/v2.0.1/locale/en.yml',
