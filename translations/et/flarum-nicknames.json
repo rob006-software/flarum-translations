@@ -21,12 +21,12 @@
             "wrong_driver": "Selleks, et see laiendus rakenduks, pead <a><strong>Põhiseadete lehel</strong></a> valima kuvatavaks nimeks hüüdnime.",
             "sections": {
                 "registration": {
-                    "description": "",
-                    "label": ""
+                    "description": "Mida uuelt liikmelt küsitakse, kui nad liituvad.",
+                    "label": "Registreerumine"
                 },
                 "validation": {
-                    "description": "",
-                    "label": ""
+                    "description": "Reeglid, mida kõik hüüdnimed peavad järgima.",
+                    "label": "Kontrollimine"
                 }
             }
         },
@@ -58,7 +58,7 @@
         "lib": {
             "browser": {
                 "user": {
-                    "nickname_changed": ""
+                    "nickname_changed": "Muutis kasutaja {username} hüüdnime. Vana oli {old_nickname}. Uus on {new_nickname}"
                 }
             }
         }
