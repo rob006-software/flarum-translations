@@ -1013,7 +1013,7 @@
                     "search_title": "Suchseite",
                     "search_page_enabled_label": "Erweiterte Suchseite",
                     "search_page_enabled_help": "Eine Seite /search mit Tabs für Diskussionen, Beiträge, Tags und Nutzer, erweiterten Filtern (Verfasser, primärer Tag, Tags, nur Titel, Gefällt-mir-Angaben, Status, Datum, Mindestbeitragszahl) und Sortierung. Der Suchdialog erhält den Link „Erweiterte Suche“.",
-                    "search_notice": "Die Filter können auch direkt in die Suche eingegeben werden: in:title, in:likes, in:bookmarks und min-posts:5, zusätzlich zu Flarums eigenen Filtern wie author:, tag: und is:locked…",
+                    "search_notice": "Die Filter können auch direkt in die Suche eingegeben werden: in:title, in:likes, in:bookmarks und min-posts:5, zusätzlich zu Flarums eigenen Filtern (author:, tag:, is:locked…).",
                     "bulk_title": "Mehrfachauswahl",
                     "bulk_select_enabled_label": "Mehrfachauswahl für Moderatoren",
                     "bulk_select_enabled_help": "Eine Schaltfläche in der Listenleiste aktiviert Kontrollkästchen für jede Diskussion und eine Aktionsleiste: als gelesen markieren, anheften, schließen, Tags ändern, verbergen und löschen. Sie erscheint nur für Personen, die mindestens eine aufgelistete Diskussion moderieren dürfen. Jede Aktion gilt nur im Rahmen der eigenen Berechtigungen.",
@@ -1484,8 +1484,8 @@
                     "discard": "Verwerfen",
                     "regen": "Erneut versuchen",
                     "copy": "Kopieren",
-                    "copied": "Kopiert!",
-                    "no_content_error": "Füge zuerst Inhalt hinzu, um KI-Aktionen darauf anzuwenden",
+                    "copied": "Kopiert",
+                    "no_content_error": "Füge zuerst Inhalt hinzu, um KI-Aktionen darauf anzuwenden.",
                     "custom_prompt_placeholder": "Eigene Anweisung eingeben…",
                     "custom_prompt_submit": "Anweisung senden",
                     "translate": "Auf {language} übersetzen",
@@ -1684,7 +1684,7 @@
                 "more_message_actions": "Weitere Aktionen",
                 "scroll_to_bottom": "Nach unten scrollen",
                 "scroll_to_new_messages": "Neue Nachrichten ansehen",
-                "invalid_access": "Du hast keinen Zugriff auf diesen Chatkanal",
+                "invalid_access": "Dieser Kanal ist zugangsbeschränkt. Bitte wende dich an die Administratoren des Kanals, um Zugang zu erhalten.",
                 "load_more": "Mehr laden",
                 "enable": "Chat aktivieren",
                 "disabled_for_you": "Der Chat ist für dich deaktiviert. Aktiviere ihn unter Einstellungen → Chat erneut.",
@@ -1712,11 +1712,11 @@
                 },
                 "retry_staged_message": {
                     "title": "Netzwerkfehler",
-                    "action": "Erneut senden?"
+                    "action": "Erneut versuchen"
                 },
                 "upload_errors": {
-                    "too_large": "zu groß",
-                    "failed": "fehlgeschlagen"
+                    "too_large": "Datei ist zu groß. Bitte wähle eine kleinere.",
+                    "failed": "Das Hochladen ist fehlgeschlagen. Bitte versuche es erneut."
                 },
                 "aria_roles": {
                     "composer": "Chateditor"
@@ -1877,7 +1877,7 @@
                 "channel_edit_name_slug_modal": {
                     "input_placeholder": "Namen hinzufügen",
                     "slug_label": "URL-Kennung",
-                    "slug_description": "Die URL-Kennung wird in der Adresse anstelle des Kanalnamens verwendet"
+                    "slug_description": "Der Teil des Kanal-Links, der anstelle des Namens verwendet wird. Verwende Kleinbuchstaben, Zahlen und Bindestriche."
                 },
                 "channel_edit_description_modal": {
                     "input_placeholder": "Beschreibung hinzufügen",
@@ -3561,7 +3561,7 @@
                 "admired": {
                     "name": "Bewundert",
                     "description": "Auf 300 Beiträgen jeweils 5 Gefällt-mir-Angaben erhalten",
-                    "long_description": "Dieses Abzeichen erhältst du, wenn 300 verschiedene Beiträge von dir jeweils mindestens 5 Gefällt-mir-Angaben erhalten haben. Die Community bewundert deine regelmäßigen und hochwertigen Beiträge!"
+                    "long_description": "Dieses Abzeichen erhältst du, wenn 300 verschiedene Beiträge von dir jeweils mindestens 5 Gefällt-mir-Angaben erhalten haben. Die Community bewundert deine regelmäßigen und hochwertigen Beiträge."
                 },
                 "thank_you": {
                     "name": "Danke schön",
@@ -3576,7 +3576,7 @@
                 "empathetic": {
                     "name": "Einfühlsam",
                     "description": "500 mit „Gefällt mir“ markierte Beiträge und 1000 Gefällt-mir-Angaben vergeben",
-                    "long_description": "Dieses Abzeichen erhältst du, wenn 500 deiner Beiträge mit „Gefällt mir“ markiert wurden und du selbst mindestens 1000 Gefällt-mir-Angaben vergeben hast. Du bist ein Vorbild für Großzügigkeit und gegenseitige Wertschätzung!"
+                    "long_description": "Dieses Abzeichen erhältst du, wenn 500 deiner Beiträge mit „Gefällt mir“ markiert wurden und du selbst mindestens 1000 Gefällt-mir-Angaben vergeben hast. Du bist ein Vorbild für Großzügigkeit und gegenseitige Wertschätzung."
                 },
                 "out_of_love": {
                     "name": "Liebe verteilt",
@@ -3621,7 +3621,7 @@
                 "great_post": {
                     "name": "Großartige Antwort",
                     "description": "50 Gefällt-mir-Angaben für eine Antwort erhalten",
-                    "long_description": "Dieses Abzeichen erhältst du, wenn deine Antwort 50 Gefällt-mir-Angaben bekommt. Sie war inspirierend, faszinierend, lustig oder aufschlussreich und hat die Community begeistert!"
+                    "long_description": "Dieses Abzeichen erhältst du, wenn deine Antwort 50 Gefällt-mir-Angaben bekommt. Deine Beiträge waren inspirierend, faszinierend, lustig oder aufschlussreich und haben die Community begeistert."
                 },
                 "nice_topic": {
                     "name": "Schöne Diskussion",
@@ -3746,7 +3746,7 @@
                 "placeholder": "Wiki durchsuchen",
                 "results_heading": "Ergebnisse für \"{query}\"",
                 "all_button": "Durchsuche das Wiki für \"{query}\"",
-                "empty": "Keine Artikel gefunden \"{query}\""
+                "empty": "Keine Artikel gefunden für „{query}“."
             },
             "nav": "Wiki",
             "common": {
