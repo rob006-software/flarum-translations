@@ -77,12 +77,12 @@
                     "label": "Anonymisierung"
                 },
                 "erasure": {
-                    "description": "",
-                    "label": ""
+                    "description": "Welche Löschmethoden Mitglieder anfordern können und welche standardmäßig verwendet wird.",
+                    "label": "Löschanfragen"
                 },
                 "overview": {
-                    "description": "",
-                    "label": ""
+                    "description": "Welche daten exportiert und gelöscht werden, inklusive Daten, die von anderen Erweiterungen erfasst wurden.",
+                    "label": "Datenübersicht"
                 }
             }
         },
@@ -115,8 +115,8 @@
                     "export_description": "Exportiert Daten aus der Benutzertabelle. Alle Spalten außer ID und Passwort."
                 },
                 "emailbounceevents": {
-                    "anonymize_description": "",
-                    "delete_description": "",
+                    "anonymize_description": "Entfernt die E-Mail-Adresse aus dem Bounce-Verlauf des Benutzers, wobei anonyme Datensätze für statistische Zwecke erhalten bleiben.",
+                    "delete_description": "Löscht den Bounce-Verlauf der E-Mail des Benutzers.",
                     "export_description": ""
                 }
             },
