@@ -1,0 +1,150 @@
+{
+    "flarum-oauth-provider": {
+        "admin": {
+            "clients": {
+                "applications": {
+                    "heading": "",
+                    "help": "",
+                    "empty": "",
+                    "off": ""
+                },
+                "self_registered": {
+                    "heading": "",
+                    "help": "",
+                    "empty": "",
+                    "off": ""
+                },
+                "new_button": "",
+                "connections": "",
+                "connections_none": "",
+                "last_used": "",
+                "never_used": "",
+                "name_column": "",
+                "id_column": "",
+                "redirects_column": "",
+                "status_column": "",
+                "status_active": "",
+                "status_revoked": "",
+                "edit_button": "",
+                "delete_button": "",
+                "rotate_button": "",
+                "delete_confirm": "",
+                "rotate_confirm": ""
+            },
+            "form": {
+                "new_title": "",
+                "edit_title": "",
+                "name_label": "",
+                "redirect_uris_label": "",
+                "redirect_uris_help": "",
+                "scopes_label": "",
+                "scopes_help": "",
+                "confidential_label": "",
+                "confidential_help": "",
+                "revoked_label": "",
+                "save_button": ""
+            },
+            "sections": {
+                "registration": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "settings": {
+                "allow_self_registered_clients_label": "",
+                "allow_self_registered_clients_help": "",
+                "allow_admin_clients_label": "",
+                "allow_admin_clients_help": "",
+                "source_metadata_document": "",
+                "source_dynamic": ""
+            },
+            "tabs": {
+                "applications": "",
+                "self_registered": "",
+                "settings": ""
+            },
+            "permissions": {
+                "connect_label": ""
+            },
+            "secret_modal": {
+                "title": "",
+                "intro": "",
+                "rotated_title": "",
+                "rotated_intro": "",
+                "client_id_label": "",
+                "client_secret_label": "",
+                "close_button": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "connected": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            }
+        },
+        "api": {
+            "scopes_empty_message": "",
+            "scope_unknown_message": ""
+        },
+        "forum": {
+            "consent": {
+                "title": "",
+                "intro": "",
+                "scopes_heading": "",
+                "approve_button": "",
+                "deny_button": "",
+                "from_host": "",
+                "unverified": "",
+                "redirect_host": ""
+            },
+            "connected_apps": {
+                "heading": "",
+                "help_text": "",
+                "empty": "",
+                "from_host": "",
+                "connected": "",
+                "last_used": "",
+                "never_used": "",
+                "revoke_button": "",
+                "revoke_confirm": "",
+                "revoked": "",
+                "revoke_all_button": "",
+                "revoke_all_confirm": "",
+                "revoked_all": ""
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "connectedapplications": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "oauth_connected": "",
+                    "oauth_signed_in": "",
+                    "oauth_disconnected": "",
+                    "oauth_disconnected_all": ""
+                },
+                "oauth_client": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "secret_rotated": ""
+                }
+            }
+        }
+    }
+}

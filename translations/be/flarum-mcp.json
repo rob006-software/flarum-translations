@@ -1,0 +1,72 @@
+{
+    "flarum-mcp": {
+        "admin": {
+            "page": {
+                "access_destructive": "",
+                "access_read": "",
+                "access_write": "",
+                "capabilities_failed": "",
+                "chatgpt_steps": "",
+                "chatgpt_title": "",
+                "claude_steps": "",
+                "claude_title": "",
+                "column_access": "",
+                "column_kind": "",
+                "column_name": "",
+                "column_source": "",
+                "copied": "",
+                "copy_button": "",
+                "copy_failed": "",
+                "kind_prompt": "",
+                "kind_resource": "",
+                "kind_template": "",
+                "kind_tool": "",
+                "metadata_url_label": "",
+                "server_url_label": "",
+                "sub_path_apache": "",
+                "sub_path_nginx": "",
+                "sub_path_warning": "",
+                "token_steps": "",
+                "token_title": "",
+                "vscode_steps": "",
+                "vscode_title": ""
+            },
+            "permissions": {
+                "heading": "",
+                "use_label": ""
+            },
+            "sections": {
+                "capabilities": {
+                    "description": "",
+                    "label": ""
+                },
+                "connect": {
+                    "description": "",
+                    "label": ""
+                },
+                "server": {
+                    "description": "",
+                    "label": ""
+                }
+            },
+            "tabs": {
+                "capabilities": "",
+                "connect": ""
+            }
+        },
+        "api": {
+            "fields_not_writable": "",
+            "forbidden": "",
+            "forbidden_description": "",
+            "invalid": "",
+            "invalid_token": "",
+            "not_exposed": "",
+            "not_found": "",
+            "requires_read_scope": "",
+            "requires_sign_in": "",
+            "requires_write_scope": "",
+            "throttled": "",
+            "unknown_filters": ""
+        }
+    }
+}
