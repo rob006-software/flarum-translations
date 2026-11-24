@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Povoliť formát spomenutia (@Pouzivatelske_meno)",
                 "allow_username_format_text": "Súčasný formát spomenutí používateľov je @\"Zobrazované Meno\"#ID.\nToto nastavenie umožňuje používať starý formát @Pouzivatelske_meno, avšak po uložení bude stále konvertované na nový formát.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Citovať",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Niekto odpovie na jeden z mojich príspevok",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

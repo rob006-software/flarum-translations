@@ -18,7 +18,17 @@
                 "set_on_registration_label": "Permetre establir pseudònims en el registre de l'usuari",
                 "unique_label": "Requerir pseudònims únics"
             },
-            "wrong_driver": "Has de seleccionar \"nickname\" com a nom de visualització en la <a><strong>Pàgina Bàsica</strong></a> perquè aquesta extensió tingui efecte."
+            "wrong_driver": "Has de seleccionar \"nickname\" com a nom de visualització en la <a><strong>Pàgina Bàsica</strong></a> perquè aquesta extensió tingui efecte.",
+            "sections": {
+                "registration": {
+                    "description": "",
+                    "label": ""
+                },
+                "validation": {
+                    "description": "",
+                    "label": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Aquest pseudònim no és vàlid. Si us plau, contacta amb l'administrador del fòrum per a més informació sobre les normes dels pseudònims."

@@ -9,6 +9,12 @@
                 "max_columns_label": "Máximo de columnas por miembro",
                 "poll_interval_help": "Frecuencia con la que las columnas comprueban si hay nueva actividad cuando Realtime no está conectado. El valor 0 deshabilita esta función; el mínimo es 15.",
                 "poll_interval_label": "Intervalo de actualización (segundos)"
+            },
+            "sections": {
+                "columns": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -30,7 +36,8 @@
                 "pick_a_result_message": "Elija un resultado para {field} de las sugerencias.",
                 "submit_button": "Añadir columna",
                 "title": "Añadir una columna",
-                "use_filters_button": "Usar estos filtros"
+                "use_filters_button": "Usar estos filtros",
+                "filter_unknown_message": ""
             },
             "column": {
                 "controls_label": "Opciones de la columna {title}",
@@ -47,7 +54,8 @@
                 "refresh_button": "Actualizar",
                 "remove_button": "Eliminar columna",
                 "reset_width_button": "Restablecer ancho",
-                "resize_label": "Redimensionar {title}"
+                "resize_label": "Redimensionar {title}",
+                "edit_button": ""
             },
             "column_types": {
                 "all": "Todas las discusiones",
@@ -99,6 +107,11 @@
                 "scroll_left_label": "Desplazar a la izquierda",
                 "scroll_right_label": "Desplazar a la derecha",
                 "title": "Deck"
+            },
+            "edit_column": {
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         }
     }

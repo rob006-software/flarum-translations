@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Naziv za URL",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Kreirajte kategoriju"
+                "title": "Kreirajte kategoriju",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Primarne kategorije",
                 "secondary_heading": "Sekundarne kategorije",
                 "settings_heading": "Podešavanja"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "",
             "name": "Naziv",
             "tags": "Kategorije"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Permitir menção de nome de utilizador (@Username)",
                 "allow_username_format_text": "O formato atual para menções do utilizador é @\"Nome\"#ID.\nEsta configuração permite utilizar o formato antigo de @Username, no entanto, ele ainda será convertido para o novo formato ao guardar.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Citar",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Alguém responde a um de meus posts",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

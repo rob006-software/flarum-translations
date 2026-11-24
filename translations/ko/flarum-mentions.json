@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "사용자명 언급 형식 (@사용자명) 허용",
                 "allow_username_format_text": "사용자 언급 형식은 현재 @\"표시 이름\"#ID입니다.\n이 설정은 @사용자명의 이전 형식을 사용할 수 있게 하지만, 저장할 때 여전히 새 형식으로 변환됩니다.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "인용문",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "누군가 내 게시물 중 하나에 답장했을 때",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

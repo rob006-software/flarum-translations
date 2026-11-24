@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "ユーザー名でのメンションを許可する (@Username)",
                 "allow_username_format_text": "現在、ユーザーをメンションする時の構文は @\"表示名\"#ID です。\nこの設定は、古い構文である @ユーザー名 を許可しますが、保存時に上記の新しい構文に変換されます。\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "引用",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "誰かがあなたの投稿に返信した時",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

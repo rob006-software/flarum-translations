@@ -34,7 +34,10 @@
                 "not_following_button": "Nie obserwujesz",
                 "not_following_text": "Będziesz powiadamiany tylko wtedy, kiedy zostaniesz @wspomniany.",
                 "notify_alert_tooltip": "Otrzymuj powiadomienia na forum, kiedy pojawią się nowe posty",
-                "notify_email_tooltip": "Otrzymuj powiadomienia e-mail, kiedy pojawią się nowe posty"
+                "notify_email_tooltip": "Otrzymuj powiadomienia e-mail, kiedy pojawią się nowe posty",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Obserwuj",
             "following": "Obserwujesz",
             "ignoring": "Ignorujesz"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

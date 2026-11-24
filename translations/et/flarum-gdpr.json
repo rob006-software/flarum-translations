@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Nullib kõik veerud kasutaja tabelis. Mitte-nullitavad veerud asendatakse vaike- või eriväärtustega. Parool muudetakse, eelistused määratakse vaikimisi seadetele ja kõik grupid eemaldatakse.",
                     "delete_description": "Kustutab kasutaja andmebaasist.",
                     "export_description": "Ekspordib andmed kasutaja tabelist. Kõik veerud välja arvatud ID ja parool."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

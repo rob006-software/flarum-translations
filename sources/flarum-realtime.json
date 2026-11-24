@@ -45,6 +45,20 @@
                 "index-typing-indicator-help": "When enabled, an ambient icon appears on the discussion list for any publicly-visible discussion that someone is currently typing in. No names are shown.",
                 "index-typing-indicator-restricted": "Discussion list typing dots in restricted tags",
                 "index-typing-indicator-restricted-help": "Also show typing dots for discussions in restricted tags, to users who can see those tags. Requires the Tags extension. Off by default."
+            },
+            "sections": {
+                "discussion-list": {
+                    "description": "How new activity reaches the discussion list while it is open.",
+                    "label": "Discussion list"
+                },
+                "notifications": {
+                    "description": "How realtime notifications are shown.",
+                    "label": "Notifications"
+                },
+                "typing": {
+                    "description": "Show members when someone else is writing a reply.",
+                    "label": "Typing indicators"
+                }
             }
         }
     }

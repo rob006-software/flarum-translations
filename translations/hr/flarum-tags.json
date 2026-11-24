@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Kratica",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Stvori oznaku"
+                "title": "Stvori oznaku",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Glavne oznake",
                 "secondary_heading": "Sporedne oznake",
                 "settings_heading": "Postavke"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "",
             "name": "Naziv",
             "tags": "Oznake"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

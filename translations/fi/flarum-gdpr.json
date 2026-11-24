@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Asettaa kaikki sarakkeet käyttäjätaulussa null arvoksi. Ei null arvoiset sarakkeet asetetaan oletusarvoihinsa tai erityisarvoihinsa. Salasana muutetaan, asetukset palautetaan oletusarvoiksi ja kaikki ryhmät poistetaan.",
                     "delete_description": "Poistaa käyttäjän tietokannasta.",
                     "export_description": "Vie tiedon käyttäjät taulusta. Kaikki paitsi id ja salasana."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

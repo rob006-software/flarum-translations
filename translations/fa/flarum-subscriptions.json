@@ -34,7 +34,10 @@
                 "not_following_button": "دنبال نشده",
                 "not_following_text": "فقط وقتی که از من @نام برده شد.",
                 "notify_alert_tooltip": "دریافت اعلان جدید وقتی کسی چیزی نوشت",
-                "notify_email_tooltip": "دریافت ایمیل وقتی کسی چیز جدیدی نوشت"
+                "notify_email_tooltip": "دریافت ایمیل وقتی کسی چیز جدیدی نوشت",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "دنبال کردن",
             "following": "دنبال شده",
             "ignoring": "نادیده گرفتن"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

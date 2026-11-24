@@ -34,7 +34,10 @@
                 "not_following_button": "Ei jälgi",
                 "not_following_text": "Teavita ainult siis, kui mind @mainitakse.",
                 "notify_alert_tooltip": "Teavita uutest postitustest foorumi veebilehel",
-                "notify_email_tooltip": "Teavita uutest postitustest meili teel"
+                "notify_email_tooltip": "Teavita uutest postitustest meili teel",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Jälgi",
             "following": "Jälgitud",
             "ignoring": "Ignoreeritud"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

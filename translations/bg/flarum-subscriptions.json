@@ -34,7 +34,10 @@
                 "not_following_button": "Не следвам",
                 "not_following_text": "Получавайте известия само при @споменаване.",
                 "notify_alert_tooltip": "Получавайте известие във форума, когато има нови публикации",
-                "notify_email_tooltip": "Получаване на имейл, когато има нови публикации"
+                "notify_email_tooltip": "Получаване на имейл, когато има нови публикации",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Следвай",
             "following": "Следване",
             "ignoring": "Игнориране"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

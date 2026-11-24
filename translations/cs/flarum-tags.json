@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug (část adresy URL)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Vytvořit štítek"
+                "title": "Vytvořit štítek",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Hlavní štítky",
                 "secondary_heading": "Vedlejší štítky",
                 "settings_heading": "Nastavení"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Vyberte ještě 1 štítek} other {Vyberte ještě # štítků}}",
             "name": "Název",
             "tags": "Štítky"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

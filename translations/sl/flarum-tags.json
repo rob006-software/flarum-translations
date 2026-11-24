@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Ustvari oznako"
+                "title": "Ustvari oznako",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Primarne oznake",
                 "secondary_heading": "Sekundarne oznake",
                 "settings_heading": "Nastavitve"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Izberi še # oznako} other {Izberi še # oznak}}",
             "name": "Ime",
             "tags": "Oznake"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

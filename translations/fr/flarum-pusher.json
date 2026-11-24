@@ -13,6 +13,16 @@
                 "server_hostname_label": "Nom d'hôte du serveur",
                 "server_hostname_help": "Facultatif. Remplacez l'hôte auquel le client se connecte, pour un serveur auto-hébergé compatible avec Pusher (p.ex. soketi). Laissez ce champ vide pour utiliser le service hébergé par Pusher avec la grappe de serveurs ci-dessus.",
                 "title": "Paramètres de Pusher"
+            },
+            "sections": {
+                "connection": {
+                    "description": "",
+                    "label": ""
+                },
+                "server": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {

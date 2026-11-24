@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Autoriser le format de mention du nom d'utilisateur (@utilisateur)",
                 "allow_username_format_text": "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\" qui sera néanmoins converti au nouveau format lors de l'enregistrement.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Citer",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Quelqu'un répond à un de mes messages",
@@ -84,6 +91,17 @@
                         "key": "mentionné",
                         "hint": "L'identifiant ou le nom d'utilisateur de l'utilisateur mentionné"
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

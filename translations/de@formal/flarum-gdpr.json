@@ -70,6 +70,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -99,6 +113,11 @@
                     "anonymize_description": "Setzt alle Spalten in der Benutzertabelle auf null. Spalten, die dies nicht zulassen, werden auf ihre Standardwerte oder spezielle Werte gesetzt. Das Passwort wird geändert, Einstellungen auf Standard zurückgesetzt und alle Gruppenzugehörigkeiten werden entfernt.",
                     "delete_description": "Löscht den Nutzer aus der Datenbank.",
                     "export_description": "Exportiert Daten aus der Benutzertabelle. Alle Spalten außer ID und Passwort."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

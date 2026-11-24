@@ -6,7 +6,24 @@
                 "message_users_without_permission_label": "",
                 "delete_own_messages_label": "Ta bort egna meddelanden",
                 "send_without_throttle_label": "",
-                "view_ips_label": ""
+                "view_ips_label": "",
+                "delete_messages_forever_label": "",
+                "edit_own_messages_label": "",
+                "message_groups_label": ""
+            },
+            "sections": {
+                "groups": {
+                    "description": "",
+                    "label": ""
+                }
+            },
+            "settings": {
+                "recipient_groups_label": "",
+                "recipient_groups_help": "",
+                "allow_group_names_help": "",
+                "allow_group_names_label": "",
+                "max_recipients_help": "",
+                "max_recipients_label": ""
             }
         },
         "forum": {
@@ -15,7 +32,8 @@
                 "placeholder": "Skriv ett meddelande...",
                 "recipients": "Mottagare",
                 "submit_button": "Skicka meddelande",
-                "to": "Till:"
+                "to": "Till:",
+                "title": ""
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
@@ -23,20 +41,25 @@
                 "own_last_message_preview": "",
                 "title": "Meddelanden",
                 "unread_count_text": "",
-                "view_all": "Visa alla meddelanden"
+                "view_all": "Visa alla meddelanden",
+                "group_last_message_preview": ""
             },
             "dialog_section": {
                 "back_label": "Gå tillbaka",
                 "cannot_reply_text": "Den här användaren kan inte svara",
                 "controls": {
-                    "details_button": "Detaljer"
+                    "details_button": "Detaljer",
+                    "leave_button": "",
+                    "rename_button": ""
                 },
                 "controls_toggle_label": "Åtgärder för dialogstyrning",
                 "details_modal": {
                     "created_at": "Skapat datum",
                     "recipients": "Deltagare",
                     "title": "Konversationsdetaljer"
-                }
+                },
+                "leave_confirmation": "",
+                "members_button": ""
             },
             "header": {
                 "dropdown_tooltip": "Meddelanden"
@@ -51,7 +74,11 @@
             },
             "message_controls": {
                 "delete_button": "Radera",
-                "delete_confirmation": "Är du säker på att du vill ta bort det här meddelandet? Denna åtgärd går inte att ångra."
+                "delete_confirmation": "Är du säker på att du vill ta bort det här meddelandet? Denna åtgärd går inte att ångra.",
+                "delete_forever_button": "",
+                "delete_forever_confirmation": "",
+                "edit_button": "",
+                "restore_button": ""
             },
             "messages_page": {
                 "cannot_send_message_button": "Det går inte att skicka ett meddelande",
@@ -67,27 +94,60 @@
                     "load_previous_button": "Läs in tidigare meddelanden",
                     "load_next_button": "Läs in nästa meddelanden",
                     "start_of_the_conversation": "Konversationen börjar",
-                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
+                    "name_removed_text": "",
+                    "renamed_text": "",
+                    "user_left_text": ""
                 },
                 "title": "Meddelanden"
             },
             "recipient_selection_modal": {
                 "cannot_reply_text": "",
-                "title": "Välj mottagare av detta meddelande"
+                "title": "Välj mottagare av detta meddelande",
+                "groups_heading": "",
+                "groups_help": ""
             },
             "search_source": {
                 "conversation_with": "",
                 "heading": ""
             },
             "settings": {
-                "notify_message_received_label": "Någon skickar ett meddelande till mig"
+                "notify_message_received_label": "Någon skickar ett meddelande till mig",
+                "notify_message_liked_label": "",
+                "privacy_disclose_read_receipts_label": ""
             },
             "user_controls": {
                 "send_message_button": "Skicka ett meddelande",
                 "cannot_reply_text": "Den här användaren kan inte svara"
             },
             "notifications": {
-                "message_received_text": "Avisering om privat meddelande från {user}"
+                "message_received_text": "Avisering om privat meddelande från {user}",
+                "message_liked_text": ""
+            },
+            "composer_edit": {
+                "discard_confirmation": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "message": {
+                "deleted_text": "",
+                "edited_text": "",
+                "edited_tooltip": "",
+                "read_status": {
+                    "read_by_everyone_tooltip": "",
+                    "read_by_some_tooltip": "",
+                    "read_tooltip": "",
+                    "sent_tooltip": ""
+                }
+            },
+            "read_by_modal": {
+                "title": ""
+            },
+            "rename_dialog_modal": {
+                "help_text": "",
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         },
         "email": {
@@ -98,16 +158,22 @@
                 },
                 "html": {
                     "body": "{user_display_name} skickade ett [nytt meddelande]({url}) till dig."
-                }
+                },
+                "group_subject": ""
             }
         },
         "lib": {
             "dialog": {
-                "title": "Skicka meddelande till {username}"
+                "title": "Skicka meddelande till {username}",
+                "private_group_title": "",
+                "group_title": ""
             },
             "no_other_members_message": "",
             "recipient_cannot_reply_message": "",
-            "recipient_unavailable_message": ""
+            "recipient_unavailable_message": "",
+            "too_many_groups_message": "",
+            "groups_unavailable_message": "",
+            "too_many_recipients_message": ""
         }
     },
     "flarum-gdpr": {
@@ -126,7 +192,13 @@
             "browser": {
                 "dialog": {
                     "started": "",
-                    "posted": ""
+                    "posted": "",
+                    "group_started": "",
+                    "group_posted": "",
+                    "message_edited": "",
+                    "message_hidden": "",
+                    "message_restored": "",
+                    "message_deleted": ""
                 }
             }
         }
@@ -136,6 +208,15 @@
             "statistics": {
                 "dialogs_heading": "",
                 "dialog_replies_heading": ""
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "messageReceived": ""
+                }
             }
         }
     }

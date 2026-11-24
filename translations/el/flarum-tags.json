@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Όνομα συνδέσμου (με λατινικούς χαρακτήρες και παύλες αντί για κενά)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Δημιουργία κατηγορίας"
+                "title": "Δημιουργία κατηγορίας",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Κύριες κατηγορίες",
                 "secondary_heading": "Υποκατηγορίες",
                 "settings_heading": "Ρυθμίσεις"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "",
             "name": "Όνομα",
             "tags": "Κατηγορίες"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

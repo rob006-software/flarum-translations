@@ -34,7 +34,10 @@
                 "not_following_button": "Tidak Mengikuti",
                 "not_following_text": "Terima notifikasi hanya jika @disebutkan.",
                 "notify_alert_tooltip": "Dapatkan notifikasi forum ketika ada postingan baru",
-                "notify_email_tooltip": "Dapatkan email saat ada postingan baru"
+                "notify_email_tooltip": "Dapatkan email saat ada postingan baru",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Ikuti",
             "following": "Mengikuti",
             "ignoring": "Mengabaikan"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

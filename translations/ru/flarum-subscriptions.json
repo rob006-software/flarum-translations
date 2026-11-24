@@ -34,7 +34,10 @@
                 "not_following_button": "Отписка",
                 "not_following_text": "Уведомлять при упоминании.",
                 "notify_alert_tooltip": "Получать уведомления при появлении новых сообщений",
-                "notify_email_tooltip": "Получать письма при появлении новых сообщений"
+                "notify_email_tooltip": "Получать письма при появлении новых сообщений",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Подписка",
             "following": "Подписка",
             "ignoring": "Скрыть"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

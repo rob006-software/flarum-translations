@@ -6,7 +6,24 @@
                 "message_users_without_permission_label": "Message users without messaging permission",
                 "delete_own_messages_label": "Delete own messages",
                 "send_without_throttle_label": "Send messages without throttling",
-                "view_ips_label": "View IP addresses of messages"
+                "view_ips_label": "View IP addresses of messages",
+                "delete_messages_forever_label": "Delete messages forever",
+                "edit_own_messages_label": "Edit own messages",
+                "message_groups_label": "Start conversations with groups"
+            },
+            "sections": {
+                "groups": {
+                    "description": "Conversations started with several members at once.",
+                    "label": "Group conversations"
+                }
+            },
+            "settings": {
+                "recipient_groups_label": "Groups that can receive messages",
+                "recipient_groups_help": "Senders with permission to start conversations with groups can select these groups. Only admins have that permission by default. Disabling a group here does not remove it from existing conversations. Anyone who can manage group membership can grant access to the full conversation history.",
+                "allow_group_names_help": "Members who can write in a group conversation can give it a name, which everyone in it sees instead of the list of members. Turning this off hides names already given.",
+                "allow_group_names_label": "Let members name group conversations",
+                "max_recipients_help": "How many members one message can be sent to. More than one starts a group conversation, so 1 turns group conversations off. At most 50.",
+                "max_recipients_label": "Recipients per message"
             }
         },
         "forum": {
@@ -15,7 +32,8 @@
                 "placeholder": "Write a message...",
                 "recipients": "Recipients",
                 "submit_button": "Send message",
-                "to": "To:"
+                "to": "To:",
+                "title": "New message"
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
@@ -23,20 +41,25 @@
                 "own_last_message_preview": "You: {content}",
                 "title": "Messages",
                 "unread_count_text": "{count} unread",
-                "view_all": "View all messages"
+                "view_all": "View all messages",
+                "group_last_message_preview": "{username}: {content}"
             },
             "dialog_section": {
                 "back_label": "Go back",
                 "cannot_reply_text": "This user cannot reply",
                 "controls": {
-                    "details_button": "Details"
+                    "details_button": "Details",
+                    "leave_button": "Leave conversation",
+                    "rename_button": "Rename conversation"
                 },
                 "controls_toggle_label": "Dialog control actions",
                 "details_modal": {
                     "created_at": "Creation date",
                     "recipients": "Participants",
                     "title": "Conversation details"
-                }
+                },
+                "leave_confirmation": "Leave this conversation? You won't see it, or be told about new messages in it, again. What you wrote stays for the others.",
+                "members_button": "{count, plural, one {# member} other {# members}}"
             },
             "header": {
                 "dropdown_tooltip": "Messages"
@@ -51,7 +74,11 @@
             },
             "message_controls": {
                 "delete_button": "Delete",
-                "delete_confirmation": "Are you sure you want to delete this message? This action cannot be undone."
+                "delete_confirmation": "Are you sure you want to delete this message? This action cannot be undone.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "delete_forever_confirmation": "Are you sure you want to delete this message forever? This action cannot be undone.",
+                "edit_button": "=> core.ref.edit",
+                "restore_button": "=> core.ref.restore"
             },
             "messages_page": {
                 "cannot_send_message_button": "Can't Send a Message",
@@ -67,27 +94,60 @@
                     "load_previous_button": "Load previous messages",
                     "load_next_button": "Load next messages",
                     "start_of_the_conversation": "Start of the conversation",
-                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
+                    "name_removed_text": "{username} removed the conversation's name",
+                    "renamed_text": "{username} named the conversation “{name}”",
+                    "user_left_text": "{username} left the conversation"
                 },
                 "title": "Messages"
             },
             "recipient_selection_modal": {
                 "cannot_reply_text": "Can't reply to messages",
-                "title": "Select the recipients of this message"
+                "title": "Select the recipients of this message",
+                "groups_heading": "Groups",
+                "groups_help": "Current and future members of these groups can read the whole conversation. Up to 10 groups."
             },
             "search_source": {
                 "conversation_with": "Conversation with {username}",
                 "heading": "Messages"
             },
             "settings": {
-                "notify_message_received_label": "Someone sends me a message"
+                "notify_message_received_label": "Someone sends me a message",
+                "notify_message_liked_label": "Someone likes one of my messages",
+                "privacy_disclose_read_receipts_label": "Show others when I've read their messages (and see when they've read mine)"
             },
             "user_controls": {
                 "send_message_button": "Send a message",
                 "cannot_reply_text": "This user cannot reply"
             },
             "notifications": {
-                "message_received_text": "Message Received notification from {user}"
+                "message_received_text": "Message Received notification from {user}",
+                "message_liked_text": "{username} liked your message"
+            },
+            "composer_edit": {
+                "discard_confirmation": "=> core.forum.composer_edit.discard_confirmation",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Edit message"
+            },
+            "message": {
+                "deleted_text": "This message was deleted.",
+                "edited_text": "=> core.forum.post.edited_text",
+                "edited_tooltip": "=> core.forum.post.edited_tooltip",
+                "read_status": {
+                    "read_by_everyone_tooltip": "Read by everyone",
+                    "read_by_some_tooltip": "Read by {count} of {total}",
+                    "read_tooltip": "Read",
+                    "sent_tooltip": "Sent"
+                }
+            },
+            "read_by_modal": {
+                "title": "Read by"
+            },
+            "rename_dialog_modal": {
+                "help_text": "Everyone in the conversation sees this name. Leave it empty to show who is in it instead.",
+                "name_label": "Name",
+                "submit_button": "Save",
+                "title": "Rename conversation"
             }
         },
         "email": {
@@ -98,16 +158,22 @@
                 },
                 "html": {
                     "body": "{user_display_name} sent you a [new message]({url}).\n\nYou won't receive any more emails about this conversation until you've read it.\n"
-                }
+                },
+                "group_subject": "{user_display_name} sent a message to you and {count, plural, one {# other} other {# others}}"
             }
         },
         "lib": {
             "dialog": {
-                "title": "Messaging {username}"
+                "title": "Messaging {username}",
+                "private_group_title": "Private conversation",
+                "group_title": "{names}{others, plural, =0 {} other { +#}}"
             },
             "no_other_members_message": "There is no one else in this conversation.",
             "recipient_cannot_reply_message": "{username} can't reply to messages.",
-            "recipient_unavailable_message": "{username} can't receive messages."
+            "recipient_unavailable_message": "{username} can't receive messages.",
+            "too_many_groups_message": "A message can go to at most {count} groups.",
+            "groups_unavailable_message": "These groups cannot receive messages.",
+            "too_many_recipients_message": "{count, plural, one {A message can only go to one member.} other {A message can go to at most # members.}}"
         }
     },
     "flarum-gdpr": {
@@ -126,7 +192,13 @@
             "browser": {
                 "dialog": {
                     "started": "Started a private conversation with {username}",
-                    "posted": "Sent a private message to {username}"
+                    "posted": "Sent a private message to {username}",
+                    "group_started": "Started a private conversation with group {group_id}",
+                    "group_posted": "Sent a private message to group {group_id}",
+                    "message_edited": "Edited a private message by {username}",
+                    "message_hidden": "Deleted a private message by {username}",
+                    "message_restored": "Restored a private message by {username}",
+                    "message_deleted": "Permanently deleted a private message by {username}"
                 }
             }
         }
@@ -136,6 +208,15 @@
             "statistics": {
                 "dialogs_heading": "PM started",
                 "dialog_replies_heading": "PM replies"
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "messageReceived": "Messages sent to you"
+                }
             }
         }
     }

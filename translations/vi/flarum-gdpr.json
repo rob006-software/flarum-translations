@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Đặt tất cả các cột trên bảng người dùng thành null. Các cột không thể null được đặt thành giá trị mặc định hoặc giá trị đặc biệt. Mật khẩu được thay đổi, tùy chọn được đặt thành mặc định và tất cả các nhóm được xóa.",
                     "delete_description": "Xóa người dùng khỏi cơ sở dữ liệu.",
                     "export_description": "Xuất dữ liệu từ bảng người dùng. Tất cả các cột ngoại trừ id, mật khẩu."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

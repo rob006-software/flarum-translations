@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Utwórz tag"
+                "title": "Utwórz tag",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Główne tagi",
                 "secondary_heading": "Tagi dodatkowe",
                 "settings_heading": "Ustawienia"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Wybierz 1 dodatkowy tag} few {Wybierz # dodatkowe tagi} many {Wybierz # dodatkowych tagów} other {Wybierz # dodatkowego tagu}}",
             "name": "Nazwa",
             "tags": "Tagi"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

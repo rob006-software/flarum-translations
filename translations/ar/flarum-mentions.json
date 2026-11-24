@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "السماح بتنسيق ذكر اسم المستخدم (@اسم المستخدم)",
                 "allow_username_format_text": "التنسيق الحالي المستخدَم لإشارات هو @ \"الاسم المعروض\" #ID.\nيسمح هذا الإعداد باستخدام التنسيق القديم لـUsername، ولكن سيظل يتم تحويله إلى التنسيق الجديد عند الحفظ.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "{count, plural, one {# آخر} other {# آخرون}}",
                 "quote_button": "إقتباس",
                 "reply_link": "رّد",
-                "you_text": "أنت"
+                "you_text": "أنت",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "رد شخص ما على إحدى مشاركاتي",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

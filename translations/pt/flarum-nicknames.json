@@ -18,7 +18,17 @@
                 "set_on_registration_label": "Permitir a configuração de pseudónimos no registo",
                 "unique_label": "Exigir pseudónimos únicos"
             },
-            "wrong_driver": "Deve selecionar \"pseudónimo\" como driver de visualização na <a><strong>Pagina de informações básicas</strong></a> para esta extensão ter efeito."
+            "wrong_driver": "Deve selecionar \"pseudónimo\" como driver de visualização na <a><strong>Pagina de informações básicas</strong></a> para esta extensão ter efeito.",
+            "sections": {
+                "registration": {
+                    "description": "",
+                    "label": ""
+                },
+                "validation": {
+                    "description": "",
+                    "label": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Esse pseudónimo é invalido. Por favor contacte o administrador do forum para mais informações sobre as regras para pseudónimos."

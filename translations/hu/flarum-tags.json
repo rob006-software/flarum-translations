@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Keresőbarát webcím",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Címke létrehozása"
+                "title": "Címke létrehozása",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Elsődleges címkék",
                 "secondary_heading": "Másodlagos címkék",
                 "settings_heading": "Beállítások"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Válasszon még egy címkét} other {Válasszon még # címkét}}",
             "name": "Név",
             "tags": "Címkék"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

@@ -4,6 +4,12 @@
             "settings": {
                 "cdn_label": "CDN mirror address",
                 "cdn_help": "e.g. https://cdn.jsdelivr.net/gh/jdecked/twemoji@[version]/assets/, The current version is: {version}"
+            },
+            "sections": {
+                "images": {
+                    "description": "Where the emoji images shown in posts and the composer are loaded from.",
+                    "label": "Emoji images"
+                }
             }
         },
         "forum": {

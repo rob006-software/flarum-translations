@@ -34,7 +34,10 @@
                 "not_following_button": "Folgen",
                 "not_following_text": "Benachrichtigung nur bei @Erwähnungen.",
                 "notify_alert_tooltip": "Benachrichtigung im Forum bei neuen Beiträgen",
-                "notify_email_tooltip": "Benachrichtigung per E-Mail bei neuen Beiträgen"
+                "notify_email_tooltip": "Benachrichtigung per E-Mail bei neuen Beiträgen",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Folgen",
             "following": "Gefolgt",
             "ignoring": "Ignorieren"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

@@ -18,7 +18,17 @@
                 "set_on_registration_label": "Tillad at kaldenavn sættes i forbindelse med oprettelse",
                 "unique_label": "Kræv unikke kaldenavne"
             },
-            "wrong_driver": ""
+            "wrong_driver": "",
+            "sections": {
+                "registration": {
+                    "description": "",
+                    "label": ""
+                },
+                "validation": {
+                    "description": "",
+                    "label": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Dette kaldenavn er ugyldigt. Venligst kontakt forumadministratoren for flere oplysninger vedr. kaldenavnregler."

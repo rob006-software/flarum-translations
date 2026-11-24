@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Путь",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Создать тег"
+                "title": "Создать тег",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Основные",
                 "secondary_heading": "Дополнительные",
                 "settings_heading": "Настройки"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Укажите ещё # тег} few {Укажите ещё # тега} other {Укажите ещё # тегов}}",
             "name": "Название",
             "tags": "Теги"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

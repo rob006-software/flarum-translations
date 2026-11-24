@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "將用戶表上的所有列設置為 null。不可為 null 的列設置為其預設值或特殊值。更改密碼，將首選項設置為預設值，並刪除所有組。",
                     "delete_description": "從資料庫中刪除使用者。",
                     "export_description": "從使用者表中匯出數據。除 id、password 之外的所有列。"
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

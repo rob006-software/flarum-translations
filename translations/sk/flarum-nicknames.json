@@ -18,7 +18,17 @@
                 "set_on_registration_label": "Povoliť vyberať prezývky počas registrácie",
                 "unique_label": "Vyžadovať originálne prezývky"
             },
-            "wrong_driver": "Aby tento doplnok fungoval, musíte na stránke <a><strong>Základné nastavenia</strong></a> vybrať \"nickname\" ako ovládač pre zobrazovanie mien."
+            "wrong_driver": "Aby tento doplnok fungoval, musíte na stránke <a><strong>Základné nastavenia</strong></a> vybrať \"nickname\" ako ovládač pre zobrazovanie mien.",
+            "sections": {
+                "registration": {
+                    "description": "",
+                    "label": ""
+                },
+                "validation": {
+                    "description": "",
+                    "label": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Táto prezývka je neplatná. Ďalšie informácie o pravidlách pre prezývky získate od správcu fóra."

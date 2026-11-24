@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Leegt alle kolommen in de gebruikerstabel. Kolommen die niet geleegd kunnen worden zullen op hun standaardwaarde worden gezet of op speciale waarden. Wachtwoord wordt veranderd, voorkeursinstellingen worden teruggezet naar de standaardwaarden en alle groepen worden verwijderd.",
                     "delete_description": "Verwijdert de gebruiker van de database.",
                     "export_description": "Exporteert gegevens van de gebruikerstabel. Alle kolommen, behalve het ID en wachtwoord."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

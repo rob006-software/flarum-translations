@@ -9,6 +9,12 @@
                 "max_columns_label": "Nombre maximal de colonnes par membre",
                 "poll_interval_help": "Fréquence à laquelle les colonnes vérifient toute nouvelle activité lorsque Realtime n'est pas connecté. La valeur 0 désactive cette fonctionnalité ; la valeur minimale est 15.",
                 "poll_interval_label": "Intervalle de rafraîchissement (en secondes)"
+            },
+            "sections": {
+                "columns": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -30,7 +36,8 @@
                 "pick_a_result_message": "Sélectionnez un résultat pour {field} parmi les suggestions.",
                 "submit_button": "Ajouter colonne",
                 "title": "Ajouter une colonne",
-                "use_filters_button": "Utiliser ces filtres"
+                "use_filters_button": "Utiliser ces filtres",
+                "filter_unknown_message": ""
             },
             "column": {
                 "controls_label": "Options de la colonne {title}",
@@ -47,7 +54,8 @@
                 "refresh_button": "Actualiser",
                 "remove_button": "Supprimer la colonne",
                 "reset_width_button": "Réinitialiser la largeur",
-                "resize_label": "Redimensionner {title}"
+                "resize_label": "Redimensionner {title}",
+                "edit_button": ""
             },
             "column_types": {
                 "all": "Toutes les discussions",
@@ -99,6 +107,11 @@
                 "scroll_left_label": "Défiler à gauche",
                 "scroll_right_label": "Défiler à droite",
                 "title": "Deck"
+            },
+            "edit_column": {
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         }
     }

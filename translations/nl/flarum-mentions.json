@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Vermeldingsindeling voor gebruikersnaam toestaan (@gebruikersnaam)",
                 "allow_username_format_text": "Het huidige formaat voor gebruikersvermeldingen is @\"Weergavenaam\"#ID.\nMet deze instelling kunt u de oude indeling @Gebruikersnaam gebruiken, maar deze wordt bij het opslaan nog steeds geconverteerd naar de nieuwe indeling.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Citeer",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Iemand reageert op mijn berichten",
@@ -84,6 +91,17 @@
                         "key": "mentioned",
                         "hint": "De ID of gebruikersnaam van de genoemde gebruiker"
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

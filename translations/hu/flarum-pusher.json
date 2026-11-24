@@ -13,6 +13,16 @@
                 "server_hostname_label": "Kiszolgáló gépneve",
                 "server_hostname_help": "Nem kötelező. A gépnév felülbírálása, amelyhez a kliens kapcsolódik; saját kiszolgálású Pusher-kompatibilis kiszolgáló (például soketi) esetén. Hagyja üresen, hogy a Pusher szolgáltatást használja a fenti fürttel.",
                 "title": "Pusher beállítások"
+            },
+            "sections": {
+                "connection": {
+                    "description": "",
+                    "label": ""
+                },
+                "server": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {

@@ -34,7 +34,10 @@
                 "not_following_button": "Niet volgend",
                 "not_following_text": "Word op de hoogte gesteld alleen wanneer je @genoemd wordt.",
                 "notify_alert_tooltip": "Ontvang een forum notificatie wanneer er nieuwe berichten zijn geplaatst",
-                "notify_email_tooltip": "Ontvang een email wanneer er nieuwe berichten zijn geplaatst"
+                "notify_email_tooltip": "Ontvang een email wanneer er nieuwe berichten zijn geplaatst",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Volgen",
             "following": "Volgend",
             "ignoring": "Negerend"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

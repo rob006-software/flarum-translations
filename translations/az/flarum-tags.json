@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug (URL üçün)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Etiket yarat"
+                "title": "Etiket yarat",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Əsas Etiketlər",
                 "secondary_heading": "İkincil Etiketlər",
                 "settings_heading": "Parametrlər"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Daha 1 etiket seçin} other {Daha # etiket seçin}}",
             "name": "Ad",
             "tags": "Etiketlər"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

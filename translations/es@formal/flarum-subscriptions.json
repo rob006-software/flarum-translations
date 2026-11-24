@@ -34,7 +34,10 @@
                 "not_following_button": "Dejar de seguir",
                 "not_following_text": "Ser notificado sólo cuando te @mencionen.",
                 "notify_alert_tooltip": "Recibir una notificación del foro cuando haya nuevas publicaciones",
-                "notify_email_tooltip": "Recibir un e-mail cuando haya nuevas publicaciones"
+                "notify_email_tooltip": "Recibir un e-mail cuando haya nuevas publicaciones",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Seguir",
             "following": "Siguiendo",
             "ignoring": "Ignorar"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

@@ -34,7 +34,10 @@
                 "not_following_button": "No seguint",
                 "not_following_text": "Ser notificat només quan se m'hagi @esmentat.",
                 "notify_alert_tooltip": "Rebre una notificació del fòrum quan hi hagi noves publicacions",
-                "notify_email_tooltip": "Rebre un correu electrònic quan hi hagi noves publicacions"
+                "notify_email_tooltip": "Rebre un correu electrònic quan hi hagi noves publicacions",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Seguir",
             "following": "Seguint",
             "ignoring": "Ignorant"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

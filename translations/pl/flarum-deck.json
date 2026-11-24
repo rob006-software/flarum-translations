@@ -9,6 +9,12 @@
                 "max_columns_label": "Maksymalna liczba kolumn na użytkownika",
                 "poll_interval_help": "Jak często kolumny sprawdzają nową aktywność, gdy nie ma połączenia z Realtime. Wartość 0 wyłącza sprawdzanie, a najmniejsza dodatnia wartość to 15.",
                 "poll_interval_label": "Częstotliwość odświeżania (w sekundach)"
+            },
+            "sections": {
+                "columns": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -30,7 +36,8 @@
                 "pick_a_result_message": "Wybierz podpowiedź z listy dla pola „{field}”.",
                 "submit_button": "Dodaj kolumnę",
                 "title": "Dodaj kolumnę",
-                "use_filters_button": "Użyj tych filtrów"
+                "use_filters_button": "Użyj tych filtrów",
+                "filter_unknown_message": ""
             },
             "column": {
                 "controls_label": "Opcje kolumny „{title}”",
@@ -47,7 +54,8 @@
                 "refresh_button": "Odśwież",
                 "remove_button": "Usuń kolumnę",
                 "reset_width_button": "Przywróć domyślną szerokość",
-                "resize_label": "Zmień szerokość kolumny „{title}”"
+                "resize_label": "Zmień szerokość kolumny „{title}”",
+                "edit_button": ""
             },
             "column_types": {
                 "all": "Wszystkie dyskusje",
@@ -99,6 +107,11 @@
                 "scroll_left_label": "Przewiń w lewo",
                 "scroll_right_label": "Przewiń w prawo",
                 "title": "Pulpit"
+            },
+            "edit_column": {
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         }
     }

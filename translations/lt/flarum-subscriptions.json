@@ -34,7 +34,10 @@
                 "not_following_button": "Nesekti",
                 "not_following_text": "Pranešti tik kai būsiu paminėtas(-a) @mentioned.",
                 "notify_alert_tooltip": "Pranešti forumo notifikacija kai atsiranda naujų atsakymų",
-                "notify_email_tooltip": "Pranešti el. laišku kai atsiranda naujų atsakymų"
+                "notify_email_tooltip": "Pranešti el. laišku kai atsiranda naujų atsakymų",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Sekti",
             "following": "Sekama",
             "ignoring": "Ignoruojama"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

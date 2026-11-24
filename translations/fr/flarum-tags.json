@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Identifiant texte unique",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Créer une étiquette"
+                "title": "Créer une étiquette",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Étiquettes primaires",
                 "secondary_heading": "Étiquettes secondaires",
                 "settings_heading": "Paramètres"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Sélectionner # étiquette supplémentaire} other {Sélectionner # étiquettes supplémentaires}}",
             "name": "Nom",
             "tags": "Étiquettes"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

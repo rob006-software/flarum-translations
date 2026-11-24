@@ -34,7 +34,10 @@
                 "not_following_button": "팔로우 안함",
                 "not_following_text": "언급된 경우에만 알림을 받습니다.",
                 "notify_alert_tooltip": "새로운 게시물이 있을 때 포럼 통지를 받습니다",
-                "notify_email_tooltip": "새로운 게시물이 있을 때 이메일을 받습니다"
+                "notify_email_tooltip": "새로운 게시물이 있을 때 이메일을 받습니다",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "팔로우",
             "following": "팔로우 중",
             "ignoring": "무시"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

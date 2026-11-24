@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "A user tábla összes oszlopát nullra állítja. A nem nullozható oszlopok az alapértelmezett értékükre vagy speciális értékekre lesznek állítva. A jelszó megváltozik, a beállítások alapértelmezettre lesznek állítva, és a csoportjai el lesznek távolítva.",
                     "delete_description": "Törli a felhasználót az adatbázisból.",
                     "export_description": "Exportálja az adatokat a user táblából. Az összeset, kivéve az id és a password oszlopot."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

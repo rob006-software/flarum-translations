@@ -18,7 +18,17 @@
                 "set_on_registration_label": "Autoriser de définir des pseudonymes lors de l'inscription",
                 "unique_label": "Exiger des pseudonymes uniques"
             },
-            "wrong_driver": "Vous devez sélectionner « nickname » comme pilote de nom d'affichage sur la page <a><strong>Essentiels</strong></a> pour que cette extension prenne effet."
+            "wrong_driver": "Vous devez sélectionner « nickname » comme pilote de nom d'affichage sur la page <a><strong>Essentiels</strong></a> pour que cette extension prenne effet.",
+            "sections": {
+                "registration": {
+                    "description": "",
+                    "label": ""
+                },
+                "validation": {
+                    "description": "",
+                    "label": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Ce pseudonyme n'est pas valide. Veuillez contacter l'administrateur de votre forum pour plus d'informations sur les règles relatives aux pseudonymes."

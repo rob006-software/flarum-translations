@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Ulanyjyny agzamak formatyny rugsat ber (@Ulanyjy_Ady)",
                 "allow_username_format_text": "Häzirki ulanyjyny agzamak formaty @\"Ulanyjy Görünýän Ady\"#ID.\nBu sazlama köne @Username formaty ulanmaga mümkinçilik berýär, ýöne ýatda saklananda täze formata geçiriler.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Sitirlemek",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Kimdir biri meniň postyma jogap berdi",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

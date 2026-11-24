@@ -6,7 +6,24 @@
                 "message_users_without_permission_label": "Mesajlaşma izni olmayan kullanıcılara mesaj gönder",
                 "delete_own_messages_label": "Kendi mesajlarını silebilir",
                 "send_without_throttle_label": "Hız sınırına takılmadan mesaj gönder",
-                "view_ips_label": "Mesajların IP adreslerini görüntüle"
+                "view_ips_label": "Mesajların IP adreslerini görüntüle",
+                "delete_messages_forever_label": "",
+                "edit_own_messages_label": "",
+                "message_groups_label": ""
+            },
+            "sections": {
+                "groups": {
+                    "description": "",
+                    "label": ""
+                }
+            },
+            "settings": {
+                "recipient_groups_label": "",
+                "recipient_groups_help": "",
+                "allow_group_names_help": "",
+                "allow_group_names_label": "",
+                "max_recipients_help": "",
+                "max_recipients_label": ""
             }
         },
         "forum": {
@@ -15,7 +32,8 @@
                 "placeholder": "Bir mesaj yazın...",
                 "recipients": "Alıcılar",
                 "submit_button": "Mesajı gönder",
-                "to": "Kime:"
+                "to": "Kime:",
+                "title": ""
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
@@ -23,20 +41,25 @@
                 "own_last_message_preview": "Sen: {content}",
                 "title": "Mesajlar",
                 "unread_count_text": "{count} okunmamış",
-                "view_all": "Tüm mesajları görüntüle"
+                "view_all": "Tüm mesajları görüntüle",
+                "group_last_message_preview": ""
             },
             "dialog_section": {
                 "back_label": "Geri dön",
                 "cannot_reply_text": "Bu kullanıcı yanıt veremiyor",
                 "controls": {
-                    "details_button": "Detaylar"
+                    "details_button": "Detaylar",
+                    "leave_button": "",
+                    "rename_button": ""
                 },
                 "controls_toggle_label": "Sohbet kontrol işlemleri",
                 "details_modal": {
                     "created_at": "Oluşturulma tarihi",
                     "recipients": "Katılımcılar",
                     "title": "Sohbet detayları"
-                }
+                },
+                "leave_confirmation": "",
+                "members_button": ""
             },
             "header": {
                 "dropdown_tooltip": "Mesajlar"
@@ -51,7 +74,11 @@
             },
             "message_controls": {
                 "delete_button": "Sil",
-                "delete_confirmation": "Bu mesajı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+                "delete_confirmation": "Bu mesajı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+                "delete_forever_button": "",
+                "delete_forever_confirmation": "",
+                "edit_button": "",
+                "restore_button": ""
             },
             "messages_page": {
                 "cannot_send_message_button": "Mesaj Gönderilemiyor",
@@ -67,27 +94,60 @@
                     "load_previous_button": "Önceki mesajları yükle",
                     "load_next_button": "Sonraki mesajları yükle",
                     "start_of_the_conversation": "Sohbetin başlangıcı",
-                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
+                    "name_removed_text": "",
+                    "renamed_text": "",
+                    "user_left_text": ""
                 },
                 "title": "Mesajlar"
             },
             "recipient_selection_modal": {
                 "cannot_reply_text": "Mesajlara yanıt verilemiyor",
-                "title": "Bu mesajın gönderileceği alıcıları seçin"
+                "title": "Bu mesajın gönderileceği alıcıları seçin",
+                "groups_heading": "",
+                "groups_help": ""
             },
             "search_source": {
                 "conversation_with": "{username} ile sohbet",
                 "heading": "Mesajlar"
             },
             "settings": {
-                "notify_message_received_label": "Birisi bana mesaj gönderdiğinde"
+                "notify_message_received_label": "Birisi bana mesaj gönderdiğinde",
+                "notify_message_liked_label": "",
+                "privacy_disclose_read_receipts_label": ""
             },
             "user_controls": {
                 "send_message_button": "Mesaj gönder",
                 "cannot_reply_text": "Bu kullanıcı yanıt veremiyor"
             },
             "notifications": {
-                "message_received_text": "{user} size bir mesaj gönderdi"
+                "message_received_text": "{user} size bir mesaj gönderdi",
+                "message_liked_text": ""
+            },
+            "composer_edit": {
+                "discard_confirmation": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "message": {
+                "deleted_text": "",
+                "edited_text": "",
+                "edited_tooltip": "",
+                "read_status": {
+                    "read_by_everyone_tooltip": "",
+                    "read_by_some_tooltip": "",
+                    "read_tooltip": "",
+                    "sent_tooltip": ""
+                }
+            },
+            "read_by_modal": {
+                "title": ""
+            },
+            "rename_dialog_modal": {
+                "help_text": "",
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         },
         "email": {
@@ -98,16 +158,22 @@
                 },
                 "html": {
                     "body": "{user_display_name} sana [yeni bir mesaj]\\({url}) gönderdi.\n\nBu mesajı okuyana kadar bu sohbetle ilgili başka bir e-posta almayacaksın.\n"
-                }
+                },
+                "group_subject": ""
             }
         },
         "lib": {
             "dialog": {
-                "title": "{username} ile sohbet"
+                "title": "{username} ile sohbet",
+                "private_group_title": "",
+                "group_title": ""
             },
             "no_other_members_message": "Bu sohbette başka kimse yok.",
             "recipient_cannot_reply_message": "{username} mesajlara yanıt veremiyor.",
-            "recipient_unavailable_message": "{username} mesaj alamıyor."
+            "recipient_unavailable_message": "{username} mesaj alamıyor.",
+            "too_many_groups_message": "",
+            "groups_unavailable_message": "",
+            "too_many_recipients_message": ""
         }
     },
     "flarum-gdpr": {
@@ -126,7 +192,13 @@
             "browser": {
                 "dialog": {
                     "started": "{username} ile özel sohbet başlattı",
-                    "posted": "{username} kullanıcısına özel mesaj gönderdi"
+                    "posted": "{username} kullanıcısına özel mesaj gönderdi",
+                    "group_started": "",
+                    "group_posted": "",
+                    "message_edited": "",
+                    "message_hidden": "",
+                    "message_restored": "",
+                    "message_deleted": ""
                 }
             }
         }
@@ -136,6 +208,15 @@
             "statistics": {
                 "dialogs_heading": "Başlatılan Sohbetler",
                 "dialog_replies_heading": "Yanıtlanan Sohbetler"
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "messageReceived": ""
+                }
             }
         }
     }

@@ -70,6 +70,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -99,6 +113,11 @@
                     "anonymize_description": "Все поля пользователя устанавливаются в null. Поля без поддержки null получают значения по умолчанию или специальные значения. Пароль изменяется, настройки сбрасываются, все группы удаляются.",
                     "delete_description": "Удаляет пользователя из базы данных.",
                     "export_description": "Экспортирует данные из таблицы пользователя. Все поля, кроме id и пароля."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

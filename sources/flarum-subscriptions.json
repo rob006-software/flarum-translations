@@ -34,7 +34,10 @@
                 "not_following_button": "Not Following",
                 "not_following_text": "Be notified only when @mentioned.",
                 "notify_alert_tooltip": "Get a forum notification when there are new posts",
-                "notify_email_tooltip": "Get an email when there are new posts"
+                "notify_email_tooltip": "Get an email when there are new posts",
+                "following_option": "=> flarum-subscriptions.ref.following",
+                "ignoring_option": "=> flarum-subscriptions.ref.ignoring",
+                "not_following_option": "=> flarum-subscriptions.forum.sub_controls.not_following_button"
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Follow",
             "following": "Following",
             "ignoring": "Ignoring"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": "New posts in discussions you follow"
+                }
+            }
         }
     }
 }

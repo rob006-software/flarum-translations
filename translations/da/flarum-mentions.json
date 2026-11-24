@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Tillad omtale af brugernavn (@brugernavn)",
                 "allow_username_format_text": "Det aktuelle format for brugeromtaler er @\"Visningsnavn\"#ID.\nDenne indstilling tillader brug af det gamle format af @Brugernavn, men det vil stadig blive konverteret til det nye format ved lagring.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "",
                 "quote_button": "Citér",
                 "reply_link": "",
-                "you_text": ""
+                "you_text": "",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Der er en der svarer på et af mine indlæg",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

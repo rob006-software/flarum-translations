@@ -9,6 +9,12 @@
                 "max_columns_label": "Максимум колонок на участника",
                 "poll_interval_help": "Как часто колонки проверяют новую активность, когда Realtime не подключён. 0 отключает проверку; минимум — 15.",
                 "poll_interval_label": "Интервал обновления (секунды)"
+            },
+            "sections": {
+                "columns": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -30,7 +36,8 @@
                 "pick_a_result_message": "Выберите значение для {field} из предложенных.",
                 "submit_button": "Добавить колонку",
                 "title": "Добавить колонку",
-                "use_filters_button": "Использовать эти фильтры"
+                "use_filters_button": "Использовать эти фильтры",
+                "filter_unknown_message": ""
             },
             "column": {
                 "controls_label": "Параметры колонки {title}",
@@ -47,7 +54,8 @@
                 "refresh_button": "Обновить",
                 "remove_button": "Удалить колонку",
                 "reset_width_button": "Сбросить ширину",
-                "resize_label": "Изменить ширину {title}"
+                "resize_label": "Изменить ширину {title}",
+                "edit_button": ""
             },
             "column_types": {
                 "all": "Все темы",
@@ -99,6 +107,11 @@
                 "scroll_left_label": "Прокрутить влево",
                 "scroll_right_label": "Прокрутить вправо",
                 "title": "Доска"
+            },
+            "edit_column": {
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         }
     }

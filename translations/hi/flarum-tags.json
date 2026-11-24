@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "स्लग",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "टैग बनाएं"
+                "title": "टैग बनाएं",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "प्राथमिक टैग",
                 "secondary_heading": "द्वितीयक टैग",
                 "settings_heading": "सेटिंग"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {एक और टैग चुनें} other {# और टैग चुनें}}",
             "name": "नाम",
             "tags": "टैग"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

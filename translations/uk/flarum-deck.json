@@ -9,6 +9,12 @@
                 "max_columns_label": "Максимальна кількість стовпців на користувача",
                 "poll_interval_help": "Як часто перевіряти нову активність у стовпцях, коли немає з’єднання з Realtime. Установіть 0, щоб вимкнути перевірку; мінімальне значення — 15.",
                 "poll_interval_label": "Інтервал оновлення (секунди)"
+            },
+            "sections": {
+                "columns": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -30,7 +36,8 @@
                 "pick_a_result_message": "Виберіть значення для поля «{field}» із запропонованих варіантів.",
                 "submit_button": "Додати стовпець",
                 "title": "Додати стовпець",
-                "use_filters_button": "Використати ці фільтри"
+                "use_filters_button": "Використати ці фільтри",
+                "filter_unknown_message": ""
             },
             "column": {
                 "controls_label": "Параметри стовпця «{title}»",
@@ -47,7 +54,8 @@
                 "refresh_button": "Оновити",
                 "remove_button": "Видалити стовпець",
                 "reset_width_button": "Скинути ширину",
-                "resize_label": "Змінити розмір стовпця «{title}»"
+                "resize_label": "Змінити розмір стовпця «{title}»",
+                "edit_button": ""
             },
             "column_types": {
                 "all": "Усі обговорення",
@@ -99,6 +107,11 @@
                 "scroll_left_label": "Прокрутити ліворуч",
                 "scroll_right_label": "Прокрутити праворуч",
                 "title": "Deck"
+            },
+            "edit_column": {
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         }
     }

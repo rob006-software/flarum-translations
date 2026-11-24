@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "将用户表中的所有列设为 null。不可为空的列会设为默认值或特殊值，同时修改密码、恢复个人设置默认值并移除所有用户组。",
                     "delete_description": "从数据库中删除该用户。",
                     "export_description": "导出用户表中的数据，包括除 id 和 password 外的所有列。"
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

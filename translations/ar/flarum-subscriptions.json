@@ -34,7 +34,10 @@
                 "not_following_button": "غير متابع",
                 "not_following_text": "احصل على إشعار فقط عند @الإشارة إليك.",
                 "notify_alert_tooltip": "احصل على إشعار عند وجود مشاركات جديدة",
-                "notify_email_tooltip": "احصل على بريد إلكتروني عند وجود مشاركات جديدة"
+                "notify_email_tooltip": "احصل على بريد إلكتروني عند وجود مشاركات جديدة",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "تابع",
             "following": "متابعة",
             "ignoring": "تجاهل"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

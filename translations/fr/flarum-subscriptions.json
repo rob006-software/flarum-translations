@@ -34,7 +34,10 @@
                 "not_following_button": "Pas abonné",
                 "not_following_text": "N'être notifié que lorsque je suis @mentionné.",
                 "notify_alert_tooltip": "Recevoir une notification du forum lorsque de nouveaux messages sont publiés",
-                "notify_email_tooltip": "Recevoir un courriel lorsque de nouveaux messages sont publiés"
+                "notify_email_tooltip": "Recevoir un courriel lorsque de nouveaux messages sont publiés",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "S'abonner",
             "following": "Abonné",
             "ignoring": "Ignoré"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

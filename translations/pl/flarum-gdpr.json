@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Ustawia wszystkie kolumny w tabeli użytkownika na null. Kolumny, które nie mogą być puste, są ustawiane na ich domyślne wartości lub specjalne wartości. Hasło jest zmieniane, preferencje są resetowane, a wszystkie grupy są usuwane.",
                     "delete_description": "Usuwa użytkownika z bazy danych.",
                     "export_description": "Eksportuje dane z tabeli użytkownika. Wszystkie kolumny oprócz id, hasła."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

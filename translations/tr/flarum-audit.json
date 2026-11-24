@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "IP Adresini Görüntüle"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -144,7 +147,12 @@
                     "password_reset_attempted": "{username} için şifre sıfırlama istedi",
                     "password_reset_attempted_unmatched": "{email} için şifre sıfırlama istedi (eşleşen hesap bulunamadı)",
                     "provider_connected": "{provider} sağlayıcısını {username} hesabına bağlandı",
-                    "username_changed": "{username} adlı kullanıcının kullanıcı adını {old_username} yerine {new_username} olarak değiştirdi"
+                    "username_changed": "{username} adlı kullanıcının kullanıcı adını {old_username} yerine {new_username} olarak değiştirdi",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": ""
                 }
             }
         }

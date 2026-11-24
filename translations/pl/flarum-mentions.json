@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Pozwól na wspominanie używając nazwy użytkownika (@login)",
                 "allow_username_format_text": "Obecny format wspominania o użytkownikach to @\"Nazwa Wyświetlana\"#ID.\nTo ustawienie pozwala korzystać ze starego formatu (@login), zostanie on jednak przekonwertowany na nowy format podczas zapisywania.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Cytuj",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Ktoś odpowiedział na mój post",
@@ -84,6 +91,17 @@
                         "key": "wspomina",
                         "hint": "ID lub nazwa wspomnianego użytkownika"
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

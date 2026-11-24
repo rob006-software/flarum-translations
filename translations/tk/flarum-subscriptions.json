@@ -34,7 +34,10 @@
                 "not_following_button": "Yzarlamaýaryn",
                 "not_following_text": "Diňe @agzanlarynda habar et.",
                 "notify_alert_tooltip": "Täze post ýazylanda forumda habar al",
-                "notify_email_tooltip": "Täze post ýazylanda elektron poçtada habar al"
+                "notify_email_tooltip": "Täze post ýazylanda elektron poçtada habar al",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Yzarla",
             "following": "Yzarlaýaryn",
             "ignoring": "Ignor edýärin"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

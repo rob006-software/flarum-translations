@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Встановлює нульове значення для всіх стовпців у таблиці користувача. Стовпці, які не можна обнулити, отримують значення за замовчуванням або спеціальні значення. Пароль змінюється, налаштування встановлюються за замовчуванням, а всі групи видаляються.",
                     "delete_description": "Вилучає користувача з бази даних.",
                     "export_description": "Здійснює експорт даних з таблиці користувачів. Всі стовпці, крім id, password."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

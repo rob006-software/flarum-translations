@@ -34,7 +34,10 @@
                 "not_following_button": "Не стежити",
                 "not_following_text": "Повідомляти лише коли @згадують.",
                 "notify_alert_tooltip": "Отримувати сповіщення форуму при появі нових повідомлень",
-                "notify_email_tooltip": "Отримувати листи на електронну пошту при появі нових повідомлень"
+                "notify_email_tooltip": "Отримувати листи на електронну пошту при появі нових повідомлень",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Підписатись",
             "following": "Підписатись",
             "ignoring": "Ігнорувати"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

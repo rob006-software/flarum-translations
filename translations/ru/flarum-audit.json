@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "Видеть IP-адреса"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -154,6 +157,11 @@
                     "password_reset_attempted_unmatched": "Запрошено изменение пароля для {email} — аккаунт не найден",
                     "provider_connected": "Провайдер {provider} привязан к аккаунту пользователя {username}",
                     "username_changed": "Изменено имя пользователя {username} с {old_username} на {new_username}",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": "",
                     "bio_changed": "Изменена биография пользователя {username}",
                     "impersonated": "Выполнен вход от имени пользователя {username}",
                     "nickname_requested": "Запрошен новый псевдоним {new_nickname} для пользователя {username}",

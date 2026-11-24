@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Identifikátor",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Vytvoriť Štítok"
+                "title": "Vytvoriť Štítok",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Hlavné štítky",
                 "secondary_heading": "Vedľajšie štítky",
                 "settings_heading": "Nastavenia"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Vyber ešte 1 štítok} other {Vyber aspoň # ďalších štítkov}}",
             "name": "Názov",
             "tags": "Štítky"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

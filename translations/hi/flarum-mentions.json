@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "उपयोगकर्ता नाम उल्लेख प्रारूप की अनुमति दें (@username)",
                 "allow_username_format_text": "उपयोगकर्ता उल्लेखों के लिए वर्तमान प्रारूप @\"प्रदर्शन नाम\"#ID है।\nयह सेटिंग @Username के पुराने प्रारूप का उपयोग करने की अनुमति देती है, हालाँकि इसे सहेजने पर यह अभी भी नए प्रारूप में परिवर्तित हो जाएगा।\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "उद्धरण",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "कोई मेरी पोस्ट का उत्तर देता है",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

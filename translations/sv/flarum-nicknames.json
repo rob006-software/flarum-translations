@@ -18,7 +18,17 @@
                 "set_on_registration_label": "Tillåt inställning av smeknamn vid registrering",
                 "unique_label": "Kräv unika smeknamn"
             },
-            "wrong_driver": "Du måste välja ”smeknamn” som drivrutin för visningsnamn på <a><strong>grundinställningssidan</strong></a> för att tillägget ska börja fungera."
+            "wrong_driver": "Du måste välja ”smeknamn” som drivrutin för visningsnamn på <a><strong>grundinställningssidan</strong></a> för att tillägget ska börja fungera.",
+            "sections": {
+                "registration": {
+                    "description": "",
+                    "label": ""
+                },
+                "validation": {
+                    "description": "",
+                    "label": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Detta smeknamn är ogiltigt. Vänligen kontakta forumadministratören för mer information om reglerna för smeknamn."

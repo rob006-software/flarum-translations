@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "อนุญาตรูปแบบกล่าวถึงด้วยชื่อผู้ใช้ (@Username)",
                 "allow_username_format_text": "รูปแบบปัจจุบันสำหรับกล่าวถึงผู้ใช้คือ @\"ชื่อที่แสดง\"#ID\nการตั้งค่านี้อนุญาตให้ใช้รูปแบบเก่า @Username แต่จะถูกแปลงเป็นรูปแบบใหม่โดยอัตโนมัติเมื่อบันทึก\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "อ้างอิง",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "เมื่อมีคนตอบกลับโพสต์ของฉัน",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

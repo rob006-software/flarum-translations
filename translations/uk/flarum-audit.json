@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "Переглядати IP-адресу"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -144,7 +147,12 @@
                     "password_reset_attempted": "Надіслано запит на скидання пароля користувача {username}",
                     "password_reset_attempted_unmatched": "Надіслано запит на скидання пароля для {email} (відповідного облікового запису немає)",
                     "provider_connected": "Сервіс {provider} під’єднано до облікового запису користувача {username}",
-                    "username_changed": "Ім’я користувача {username} змінено з {old_username} на {new_username}"
+                    "username_changed": "Ім’я користувача {username} змінено з {old_username} на {new_username}",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": ""
                 }
             }
         }

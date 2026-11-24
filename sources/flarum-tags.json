@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Create Tag"
+                "title": "Create Tag",
+                "icon_image_label": "=> core.ref.icon_image",
+                "icon_image_text": "=> core.ref.icon_image_text"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Primary Tags",
                 "secondary_heading": "Secondary Tags",
                 "settings_heading": "Settings"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "Tag requirements",
+                    "description": "How many tags each new discussion needs. Members with the Bypass tag requirements permission can post with any number."
+                }
+            },
+            "tabs": {
+                "settings": "=> flarum-tags.admin.tags.settings_heading",
+                "tags": "=> flarum-tags.ref.tags"
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
             "name": "Name",
             "tags": "Tags"
+        },
+        "api": {
+            "cannot_change_is_primary_message": "A tag is made primary or secondary by changing the tag order."
         }
     },
     "flarum-audit": {

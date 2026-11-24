@@ -34,7 +34,10 @@
                 "not_following_button": "Neabonat",
                 "not_following_text": "Notificați-mi doar când sunt @menționat.",
                 "notify_alert_tooltip": "Primiți o notificare atunci când apar postări noi",
-                "notify_email_tooltip": "Primiți un e-mail atunci când apar postări noi"
+                "notify_email_tooltip": "Primiți un e-mail atunci când apar postări noi",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Abonare",
             "following": "Abonat",
             "ignoring": "Ignorare"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Define todas as colunas na tabela de usuários como nulas. Colunas não anuláveis recebem seus valores padrão ou valores especiais. A senha é alterada, as preferências voltam ao padrão e todos os grupos são removidos.",
                     "delete_description": "Exclui o usuário do banco de dados.",
                     "export_description": "Exporta dados da tabela de usuários. Todas as colunas, exceto id e senha."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

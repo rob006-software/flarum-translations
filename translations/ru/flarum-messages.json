@@ -6,7 +6,24 @@
                 "message_users_without_permission_label": "Писать пользователям без разрешения на сообщения",
                 "delete_own_messages_label": "Удалять свои сообщения",
                 "send_without_throttle_label": "Отправлять сообщения без ограничений",
-                "view_ips_label": "Просматривать IP-адреса сообщений"
+                "view_ips_label": "Просматривать IP-адреса сообщений",
+                "delete_messages_forever_label": "",
+                "edit_own_messages_label": "",
+                "message_groups_label": ""
+            },
+            "sections": {
+                "groups": {
+                    "description": "",
+                    "label": ""
+                }
+            },
+            "settings": {
+                "recipient_groups_label": "",
+                "recipient_groups_help": "",
+                "allow_group_names_help": "",
+                "allow_group_names_label": "",
+                "max_recipients_help": "",
+                "max_recipients_label": ""
             }
         },
         "forum": {
@@ -15,7 +32,8 @@
                 "placeholder": "Напишите сообщение…",
                 "recipients": "Получатели",
                 "submit_button": "Отправить сообщение",
-                "to": "Кому:"
+                "to": "Кому:",
+                "title": ""
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
@@ -23,20 +41,25 @@
                 "own_last_message_preview": "Вы: {content}",
                 "title": "Сообщения",
                 "unread_count_text": "{count} непрочитанных",
-                "view_all": "Все сообщения"
+                "view_all": "Все сообщения",
+                "group_last_message_preview": ""
             },
             "dialog_section": {
                 "back_label": "Назад",
                 "cannot_reply_text": "Этот пользователь не может отвечать",
                 "controls": {
-                    "details_button": "Детали"
+                    "details_button": "Детали",
+                    "leave_button": "",
+                    "rename_button": ""
                 },
                 "controls_toggle_label": "Управление диалогом",
                 "details_modal": {
                     "created_at": "Дата создания",
                     "recipients": "Участники",
                     "title": "Сведения о диалоге"
-                }
+                },
+                "leave_confirmation": "",
+                "members_button": ""
             },
             "header": {
                 "dropdown_tooltip": "Сообщения"
@@ -51,7 +74,11 @@
             },
             "message_controls": {
                 "delete_button": "Удалить",
-                "delete_confirmation": "Удалить это сообщение? Это действие нельзя отменить."
+                "delete_confirmation": "Удалить это сообщение? Это действие нельзя отменить.",
+                "delete_forever_button": "",
+                "delete_forever_confirmation": "",
+                "edit_button": "",
+                "restore_button": ""
             },
             "messages_page": {
                 "cannot_send_message_button": "Нельзя отправить сообщение",
@@ -67,27 +94,60 @@
                     "load_previous_button": "Загрузить предыдущие сообщения",
                     "load_next_button": "Загрузить следующие сообщения",
                     "start_of_the_conversation": "Начало диалога",
-                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
+                    "name_removed_text": "",
+                    "renamed_text": "",
+                    "user_left_text": ""
                 },
                 "title": "Сообщения"
             },
             "recipient_selection_modal": {
                 "cannot_reply_text": "Нельзя отвечать на сообщения",
-                "title": "Выберите получателей сообщения"
+                "title": "Выберите получателей сообщения",
+                "groups_heading": "",
+                "groups_help": ""
             },
             "search_source": {
                 "conversation_with": "Диалог с {username}",
                 "heading": "Сообщения"
             },
             "settings": {
-                "notify_message_received_label": "Кто-то отправил мне сообщение"
+                "notify_message_received_label": "Кто-то отправил мне сообщение",
+                "notify_message_liked_label": "",
+                "privacy_disclose_read_receipts_label": ""
             },
             "user_controls": {
                 "send_message_button": "Написать сообщение",
                 "cannot_reply_text": "Этот пользователь не может отвечать"
             },
             "notifications": {
-                "message_received_text": "Новое сообщение от {user}"
+                "message_received_text": "Новое сообщение от {user}",
+                "message_liked_text": ""
+            },
+            "composer_edit": {
+                "discard_confirmation": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "message": {
+                "deleted_text": "",
+                "edited_text": "",
+                "edited_tooltip": "",
+                "read_status": {
+                    "read_by_everyone_tooltip": "",
+                    "read_by_some_tooltip": "",
+                    "read_tooltip": "",
+                    "sent_tooltip": ""
+                }
+            },
+            "read_by_modal": {
+                "title": ""
+            },
+            "rename_dialog_modal": {
+                "help_text": "",
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         },
         "email": {
@@ -98,16 +158,22 @@
                 },
                 "html": {
                     "body": "[Новое сообщение]({url}) от {user_display_name}.\n\nВы не будете получать новые письма об этом диалоге, пока не прочитаете его.\n"
-                }
+                },
+                "group_subject": ""
             }
         },
         "lib": {
             "dialog": {
-                "title": "Диалог с {username}"
+                "title": "Диалог с {username}",
+                "private_group_title": "",
+                "group_title": ""
             },
             "no_other_members_message": "В этом диалоге никого больше нет.",
             "recipient_cannot_reply_message": "{username} не может отвечать на сообщения.",
-            "recipient_unavailable_message": "{username} не может получать сообщения."
+            "recipient_unavailable_message": "{username} не может получать сообщения.",
+            "too_many_groups_message": "",
+            "groups_unavailable_message": "",
+            "too_many_recipients_message": ""
         }
     },
     "flarum-gdpr": {
@@ -126,7 +192,13 @@
             "browser": {
                 "dialog": {
                     "started": "Начат личный диалог с {username}",
-                    "posted": "Отправлено личное сообщение {username}"
+                    "posted": "Отправлено личное сообщение {username}",
+                    "group_started": "",
+                    "group_posted": "",
+                    "message_edited": "",
+                    "message_hidden": "",
+                    "message_restored": "",
+                    "message_deleted": ""
                 }
             }
         }
@@ -136,6 +208,15 @@
             "statistics": {
                 "dialogs_heading": "Начатые диалоги",
                 "dialog_replies_heading": "Ответы в диалогах"
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "messageReceived": ""
+                }
             }
         }
     }

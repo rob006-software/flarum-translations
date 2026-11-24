@@ -34,7 +34,10 @@
                 "not_following_button": "Não Seguindo",
                 "not_following_text": "Seja notificado apenas quando @mencionado.",
                 "notify_alert_tooltip": "Receber uma notificação no fórum quando houver novos posts",
-                "notify_email_tooltip": "Receber um e-mail quando houver novos posts"
+                "notify_email_tooltip": "Receber um e-mail quando houver novos posts",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Seguir",
             "following": "Seguindo",
             "ignoring": "Ignorando"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

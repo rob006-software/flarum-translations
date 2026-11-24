@@ -18,7 +18,17 @@
                 "set_on_registration_label": "Дозволите постављање надимака при регистрацији",
                 "unique_label": "Захтевај јединствене надимке"
             },
-            "wrong_driver": ""
+            "wrong_driver": "",
+            "sections": {
+                "registration": {
+                    "description": "",
+                    "label": ""
+                },
+                "validation": {
+                    "description": "",
+                    "label": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Овај надимак је неважећи. Молимо контактирајте администратора форума за више информација о правилима за надимке."

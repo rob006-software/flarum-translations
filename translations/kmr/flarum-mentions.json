@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Destûrê bide behskirina bi navê bikarhêner (@Bikarhêner)",
                 "allow_username_format_text": "Forma heyî ya ji bo behskirina bikarhêner @\"Navê Nîşandanê\"#ID e.\nVê mîhengê dihêle ku formata @Bikarhêner kevn were bikar anîn, lê piştî tomarkirinê dê dîsa jî veguherîne forma nû.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "Xem địa chỉ IP"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -144,7 +147,12 @@
                     "password_reset_attempted": "Đã yêu cầu đặt lại mật khẩu cho {username}",
                     "password_reset_attempted_unmatched": "Đã yêu cầu đặt lại mật khẩu cho {email} (không có tài khoản nào khớp)",
                     "provider_connected": "Đã kết nối nhà cung cấp {provider} với tài khoản {username}",
-                    "username_changed": "Đã đổi tên người dùng của {username} từ {old_username} thành {new_username}"
+                    "username_changed": "Đã đổi tên người dùng của {username} từ {old_username} thành {new_username}",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": ""
                 }
             }
         }

@@ -6,7 +6,24 @@
                 "message_users_without_permission_label": "Envoyer des messages à des utilisateurs ne disposant pas de l'autorisation d'envoyer des messages",
                 "delete_own_messages_label": "Supprimer ses propres messages",
                 "send_without_throttle_label": "Envoyer des messages sans limitation de débit",
-                "view_ips_label": "Afficher les adresses IP des messages"
+                "view_ips_label": "Afficher les adresses IP des messages",
+                "delete_messages_forever_label": "",
+                "edit_own_messages_label": "",
+                "message_groups_label": ""
+            },
+            "sections": {
+                "groups": {
+                    "description": "",
+                    "label": ""
+                }
+            },
+            "settings": {
+                "recipient_groups_label": "",
+                "recipient_groups_help": "",
+                "allow_group_names_help": "",
+                "allow_group_names_label": "",
+                "max_recipients_help": "",
+                "max_recipients_label": ""
             }
         },
         "forum": {
@@ -15,7 +32,8 @@
                 "placeholder": "Rédigez un message...",
                 "recipients": "Destinataires",
                 "submit_button": "Envoyer le message",
-                "to": "À :"
+                "to": "À :",
+                "title": ""
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
@@ -23,20 +41,25 @@
                 "own_last_message_preview": "Vous : {content}",
                 "title": "Messages",
                 "unread_count_text": "{count} non lus",
-                "view_all": "Afficher tous les messages"
+                "view_all": "Afficher tous les messages",
+                "group_last_message_preview": ""
             },
             "dialog_section": {
                 "back_label": "Revenir en arrière",
                 "cannot_reply_text": "Cet utilisateur ne peut pas répondre",
                 "controls": {
-                    "details_button": "Informations"
+                    "details_button": "Informations",
+                    "leave_button": "",
+                    "rename_button": ""
                 },
                 "controls_toggle_label": "Actions de contrôle de la conversation",
                 "details_modal": {
                     "created_at": "Date de création",
                     "recipients": "Participants",
                     "title": "Détails de la conversation"
-                }
+                },
+                "leave_confirmation": "",
+                "members_button": ""
             },
             "header": {
                 "dropdown_tooltip": "Messages"
@@ -51,7 +74,11 @@
             },
             "message_controls": {
                 "delete_button": "Supprimer",
-                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce message ? Cette action est irréversible."
+                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce message ? Cette action est irréversible.",
+                "delete_forever_button": "",
+                "delete_forever_confirmation": "",
+                "edit_button": "",
+                "restore_button": ""
             },
             "messages_page": {
                 "cannot_send_message_button": "Impossible d'envoyer un message",
@@ -67,27 +94,60 @@
                     "load_previous_button": "Charger les messages précédents",
                     "load_next_button": "Charger les messages suivants",
                     "start_of_the_conversation": "Début de la conversation",
-                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
+                    "name_removed_text": "",
+                    "renamed_text": "",
+                    "user_left_text": ""
                 },
                 "title": "Messages"
             },
             "recipient_selection_modal": {
                 "cannot_reply_text": "Impossible de répondre aux messages",
-                "title": "Sélectionnez les destinataires de ce message"
+                "title": "Sélectionnez les destinataires de ce message",
+                "groups_heading": "",
+                "groups_help": ""
             },
             "search_source": {
                 "conversation_with": "Conversation avec {username}",
                 "heading": "Messages"
             },
             "settings": {
-                "notify_message_received_label": "Quelqu'un m'a envoyé un message"
+                "notify_message_received_label": "Quelqu'un m'a envoyé un message",
+                "notify_message_liked_label": "",
+                "privacy_disclose_read_receipts_label": ""
             },
             "user_controls": {
                 "send_message_button": "Envoyer un message",
                 "cannot_reply_text": "Cet utilisateur ne peut pas répondre"
             },
             "notifications": {
-                "message_received_text": "{user} vous a envoyé un message"
+                "message_received_text": "{user} vous a envoyé un message",
+                "message_liked_text": ""
+            },
+            "composer_edit": {
+                "discard_confirmation": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "message": {
+                "deleted_text": "",
+                "edited_text": "",
+                "edited_tooltip": "",
+                "read_status": {
+                    "read_by_everyone_tooltip": "",
+                    "read_by_some_tooltip": "",
+                    "read_tooltip": "",
+                    "sent_tooltip": ""
+                }
+            },
+            "read_by_modal": {
+                "title": ""
+            },
+            "rename_dialog_modal": {
+                "help_text": "",
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         },
         "email": {
@@ -98,16 +158,22 @@
                 },
                 "html": {
                     "body": "{user_display_name} vous a envoyé un [nouveau message]({url}).\n\nVous ne recevrez plus de courriels concernant cette conversation tant que vous ne l'aurez pas lue.\n"
-                }
+                },
+                "group_subject": ""
             }
         },
         "lib": {
             "dialog": {
-                "title": "Messagerie {username}"
+                "title": "Messagerie {username}",
+                "private_group_title": "",
+                "group_title": ""
             },
             "no_other_members_message": "Il n'y a personne d'autre dans cette conversation.",
             "recipient_cannot_reply_message": "{username} ne peut pas répondre aux messages.",
-            "recipient_unavailable_message": "{username} ne peut pas recevoir de messages."
+            "recipient_unavailable_message": "{username} ne peut pas recevoir de messages.",
+            "too_many_groups_message": "",
+            "groups_unavailable_message": "",
+            "too_many_recipients_message": ""
         }
     },
     "flarum-gdpr": {
@@ -126,7 +192,13 @@
             "browser": {
                 "dialog": {
                     "started": "A commencé une conversation privée avec {username}",
-                    "posted": "A envoyé un message privé à {username}"
+                    "posted": "A envoyé un message privé à {username}",
+                    "group_started": "",
+                    "group_posted": "",
+                    "message_edited": "",
+                    "message_hidden": "",
+                    "message_restored": "",
+                    "message_deleted": ""
                 }
             }
         }
@@ -136,6 +208,15 @@
             "statistics": {
                 "dialogs_heading": "MP démarré",
                 "dialog_replies_heading": "Réponses MP"
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "messageReceived": ""
+                }
             }
         }
     }

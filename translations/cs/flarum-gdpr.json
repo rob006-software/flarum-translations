@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Nastaví všechny sloupce v tabulce uživatele na hodnotu null. Sloupce, které nemohou být null, jsou nastaveny na výchozí nebo speciální hodnoty. Heslo je změněno, předvolby resetovány a všechny skupiny odstraněny.",
                     "delete_description": "Odstraní uživatele z databáze.",
                     "export_description": "Exportuje data z tabulky uživatele. Všechny sloupce kromě ID a hesla."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

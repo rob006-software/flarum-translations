@@ -24,7 +24,9 @@
                 "name_placeholder": "Navn",
                 "slug_label": "URL-navn",
                 "submit_button": "Gem ændringer",
-                "title": "Opret mærkat"
+                "title": "Opret mærkat",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "Mærkater",
@@ -55,6 +57,16 @@
                 "primary_heading": "Primære mærkater",
                 "secondary_heading": "Sekundære mærkater",
                 "settings_heading": "Indstillinger"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "",
             "name": "Navn",
             "tags": "Mærkater"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

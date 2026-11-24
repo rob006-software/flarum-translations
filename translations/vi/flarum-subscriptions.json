@@ -34,7 +34,10 @@
                 "not_following_button": "Không theo dõi",
                 "not_following_text": "Chỉ nhận thông báo khi bạn được nhắc đến (@).",
                 "notify_alert_tooltip": "Nhận thông báo trên diễn đàn khi có bài viết mới",
-                "notify_email_tooltip": "Nhận email khi có bài viết mới"
+                "notify_email_tooltip": "Nhận email khi có bài viết mới",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Theo dõi",
             "following": "Đang theo dõi",
             "ignoring": "Bỏ qua"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

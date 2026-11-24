@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "Wyświetlanie adresów IP"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -154,6 +157,11 @@
                     "password_reset_attempted_unmatched": "Poproszono o reset hasła dla adresu {email} (brak pasującego konta)",
                     "provider_connected": "Połączono dostawcę {provider} z kontem użytkownika {username}",
                     "username_changed": "Zmieniono nazwę użytkownika {username} z {old_username} na {new_username}",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": "",
                     "bio_changed": "Zmieniono bio użytkownika {username}",
                     "impersonated": "Podszyto się pod użytkownika {username}",
                     "nickname_requested": "Poproszono o nowy pseudonim {new_nickname} dla użytkownika {username}",

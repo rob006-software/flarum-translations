@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "Ver dirección IP"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -154,6 +157,11 @@
                     "password_reset_attempted_unmatched": "Solicitó un restablecimiento de contraseña para {email} (sin cuenta coincidente)",
                     "provider_connected": "Conectó el proveedor {provider} a la cuenta de {username}",
                     "username_changed": "Cambió el nombre de usuario de {username} de {old_username} a {new_username}",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": "",
                     "bio_changed": "Editó la biografía de {username}",
                     "impersonated": "Suplantó a {username}",
                     "nickname_requested": "Solicitó un nuevo apodo {new_nickname} para el usuario {username}",

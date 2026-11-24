@@ -13,6 +13,16 @@
                 "server_hostname_label": "服务器主机地址",
                 "server_hostname_help": "可选。如需使用自托管 Pusher 兼容服务器（例如 soketi），可在此指定客户端连接的主机地址。留空则使用上方集群对应的 Pusher 官方服务。",
                 "title": "Pusher 设置"
+            },
+            "sections": {
+                "connection": {
+                    "description": "",
+                    "label": ""
+                },
+                "server": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {

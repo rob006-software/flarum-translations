@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "İstifadəçi adı bəhs etmə formatına icazə ver (@Username)",
                 "allow_username_format_text": "Hazırda, istifadəçilərin bəhs edilmə formatı @\"Display Name\"#ID - dir.\nBu parametr @Username adının köhnə formatından istifadə etməyə imkan verir, lakin saxlandıqdan sonra yenə də yeni formata çevriləcək.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Sitat",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Kimsə paylaşımlarımdan birinə cavab verir",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

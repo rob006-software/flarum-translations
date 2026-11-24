@@ -13,6 +13,16 @@
                 "server_hostname_label": "Hostname do Servidor",
                 "server_hostname_help": "Opcional. Substitui o host ao qual o cliente se conecta, para um servidor auto-hospedado compatível com Pusher (por exemplo, soketi). Deixe em branco para usar o serviço hospedado do Pusher com o cluster acima.",
                 "title": "Configurações do Pusher"
+            },
+            "sections": {
+                "connection": {
+                    "description": "",
+                    "label": ""
+                },
+                "server": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {

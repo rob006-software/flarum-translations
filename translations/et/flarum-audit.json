@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "Vaata IP aadressi"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -144,7 +147,12 @@
                     "password_reset_attempted": "",
                     "password_reset_attempted_unmatched": "",
                     "provider_connected": "",
-                    "username_changed": ""
+                    "username_changed": "",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": ""
                 }
             }
         }

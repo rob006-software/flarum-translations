@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "允許@用戶名",
                 "allow_username_format_text": "預設提及格式為「@暱稱#ID」\n此設置允許使用舊格式「@用戶名」，但是儲存後仍將自動轉換為新格式。\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "引用",
                 "reply_link": "回覆",
-                "you_text": "你"
+                "you_text": "你",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "有人回覆了你",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Salli käyttäjätunnuksen maininta muoto (@tunnus)",
                 "allow_username_format_text": "Tämän hetkinen muoto käyttäjän maininnalle on @\"Display Name\"#ID.\nTämä asetus sallii vanhan muodon käyttämisen @tunnus , se kuitenkin muunnetaan uuteen muotoon tallennettaessa.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Lainaa",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Joku vastaa johonkin viestiini",
@@ -84,6 +91,17 @@
                         "key": "mainittu",
                         "hint": "Mainitun käyttäjän ID tai käyttäjätunnus"
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

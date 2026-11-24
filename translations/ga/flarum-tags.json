@@ -24,7 +24,9 @@
                 "name_placeholder": "",
                 "slug_label": "",
                 "submit_button": "",
-                "title": ""
+                "title": "",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "",
@@ -55,6 +57,16 @@
                 "primary_heading": "",
                 "secondary_heading": "",
                 "settings_heading": ""
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "",
             "name": "",
             "tags": ""
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

@@ -34,7 +34,10 @@
                 "not_following_button": "Nesledované",
                 "not_following_text": "Buďte upozornený iba keď budete @spomenutý.",
                 "notify_alert_tooltip": "Dostať notifikáciu na fóre keď tu pribudnú príspevky",
-                "notify_email_tooltip": "Dostať email keď tu pribudnú nové príspevky"
+                "notify_email_tooltip": "Dostať email keď tu pribudnú nové príspevky",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Sledovať",
             "following": "Sledované",
             "ignoring": "Ignorované"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

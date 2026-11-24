@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "View IP Address"
+            },
+            "tabs": {
+                "log": "Log"
             }
         },
         "forum": {
@@ -144,7 +147,12 @@
                     "password_reset_attempted": "Requested a password reset for {username}",
                     "password_reset_attempted_unmatched": "Requested a password reset for {email} (no matching account)",
                     "provider_connected": "Connected provider {provider} to {username} account",
-                    "username_changed": "Changed {username}'s username from {old_username} to {new_username}"
+                    "username_changed": "Changed {username}'s username from {old_username} to {new_username}",
+                    "email_bounced": "Mail to {username} bounced: {reason}",
+                    "email_bounced_unmatched": "Mail to {email} bounced (no matching account): {reason}",
+                    "email_complained": "{username} marked mail from the forum as spam",
+                    "email_complained_unmatched": "Mail to {email} was marked as spam (no matching account)",
+                    "logged_out_everywhere": "Logged out {username} account everywhere"
                 }
             }
         }

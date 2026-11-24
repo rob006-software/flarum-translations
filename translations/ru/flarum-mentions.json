@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Разрешить старый формат упоминания (@Username)",
                 "allow_username_format_text": "Текущий формат упоминания пользователя: @\"Display Name\"#ID.\nДанная настройка позволяет задействовать старый формат упоминания (@Username). Но старый формат всё равно будет преобразован в новый при сохранении сообщения.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Цитата",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Кто-то ответил на моё сообщение",
@@ -84,6 +91,17 @@
                         "key": "упоминания",
                         "hint": "ID или имя упомянутого пользователя"
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

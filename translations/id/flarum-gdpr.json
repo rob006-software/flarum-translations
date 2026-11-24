@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Mengatur semua kolom pada tabel pengguna menjadi null. Kolom yang tidak dapat diatur ke dalam nilai null akan diatur ke nilai default atau nilai khusus. Kata sandi diubah, preferensi diatur ke default dan semua grup dihapus.",
                     "delete_description": "Menghapus pengguna dari database.",
                     "export_description": "Mengekspor data dari tabel user. Semua kolom kecuali id, kata sandi."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

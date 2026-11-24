@@ -34,7 +34,10 @@
                 "not_following_button": "לא עוקב",
                 "not_following_text": "קבל התראות אך ורק כשאני @מוזכר",
                 "notify_alert_tooltip": "קבלת התראות פורום כשיש פוסטים חדשים",
-                "notify_email_tooltip": "קבל מייל כשיש פוסטים חדשים"
+                "notify_email_tooltip": "קבל מייל כשיש פוסטים חדשים",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "עקוב",
             "following": "עוקב",
             "ignoring": "מתעלם"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

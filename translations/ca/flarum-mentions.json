@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Permetre el format d'esment de nom d'usuari (@nomusuari)",
                 "allow_username_format_text": "El format actual per esmentar usuaris és @\"Nom visualitzat\"#ID.\nAquest paràmetre de configuració permet utilitzar l'antic format de @nomusuari. De tota manera, es convertirà al nou format un cop desat.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Cita literal",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Algú respon a una de les meves publicacions",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

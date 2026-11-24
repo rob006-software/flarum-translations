@@ -34,7 +34,10 @@
                 "not_following_button": "Non Seguire",
                 "not_following_text": "Mandami una notifica solo quando vengo @menzionato.",
                 "notify_alert_tooltip": "Ricevi una email quando qualcuno risponde",
-                "notify_email_tooltip": "Ricevi una notifica quando qualcuno risponde"
+                "notify_email_tooltip": "Ricevi una notifica quando qualcuno risponde",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Segui",
             "following": "Segui",
             "ignoring": "Ignora"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

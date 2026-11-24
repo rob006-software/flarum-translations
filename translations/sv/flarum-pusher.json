@@ -13,6 +13,16 @@
                 "server_hostname_label": "Värdnamn för server",
                 "server_hostname_help": "Valfritt. Åsidosätt värden som klienten ansluter till för en egenvärd, Pusher-kompatibel server (till exempel soketi). Lämna tomt för att använda Pushers värdtjänst med klustret ovan.",
                 "title": "Inställningar för Pusher"
+            },
+            "sections": {
+                "connection": {
+                    "description": "",
+                    "label": ""
+                },
+                "server": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {

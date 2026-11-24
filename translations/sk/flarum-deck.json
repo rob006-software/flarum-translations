@@ -9,6 +9,12 @@
                 "max_columns_label": "",
                 "poll_interval_help": "",
                 "poll_interval_label": ""
+            },
+            "sections": {
+                "columns": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -30,7 +36,8 @@
                 "pick_a_result_message": "",
                 "submit_button": "",
                 "title": "",
-                "use_filters_button": ""
+                "use_filters_button": "",
+                "filter_unknown_message": ""
             },
             "column": {
                 "controls_label": "",
@@ -47,7 +54,8 @@
                 "refresh_button": "",
                 "remove_button": "",
                 "reset_width_button": "",
-                "resize_label": ""
+                "resize_label": "",
+                "edit_button": ""
             },
             "column_types": {
                 "all": "",
@@ -98,6 +106,11 @@
                 "reset_confirmation": "",
                 "scroll_left_label": "",
                 "scroll_right_label": "",
+                "title": ""
+            },
+            "edit_column": {
+                "name_label": "",
+                "submit_button": "",
                 "title": ""
             }
         }

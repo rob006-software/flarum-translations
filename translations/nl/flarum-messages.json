@@ -6,7 +6,24 @@
                 "message_users_without_permission_label": "",
                 "delete_own_messages_label": "Verwijder eigen berichten",
                 "send_without_throttle_label": "",
-                "view_ips_label": ""
+                "view_ips_label": "",
+                "delete_messages_forever_label": "",
+                "edit_own_messages_label": "",
+                "message_groups_label": ""
+            },
+            "sections": {
+                "groups": {
+                    "description": "",
+                    "label": ""
+                }
+            },
+            "settings": {
+                "recipient_groups_label": "",
+                "recipient_groups_help": "",
+                "allow_group_names_help": "",
+                "allow_group_names_label": "",
+                "max_recipients_help": "",
+                "max_recipients_label": ""
             }
         },
         "forum": {
@@ -15,7 +32,8 @@
                 "placeholder": "Schrijf een bericht...",
                 "recipients": "Ontvangers",
                 "submit_button": "Verzend bericht",
-                "to": "Aan:"
+                "to": "Aan:",
+                "title": ""
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
@@ -23,20 +41,25 @@
                 "own_last_message_preview": "",
                 "title": "Berichten",
                 "unread_count_text": "",
-                "view_all": "Bekijk alle berichten"
+                "view_all": "Bekijk alle berichten",
+                "group_last_message_preview": ""
             },
             "dialog_section": {
                 "back_label": "Ga terug",
                 "cannot_reply_text": "Deze gebruiker kan niet antwoorden",
                 "controls": {
-                    "details_button": "Details"
+                    "details_button": "Details",
+                    "leave_button": "",
+                    "rename_button": ""
                 },
                 "controls_toggle_label": "Dialoogbesturingsacties",
                 "details_modal": {
                     "created_at": "Aanmaakdatum",
                     "recipients": "Deelnemers",
                     "title": "Gespreksdetails"
-                }
+                },
+                "leave_confirmation": "",
+                "members_button": ""
             },
             "header": {
                 "dropdown_tooltip": "Berichten"
@@ -51,7 +74,11 @@
             },
             "message_controls": {
                 "delete_button": "Verwijderen",
-                "delete_confirmation": "Weet je zeker dat je dit bericht wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+                "delete_confirmation": "Weet je zeker dat je dit bericht wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+                "delete_forever_button": "",
+                "delete_forever_confirmation": "",
+                "edit_button": "",
+                "restore_button": ""
             },
             "messages_page": {
                 "cannot_send_message_button": "Kan geen bericht verzenden",
@@ -67,27 +94,60 @@
                     "load_previous_button": "Laad eerdere berichten",
                     "load_next_button": "Laad volgende berichten",
                     "start_of_the_conversation": "Begin van het gesprek",
-                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
+                    "name_removed_text": "",
+                    "renamed_text": "",
+                    "user_left_text": ""
                 },
                 "title": "Berichten"
             },
             "recipient_selection_modal": {
                 "cannot_reply_text": "",
-                "title": "Selecteer de ontvangers van dit bericht"
+                "title": "Selecteer de ontvangers van dit bericht",
+                "groups_heading": "",
+                "groups_help": ""
             },
             "search_source": {
                 "conversation_with": "",
                 "heading": ""
             },
             "settings": {
-                "notify_message_received_label": "Iemand stuurt me een bericht"
+                "notify_message_received_label": "Iemand stuurt me een bericht",
+                "notify_message_liked_label": "",
+                "privacy_disclose_read_receipts_label": ""
             },
             "user_controls": {
                 "send_message_button": "Stuur een bericht",
                 "cannot_reply_text": "Deze gebruiker kan niet antwoorden"
             },
             "notifications": {
-                "message_received_text": "Bericht ontvangen melding van {user}"
+                "message_received_text": "Bericht ontvangen melding van {user}",
+                "message_liked_text": ""
+            },
+            "composer_edit": {
+                "discard_confirmation": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "message": {
+                "deleted_text": "",
+                "edited_text": "",
+                "edited_tooltip": "",
+                "read_status": {
+                    "read_by_everyone_tooltip": "",
+                    "read_by_some_tooltip": "",
+                    "read_tooltip": "",
+                    "sent_tooltip": ""
+                }
+            },
+            "read_by_modal": {
+                "title": ""
+            },
+            "rename_dialog_modal": {
+                "help_text": "",
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         },
         "email": {
@@ -98,16 +158,22 @@
                 },
                 "html": {
                     "body": "{user_display_name} heeft je een [nieuw bericht]({url}) gestuurd."
-                }
+                },
+                "group_subject": ""
             }
         },
         "lib": {
             "dialog": {
-                "title": "Berichten versturen naar {username}"
+                "title": "Berichten versturen naar {username}",
+                "private_group_title": "",
+                "group_title": ""
             },
             "no_other_members_message": "",
             "recipient_cannot_reply_message": "",
-            "recipient_unavailable_message": ""
+            "recipient_unavailable_message": "",
+            "too_many_groups_message": "",
+            "groups_unavailable_message": "",
+            "too_many_recipients_message": ""
         }
     },
     "flarum-gdpr": {
@@ -126,7 +192,13 @@
             "browser": {
                 "dialog": {
                     "started": "",
-                    "posted": ""
+                    "posted": "",
+                    "group_started": "",
+                    "group_posted": "",
+                    "message_edited": "",
+                    "message_hidden": "",
+                    "message_restored": "",
+                    "message_deleted": ""
                 }
             }
         }
@@ -136,6 +208,15 @@
             "statistics": {
                 "dialogs_heading": "",
                 "dialog_replies_heading": ""
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "messageReceived": ""
+                }
             }
         }
     }

@@ -34,7 +34,10 @@
                 "not_following_button": "Ne pratim",
                 "not_following_text": "Budite obavješteni samo kad vas se @spomene.",
                 "notify_alert_tooltip": "Dobijte forumsku obavijest kad bude novih objava",
-                "notify_email_tooltip": "Dobijte e-mail kad bude novih objava"
+                "notify_email_tooltip": "Dobijte e-mail kad bude novih objava",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Kreni pratiti",
             "following": "Pratim",
             "ignoring": "Ignoriram"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

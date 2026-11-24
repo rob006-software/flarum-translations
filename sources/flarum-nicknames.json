@@ -18,7 +18,17 @@
                 "set_on_registration_label": "Allow setting nicknames on registration",
                 "unique_label": "Require unique nicknames"
             },
-            "wrong_driver": "You must select \"nickname\" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect."
+            "wrong_driver": "You must select \"nickname\" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect.",
+            "sections": {
+                "registration": {
+                    "description": "What new members are asked for when they sign up.",
+                    "label": "Registration"
+                },
+                "validation": {
+                    "description": "Rules every nickname has to follow.",
+                    "label": "Validation"
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "This nickname is invalid. Please contact your forum administrator for more information on nickname rules."

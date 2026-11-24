@@ -34,7 +34,10 @@
                 "not_following_button": "पालन नहीं करते हुए",
                 "not_following_text": "केवल @mentioned होने पर ही सूचित किया जाए।",
                 "notify_alert_tooltip": "नई पोस्ट आने पर फोरम अधिसूचना प्राप्त करें",
-                "notify_email_tooltip": "नई पोस्ट आने पर ईमेल प्राप्त करें"
+                "notify_email_tooltip": "नई पोस्ट आने पर ईमेल प्राप्त करें",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "अनुसरण करना",
             "following": "अगले",
             "ignoring": "की उपेक्षा"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

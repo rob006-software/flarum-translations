@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Dozvoli format spomena korisničkih imena (@KorisničkoIme)",
                 "allow_username_format_text": "Trenutno se za spominjanje korisnika koristi format @\"Prikazno Ime\"#ID.\nOva postavka dozovljava korištenje starog formata @KorisničkoIme, ali još uvijek će se dogoditi pretvorba u novi oblik prilikom pohranjivanja promjena.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Citiraj",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Kad netko odgovori na jednu od mojih objava",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

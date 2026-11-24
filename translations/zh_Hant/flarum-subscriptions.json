@@ -34,7 +34,10 @@
                 "not_following_button": "不關注",
                 "not_following_text": "僅當被提及時通知我",
                 "notify_alert_tooltip": "有新回覆時發送通知",
-                "notify_email_tooltip": "有新回覆時發送郵件"
+                "notify_email_tooltip": "有新回覆時發送郵件",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "關注",
             "following": "關注",
             "ignoring": "忽視"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

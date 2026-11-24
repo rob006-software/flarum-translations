@@ -9,6 +9,12 @@
                 "max_columns_label": "Üye başına en fazla sütun sayısı",
                 "poll_interval_help": "Gerçek zamanlı bağlantı (Realtime) olmadığında sütunların yeni etkinlikleri ne sıklıkla kontrol edeceğini belirleyin. Devre dışı bırakmak için 0 girin. En düşük değer 15 saniyedir.",
                 "poll_interval_label": "Yenileme aralığı (saniye)"
+            },
+            "sections": {
+                "columns": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -30,7 +36,8 @@
                 "pick_a_result_message": "{field} alanı için önerilerden bir sonuç seçin.",
                 "submit_button": "Sütun ekle",
                 "title": "Sütun ekle",
-                "use_filters_button": "Bu filtreleri kullan"
+                "use_filters_button": "Bu filtreleri kullan",
+                "filter_unknown_message": ""
             },
             "column": {
                 "controls_label": "{title} sütununun seçenekleri",
@@ -47,7 +54,8 @@
                 "refresh_button": "Yenile",
                 "remove_button": "Sütunu kaldır",
                 "reset_width_button": "Genişliği sıfırla",
-                "resize_label": "{title} sütununun boyutunu değiştir"
+                "resize_label": "{title} sütununun boyutunu değiştir",
+                "edit_button": ""
             },
             "column_types": {
                 "all": "Tüm tartışmalar",
@@ -99,6 +107,11 @@
                 "scroll_left_label": "Sola kaydır",
                 "scroll_right_label": "Sağa kaydır",
                 "title": "Pano"
+            },
+            "edit_column": {
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         }
     }

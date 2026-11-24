@@ -34,7 +34,10 @@
                 "not_following_button": "フォローしない",
                 "not_following_text": "@メンション された時のみ通知する。",
                 "notify_alert_tooltip": "新しい投稿があった時にフォーラム内で通知する",
-                "notify_email_tooltip": "新しい投稿があった時にメールで通知する"
+                "notify_email_tooltip": "新しい投稿があった時にメールで通知する",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "フォロー",
             "following": "フォロー中",
             "ignoring": "ミュート中"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

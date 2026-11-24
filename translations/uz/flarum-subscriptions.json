@@ -34,7 +34,10 @@
                 "not_following_button": "Kuzatmaslik",
                 "not_following_text": "@mentioned bo'lganda xabar berish.",
                 "notify_alert_tooltip": "Yangi xabarlar paydo bo'lganda forum xabarnomasini oling",
-                "notify_email_tooltip": "Yangi xabarlar paydo bo'lganda elektron pochta xabarini oling"
+                "notify_email_tooltip": "Yangi xabarlar paydo bo'lganda elektron pochta xabarini oling",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Kuzatib borish",
             "following": "Kuzatilmoqda",
             "ignoring": "Bekitish"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

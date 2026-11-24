@@ -13,6 +13,16 @@
                 "server_hostname_label": "Nazwa hosta serwera",
                 "server_hostname_help": "Opcjonalne. Nadpisuje host, z którym łączy się klient – dla samodzielnie hostowanego serwera zgodnego z Pusherem (np. soketi). Pozostaw puste, aby korzystać z usługi Pusher z klastrem ustawionym powyżej.",
                 "title": "Ustawienia Pushera"
+            },
+            "sections": {
+                "connection": {
+                    "description": "",
+                    "label": ""
+                },
+                "server": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {

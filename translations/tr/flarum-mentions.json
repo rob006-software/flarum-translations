@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Kullanıcı adıyla bahsetmeye izin ver (@Kullanıcı)",
                 "allow_username_format_text": "Kullanıcının bahsedildiği mevcut format @\"Görünen Ad\"#ID şeklindedir.\nBu ayar eski @Kullanıcı formatının kullanılmasına izin verir, ancak yine de kaydedildikten sonra yeni formata dönüştürecektir.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Alıntı",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Birisi gönderimi yanıtladığında",
@@ -84,6 +91,17 @@
                         "key": "bahsedilen",
                         "hint": "Bahsi geçen kullanıcının kimliği veya kullanıcı adı"
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "允許檢視 IP 位址"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -154,6 +157,11 @@
                     "password_reset_attempted_unmatched": "收到 {email} 的密碼重設申請，但找不到對應帳號",
                     "provider_connected": "已將 {provider} 綁定至 {username} 的帳號",
                     "username_changed": "{username} 已由 {old_username} 變更為 {new_username}",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": "",
                     "bio_changed": "已變更 {username} 的個人簡介",
                     "impersonated": "以 {username} 身分登入",
                     "nickname_requested": "{username} 已申請新的暱稱 {new_nickname}",

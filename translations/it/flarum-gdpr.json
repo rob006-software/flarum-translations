@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Imposta tutte le colonne della tabella utente su null. Le colonne non annullabili vengono impostate sui valori predefiniti o sui valori speciali. La password viene modificata, le preferenze vengono impostate su quelle predefinite e tutti i gruppi vengono rimossi.",
                     "delete_description": "Elimina l'utente dal database.",
                     "export_description": "Esporta i dati dalla tabella utente. Tutte le colonne tranne ID e password."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

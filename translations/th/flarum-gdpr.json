@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -95,6 +109,11 @@
                     "export_description": ""
                 },
                 "user": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "emailbounceevents": {
                     "anonymize_description": "",
                     "delete_description": "",
                     "export_description": ""

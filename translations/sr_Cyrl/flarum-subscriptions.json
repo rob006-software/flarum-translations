@@ -34,7 +34,10 @@
                 "not_following_button": "Утишано",
                 "not_following_text": "Будите обавештени само када Вас неко спомене.",
                 "notify_alert_tooltip": "Примајте обавештења на форуму када се појаве нови одговори",
-                "notify_email_tooltip": "Примајте email обавештења када се појаве нови одговори"
+                "notify_email_tooltip": "Примајте email обавештења када се појаве нови одговори",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Запратите",
             "following": "Омиљено",
             "ignoring": "Игноришете"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Eski eslatib o'tish formatini ruxsat etish",
                 "allow_username_format_text": "Foydalanuvchining hozirgi eslatib o'tish formati: @\"Display Name\"#ID.\nBu sozlama eski eslatib o'tish formatini islatishga ruxsat beradi (@Username). Ammo eski format saqlangandan keyin bari bir yangisiga o'zgaradi.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Iqtibos",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Kimdir mening postlarimdan biriga javob berayapti",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

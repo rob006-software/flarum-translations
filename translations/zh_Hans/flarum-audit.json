@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "查看 IP 地址"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -154,6 +157,11 @@
                     "password_reset_attempted_unmatched": "请求重置未注册邮箱 {email} 的密码",
                     "provider_connected": "为 {username} 的账号绑定了 {provider}",
                     "username_changed": "修改了 {username} 的用户名：{old_username} → {new_username}",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": "",
                     "bio_changed": "已编辑{username}的个人简介",
                     "impersonated": "作为 {username} 登录",
                     "nickname_requested": "已为用户 {username} 请求为新昵称 {new_nickname}",

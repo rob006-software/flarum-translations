@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "Visa IP-adress"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -144,7 +147,12 @@
                     "password_reset_attempted": "Begärde lösenordsåterställning för {username}",
                     "password_reset_attempted_unmatched": "Begärde lösenordsåterställning för {email} (inget matchande konto)",
                     "provider_connected": "Anslöt leverantören {provider} till kontot {username}",
-                    "username_changed": "Ändrade {username}s användarnamn från {old_username} till {new_username}"
+                    "username_changed": "Ändrade {username}s användarnamn från {old_username} till {new_username}",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": ""
                 }
             }
         }

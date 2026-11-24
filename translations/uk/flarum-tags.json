@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Шлях",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Створити тег"
+                "title": "Створити тег",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Основні теги",
                 "secondary_heading": "Додаткові теги",
                 "settings_heading": "Налаштування"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Оберіть ще # тег} few {Оберіть ще # теги} many {Оберіть ще # тегів} other {Оберіть ще тегів: #}}",
             "name": "Назва",
             "tags": "Теги"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

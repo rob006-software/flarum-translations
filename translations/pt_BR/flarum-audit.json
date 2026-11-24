@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "Ver Endereço IP"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -144,7 +147,12 @@
                     "password_reset_attempted": "Solicitou a redefinição de senha de {username}",
                     "password_reset_attempted_unmatched": "Solicitou a redefinição de senha de {email} (nenhuma conta correspondente)",
                     "provider_connected": "Conectou o provedor {provider} à conta de {username}",
-                    "username_changed": "Alterou o nome de usuário de {username} de {old_username} para {new_username}"
+                    "username_changed": "Alterou o nome de usuário de {username} de {old_username} para {new_username}",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": ""
                 }
             }
         }

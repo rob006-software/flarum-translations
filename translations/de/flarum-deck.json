@@ -9,6 +9,12 @@
                 "max_columns_label": "Maximale Anzahl Spalten je Mitglied",
                 "poll_interval_help": "Wie oft die Spalten auf neue Aktivitäten prüfen, wenn keine Verbindung zu Realtime besteht. Der Wert 0 deaktiviert diese Funktion; der Mindestwert beträgt 15.",
                 "poll_interval_label": "Aktualisierungsintervall (Sekunden)"
+            },
+            "sections": {
+                "columns": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -30,7 +36,8 @@
                 "pick_a_result_message": "Wähle aus den Vorschlägen für {field} aus.",
                 "submit_button": "Spalte hinzufügen",
                 "title": "Eine Spalte hinzufügen",
-                "use_filters_button": "Diese Filter verwenden"
+                "use_filters_button": "Diese Filter verwenden",
+                "filter_unknown_message": ""
             },
             "column": {
                 "controls_label": "{title} Spaltenoptionen",
@@ -47,7 +54,8 @@
                 "refresh_button": "Aktualisieren",
                 "remove_button": "Spalte entfernen",
                 "reset_width_button": "Breite zurücksetzen",
-                "resize_label": "Größe von {title} anpassen"
+                "resize_label": "Größe von {title} anpassen",
+                "edit_button": ""
             },
             "column_types": {
                 "all": "Alle Diskussionen",
@@ -99,6 +107,11 @@
                 "scroll_left_label": "Nach links scrollen",
                 "scroll_right_label": "Nach rechts scrollen",
                 "title": "Deck"
+            },
+            "edit_column": {
+                "name_label": "",
+                "submit_button": "",
+                "title": ""
             }
         }
     }

@@ -34,7 +34,10 @@
                 "not_following_button": "Neseko",
                 "not_following_text": "Saņemt paziņojumus tikai kad esi @pieminēts.",
                 "notify_alert_tooltip": "Saņem foruma paziņojumus, kad ir jaunas ziņas",
-                "notify_email_tooltip": "Saņem e-pastu, kad ir jaunas ziņas"
+                "notify_email_tooltip": "Saņem e-pastu, kad ir jaunas ziņas",
+                "following_option": "",
+                "ignoring_option": "",
+                "not_following_option": ""
             }
         },
         "email": {
@@ -62,6 +65,15 @@
             "follow": "Sekot",
             "following": "Sekoju",
             "ignoring": "Ignorēju"
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newPost": ""
+                }
+            }
         }
     }
 }

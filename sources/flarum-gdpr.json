@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "How anonymized members are named once their data has been erased.",
+                    "label": "Anonymization"
+                },
+                "erasure": {
+                    "description": "Which erasure methods members can request and which one is used by default.",
+                    "label": "Erasure requests"
+                },
+                "overview": {
+                    "description": "Which data is exported and erased, including data registered by other extensions.",
+                    "label": "Data overview"
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Sets all columns on the user table to null. Non-nullable columns are set to their default values or special values. Password is changed, preferences set to default and all groups are removed.",
                     "delete_description": "Deletes the user from the database.",
                     "export_description": "Exports data from the user table. All columns except id, password."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "Removes the email address from the user's email bounce history, keeping anonymous records for statistics.",
+                    "delete_description": "Deletes the user's email bounce history.",
+                    "export_description": "Exports the user's email bounce and spam-complaint history."
                 }
             },
             "request_data": {

@@ -69,6 +69,20 @@
                         }
                     }
                 }
+            },
+            "sections": {
+                "anonymization": {
+                    "description": "",
+                    "label": ""
+                },
+                "erasure": {
+                    "description": "",
+                    "label": ""
+                },
+                "overview": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "lib": {
@@ -98,6 +112,11 @@
                     "anonymize_description": "Sätter alla kolumner i användartabellen till null. Kolumner som inte tillåter null-värden sätts till sina standardvärden eller till särskilda värden. Lösenordet ändras, inställningarna återställs till standardvärden och alla grupptillhörigheter tas bort.",
                     "delete_description": "Tar bort användaren från databasen.",
                     "export_description": "Exporterar data från användartabellen. Alla kolumner utom id och lösenord."
+                },
+                "emailbounceevents": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {

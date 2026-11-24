@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "允许 @用户名",
                 "allow_username_format_text": "Flarum 默认提及格式是「@外显名称#ID」，默认外显名称为用户名。\n启用 Nicknames 扩展程序后，你可能会将外显名称更改为昵称。开启此设置可允许用户同时使用旧格式「@用户名」，不过在保存时系统会自动转换成新格式。\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "引用",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "有人回复我的帖子",
@@ -84,6 +91,17 @@
                         "key": "提及",
                         "hint": "被提及用户 ID 或用户名"
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

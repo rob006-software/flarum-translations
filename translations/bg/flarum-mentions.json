@@ -7,6 +7,12 @@
             "settings": {
                 "allow_username_format_label": "Разрешаване на формат за споменаване на потребителско име (@Username)",
                 "allow_username_format_text": "Текущият формат за потребителски споменавания е @\"Показвано име\"#ID.\nТази настройка позволява използването на стария формат на @Username, но той все пак ще бъде преобразуван в новия формат при запазване.\n"
+            },
+            "sections": {
+                "format": {
+                    "description": "",
+                    "label": ""
+                }
             }
         },
         "forum": {
@@ -31,7 +37,8 @@
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Цитат",
                 "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "you_text": "=> core.ref.you",
+                "mentioned_by_self_only_text": ""
             },
             "settings": {
                 "notify_post_mentioned_label": "Някой отговаря на един от постовете ми",
@@ -84,6 +91,17 @@
                         "key": "",
                         "hint": ""
                     }
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "groupMentioned": "",
+                    "postMentioned": "",
+                    "userMentioned": ""
                 }
             }
         }

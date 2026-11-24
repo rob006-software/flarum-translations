@@ -16,6 +16,9 @@
             },
             "settings": {
                 "limitedIpAddress": "IP-Adresse anzeigen"
+            },
+            "tabs": {
+                "log": ""
             }
         },
         "forum": {
@@ -154,6 +157,11 @@
                     "password_reset_attempted_unmatched": "Passwortzurücksetzung für {email} angefordert (kein dazugehöriges Konto)",
                     "provider_connected": "Hat Provider {provider} mit Konto {username} verbunden",
                     "username_changed": "{username}s Benutzernamen von {old_username} zu {new_username} geändert",
+                    "email_bounced": "",
+                    "email_bounced_unmatched": "",
+                    "email_complained": "",
+                    "email_complained_unmatched": "",
+                    "logged_out_everywhere": "",
                     "bio_changed": "{username}s Bio bearbeitet",
                     "impersonated": "Hat sich als {username} ausgegeben",
                     "nickname_requested": "Neuen Spitznamen {new_nickname} für Benutzer {username} beantragt",

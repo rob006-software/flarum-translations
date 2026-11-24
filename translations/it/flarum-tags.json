@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Crea etichetta"
+                "title": "Crea etichetta",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Etichette Primarie",
                 "secondary_heading": "Etichette Secondarie",
                 "settings_heading": "Impostazioni"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Scegli ancora un tag} other {Scegli ancora # tag}}",
             "name": "Nome",
             "tags": "Etichette"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

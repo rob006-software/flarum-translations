@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "الاسم اللّطيف على الرّابط",
                 "submit_button": "حفظ التغييرات",
-                "title": "إنشاء علامة"
+                "title": "إنشاء علامة",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "الاقسام",
@@ -55,6 +57,16 @@
                 "primary_heading": "الاقسام الرئيسية",
                 "secondary_heading": "الاقسام الثانوية",
                 "settings_heading": "الاعدادات"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {اختر علامة واحدة أخرى} other {اختر # علامات أخرى}}",
             "name": "الاسم",
             "tags": "الأقسام"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

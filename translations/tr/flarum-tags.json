@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Adres Kısa Adı",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Etiket Oluştur"
+                "title": "Etiket Oluştur",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Birincil Etiketler",
                 "secondary_heading": "İkincil Etiketler",
                 "settings_heading": "Ayarlar"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {1 etiket daha seçin} other {# etiket daha seçin}}",
             "name": "İsim",
             "tags": "Etiketler"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {

@@ -24,7 +24,9 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Gysga salgy",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Kategoriýa döret"
+                "title": "Kategoriýa döret",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,6 +57,16 @@
                 "primary_heading": "Esasy Kategoriýalar",
                 "secondary_heading": "Ikilenji Kategoriýalar",
                 "settings_heading": "Sazlamalar"
+            },
+            "sections": {
+                "requirements": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "tabs": {
+                "settings": "",
+                "tags": ""
             }
         },
         "forum": {
@@ -119,6 +131,9 @@
             "choose_tags_placeholder": "{count, plural, one {Ýene 1 kategoriýa saýla} other {Ýene # kategoriýa saýla}}",
             "name": "Ady",
             "tags": "Kategoriýalar"
+        },
+        "api": {
+            "cannot_change_is_primary_message": ""
         }
     },
     "flarum-audit": {
