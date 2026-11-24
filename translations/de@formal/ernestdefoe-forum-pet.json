@@ -98,13 +98,13 @@
                 },
                 "egg_play": {
                     "1": "Das Ei wackelt fröhlich hin und her. Danke, {member}!",
-                    "2": "",
-                    "3": "",
-                    "4": ""
+                    "2": "Tipp tipp! Etwas tippt zurück, {member}.",
+                    "3": "Das Ei rollt vor und zurück. Spassig, {member}!",
+                    "4": "Ein kleines Spaßknäuel für dich, {member}."
                 }
             },
             "already": {
-                "feed": "",
+                "feed": "Du hast {pet} heute bereits gefüttert. Schau morgen noch einmal vorbei!",
                 "play": ""
             },
             "evolved": {
@@ -116,18 +116,18 @@
                 "to_baby": "Bis es schlüpft",
                 "to_adult": "Bis es aufwächst",
                 "to_special": "Bis zur Spezialform",
-                "complete": "",
-                "count": "",
-                "aria": ""
+                "complete": "{pet} ist ausgewachsen",
+                "count": "{done} / {need}",
+                "aria": "Wie nah {pet} an der nächsten Stufe ist"
             },
             "carers": {
-                "today": "",
-                "none": ""
+                "today": "{count, plural, one {# Betreuer heute} other {# Betreuer heute}}",
+                "none": "Heute hat noch niemand {pet} besucht."
             },
             "banner": {
-                "baby": "",
-                "adult": "",
-                "special": "",
+                "baby": "{pet} ist heute geschlüpft! Komm vorbei und sag Hallo.",
+                "adult": "{pet} ist heute gewachsen – vielen Dank an alle, die sich um es gekümmert haben.",
+                "special": "{pet} hat heute seine Spezialform erreicht. Was für eine Community!",
                 "milestone": "Wir haben gerade die Marke von {count} Beiträgen überschritten, und {pet} jubelt!",
                 "visit": "{pet} besuchen",
                 "dismiss": "Verwerfen"
@@ -137,7 +137,7 @@
                 "play": "",
                 "not_allowed": "",
                 "offline": "",
-                "dismiss": ""
+                "dismiss": "Verwerfen"
             },
             "corner": {
                 "open": "Öffne {pet}, das Forum-Haustier",
@@ -164,8 +164,8 @@
                 "reset_done": "Ein neues Ei liegt im Nest.",
                 "timezone": "Zeitzone für den Haustiertag",
                 "timezone_help": "",
-                "sidebar": "",
-                "corner": "",
+                "sidebar": "Haustierkarte in der Seitenleiste anzeigen",
+                "corner": "Kleines Haustier in der Ecke anzeigen, solange die Karte in der Seitenleiste nicht angezeigt wird",
                 "corner_help": "",
                 "nav": "Link zur Haustierseite in der Seitenleiste",
                 "art": "Deine eigenen Zeichnungen",
@@ -177,8 +177,8 @@
             "errors": {
                 "forum_pet_upload_too_big": "",
                 "forum_pet_upload_not_image": "",
-                "forum_pet_upload_failed": "",
-                "forum_pet_remove_failed": ""
+                "forum_pet_upload_failed": "Das Bild konnte nicht hochgeladen werden. Erneut versuchen.",
+                "forum_pet_remove_failed": "Das Bild konnte nicht entfernt werden. Erneut versuchen."
             },
             "species": {
                 "dumpling": "Dumpling",

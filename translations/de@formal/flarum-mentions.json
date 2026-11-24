@@ -10,8 +10,8 @@
             },
             "sections": {
                 "format": {
-                    "description": "",
-                    "label": ""
+                    "description": "Welche Syntax verwendet wird, um ein anderes Mitglied zu erwähnen.",
+                    "label": "Format für Erwähnungen"
                 }
             }
         },
@@ -38,7 +38,7 @@
                 "quote_button": "Zitieren",
                 "reply_link": "=> core.ref.reply",
                 "you_text": "=> core.ref.you",
-                "mentioned_by_self_only_text": ""
+                "mentioned_by_self_only_text": "{users} haben hierauf geantwortet."
             },
             "settings": {
                 "notify_post_mentioned_label": "Jemand hat auf Ihren Beitrag geantwortet",
@@ -99,9 +99,9 @@
         "email": {
             "notification": {
                 "types": {
-                    "groupMentioned": "",
-                    "postMentioned": "",
-                    "userMentioned": ""
+                    "groupMentioned": "Erwähnungen deiner Gruppen",
+                    "postMentioned": "Antworten auf deine Beiträge",
+                    "userMentioned": "Erwähnungen von dir"
                 }
             }
         }
