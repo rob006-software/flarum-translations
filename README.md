@@ -810,6 +810,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 
 | Extension ID | Package name |
 | --- | --- |
+| [`flarum-ai`](https://weblate.rob006.net/projects/flarum2/flarum-ai) | [`flarum/ai`](https://github.com/flarum/ai) |
 | [`flarum-akismet`](https://weblate.rob006.net/projects/flarum2/flarum-akismet) | [`flarum/akismet`](https://github.com/flarum/akismet) |
 | [`flarum-approval`](https://weblate.rob006.net/projects/flarum2/flarum-approval) | [`flarum/approval`](https://github.com/flarum/approval) |
 | [`flarum-audit`](https://weblate.rob006.net/projects/flarum2/flarum-audit) | [`flarum/audit`](https://github.com/flarum/audit) |
@@ -822,9 +823,11 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`flarum-likes`](https://weblate.rob006.net/projects/flarum2/flarum-likes) | [`flarum/likes`](https://github.com/flarum/likes) |
 | [`flarum-lock`](https://weblate.rob006.net/projects/flarum2/flarum-lock) | [`flarum/lock`](https://github.com/flarum/lock) |
 | [`flarum-markdown`](https://weblate.rob006.net/projects/flarum2/flarum-markdown) | [`flarum/markdown`](https://github.com/flarum/markdown) |
+| [`flarum-mcp`](https://weblate.rob006.net/projects/flarum2/flarum-mcp) | [`flarum/mcp`](https://github.com/flarum/mcp) |
 | [`flarum-mentions`](https://weblate.rob006.net/projects/flarum2/flarum-mentions) | [`flarum/mentions`](https://github.com/flarum/mentions) |
 | [`flarum-messages`](https://weblate.rob006.net/projects/flarum2/flarum-messages) | [`flarum/messages`](https://github.com/flarum/messages) |
 | [`flarum-nicknames`](https://weblate.rob006.net/projects/flarum2/flarum-nicknames) | [`flarum/nicknames`](https://github.com/flarum/nicknames) |
+| [`flarum-oauth-provider`](https://weblate.rob006.net/projects/flarum2/flarum-oauth-provider) | [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) |
 | [`flarum-pusher`](https://weblate.rob006.net/projects/flarum2/flarum-pusher) | [`flarum/pusher`](https://github.com/flarum/pusher) |
 | [`flarum-realtime`](https://weblate.rob006.net/projects/flarum2/flarum-realtime) | [`flarum/realtime`](https://github.com/flarum/realtime) |
 | [`flarum-statistics`](https://weblate.rob006.net/projects/flarum2/flarum-statistics) | [`flarum/statistics`](https://github.com/flarum/statistics) |
