@@ -394,10 +394,10 @@
                 "replaced": "Asendatud",
                 "reset_settings": {
                     "button": "Nulli seaded",
-                    "cancel_button": "",
-                    "confirm_button": "",
+                    "cancel_button": "Loobu",
+                    "confirm_button": "Nulli",
                     "warning": "",
-                    "title": "",
+                    "title": "Nulli seaded",
                     "title_extension": ""
                 },
                 "safe_mode_warning": ""
@@ -405,33 +405,33 @@
             "header": {
                 "get_help": "Abi",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "",
-                "search_role_label": ""
+                "search_placeholder": "Otsi...",
+                "search_role_label": "Otsi"
             },
             "loading": {
                 "title": "Palun oota..."
             },
             "models": {
-                "discussions": "",
-                "posts": "",
-                "users": ""
+                "discussions": "=> core.ref.discussions",
+                "posts": "=> core.ref.posts",
+                "users": "=> core.ref.users"
             },
             "nav": {
-                "advanced_button": "",
-                "advanced_title": "",
+                "advanced_button": "=> core.admin.advanced.title",
+                "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "analytics": "",
+                    "analytics": "Analüütika",
                     "authentication": "Autentimine",
                     "core": "Põhiseaded",
                     "discussion": "Vestlus",
                     "feature": "Funktsioonid",
                     "formatting": "Vormindus",
                     "forum-widget": "Foorumi vidinad",
-                    "infrastructure": "",
+                    "infrastructure": "Infrastruktuur",
                     "language": "Keeled",
                     "moderation": "Modereerimine",
                     "other": "Teised laiendused",
@@ -458,7 +458,7 @@
                 "delete_posts_forever_label": "Postituste kustutamine igaveseks",
                 "delete_posts_label": "Postituste kustutamine",
                 "description": "Seadista, kes mida näeb ja mida teha saab.",
-                "edit_own_avatar_label": "",
+                "edit_own_avatar_label": "Oma avatari muutmine",
                 "edit_posts_label": "Postituste muutmine",
                 "edit_users_label": "Kasutajate muutmine",
                 "edit_users_credentials_label": "Kasutajanime ja parooli muutmine",
@@ -496,12 +496,12 @@
             },
             "search_source": {
                 "general": {
-                    "heading": ""
+                    "heading": "Üldine"
                 }
             },
             "settings": {
                 "saved_message": "Sinu muudatused salvestati.",
-                "select_dropdown_custom_label": "",
+                "select_dropdown_custom_label": "Kohandatud",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -531,8 +531,8 @@
                         "user_actions": {
                             "title": "Toimingud",
                             "edit_user": {
-                                "button": "",
-                                "tooltip": ""
+                                "button": "=> core.ref.edit",
+                                "tooltip": "Muuda {username}"
                             }
                         },
                         "user_id": {
@@ -608,7 +608,7 @@
                 "empty_text": "Siin ei ole veel ühtegi vestlust.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} vastas {ago}",
-                "skip_discussion_list_pane": "",
+                "skip_discussion_list_pane": "Jäta vestluse nimekirja nimekiri vahele",
                 "started_text": "{username} alustas {ago}",
                 "total_replies_a11y_label": "{count, plural, one {#vasta} other {# vastused}}",
                 "unread_replies_a11y_label": "{count, plural, one {# lugemata vastus} other {# lugemata vastused}}. Märgi {count, plural, one {reply} other {replies}} loetuks."
@@ -634,7 +634,7 @@
                 "session_dropdown_accessible_label": "Näita sessiooniseadete menüüd",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up",
-                "theme_switcher_accessible_label": ""
+                "theme_switcher_accessible_label": "Muuda teemat"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -642,31 +642,31 @@
                 "mark_all_as_read_confirmation": "Oled sa kindel, et soovid kõik vestlused loetuks märkida?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "skip_to_main_content": "",
+                "skip_to_main_content": "Otse põhisisu juurde",
                 "toggle_sidenav_dropdown_accessible_label": "Näita navigeerimise menüüd"
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "Viimased",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Muuda vestluste järjestust",
-                "top_button": "Aktiivsemad",
-                "za_button": ""
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "Unustasid parooli?",
-                "invalid_login_message": "",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
+                "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "Pole kontot? <a>Registreeru</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "too_many_attempts_message": "",
-                "username_or_email_placeholder": ""
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message",
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
                 "delete_all_confirm": "",
@@ -713,12 +713,12 @@
             },
             "posts_sort": {
                 "newest_button": "",
-                "oldest_button": "",
+                "oldest_button": "=> core.ref.oldest",
                 "relevance_button": ""
             },
             "posts": {
                 "meta_title_text": "",
-                "refresh_tooltip": ""
+                "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -763,23 +763,23 @@
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "color_scheme_heading": "",
+                "color_scheme_heading": "Värviskeem",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Süsteemi eelistus",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "Saa \"{description}\" teavitusi {method} kaudu",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Veeb",
                 "notify_discussion_renamed_label": "Keegi nimetab minu alustatud vestluse ümber",
-                "reset_notifications_button": "",
-                "device_heading": "",
-                "haptic_feedback_help": "",
-                "haptic_feedback_label": "",
+                "reset_notifications_button": "Taasta vaikeväärtused",
+                "device_heading": "Seade",
+                "haptic_feedback_help": "Saadaval ainult toetatud mobiilsetel seadmetel",
+                "haptic_feedback_label": "Luba haptiline tagasiside",
                 "privacy_disclose_online_label": "Näita teistele, kui ma olen lehel",
                 "privacy_heading": "Privaatsus",
                 "title": "=> core.ref.settings"
@@ -834,7 +834,7 @@
             },
             "assets_updated": {
                 "message": "",
-                "reload_button": ""
+                "reload_button": "Laadi uuesti"
             },
             "badge": {
                 "hidden_tooltip": "Peidetud"
@@ -884,29 +884,29 @@
                 },
                 "discussions": {
                     "author": {
-                        "key": "",
+                        "key": "autor",
                         "hint": ""
                     },
                     "created": {
-                        "key": "",
+                        "key": "loodud",
                         "hint": ""
                     },
                     "hidden": {
-                        "key": ""
+                        "key": "peidetud"
                     },
                     "unread": {
-                        "key": ""
+                        "key": "lugemata"
                     }
                 },
                 "posts": {
                     "discussion": {
-                        "key": "",
+                        "key": "vestlus",
                         "hint": ""
                     }
                 },
                 "users": {
                     "email": {
-                        "key": "",
+                        "key": "e-post",
                         "hint": ""
                     },
                     "group": {
@@ -916,10 +916,10 @@
                 }
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Vali grupp"
             },
             "input": {
-                "clear_button": ""
+                "clear_button": "Tühjenda lahter"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -945,52 +945,52 @@
                 "maintenance_mode_safe": ""
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": "",
-                "za_button": ""
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "overflowing_list": {
-                "toggle_accessible_label": ""
+                "toggle_accessible_label": "Rohkem kirjeid"
             },
             "pagination": {
-                "back_button": "",
-                "first_button": "",
-                "go_to_page_textbox_a11y_label": "",
-                "last_button": "",
-                "next_button": "",
-                "page_counter": ""
+                "back_button": "Eelmine lehekülg",
+                "first_button": "Mine esimesele lehele",
+                "go_to_page_textbox_a11y_label": "Mine otse lehele",
+                "last_button": "Mine viimasele lehele",
+                "next_button": "Järgmine lehekülg",
+                "page_counter": "Lehekülg {current} / {total}"
             },
             "search": {
-                "gambit_plus_button_a11y_label": "",
-                "gambit_minus_button_a11y_label": "",
-                "title": "",
+                "gambit_plus_button_a11y_label": "Lisa positiivne filter",
+                "gambit_minus_button_a11y_label": "Lisa negatiivne filter",
+                "title": "Otsi",
                 "no_results_text": "",
                 "no_search_text": "",
-                "options_heading": "",
-                "placeholder": "",
-                "preview_heading": "",
-                "search_active_button_accessible_label": "",
+                "options_heading": "Otsingu valikud",
+                "placeholder": "Otsi...",
+                "preview_heading": "Otsingu eelvaade",
+                "search_active_button_accessible_label": "Muuda otsingut: {query}",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
                 "discussions": {
                     "all_button": "",
-                    "heading": ""
+                    "heading": "=> core.ref.discussions"
                 },
                 "posts": {
                     "all_button": "",
-                    "heading": ""
+                    "heading": "=> core.ref.posts"
                 },
                 "users": {
-                    "heading": ""
+                    "heading": "=> core.ref.users"
                 }
             },
             "series": {
@@ -999,21 +999,21 @@
                 "two_text": "{first} ja {second}"
             },
             "user_selection_modal": {
-                "empty_results": "",
+                "empty_results": "Sinu otsingule ei vastanud ükski kasutaja.",
                 "max_items_to_select": "",
-                "search_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "search_placeholder": "=> core.ref.search_users",
+                "submit_button": "=> core.ref.okay",
+                "title": "Vali asjakohased kasutajad"
             },
             "username": {
                 "deleted_text": "[kustutatud]"
             },
             "datetime_formats": {
-                "fullTime": "",
+                "fullTime": "LLLL",
                 "humanTimeShort": "D MMM",
                 "humanTimeLong": "ll",
                 "scrubber": "MMMM YYYY",
-                "userListJoinDate": ""
+                "userListJoinDate": "LLL"
             }
         },
         "views": {
@@ -1050,9 +1050,9 @@
                 "csrf_token_mismatch": "Oled olnud liiga kaua mitteaktiivne.",
                 "csrf_token_mismatch_return_link": "Mine tagasi, et uuesti proovida",
                 "invalid_confirmation_token": "See kinnituslink pole õige või seda on juba kasutatud.",
-                "maintenance_mode_link": "",
+                "maintenance_mode_link": "Administraatori kasutajakonto",
                 "maintenance_mode_message": "",
-                "maintenance_mode_title": "",
+                "maintenance_mode_title": "Hooldus",
                 "method_not_allowed": "See lehekülg ei toeta seda nõutud meetodit.",
                 "not_authenticated": "Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.",
                 "not_found": "Nõutud lehte ei leitud.",
@@ -1066,7 +1066,7 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "layout": {
-                "skip_to_content": ""
+                "skip_to_content": "Otse sisu juurde"
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
@@ -1074,13 +1074,13 @@
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
-                "invalid_login_message": "",
-                "username_or_email_placeholder": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "submit_button": "",
-                "title": "",
-                "too_many_attempts_message": ""
+                "invalid_login_message": "=> core.ref.invalid_login_message",
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message"
             },
             "reset_password": {
                 "confirm_password_label": "Kinnita uus parool",
@@ -1089,9 +1089,9 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "unsubscribe_email": {
-                "title": "",
-                "return_to_forum": "",
-                "confirm_button": "",
+                "title": "Tellimuse tühistamise kinnitus",
+                "return_to_forum": "Tagasi foorumisse {forumTitle}",
+                "confirm_button": "Kinnita",
                 "immediate_helptext": "",
                 "confirm_message": "",
                 "success_message": "",
@@ -1107,15 +1107,15 @@
             }
         },
         "email": {
-            "greeting": "",
-            "signoff": "",
+            "greeting": "Tere {displayName},",
+            "signoff": "Foorumi {forumTitle} meeskond",
             "informational": {
-                "default_title": "",
+                "default_title": "Info",
                 "footer": "",
                 "footer_plain": ""
             },
             "notification": {
-                "default_title": "",
+                "default_title": "Teavitus",
                 "footer": {
                     "main_text": "",
                     "main_text_plain": "",
@@ -1162,7 +1162,7 @@
             "custom_header_text": "Lisa lehe päisesse Flarumi päise kohale see HTML.",
             "custom_header_title": "Kohandatud päis",
             "dark_hc_mode_label": "",
-            "dark_mode_label": "",
+            "dark_mode_label": "Tume režiim",
             "delete": "Kustuta",
             "delete_forever": "Kustuta igaveseks",
             "discussions": "Vestlused",
@@ -1173,31 +1173,31 @@
             "generic_confirmation_message": "Oled sa kindel, et soovid jätkata? Seda toimingut ei saa tühistada.",
             "icon": "Ikoon",
             "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> eesliitega.",
-            "invalid_login_message": "",
+            "invalid_login_message": "Sinu kasutaja andmed polnud korrektsed.",
             "light_hc_mode_label": "",
-            "light_mode_label": "",
+            "light_mode_label": "Hele režiim",
             "load_more": "Laadi rohkem",
-            "latest": "",
+            "latest": "Viimased",
             "loading": "Laadimine...",
             "log_in": "Sisene",
             "log_out": "Välju",
             "mark_all_as_read": "Märgi kõik loetuks",
             "never": "Mitte kunagi",
             "new_token": "Uus kontrollkood",
-            "newest": "",
+            "newest": "Uusimad",
             "next_page": "Järgmine lehekülg",
             "notifications": "Teavitused",
             "okay": "OK",
-            "oldest": "",
+            "oldest": "Vanimad",
             "password": "Parool",
             "posts": "Postitused",
             "previous_page": "Eelmine lehekülg",
-            "relevance": "",
-            "remember_me_label": "",
+            "relevance": "Asjakohasus",
+            "remember_me_label": "Pea mind meeles",
             "remove": "Eemalda",
             "rename": "Nimeta ümber",
             "reply": "Vasta",
-            "refresh": "",
+            "refresh": "Värskenda",
             "reset_your_password": "Taasta parool",
             "restore": "Taasta",
             "save_changes": "Salvesta muudatused",
@@ -1207,12 +1207,12 @@
             "sign_up": "Registreeru",
             "some_others": "{count, plural, one {# teine} other {# teist}}",
             "start_a_discussion": "Alusta uut vestlust",
-            "title_az": "",
-            "title_za": "",
+            "title_az": "Pealkiri (A-Z)",
+            "title_za": "Pealkiri (Z-A)",
             "too_many_login_attempts_message": "",
-            "top": "",
+            "top": "Üles",
             "username": "Kasutajanimi",
-            "username_or_email_placeholder": "",
+            "username_or_email_placeholder": "Kasutajanimi või e-post",
             "users": "Kasutajad",
             "view": "Vaata",
             "write_a_reply": "Kirjuta vastus...",

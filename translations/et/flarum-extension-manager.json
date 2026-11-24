@@ -10,8 +10,8 @@
                     "token_label": "Kontrollkood",
                     "type_label": "Liik",
                     "unchanged_token_placeholder": "(muutmata)",
-                    "username_placeholder": "",
-                    "secret_placeholder": ""
+                    "username_placeholder": "kasutajanimi",
+                    "secret_placeholder": "kontrollkood või parool"
                 },
                 "delete_confirmation": "Oled sa kindel, et soovid seda autentimisviisi kustutada?",
                 "delete_label": "Kustuta autentimisviis",
@@ -19,8 +19,8 @@
                 "fields": {
                     "host": "Host",
                     "token": "Kontrollkood",
-                    "username": "",
-                    "password": ""
+                    "username": "Kasutajanimi",
+                    "password": "Parool"
                 },
                 "no_auth_methods_configured": "Ühtegi autentimisviisi pole seadistatud. See on valikuline funktsioon edasijõudnutele, mis võimaldab paigaldada privaatsetest hoidlatest.",
                 "remove_button_label": "Eemalda autentimisviis",
@@ -30,19 +30,19 @@
                     "gitlab-oauth": "GitLab OAuth",
                     "gitlab-token": "GitLab kontrollkood",
                     "bearer": "HTTP Bearer",
-                    "http-basic": ""
+                    "http-basic": "Kasutajanimi ja parool"
                 },
                 "help": "",
                 "stat": "",
-                "remove_host_label": "",
-                "remove_q": "",
-                "submit_button": "",
+                "remove_host_label": "Eemalda {name}",
+                "remove_q": "Eemaldada?",
+                "submit_button": "Salvesta kasutajaandmed",
                 "token_stored": "",
-                "username_stored": "",
-                "show": "",
-                "hide": "",
+                "username_stored": "kasutajanimi {username}",
+                "show": "Näita",
+                "hide": "Peida",
                 "type_help": {
-                    "github-oauth": "",
+                    "github-oauth": "Privaatsed GitHubi hoidlad",
                     "gitlab-token": "",
                     "bearer": "",
                     "http-basic": ""
@@ -69,11 +69,11 @@
                         "dev": "Arendusversioon"
                     },
                     "stat": "",
-                    "recommended": "",
+                    "recommended": "soovitatud",
                     "prefer_stable": "",
                     "prefer_stable_help": "",
                     "short": {
-                        "stable": "",
+                        "stable": "ainult lõpetatud",
                         "rc": "",
                         "alpha": "",
                         "dev": ""
@@ -105,9 +105,9 @@
                     "stat": "",
                     "filter": "",
                     "no_match": "",
-                    "open": "",
-                    "remove_named": "",
-                    "duplicate": "",
+                    "open": "Ava uuel vahekaardil",
+                    "remove_named": "Kas eemaldada {name}?",
+                    "duplicate": "See hoidla on juba loetletud.",
                     "will_add": "",
                     "type_help": {
                         "vcs": "",
@@ -115,13 +115,13 @@
                         "path": ""
                     },
                     "placeholders": {
-                        "vcs": "",
-                        "composer": "",
-                        "path": ""
+                        "vcs": "https://github.com/sina/sinu-lisaprogramm",
+                        "composer": "https://hoidla.sait.com",
+                        "path": "/home/sina/lisaprogramm/sinu-lisaprogramm"
                     }
                 },
                 "config_failed": "",
-                "remove_repository_label": ""
+                "remove_repository_label": "Eemalda {name}"
             },
             "exceptions": {
                 "composer_command_failure": "Käivitamine ebaõnnestus. Heida pilk composeri logidele kaustas storage/logs/composer.",
@@ -135,7 +135,7 @@
                 }
             },
             "extensions": {
-                "already_installed": "",
+                "already_installed": "See lisaprogramm on juba paigaldatud",
                 "check_why_it_failed_updating": "Näita, miks see ei uuenda viimasele versioonile.",
                 "install": "Paigalda uus laiendus",
                 "install_help": "Enne jätkamist sisesta lisaprogrammi paketi nimi. Võid sisestada <semantic_link>semantilise versiooni</semantic_link> kasutades vormingut <code>arendaja/paketi nimi:versioon</code>. Lisaprogramme võid vaadata siit: {link}.\n",
@@ -147,19 +147,19 @@
                 "update": "Uuenda",
                 "update_soft_label": "Pehme uuendus",
                 "update_hard_label": "Karm uuendus",
-                "update_one": "",
+                "update_one": "Uuenda {name}",
                 "repin_confirm": "",
-                "remove_files": "",
+                "remove_files": "Eemalda failid",
                 "remove_confirm": "",
-                "enabled": "",
-                "disabled": "",
-                "version_unknown": "",
-                "library": "",
+                "enabled": "sisse lülitatud",
+                "disabled": "välja lülitatud",
+                "version_unknown": "tundmatu versioon",
+                "library": "Composeri pakk",
                 "library_why": "",
                 "path_install": "",
                 "path_install_why": "",
                 "open_settings": "",
-                "learn_more": ""
+                "learn_more": "Loe lisa"
             },
             "file_permissions": "Lisaprogrammide haldur vajab kirjutusõigust järgnevates failides ja kaustades: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
@@ -185,7 +185,7 @@
                         "badges": {
                             "abandoned": "",
                             "fof": "",
-                            "flarum": ""
+                            "flarum": "Flarum"
                         },
                         "downloads": "",
                         "abandoned_why": "",
@@ -197,36 +197,36 @@
                         "installed_as": "",
                         "replacement_installed": ""
                     },
-                    "search": "",
+                    "search": "Otsi...",
                     "server_error": "",
                     "sort": {
-                        "top": ""
+                        "top": "Enim allalaadimisi"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": "",
-                        "label": "",
-                        "all": "",
-                        "widgets": ""
+                        "discover": "Avasta",
+                        "extensions": "Lisaprogrammid",
+                        "languages": "Keeled",
+                        "themes": "Teemad",
+                        "label": "Näita",
+                        "all": "Kõik",
+                        "widgets": "Vidinad"
                     },
-                    "title": "",
-                    "search_button": "",
-                    "searching": "",
+                    "title": "Lisaprogrammid",
+                    "search_button": "Otsi",
+                    "searching": "Otsimine…",
                     "hint": "",
                     "against": "",
                     "no_match": "",
-                    "show_more": "",
-                    "loading_more": "",
+                    "show_more": "Näita lisa",
+                    "loading_more": "Laadimine…",
                     "open_packagist": "",
                     "compat": {
-                        "incompatible": "",
+                        "incompatible": "mitte sellel Flarumi saidil",
                         "incompatible_why": "",
-                        "unknown": "",
+                        "unknown": "ei saanud kontrollida",
                         "needs_stability": "",
                         "prerelease": "",
-                        "checking": ""
+                        "checking": "Kontrollimine…"
                     }
                 },
                 "queue": {
@@ -265,10 +265,10 @@
                     },
                     "task_just_started": "Ülesanne just algas",
                     "title": "Järjekord",
-                    "flarum": "",
-                    "new_version": "",
-                    "removed_version": "",
-                    "nothing": "",
+                    "flarum": "Flarum",
+                    "new_version": "{version} (uus)",
+                    "removed_version": "{version} (eemaldatud)",
+                    "nothing": "Midagi ei muudetud",
                     "migrations": ""
                 },
                 "settings": {
@@ -276,7 +276,7 @@
                     "description": ""
                 },
                 "installed": {
-                    "title": ""
+                    "title": "Paigaldatud ({count})"
                 }
             },
             "settings": {
@@ -301,11 +301,11 @@
                 "core_newer": "",
                 "some_newer_and_core": "",
                 "check_line": "",
-                "check_now": "",
+                "check_now": "Kontrolli kohe",
                 "check_overdue": "",
-                "checking": "",
+                "checking": "Kontrollimine…",
                 "update_all": "",
-                "starting": "",
+                "starting": "Alustamine…",
                 "ago": {
                     "minutes": "",
                     "hours": "",
@@ -315,11 +315,11 @@
                     "title": "",
                     "details": "",
                     "more": "",
-                    "open": "",
-                    "dismiss": ""
+                    "open": "Vaata",
+                    "dismiss": "Mitte nüüd"
                 },
                 "core": {
-                    "loading": "",
+                    "loading": "Flarumi kontrollimine…",
                     "running": "",
                     "current": "",
                     "update_to": "",
