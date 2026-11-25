@@ -141,7 +141,7 @@
                     "added_heading": "SSL configurado?",
                     "added_body": "Ótimo! Agora edite o seu <b>config.php</b> e altere a <b>'url'</b> para <b>https</b>!",
                     "no_ssl_heading": "E se eu não quiser adicionar SSL?",
-                    "no_ssl_body": "Nesse caso, pode desinstalar esta extensão, pois os motores de busca <b>não indexarão O o seu fórum</b> ou o classificarão muito abaixo de outros sites por motivos de segurança."
+                    "no_ssl_body": "Nesse caso, pode desinstalar esta extensão, pois os motores de busca <b>não indexarão o seu fórum</b> ou irão classificá-lo muito abaixo de outros sites por razões de segurança."
                 },
                 "health": {
                     "legend": "Para os melhores resultados de busca, garanta que todas as verificações estejam verdes.",
@@ -156,54 +156,54 @@
                     },
                     "checks": {
                         "description": {
-                            "label": "Verifica se O o seu fórum tem uma descrição",
+                            "label": "Verifica se o seu fórum tem uma descrição",
                             "reason_missing": "ainda não definiu uma descrição para o fórum!",
-                            "reason_default": "não alterou a descrição predefinição do fórum após a instalação!",
-                            "reason_too_short": "A descrição do O o seu fórum tem menos de 20 caracteres. Amplie-a para obter melhores resultados de busca.",
+                            "reason_default": "não alterou a descrição predefinida do fórum após a instalação!",
+                            "reason_too_short": "A descrição do seu fórum tem menos de 20 caracteres. Amplie-a para obter melhores resultados de pesquisa.",
                             "button": "Atualizar descrição"
                         },
                         "keywords": {
-                            "label": "Verifica se O o seu fórum tem palavras-chave definidas",
+                            "label": "Verifica se o seu fórum tem palavras-chave definidas",
                             "reason": "ainda não definiu palavras-chave para o fórum!",
                             "button": "Atualizar palavras-chave"
                         },
                         "ssl": {
-                            "label": "Verifica se O o seu site tem uma ligação segura disponível (SSL/TLS)",
-                            "reason": "O o seu fórum não força uma ligação SSL/TLS (uma ligação segura com O o seu site). A maioria dos motores de busca não indexará O o seu site ou rebaixará A a sua classificação se não tiver uma ligação segura disponível.",
+                            "label": "Verifica se o seu site tem uma ligação segura disponível (SSL/TLS)",
+                            "reason": "O seu fórum não força uma ligação SSL/TLS (uma ligação segura com o seu site). A maioria dos motores de busca não indexará o seu site ou rebaixará a sua classificação se não tiver uma ligação segura disponível.",
                             "button": "Como configurar SSL"
                         },
                         "crawl": {
-                            "label": "Revise as configurações de rastreamento de publicações",
-                            "reason": "precisa rever esta configuração para passar.",
-                            "button": "rever configurações de publicações"
+                            "label": "Reveja as configurações de rastreamento de publicações",
+                            "reason": "precisa de rever esta configuração para passar.",
+                            "button": "Rever configurações de publicações"
                         },
                         "social_media": {
                             "label": "Configure uma imagem de redes sociais",
-                            "reason": "não definiu uma imagem de redes sociais para o O o seu fórum. Recomenda-se definir uma. Por ora, O o seu favicon será usado como prévia nas redes sociais.",
+                            "reason": "não definiu uma imagem de redes sociais para o seu fórum. Recomenda-se definir uma. Por agora, o seu favicon será usado como pré-visualização nas redes sociais.",
                             "button": "Atualizar imagem"
                         },
                         "sitemap": {
-                            "label": "Verifica se O o seu fórum tem um sitemap disponível",
+                            "label": "Verifica se o seu fórum tem um sitemap disponível",
                             "reason": "É altamente recomendado instalar a extensão FriendsOfFlarum sitemap!",
                             "button": "Ler mais sobre como adicionar um sitemap"
                         },
                         "robots": {
-                            "label": "Verifica se O o seu fórum tem um robots.txt disponível",
-                            "reason": "O o seu robots.txt é fornecido pela extensão FriendsOfFlarum sitemap. Instale-a e ative-a para disponibilizar um robots.txt aos motores de busca.",
+                            "label": "Verifica se o seu fórum tem um robots.txt disponível",
+                            "reason": "O seu robots.txt é fornecido pela extensão FriendsOfFlarum sitemap. Instale-a e ative-a para disponibilizar um robots.txt aos motores de busca.",
                             "button": "Ler mais sobre como adicionar um robots.txt"
                         },
                         "meta_tags": {
-                            "label": "Verifica se O o seu fórum tem meta tags disponíveis (geradas por este plugin)"
+                            "label": "Verifica se o seu fórum tem meta tags disponíveis (geradas por este plugin)"
                         },
                         "search_engines": {
-                            "label": "Registre O o seu fórum nos motores de busca",
-                            "reason": "precisa rever isto para passar.",
+                            "label": "Registe o seu fórum nos motores de busca",
+                            "reason": "precisa de rever isto para passar.",
                             "button": "Mais informações"
                         },
                         "review": {
-                            "label": "Revise As as suas configurações de SEO a cada dois meses. Próxima revisão necessária em {date}",
-                            "reason": "É hora de rever novamente As as suas configurações de SEO.",
-                            "button": "OK! Já revisei!"
+                            "label": "Reveja as suas configurações de SEO a cada dois meses. Próxima revisão necessária em {date}",
+                            "reason": "Está na altura de rever novamente as suas configurações de SEO.",
+                            "button": "OK! Já revi!"
                         }
                     }
                 }
@@ -256,7 +256,7 @@
                 },
                 "image": {
                     "label": "Meta imagem",
-                    "help": "Exibe uma imagem.",
+                    "help": "Apresenta uma imagem.",
                     "placeholder": "Introduza o URL da imagem",
                     "managed_by": "Origem da imagem gerida por {source}",
                     "upload": "Carregar ficheiro"
@@ -293,7 +293,7 @@
                     "description": "Descrição do X (antigo Twitter)",
                     "image": {
                         "label": "Imagem do X (antigo Twitter)",
-                        "help": "Exibe uma imagem no X (antigo Twitter).",
+                        "help": "Apresenta uma imagem no X (antigo Twitter).",
                         "reset": "Repor imagem"
                     }
                 },
