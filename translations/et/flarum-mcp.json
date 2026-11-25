@@ -3,19 +3,19 @@
         "admin": {
             "page": {
                 "access_destructive": "",
-                "access_read": "",
-                "access_write": "",
+                "access_read": "Lugemine",
+                "access_write": "Kirjutamine",
                 "capabilities_failed": "",
                 "chatgpt_steps": "",
-                "chatgpt_title": "",
+                "chatgpt_title": "ChatGPT",
                 "claude_steps": "",
-                "claude_title": "",
-                "column_access": "",
+                "claude_title": "Claude",
+                "column_access": "Ligipääs",
                 "column_kind": "",
-                "column_name": "",
+                "column_name": "Nimi",
                 "column_source": "",
                 "copied": "",
-                "copy_button": "",
+                "copy_button": "Kopeeri",
                 "copy_failed": "",
                 "kind_prompt": "",
                 "kind_resource": "",
@@ -29,10 +29,10 @@
                 "token_steps": "",
                 "token_title": "",
                 "vscode_steps": "",
-                "vscode_title": ""
+                "vscode_title": "VS Code"
             },
             "permissions": {
-                "heading": "",
+                "heading": "MCP",
                 "use_label": ""
             },
             "sections": {
@@ -46,12 +46,12 @@
                 },
                 "server": {
                     "description": "",
-                    "label": ""
+                    "label": "Server"
                 }
             },
             "tabs": {
-                "capabilities": "",
-                "connect": ""
+                "capabilities": "Võimalused",
+                "connect": "Ühenda"
             }
         },
         "api": {
@@ -61,7 +61,7 @@
             "invalid": "",
             "invalid_token": "",
             "not_exposed": "",
-            "not_found": "",
+            "not_found": "Ei leitud.",
             "requires_read_scope": "",
             "requires_sign_in": "",
             "requires_write_scope": "",
