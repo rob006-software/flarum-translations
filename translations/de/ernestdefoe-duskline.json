@@ -2,143 +2,143 @@
     "ernestdefoe-duskline": {
         "admin": {
             "scene": {
-                "dawn": "",
-                "day": "",
-                "golden": "",
-                "sunset": "",
-                "night": ""
+                "dawn": "Morgendämmerung",
+                "day": "Tag",
+                "golden": "Goldene Stunde",
+                "sunset": "Sonnenuntergang",
+                "night": "Nacht"
             },
             "hero_mode": {
-                "label": "",
-                "help": "",
-                "clock": "",
-                "fixed": "",
-                "image": "",
-                "video": "",
-                "off": ""
+                "label": "Kopfbereich",
+                "help": "Was oberhalb der Diskussionsliste angezeigt wird. Der Himmel richtet sich nach der individuellen Uhr jedes Besuchers oder bleibt auf einer bestimmten Tageszeit stehen.",
+                "clock": "Himmel folgt der Uhrzeit der Besucher",
+                "fixed": "Himmel einer festen Tageszeit",
+                "image": "Dein eigenes Bild",
+                "video": "Dein eigenes Video",
+                "off": "Flarums eigenes Willkommensbanner"
             },
             "hero_scene": {
-                "label": ""
+                "label": "Tageszeit für den festen Himmel"
             },
             "hero_image": {
-                "label": "",
-                "help": ""
+                "label": "Bildadresse",
+                "help": "Ein Bild für den Kopfbereich (https). Bei einem Video wird es ebenfalls vor der Wiedergabe des Videos angezeigt und dient als Ersatz für Besucher, die die Bildrate reduzieren oder Daten sparen möchten."
             },
             "hero_video": {
-                "label": "",
-                "help": ""
+                "label": "Video-Adresse",
+                "help": "Eine kurze, stummgeschaltete Schleife (https, MP4 oder WebM). Sie wird für Besucher, die die Bildwiederholrate reduzieren oder Daten sparen möchten, niemals abgespielt."
             },
             "accent": {
-                "label": "",
-                "help": "",
-                "coral": "",
-                "magenta": "",
-                "teal": "",
-                "amber": "",
-                "ice": ""
+                "label": "Akzentfarbe",
+                "help": "Schaltflächen, Links und Hervorhebungen. Mitglieder können diese im Paint Shop selbst auswählen.",
+                "coral": "Koralle",
+                "magenta": "Magenta",
+                "teal": "Türkis",
+                "amber": "Bernstein",
+                "ice": "Eis"
             },
             "tag_strip": {
-                "label": "",
-                "top": "",
-                "off": ""
+                "label": "Tag-Kacheln auf der Diskussionsliste",
+                "top": "Oberhalb der Liste",
+                "off": "Ausgeblendet"
             },
             "radar": {
-                "label": "",
-                "help": ""
+                "label": "Anzeigen, wer gerade online ist",
+                "help": "Ein Radar unter dem Navigationsmenü. Jeder sieht, wie viele gerade online sind; Profilbilder werden nur Besuchern angezeigt, die nach Mitgliedern suchen dürfen, und niemals von Mitgliedern, die ihren Online-Status verbergen."
             },
             "player_cards": {
-                "label": "",
-                "help": ""
+                "label": "Spielerkarten",
+                "help": "Mit „Renown“, einem EP-Ring und einer Levelanzeige rund um den Avatar jedes Beitragsautors, EP bis zum nächsten Level in den Profilen und einer Rangleiste oberhalb der Beiträge eines Mitglieds."
             },
             "paint_shop": {
-                "label": "",
-                "help": ""
+                "label": "Paint Shop",
+                "help": "Besucher dürfen auf ihrem Gerät selbst Akzent, Himmel, Dichte und Bewegung auswählen."
             },
             "profile_sky": {
-                "label": "",
-                "help": ""
+                "label": "Mitglieder wählen den Himmel auf ihrer Profilseite",
+                "help": "Die Tageszeit, die hinter der Profilkarte eines Mitglieds angezeigt wird und für jeden sichtbar ist, der diese aufruft."
             },
             "hud": {
-                "label": "",
-                "help": ""
+                "label": "Handy-Leiste",
+                "help": "Eine untere Leiste auf Smartphones mit den Menüpunkten „Home“, „Tags“, „Neu“, „Benachrichtigungen“ und deinem Profil. Sie wird ausgeblendet, wenn „Mobile Tab“ installiert ist."
             }
         },
         "forum": {
             "scene": {
-                "dawn": "",
-                "day": "",
-                "golden": "",
-                "sunset": "",
-                "night": ""
+                "dawn": "Morgendämmerung",
+                "day": "Tag",
+                "golden": "Goldene Stunde",
+                "sunset": "Sonnenuntergang",
+                "night": "Nacht"
             },
             "radar": {
-                "title": "",
-                "count": "",
-                "label": "",
-                "empty": ""
+                "title": "Auf dem Radar",
+                "count": "{count, plural, one {# online} other {# online}}",
+                "label": "{count, plural, one {# Mitglied online} other {# Mitglieder online}}",
+                "empty": "Im Moment ist alles ruhig"
             },
             "hero": {
-                "by": "",
-                "replies": "",
-                "read": "",
-                "tags_title": "",
-                "tags_count": ""
+                "by": "von {name}",
+                "replies": "{count, plural, =0 {Noch keine Antworten} one {# Antwort} other {# Antworten}}",
+                "read": "{read} von {total} gelesen",
+                "tags_title": "Tags",
+                "tags_count": "{count, plural, one {# Tag zu entdecken} other {# Tags zu entdecken}}"
             },
             "tiles": {
-                "label": "",
-                "new": "",
-                "discussions": ""
+                "label": "Tags",
+                "new": "Neu",
+                "discussions": "{count, plural, one {# Diskussion} other {# Diskussionen}}"
             },
             "xp": {
-                "label": "",
-                "next": "",
-                "max": "",
-                "progress": ""
+                "label": "Fortschritt bis zur nächsten Stufe",
+                "next": "Nächstes: Level {level}",
+                "max": "Oberste Stufe erreicht",
+                "progress": "{into} / {step} EP"
             },
             "road": {
-                "title": "",
-                "to_next": "",
-                "top": "",
-                "all": ""
+                "title": "Rangleiste",
+                "to_next": "{count, plural, one {# Stufe bis {rank}} other {# Stufen bis {rank}}}",
+                "top": "Oberster Rang",
+                "all": "Alle Ränge"
             },
             "hud": {
-                "label": "",
-                "home": "",
-                "tags": "",
-                "alerts": "",
-                "unread": "",
-                "me": ""
+                "label": "Haupt",
+                "home": "Start",
+                "tags": "Tags",
+                "alerts": "Benachrichtigungen",
+                "unread": "{count, plural, one {# ungelesene Benachrichtigung} other {# ungelesene Benachrichtigungen}}",
+                "me": "Ich"
             },
             "paint": {
-                "open": "",
-                "title": "",
-                "note": "",
+                "open": "Paint Shop",
+                "title": "Paint Shop",
+                "note": "Deine Einstellungen werden auf diesem Gerät gespeichert. Dein Profilhimmel wird in deinem Konto gespeichert.",
                 "accent": {
-                    "label": "",
-                    "coral": "",
-                    "magenta": "",
-                    "teal": "",
-                    "amber": "",
-                    "ice": ""
+                    "label": "Akzent",
+                    "coral": "Koralle",
+                    "magenta": "Magenta",
+                    "teal": "Türkis",
+                    "amber": "Bernstein",
+                    "ice": "Eis"
                 },
                 "sky": {
-                    "label": "",
-                    "clock": ""
+                    "label": "Himmel",
+                    "clock": "Meiner Uhrzeit folgen"
                 },
                 "profile": {
-                    "label": "",
-                    "visitor": ""
+                    "label": "Dein Profilhimmel",
+                    "visitor": "Zeit des Besuchers"
                 },
                 "density": {
-                    "label": "",
-                    "comfortable": "",
-                    "compact": ""
+                    "label": "Dichte",
+                    "comfortable": "Bequem",
+                    "compact": "Kompakt"
                 },
                 "motion": {
-                    "label": "",
-                    "full": "",
-                    "reduced": "",
-                    "off": ""
+                    "label": "Bewegung",
+                    "full": "Vollständig",
+                    "reduced": "Reduziert",
+                    "off": "Aus"
                 }
             }
         }
