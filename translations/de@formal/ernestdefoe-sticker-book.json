@@ -16,7 +16,7 @@
                 "stickers": "Aufkleber",
                 "sets": "{count, plural, one {Satz vollständig} other {Sätze vollständig}}",
                 "packs": "{count, plural, one {Pack geöffnet} other {Packs geöffnet}}",
-                "intro": "Sammle Aufkleber, vervollständige dein Album und handle mit deinen Duplikaten.",
+                "intro": "Sammle Aufkleber, vervollständige dein Album und handle mit deinen Doppelten.",
                 "open_daily": "Öffne das heutige kostenlose Pack",
                 "open_pack": "Öffne ein Pack",
                 "waiting": "{count, plural, one {# Pack wartet} other {# Packs warten}}",
@@ -38,7 +38,7 @@
                 "filter": {
                     "all": "Alle",
                     "missing": "Fehlend",
-                    "spares": "Doppelt"
+                    "spares": "Doppelte"
                 }
             },
             "sticker": {
@@ -49,7 +49,7 @@
                 "offer_spare": "Jemandem eine Doppelte anbieten",
                 "ask": "{name} nach einer Doppelten fragen",
                 "find_spare": "Jemanden mit einer Doppelten finden",
-                "no_spares": "Davon hat noch niemand ein Doppeltes Exemplar. Öffnet weiter die Packs!",
+                "no_spares": "Davon hat noch niemand ein doppeltes Exemplar. Öffnet weiter Packs!",
                 "spares_title": "Mitglieder mit einer Doppelten",
                 "spare_count": "{count, plural, one {# Doppelte} other {# Doppelte}}",
                 "propose": "Tausch vorschlagen"
@@ -111,7 +111,7 @@
                 "new": "Neu",
                 "completed": "Satz vervollständigt: {set}!",
                 "summary_new": "{count, plural, one {# neuer Aufkleber für dein Album!} other {# neue Aufkleber für dein Album!}}",
-                "summary_none": "Diesmal gibt es keine Neuen, aber die Ersatzaufkleber eignen sich hervorragend zum Tauschen.",
+                "summary_none": "Diesmal gibt es keine Neuen, aber die Doppelten eignen sich hervorragend zum Tauschen.",
                 "next": "Öffen das nächste Pack ({count})",
                 "see_album": "Mein Album ansehen",
                 "none_title": "Derzeit keine Packs",
@@ -219,11 +219,11 @@
                 "sticker_slow_down": "",
                 "sticker_trade_self": "Du kannst nicht mit dir selbst tauschen.",
                 "sticker_trade_unavailable": "Dieses Mitglied darf keine Aufkleber tauschen.",
-                "sticker_trade_empty": "",
+                "sticker_trade_empty": "Wähle mindestens eine deiner Doppelten als Angebot.",
                 "sticker_trade_same": "",
                 "sticker_trade_too_many": "",
-                "sticker_trade_no_spares": "",
-                "sticker_trade_they_have_no_spares": "",
+                "sticker_trade_no_spares": "Du hast keine Doppelten mehr.",
+                "sticker_trade_they_have_no_spares": "Sie haben diese nicht mehr als Doppelte.",
                 "sticker_trade_not_found": "",
                 "sticker_trade_closed": "",
                 "sticker_trade_spares_gone": "",
