@@ -6,13 +6,13 @@
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "Alusta veatuvastust",
-                        "continue_button_text": "",
-                        "label": "",
+                        "continue_button_text": "Jätka veatuvastust",
+                        "label": "Lisaprogrammi veatuvastus",
                         "help": ""
                     },
                     "bisect_modal": {
                         "description": "",
-                        "end_button": "",
+                        "end_button": "Sulge ja mine lisaprogrammi lehele",
                         "issue_question": "Kas see probleem on veel alles?",
                         "issue_question_help": "",
                         "no_button": "Ei",
@@ -50,10 +50,10 @@
                     "cdn_url_help": "",
                     "kit_url_label": "Komplekti URL",
                     "kit_url_help": "",
-                    "forced_style_label": "",
+                    "forced_style_label": "Sunnitud ikooni stiil",
                     "forced_style_help": "",
                     "config_override": {
-                        "label": "",
+                        "label": "Seadistuste ülekirjutamine",
                         "help": ""
                     },
                     "preview": {
@@ -69,8 +69,8 @@
                     "search_configuration": "Otsi seadistus, mida kasutada"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
+                    "pause_label": "Peata päringu töötlemine",
+                    "pause_all_label": "Peata kõik päringud",
                     "pause_queue_label": "Peata järjekord {queue}",
                     "pause_help": "",
                     "section_label": "Järjekord",
@@ -279,7 +279,7 @@
                 "section_abandoned_help": "",
                 "section_suggested_heading": "Soovitatud",
                 "section_suggested_help": "",
-                "section_disabled_heading": "",
+                "section_disabled_heading": "Välja lülitatud",
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
@@ -940,7 +940,7 @@
             },
             "notices": {
                 "bisecting": "",
-                "bisecting_continue": "",
+                "bisecting_continue": "Jätka veatuvastust",
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
@@ -973,7 +973,7 @@
                 "gambit_minus_button_a11y_label": "Lisa negatiivne filter",
                 "title": "Otsi",
                 "no_results_text": "Tundub, et tulemusi pole.",
-                "no_search_text": "",
+                "no_search_text": "Sa pole veel midagi otsinuf.",
                 "options_heading": "Otsingu valikud",
                 "placeholder": "Otsi...",
                 "preview_heading": "Otsingu eelvaade",
@@ -986,7 +986,7 @@
                     "heading": "=> core.ref.discussions"
                 },
                 "posts": {
-                    "all_button": "",
+                    "all_button": "Otsi kõigist postitustest \"{query}\"",
                     "heading": "=> core.ref.posts"
                 },
                 "users": {
