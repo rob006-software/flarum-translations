@@ -8420,6 +8420,8 @@
                     "unknown": "f9a26283d7a8988b63a8f9f5f681ab76 f9a26283d7a8988b63a8f9f5f681ab76"
                 },
                 "settings": {
+                    "add_detected_proxy": "d41d8cd98f00b204e9800998ecf8427e 3e44ba759855fc3fa89379b1f65580fb",
+                    "advanced_proxy_settings": "d41d8cd98f00b204e9800998ecf8427e 2e5c844f473a72fab127f9b8e966b54f",
                     "allow_global_fallback_help": "cf554b630da52626be7ec1581b61be5f cf554b630da52626be7ec1581b61be5f",
                     "allow_global_fallback_label": "74b02df57bafc9436457e50182b74907 74b02df57bafc9436457e50182b74907",
                     "api_base_url_label": "391f8ed3d381e65a44e7f55afcc8a4ea 391f8ed3d381e65a44e7f55afcc8a4ea",
@@ -8437,8 +8439,11 @@
                     "enabled_label": "287911ea939123c781f58bbd52c2a649 287911ea939123c781f58bbd52c2a649",
                     "fail_open_help": "2bdcac1fade23afb51a981458d4e3bbf 2bdcac1fade23afb51a981458d4e3bbf",
                     "fail_open_label": "9a9daf533ad1b9c9e1dd1e2e17860700 9a9daf533ad1b9c9e1dd1e2e17860700",
+                    "forwarded_ip_header_help": "d41d8cd98f00b204e9800998ecf8427e 3628e1192ccd74a03409daf38ecdbabf",
+                    "forwarded_ip_header_label": "d41d8cd98f00b204e9800998ecf8427e 727a27f328bceba1fafae1bd5a03d8ee",
                     "preferred_endpoint_help": "384f5f6789cab987280169228ccaa4df 384f5f6789cab987280169228ccaa4df",
                     "preferred_endpoint_label": "52223d0e352bd3c2d5042bdc159d4784 52223d0e352bd3c2d5042bdc159d4784",
+                    "proxy_hint": "d41d8cd98f00b204e9800998ecf8427e cbb9ebb2e9fb65d378df7e5bf66b7b5a",
                     "region_eu": "3a12d46adfc8774af084c116476ecba0 3a12d46adfc8774af084c116476ecba0",
                     "region_global": "87125f41721f60e424ac062a15f726e1 87125f41721f60e424ac062a15f726e1",
                     "region_uk": "1e42cfb73ce089476a8385f6eea28590 1e42cfb73ce089476a8385f6eea28590",
@@ -8449,7 +8454,9 @@
                     "repeat_offender_label": "d893604575b913bc84a799567c050847 d893604575b913bc84a799567c050847",
                     "repeat_offender_unavailable": "00ba890a7002f9a770e3fe2c163d7b73 00ba890a7002f9a770e3fe2c163d7b73",
                     "send_ham_label": "d41d8cd98f00b204e9800998ecf8427e 6bf031d184c1338fcb94b1359d83fb1e",
-                    "timeout_label": "90889d3f816b64fde696727afda00b76 90889d3f816b64fde696727afda00b76"
+                    "timeout_label": "90889d3f816b64fde696727afda00b76 90889d3f816b64fde696727afda00b76",
+                    "trusted_proxies_help": "d41d8cd98f00b204e9800998ecf8427e c4351c2a264927ca6e3777dff3f5c0b3",
+                    "trusted_proxies_label": "d41d8cd98f00b204e9800998ecf8427e f7c700e99eb6c036d0a49b134293dc58"
                 }
             }
         }
