@@ -111,12 +111,12 @@
                     "delete": ""
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
+                    "first_page_button": "=> core.lib.pagination.first_button",
+                    "back_button": "=> core.lib.pagination.back_button",
+                    "page_counter": "=> core.lib.pagination.page_counter",
                     "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "next_button": "=> core.lib.pagination.next_button",
+                    "last_page_button": "=> core.lib.pagination.last_button"
                 }
             }
         },
