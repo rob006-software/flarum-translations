@@ -4,192 +4,192 @@
             "auth_config": {
                 "add_label": "Novo método de autenticação",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Host",
+                    "host_placeholder": "exemplo: bearer.flarum.org",
+                    "submit_button": "Submeter",
+                    "token_label": "Token",
+                    "type_label": "Tipo",
+                    "unchanged_token_placeholder": "(inalterado)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Tem a certeza de que pretende eliminar este método de autenticação?",
+                "delete_label": "Eliminar método de autenticação",
+                "edit_label": "Editar método de autenticação",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Nenhum método de autenticação configurado. Esta é uma funcionalidade avançada opcional para permitir a instalação a partir de repositórios privados.",
+                "remove_button_label": "Remover método de autenticação",
+                "title": "Métodos de Autenticação",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "Token do GitLab",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Adicionar Repositório",
+                "delete_repository_confirmation": "Tem a certeza de que pretende eliminar este repositório? Todas as extensões instaladas a partir deste repositório serão removidas.",
+                "delete_repository_label": "Eliminar repositório",
+                "edit_repository_label": "Editar repositório",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Estabilidade Mínima",
+                    "help": "O tipo de pacotes cuja instalação é permitida. Não altere esta opção a menos que saiba o que está a fazer.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Estável (Recomendado)",
+                        "rc": "Release Candidate",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Repositórios",
+                    "help": "Adicione repositórios adicionais para instalar pacotes. Esta é uma funcionalidade avançada; não adicione repositórios que não sejam de confiança, pois podem ser utilizados para executar código malicioso no seu servidor.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "path"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Nome",
+                        "type_label": "Tipo",
+                        "url": "URL",
+                        "submit_button": "Submeter"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Falha na execução. Verifique os registos do composer em storage/logs/composer.",
+                "extension_already_installed": "A extensão já está instalada.",
+                "extension_not_directly_dependency": "A extensão está instalada como dependência de outra extensão e não pode ser removida diretamente.",
+                "extension_not_installed": "Extensão não encontrada.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "A extensão é muito provavelmente incompatível com a sua instância atual do Flarum.",
+                    "extension_not_found": "A extensão não foi encontrada ou não existe.",
+                    "extensions_incompatible_with_new_major": "Algumas extensões instaladas não são compatíveis com a nova versão principal. Aguarde até que os autores atualizem as extensões para serem compatíveis ou remova-as antes de prosseguir.\n"
                 }
             },
             "extensions": {
-                "already_installed": "",
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "already_installed": "Esta extensão já está instalada",
+                "check_why_it_failed_updating": "Mostrar por que motivo não foi atualizada para a versão mais recente.",
+                "install": "Instalar uma nova extensão",
+                "install_help": "Preencha o nome do pacote da extensão para prosseguir. Pode especificar uma <semantic_link>versão semântica</semantic_link> utilizando o formato <code>vendor/package-name:version</code>. Visite {link} para explorar os pacotes disponíveis.\n",
+                "proceed": "Prosseguir",
+                "remove": "Desinstalar",
+                "successful_install": "{extension} foi instalada com sucesso, a redirecionar..",
+                "successful_remove": "Extensão removida com sucesso.",
+                "successful_update": "{extension} foi atualizada com sucesso, a redirecionar..",
+                "update": "Atualizar",
+                "update_soft_label": "Atualização ligeira",
+                "update_hard_label": "Atualização forçada"
             },
-            "file_permissions": "",
+            "file_permissions": "O gestor de extensões requer permissões de leitura e escrita nos seguintes ficheiros e diretórios: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "As atualizações principais do Flarum não são retrocompatíveis, o que significa que algumas das extensões atualmente instaladas e modificações manuais podem não funcionar com esta nova versão. Certifique-se de que faz uma cópia de segurança da base de dados e dos ficheiros antes de prosseguir.\n",
+                "dry_run": "Simulação",
+                "dry_run_help": "Uma simulação emula a atualização para verificar se a sua configuração atual pode ser atualizada com segurança; isto não significa que as suas modificações personalizadas manuais irão funcionar na nova versão.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "A última atualização principal falhou; algumas extensões instaladas não são compatíveis com a nova versão principal.",
+                    "why": "Saber mais"
                 },
-                "title": "",
-                "update": ""
+                "title": "Atualização Principal do Flarum {version} Disponível",
+                "update": "Atualizar"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Isto também atualizará quaisquer outras extensões ou pacotes com atualizações disponíveis."
             },
-            "required_php_functions": "",
+            "required_php_functions": "O gestor de extensões requer que as seguintes funções PHP estejam ativadas: <code>{functions}</code>. Se não tiver acesso à configuração do PHP, contacte o seu fornecedor de alojamento.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Adicione novas funcionalidades e integrações ao seu fórum Flarum com extensões.",
+                    "empty_results": "Parece que não existem extensões disponíveis.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "Abandonada",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} transferência} other {{formattedCount} transferências}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "Pesquisar...",
+                    "server_error": "Serviço atualmente indisponível, tente novamente mais tarde.",
                     "sort": {
-                        "top": ""
+                        "top": "Mais Transferidas"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Descobrir",
+                        "extensions": "Extensões",
+                        "languages": "Idiomas",
+                        "themes": "Temas"
                     },
-                    "title": ""
+                    "title": "Extensões"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Detalhes",
+                        "elapsed_time": "Concluída em",
+                        "peak_memory_used": "Pico de Utilização de Memória",
+                        "operation": "Operação",
+                        "package": "Pacote",
+                        "status": "Estado"
                     },
-                    "none": "",
+                    "none": "Ainda não existem tarefas.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Instalar extensão",
+                        "extension_remove": "Remover extensão",
+                        "extension_update": "Atualizar extensão",
+                        "update_check": "Verificar atualizações",
+                        "update_global": "Atualizar todos os pacotes de software",
+                        "update_major": "Atualização principal",
+                        "update_minor": "Atualização secundária",
+                        "why_not": "Analisar por que motivo um pacote não pode ser atualizado"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Desconhecida",
+                        "command": "Comando do Composer",
+                        "guessed_cause": "Causa",
+                        "output": "Resultado"
                     },
-                    "refresh": "",
+                    "refresh": "Atualizar lista de tarefas",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Sucesso",
+                        "failure": "Falhou",
+                        "pending": "Pendente",
+                        "running": "Em execução"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Tarefa acabada de iniciar",
+                    "title": "Fila"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Opções e Fila",
+                    "description": "Configure o gestor de extensões e verifique as operações na fila."
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Tenha cuidado a quem concede acesso à área de administração; o gestor de extensões pode ser utilizado indevidamente por agentes maliciosos para instalar pacotes que podem originar falhas de segurança.",
+                "debug_mode_warning": "Está a executar em modo de depuração; o gestor de extensões não consegue instalar nem atualizar corretamente pacotes de desenvolvimento local. Utilize a interface de linha de comandos para esse efeito.",
+                "queue_jobs": "Executar operações na fila em segundo plano",
+                "queue_jobs_help": "Pode ler sobre uma implementação de <basic_impl_link>fila básica</basic_impl_link> ou uma <adv_impl_link>mais avançada</adv_impl_link>. Certifique-se de que a versão do PHP utilizada para a fila é {php_version}. Certifique-se de que as <folder_perms_link>permissões de pastas</folder_perms_link> estão corretamente configuradas.\n",
+                "task_retention_days": "Dias de retenção de tarefas",
+                "task_retention_days_help": "O número de dias para manter as tarefas concluídas na base de dados. As tarefas mais antigas do que este valor serão eliminadas. Defina 0 para manter todas as tarefas.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Sem atualizações pendentes.",
+                "check_for_updates": "Verificar atualizações",
+                "flarum": "Flarum Core",
+                "global_update_successful": "Todos os pacotes foram atualizados com sucesso.",
+                "last_update_checked_at": "Última Verificação de Atualizações: ",
+                "run_global_update": "Executar Atualização Global",
+                "updater_title": "Atualizações",
+                "updater_help": "Executa uma verificação de novas atualizações de extensões e do Flarum."
             },
-            "update_successful": "",
+            "update_successful": "Flarum atualizado com sucesso.",
             "why_not_modal": {
-                "title": ""
+                "title": "Por que Motivo Não Atualiza"
             }
         }
     }
