@@ -36,7 +36,7 @@
                 "title": ""
             },
             "dialog_list": {
-                "load_more_button": "",
+                "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "",
                 "own_last_message_preview": "",
                 "title": "",
@@ -75,10 +75,10 @@
             "message_controls": {
                 "delete_button": "",
                 "delete_confirmation": "",
-                "delete_forever_button": "",
+                "delete_forever_button": "=> core.ref.delete_forever",
                 "delete_forever_confirmation": "",
-                "edit_button": "",
-                "restore_button": ""
+                "edit_button": "=> core.ref.edit",
+                "restore_button": "=> core.ref.restore"
             },
             "messages_page": {
                 "cannot_send_message_button": "",
@@ -94,7 +94,7 @@
                     "load_previous_button": "",
                     "load_next_button": "",
                     "start_of_the_conversation": "",
-                    "time_lapsed_text": "",
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
                     "name_removed_text": "",
                     "renamed_text": "",
                     "user_left_text": ""
@@ -125,14 +125,14 @@
                 "message_liked_text": ""
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "submit_button": "",
+                "discard_confirmation": "=> core.forum.composer_edit.discard_confirmation",
+                "submit_button": "=> core.ref.save_changes",
                 "title": ""
             },
             "message": {
                 "deleted_text": "",
-                "edited_text": "",
-                "edited_tooltip": "",
+                "edited_text": "=> core.forum.post.edited_text",
+                "edited_tooltip": "=> core.forum.post.edited_tooltip",
                 "read_status": {
                     "read_by_everyone_tooltip": "",
                     "read_by_some_tooltip": "",
