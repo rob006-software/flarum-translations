@@ -1,31 +1,31 @@
 {
     "ernestdefoe-question-of-the-day": {
         "forum": {
-            "nav": "",
+            "nav": "Frage des Tages",
             "page": {
-                "title": "",
+                "title": "Frage des Tages",
                 "guest": "",
                 "no_permission": "",
                 "none_title": "",
                 "none_text": "",
                 "suggest_one": "",
-                "add_some": "",
+                "add_some": "Fragen hinzufügen",
                 "locked": "",
                 "locked_none": "",
                 "moderate": "",
-                "back": ""
+                "back": "Zurück zum Archiv"
             },
             "tabs": {
-                "today": "",
-                "archive": "",
-                "queue": "",
-                "streaks": ""
+                "today": "Heute",
+                "archive": "Archiv",
+                "queue": "Vorschlagen",
+                "streaks": "Serien"
             },
             "card": {
-                "badge": "",
-                "suggested_by": "",
+                "badge": "Frage des Tages",
+                "suggested_by": "Vorgeschlagen von {name}",
                 "placeholder": "",
-                "your_answer": "",
+                "your_answer": "Deine Antwort",
                 "post": "",
                 "locked": "",
                 "be_first": "",
@@ -35,27 +35,27 @@
                 "log_in": "",
                 "no_permission": "",
                 "closed": "",
-                "discussion": "",
+                "discussion": "Diskussion",
                 "hide": "",
                 "next_title": ""
             },
             "answer": {
-                "you": "",
-                "edited": "",
-                "edit": "",
-                "save": "",
-                "cancel": "",
-                "delete": "",
-                "delete_confirm": "",
+                "you": "Du",
+                "edited": "bearbeitet",
+                "edit": "Bearbeiten",
+                "save": "Speichern",
+                "cancel": "Abbrechen",
+                "delete": "Löschen",
+                "delete_confirm": "Diese Antwort löschen? Die Reaktionen werden ebenfalls entfernt.",
                 "delete_mine_confirm": "",
                 "deleted_user": "",
-                "reactions": ""
+                "reactions": "Reaktionen"
             },
             "answers": {
-                "title": "",
+                "title": "{count, plural, one {# Antwort} other {# Antworten}}",
                 "sort_top": "",
-                "sort_new": "",
-                "none": "",
+                "sort_new": "Neu",
+                "none": "Noch keine Antworten.",
                 "more": ""
             },
             "reaction": {
@@ -68,15 +68,15 @@
             "top": {
                 "yesterday": "",
                 "winner": "",
-                "reactions": ""
+                "reactions": "{count, plural, one {# Reaktion} other {# Reaktionen}}"
             },
             "streak": {
                 "title": ""
             },
             "stats": {
-                "streak": "",
-                "best": "",
-                "total": "",
+                "streak": "Tagesserie",
+                "best": "Längste Serie",
+                "total": "Beantwortet",
                 "reminder_on": "",
                 "reminder_off": "",
                 "moderating": ""
@@ -88,7 +88,7 @@
             },
             "queue": {
                 "guest": "",
-                "suggest_label": "",
+                "suggest_label": "Eine Frage vorschlagen",
                 "suggest_placeholder": "",
                 "suggest_button": "",
                 "suggest_help": "",
@@ -100,7 +100,7 @@
                 "vote": "",
                 "unvote": "",
                 "own": "",
-                "yours": "",
+                "yours": "Deine",
                 "withdraw": "",
                 "approve": "",
                 "reject": "",
@@ -109,28 +109,28 @@
             "pool": {
                 "add_label": "",
                 "add_placeholder": "",
-                "add_button": "",
+                "add_button": "Hinzufügen",
                 "starter": "",
                 "added": "",
                 "title": "",
                 "help": "",
                 "low": "",
-                "next": "",
-                "suggested_by": "",
-                "votes": "",
+                "next": "Nächste",
+                "suggested_by": "Vorgeschlagen von",
+                "votes": "{count, plural, one {# Stimme} other {# Stimmen}}",
                 "schedule": "",
                 "ask_now": "",
                 "ask_now_locked": "",
                 "ask_now_confirm": "",
-                "delete": "",
+                "delete": "Löschen",
                 "empty": ""
             },
             "streaks": {
                 "me": "",
                 "going": "",
                 "best": "",
-                "days": "",
-                "empty": ""
+                "days": "{count, plural, one {# Tag} other {# Tage}}",
+                "empty": "Noch keine Serie."
             },
             "time": {
                 "hours_minutes": "",
@@ -167,8 +167,8 @@
         },
         "admin": {
             "settings": {
-                "timezone": "",
-                "timezone_utc": "",
+                "timezone": "Zeitzone",
+                "timezone_utc": "UTC (nicht festgelegt)",
                 "timezone_help": "",
                 "hero": "",
                 "hero_help": "",
@@ -178,7 +178,7 @@
                 "discussion": "",
                 "discussion_help": "",
                 "tag": "",
-                "tag_none": "",
+                "tag_none": "Kein Tag",
                 "tag_help": "",
                 "poster": "",
                 "poster_help": "",
@@ -195,8 +195,8 @@
         },
         "lib": {
             "discussion": {
-                "title": "",
-                "suggested": "",
+                "title": "Frage des Tages: {question}",
+                "suggested": "Vorgeschlagen von {name}.",
                 "answer": ""
             },
             "gdpr": {
