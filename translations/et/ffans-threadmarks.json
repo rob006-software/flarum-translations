@@ -10,8 +10,8 @@
                 "add_button": "",
                 "table_a11y_label": "",
                 "order_heading": "",
-                "type_heading": "",
-                "key_heading": "",
+                "type_heading": "=> ffans-threadmarks.ref.type",
+                "key_heading": "=> ffans-threadmarks.ref.key",
                 "source_heading": "",
                 "enabled_heading": "",
                 "actions_heading": "",
@@ -28,8 +28,8 @@
             },
             "edit_type_modal": {
                 "title": "",
-                "submit_button": "",
-                "delete_button": "",
+                "submit_button": "=> ffans-threadmarks.ref.save",
+                "delete_button": "=> core.ref.delete",
                 "delete_confirmation": ""
             }
         },
@@ -46,32 +46,32 @@
                 "title": "",
                 "scope_a11y_label": "",
                 "personal_tab": "",
-                "discussion_tab": "",
-                "loading_text": "",
+                "discussion_tab": "=> ffans-threadmarks.ref.discussion",
+                "loading_text": "=> core.ref.loading",
                 "unavailable_text": "",
-                "type_label": "",
+                "type_label": "=> ffans-threadmarks.ref.type",
                 "type_placeholder": "",
                 "note_label": "",
                 "note_placeholder": "",
-                "save_button": "",
+                "save_button": "=> ffans-threadmarks.ref.save",
                 "add_button": "",
-                "delete_button": "",
+                "delete_button": "=> core.ref.delete",
                 "delete_personal_confirmation": "",
                 "delete_discussion_confirmation": ""
             },
             "directory": {
-                "title": "",
-                "show_button": "",
-                "hide_button": "",
+                "title": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button": "=> ffans-threadmarks.ref.threadmarks",
+                "hide_button": "=> ffans-threadmarks.ref.threadmarks",
                 "show_button_a11y_label": "",
                 "close_a11y_label": "",
                 "scope_a11y_label": "",
                 "all_filter": "",
-                "personal_filter": "",
-                "discussion_filter": ""
+                "personal_filter": "=> ffans-threadmarks.ref.mine",
+                "discussion_filter": "=> ffans-threadmarks.ref.discussion"
             },
             "threadmark": {
-                "mine_badge": "",
+                "mine_badge": "=> ffans-threadmarks.ref.mine",
                 "personal_tooltip": "",
                 "edit_personal_tooltip": "",
                 "edit_discussion_tooltip": "",
@@ -86,7 +86,7 @@
             },
             "discussion_controls": {
                 "show_all_button": "",
-                "show_threadmarks_button": "",
+                "show_threadmarks_button": "=> ffans-threadmarks.ref.threadmarks",
                 "show_all_button_a11y_label": "",
                 "show_threadmarks_button_a11y_label": ""
             },
@@ -109,10 +109,10 @@
                 "delete_description": ""
             },
             "type_form": {
-                "key_label": "",
+                "key_label": "=> ffans-threadmarks.ref.key",
                 "name_label": "",
-                "color_label": "",
-                "icon_label": "",
+                "color_label": "=> core.ref.color",
+                "icon_label": "=> core.ref.icon",
                 "icon_placeholder": ""
             },
             "validation": {
