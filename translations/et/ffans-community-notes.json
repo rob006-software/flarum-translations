@@ -11,24 +11,24 @@
             },
             "permissions": {
                 "create": "",
-                "rate": "",
-                "moderate": ""
+                "rate": "=> ffans-community-notes.ref.rate_note",
+                "moderate": "=> ffans-community-notes.ref.moderate_note"
             }
         },
         "forum": {
             "navigation": {
-                "title": "",
+                "title": "=> ffans-community-notes.ref.community_notes",
                 "description": "",
                 "list_a11y_label": "",
-                "helpful_button": "",
+                "helpful_button": "=> ffans-community-notes.ref.helpful",
                 "latest_button": "",
-                "hidden_button": "",
+                "hidden_button": "=> ffans-community-notes.ref.hidden",
                 "refresh_a11y_label": ""
             },
             "post_controls": {
-                "add_button": "",
+                "add_button": "=> ffans-community-notes.ref.add_note",
                 "view_mine_button": "",
-                "manage_button": ""
+                "manage_button": "=> ffans-community-notes.ref.manage_notes"
             },
             "list": {
                 "latest_heading_a11y_label": "",
@@ -44,15 +44,15 @@
                 "hidden_a11y_label": "",
                 "hidden_empty": "",
                 "rating_permission_denied": "",
-                "moderation_permission_denied": "",
+                "moderation_permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
                 "other_notes": "",
-                "view_all_button": "",
-                "retry_button": "",
+                "view_all_button": "=> ffans-community-notes.ref.view_all_notes",
+                "retry_button": "=> ffans-community-notes.ref.retry",
                 "load_more_button": ""
             },
             "post": {
-                "page_title": "",
-                "modal_title": "",
+                "page_title": "=> ffans-community-notes.ref.rate_note",
+                "modal_title": "=> ffans-community-notes.ref.view_all_notes",
                 "title": "",
                 "description": "",
                 "back_a11y_label": "",
@@ -60,7 +60,7 @@
                 "notes_a11y_label": "",
                 "notes_title": "",
                 "empty": "",
-                "retry_button": "",
+                "retry_button": "=> ffans-community-notes.ref.retry",
                 "load_more_button": ""
             },
             "post_link": {
@@ -69,15 +69,15 @@
                 "number": ""
             },
             "public_note": {
-                "a11y_label": "",
+                "a11y_label": "=> ffans-community-notes.ref.community_notes",
                 "title": ""
             },
             "note": {
                 "a11y_label": "",
-                "manage_a11y_label": "",
+                "manage_a11y_label": "=> ffans-community-notes.ref.manage_notes",
                 "meta_a11y_label": "",
                 "rated_as": "",
-                "hidden": "",
+                "hidden": "=> ffans-community-notes.ref.hidden",
                 "public": "",
                 "not_public": "",
                 "drafted_by": "",
@@ -87,8 +87,8 @@
             },
             "status": {
                 "needs_more_ratings": "",
-                "helpful": "",
-                "not_helpful": "",
+                "helpful": "=> ffans-community-notes.ref.helpful",
+                "not_helpful": "=> ffans-community-notes.ref.not_helpful",
                 "unknown": ""
             },
             "sources": {
@@ -96,7 +96,7 @@
                 "open_in_new_window_a11y_label": ""
             },
             "editor": {
-                "create_title": "",
+                "create_title": "=> ffans-community-notes.ref.add_note",
                 "edit_title": "",
                 "help": "",
                 "create_unavailable": "",
@@ -137,7 +137,7 @@
                 "other": ""
             },
             "rating": {
-                "title": "",
+                "title": "=> ffans-community-notes.ref.rate_note",
                 "button": "",
                 "button_a11y_label": "",
                 "edit_button_a11y_label": "",
@@ -146,12 +146,12 @@
                 "reasons_label": "",
                 "submit_button": "",
                 "update_button": "",
-                "cancel_button": "",
-                "retry_button": "",
+                "cancel_button": "=> ffans-community-notes.ref.cancel",
+                "retry_button": "=> ffans-community-notes.ref.retry",
                 "values": {
-                    "helpful": "",
+                    "helpful": "=> ffans-community-notes.ref.helpful",
                     "somewhat_helpful": "",
-                    "not_helpful": ""
+                    "not_helpful": "=> ffans-community-notes.ref.not_helpful"
                 },
                 "summaries": {
                     "helpful": "",
@@ -192,16 +192,16 @@
                 }
             },
             "moderation": {
-                "title": "",
-                "permission_denied": "",
-                "retry_button": "",
+                "title": "=> ffans-community-notes.ref.moderate_note",
+                "permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
+                "retry_button": "=> ffans-community-notes.ref.retry",
                 "hidden_reason_label": "",
                 "hide_reason_label": "",
                 "hide_help": "",
                 "restore_help": "",
                 "hide_button": "",
                 "restore_button": "",
-                "cancel_button": "",
+                "cancel_button": "=> ffans-community-notes.ref.cancel",
                 "delete_button": "",
                 "delete_confirmation": "",
                 "reason_required": "",
@@ -246,7 +246,7 @@
             "add_note": "",
             "rate_note": "",
             "moderate_note": "",
-            "manage_notes": "",
+            "manage_notes": "=> ffans-community-notes.ref.moderate_note",
             "view_all_notes": "",
             "helpful": "",
             "not_helpful": "",
