@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **366** are translated differently and **3** are
+sides, but do not match between them: **370** are translated differently and **3** are
 translated only in `de@formal`. Altogether they cover **57** components.
 
 <!-- {% raw %} -->
@@ -64,7 +64,7 @@ translated only in `de@formal`. Altogether they cover **57** components.
 | `forumaker-magicbb` | [1](#forumaker-magicbb) | 0 |
 | `ianm-follow-users` | [6](#ianm-follow-users) | 0 |
 | `ralkage-hcaptcha` | [1](#ralkage-hcaptcha) | 0 |
-| `ramon-canela` | [6](#ramon-canela) | 0 |
+| `ramon-canela` | [10](#ramon-canela) | 0 |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) | 0 |
 | `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) | 0 |
 | `walsgit-recycle-bin` | [2](#walsgit-recycle-bin) | 0 |
@@ -4453,49 +4453,99 @@ Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget
 > No articles match "{query}".
 
 ```diff
--Keine Artikel gefunden "{query}"
+-Keine Artikel gefunden für „{query}“.
 +Keine Artikel gefunden, die mit „{query}“ übereinstimmen.
 ```
 
-Keine Artikel <del>gefunden</del><ins>gefunden,</ins> <del>"{query}"</del><ins>die mit „{query}“ übereinstimmen.</ins>
+Keine Artikel <del>gefunden</del><ins>gefunden,</ins> <del>für</del><ins>die</ins> <del>„{query}“.</del><ins>mit „{query}“ übereinstimmen.</ins>
 
-#### [`ramon-canela.forum.ai.helper.copied`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.ai.helper.copied%22)
+#### [`ramon-canela.api.badges.admired.long_description`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.api.badges.admired.long_description%22)
 
-> Copied
+> This badge is granted when you receive at least 5 likes on 300 different posts. Wow! The community admires your frequent, high quality contributions to the conversations here.
 
 ```diff
--Kopiert!
-+Kopiert
+-Dieses Abzeichen erhältst du, wenn 300 verschiedene Beiträge von dir jeweils mindestens 5 Gefällt-mir-Angaben erhalten haben. Die Community bewundert deine regelmäßigen und hochwertigen Beiträge.
++Dieses Abzeichen ehalten Sie, wenn 300 verschiedene Beiträge von Ihnen jeweils mindestens 5 Gefällt-mir-Angaben erhalten haben. Die Community bewundert Ihre regelmäßigen und hochwertigen Beiträge.
 ```
+
+Dieses Abzeichen <del>erhältst</del><ins>ehalten</ins> <del>du,</del><ins>Sie,</ins> wenn 300 verschiedene Beiträge von <del>dir</del><ins>Ihnen</ins> jeweils mindestens 5 Gefällt-mir-Angaben erhalten haben. Die Community bewundert <del>deine</del><ins>Ihre</ins> regelmäßigen und hochwertigen Beiträge.
+
+#### [`ramon-canela.api.badges.empathetic.long_description`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.api.badges.empathetic.long_description%22)
+
+> This badge is granted when you have 500 liked posts and give 1000 or more likes in return. Wow! You're a model of generosity and mutual appreciation.
+
+```diff
+-Dieses Abzeichen erhältst du, wenn 500 deiner Beiträge mit „Gefällt mir“ markiert wurden und du selbst mindestens 1000 Gefällt-mir-Angaben vergeben hast. Du bist ein Vorbild für Großzügigkeit und gegenseitige Wertschätzung.
++Dieses Abzeichen erhalten Sie, wenn 500 Ihrer Beiträge mit „Gefällt mir“ markiert wurden und Sie selbst mindestens 1000 Gefällt-mir-Angaben vergeben haben. Sie sínd ein Vorbild für Großzügigkeit und gegenseitige Wertschätzung.
+```
+
+Dieses Abzeichen <del>erhältst</del><ins>erhalten</ins> <del>du,</del><ins>Sie,</ins> wenn 500 <del>deiner</del><ins>Ihrer</ins> Beiträge mit „Gefällt mir“ markiert wurden und <del>du</del><ins>Sie</ins> selbst mindestens 1000 Gefällt-mir-Angaben vergeben <del>hast.</del><ins>haben.</ins> <del>Du</del><ins>Sie</ins> <del>bist</del><ins>sínd</ins> ein Vorbild für Großzügigkeit und gegenseitige Wertschätzung.
+
+#### [`ramon-canela.api.badges.great_post.long_description`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.api.badges.great_post.long_description%22)
+
+> This badge is granted when your reply gets 50 likes. Wow! Your reply was inspiring, fascinating, hilarious, or insightful and the community loved it.
+
+```diff
+-Dieses Abzeichen erhältst du, wenn deine Antwort 50 Gefällt-mir-Angaben bekommt. Deine Beiträge waren inspirierend, faszinierend, lustig oder aufschlussreich und haben die Community begeistert.
++Dieses Abzeichen erhalten Sie, wenn Ihre Antwort 50 Gefällt-mir-Angaben bekommt. Sie war inspirierend, faszinierend, lustig oder aufschlussreich und hat die Community begeistert.
+```
+
+Dieses Abzeichen <del>erhältst</del><ins>erhalten</ins> <del>du,</del><ins>Sie,</ins> wenn <del>deine</del><ins>Ihre</ins> Antwort 50 Gefällt-mir-Angaben bekommt.<del> Deine</del> <del>Beiträge</del><ins>Sie</ins> <del>waren</del><ins>war</ins> inspirierend, faszinierend, lustig oder aufschlussreich und <del>haben</del><ins>hat</ins> die Community begeistert.
+
+#### [`ramon-canela.forum.ai.helper.no_content_error`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.ai.helper.no_content_error%22)
+
+> Write something in the editor to use AI.
+
+```diff
+-Füge zuerst Inhalt hinzu, um KI-Aktionen darauf anzuwenden.
++Geben Sie etwas in den Editor ein, um die KI zu nutzen.
+```
+
+<del>Füge</del><ins>Geben</ins> <del>zuerst</del><ins>Sie</ins> <del>Inhalt</del><ins>etwas</ins> <del>hinzu,</del><ins>in den Editor ein,</ins> um <del>KI-Aktionen</del><ins>die</ins> <del>darauf</del><ins>KI</ins> <del>anzuwenden.</del><ins>zu nutzen.</ins>
+
+#### [`ramon-canela.forum.chat.channel_edit_name_slug_modal.slug_description`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.chat.channel_edit_name_slug_modal.slug_description%22)
+
+> The part of the channel link used instead of its name. Use lowercase letters, numbers and hyphens.
+
+```diff
+-Der Teil des Kanal-Links, der anstelle des Namens verwendet wird. Verwende Kleinbuchstaben, Zahlen und Bindestriche.
++Der Teil des Kanal-Links, der anstelle des Namens verwendet wird. Verwenden Sie Kleinbuchstaben, Zahlen und Bindestriche.
+```
+
+Der Teil des Kanal-Links, der anstelle des Namens verwendet wird. <del>Verwende</del><ins>Verwenden Sie</ins> Kleinbuchstaben, Zahlen und Bindestriche.
 
 #### [`ramon-canela.forum.chat.invalid_access`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.chat.invalid_access%22)
 
 > This channel is restricted. Ask the channel's admins for access.
 
 ```diff
--Du hast keinen Zugriff auf diesen Chatkanal
+-Dieser Kanal ist zugangsbeschränkt. Bitte wende dich an die Administratoren des Kanals, um Zugang zu erhalten.
 +Dieser Kanal ist zugangsbeschränkt. Bitte wenden Sie sich an die Administratoren des Kanals, um Zugang zu erhalten.
 ```
 
-#### [`ramon-canela.forum.chat.retry_staged_message.action`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.chat.retry_staged_message.action%22)
-
-> Try again
-
-```diff
--Erneut senden?
-+Erneut versuchen
-```
-
-Erneut <del>senden?</del><ins>versuchen</ins>
+Dieser Kanal ist zugangsbeschränkt. Bitte <del>wende</del><ins>wenden</ins> <del>dich</del><ins>Sie sich</ins> an die Administratoren des Kanals, um Zugang zu erhalten.
 
 #### [`ramon-canela.forum.chat.upload_errors.failed`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.chat.upload_errors.failed%22)
 
 > Couldn't upload. Try again.
 
 ```diff
--fehlgeschlagen
+-Das Hochladen ist fehlgeschlagen. Bitte versuche es erneut.
 +Hochladen fehlgeschlagen. Versuchen Sie es erneut.
 ```
+
+<del>Das </del>Hochladen<del> ist</del> fehlgeschlagen. <del>Bitte</del><ins>Versuchen</ins> <del>versuche</del><ins>Sie</ins> es erneut.
+
+#### [`ramon-canela.forum.chat.upload_errors.too_large`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.chat.upload_errors.too_large%22)
+
+> File too large. Choose a smaller one.
+
+```diff
+-Datei ist zu groß. Bitte wähle eine kleinere.
++Datei zu groß. Bitte wählen Sie eine kleinere.
+```
+
+Datei <del>ist </del>zu groß. Bitte <del>wähle</del><ins>wählen Sie</ins> eine kleinere.
 
 #### [`ramon-canela.forum.extras.gambits.title_key`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.extras.gambits.title_key%22)
 
