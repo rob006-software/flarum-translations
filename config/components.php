@@ -986,7 +986,7 @@ return [
 		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-friendship' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Friendship/3.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Friendship/3.2.0/locale/en.yml',
 		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-magicbb' => [
