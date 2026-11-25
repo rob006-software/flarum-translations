@@ -99,8 +99,8 @@
                 "enable-make-public-option": "Povolit možnost nastavit soukromou diskuzi jako veřejnou",
                 "enable-make-public-option-help": "Přidává možnost pro osoby s oprávněním odebrat všechny příjemce, přiřadit nový štítek a veřejně zviditelnit diskuzi (podle nastavení viditelnosti zvoleného štítku).",
                 "post-event-icon": "Ikona události v diskuzích Byobu",
-                "delete_on_last_recipient_left": "Smazat soukromou diskuzi poté, co ji opustil poslední účastník",
-                "delete_on_last_recipient_left_help": "Pokud je tato možnost povolena, budou soukromé diskuze nenávratně smazány, jakmile poslední účastník diskuzi opustí. V opačném případě budou soukromé diskuze skryty (soft deleted).",
+                "delete_on_last_recipient_left": "Odstranit soukromou diskuzi poté, co ji opustil poslední účastník",
+                "delete_on_last_recipient_left_help": "Pokud je tato možnost povolena, budou soukromé diskuze nenávratně odstraněny, jakmile poslední účastník diskuzi opustí. V opačném případě budou soukromé diskuze skryty (soft deleted).",
                 "hide_from_all_discussions_page": "Skrýt soukromé diskuze ze stránky \"Všechny diskuze\"",
                 "hide_from_all_discussions_page_help": "Soukromé diskuze budou přístupné pouze na stránce \"Soukromé diskuze\" nebo v profilu uživatele",
                 "general": {
@@ -121,25 +121,25 @@
                 "private_discussion_added": "[Soukromá diskuze] {display_name} vás přidal do soukromé diskuze"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "private_discussion_created": "{actor_display_name} s vámi jako příjemcem začal novou soukromou diskuzi: {discussion_title}.\n\nZobrazit ji můžete zde:\n{discussion_url}\n\nPro otevření odkazu se možná budete muset nejdřív přihlásit.\n",
+                "private_discussion_replied": "{actor_display_name} přispěl do soukromé diskuze, jejímž jste příjemcem: {discussion_title}.\n\nZobrazit příspěvek můžete zde:\n{post_url}\n\nPro otevření odkazu se možná budete muset nejdřív přihlásit.\n",
+                "recipient_removed": "{actor_display_name} opustil soukromou diskuzi: {discussion_title}. Už nebude moci zobrazit nic z jejího obsahu.\n\nZobrazit ji můžete zde:\n{discussion_url}\n\nPro otevření odkazu se možná budete muset nejdřív přihlásit.\n",
+                "private_discussion_added": "{actor_display_name} vás přidal do existující soukromé diskuze: {discussion_title}.\n\nZobrazit ji můžete zde:\n{discussion_url}\n\nPro otevření odkazu se možná budete muset nejdřív přihlásit.\n",
+                "made_public": "{actor_display_name} odebral všechny příjemce a diskuzi zveřejnil: {discussion_title}.\n\nZobrazit ji můžete zde:\n{discussion_url}\n\nPro otevření odkazu se možná budete muset nejdřív přihlásit.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": "",
-                    "hint": ""
+                    "key": "byobu",
+                    "hint": "uživatelské nebo zobrazované jméno příjemce"
                 },
                 "private": {
-                    "key": ""
+                    "key": "soukromá"
                 },
                 "allows-pd": {
-                    "key": "",
-                    "hint": ""
+                    "key": "povoluje-soukromé",
+                    "hint": "ano"
                 }
             }
         }
@@ -148,11 +148,11 @@
         "email": {
             "notification": {
                 "types": {
-                    "byobuMadePublic": "",
-                    "byobuPrivateDiscussionAdded": "",
-                    "byobuPrivateDiscussionCreated": "",
-                    "byobuPrivateDiscussionReplied": "",
-                    "byobuRecipientRemoved": ""
+                    "byobuMadePublic": "Zveřejnění soukromých diskuzí, kterých se účastníte",
+                    "byobuPrivateDiscussionAdded": "Přidání do soukromých diskuzí",
+                    "byobuPrivateDiscussionCreated": "Nové soukromé diskuze, do kterých jste přidáni",
+                    "byobuPrivateDiscussionReplied": "Nové příspěvky v soukromých diskuzích, kterých se účastníte",
+                    "byobuRecipientRemoved": "Odchod příjemců ze soukromých diskuzí, kterých se účastníte"
                 }
             }
         }

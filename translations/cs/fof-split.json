@@ -13,7 +13,7 @@
             "split": {
                 "from": "Rozdělit odtud",
                 "to": "Rozdělit sem",
-                "cancel": ""
+                "cancel": "Zrušit rozdělení"
             },
             "modal": {
                 "title": "Rozdělit diskuzi",
@@ -23,8 +23,8 @@
         },
         "api": {
             "errors": {
-                "first_post": "",
-                "end_before_start": ""
+                "first_post": "Úvodní příspěvek diskuze nelze oddělit.",
+                "end_before_start": "Rozdělení musí končit na příspěvku, kterým začíná, nebo na pozdějším."
             }
         }
     },

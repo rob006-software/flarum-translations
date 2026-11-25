@@ -2,15 +2,15 @@
     "fof-masquerade": {
         "forum": {
             "profile": {
-                "empty-text": ""
+                "empty-text": "Tento uživatel zatím nevyplnil žádná pole profilu."
             },
             "alerts": {
                 "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completed": "Profil je vyplněný! <a>Pokračovat na úvodní stránku</a>"
             },
             "buttons": {
                 "view-profile": "",
-                "edit-profile": "",
+                "edit-profile": "Upravit profil",
                 "save-profile": ""
             },
             "fields": {
@@ -77,8 +77,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "",
-                    "hint": ""
+                    "key": "odpověď",
+                    "hint": "hodnoty polí v profilu uživatele"
                 }
             }
         }

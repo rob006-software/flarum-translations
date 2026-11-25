@@ -223,19 +223,19 @@
         },
         "forum": {
             "sign_up": {
-                "trap_label": ""
+                "trap_label": "Toto pole nechte prázdné"
             },
             "post": {
-                "flagged_as_spam_text": "",
-                "held_email_domain_text": ""
+                "flagged_as_spam_text": "Automatická detekce spamu – skóre {score}",
+                "held_email_domain_text": "Čeká na schválení: nový účet s e-mailovou adresou na doméně {domain}"
             },
             "message": {
                 "profile": {
-                    "blocked": ""
+                    "blocked": "Vypadá to jako spam, proto to nebylo uloženo. Odstraňte prosím odkazy nebo kontaktní údaje a zkuste to znovu."
                 },
                 "honeypot": {
-                    "refused": "",
-                    "reload": ""
+                    "refused": "Registraci se nepodařilo dokončit.",
+                    "reload": "S registračním formulářem se něco pokazilo. Načtěte prosím stránku znovu a zkuste to ještě jednou."
                 },
                 "stopforumspam": {
                     "blocked": ""
@@ -252,7 +252,7 @@
                 "move_discussions_tag_label": "",
                 "move_discussions_tag_help": "",
                 "process_button": "",
-                "success": "",
+                "success": "Uživatel {username} byl označen jako spammer.",
                 "title": "",
                 "report_to_sfs_label": "",
                 "report_to_sfs_help": ""

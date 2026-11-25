@@ -32,17 +32,17 @@
             }
         },
         "lib": {
-            "error": "",
-            "not_completed": "",
-            "rejected": "",
-            "unknown_error": ""
+            "error": "Při odesílání reCAPTCHA došlo k chybě. Zkuste to znovu.",
+            "not_completed": "Před pokračováním prosím dokončete ověření reCAPTCHA.",
+            "rejected": "Ověření reCAPTCHA se nezdařilo. Zkuste to prosím znovu.",
+            "unknown_error": "Došlo k neznámé chybě. Zkuste to prosím znovu."
         }
     },
     "validation": {
         "recaptcha": "Ověření reCAPTCHA selhalo.",
-        "recaptcha-unknown": "",
+        "recaptcha-unknown": "Při ověřování reCAPTCHA došlo k neznámé chybě ({errors}).",
         "attributes": {
-            "g-recaptcha-response": ""
+            "g-recaptcha-response": "reCAPTCHA"
         }
     }
 }
