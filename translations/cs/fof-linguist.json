@@ -15,9 +15,9 @@
                 "reset": "Obnovit původní",
                 "copy-original": "Kopírovat původní text",
                 "load-more": "Načíst další",
-                "delete-redundant": "Smazat nadbytečné překlady",
+                "delete-redundant": "Odstranit nadbytečné překlady",
                 "delete-redundant-confirm": "Tím se odstraní překlady {count}, které mají stejné původní a vlastní hodnoty. To může být užitečné při čištění po aktualizaci jazykového balíčku.\n",
-                "delete-all": "Smazat všechny překlady",
+                "delete-all": "Odstranit všechny překlady",
                 "delete-all-confirm": "Tím odstraníte VŠECHNY vlastní překlady {count}. Ujistěte se, že jste vyexportovali nebo zálohovali vše, co jste si chtěli ponechat.\n"
             },
             "locales": {
@@ -117,8 +117,8 @@
             }
         },
         "api": {
-            "invalid_icu_syntax": "",
-            "cannot_change_key_or_locale": ""
+            "invalid_icu_syntax": "Překlad nemá platnou syntaxi ICU MessageFormat, například není uzavřená složená závorka.",
+            "cannot_change_key_or_locale": "Klíč a jazyk uloženého překladu nelze změnit."
         }
     }
 }

@@ -37,16 +37,16 @@
         "forum": {
             "consent": {
                 "cookies": {
-                    "ga": "",
-                    "gat": "",
-                    "gid": "",
-                    "utm": "",
-                    "pk_id": "",
-                    "pk_ses": "",
-                    "pk_ref": "",
-                    "pk_cvar": "",
-                    "pk_hsr": "",
-                    "matomo_sessid": ""
+                    "ga": "Rozlišuje návštěvy, aby se opakované návštěvy nepočítaly jako noví lidé.",
+                    "gat": "Omezuje, jak často se data odesílají do Googlu.",
+                    "gid": "Rozlišuje návštěvy, uchovává se 24 hodin.",
+                    "utm": "Starší cookies Google Analytics, které zaznamenávají, jak jste se na web dostali.",
+                    "pk_id": "Rozlišuje návštěvy, aby se opakované návštěvy nepočítaly jako noví lidé.",
+                    "pk_ses": "Sleduje aktuální návštěvu, uchovává se 30 minut.",
+                    "pk_ref": "Zaznamenává, jak jste se na web dostali.",
+                    "pk_cvar": "Ukládá vlastní údaje o aktuální návštěvě.",
+                    "pk_hsr": "Zaznamenává aktuální návštěvu pro teplotní mapy a nahrávání relací.",
+                    "matomo_sessid": "Udržuje vaši relaci Matomo, dokud se nahrává."
                 }
             }
         }

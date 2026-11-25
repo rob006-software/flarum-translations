@@ -13,22 +13,22 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Přihlásit se jako jiný uživatel",
+                "label": "S velkou mocí přichází velká zodpovědnost. Pokračováním se stanete uživatelem {username}, dokud se nepřepnete zpět.",
+                "placeholder_optional": "(Volitelné) Uveďte důvod přepnutí na tohoto uživatele",
+                "placeholder_required": "Než budete pokračovat, musíte uvést důvod přepnutí na tohoto uživatele",
+                "impersonate_username": "Přihlásit se jako {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Přihlásit se jako uživatel"
             }
         },
         "forum": {
             "notice": {
-                "message": ""
+                "message": "Momentálně jste přihlášeni jako {username}."
             },
             "return": {
-                "button": ""
+                "button": "Vrátit se k účtu {username}"
             }
         }
     },

@@ -19,8 +19,8 @@
                 "lurking_tag_tooltip": "Číhající"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
+                "header": "Odběr štítku {tagName}",
+                "subscription_label": "Vyberte úroveň odběru štítku {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Být upozorněn na všechny nové diskuze.",
@@ -34,10 +34,10 @@
                 "not_following_text": "Být upozorněn jen když jsem @zmíněn.",
                 "notify_alert_tooltip": "Dostávat upozornění na nové diskuze nebo příspěvky ve fóru",
                 "notify_email_tooltip": "Obdržet e-mail, když přibydou nové diskuze nebo příspěvky",
-                "submit_button": ""
+                "submit_button": "Potvrdit odběr"
             },
             "hero": {
-                "title": ""
+                "title": "=> flarum-subscriptions.forum.index.following_link"
             },
             "notifications": {
                 "new_discussion_text": "{username} začal",
@@ -45,10 +45,10 @@
                 "new_discussion_tag_text": "{username} změnil štítek"
             },
             "prompt": {
-                "choose_button": "",
-                "modal_title": "",
-                "later_button": "",
-                "continue_button": ""
+                "choose_button": "Vybrat štítky ke sledování",
+                "modal_title": "Vyberte štítky ke sledování",
+                "later_button": "Připomenout později",
+                "continue_button": "Pokračovat na fórum"
             },
             "user": {
                 "settings": {
@@ -83,30 +83,30 @@
         },
         "email": {
             "newDiscussionInTag": {
-                "subject": "",
+                "subject": "[Štítek | Nová diskuze] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} založil diskuzi ve štítku, který sledujete: {discussion_title}\n\nNovou diskuzi si můžete prohlédnout na tomto odkazu:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} založil diskuzi ve štítku, který sledujete: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
-                "subject": "",
+                "subject": "[Štítek | Nový příspěvek] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} přispěl do diskuze ve štítku, který sledujete: {discussion_title}\n\nNovou aktivitu si můžete prohlédnout na tomto odkazu:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} přispěl do diskuze ve štítku, který sledujete: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
-                "subject": "",
+                "subject": "[Štítek | Změna štítku] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} právě přeřadil diskuzi od uživatele {author_display_name} do štítku, který sledujete: {discussion_title}\n\nDiskuzi si můžete prohlédnout na tomto odkazu:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} právě přeřadil diskuzi od uživatele {author_display_name} do štítku, který sledujete: [{discussion_title}]({discussion_url})\n"
                 }
             }
         },
@@ -136,9 +136,9 @@
         "email": {
             "notification": {
                 "types": {
-                    "newDiscussionInTag": "",
-                    "newDiscussionTag": "",
-                    "newPostInTag": ""
+                    "newDiscussionInTag": "Nové diskuze ve sledovaných štítcích",
+                    "newDiscussionTag": "Diskuze přeřazené do sledovaných štítků",
+                    "newPostInTag": "Nové příspěvky ve sledovaných štítcích"
                 }
             }
         }

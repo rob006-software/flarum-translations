@@ -44,8 +44,8 @@
                     }
                 },
                 "submit_button": "=> core.ref.save_changes",
-                "delete_link_button": "Smazat odkaz",
-                "delete_link_confirmation": "Opravdu chcete tento odkaz smazat?",
+                "delete_link_button": "Odstranit odkaz",
+                "delete_link_confirmation": "Opravdu chcete odstranit „{title}“?",
                 "url_placeholder.internal": "",
                 "url_placeholder.external": "",
                 "internal_link": "Jedná se o interní odkaz?",
@@ -79,7 +79,7 @@
         },
         "forum": {
             "header": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Zobrazit odkazy v položce {title}"
             }
         },
         "ref": {

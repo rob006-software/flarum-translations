@@ -10,12 +10,12 @@
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
-                "delete_tag_button": "Smazat štítek",
+                "delete_tag_button": "Odstranit štítek",
                 "default_sort_label": "",
                 "default_sort_none": "",
                 "default_sort_text": "",
                 "default_sort_unavailable": "",
-                "delete_tag_confirmation": "Opravdu chcete smazat tento štítek? Diskuze s tímto štítkem smazány NEBUDOU.",
+                "delete_tag_confirmation": "Opravdu chcete odstranit tento štítek? Diskuze s tímto štítkem odstraněny NEBUDOU.",
                 "description_label": "Popis",
                 "hide_label": "Skrýt z přehledu diskuzí",
                 "icon_label": "=> core.ref.icon",
@@ -82,9 +82,9 @@
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "deck": {
-                "column_label": "",
-                "tag_label": "",
-                "tag_placeholder": ""
+                "column_label": "Štítek",
+                "tag_label": "Štítek",
+                "tag_placeholder": "Hledat štítek"
             },
             "discussion_controls": {
                 "edit_tags_button": "Upravit štítky"
@@ -108,12 +108,12 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Smazaný štítek",
+            "deleted_tag_text": "Odstraněný štítek",
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "",
-                        "hint": ""
+                        "key": "štítek",
+                        "hint": "název štítku, seznam názvů oddělených čárkou, nebo „untagged“"
                     }
                 }
             },

@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "Automaticky sledovat diskuze, na které odpovím",
-                "follow_after_create_label": "",
+                "follow_after_create_label": "Automaticky sledovat diskuze, které založím",
                 "notify_for_all_posts_label": "Upozornit na každý nový příspěvek místo posledního v diskuzi",
                 "notify_new_post_label": "Někdo přispěje do diskuze, kterou sleduji"
             },
@@ -44,10 +44,10 @@
             "new_post": {
                 "subject": "[Nový příspěvek] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} právě přispěl do diskuze, kterou sledujete: {title}.\n\nNovou aktivitu si můžete prohlédnout na tomto odkazu:\n{url}\n\n---\n\n{content}\n\n---\n\nDalší oznámení o této diskuzi nedostanete, dokud si ji nepřečtete.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} právě přispěl do diskuze, kterou sledujete: [{title}]({url}).\n\nDalší oznámení o této diskuzi nedostanete, dokud si ji nepřečtete.\n"
                 }
             }
         },
@@ -55,8 +55,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "sledovaná",
+                        "ignoring_key": "ignorovaná"
                     }
                 }
             }

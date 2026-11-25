@@ -54,93 +54,93 @@
             "poll_ended": "Tato anketa byla ukončena.",
             "public_poll": "Zobrazit hlasující",
             "max_votes_allowed": "V anketě můžete hlasovat pro {max, plural, one {# možnost} few {# možnosti} other {# možností}}.",
-            "polls_count": "",
-            "poll_never_ends": "",
+            "polls_count": "{count, plural, one {# hlas} few {# hlasy} other {# hlasů}}",
+            "poll_never_ends": "Anketa nikdy nekončí",
             "answers": "Odpovědi",
             "poll": {
                 "cannot_change_vote": "Po hlasování nemůžete svůj hlas změnit.",
                 "submit_button": "Hlasovat",
-                "start_poll_button": "",
-                "cannot_start_poll_button": "",
-                "total_votes": "",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "start_poll_button": "Zahájit globální anketu",
+                "cannot_start_poll_button": "Nelze zahájit anketu",
+                "total_votes": "{count, plural, one {Byl odevzdán # hlas} few {Byly odevzdány # hlasy} other {Bylo odevzdáno # hlasů}}",
+                "draft_label": "Koncept",
+                "scheduled_label": "Naplánováno na {date}",
+                "scheduled_error_tooltip": "Naplánované zveřejnění se nezdařilo. Důvod zjistíte po otevření ankety."
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Přepnout nabídku ovládání ankety",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
-                "delete_confirmation": "Opravdu chcete tuto anketu smazat?",
-                "delete_success_message": "",
-                "delete_error_message": "",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "delete_confirmation": "Opravdu chcete tuto anketu odstranit?",
+                "delete_success_message": "Anketa byla odstraněna.",
+                "delete_error_message": "Při odstraňování ankety se něco pokazilo.",
+                "publish_label": "Zveřejnit hned",
+                "publish_success": "Anketa byla zveřejněna.",
+                "schedule_publish_label": "Naplánovat zveřejnění",
+                "edit_schedule_publish_label": "Upravit naplánované zveřejnění",
+                "cancel_schedule_label": "Zrušit naplánované zveřejnění",
+                "cancel_schedule_success": "Naplánované zveřejnění bylo zrušeno.",
+                "unpublish_label": "Vrátit mezi koncepty",
+                "unpublish_confirmation": "Vrátit tuto anketu mezi koncepty? Zmizí z přehledu anket.",
+                "unpublish_success": "Anketa byla vrácena mezi koncepty.",
+                "unpublish_error_has_votes": "Anketu nelze vrátit mezi koncepty – už v ní někdo hlasoval. Místo toho ji odstraňte."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Odstranit anketu",
+                "error": "Při ukládání ankety došlo k chybě, kontaktujte prosím administrátora."
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
+                    "add_title": "Přidat skupinu anket",
+                    "edit_title": "Upravit skupinu anket",
                     "save_changes": "=> core.ref.save_changes",
-                    "delete": "",
-                    "name_label": "",
-                    "name_required": "",
-                    "error": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "delete": "Odstranit skupinu anket",
+                    "name_label": "Název",
+                    "name_required": "Skupina anket musí mít název.",
+                    "error": "Při ukládání skupiny anket došlo k chybě, kontaktujte prosím administrátora.",
+                    "groups_manager": "Správa skupin anket",
+                    "view_group": "Zobrazit skupinu anket",
+                    "success": "Skupina anket byla uložena."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
+                    "title": "Skupiny anket",
+                    "start_poll_group_button": "Vytvořit skupinu anket",
+                    "cannot_start_poll_group_button": "Nelze vytvořit skupinu anket",
+                    "empty_text": "Vypadá to, že tu nejsou žádné skupiny anket.",
                     "load_more_button": "=> core.ref.load_more",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "no_polls": "V této skupině nejsou žádné ankety.",
+                    "add_poll_button": "Přidat anketu do skupiny"
                 },
                 "controls": {
                     "add_poll_label": "Přidat anketu",
                     "edit_label": "=> core.ref.edit",
-                    "view_label": "",
+                    "view_label": "Zobrazit skupinu anket",
                     "delete_label": "=> core.ref.delete",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "delete_confirmation": "Opravdu chcete tuto skupinu anket odstranit?",
+                    "delete_success_message": "Skupina anket byla odstraněna.",
+                    "delete_error_message": "Při odstraňování skupiny anket se něco pokazilo."
                 }
             },
             "polls_page": {
-                "title": ""
+                "title": "Ankety"
             },
             "polls_list": {
-                "empty_text": "",
+                "empty_text": "Vypadá to, že tu nejsou žádné globální ankety.",
                 "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
-                    "newest": "",
-                    "oldest": "",
-                    "most_voted": "",
-                    "least_voted": "",
+                    "newest": "Nejnovější",
+                    "oldest": "Nejstarší",
+                    "most_voted": "Nejvíce hlasů",
+                    "least_voted": "Nejméně hlasů",
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Vše",
+                    "published": "Zveřejněné",
+                    "draft": "Koncepty"
                 }
             },
             "composer_discussion": {
@@ -151,20 +151,20 @@
             "compose": {
                 "add_title": "Přidat anketu",
                 "edit_title": "Upravit anketu",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": "",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "polls_manager": "Správa anket",
+                "polls_preview": "Zobrazit anketu",
+                "continue_editing": "Pokračovat v úpravách",
+                "success": "Anketa byla uložena.",
+                "submit": "Odeslat",
+                "save_as_draft": "Uložit jako koncept",
+                "update_draft": "Aktualizovat koncept",
+                "draft_saved": "Koncept uložen",
+                "publish": "Zveřejnit",
+                "schedule_publication": "Naplánovat zveřejnění",
+                "schedule_publication_edit": "Upravit naplánované zveřejnění",
+                "schedule_datetime_label": "Čas zveřejnění",
+                "schedule_submit": "Naplánovat",
+                "schedule": "Naplánovat"
             },
             "modal": {
                 "add_title": "Přidat anketu",
@@ -174,59 +174,59 @@
                 "include_question": "Musíte zadat otázku",
                 "max": "Můžete zadat maximální počet odpovědí: {max}",
                 "min": "Musíte zadat minimálně 2 odpovědi",
-                "empty_answers": "",
+                "empty_answers": "{count, plural, one {# odpověď je prázdná – vyplňte ji, nebo ji odstraňte.} few {# odpovědi jsou prázdné – vyplňte je, nebo je odstraňte.} other {# odpovědí je prázdných – vyplňte je, nebo je odstraňte.}}",
                 "no_voters": "Bez hlasů",
                 "option_placeholder": "Odpověď",
                 "image_option_placeholder": "Adresa URL obrázku (volitelné)",
                 "options_label": "Odpovědi",
-                "settings_label": "",
+                "settings_label": "Hlasování",
                 "public_poll_label": "Umožnit uživatelům zobrazit, kdo hlasoval",
                 "allow_multiple_votes_label": "Umožnit uživatelům hlasovat pro více možností",
                 "max_votes_label": "Max. počet hlasů na jednoho uživatele",
                 "max_votes_help": "Nastavte na 0, aby uživatelé mohli hlasovat pro všechny možnosti.",
                 "hide_votes_label": "Skrýt hlasy, dokud anketa neskončí",
-                "hide_votes_label_help": "",
+                "hide_votes_label_help": "Autor ankety uvidí hlasy vždy.",
                 "allow_change_vote_label": "Umožnit uživatelům změnit svůj hlas",
                 "question_placeholder": "Otázka",
-                "subtitle_placeholder": "",
+                "subtitle_placeholder": "Podnadpis/popis (volitelné)",
                 "submit": "Odeslat",
                 "delete": "=> core.ref.delete",
                 "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "url_deprecated": ""
+                    "label": "Obrázek ankety",
+                    "help": "Nahrajte obrázek, který se zobrazí u ankety (volitelné).",
+                    "alt_label": "Alternativní text obrázku",
+                    "alt_help_text": "Pokud je nastaven obrázek, je tento text povinný. Zobrazí se, když se obrázek nepodaří načíst.",
+                    "url_deprecated": "Tato anketa používá obrázek z externí URL. Externí URL jsou zastaralé a v budoucí verzi budou odstraněny. Nahrajte prosím obrázek znovu tlačítkem pro nahrání."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Obrázek odpovědi",
+                    "help": "Nahrajte obrázek, který se zobrazí u odpovědi (volitelné)."
                 },
-                "date_clear": "",
+                "date_clear": "Vymazat datum ukončení",
                 "tooltip": {
                     "options": {
                         "add-button": "Přidat odpověď",
-                        "remove-button": ""
+                        "remove-button": "Odebrat odpověď"
                     }
                 }
             },
             "moderation": {
                 "add": "Přidat anketu",
-                "delete": "Smazat anketu",
-                "delete_confirm": "Opravdu chcete tuto anketu smazat?",
+                "delete": "Odstranit anketu",
+                "delete_confirm": "Opravdu chcete tuto anketu odstranit?",
                 "edit": "Upravit anketu"
             },
             "page": {
-                "nav": "",
-                "nav-all": "",
-                "nav-groups": ""
+                "nav": "Ankety",
+                "nav-all": "Všechny globální ankety",
+                "nav-groups": "Skupiny anket"
             },
             "showcase": {
                 "active-polls": "Aktivní ankety",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "ended-polls": "Ukončené ankety",
+                "no-active-polls": "Momentálně nejsou žádné aktivní ankety.",
+                "no-recent-polls": "Momentálně nejsou žádné nedávno ukončené ankety."
             },
             "tooltip": {
                 "badge": "Anketa",
@@ -236,8 +236,8 @@
                 "title": "Hlasující"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Odstranit obrázek",
+                "upload_button": "Nahrát obrázek"
             }
         }
     },

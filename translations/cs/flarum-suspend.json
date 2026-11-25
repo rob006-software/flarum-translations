@@ -41,19 +41,19 @@
             "suspended": {
                 "subject": "Váš účet byl pozastaven",
                 "plain": {
-                    "body": ""
+                    "body": "Byli jste pozastaveni z následujícího důvodu:\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Na fóru {forumTitle} jste byli pozastaveni z následujícího důvodu:"
                 }
             },
             "unsuspended": {
                 "subject": "Pozastavení vašeho účtu bylo zrušeno",
                 "plain": {
-                    "body": ""
+                    "body": "Vaše pozastavení bylo zrušeno. Na fórum se můžete vrátit kliknutím na následující odkaz:\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Vaše pozastavení bylo zrušeno. Na fórum [{forumTitle}]({forum_url}) se můžete vrátit, kdykoli budete chtít."
                 }
             }
         },
@@ -61,7 +61,7 @@
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": ""
+                        "key": "pozastavený"
                     }
                 }
             }

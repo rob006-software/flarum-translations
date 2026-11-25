@@ -193,7 +193,7 @@
                 "upload_label": "",
                 "upload_mime_label": "",
                 "view_user_uploads_label": "Zobrazit nahrané soubory uživatelů",
-                "delete_uploads_of_others_label": "Smazat nahrané soubory uživatelů",
+                "delete_uploads_of_others_label": "Skrývat a odstraňovat nahrané soubory ostatních uživatelů",
                 "delete_own_uploads_label": "",
                 "upload_shared_label": "",
                 "access_shared_label": ""
@@ -238,16 +238,16 @@
         "forum": {
             "media_manager": "Správce médií",
             "display_name": {
-                "title": "",
-                "title_plural": "",
-                "help": "",
-                "insert": "",
-                "use_file_name": ""
+                "title": "Pojmenujte tento soubor ke stažení",
+                "title_plural": "Pojmenujte tyto soubory ke stažení",
+                "help": "Zobrazí se u souboru místo jeho názvu. Pokud název nezměníte, použije se název souboru.",
+                "insert": "Vložit",
+                "use_file_name": "Použít názvy souborů"
             },
             "buttons": {
                 "attach": "Připojit",
                 "upload": "Nahrát",
-                "upload_shared": "",
+                "upload_shared": "Sdílené",
                 "user_uploads": "Nahrané soubory",
                 "cancel": "Zrušit",
                 "media": "Média",
@@ -257,7 +257,7 @@
                 "error": "Chyba",
                 "loading": "Nahrávání",
                 "unauthorized": "Nejste oprávněni stahovat soubory",
-                "permission_required": ""
+                "permission_required": "Vyžadováno oprávnění"
             },
             "validation": {
                 "max_size": "Nahrávání větší než {max} kb nejsou akceptována."
@@ -265,16 +265,16 @@
             "text_preview": {
                 "expand": "Rozbalit náhled",
                 "collapse": "Sbalit náhled",
-                "download": "",
-                "error": "Chyba při náhledu souboru. Možná byl smazán nebo je zadané ID souboru neplatné.\n",
-                "no_snippet_preview": "<náhled se zde zobrazí po zveřejnění>",
-                "no_snippet": "<není k dispozici žádný fragment kódu (snippet) náhledu>"
+                "download": "Stáhnout soubor",
+                "error": "Chyba při náhledu souboru. Možná byl odstraněn nebo je zadané ID souboru neplatné.\n",
+                "no_snippet_preview": "(náhled se zde zobrazí po zveřejnění)",
+                "no_snippet": "(náhled není k dispozici)"
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Nahrávání souborů tohoto typu není povoleno.",
-                "mime_permission_denied": "",
+                "mime_permission_denied": "Nemáte oprávnění nahrávat soubory tohoto typu.",
                 "unsupported_type": "Adaptér pro nahrávání nepodporuje zadaný typ MIME: {mime}.",
                 "could_not_detect_mime": "Nelze zjistit typ MIME tohoto souboru, zkuste to prosím znovu.",
                 "max_upload_file_size_ini": "Dosažen limit maximální velikosti souboru z php.ini (upload_max_filesize).",
@@ -290,43 +290,43 @@
         "lib": {
             "upload-shared-file-modal": {
                 "title": "Nový sdílený soubor",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
+                "dropzone": "Přetáhněte soubory sem nebo je vyberte kliknutím",
+                "hide-from-media-gallery": "Skrýt z galerie médií uživatele",
                 "upload": "Nahrát"
             },
             "file_list": {
-                "loading": "",
+                "loading": "Načítání souborů…",
                 "empty": "Nebyly nalezeny žádné soubory.",
-                "load_error": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
+                "load_error": "Soubory se nepodařilo načíst. Zkuste to prosím znovu.",
+                "release_to_upload": "Pusťte pro nahrání",
+                "modal_empty_desktop": "Seznam souborů je prázdný. Soubor nahrajete kliknutím na tlačítko nebo přetažením sem.",
+                "modal_empty_phone": "Seznam souborů je prázdný. Soubor nahrajete klepnutím na tlačítko výše.",
+                "select_file_a11y_label": "Vybrat soubor „{fileName}“",
                 "confirm_selection_btn": "{fileCount, plural, =0 {Nic nevybráno} one {Vybraný soubor} other {Vybrané soubory}}",
                 "load_more_files_btn": "Načíst další soubory",
-                "delete_file_a11y_label": "Smazat soubor \"{fileName}\"",
-                "delete_confirmation": "Opravdu chcete smazat „{fileName}“?",
+                "delete_file_a11y_label": "Odstranit soubor „{fileName}“",
+                "delete_confirmation": "Opravdu chcete odstranit „{fileName}“?",
                 "hide_file": {
                     "btn_a11y_label_hide": "Skrýt \"{fileName}\" ve správci médií",
                     "btn_a11y_label_show": "Zobrazit \"{fileName}\" ve správci médií",
                     "hide_confirmation": "Opravdu chcete skrýt \"{fileName}\"? Skrytím ho odeberete ze správce médií a nebude to mít žádný vliv na existující příspěvky.",
-                    "hide_success": "",
+                    "hide_success": "Soubor byl skryt",
                     "show_confirmation": "Opravdu chcete zobrazit \"{fileName}\"? Zobrazením souboru se tento soubor zobrazí ve správci médií.",
-                    "show_success": "",
+                    "show_success": "Soubor byl zobrazen",
                     "hide_fail": "Nelze skrýt soubor \"{fileName}\"",
                     "show_fail": "Nelze zobrazit soubor \"{fileName}\"",
-                    "loading": ""
+                    "loading": "Skrývání souboru…"
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Nastavit „{fileName}“ jako soukromý (bez veřejné URL)",
+                    "btn_a11y_label_show": "Nastavit „{fileName}“ jako veřejný (s veřejnou URL)",
+                    "hide_confirmation": "Opravdu chcete nastavit „{fileName}“ jako soukromý? Soukromý soubor přijde o veřejnou URL, existující příspěvky to ale neovlivní. Neoprávnění uživatelé ho také přestanou vidět ve správci médií.",
+                    "hide_success": "Soubor je nyní soukromý",
+                    "show_confirmation": "Opravdu chcete nastavit „{fileName}“ jako veřejný? Veřejný soubor bude přístupný každému, kdo zná jeho veřejnou URL, a kdokoli ho bude moci sdílet přes správce médií.",
+                    "show_success": "Soubor je nyní veřejný",
+                    "hide_fail": "Soubor „{fileName}“ se nepodařilo nastavit jako soukromý",
+                    "show_fail": "Soubor „{fileName}“ se nepodařilo nastavit jako veřejný",
+                    "loading": "Nastavování souboru jako soukromého…"
                 }
             }
         }
