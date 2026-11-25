@@ -1,8 +1,8 @@
 {
     "huseyinfiliz-stickiest": {
         "validation": {
-            "invalid_tag_ids": "",
-            "unrelated_tags": ""
+            "invalid_tag_ids": "Die IDs der Sticky-Tags müssen eine Liste eindeutiger positiver Ganzzahlen sein.",
+            "unrelated_tags": "Sticky-Tags müssen zu dieser Diskussion gehören."
         },
         "admin": {
             "settings": {
@@ -77,11 +77,11 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "super_stickied": "",
-                    "super_unstickied": "",
-                    "tag_stickied": "",
-                    "tag_unstickied": "",
-                    "tag_sticky_tags_changed": ""
+                    "super_stickied": "Diskussion {discussion} als „besonders wichtig“ markiert",
+                    "super_unstickied": "Diskussion {discussion} nicht mehr als „besonders wichtig“ markiert",
+                    "tag_stickied": "Gepinntes Tag für Diskussion {discussion} aktiviert",
+                    "tag_unstickied": "Gepinntes Tag für Diskussion {discussion} deaktiviert",
+                    "tag_sticky_tags_changed": "Gepinntes Tag für Diskussion {discussion} geändert"
                 }
             }
         }
