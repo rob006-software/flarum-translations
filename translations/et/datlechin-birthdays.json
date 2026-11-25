@@ -32,7 +32,7 @@
                 "birthday_tooltip": ""
             },
             "change_birthday": {
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": ""
             },
             "nav": {
@@ -44,7 +44,7 @@
             },
             "page": {
                 "empty_text": "",
-                "load_more_button": "",
+                "load_more_button": "=> core.ref.load_more",
                 "title": "",
                 "today_heading": "",
                 "tomorrow_heading": "",
