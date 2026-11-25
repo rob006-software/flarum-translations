@@ -3,50 +3,50 @@
         "admin": {
             "clients": {
                 "applications": {
-                    "heading": "",
-                    "help": "",
-                    "empty": "",
-                    "off": ""
+                    "heading": "Anwendungen",
+                    "help": "Anwendungen, die du manuell hinzufügst, wie beispielsweise eine andere Website, auf der sich Mitglieder mit ihrem Konto hier anmelden können. Jede davon erhält eine Client-ID und, sofern möglich, ein Geheimnis.",
+                    "empty": "Noch keine Anwendungen hinzugefügt.",
+                    "off": "Von einem Administrator hinzugefügte Anwendungen sind in den Einstellungen deaktiviert: Sie können Mitglieder nicht anmelden und auch nicht die von Mitgliedern gewährten Zugriffsrechte nutzen."
                 },
                 "self_registered": {
-                    "heading": "",
-                    "help": "",
-                    "empty": "",
-                    "off": ""
+                    "heading": "Selbst registrierte Anwendungen",
+                    "help": "Anwendungen, die sich selbstständig verbunden haben, wie beispielsweise KI-Assistenten, die MCP nutzen (Claude, ChatGPT, Codex). Diese registrieren sich selbst oder identifizieren sich anhand der URL eines Metadaten-Dokuments.",
+                    "empty": "Keine Anwendung hat sich bisher selbst registriert.",
+                    "off": "Selbstregistrierte Anwendungen sind in den Einstellungen deaktiviert: Neue Anwendungen können keine Verbindung herstellen, und diese können keine Mitglieder anmelden oder die von den Mitgliedern erteilten Zugriffsrechte nutzen."
                 },
-                "new_button": "",
-                "connections": "",
-                "connections_none": "",
-                "last_used": "",
-                "never_used": "",
-                "name_column": "",
-                "id_column": "",
-                "redirects_column": "",
-                "status_column": "",
-                "status_active": "",
-                "status_revoked": "",
-                "edit_button": "",
-                "delete_button": "",
-                "rotate_button": "",
-                "delete_confirm": "",
-                "rotate_confirm": ""
+                "new_button": "Client hinzufügen",
+                "connections": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
+                "connections_none": "Keine Mitglieder",
+                "last_used": "Zuletzt verwendet {ago}",
+                "never_used": "Nie verwendet",
+                "name_column": "Name",
+                "id_column": "Client-ID",
+                "redirects_column": "Redirect-URIs",
+                "status_column": "Status",
+                "status_active": "Aktiv",
+                "status_revoked": "Widerrufen",
+                "edit_button": "Bearbeiten",
+                "delete_button": "Löschen",
+                "rotate_button": "Geheimnis rotieren",
+                "delete_confirm": "Diesen OAuth-Client löschen? Dadurch werden alle bereits für ihn ausgestellten Tokens ungültig.",
+                "rotate_confirm": "Geheimnis dieses Clients rotieren? Das alte Geheimnis wird sofort ungültig, alle bestehenden Zugriffs- und Aktualisierungstoken werden widerrufen, und alle Apps, die das alte Geheimnis verwenden, benötigen das neue, um die Verbindung wiederherzustellen."
             },
             "form": {
-                "new_title": "",
-                "edit_title": "",
-                "name_label": "",
-                "redirect_uris_label": "",
-                "redirect_uris_help": "",
-                "scopes_label": "",
-                "scopes_help": "",
+                "new_title": "OAuth-Client hinzufügen",
+                "edit_title": "OAuth-Client bearbeiten",
+                "name_label": "Anzeigename",
+                "redirect_uris_label": "Redirect-URIs",
+                "redirect_uris_help": "Eine URI pro Zeile. Der Client muss eine dieser Adressen als „redirect_uri“ in der Autorisierungsanfrage übermitteln.",
+                "scopes_label": "Erlaubte Geltungsbereiche",
+                "scopes_help": "Durch Leerzeichen getrennte Liste der Geltungsbereich, die dieser Client anfordern darf. Lasse das Feld leer, um alle Zugriffsbereiche zuzulassen.",
                 "confidential_label": "",
-                "confidential_help": "",
-                "revoked_label": "",
-                "save_button": ""
+                "confidential_help": "Deaktiviere diese Option für öffentliche Clients (SPA, Mobilgeräte), die PKCE verwenden müssen. Diese Einstellung kann nach der Erstellung nicht mehr geändert werden.",
+                "revoked_label": "Widerrufen (lehnt alle neuen Autorisierungsanfragen ab)",
+                "save_button": "Speichern"
             },
             "sections": {
                 "registration": {
-                    "label": "",
+                    "label": "Erlaubte Anwendungen",
                     "description": ""
                 }
             },
@@ -55,24 +55,24 @@
                 "allow_self_registered_clients_help": "",
                 "allow_admin_clients_label": "",
                 "allow_admin_clients_help": "",
-                "source_metadata_document": "",
-                "source_dynamic": ""
+                "source_metadata_document": "Metadata-Dokument",
+                "source_dynamic": "Selbst-registriert"
             },
             "tabs": {
-                "applications": "",
-                "self_registered": "",
-                "settings": ""
+                "applications": "Anwendungen",
+                "self_registered": "Selbst-registriert",
+                "settings": "Einstellungen"
             },
             "permissions": {
                 "connect_label": ""
             },
             "secret_modal": {
-                "title": "",
+                "title": "Client erstellt",
                 "intro": "",
                 "rotated_title": "",
                 "rotated_intro": "",
-                "client_id_label": "",
-                "client_secret_label": "",
+                "client_id_label": "Client-ID",
+                "client_secret_label": "Client-Geheimnis",
                 "close_button": ""
             }
         },
@@ -88,7 +88,7 @@
         },
         "api": {
             "scopes_empty_message": "",
-            "scope_unknown_message": ""
+            "scope_unknown_message": "Unbekannter Geltungsbereich: {scope}."
         },
         "forum": {
             "consent": {
@@ -96,23 +96,23 @@
                 "intro": "",
                 "scopes_heading": "",
                 "approve_button": "",
-                "deny_button": "",
-                "from_host": "",
+                "deny_button": "Abbrechen",
+                "from_host": "von {host}",
                 "unverified": "",
                 "redirect_host": ""
             },
             "connected_apps": {
-                "heading": "",
+                "heading": "Verbundene Anwendungen",
                 "help_text": "",
                 "empty": "",
-                "from_host": "",
-                "connected": "",
-                "last_used": "",
-                "never_used": "",
-                "revoke_button": "",
+                "from_host": "von {host}",
+                "connected": "Verbunden",
+                "last_used": "Zuletzt verwendet",
+                "never_used": "Nie",
+                "revoke_button": "Widerrufen",
                 "revoke_confirm": "",
                 "revoked": "",
-                "revoke_all_button": "",
+                "revoke_all_button": "Alle widerrufen",
                 "revoke_all_confirm": "",
                 "revoked_all": ""
             }
@@ -123,7 +123,7 @@
             "data": {
                 "connectedapplications": {
                     "export_description": "",
-                    "anonymize_description": "",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.connectedapplications.delete_description",
                     "delete_description": ""
                 }
             }
