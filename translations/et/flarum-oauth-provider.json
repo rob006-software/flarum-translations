@@ -19,34 +19,34 @@
                 "connections_none": "Liikmeid pole",
                 "last_used": "Viimati kasutatud {ago}",
                 "never_used": "Pole kunagi kasutatud",
-                "name_column": "",
-                "id_column": "",
-                "redirects_column": "",
-                "status_column": "",
-                "status_active": "",
+                "name_column": "Nimi",
+                "id_column": "Kliendi ID",
+                "redirects_column": "Ümbersuunamise URI-d",
+                "status_column": "Staatus",
+                "status_active": "Aktiivne",
                 "status_revoked": "",
-                "edit_button": "",
-                "delete_button": "",
+                "edit_button": "Muuda",
+                "delete_button": "Kustuta",
                 "rotate_button": "",
                 "delete_confirm": "",
                 "rotate_confirm": ""
             },
             "form": {
-                "new_title": "",
-                "edit_title": "",
-                "name_label": "",
-                "redirect_uris_label": "",
+                "new_title": "Lisa OAuth klient",
+                "edit_title": "Muuda OAuth klienti",
+                "name_label": "Näidatav nimi",
+                "redirect_uris_label": "Ümbersuunamise URI-d",
                 "redirect_uris_help": "",
-                "scopes_label": "",
+                "scopes_label": "Lubatud ulatused",
                 "scopes_help": "",
                 "confidential_label": "",
                 "confidential_help": "",
                 "revoked_label": "",
-                "save_button": ""
+                "save_button": "Salvesta"
             },
             "sections": {
                 "registration": {
-                    "label": "",
+                    "label": "Lubatud rakendused",
                     "description": ""
                 }
             },
@@ -59,29 +59,29 @@
                 "source_dynamic": ""
             },
             "tabs": {
-                "applications": "",
+                "applications": "Rakendused",
                 "self_registered": "",
-                "settings": ""
+                "settings": "Seaded"
             },
             "permissions": {
                 "connect_label": ""
             },
             "secret_modal": {
-                "title": "",
+                "title": "Klient on loodud",
                 "intro": "",
                 "rotated_title": "",
                 "rotated_intro": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "close_button": ""
+                "client_id_label": "Kliendi ID",
+                "client_secret_label": "Kliendi salasõna",
+                "close_button": "Salvestasin need endale"
             }
         },
         "lib": {
             "gambits": {
                 "users": {
                     "connected": {
-                        "key": "",
-                        "hint": ""
+                        "key": "ühendatud",
+                        "hint": "kliendi ID"
                     }
                 }
             }
@@ -92,23 +92,23 @@
         },
         "forum": {
             "consent": {
-                "title": "",
+                "title": "Autoriseeri rakendus",
                 "intro": "",
                 "scopes_heading": "",
-                "approve_button": "",
-                "deny_button": "",
+                "approve_button": "Autoriseeri",
+                "deny_button": "Loobu",
                 "from_host": "",
                 "unverified": "",
                 "redirect_host": ""
             },
             "connected_apps": {
-                "heading": "",
+                "heading": "Ühendatud rakendused",
                 "help_text": "",
                 "empty": "",
                 "from_host": "",
-                "connected": "",
-                "last_used": "",
-                "never_used": "",
+                "connected": "Ühendatud",
+                "last_used": "Viimati kasutatud",
+                "never_used": "Mitte kunagi",
                 "revoke_button": "",
                 "revoke_confirm": "",
                 "revoked": "",
