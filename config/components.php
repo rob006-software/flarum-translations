@@ -1242,7 +1242,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'mrcaspan-flarum2-email-editor' => [
-		'tag' => 'https://raw.githubusercontent.com/MrCaspan/flarum2-email-editor/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/MrCaspan/flarum2-email-editor/v1.2.0/resources/locale/en.yml',
 	],
 	'nwnuyhs-user-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/nwnuyhs/flarum-user-manager/v1.1.0/locale/en.yml',
