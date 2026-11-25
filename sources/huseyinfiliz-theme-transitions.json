@@ -1,0 +1,179 @@
+{
+    "huseyinfiliz-theme-transitions": {
+        "admin": {
+            "navigation": "Theme Transitions sections",
+            "tabs": {
+                "effects": "Effects",
+                "customization": "Customization",
+                "settings": "Settings",
+                "integrations": "Integrations"
+            },
+            "tab_descriptions": {
+                "effects": "Choose the visual animation played when visitors switch between light and dark themes.",
+                "effects_info": "Only the active effect's JavaScript chunk is lazy-loaded by visitors. Click any card to select it, or press play to preview live.",
+                "customization": "Fine-tune animation duration, timing curves, and effect-specific motion parameters.",
+                "customization_info": "Currently customizing {effect}: {description}",
+                "settings": "Control where transitions run and how accessibility and mobile preferences are handled.",
+                "settings_info": "Theme Transitions hooks into Flarum 2's app.setColorScheme() on user interactions while keeping page loads and OS prefers-color-scheme changes instant. Unsupported browsers fall back cleanly.",
+                "integrations": "Works seamlessly with Flarum 2's core Theme Switcher, Appearance settings, and companion theme extensions.",
+                "integrations_info": "Any extension that switches themes through Flarum 2's app.setColorScheme() automatically inherits your configured transition effect and trigger coordinates."
+            },
+            "integrations": {
+                "status_active": "Active",
+                "status_disabled": "Installed (Disabled)",
+                "status_not_installed": "Not Installed",
+                "simple_dark_mode": {
+                    "title": "Simple Dark Mode",
+                    "package": "huseyinfiliz/simple-dark-mode",
+                    "description": "Adds a one-click dark/light theme toggle button right in the forum header for guests and members. Clicking the toggle triggers your configured Theme Transitions animation directly from the button's position.",
+                    "active_note": "Detected and active on this forum. Header toggle clicks automatically trigger your selected transition effect.",
+                    "disabled_note": "Installed on this forum, but currently disabled. Enable it to add a one-click header theme toggle paired with Theme Transitions.",
+                    "install_note": "Not installed yet. Install via Composer to give guests and members a quick header toggle animated by Theme Transitions.",
+                    "open_settings": "Open Settings",
+                    "open_extension": "Open Extension",
+                    "github": "GitHub",
+                    "discuss": "Flarum Discuss",
+                    "copy_command": "Copy",
+                    "copied_command": "Copied"
+                }
+            },
+            "preview": {
+                "title": "Live Transition Preview",
+                "help": "Tests your current draft configuration right on this page without changing your saved user theme preference.",
+                "button": "Preview Transition",
+                "card_button": "Preview {effect}"
+            },
+            "categories": {
+                "radial": "Radial Reveals",
+                "geometric": "Geometric & Mask Wipes",
+                "cinematic": "Cinematic & Motion"
+            },
+            "sections": {
+                "timing": "Timing & Easing",
+                "effect_options": "Effect Customization",
+                "behavior": "Behavior & Compatibility"
+            },
+            "validation": {
+                "valid_easing": "Valid timing curve",
+                "invalid_easing": "Invalid curve (Telegram fallback will be used)"
+            },
+            "effects": {
+                "circle": {
+                    "name": "Circle Reveal (Telegram)",
+                    "description": "Expands the new theme outward in a crisp circle from the clicked toggle."
+                },
+                "circle-shrink": {
+                    "name": "Circle Shrink",
+                    "description": "Collapses the previous theme inward toward the trigger point."
+                },
+                "circle-blur": {
+                    "name": "Circle Blur",
+                    "description": "Soft-edged circular reveal paired with a subtle optical blur."
+                },
+                "wipe": {
+                    "name": "Directional Wipe",
+                    "description": "Sweeps cleanly across the viewport from a chosen edge."
+                },
+                "diagonal": {
+                    "name": "Diagonal Sweep",
+                    "description": "Cuts diagonally from corner to corner at a 45° angle."
+                },
+                "split": {
+                    "name": "Split Curtain",
+                    "description": "Opens outward from the center like dual curtains."
+                },
+                "diamond": {
+                    "name": "Diamond Burst",
+                    "description": "Expands as a sharp rotated diamond from the origin."
+                },
+                "iris": {
+                    "name": "Camera Iris",
+                    "description": "Octagonal shutter reveal with a subtle aperture twist."
+                },
+                "blinds": {
+                    "name": "Venetian Blinds",
+                    "description": "Reveals the new theme across synchronized multi-slat strips."
+                },
+                "fade": {
+                    "name": "Smooth Crossfade",
+                    "description": "Clean, minimal opacity dissolve with zero spatial movement."
+                },
+                "blur": {
+                    "name": "Blur Dissolve",
+                    "description": "Crossfades through a gentle Gaussian blur transition."
+                },
+                "zoom": {
+                    "name": "Focal Zoom",
+                    "description": "Subtle scale and opacity transition anchored at the origin."
+                },
+                "slide": {
+                    "name": "Parallax Slide",
+                    "description": "Slides the new theme in while pushing the old theme softly aside."
+                },
+                "flip": {
+                    "name": "3D Card Flip",
+                    "description": "Rotates the viewport in 3D perspective between themes."
+                }
+            },
+            "options": {
+                "easing": {
+                    "telegram": "Telegram Curve (Default)",
+                    "smooth": "Material Smooth",
+                    "ease-out": "Expo Ease-Out",
+                    "ease-in-out": "Symmetric Ease-In-Out",
+                    "spring": "Soft Spring Overshoot",
+                    "linear": "Linear",
+                    "custom": "Custom cubic-bezier()"
+                },
+                "origin": {
+                    "trigger": "Clicked Toggle / Trigger (Default)",
+                    "center": "Viewport Center",
+                    "top-left": "Top Left Corner",
+                    "top-right": "Top Right Corner",
+                    "bottom-left": "Bottom Left Corner",
+                    "bottom-right": "Bottom Right Corner"
+                },
+                "direction": {
+                    "left-to-right": "Left to Right",
+                    "right-to-left": "Right to Left",
+                    "top-to-bottom": "Top to Bottom",
+                    "bottom-to-top": "Bottom to Top"
+                },
+                "reverse_mode": {
+                    "none": "Never Reverse",
+                    "on-light": "Reverse When Switching to Light",
+                    "on-dark": "Reverse When Switching to Dark",
+                    "alternate": "Alternate Every Toggle"
+                }
+            },
+            "settings": {
+                "enabled_label": "Enable theme transition animations",
+                "enabled_help": "Animate user-initiated color scheme switches across the forum using the View Transitions API.",
+                "effect_label": "Transition Effect",
+                "effect_help": "Only the active effect's JavaScript chunk is lazy-loaded by visitors.",
+                "duration_label": "Duration (ms)",
+                "duration_help": "Total length of the theme transition animation between 100 ms and 2000 ms.",
+                "easing_label": "Timing Curve (Easing)",
+                "easing_help": "Controls the acceleration profile of the transition.",
+                "custom_easing_label": "Custom CSS Timing Function",
+                "custom_easing_help": "Enter a CSS timing keyword or cubic-bezier(x1, y1, x2, y2) with x1 and x2 between 0 and 1.",
+                "origin_label": "Reveal Origin",
+                "origin_help": "Where radial, diamond, iris, and zoom effects originate from.",
+                "direction_label": "Sweep / Motion Direction",
+                "direction_help": "Controls the axis and direction for directional effects.",
+                "reverse_mode_label": "Reverse Direction Mode",
+                "reverse_mode_help": "Optionally invert the transition direction depending on dark/light polarity.",
+                "blinds_count_label": "Blinds Slat Count",
+                "blinds_count_help": "Number of synchronized strips rendered by the Venetian Blinds effect (3–24).",
+                "blur_amount_label": "Blur Intensity (px)",
+                "blur_amount_help": "Maximum blur radius applied during blur-based effects (2–32 px).",
+                "enable_admin_label": "Enable transitions in Admin panel",
+                "enable_admin_help": "Animate color scheme switches inside the Flarum admin dashboard as well.",
+                "disable_on_mobile_label": "Disable animations on mobile / touch devices",
+                "disable_on_mobile_help": "Skip View Transitions on coarse-pointer or small-screen devices for instant switching.",
+                "respect_reduced_motion_label": "Respect prefers-reduced-motion",
+                "respect_reduced_motion_help": "Automatically disable animations for visitors who prefer reduced motion at the OS/browser level."
+            }
+        }
+    }
+}
