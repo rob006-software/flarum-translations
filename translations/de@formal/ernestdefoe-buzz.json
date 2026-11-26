@@ -19,10 +19,10 @@
             "label": "Echtzeit-Aktivität",
             "settings": {
                 "heading": "Echtzeit-Aktivität",
-                "share_label": "",
-                "share_help": "",
-                "mute_label": "",
-                "mute_help": ""
+                "share_label": "Meine Aktivität in Buzz anzeigen",
+                "share_help": "Deine neuen Beiträge, Antworten und Erfolge können anderen Mitgliedern sofort angezeigt werden, sobald sie veröffentlicht werden.",
+                "mute_label": "Live-Aktivitäts-Feed ausblenden",
+                "mute_help": "Zeige auf der Seite keine Aktivitäten anderer Personen mehr an."
             }
         },
         "admin": {
@@ -31,31 +31,31 @@
                 "reply": "Neue Antworten",
                 "member": "Neue Mitglieder (sobald sie ihre E-Mail bestätigt haben)",
                 "badge": "Abzeichen erworben (FoF Badges)",
-                "rank": "",
-                "streak": "",
-                "quest": "",
-                "quiz": "",
-                "collection": "",
-                "purchase": ""
+                "rank": "Rang-Aufstiege (Ladder)",
+                "streak": "Serien-Meilensteine (Cadence)",
+                "quest": "Onboarding-Aufgabe abgeschlossen (Onramp)",
+                "quiz": "Quiz bestanden (Brainstorm)",
+                "collection": "Artikel, die zu Sammlungen hinzugefügt wurden (Curio)",
+                "purchase": "Einkäufe im Shop (Client Area)"
             },
             "sections": {
-                "events": "",
+                "events": "Was gesendet werden soll",
                 "events_help": "",
-                "display": "",
+                "display": "Erscheinungsbild",
                 "delivery": "Zustellung",
                 "privacy": "Datenschutz"
             },
             "style_label": "Darstellung",
             "style": {
-                "toast": "",
-                "ticker": ""
+                "toast": "Toast-Benachrichtigung unten",
+                "ticker": "Ticker oben"
             },
-            "ticker_mode_label": "",
+            "ticker_mode_label": "Tickermodus",
             "ticker_mode": {
-                "slide": "",
-                "marquee": ""
+                "slide": "Nach unten einfahren (einer nach dem anderen)",
+                "marquee": "Marquee (fortlaufender Text)"
             },
-            "side_label": "",
+            "side_label": "Position der Toast-Benachrichtung",
             "side": {
                 "left": "Unten links",
                 "right": "Unten rechts"
@@ -65,17 +65,17 @@
             "show_avatar_label": "Avatare anzeigen",
             "show_username_label": "Benutzernamen anzeigen",
             "profile_link_label": "Benutzernamen mit Profil verlinken",
-            "display_seconds_label": "",
-            "max_toasts_label": "",
-            "max_toasts_help": "",
-            "mask_names_label": "",
-            "mask_names_help": "",
+            "display_seconds_label": "Sekunden, die jedes Ereignis auf dem Bildschirm bleibt",
+            "max_toasts_label": "Toasts, die gleichzeitig auf dem Bildschirm sind",
+            "max_toasts_help": "Wie viele Benachrichtigungen gleichzeitig auf dem Desktop angezeigt werden. Auf Handys wird immer nur eine auf einmal angezeigt.",
+            "mask_names_label": "Namen etwas anonymisieren",
+            "mask_names_help": "Zeigt Namen als „M…n“ statt als „Max Mustermann“ an und deaktiviert den Link zum Profil des Mitglieds. Der vollständige Name verlässt deinen Server zu keinem Zeitpunkt.",
             "pages_label": "Anzeigen auf",
             "pages": {
                 "all": "Jeder Seite",
                 "home": "Nur der Diskussionsliste"
             },
-            "hide_composing_label": "",
+            "hide_composing_label": "Benachrichtigungen zurückhalten, während das Mitglied einen Beitrag verfasst",
             "interval_label": "",
             "interval_help": "",
             "recent_on_load_label": "",
