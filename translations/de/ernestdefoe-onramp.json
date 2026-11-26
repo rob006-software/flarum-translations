@@ -3,10 +3,10 @@
         "lib": {
             "errors": {
                 "type": "",
-                "count": "",
+                "count": "Verwende eine Zahl zwischen 1 und 1000.",
                 "path": "",
-                "too_long": "",
-                "points": ""
+                "too_long": "Das ist zu lang.",
+                "points": "Verwende eine Anzahl an Punkten zwischen 0 und 100000."
             },
             "types": {
                 "avatar": {
@@ -16,7 +16,7 @@
                 },
                 "bio": {
                     "title": "Erzähle etwas über dich",
-                    "description": "",
+                    "description": "Ein oder zwei Zeilen in deiner Biografie helfen anderen dabei, zu verstehen, mit wem sie es zu tun haben.",
                     "button": "Schreibe deine Biografie"
                 },
                 "nickname": {
@@ -79,22 +79,22 @@
                 "best_answer": {
                     "title": "",
                     "description": "",
-                    "button": ""
+                    "button": "Finde eine Frage"
                 },
                 "follow_discussion": {
-                    "title": "",
+                    "title": "{count, plural, one {Folge einer Diskussion} other {Folge # Diskussionen}}",
                     "description": "",
-                    "button": ""
+                    "button": "Finde eine Diskussion"
                 },
                 "follow_tag": {
-                    "title": "",
+                    "title": "{count, plural, one {Folge einem Tag} other {Folge # Tags}}",
                     "description": "",
-                    "button": ""
+                    "button": "Tags ansehen"
                 },
                 "poll_vote": {
                     "title": "",
                     "description": "",
-                    "button": ""
+                    "button": "Finde eine Umfrage"
                 },
                 "upload": {
                     "title": "",
@@ -114,7 +114,7 @@
                 "streak": {
                     "title": "",
                     "description": "",
-                    "button": ""
+                    "button": "Serien ansehen"
                 }
             }
         },
@@ -214,7 +214,7 @@
                 "add": "Schritt hinzufügen",
                 "edit": "Schritt bearbeiten",
                 "delete": "Schritt löschen",
-                "delete_confirm": "",
+                "delete_confirm": "„{title}“ löschen? Fortschritte von Mitgliedern verschwinden ebenfalls.",
                 "drag": "Zum Neuanordnen ziehen",
                 "type": "",
                 "from_extension": "Gezählt durch {extension}.",
