@@ -220,7 +220,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/broadsheet/1.0.5/locale/en.yml',
 	],
 	'ernestdefoe-buzz' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/buzz/1.1.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/buzz/1.1.7/locale/en.yml',
 	],
 	'ernestdefoe-cadence' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cadence/1.3.2/locale/en.yml',
