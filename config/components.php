@@ -344,7 +344,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/header-nav/1.8.3/locale/en.yml',
 	],
 	'ernestdefoe-hearth' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hearth/1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hearth/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-helpdesk' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/helpdesk/1.1.0/locale/en.yml',
