@@ -2,8 +2,8 @@
 
 Translations for Estonian (`et`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **3** are translated differently and **64** are
-translated only in `et`. Altogether they cover **20** components.
+sides, but do not match between them: **3** are translated differently and **120** are
+translated only in `et`. Altogether they cover **24** components.
 
 <!-- {% raw %} -->
 
@@ -13,15 +13,19 @@ translated only in `et`. Altogether they cover **20** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `el-choco-admin-console` | 0 | [1](#el-choco-admin-console-missing) |
+| `ffans-threadmarks` | 0 | [19](#ffans-threadmarks-missing) |
 | `fof-badges` | 0 | [1](#fof-badges-missing) |
 | `fof-follow-tags` | 0 | [7](#fof-follow-tags-missing) |
+| `fof-mailing` | 0 | [2](#fof-mailing-missing) |
 | `fof-move-posts` | 0 | [4](#fof-move-posts-missing) |
 | `fof-rich-text` | 0 | [4](#fof-rich-text-missing) |
 | `fof-sentry` | 0 | [1](#fof-sentry-missing) |
-| `fof-upgrade-advisor` | 0 | [36](#fof-upgrade-advisor-missing) |
+| `fof-upgrade-advisor` | 0 | [37](#fof-upgrade-advisor-missing) |
+| `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
+| `huseyinfiliz-diff` | 0 | [12](#huseyinfiliz-diff-missing) |
 | `huseyinfiliz-sticky-title` | 0 | [1](#huseyinfiliz-sticky-title-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [1](#michaelbelgium-ai-autoreply-missing) |
-| `pianotell-flamoji` | 0 | [1](#pianotell-flamoji-missing) |
+| `pianotell-flamoji` | 0 | [22](#pianotell-flamoji-missing) |
 | `prm-forum-activity` | 0 | [1](#prm-forum-activity-missing) |
 | `prm-hero-image` | [1](#prm-hero-image) | 0 |
 | `quasimo-tag-sidebar` | 0 | [1](#quasimo-tag-sidebar-missing) |
@@ -97,6 +101,161 @@ These strings are translated only in `et`, so there is nothing to inherit from F
 ```
 
 
+### `ffans-threadmarks` (missing)
+
+#### [`ffans-threadmarks.admin.edit_type_modal.delete_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.admin.edit_type_modal.delete_button%22)
+
+> =&gt; core.ref.delete
+
+```diff
++=> core.ref.delete
+```
+
+#### [`ffans-threadmarks.admin.edit_type_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.admin.edit_type_modal.submit_button%22)
+
+> =&gt; ffans-threadmarks.ref.save
+
+```diff
++=> ffans-threadmarks.ref.save
+```
+
+#### [`ffans-threadmarks.admin.types.key_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.admin.types.key_heading%22)
+
+> =&gt; ffans-threadmarks.ref.key
+
+```diff
++=> ffans-threadmarks.ref.key
+```
+
+#### [`ffans-threadmarks.admin.types.type_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.admin.types.type_heading%22)
+
+> =&gt; ffans-threadmarks.ref.type
+
+```diff
++=> ffans-threadmarks.ref.type
+```
+
+#### [`ffans-threadmarks.forum.directory.discussion_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.directory.discussion_filter%22)
+
+> =&gt; ffans-threadmarks.ref.discussion
+
+```diff
++=> ffans-threadmarks.ref.discussion
+```
+
+#### [`ffans-threadmarks.forum.directory.hide_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.directory.hide_button%22)
+
+> =&gt; ffans-threadmarks.ref.threadmarks
+
+```diff
++=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.directory.personal_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.directory.personal_filter%22)
+
+> =&gt; ffans-threadmarks.ref.mine
+
+```diff
++=> ffans-threadmarks.ref.mine
+```
+
+#### [`ffans-threadmarks.forum.directory.show_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.directory.show_button%22)
+
+> =&gt; ffans-threadmarks.ref.threadmarks
+
+```diff
++=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.directory.title`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.directory.title%22)
+
+> =&gt; ffans-threadmarks.ref.threadmarks
+
+```diff
++=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.discussion_controls.show_threadmarks_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_threadmarks_button%22)
+
+> =&gt; ffans-threadmarks.ref.threadmarks
+
+```diff
++=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.delete_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.delete_button%22)
+
+> =&gt; core.ref.delete
+
+```diff
++=> core.ref.delete
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.discussion_tab`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.discussion_tab%22)
+
+> =&gt; ffans-threadmarks.ref.discussion
+
+```diff
++=> ffans-threadmarks.ref.discussion
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.loading_text`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.loading_text%22)
+
+> =&gt; core.ref.loading
+
+```diff
++=> core.ref.loading
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.save_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.save_button%22)
+
+> =&gt; ffans-threadmarks.ref.save
+
+```diff
++=> ffans-threadmarks.ref.save
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.type_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.type_label%22)
+
+> =&gt; ffans-threadmarks.ref.type
+
+```diff
++=> ffans-threadmarks.ref.type
+```
+
+#### [`ffans-threadmarks.forum.threadmark.mine_badge`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.mine_badge%22)
+
+> =&gt; ffans-threadmarks.ref.mine
+
+```diff
++=> ffans-threadmarks.ref.mine
+```
+
+#### [`ffans-threadmarks.lib.type_form.color_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.color_label%22)
+
+> =&gt; core.ref.color
+
+```diff
++=> core.ref.color
+```
+
+#### [`ffans-threadmarks.lib.type_form.icon_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.icon_label%22)
+
+> =&gt; core.ref.icon
+
+```diff
++=> core.ref.icon
+```
+
+#### [`ffans-threadmarks.lib.type_form.key_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/et/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.key_label%22)
+
+> =&gt; ffans-threadmarks.ref.key
+
+```diff
++=> ffans-threadmarks.ref.key
+```
+
+
 ### `fof-badges` (missing)
 
 #### [`fof-badges.defaults.categories.getting-started.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/et/?q=context%3A%3D%22fof-badges.defaults.categories.getting-started.name%22)
@@ -164,6 +323,25 @@ These strings are translated only in `et`, so there is nothing to inherit from F
 
 ```diff
 +Vali sildid, mida jälgida
+```
+
+
+### `fof-mailing` (missing)
+
+#### [`fof-mailing.email.default_subject`](https://weblate.rob006.net/translate/flarum2/fof-mailing/et/?q=context%3A%3D%22fof-mailing.email.default_subject%22)
+
+> =&gt; fof-mailing.ref.default\_subject
+
+```diff
++=> fof-mailing.ref.default_subject
+```
+
+#### [`fof-mailing.forum.modal_mail.default_subject`](https://weblate.rob006.net/translate/flarum2/fof-mailing/et/?q=context%3A%3D%22fof-mailing.forum.modal_mail.default_subject%22)
+
+> =&gt; fof-mailing.ref.default\_subject
+
+```diff
++=> fof-mailing.ref.default_subject
 ```
 
 
@@ -362,6 +540,14 @@ These strings are translated only in `et`, so there is nothing to inherit from F
 +{version}
 ```
 
+#### [`fof-upgrade-advisor.admin.list.details.remove`](https://weblate.rob006.net/translate/flarum2/fof-upgrade-advisor/et/?q=context%3A%3D%22fof-upgrade-advisor.admin.list.details.remove%22)
+
+> Built into core
+
+```diff
++Tuuma sisse ehitatud
+```
+
 #### [`fof-upgrade-advisor.admin.list.details.replacement`](https://weblate.rob006.net/translate/flarum2/fof-upgrade-advisor/et/?q=context%3A%3D%22fof-upgrade-advisor.admin.list.details.replacement%22)
 
 > → {replacement}
@@ -539,6 +725,116 @@ These strings are translated only in `et`, so there is nothing to inherit from F
 ```
 
 
+### `huoxin-money-with-history` (missing)
+
+#### [`huoxin-money-with-history.forum.modal.submit_button`](https://weblate.rob006.net/translate/flarum2/huoxin-money-with-history/et/?q=context%3A%3D%22huoxin-money-with-history.forum.modal.submit_button%22)
+
+> =&gt; core.ref.save\_changes
+
+```diff
++=> core.ref.save_changes
+```
+
+
+### `huseyinfiliz-diff` (missing)
+
+#### [`huseyinfiliz-diff.forum.deleteButton`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.deleteButton%22)
+
+> =&gt; core.forum.post\_controls.delete\_button
+
+```diff
++=> core.forum.post_controls.delete_button
+```
+
+#### [`huseyinfiliz-diff.forum.differences.currentContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.differences.currentContent%22)
+
+> =&gt; huseyinfiliz-diff.ref.currentContent
+
+```diff
++=> huseyinfiliz-diff.ref.currentContent
+```
+
+#### [`huseyinfiliz-diff.forum.differences.originalContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.differences.originalContent%22)
+
+> =&gt; huseyinfiliz-diff.ref.originalContent
+
+```diff
++=> huseyinfiliz-diff.ref.originalContent
+```
+
+#### [`huseyinfiliz-diff.forum.differences.revisionWithNumber`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.differences.revisionWithNumber%22)
+
+> =&gt; huseyinfiliz-diff.ref.revisionWithNumber
+
+```diff
++=> huseyinfiliz-diff.ref.revisionWithNumber
+```
+
+#### [`huseyinfiliz-diff.forum.editedInfo`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.editedInfo%22)
+
+> =&gt; core.forum.post.edited\_tooltip
+
+```diff
++=> core.forum.post.edited_tooltip
+```
+
+#### [`huseyinfiliz-diff.forum.editedText`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.editedText%22)
+
+> =&gt; core.forum.post.edited\_text
+
+```diff
++=> core.forum.post.edited_text
+```
+
+#### [`huseyinfiliz-diff.forum.previewMode.currentContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.previewMode.currentContent%22)
+
+> =&gt; huseyinfiliz-diff.ref.currentContent
+
+```diff
++=> huseyinfiliz-diff.ref.currentContent
+```
+
+#### [`huseyinfiliz-diff.forum.previewMode.originalContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.previewMode.originalContent%22)
+
+> =&gt; huseyinfiliz-diff.ref.originalContent
+
+```diff
++=> huseyinfiliz-diff.ref.originalContent
+```
+
+#### [`huseyinfiliz-diff.forum.previewMode.revisionWithNumber`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.previewMode.revisionWithNumber%22)
+
+> =&gt; huseyinfiliz-diff.ref.revisionWithNumber
+
+```diff
++=> huseyinfiliz-diff.ref.revisionWithNumber
+```
+
+#### [`huseyinfiliz-diff.forum.tooltips.originalContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.tooltips.originalContent%22)
+
+> =&gt; huseyinfiliz-diff.ref.originalContent
+
+```diff
++=> huseyinfiliz-diff.ref.originalContent
+```
+
+#### [`huseyinfiliz-diff.forum.tooltips.preview`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.tooltips.preview%22)
+
+> =&gt; core.forum.composer.preview\_tooltip
+
+```diff
++=> core.forum.composer.preview_tooltip
+```
+
+#### [`huseyinfiliz-diff.forum.tooltips.revisionWithNumber`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/et/?q=context%3A%3D%22huseyinfiliz-diff.forum.tooltips.revisionWithNumber%22)
+
+> =&gt; huseyinfiliz-diff.ref.revisionWithNumber
+
+```diff
++=> huseyinfiliz-diff.ref.revisionWithNumber
+```
+
+
 ### `huseyinfiliz-sticky-title` (missing)
 
 #### [`huseyinfiliz-sticky-title.admin.settings.title`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-sticky-title/et/?q=context%3A%3D%22huseyinfiliz-sticky-title.admin.settings.title%22)
@@ -563,12 +859,180 @@ These strings are translated only in `et`, so there is nothing to inherit from F
 
 ### `pianotell-flamoji` (missing)
 
+#### [`pianotell-flamoji.admin.custom_emojis_section.edit_emoji.saved_message`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.edit_emoji.saved_message%22)
+
+> =&gt; core.admin.settings.saved\_message
+
+```diff
++=> core.admin.settings.saved_message
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.edit_emoji.submit_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.edit_emoji.submit_button%22)
+
+> =&gt; core.ref.save\_changes
+
+```diff
++=> core.ref.save_changes
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.load_more_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.load_more_button%22)
+
+> =&gt; core.forum.post\_stream.load\_more\_button
+
+```diff
++=> core.forum.post_stream.load_more_button
+```
+
+#### [`pianotell-flamoji.admin.settings.emoji_categories.activity`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.settings.emoji_categories.activity%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.activity
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.activity
+```
+
+#### [`pianotell-flamoji.admin.settings.emoji_categories.flags`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.settings.emoji_categories.flags%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.flags
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.flags
+```
+
+#### [`pianotell-flamoji.admin.settings.emoji_categories.foods`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.settings.emoji_categories.foods%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.foods
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.foods
+```
+
+#### [`pianotell-flamoji.admin.settings.emoji_categories.nature`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.settings.emoji_categories.nature%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.nature
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.nature
+```
+
+#### [`pianotell-flamoji.admin.settings.emoji_categories.objects`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.settings.emoji_categories.objects%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.objects
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.objects
+```
+
+#### [`pianotell-flamoji.admin.settings.emoji_categories.people`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.settings.emoji_categories.people%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.people
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.people
+```
+
+#### [`pianotell-flamoji.admin.settings.emoji_categories.places`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.settings.emoji_categories.places%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.places
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.places
+```
+
+#### [`pianotell-flamoji.admin.settings.emoji_categories.symbols`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.settings.emoji_categories.symbols%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.symbols
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.symbols
+```
+
 #### [`pianotell-flamoji.admin.settings.emoji_settings_heading`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.admin.settings.emoji_settings_heading%22)
 
 > Emoji Settings
 
 ```diff
 +Emoji seaded
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.activity`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.activity%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.activity
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.activity
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.custom`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.custom%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.custom
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.custom
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.flags`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.flags%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.flags
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.flags
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.foods`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.foods%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.foods
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.foods
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.frequent`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.frequent%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.frequent
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.frequent
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.nature`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.nature%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.nature
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.nature
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.objects`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.objects%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.objects
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.objects
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.people`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.people%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.people
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.people
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.places`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.places%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.places
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.places
+```
+
+#### [`pianotell-flamoji.forum.emoji-mart.categories.symbols`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/et/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.categories.symbols%22)
+
+> =&gt; pianotell-flamoji.ref.emoji\_categories.symbols
+
+```diff
++=> pianotell-flamoji.ref.emoji_categories.symbols
 ```
 
 
