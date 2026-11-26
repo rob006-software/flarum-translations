@@ -1328,9 +1328,7 @@ return [
 	],
 	'tacraft-sociality-scroll-buttons' => [
 		'tag' => 'https://raw.githubusercontent.com/TaCraft-Sociality/flarum-scroll-buttons/1.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'tapao-auto-ai-moderation' => [
 		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Auto-AI-Moderation/2.1.9/locale/en.yml',
