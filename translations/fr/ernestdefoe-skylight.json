@@ -17,6 +17,8 @@
             },
             "labels": {
                 "view": "",
+                "tags": "",
+                "night": "",
                 "bg": "Arrière-plan",
                 "glass": "Surfaces",
                 "blur": "Flou",
@@ -39,6 +41,14 @@
                     "list": "Liste",
                     "cards": "Cartes",
                     "compact": "Compact"
+                },
+                "tags": {
+                    "beside": "",
+                    "below": ""
+                },
+                "night": {
+                    "blue": "",
+                    "black": ""
                 },
                 "bg": {
                     "daylight": "Plein jour",
@@ -131,7 +141,17 @@
             },
             "presets": {
                 "title": "",
-                "help": ""
+                "help": "",
+                "replace": "",
+                "replace_help": ""
+            },
+            "thumbnail": {
+                "title": "",
+                "help": "",
+                "off": "",
+                "small": "",
+                "medium": "",
+                "large": ""
             },
             "backgrounds": {
                 "title": "",
@@ -141,6 +161,8 @@
                 "title": "",
                 "tag_accent": "",
                 "tag_accent_help": "",
+                "multi_tag": "",
+                "multi_tag_help": "",
                 "auto_solid": "",
                 "auto_solid_help": ""
             }

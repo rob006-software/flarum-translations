@@ -35,6 +35,9 @@
                 "no_sets": "Es gibt noch keine sammelbaren Aufkleber.",
                 "complete": "Abgeschlossen",
                 "progress_label": "{have} von {total} gesammelt",
+                "window_upcoming": "",
+                "window_open": "",
+                "window_ended": "",
                 "filter": {
                     "all": "Alle",
                     "missing": "Fehlend",
@@ -68,6 +71,8 @@
                 "message_placeholder": "Notiz hinzufügen (optional)",
                 "send": "Angebot senden",
                 "send_gift": "Als Geschenk schicken",
+                "needed": "",
+                "needed_hint": "",
                 "sent": "Angebot gesendet an {name}."
             },
             "trades": {
@@ -169,6 +174,11 @@
                 "badge_option": "Abzeichen verleihen: {name}",
                 "badges_help": "Mit FoF Badges kannst du Abzeichen an Mitglieder zuweisen, wenn sie ein Satz vervollständigen.",
                 "visible": "Diesen Satz Mitgliedern anzeigen",
+                "available_from": "",
+                "available_until": "",
+                "window_help": "",
+                "window_from_tag": "",
+                "window_until_tag": "",
                 "art": "Aufkleber-Bild",
                 "replace_art": "Bild ersetzen (optional)",
                 "save": "Speichern",
@@ -215,7 +225,9 @@
         "lib": {
             "errors": {
                 "sticker_book_empty": "",
+                "sticker_none_in_packs": "",
                 "sticker_no_pack": "",
+                "sticker_window_invalid": "",
                 "sticker_slow_down": "",
                 "sticker_trade_self": "Du kannst nicht mit dir selbst tauschen.",
                 "sticker_trade_unavailable": "Dieses Mitglied darf keine Aufkleber tauschen.",

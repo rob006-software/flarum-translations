@@ -34,6 +34,11 @@
             "settings": {
                 "welcome_label": "Show the welcome card",
                 "welcome_help": "\"Good afternoon, Mira\" above the discussion list, with how many conversations have something new. Guests see your welcome title and message there instead of the banner. With Homecoming enabled, its welcome strip is used instead.",
+                "welcome_button_label_label": "Welcome card button text",
+                "welcome_button_label_help": "What the guest button on the welcome card says. Leave it empty for \"Join in\". The welcome card's title and message are the welcome banner's, under Appearance.",
+                "welcome_button_label_placeholder": "Join in",
+                "welcome_button_url_label": "Welcome card button link",
+                "welcome_button_url_help": "Where the guest button goes, such as your own sign-up or application page (a full https:// link, or a path on this forum like /p/join). Leave it empty to open Flarum's sign-up dialog. With a link, the button shows even when sign-ups are closed.",
                 "own_right_label": "Put each member's own posts on the right",
                 "own_right_help": "Like a chat. Turn it off to keep every post on the left.",
                 "shelf_label": "Show tags as a shelf of jars",

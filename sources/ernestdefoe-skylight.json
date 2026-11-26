@@ -17,6 +17,8 @@
             },
             "labels": {
                 "view": "View",
+                "tags": "Tags",
+                "night": "Night",
                 "bg": "Background",
                 "glass": "Surfaces",
                 "blur": "Blur",
@@ -39,6 +41,14 @@
                     "list": "List",
                     "cards": "Cards",
                     "compact": "Compact"
+                },
+                "tags": {
+                    "beside": "Beside the title",
+                    "below": "Below, all shown"
+                },
+                "night": {
+                    "blue": "Blue",
+                    "black": "Black"
                 },
                 "bg": {
                     "daylight": "Daylight",
@@ -131,7 +141,17 @@
             },
             "presets": {
                 "title": "Your own accents",
-                "help": "Up to 6 extra colors for the accent row, separated by commas."
+                "help": "Up to 6 extra colors for the accent row, separated by commas.",
+                "replace": "Replace the built-in presets",
+                "replace_help": "Show only your colors in the accent row, instead of adding them after Skylight's six."
+            },
+            "thumbnail": {
+                "title": "Card pictures",
+                "help": "Cards show each discussion's FoF Discussion Thumbnail picture across their top.",
+                "off": "Off",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large"
             },
             "backgrounds": {
                 "title": "Background pictures",
@@ -141,6 +161,8 @@
                 "title": "More",
                 "tag_accent": "Tags color the page",
                 "tag_accent_help": "Inside a tag, buttons, links and focus rings take the tag's color. Colors too light to read are darkened.",
+                "multi_tag": "One color for several tags",
+                "multi_tag_help": "A discussion whose tags have different colors uses this color instead of its first tag's.",
                 "auto_solid": "Go solid on low-memory phones",
                 "auto_solid_help": "Phones with under 4 GB of memory, or with Data Saver on, get solid panes. Members can still pick Glass."
             }

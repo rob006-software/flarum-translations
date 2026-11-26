@@ -35,6 +35,9 @@
                 "no_sets": "There are no stickers to collect yet.",
                 "complete": "Complete",
                 "progress_label": "{have} of {total} collected",
+                "window_upcoming": "In packs from {date}",
+                "window_open": "Limited: in packs until {date}",
+                "window_ended": "No longer in packs since {date}; its stickers still trade",
                 "filter": {
                     "all": "All",
                     "missing": "Missing",
@@ -68,6 +71,8 @@
                 "message_placeholder": "Add a note (optional)",
                 "send": "Send offer",
                 "send_gift": "Send as a gift",
+                "needed": "Need",
+                "needed_hint": "Marked first are the stickers you don't have yet.",
                 "sent": "Offer sent to {name}."
             },
             "trades": {
@@ -169,6 +174,11 @@
                 "badge_option": "Award the badge: {name}",
                 "badges_help": "With FoF Badges you can award a badge to members who complete a set.",
                 "visible": "Show this set to members",
+                "available_from": "Available from",
+                "available_until": "Available until",
+                "window_help": "For an event: packs opened between these times can contain this set's stickers. Leave both empty to have it in packs all the time. Members keep, show and trade its stickers after the window closes.",
+                "window_from_tag": "From {date}",
+                "window_until_tag": "Until {date}",
                 "art": "Sticker image",
                 "replace_art": "Replace the image (optional)",
                 "save": "Save",
@@ -215,7 +225,9 @@
         "lib": {
             "errors": {
                 "sticker_book_empty": "There are no stickers to collect yet.",
+                "sticker_none_in_packs": "No sticker set is in packs right now. Your pack will wait until the next one opens.",
                 "sticker_no_pack": "You have no packs to open right now.",
+                "sticker_window_invalid": "The set's availability window needs a valid start and an end after it.",
                 "sticker_slow_down": "You're going a little fast. Try again in a minute.",
                 "sticker_trade_self": "You can't trade with yourself.",
                 "sticker_trade_unavailable": "That member can't trade stickers.",

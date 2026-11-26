@@ -35,6 +35,9 @@
                 "no_sets": "Наліпок для збирання ще немає.",
                 "complete": "Завершено",
                 "progress_label": "Зібрано {have} із {total}",
+                "window_upcoming": "",
+                "window_open": "",
+                "window_ended": "",
                 "filter": {
                     "all": "Усі",
                     "missing": "Бракує",
@@ -68,6 +71,8 @@
                 "message_placeholder": "Додати примітку (необов’язково)",
                 "send": "Надіслати пропозицію",
                 "send_gift": "Надіслати як подарунок",
+                "needed": "",
+                "needed_hint": "",
                 "sent": "Пропозицію надіслано {name}."
             },
             "trades": {
@@ -169,6 +174,11 @@
                 "badge_option": "Видати відзнаку: {name}",
                 "badges_help": "У FoF Badges можна видати відзнаку учасникам, які завершать набір.",
                 "visible": "Показувати цей набір учасникам",
+                "available_from": "",
+                "available_until": "",
+                "window_help": "",
+                "window_from_tag": "",
+                "window_until_tag": "",
                 "art": "Зображення наліпки",
                 "replace_art": "Замінити зображення (необов’язково)",
                 "save": "Зберегти",
@@ -215,7 +225,9 @@
         "lib": {
             "errors": {
                 "sticker_book_empty": "Наліпок для збирання ще немає.",
+                "sticker_none_in_packs": "",
                 "sticker_no_pack": "Зараз у вас немає пакунків для відкриття.",
+                "sticker_window_invalid": "",
                 "sticker_slow_down": "Ви дієте надто швидко. Спробуйте ще раз за хвилину.",
                 "sticker_trade_self": "Ви не можете обмінюватися із собою.",
                 "sticker_trade_unavailable": "Цей учасник не може обмінюватися наліпками.",

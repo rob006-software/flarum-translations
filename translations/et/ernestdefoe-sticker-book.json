@@ -35,6 +35,9 @@
                 "no_sets": "",
                 "complete": "",
                 "progress_label": "",
+                "window_upcoming": "",
+                "window_open": "",
+                "window_ended": "",
                 "filter": {
                     "all": "",
                     "missing": "",
@@ -68,6 +71,8 @@
                 "message_placeholder": "",
                 "send": "",
                 "send_gift": "",
+                "needed": "",
+                "needed_hint": "",
                 "sent": ""
             },
             "trades": {
@@ -169,6 +174,11 @@
                 "badge_option": "",
                 "badges_help": "",
                 "visible": "",
+                "available_from": "",
+                "available_until": "",
+                "window_help": "",
+                "window_from_tag": "",
+                "window_until_tag": "",
                 "art": "",
                 "replace_art": "",
                 "save": "",
@@ -215,7 +225,9 @@
         "lib": {
             "errors": {
                 "sticker_book_empty": "",
+                "sticker_none_in_packs": "",
                 "sticker_no_pack": "",
+                "sticker_window_invalid": "",
                 "sticker_slow_down": "",
                 "sticker_trade_self": "",
                 "sticker_trade_unavailable": "",
