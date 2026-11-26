@@ -1231,10 +1231,7 @@ return [
 	],
 	'nikovonlas-tg-notify' => [
 		'tag' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-tg-notify/1.1.2/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['ru', 'zh_Hans'],
 	],
 	'nodeloc-dislikes' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/Dislikes/1.0.1/locale/en.yml',
