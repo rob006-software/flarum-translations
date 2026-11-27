@@ -105,9 +105,9 @@
                 "sessions": {
                     "section_label": "Sessioonid",
                     "lifetime_label": "Sessiooni pikkus (minutites)",
-                    "lifetime_help": "",
+                    "lifetime_help": "Kui kaua sessioon võib istuda niisama enne, kui see tühistatakse. Vaikeväärtus on 120 minutit.",
                     "cookie_expires_on_close_label": "Sulge sessioonid, kui brauser suletakse",
-                    "cookie_expires_on_close_help": "",
+                    "cookie_expires_on_close_help": "Logi inimesed välja, kui nad sulgevad brauseri selle asemel, et logida nad välja siis, kui sessioon aegub. Kasulik jagatud arvutites.",
                     "duration_value_label": "Pikkus",
                     "duration_unit_label": "Ühik",
                     "never_expires": "Ei aegu kunagi",
@@ -163,13 +163,13 @@
                 "logo_heading": "Logo",
                 "logo_text": "Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.",
                 "logo_dark_mode_heading": "Tumeda režiimi logo",
-                "logo_dark_mode_text": "",
+                "logo_dark_mode_text": "Vali alternatiivne logo, mida näidatakse, kui tume režiim on sisse lülitatud.",
                 "show_theme_selector_help": "",
                 "show_theme_selector_label": "Näita teema valijat",
                 "title": "Välimus",
                 "color_scheme_label": "Värviskeem (vaikeväärtus)",
                 "color_schemes": {
-                    "auto_mode_label": "",
+                    "auto_mode_label": "Kasutaja süsteem või seadistatud eelistus",
                     "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
@@ -187,7 +187,7 @@
                     "home_page": "Sama kui avaleht"
                 },
                 "open_as_app_help": "",
-                "open_as_app_label": "",
+                "open_as_app_label": "Ava kui rakendus avalehelt",
                 "sections": {
                     "custom_code": {
                         "description": "",
@@ -371,11 +371,11 @@
                 "section_suggested_heading": "Soovitatud",
                 "section_suggested_help": "",
                 "section_disabled_heading": "Välja lülitatud",
-                "section_disabled_help": "",
+                "section_disabled_help": "Need lisaprogrammid on paigaldatud, aga need pole praegu sisse lülitatud. Lülita need seadete lehelt sisse või eemalda kui neid enam vaja pole.",
                 "suggested_by": "Soovitaja {extension}"
             },
             "database-driver-mismatch-warning": {
-                "detail": "",
+                "detail": "Your <code>config.php</code> is configured to use the <code>{configured}</code> database driver, but Flarum has detected that the database server is actually <code>{actual}</code>.\n\nUsing the wrong driver can cause subtle, hard-to-diagnose bugs. Set <code>'driver' => ''{actual}''</code> in the <code>database</code> section of your <code>config.php</code> file. See <link>Flarum docs</link> for more information.\n",
                 "label": "Andmebaasi draiver ei kattu"
             },
             "database-version-warning": {
