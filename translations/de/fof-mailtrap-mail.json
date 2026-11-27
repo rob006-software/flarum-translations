@@ -12,14 +12,14 @@
                 "mail_mailtrap_inbox_id_help": "Wird nur im Sandbox-Modus verwendet. Es handelt sich um die Zahl in der E-Mail-Adresse des Posteingangs, z. B. 1234567 in mailtrap.io/inboxes/1234567/messages.",
                 "mail_mailtrap_category_label": "Kategorie",
                 "mail_mailtrap_category_help": "Optional. Weise jeder E-Mail ein Tag zu, damit du in den E-Mail-Protokollen und Statistiken von Mailtrap danach filtern kannst, z. B. den Namen des Forums.",
-                "mail_mailtrap_webhook_signing_secret_label": "",
-                "mail_mailtrap_webhook_signing_secret_help": ""
+                "mail_mailtrap_webhook_signing_secret_label": "Webhook-Signaturschlüssel",
+                "mail_mailtrap_webhook_signing_secret_help": "Optional und nur im Modus „E-Mail senden“ verwendet. Füge in Mailtrap einen Webhook für den E-Mail-Versand mit dem Payload-Format JSON und der URL unter „Bounce-Handling“ hinzu und füge dann dessen 32 Zeichen langes hexadezimales Signaturgeheimnis hier ein."
             }
         }
     },
     "fof-mailtrap-mail": {
         "admin": {
-            "invalid_webhook_secret": "",
+            "invalid_webhook_secret": "Gib das 32 Zeichen lange hexadezimale Signierungsgeheimnis für den Webhook ein.",
             "pinned_help": "Dies ist durch die Konfiguration dieses Forums fest vorgegeben und kann daher hier nicht geändert werden.",
             "mode": {
                 "sending": "E-Mail senden",
