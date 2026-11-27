@@ -39,7 +39,7 @@
                 "redirect_uris_help": "Eine URI pro Zeile. Der Client muss eine dieser Adressen als „redirect_uri“ in der Autorisierungsanfrage übermitteln.",
                 "scopes_label": "Erlaubte Geltungsbereiche",
                 "scopes_help": "Durch Leerzeichen getrennte Liste der Geltungsbereich, die dieser Client anfordern darf. Lasse das Feld leer, um alle Zugriffsbereiche zuzulassen.",
-                "confidential_label": "",
+                "confidential_label": "Vertrauenswürdiger Client (das Backend kann ein Secret bewahren)",
                 "confidential_help": "Deaktiviere diese Option für öffentliche Clients (SPA, Mobilgeräte), die PKCE verwenden müssen. Diese Einstellung kann nach der Erstellung nicht mehr geändert werden.",
                 "revoked_label": "Widerrufen (lehnt alle neuen Autorisierungsanfragen ab)",
                 "save_button": "Speichern"
@@ -47,12 +47,12 @@
             "sections": {
                 "registration": {
                     "label": "Erlaubte Anwendungen",
-                    "description": ""
+                    "description": "Welche Anwendungen Mitglieder anmelden können. Wenn eine Kategorie deaktiviert wird, funktionieren die dazugehörigen Anwendungen nicht mehr, ohne dass sie gelöscht werden, bis die Kategorie wieder aktiviert wird."
                 }
             },
             "settings": {
-                "allow_self_registered_clients_label": "",
-                "allow_self_registered_clients_help": "",
+                "allow_self_registered_clients_label": "Selbst registrierte Anwendungen erlauben",
+                "allow_self_registered_clients_help": "Ermöglicht Anwendungen wie MCP-Clients (Claude, ChatGPT), sich selbstständig anzumelden: Mithilfe der dynamischen Client-Registrierung (RFC 7591) registrieren sie sich unter /oauth/register und identifizieren sich mithilfe eines Client-ID-Metadaten-Dokuments über eine URL, die sie beschreibt. Es handelt sich dabei stets um öffentliche Clients, die PKCE verwenden müssen.",
                 "allow_admin_clients_label": "",
                 "allow_admin_clients_help": "",
                 "source_metadata_document": "Metadata-Dokument",
@@ -80,7 +80,7 @@
             "gambits": {
                 "users": {
                     "connected": {
-                        "key": "",
+                        "key": "verbunden",
                         "hint": ""
                     }
                 }
@@ -98,7 +98,7 @@
                 "approve_button": "Genehmigen",
                 "deny_button": "Abbrechen",
                 "from_host": "von {host}",
-                "unverified": "",
+                "unverified": "nicht verifiziert, selbst registriert",
                 "redirect_host": "Nach deiner Entscheidung wirst du zu {host} geschickt."
             },
             "connected_apps": {
@@ -110,8 +110,8 @@
                 "last_used": "Zuletzt verwendet",
                 "never_used": "Nie",
                 "revoke_button": "Widerrufen",
-                "revoke_confirm": "",
-                "revoked": "",
+                "revoke_confirm": "Zugriff für {client} widerrufen? Er wird abgemeldet und muss erneut um Erlaubnis bitten.",
+                "revoked": "{client} hat keinen Zugriff auf dein Konto mehr.",
                 "revoke_all_button": "Alle widerrufen",
                 "revoke_all_confirm": "",
                 "revoked_all": ""
