@@ -754,7 +754,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/2.1.0/resources/locale/en.yml',
 	],
 	'fof-blog' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/2.0.0-beta.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/2.1.0/locale/en.yml',
 	],
 	'fof-bookmarks' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/bookmarks/2.0.2/locale/en.yml',
