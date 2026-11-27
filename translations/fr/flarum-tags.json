@@ -25,8 +25,8 @@
                 "slug_label": "Identifiant texte unique",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Créer une étiquette",
-                "icon_image_label": "",
-                "icon_image_text": ""
+                "icon_image_label": "=> core.ref.icon_image",
+                "icon_image_text": "=> core.ref.icon_image_text"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -60,13 +60,13 @@
             },
             "sections": {
                 "requirements": {
-                    "label": "",
-                    "description": ""
+                    "label": "Exigences relatives aux étiquettes",
+                    "description": "Combien d'étiquettes sont requises pour chaque nouvelle discussion. Les membres disposant de l'autorisation « Contourner les exigences relatives aux étiquettes » peuvent publier des messages avec autant d'étiquettes qu'ils le souhaitent."
                 }
             },
             "tabs": {
-                "settings": "",
-                "tags": ""
+                "settings": "=> flarum-tags.admin.tags.settings_heading",
+                "tags": "=> flarum-tags.ref.tags"
             }
         },
         "forum": {
@@ -133,7 +133,7 @@
             "tags": "Étiquettes"
         },
         "api": {
-            "cannot_change_is_primary_message": ""
+            "cannot_change_is_primary_message": "Pour définir une étiquette comme principale ou secondaire, il suffit de modifier l'ordre des étiquettes."
         }
     },
     "flarum-audit": {
