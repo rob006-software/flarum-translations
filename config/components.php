@@ -1129,7 +1129,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/html-head/2.0.0/resources/locale/en.yml',
 	],
 	'ianm-log-viewer' => [
-		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-log-viewer/2.0.0-beta.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-log-viewer/2.1.0/locale/en.yml',
 	],
 	'ianm-oauth-reddit' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-reddit/2.0.0/locale/en.yml',
