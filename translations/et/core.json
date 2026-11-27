@@ -8,7 +8,7 @@
                         "begin_button_text": "Alusta veatuvastust",
                         "continue_button_text": "Jätka veatuvastust",
                         "label": "Lisaprogrammi veatuvastus",
-                        "help": ""
+                        "help": "Aitab tuvastada lisaprogramme, mis võivad põhjustada probleeme, mida oled täheldanud. See paneb foorumi automaatselt (madalale) hooldusrežiimile kuni protsess on töö lõpetanud."
                     },
                     "bisect_modal": {
                         "description": "",
@@ -16,7 +16,7 @@
                         "issue_question": "Kas see probleem on veel alles?",
                         "issue_question_help": "Proovi probleemi taasluua teisel lehel ja vasta siin vastavalt tulemusele.",
                         "no_button": "Ei",
-                        "result_description": "",
+                        "result_description": "Foorum pole enam hooldusrežiimis. Lisaprogrammide veatuvastus on lõpetatud. Sinu vastustele tuginedes on probleemiks järgmised lisaprogrammid:\n",
                         "start_button": "Alusta veatuvastust",
                         "stop_button": "Peata veatuvastus",
                         "steps_left": "Samme järgi: {steps}",
@@ -26,16 +26,16 @@
                     },
                     "config_override": {
                         "label": "Sinu fail <code>config.php</code> kirjutab need seaded üle.",
-                        "help": ""
+                        "help": "Sa saad siin ikka oma seadeid muuta, aga need ei avalda mõju enne, kui paned oma failis <code>config.php</code> parameetri <code>offline</code> väärtuseks <code>0</code>."
                     },
                     "help": "Pane oma foorum hooldusrežiimi, et kasutajad sellele ligi ei saaks.",
                     "options": {
                         "none": "Pole hooldamisel.",
-                        "high": "",
-                        "low": "",
+                        "high": "Kõrge hooldusrežiim. Keegi ei saa foorumile ligi (saab sisse lültiada ainult failist config.php)",
+                        "low": "Madal hooldusrežiim. Adminid pääsevad foorumile ligi.",
                         "safe": "Turvaline režiim. Ühtegi lisaprogrammi ei käivitata ja ainult adminid näevad foorumit."
                     },
-                    "safe_mode_extensions": "",
+                    "safe_mode_extensions": "Lisaprogrammid, mida lubatakse käivitada turvalises režiimis",
                     "safe_mode_extensions_override_help": "",
                     "section_label": "Hooldamine"
                 },
@@ -86,18 +86,18 @@
                     "rest_label": "Puhkamise aeg (sekundites)",
                     "rest_help": "Erinevate tööde vahel ootamise aeg. Vaikeväärtus on 0 sekundit.",
                     "backoff_label": "",
-                    "backoff_help": ""
+                    "backoff_help": "Aeg enne, kui ebaõnnestunud tööd uuesti proovitakse. Vaikeväärtus on 0 sekundit."
                 },
                 "search": {
                     "section_label": "Otsi draivereid",
                     "driver_heading": "Otsi draiverit: {model}",
-                    "driver_text": "",
+                    "driver_text": "Vali draiver, mida kasutatakse selle mudeliga otsimiseks.",
                     "driver_options": {
                         "default": "Vaikimisi andmebaasi otsing"
                     },
-                    "no_other_drivers": "",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": "",
+                    "no_other_drivers": "Otsingu draivereid pole veel saadaval. Paigalda otsingu draiveri lisaprogramm, et seda seavistada.",
+                    "cjk_mode_label": "Optimeeri otsingut CJK keelt",
+                    "cjk_mode_help": "Lülita sisse, kui su foorum on peamiselt hiina, jaapani või koreakeelne. Andmebaasi sõnapõhised otsingud ei kattu CJK keele osadega ning see kasutab alamstringi kattuvust. See on suurtes foorumites aeglasem ning CJK-toega täisteksti parsija andmebaasi tasemel (näiteks MySQL/MariaDB ngram parser) on kiirem alternatiiv.",
                     "min_length_label": "Minimaalne otsingu pikkus",
                     "min_length_help": ""
                 },
