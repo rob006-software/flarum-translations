@@ -7,23 +7,23 @@
                 "delete_own_messages_label": "Usuwanie własnych wiadomości",
                 "send_without_throttle_label": "Wysyłanie wiadomości z pominięciem limitu szybkości",
                 "view_ips_label": "Przeglądanie adresów IP wiadomości",
-                "delete_messages_forever_label": "",
-                "edit_own_messages_label": "",
-                "message_groups_label": ""
+                "delete_messages_forever_label": "Nieodwracalne usuwanie wiadomości",
+                "edit_own_messages_label": "Edytowanie własnych wiadomości",
+                "message_groups_label": "Rozpoczynanie konwersacji z grupami"
             },
             "sections": {
                 "groups": {
-                    "description": "",
-                    "label": ""
+                    "description": "Konwersacje rozpoczęte z kilkoma użytkownikami jednocześnie.",
+                    "label": "Konwersacje grupowe"
                 }
             },
             "settings": {
-                "recipient_groups_label": "",
-                "recipient_groups_help": "",
-                "allow_group_names_help": "",
-                "allow_group_names_label": "",
-                "max_recipients_help": "",
-                "max_recipients_label": ""
+                "recipient_groups_label": "Grupy, które mogą otrzymywać wiadomości",
+                "recipient_groups_help": "Nadawcy z uprawnieniem do rozpoczynania konwersacji z grupami mogą wybrać te grupy. Domyślnie to uprawnienie mają tylko administratorzy. Wyłączenie grupy tutaj nie usuwa jej z istniejących konwersacji. Każdy, kto może zarządzać członkostwem w grupie, może dać dostęp do całej historii konwersacji.",
+                "allow_group_names_help": "Użytkownicy, którzy mogą pisać w konwersacji grupowej, mogą nadać jej nazwę, którą wszyscy jej uczestnicy widzą zamiast listy uczestników. Wyłączenie tej opcji ukrywa nadane już nazwy.",
+                "allow_group_names_label": "Pozwól użytkownikom nadawać nazwy konwersacjom grupowym",
+                "max_recipients_help": "Do ilu użytkowników można wysłać jedną wiadomość. Więcej niż jeden odbiorca rozpoczyna konwersację grupową, więc wartość 1 wyłącza konwersacje grupowe. Maksymalnie 50.",
+                "max_recipients_label": "Liczba odbiorców wiadomości"
             }
         },
         "forum": {
@@ -33,7 +33,7 @@
                 "recipients": "Odbiorcy",
                 "submit_button": "Wyślij wiadomość",
                 "to": "Do:",
-                "title": ""
+                "title": "Nowa wiadomość"
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
@@ -42,15 +42,15 @@
                 "title": "Wiadomości",
                 "unread_count_text": "Nieodczytane: {count}",
                 "view_all": "Zobacz wszystkie wiadomości",
-                "group_last_message_preview": ""
+                "group_last_message_preview": "{username}: {content}"
             },
             "dialog_section": {
                 "back_label": "Wróć",
                 "cannot_reply_text": "Ten użytkownik nie może odpowiedzieć",
                 "controls": {
                     "details_button": "Szczegóły",
-                    "leave_button": "",
-                    "rename_button": ""
+                    "leave_button": "Opuść konwersację",
+                    "rename_button": "Zmień nazwę konwersacji"
                 },
                 "controls_toggle_label": "Opcje konwersacji",
                 "details_modal": {
@@ -58,8 +58,8 @@
                     "recipients": "Uczestnicy",
                     "title": "Szczegóły konwersacji"
                 },
-                "leave_confirmation": "",
-                "members_button": ""
+                "leave_confirmation": "Czy na pewno chcesz opuścić tę konwersację? Nie będziesz jej już widzieć ani otrzymywać powiadomień o nowych wiadomościach. Twoje wiadomości pozostaną widoczne dla pozostałych uczestników.",
+                "members_button": "{count, plural, one {# osoba} few {# osoby} many {# osób} other {# osoby}}"
             },
             "header": {
                 "dropdown_tooltip": "Wiadomości"
@@ -75,10 +75,10 @@
             "message_controls": {
                 "delete_button": "Usuń",
                 "delete_confirmation": "Czy na pewno chcesz usunąć tę wiadomość? Tej operacji nie można cofnąć.",
-                "delete_forever_button": "",
-                "delete_forever_confirmation": "",
-                "edit_button": "",
-                "restore_button": ""
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "delete_forever_confirmation": "Czy na pewno chcesz nieodwracalnie usunąć tę wiadomość? Tej operacji nie można cofnąć.",
+                "edit_button": "=> core.ref.edit",
+                "restore_button": "=> core.ref.restore"
             },
             "messages_page": {
                 "cannot_send_message_button": "Nie można wysłać wiadomości",
@@ -95,17 +95,17 @@
                     "load_next_button": "Wczytaj następne wiadomości",
                     "start_of_the_conversation": "Początek konwersacji",
                     "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
-                    "name_removed_text": "",
-                    "renamed_text": "",
-                    "user_left_text": ""
+                    "name_removed_text": "{username} usunął nazwę konwersacji",
+                    "renamed_text": "{username} nadał konwersacji nazwę „{name}”",
+                    "user_left_text": "{username} opuścił konwersację"
                 },
                 "title": "Wiadomości"
             },
             "recipient_selection_modal": {
                 "cannot_reply_text": "Nie może odpowiadać na wiadomości",
                 "title": "Wybierz odbiorców wiadomości",
-                "groups_heading": "",
-                "groups_help": ""
+                "groups_heading": "Grupy",
+                "groups_help": "Obecni i przyszli członkowie tych grup mogą czytać całą konwersację. Maksymalnie 10 grup."
             },
             "search_source": {
                 "conversation_with": "Konwersacja z użytkownikiem {username}",
@@ -113,8 +113,8 @@
             },
             "settings": {
                 "notify_message_received_label": "Ktoś wyśle mi wiadomość",
-                "notify_message_liked_label": "",
-                "privacy_disclose_read_receipts_label": ""
+                "notify_message_liked_label": "Ktoś polubi moją wiadomość",
+                "privacy_disclose_read_receipts_label": "Pokazuj innym, kiedy odczytałem ich wiadomości (i pokazuj mi, kiedy oni odczytali moje)"
             },
             "user_controls": {
                 "send_message_button": "Wyślij wiadomość",
@@ -122,32 +122,32 @@
             },
             "notifications": {
                 "message_received_text": "Nowa wiadomość od {user}",
-                "message_liked_text": ""
+                "message_liked_text": "{username} polubił Twoją wiadomość"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "submit_button": "",
-                "title": ""
+                "discard_confirmation": "=> core.forum.composer_edit.discard_confirmation",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Edytuj wiadomość"
             },
             "message": {
-                "deleted_text": "",
-                "edited_text": "",
-                "edited_tooltip": "",
+                "deleted_text": "Ta wiadomość została usunięta.",
+                "edited_text": "Edytowana",
+                "edited_tooltip": "=> core.forum.post.edited_tooltip",
                 "read_status": {
-                    "read_by_everyone_tooltip": "",
-                    "read_by_some_tooltip": "",
-                    "read_tooltip": "",
-                    "sent_tooltip": ""
+                    "read_by_everyone_tooltip": "Odczytana przez wszystkich",
+                    "read_by_some_tooltip": "Odczytana przez {count} z {total}",
+                    "read_tooltip": "Odczytana",
+                    "sent_tooltip": "Wysłana"
                 }
             },
             "read_by_modal": {
-                "title": ""
+                "title": "Odczytana przez"
             },
             "rename_dialog_modal": {
-                "help_text": "",
-                "name_label": "",
-                "submit_button": "",
-                "title": ""
+                "help_text": "Tę nazwę widzą wszyscy uczestnicy konwersacji. Pozostaw puste, aby zamiast niej wyświetlać listę uczestników.",
+                "name_label": "Nazwa",
+                "submit_button": "Zapisz",
+                "title": "Zmień nazwę konwersacji"
             }
         },
         "email": {
@@ -159,21 +159,21 @@
                 "html": {
                     "body": "{user_display_name} wysłał Ci [nową wiadomość]({url}).\n\nNie dostaniesz nowych powiadomień dotyczących tej konwersacji do czasu, aż zobaczysz nową zawartość.\n"
                 },
-                "group_subject": ""
+                "group_subject": "{user_display_name} wysłał wiadomość do Ciebie i {count, plural, one {# innej osoby} other {# innych osób}}"
             }
         },
         "lib": {
             "dialog": {
                 "title": "Wiadomość do użytkownika {username}",
-                "private_group_title": "",
-                "group_title": ""
+                "private_group_title": "Prywatna konwersacja",
+                "group_title": "{names}{others, plural, =0 {} other { +#}}"
             },
             "no_other_members_message": "W tej konwersacji nie ma nikogo więcej.",
             "recipient_cannot_reply_message": "{username} nie może odpowiadać na wiadomości.",
             "recipient_unavailable_message": "{username} nie może otrzymywać wiadomości.",
-            "too_many_groups_message": "",
-            "groups_unavailable_message": "",
-            "too_many_recipients_message": ""
+            "too_many_groups_message": "Wiadomość może trafić maksymalnie do {count} grup.",
+            "groups_unavailable_message": "Te grupy nie mogą otrzymywać wiadomości.",
+            "too_many_recipients_message": "{count, plural, one {Wiadomość może trafić tylko do jednego użytkownika.} other {Wiadomość może trafić maksymalnie do # użytkowników.}}"
         }
     },
     "flarum-gdpr": {
@@ -193,12 +193,12 @@
                 "dialog": {
                     "started": "Rozpoczęto prywatną konwersację z użytkownikiem {username}",
                     "posted": "Wysłano prywatną wiadomość do użytkownika {username}",
-                    "group_started": "",
-                    "group_posted": "",
-                    "message_edited": "",
-                    "message_hidden": "",
-                    "message_restored": "",
-                    "message_deleted": ""
+                    "group_started": "Rozpoczęto prywatną konwersację z grupą {group_id}",
+                    "group_posted": "Wysłano prywatną wiadomość do grupy {group_id}",
+                    "message_edited": "Edytowano prywatną wiadomość użytkownika {username}",
+                    "message_hidden": "Usunięto prywatną wiadomość użytkownika {username}",
+                    "message_restored": "Przywrócono prywatną wiadomość użytkownika {username}",
+                    "message_deleted": "Nieodwracalnie usunięto prywatną wiadomość użytkownika {username}"
                 }
             }
         }
@@ -215,7 +215,7 @@
         "email": {
             "notification": {
                 "types": {
-                    "messageReceived": ""
+                    "messageReceived": "Wiadomości wysłane do Ciebie"
                 }
             }
         }
