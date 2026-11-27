@@ -89,32 +89,32 @@
                 "key_gen_failed": "Nie udało się wygenerować kluczy wymaganych do obsługi powiadomień push. Pełny komunikat błędu: {error}",
                 "suggest_gmp": "Wygląda na to, że rozszerzenie PHP gmp nie jest włączone na serwerze. Nie jest ono bezwzględnie wymagane, ale może poprawić wydajność i jest zalecane. Niektóre hostingi współdzielone mogą go nie obsługiwać.",
                 "success": "Nie znaleziono żadnych potencjalnych problemów!",
-                "check_failed": ""
+                "check_failed": "Nie udało się wczytać wyników kontroli stanu. Odśwież stronę, aby spróbować ponownie."
             },
             "tabs": {
-                "app": "",
-                "push": ""
+                "app": "Aplikacja",
+                "push": "Powiadomienia push"
             },
             "sections": {
                 "status": {
-                    "label": "",
-                    "description": ""
+                    "label": "Stan",
+                    "description": "Czego jeszcze brakuje, aby forum można było zainstalować jako aplikację i aby mogło wysyłać powiadomienia push."
                 },
                 "home_screen": {
-                    "label": "",
-                    "description": ""
+                    "label": "Ekran główny",
+                    "description": "Ikonę aplikacji, tło ekranu startowego i kolor główny ustawisz na stronie <appearance>Wygląd forum</appearance> – tam też określisz, czy forum otwiera się jako aplikacja. Nazwą aplikacji jest nazwa forum, a jej krótką nazwę ustawisz obok niej na stronie <basics>Podstawowe</basics>. To przeglądarki decydują, kiedy zaproponować instalację aplikacji, dlatego warto poinformować użytkowników, jak dodać ją do ekranu głównego."
                 },
                 "sharing": {
-                    "label": ""
+                    "label": "Udostępnianie"
                 },
                 "delivery": {
-                    "label": ""
+                    "label": "Dostarczanie"
                 },
                 "keys": {
-                    "label": ""
+                    "label": "Klucze VAPID"
                 },
                 "troubleshooting": {
-                    "label": ""
+                    "label": "Rozwiązywanie problemów"
                 }
             }
         },
