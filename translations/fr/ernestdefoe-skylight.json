@@ -2,7 +2,7 @@
     "ernestdefoe-skylight": {
         "lib": {
             "sections": {
-                "accent": "Nuance",
+                "accent": "Accent",
                 "view": "Liste de discussions",
                 "background": "Arrière-plan",
                 "glass": "Surfaces",
@@ -13,12 +13,12 @@
                 "typeface": "Police",
                 "motion": "Mouvement",
                 "readability": "Lisibilité",
-                "share": ""
+                "share": "Codes de partage"
             },
             "labels": {
-                "view": "",
-                "tags": "",
-                "night": "",
+                "view": "Vue",
+                "tags": "Étiquettes",
+                "night": "Nuit",
                 "bg": "Arrière-plan",
                 "glass": "Surfaces",
                 "blur": "Flou",
@@ -28,12 +28,12 @@
                 "font": "Police",
                 "motion": "Mouvement",
                 "rt": "Réduire la transparence",
-                "hc": "Plus de contraste",
+                "hc": "Augmenter le contraste",
                 "custom_accent": "N'importe quelle couleur"
             },
             "help": {
-                "rt": "",
-                "hc": "Un texte gris plus foncé et des bordures plus marquées.",
+                "rt": "Panneaux opaques, sans flou. Cette fonctionnalité est également activée par les paramètres de votre appareil.",
+                "hc": "Texte gris, plus foncé et des bordures plus marquées.",
                 "nudged": "Cette couleur a été légèrement assombrie (ou éclaircie en mode sombre) afin que le texte reste lisible."
             },
             "choices": {
@@ -43,12 +43,12 @@
                     "compact": "Compact"
                 },
                 "tags": {
-                    "beside": "",
-                    "below": ""
+                    "beside": "À côté du titre",
+                    "below": "Sous le titre, toutes affichées"
                 },
                 "night": {
-                    "blue": "",
-                    "black": ""
+                    "blue": "Bleu",
+                    "black": "Noir"
                 },
                 "bg": {
                     "daylight": "Plein jour",
@@ -93,60 +93,60 @@
         "forum": {
             "studio": {
                 "open": "Personnaliser",
-                "title": "",
-                "lead": "",
-                "shuffle": "",
-                "reset": "",
-                "done": "",
+                "title": "Votre style",
+                "lead": "Vous êtes le seul à voir ces modifications. Les autres utilisateurs conservent le style du forum.",
+                "shuffle": "Aléatoire",
+                "reset": "Réinitialiser",
+                "done": "Terminé",
                 "mode": {
-                    "label": "",
-                    "light": "",
-                    "dark": "",
-                    "auto": ""
+                    "label": "Mode",
+                    "light": "Clair",
+                    "dark": "Sombre",
+                    "auto": "Auto"
                 },
                 "share": {
-                    "label": "",
-                    "copy": "",
-                    "copied": "",
-                    "copy_failed": "",
-                    "paste_label": "",
-                    "apply": "",
-                    "invalid": ""
+                    "label": "Partagez votre style",
+                    "copy": "Copier",
+                    "copied": "Le code de votre style a été copié.",
+                    "copy_failed": "Votre navigateur n'a pas autorisé la copie. Sélectionnez le code et copiez-le vous-même.",
+                    "paste_label": "Coller le code de style de quelqu'un",
+                    "apply": "Utiliser",
+                    "invalid": "Code invalide. Il doit commencer par « SKY- » et se présenter sous la forme « SKY-127C86000000E200 »."
                 }
             },
             "views": {
-                "label": "",
-                "list": "",
-                "cards": "",
-                "compact": "",
-                "view_count": ""
+                "label": "Mode d'affichage de la liste des discussions",
+                "list": "Liste",
+                "cards": "Cartes",
+                "compact": "Compact",
+                "view_count": "{count, plural, one {# vue} other {# vues}}"
             }
         },
         "admin": {
-            "bespoke_notice": "",
+            "bespoke_notice": "« Bespoke » définit le style de ce forum, donc Skylight reste désactivé. Pour proposer les deux options, installez « Wardrobe » et permettez aux membres de choisir leur thème.",
             "permissions": {
-                "use_studio": ""
+                "use_studio": "Personnaliser Skylight (accent, arrière-plan, mode d'affichage…)"
             },
             "defaults": {
-                "title": "",
-                "help": "",
-                "contrast_light": "",
-                "contrast_dark": ""
+                "title": "Paramètres par défaut du forum",
+                "help": "Ce que voient les visiteurs et les nouveaux membres. Les membres peuvent modifier ces paramètres via le bouton « Personnaliser ».",
+                "contrast_light": "Accent en mode clair : {ratio}",
+                "contrast_dark": "Accent en mode sombre : {ratio}"
             },
             "studio": {
-                "title": "",
-                "help": "",
-                "readability_always": "",
-                "permission": ""
+                "title": "Personnalisation pour les membres",
+                "help": "Les rubriques que les membres voient lorsqu'ils ouvrent « Personnaliser ». Une rubrique que vous désactivez reste dans vos paramètres par défaut.",
+                "readability_always": "Les options « Réduire la transparence » et « Augmenter le contraste » sont toujours proposées.",
+                "permission": "Les utilisateurs autorisés à utiliser « Personnaliser » sont définis sur la page « Permissions » (Membres, par défaut)."
             },
             "presets": {
-                "title": "",
-                "help": "",
-                "replace": "",
-                "replace_help": ""
+                "title": "Vos propres accents",
+                "help": "Jusqu'à 6 couleurs supplémentaires pour la ligne d'accent, séparées par des virgules.",
+                "replace": "Remplacer les préréglages intégrés",
+                "replace_help": "Affichez uniquement vos couleurs dans la ligne d'accent, au lieu de les ajouter après les six couleurs de Skylight."
             },
             "thumbnail": {
-                "title": "",
+                "title": "Images de cartes",
                 "help": "",
                 "off": "",
                 "small": "",
