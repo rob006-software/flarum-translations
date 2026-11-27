@@ -25,8 +25,8 @@
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Utwórz tag",
-                "icon_image_label": "",
-                "icon_image_text": ""
+                "icon_image_label": "=> core.ref.icon_image",
+                "icon_image_text": "=> core.ref.icon_image_text"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -60,13 +60,13 @@
             },
             "sections": {
                 "requirements": {
-                    "label": "",
-                    "description": ""
+                    "label": "Wymagania dotyczące tagów",
+                    "description": "Ile tagów musi mieć każda nowa dyskusja. Użytkownicy z uprawnieniem „Pomijanie wymogu podania tagów” mogą rozpoczynać dyskusje z dowolną liczbą tagów."
                 }
             },
             "tabs": {
-                "settings": "",
-                "tags": ""
+                "settings": "=> flarum-tags.admin.tags.settings_heading",
+                "tags": "=> flarum-tags.ref.tags"
             }
         },
         "forum": {
@@ -133,7 +133,7 @@
             "tags": "Tagi"
         },
         "api": {
-            "cannot_change_is_primary_message": ""
+            "cannot_change_is_primary_message": "Tag staje się główny lub dodatkowy poprzez zmianę kolejności tagów."
         }
     },
     "flarum-audit": {
