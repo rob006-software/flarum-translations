@@ -105,12 +105,12 @@
                 "sessions": {
                     "section_label": "Sitzungen",
                     "lifetime_label": "Sitzungsdauer (Minuten)",
-                    "lifetime_help": "",
-                    "cookie_expires_on_close_label": "",
-                    "cookie_expires_on_close_help": "",
+                    "lifetime_help": "Wie lange eine Sitzung inaktiv bleiben darf, bevor sie gelöscht wird. Der Standardwert beträgt 120 Minuten.",
+                    "cookie_expires_on_close_label": "Sitzungen beenden, wenn der Browser geschlossen wird",
+                    "cookie_expires_on_close_help": "Melde Benutzer ab, sobald sie ihren Browser schließen, anstatt sie so lange angemeldet zu lassen, bis ihre Sitzung abläuft. Dies ist besonders auf gemeinsam genutzten Computern sinnvoll.",
                     "duration_value_label": "Dauer",
                     "duration_unit_label": "Einheit",
-                    "never_expires": "",
+                    "never_expires": "Unbegrenzt gültig",
                     "enabled": "Aktiviert",
                     "disabled": "Deaktiviert",
                     "units": {
@@ -123,17 +123,17 @@
                     },
                     "token_types": {
                         "session": {
-                            "label": "",
-                            "help": ""
+                            "label": "Anmeldedauer",
+                            "help": "Wie lange jemand nach der Anmeldung angemeldet bleibt, ohne die Option „Angemeldet bleiben“ ausgewählt zu haben."
                         },
                         "session_remember": {
-                            "label": "",
-                            "help": ""
+                            "label": "Dauer mit aktiviertem „Angemeldet bleiben“",
+                            "help": "Wie lange jemand angemeldet bleibt, wenn die Option „Angemeldet bleiben“ aktiviert ist. Dies gilt auch für die Anmeldung über einen anderen Dienst, bei der die Anmeldung immer gespeichert wird."
                         }
                     },
                     "config_override": {
                         "label": "In config.php konfiguriert",
-                        "help": ""
+                        "help": "Die Sitzungsdauer wird in der Datei „config.php“ festgelegt und kann hier nicht geändert werden."
                     }
                 }
             },
@@ -175,31 +175,31 @@
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
                 },
-                "app_icon_background_help": "",
-                "app_icon_background_label": "",
-                "app_icon_heading": "",
-                "app_icon_preview_android_label": "",
-                "app_icon_preview_apple_label": "",
-                "app_icon_text": "",
-                "app_start_page_help": "",
-                "app_start_page_label": "",
+                "app_icon_background_help": "Füllt die transparenten Bereiche des App-Symbols auf iPhones und iPads, den umgebenden Bereich auf Android-Geräten sowie den Startbildschirm aus.",
+                "app_icon_background_label": "Hintergrund des App-Symbols",
+                "app_icon_heading": "App-Symbol",
+                "app_icon_preview_android_label": "Android",
+                "app_icon_preview_apple_label": "iPhone und iPad",
+                "app_icon_text": "Lade ein quadratisches Bild mit einer Breite von mindestens 512 Pixeln hoch, das auf Smartphones angezeigt wird, wenn jemand das Forum zu seinem Startbildschirm hinzufügt. Wenn du kein Favicon hochlädst, wird dieses Bild ebenfalls als Favicon verwendet.",
+                "app_start_page_help": "Die Seite, die die App vom Startbildschirm aus öffnet. Android übernimmt die Änderung beim nächsten Aktualisierungsvorgang der App durch den Browser. iPhones und iPads führen keine erneute Überprüfung durch, sobald die App auf dem Startbildschirm steht; daher gilt die Änderung dort nur für Apps, die danach hinzugefügt werden.",
+                "app_start_page_label": "Startseite der App",
                 "app_start_page_options": {
-                    "home_page": ""
+                    "home_page": "Wie die Forum-Startseite"
                 },
-                "open_as_app_help": "",
-                "open_as_app_label": "",
+                "open_as_app_help": "Auf Smartphones wird das Forum vom Startbildschirm aus in einem eigenen Fenster ohne die Symbolleiste des Browsers geöffnet, und während des Ladens wird ein Startbildschirm angezeigt: Das App-Symbol ist auf dem Hintergrund des Startbildschirms zu sehen – auf iPhones, iPads und Android-Geräten ist es identisch. Es wird ein App-Symbol benötigt.",
+                "open_as_app_label": "Vom Startbildschirm aus als eigene App öffnen",
                 "sections": {
                     "custom_code": {
-                        "description": "",
-                        "label": ""
+                        "description": "Füge auf jeder Seite des Forums deinen eigenen HTML- und CSS-Code hinzu.",
+                        "label": "Benutzerdefinierter Code"
                     },
                     "logos": {
-                        "description": "",
-                        "label": ""
+                        "description": "Die Bilder, die dein Forum in der Kopfzeile, in Browser-Registerkarten, in E-Mails und auf Startbildschirmen kennzeichnen.",
+                        "label": "Logos & Symbole"
                     }
                 },
-                "splash_screen_background_help": "",
-                "splash_screen_background_label": ""
+                "splash_screen_background_help": "Füllt den Bereich um das App-Symbol herum aus – dies gilt gleichermaßen für iPhones, iPads und Android-Geräte. Lasse das Feld leer, um die Farbe hinter dem App-Symbol zu verwenden.",
+                "splash_screen_background_label": "Hintergrund des Startbildschirms"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -233,7 +233,7 @@
                     }
                 },
                 "slug_driver_heading": "Slug-Treiber: {model}",
-                "slug_driver_text": "Wähle den Treiber, welcher die Foren-URLs mit einem \"Slug\" ausstattet.",
+                "slug_driver_text": "Wähle den Treiber, welcher die Foren-URLs mit einem „Slug“ ausstattet.",
                 "title": "Grundeinstellungen",
                 "welcome_banner_heading": "Willkommensnachricht",
                 "welcome_banner_text": "Lege den Text fest, der auf der Seite \"Alle Diskussionen\" erscheint, um Besucher zu begrüßen.",
@@ -243,36 +243,36 @@
                 "abandoned_extensions_sync_success": "Liste der verwaisten Erweiterungen wurde aktualisiert. {count} installierte Erweiterung(en) wurden gefunden.",
                 "abandoned_extensions_sync_error": "Das Abrufen der Liste verwaister Erweiterungen ist fehlgeschlagen. Bitte versuche es später erneut.",
                 "abandoned_extensions_notify_admins_label": "Administratoren per E-Mail benachrichtigen, wenn bei der wöchentlichen Prüfung eine neue verwaiste Erweiterung erkannt wird",
-                "forum_short_name_heading": "",
-                "forum_short_name_text": "",
+                "forum_short_name_heading": "Kurzname",
+                "forum_short_name_text": "Bis zu 16 Zeichen; wird verwendet, wenn der Forumstitel nicht vollständig angezeigt werden kann: unter dem Forumssymbol auf dem Startbildschirm eines Smartphones und wenn jemand das Forum als Lesezeichen in seinem Browser speichert. Ist kein Kurzname vorhanden, wird der lange Forumstitel verwendet, der unter Umständen in der Wortmitte abgeschnitten wird.",
                 "sections": {
                     "extensions": {
-                        "description": "",
-                        "label": ""
+                        "description": "Behalte den Überblick über Erweiterungen, die von ihren Autoren nicht mehr gepflegt werden.",
+                        "label": "Erweiterungen"
                     },
                     "forum": {
-                        "description": "",
-                        "label": ""
+                        "description": "Wie dein Forum benannt und gegenüber Besuchern und Suchmaschinen beschrieben wird.",
+                        "label": "Forum"
                     },
                     "home": {
-                        "description": "",
-                        "label": ""
+                        "description": "Was Besucher sehen, wenn sie zum ersten Mal hier ankommen.",
+                        "label": "Startseite"
                     },
                     "language": {
-                        "description": "",
-                        "label": ""
+                        "description": "Die Sprache, in der dein Forum angezeigt wird.",
+                        "label": "Sprache"
                     },
                     "members": {
-                        "description": "",
-                        "label": ""
+                        "description": "Wie Mitglieder im gesamten Forum benannt und abgebildet werden.",
+                        "label": "Mitglieder"
                     },
                     "urls": {
-                        "description": "",
-                        "label": ""
+                        "description": "Wie Links zu Diskussionen und Profilen geschrieben werden.",
+                        "label": "Links"
                     }
                 },
-                "show_post_source_label": "",
-                "show_post_source_text": ""
+                "show_post_source_label": "Anzeigen, wie Beiträge erstellt wurden",
+                "show_post_source_text": "Fügt neben dem Autor von Beiträgen, die über die API oder eine verbundene App erstellt wurden, einen kleinen Vermerk „via …“ hinzu und aktiviert den Quellenfilter bei der Beitragsuche."
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -408,8 +408,8 @@
                 "singular_placeholder": "Singularform (z.B. Moderator)",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Gruppe erstellen",
-                "icon_image_label": "",
-                "icon_image_text": ""
+                "icon_image_label": "=> core.ref.icon_image",
+                "icon_image_text": "=> core.ref.icon_image_text"
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -463,7 +463,7 @@
                 "sections": {
                     "sending": {
                         "description": "",
-                        "label": ""
+                        "label": "Versand"
                     }
                 },
                 "register_webhook_button": "",
@@ -517,7 +517,7 @@
                     "title_extension": "Einstellungen für {extensionTitle} zurücksetzen"
                 },
                 "safe_mode_warning": "Der abgesicherte Modus ist derzeit aktiviert. Erweiterungen werden nicht gestartet, sodass auf ihre Einstellungen nicht zugegriffen werden kann.",
-                "general_tab": "",
+                "general_tab": "Allgemein",
                 "no_settings_or_permissions": "",
                 "unsaved_changes": ""
             },
