@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "Er zijn nog geen zoekdrivers beschikbaar. Installeer een zoekdriver-extensie om deze te kunnen configureren.",
                     "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_help": "",
+                    "min_length_label": "",
+                    "min_length_help": ""
                 },
-                "title": "Geavanceerd"
+                "title": "Geavanceerd",
+                "sessions": {
+                    "section_label": "",
+                    "lifetime_label": "",
+                    "lifetime_help": "",
+                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_help": "",
+                    "duration_value_label": "",
+                    "duration_unit_label": "",
+                    "never_expires": "",
+                    "enabled": "",
+                    "disabled": "",
+                    "units": {
+                        "seconds": "",
+                        "minutes": "",
+                        "hours": "",
+                        "days": "",
+                        "weeks": "",
+                        "years": ""
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "",
+                            "help": ""
+                        },
+                        "session_remember": {
+                            "label": "",
+                            "help": ""
+                        }
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "Gebruikers toestaan hun eigen kleurenschema te kiezen",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
-                }
+                },
+                "app_icon_background_help": "",
+                "app_icon_background_label": "",
+                "app_icon_heading": "",
+                "app_icon_preview_android_label": "",
+                "app_icon_preview_apple_label": "",
+                "app_icon_text": "",
+                "app_start_page_help": "",
+                "app_start_page_label": "",
+                "app_start_page_options": {
+                    "home_page": ""
+                },
+                "open_as_app_help": "",
+                "open_as_app_label": "",
+                "sections": {
+                    "custom_code": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "logos": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "splash_screen_background_help": "",
+                "splash_screen_background_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "Nu controleren",
                 "abandoned_extensions_sync_success": "Lijst met niet actieve extensies bijgewerkt. {count} overeenkomende geïnstalleerde extensie(s) gevonden.",
                 "abandoned_extensions_sync_error": "Het ophalen van de lijst met niet meer gebruikte extensies is mislukt. Probeer het later opnieuw.",
-                "abandoned_extensions_notify_admins_label": "Stuur een e-mail naar de beheerders wanneer tijdens de wekelijkse controle een nieuwe, niet actieve extensie wordt gedetecteerd"
+                "abandoned_extensions_notify_admins_label": "Stuur een e-mail naar de beheerders wanneer tijdens de wekelijkse controle een nieuwe, niet actieve extensie wordt gedetecteerd",
+                "forum_short_name_heading": "",
+                "forum_short_name_text": "",
+                "sections": {
+                    "extensions": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "forum": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "home": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "members": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "urls": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "show_post_source_label": "",
+                "show_post_source_text": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "Meervoud (bijv. Moderators)",
                 "singular_placeholder": "Enkelvoud (bijv. Moderator)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Maak groep"
+                "title": "Maak groep",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "Hiermee wordt een e-mail met de bovenstaande configuratie naar uw e-mailadres gestuurd, {email}.",
                 "smtp_heading": "SMTP instellingen",
                 "smtp_description": "Configureer SMTP-verbindingsinstellingen. Veelgebruikte configuraties: poort 587 met TLS of poort 465 met SSL.",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "",
+                "bounce_handling_text": "",
+                "mail_mailgun_webhook_signing_key_label": "",
+                "mail_mailgun_webhook_signing_key_help": "",
+                "mailgun_description": "",
+                "sections": {
+                    "sending": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "register_webhook_button": "",
+                "register_webhook_success": "",
+                "unregister_webhook_button": "",
+                "unregister_webhook_success": "",
+                "suppress_bounced_label": "",
+                "suppress_bounced_help": "",
+                "webhook_password_label": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_url_provision_help": "",
+                "webhook_username_label": "",
+                "webhook_username_help": ""
             },
             "extension": {
                 "abandoned_no_replacement": "Deze extensie wordt niet langer onderhouden door de auteur en ontvangt mogelijk geen updates meer.",
@@ -400,7 +516,10 @@
                     "title": "Instellingen resetten",
                     "title_extension": "{extensionTitle}-instellingen resetten"
                 },
-                "safe_mode_warning": "Veilige modus is momenteel ingeschakeld. Extensies worden niet geladen en hun instellingen zijn daarom niet toegankelijk."
+                "safe_mode_warning": "Veilige modus is momenteel ingeschakeld. Extensies worden niet geladen en hun instellingen zijn daarom niet toegankelijk.",
+                "general_tab": "",
+                "no_settings_or_permissions": "",
+                "unsaved_changes": ""
             },
             "header": {
                 "get_help": "Krijg hulp",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "Verwijderen",
-                "upload_button": "Afbeelding kiezen..."
+                "upload_button": "Afbeelding kiezen...",
+                "set_by_extension_text": "",
+                "set_in_code_text": ""
             },
             "users": {
                 "create_user_button": "Nieuwe gebruiker",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "Bezoek het profiel van {username}",
                             "title": "=> core.ref.username"
+                        },
+                        "email_bounced": {
+                            "title": "",
+                            "bounced": ""
                         }
                     },
                     "invalid_column_content": "Ongeldig"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "Aantal gebruikers: {count}"
+                "total_users": "Aantal gebruikers: {count}",
+                "filters_label": ""
+            },
+            "streaming-warning": {
+                "check_again_button": "",
+                "detail": "",
+                "label": ""
+            },
+            "email_bounces": {
+                "title": "",
+                "about": "",
+                "refresh": "",
+                "load_error": "",
+                "period_hour": "",
+                "period_week": "",
+                "period_month": "",
+                "period_total": "",
+                "affected": "",
+                "recovered": "",
+                "not_configured": "",
+                "view_affected": ""
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "Sluit volledig scherm",
                 "full_screen_tooltip": "Volledig scherm",
                 "minimize_tooltip": "Minimaliseren",
-                "preview_tooltip": "Voorvertoning"
+                "preview_tooltip": "Voorvertoning",
+                "restore_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "Schrijf een bericht...",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Naar hoofdinhoud gaan",
-                "toggle_sidenav_dropdown_accessible_label": "Toggle navigatie dropdown menu"
+                "toggle_sidenav_dropdown_accessible_label": "Toggle navigatie dropdown menu",
+                "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
                 "az_button": "",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "Bijgewerkt",
                 "edited_tooltip": "{username} heeft dit {ago} bewerkt",
-                "number_tooltip": "Bericht #{number}"
+                "number_tooltip": "Bericht #{number}",
+                "source_api_label": "",
+                "source_api_tooltip": "",
+                "source_app_tooltip": "",
+                "source_text": ""
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": "Welkomstbericht verbergen"
+            },
+            "user_email_bounced": {
+                "alert_message": "",
+                "update_button": ""
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Je hebt geen rechten om deze gebruiker te bewerken."
+                "nothing_available": "Je hebt geen rechten om deze gebruiker te bewerken.",
+                "clear_email_bounce_label": ""
             },
             "error": {
                 "circular_dependencies_message": "Circulaire afhankelijkheden gedetecteerd: {extensions}. Afbreken. Schakel één van de extensies uit en probeer het opnieuw.",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "discussie",
                         "hint": "het ID van de discussie"
+                    },
+                    "source": {
+                        "key": "",
+                        "hint": ""
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "groep",
                         "hint": "enkelvoudige of meervoudige groepsnamen"
+                    },
+                    "bounced": {
+                        "key": ""
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "ll",
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": "LLL"
+            },
+            "icon_image_input": {
+                "remove_button": "",
+                "replace_button": "",
+                "upload_button": ""
+            },
+            "icon_picker": {
+                "count_text": "",
+                "families": {
+                    "brands": "",
+                    "classic": "",
+                    "duotone": "",
+                    "sharp": "",
+                    "sharp_duotone": ""
+                },
+                "family_label": "",
+                "forced_style_text": "",
+                "label": "",
+                "more_text": "",
+                "no_results_text": "",
+                "open_button": "",
+                "remove_button": "",
+                "search_placeholder": "",
+                "unreadable_text": "",
+                "use_button": "",
+                "weights": {
+                    "light": "",
+                    "regular": "",
+                    "solid": "",
+                    "thin": ""
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "De door u opgevraagde pagina kon niet worden gevonden.",
                 "not_found_return_link": "Terug naar {forum}",
                 "permission_denied": "U hebt geen toestemming om deze pagina te openen.",
-                "unknown": "Er is een fout opgetreden bij het laden van deze pagina."
+                "unknown": "Er is een fout opgetreden bij het laden van deze pagina.",
+                "not_found_actions_label": "",
+                "not_found_description": "",
+                "not_found_discussions_link": "",
+                "not_found_home_link": "",
+                "not_found_search_button": "",
+                "not_found_search_label": "",
+                "not_found_search_placeholder": "",
+                "not_found_title": ""
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "U heeft gevraagd om u af te melden van \"{type}\" e-mailmeldingen van {forumTitle}.",
                 "success_message": "U heeft zich succesvol afgemeld van \"{type}\"-meldingen van {forumTitle}. Als u ze opnieuw wilt ontvangen, [update uw instellingen]({settingsLink}).",
                 "invalid_message": "Deze afmeldlink is ongeldig of is al gebruikt. Raadpleeg voor wijzigingen in uw e-mailmeldingen van {forumTitle} [uw instellingen]({settingsLink})."
+            },
+            "offline": {
+                "text": "",
+                "title": ""
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "Filter {filter} moet numeriek zijn.",
                 "must_not_be_array_message": "Filter {filter} mag geen array zijn.",
                 "must_not_be_multidimensional_array_message": "Filter {filter} mag geen multidimensionale array zijn."
-            }
+            },
+            "app_icon_too_small_message": "",
+            "image_set_by_code_message": "",
+            "image_set_by_theme_message": ""
         },
         "email": {
             "greeting": "Hallo {displayName},",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "Als u dit type meldingen niet meer wilt ontvangen, [meld u hier af]({unsubscribeLink}).",
                     "unsubscribe_text_plain": "Als u dit type meldingen niet meer wilt ontvangen, meld u hier af: {unsubscribeLink}",
                     "settings_text": "Beheer uw meldingsinstellingen [hier]({settingsLink}).",
-                    "settings_text_plain": "Beheer uw meldingsinstellingen hier: {settingsLink}"
+                    "settings_text_plain": "Beheer uw meldingsinstellingen hier: {settingsLink}",
+                    "main_text_generic": "",
+                    "main_text_generic_plain": ""
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "Gebruikers",
             "view": "Bekijk",
             "write_a_reply": "Schrijf een reactie...",
-            "you": "Jij"
+            "you": "Jij",
+            "icon_image": "",
+            "icon_image_text": ""
         },
         "group": {
             "admin": "Administrator",

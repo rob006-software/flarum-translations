@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "Chưa có trình điều khiển tìm kiếm nào khả dụng. Hãy cài một tiện ích cung cấp trình điều khiển tìm kiếm để có thể cấu hình.",
                     "cjk_mode_label": "Tối ưu tìm kiếm cho các ngôn ngữ CJK",
-                    "cjk_mode_help": "Hãy bật nếu diễn đàn của bạn chủ yếu dùng tiếng Trung, Nhật hoặc Hàn. Cơ chế tìm kiếm theo từ của cơ sở dữ liệu không khớp được một phần của văn bản CJK, nên tùy chọn này chuyển sang khớp chuỗi con. Cách này chậm hơn trên các diễn đàn rất lớn, nơi việc cấu hình một bộ phân tích fulltext hiểu CJK ở tầng cơ sở dữ liệu (như bộ phân tích ngram của MySQL/MariaDB) là lựa chọn nhanh hơn."
+                    "cjk_mode_help": "Hãy bật nếu diễn đàn của bạn chủ yếu dùng tiếng Trung, Nhật hoặc Hàn. Cơ chế tìm kiếm theo từ của cơ sở dữ liệu không khớp được một phần của văn bản CJK, nên tùy chọn này chuyển sang khớp chuỗi con. Cách này chậm hơn trên các diễn đàn rất lớn, nơi việc cấu hình một bộ phân tích fulltext hiểu CJK ở tầng cơ sở dữ liệu (như bộ phân tích ngram của MySQL/MariaDB) là lựa chọn nhanh hơn.",
+                    "min_length_label": "",
+                    "min_length_help": ""
                 },
-                "title": "Nâng cao"
+                "title": "Nâng cao",
+                "sessions": {
+                    "section_label": "",
+                    "lifetime_label": "",
+                    "lifetime_help": "",
+                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_help": "",
+                    "duration_value_label": "",
+                    "duration_unit_label": "",
+                    "never_expires": "",
+                    "enabled": "",
+                    "disabled": "",
+                    "units": {
+                        "seconds": "",
+                        "minutes": "",
+                        "hours": "",
+                        "days": "",
+                        "weeks": "",
+                        "years": ""
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "",
+                            "help": ""
+                        },
+                        "session_remember": {
+                            "label": "",
+                            "help": ""
+                        }
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "Cho phép người dùng tự chọn bảng màu",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
-                }
+                },
+                "app_icon_background_help": "",
+                "app_icon_background_label": "",
+                "app_icon_heading": "",
+                "app_icon_preview_android_label": "",
+                "app_icon_preview_apple_label": "",
+                "app_icon_text": "",
+                "app_start_page_help": "",
+                "app_start_page_label": "",
+                "app_start_page_options": {
+                    "home_page": ""
+                },
+                "open_as_app_help": "",
+                "open_as_app_label": "",
+                "sections": {
+                    "custom_code": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "logos": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "splash_screen_background_help": "",
+                "splash_screen_background_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "Kiểm tra ngay",
                 "abandoned_extensions_sync_success": "Đã cập nhật danh sách tiện ích mở rộng bị ngừng phát triển. Tìm thấy {count} tiện ích mở rộng đã cài đặt trùng khớp.",
                 "abandoned_extensions_sync_error": "Không thể tải danh sách tiện ích mở rộng bị ngừng phát triển. Vui lòng thử lại sau.",
-                "abandoned_extensions_notify_admins_label": "Gửi email cho quản trị viên khi phát hiện tiện ích mở rộng mới bị ngừng phát triển trong lần kiểm tra hàng tuần"
+                "abandoned_extensions_notify_admins_label": "Gửi email cho quản trị viên khi phát hiện tiện ích mở rộng mới bị ngừng phát triển trong lần kiểm tra hàng tuần",
+                "forum_short_name_heading": "",
+                "forum_short_name_text": "",
+                "sections": {
+                    "extensions": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "forum": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "home": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "members": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "urls": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "show_post_source_label": "",
+                "show_post_source_text": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "Số nhiều (vd: Mods)",
                 "singular_placeholder": "Số ít (vd: Mod)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Tạo nhóm"
+                "title": "Tạo nhóm",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "Thao tác này sẽ gửi một email sử dụng cấu hình trên tới email của bạn, {email}.",
                 "smtp_heading": "Thiết lập SMTP",
                 "smtp_description": "Cấu hình kết nối SMTP. Các cấu hình phổ biến: cổng 587 với TLS, hoặc cổng 465 với SSL.",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "",
+                "bounce_handling_text": "",
+                "mail_mailgun_webhook_signing_key_label": "",
+                "mail_mailgun_webhook_signing_key_help": "",
+                "mailgun_description": "",
+                "sections": {
+                    "sending": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "register_webhook_button": "",
+                "register_webhook_success": "",
+                "unregister_webhook_button": "",
+                "unregister_webhook_success": "",
+                "suppress_bounced_label": "",
+                "suppress_bounced_help": "",
+                "webhook_password_label": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_url_provision_help": "",
+                "webhook_username_label": "",
+                "webhook_username_help": ""
             },
             "extension": {
                 "abandoned_no_replacement": "Tiện ích mở rộng này không còn được tác giả duy trì và có thể sẽ không nhận được cập nhật.",
@@ -400,7 +516,10 @@
                     "title": "Đặt lại cài đặt",
                     "title_extension": "Đặt lại cài đặt {extensionTitle}"
                 },
-                "safe_mode_warning": "Chế độ an toàn đang bật. Các tiện ích không được khởi động nên không truy cập được cài đặt của chúng."
+                "safe_mode_warning": "Chế độ an toàn đang bật. Các tiện ích không được khởi động nên không truy cập được cài đặt của chúng.",
+                "general_tab": "",
+                "no_settings_or_permissions": "",
+                "unsaved_changes": ""
             },
             "header": {
                 "get_help": "Trợ giúp",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Chọn ảnh..."
+                "upload_button": "Chọn ảnh...",
+                "set_by_extension_text": "",
+                "set_in_code_text": ""
             },
             "users": {
                 "create_user_button": "Người dùng mới",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "Xem hồ sơ của {username}",
                             "title": "=> core.ref.username"
+                        },
+                        "email_bounced": {
+                            "title": "",
+                            "bounced": ""
                         }
                     },
                     "invalid_column_content": "Không hợp lệ"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "Tổng người dùng: {count}"
+                "total_users": "Tổng người dùng: {count}",
+                "filters_label": ""
+            },
+            "streaming-warning": {
+                "check_again_button": "",
+                "detail": "",
+                "label": ""
+            },
+            "email_bounces": {
+                "title": "",
+                "about": "",
+                "refresh": "",
+                "load_error": "",
+                "period_hour": "",
+                "period_week": "",
+                "period_month": "",
+                "period_total": "",
+                "affected": "",
+                "recovered": "",
+                "not_configured": "",
+                "view_affected": ""
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "Thoát khỏi chế độ toàn màn hình",
                 "full_screen_tooltip": "Toàn màn hình",
                 "minimize_tooltip": "Thu nhỏ",
-                "preview_tooltip": "Xem trước"
+                "preview_tooltip": "Xem trước",
+                "restore_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "Nhập nội dung cho bài viết...",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Chuyển tới nội dung chính",
-                "toggle_sidenav_dropdown_accessible_label": "Chuyển đổi menu thả xuống thanh điều hướng"
+                "toggle_sidenav_dropdown_accessible_label": "Chuyển đổi menu thả xuống thanh điều hướng",
+                "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "Đã chỉnh sửa",
                 "edited_tooltip": "{username} đã chỉnh sửa {ago}",
-                "number_tooltip": "Bài viết #{number}"
+                "number_tooltip": "Bài viết #{number}",
+                "source_api_label": "",
+                "source_api_tooltip": "",
+                "source_app_tooltip": "",
+                "source_text": ""
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": "Ẩn thông báo chào mừng"
+            },
+            "user_email_bounced": {
+                "alert_message": "",
+                "update_button": ""
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Bạn không được phép chỉnh sửa người dùng này."
+                "nothing_available": "Bạn không được phép chỉnh sửa người dùng này.",
+                "clear_email_bounce_label": ""
             },
             "error": {
                 "circular_dependencies_message": "Đã phát hiện phụ thuộc vòng tròn: {extensions}. Đang hủy. Vui lòng tắt một trong các tiện ích mở rộng và thử lại.",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "thảo luận",
                         "hint": "ID của cuộc thảo luận"
+                    },
+                    "source": {
+                        "key": "",
+                        "hint": ""
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "nhóm",
                         "hint": "tên nhóm dạng số ít hoặc số nhiều"
+                    },
+                    "bounced": {
+                        "key": ""
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "ll",
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": "LLL"
+            },
+            "icon_image_input": {
+                "remove_button": "",
+                "replace_button": "",
+                "upload_button": ""
+            },
+            "icon_picker": {
+                "count_text": "",
+                "families": {
+                    "brands": "",
+                    "classic": "",
+                    "duotone": "",
+                    "sharp": "",
+                    "sharp_duotone": ""
+                },
+                "family_label": "",
+                "forced_style_text": "",
+                "label": "",
+                "more_text": "",
+                "no_results_text": "",
+                "open_button": "",
+                "remove_button": "",
+                "search_placeholder": "",
+                "unreadable_text": "",
+                "use_button": "",
+                "weights": {
+                    "light": "",
+                    "regular": "",
+                    "solid": "",
+                    "thin": ""
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "Trang bạn yêu cầu không thể được tìm thấy.",
                 "not_found_return_link": "Quay lại {forum}",
                 "permission_denied": "Bạn không có quyền truy cập vào trang này.",
-                "unknown": "Đã xảy ra lỗi khi tải trang này."
+                "unknown": "Đã xảy ra lỗi khi tải trang này.",
+                "not_found_actions_label": "",
+                "not_found_description": "",
+                "not_found_discussions_link": "",
+                "not_found_home_link": "",
+                "not_found_search_button": "",
+                "not_found_search_label": "",
+                "not_found_search_placeholder": "",
+                "not_found_title": ""
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "Bạn đã yêu cầu hủy nhận email thông báo \"{type}\" từ {forumTitle}.",
                 "success_message": "Bạn đã hủy nhận thông báo \"{type}\" từ {forumTitle} thành công. Nếu muốn nhận lại, vui lòng [cập nhật cài đặt của bạn]({settingsLink}).",
                 "invalid_message": "Liên kết hủy đăng ký này không hợp lệ hoặc đã được dùng. Với mọi thay đổi về email thông báo từ {forumTitle}, vui lòng [kiểm tra cài đặt của bạn]({settingsLink})."
+            },
+            "offline": {
+                "text": "",
+                "title": ""
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "Bộ lọc {filter} phải là số.",
                 "must_not_be_array_message": "Bộ lọc {filter} phải là một mảng.",
                 "must_not_be_multidimensional_array_message": "Bộ lọc {filter} không được là một mảng nhiều chiều."
-            }
+            },
+            "app_icon_too_small_message": "",
+            "image_set_by_code_message": "",
+            "image_set_by_theme_message": ""
         },
         "email": {
             "greeting": "Chào {displayName},",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "Nếu bạn muốn ngừng nhận loại thông báo này, [hãy hủy đăng ký tại đây]({unsubscribeLink}).",
                     "unsubscribe_text_plain": "Nếu bạn muốn ngừng nhận loại thông báo này, hãy hủy đăng ký tại đây: {unsubscribeLink}",
                     "settings_text": "Quản lý cài đặt thông báo của bạn [tại đây]({settingsLink}).",
-                    "settings_text_plain": "Quản lý cài đặt thông báo của bạn tại đây: {settingsLink}"
+                    "settings_text_plain": "Quản lý cài đặt thông báo của bạn tại đây: {settingsLink}",
+                    "main_text_generic": "",
+                    "main_text_generic_plain": ""
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "Người dùng",
             "view": "Xem",
             "write_a_reply": "Viết câu trả lời...",
-            "you": "Bạn"
+            "you": "Bạn",
+            "icon_image": "",
+            "icon_image_text": ""
         },
         "group": {
             "admin": "Quản trị viên",

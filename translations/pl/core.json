@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "Brak dodatkowych sterowników wyszukiwania. Zainstaluj rozszerzenie udostępniające taki sterownik, aby móc go skonfigurować.",
                     "cjk_mode_label": "Optymalizuj wyszukiwanie dla języków CJK",
-                    "cjk_mode_help": "Włącz, jeśli na forum przeważa język chiński, japoński lub koreański. Wyszukiwanie oparte na słowach nie pozwala dopasowywać fragmentów tekstu w tych językach, dlatego ta opcja włącza wyszukiwanie ciągów znaków. Na bardzo dużych forach może ono działać wolniej. Szybszym rozwiązaniem jest wtedy skonfigurowanie w bazie danych parsera wyszukiwania pełnotekstowego obsługującego te języki, np. parsera ngram w MySQL/MariaDB."
+                    "cjk_mode_help": "Włącz, jeśli na forum przeważa język chiński, japoński lub koreański. Wyszukiwanie oparte na słowach nie pozwala dopasowywać fragmentów tekstu w tych językach, dlatego ta opcja włącza wyszukiwanie ciągów znaków. Na bardzo dużych forach może ono działać wolniej. Szybszym rozwiązaniem jest wtedy skonfigurowanie w bazie danych parsera wyszukiwania pełnotekstowego obsługującego te języki, np. parsera ngram w MySQL/MariaDB.",
+                    "min_length_label": "",
+                    "min_length_help": ""
                 },
-                "title": "Zaawansowane"
+                "title": "Zaawansowane",
+                "sessions": {
+                    "section_label": "",
+                    "lifetime_label": "",
+                    "lifetime_help": "",
+                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_help": "",
+                    "duration_value_label": "",
+                    "duration_unit_label": "",
+                    "never_expires": "",
+                    "enabled": "",
+                    "disabled": "",
+                    "units": {
+                        "seconds": "",
+                        "minutes": "",
+                        "hours": "",
+                        "days": "",
+                        "weeks": "",
+                        "years": ""
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "",
+                            "help": ""
+                        },
+                        "session_remember": {
+                            "label": "",
+                            "help": ""
+                        }
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "Pozwól użytkownikom wybierać motyw kolorystyczny",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
-                }
+                },
+                "app_icon_background_help": "",
+                "app_icon_background_label": "",
+                "app_icon_heading": "",
+                "app_icon_preview_android_label": "",
+                "app_icon_preview_apple_label": "",
+                "app_icon_text": "",
+                "app_start_page_help": "",
+                "app_start_page_label": "",
+                "app_start_page_options": {
+                    "home_page": ""
+                },
+                "open_as_app_help": "",
+                "open_as_app_label": "",
+                "sections": {
+                    "custom_code": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "logos": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "splash_screen_background_help": "",
+                "splash_screen_background_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "Sprawdź teraz",
                 "abandoned_extensions_sync_success": "Lista porzuconych rozszerzeń została zaktualizowana. Znaleziono pasujące zainstalowane rozszerzenia: {count}.",
                 "abandoned_extensions_sync_error": "Nie udało się pobrać listy porzuconych rozszerzeń. Spróbuj ponownie później.",
-                "abandoned_extensions_notify_admins_label": "Powiadamiaj administratorów e-mailem, gdy podczas cotygodniowego sprawdzania zostanie wykryte nowo porzucone rozszerzenie"
+                "abandoned_extensions_notify_admins_label": "Powiadamiaj administratorów e-mailem, gdy podczas cotygodniowego sprawdzania zostanie wykryte nowo porzucone rozszerzenie",
+                "forum_short_name_heading": "",
+                "forum_short_name_text": "",
+                "sections": {
+                    "extensions": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "forum": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "home": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "members": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "urls": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "show_post_source_label": "",
+                "show_post_source_text": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "Liczba mnoga (np. Moderatorzy)",
                 "singular_placeholder": "Liczba pojedyncza (np. Moderator)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Utwórz grupę"
+                "title": "Utwórz grupę",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.",
                 "smtp_heading": "Ustawienia SMTP",
                 "smtp_description": "Skonfiguruj połączenie SMTP. Typowe ustawienia: port 587 z TLS lub port 465 z SSL.",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "",
+                "bounce_handling_text": "",
+                "mail_mailgun_webhook_signing_key_label": "",
+                "mail_mailgun_webhook_signing_key_help": "",
+                "mailgun_description": "",
+                "sections": {
+                    "sending": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "register_webhook_button": "",
+                "register_webhook_success": "",
+                "unregister_webhook_button": "",
+                "unregister_webhook_success": "",
+                "suppress_bounced_label": "",
+                "suppress_bounced_help": "",
+                "webhook_password_label": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_url_provision_help": "",
+                "webhook_username_label": "",
+                "webhook_username_help": ""
             },
             "extension": {
                 "abandoned_no_replacement": "To rozszerzenie nie jest już rozwijane przez autora i może nie otrzymać aktualizacji.",
@@ -400,7 +516,10 @@
                     "title": "Resetowanie ustawień",
                     "title_extension": "Resetowanie ustawień {extensionTitle}"
                 },
-                "safe_mode_warning": "Tryb awaryjny jest włączony. Rozszerzenia nie są uruchamiane, dlatego ich ustawienia są niedostępne."
+                "safe_mode_warning": "Tryb awaryjny jest włączony. Rozszerzenia nie są uruchamiane, dlatego ich ustawienia są niedostępne.",
+                "general_tab": "",
+                "no_settings_or_permissions": "",
+                "unsaved_changes": ""
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Wybierz obraz…"
+                "upload_button": "Wybierz obraz…",
+                "set_by_extension_text": "",
+                "set_in_code_text": ""
             },
             "users": {
                 "create_user_button": "Nowy użytkownik",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "Zobacz profil {username}",
                             "title": "=> core.ref.username"
+                        },
+                        "email_bounced": {
+                            "title": "",
+                            "bounced": ""
                         }
                     },
                     "invalid_column_content": "Nieprawidłowe"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "Wszystkich użytkowników: {count}"
+                "total_users": "Wszystkich użytkowników: {count}",
+                "filters_label": ""
+            },
+            "streaming-warning": {
+                "check_again_button": "",
+                "detail": "",
+                "label": ""
+            },
+            "email_bounces": {
+                "title": "",
+                "about": "",
+                "refresh": "",
+                "load_error": "",
+                "period_hour": "",
+                "period_week": "",
+                "period_month": "",
+                "period_total": "",
+                "affected": "",
+                "recovered": "",
+                "not_configured": "",
+                "view_affected": ""
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "Wyłącz pełny ekran",
                 "full_screen_tooltip": "Pełny ekran",
                 "minimize_tooltip": "Zminimalizuj",
-                "preview_tooltip": "Podgląd"
+                "preview_tooltip": "Podgląd",
+                "restore_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "Napisz post…",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Przejdź do głównej treści",
-                "toggle_sidenav_dropdown_accessible_label": "Przełącz menu rozwijane z nawigacją"
+                "toggle_sidenav_dropdown_accessible_label": "Przełącz menu rozwijane z nawigacją",
+                "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "Edytowany",
                 "edited_tooltip": "{username} edytował {ago}",
-                "number_tooltip": "Post #{number}"
+                "number_tooltip": "Post #{number}",
+                "source_api_label": "",
+                "source_api_tooltip": "",
+                "source_app_tooltip": "",
+                "source_text": ""
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": "Ukryj baner powitalny"
+            },
+            "user_email_bounced": {
+                "alert_message": "",
+                "update_button": ""
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Nie jesteś upoważniony, aby edytować tego użytkownika."
+                "nothing_available": "Nie jesteś upoważniony, aby edytować tego użytkownika.",
+                "clear_email_bounce_label": ""
             },
             "error": {
                 "circular_dependencies_message": "Wykryto cykliczne zależności: {extensions}. Operacja została przerwana. Proszę wyłączyć jedno z rozszerzeń i spróbować ponownie.",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "dyskusja",
                         "hint": "ID dyskusji"
+                    },
+                    "source": {
+                        "key": "",
+                        "hint": ""
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "grupa",
                         "hint": "nazwa grupy w liczbie pojedynczej lub mnogiej"
+                    },
+                    "bounced": {
+                        "key": ""
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "LL",
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": "LLL"
+            },
+            "icon_image_input": {
+                "remove_button": "",
+                "replace_button": "",
+                "upload_button": ""
+            },
+            "icon_picker": {
+                "count_text": "",
+                "families": {
+                    "brands": "",
+                    "classic": "",
+                    "duotone": "",
+                    "sharp": "",
+                    "sharp_duotone": ""
+                },
+                "family_label": "",
+                "forced_style_text": "",
+                "label": "",
+                "more_text": "",
+                "no_results_text": "",
+                "open_button": "",
+                "remove_button": "",
+                "search_placeholder": "",
+                "unreadable_text": "",
+                "use_button": "",
+                "weights": {
+                    "light": "",
+                    "regular": "",
+                    "solid": "",
+                    "thin": ""
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "Podana strona nie istnieje.",
                 "not_found_return_link": "Wróć na {forum}",
                 "permission_denied": "Nie masz uprawnień, aby przeglądać tę stronę.",
-                "unknown": "Wystąpił błąd podczas próby wczytania tej strony."
+                "unknown": "Wystąpił błąd podczas próby wczytania tej strony.",
+                "not_found_actions_label": "",
+                "not_found_description": "",
+                "not_found_discussions_link": "",
+                "not_found_home_link": "",
+                "not_found_search_button": "",
+                "not_found_search_label": "",
+                "not_found_search_placeholder": "",
+                "not_found_title": ""
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "Czy chcesz zrezygnować z powiadomień e-mail typu „{type}” z forum {forumTitle}?",
                 "success_message": "Powiadomienia typu „{type}” z forum {forumTitle} zostały wyłączone. Jeśli zechcesz znów je otrzymywać, [zmień ustawienia]({settingsLink}).",
                 "invalid_message": "Ten link do rezygnacji z powiadomień jest nieprawidłowy lub został już użyty. Aby zmienić powiadomienia e-mail z forum {forumTitle}, [przejdź do ustawień]({settingsLink})."
+            },
+            "offline": {
+                "text": "",
+                "title": ""
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "Filtr {filter} musi być liczbą.",
                 "must_not_be_array_message": "Filtr {filter} nie może być tablicą.",
                 "must_not_be_multidimensional_array_message": "Filtr {filter} nie może być tablicą wielowymiarową."
-            }
+            },
+            "app_icon_too_small_message": "",
+            "image_set_by_code_message": "",
+            "image_set_by_theme_message": ""
         },
         "email": {
             "greeting": "Witaj {displayName},",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "Jeśli nie chcesz już otrzymywać takich powiadomień, [wyłącz je tutaj]({unsubscribeLink}).",
                     "unsubscribe_text_plain": "Jeśli nie chcesz już otrzymywać takich powiadomień, wyłącz je tutaj: {unsubscribeLink}",
                     "settings_text": "[Zmień ustawienia powiadomień]({settingsLink}).",
-                    "settings_text_plain": "Ustawienia powiadomień możesz zmienić tutaj: {settingsLink}"
+                    "settings_text_plain": "Ustawienia powiadomień możesz zmienić tutaj: {settingsLink}",
+                    "main_text_generic": "",
+                    "main_text_generic_plain": ""
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "Użytkownicy",
             "view": "Zobacz",
             "write_a_reply": "Napisz odpowiedź…",
-            "you": "Ty"
+            "you": "Ty",
+            "icon_image": "",
+            "icon_image_text": ""
         },
         "group": {
             "admin": "Administrator",

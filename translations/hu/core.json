@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "Még nincs elérhető keresési illesztőprogram. Telepítsen egy keresési illesztőprogramot biztosító bővítményt, hogy beállíthassa.",
                     "cjk_mode_label": "A keresés optimalizálása CJK-nyelvekre",
-                    "cjk_mode_help": "Kapcsolja be, ha a fóruma elsősorban kínai, japán vagy koreai nyelvű. Az adatbázis szóalapú keresése nem képes a CJK-szövegek részeit megtalálni, ezért ez a beállítás átvált egy olyan részleges szövegegyeztetésre, amely képes erre. Nagyon nagy fórumok esetén ez lassabb, ilyenkor gyorsabb megoldás lehet egy adatbázisszintű CJK-kompatibilis teljes szöveges elemző beállítása (például a MySQL/MariaDB ngram-elemzője)."
+                    "cjk_mode_help": "Kapcsolja be, ha a fóruma elsősorban kínai, japán vagy koreai nyelvű. Az adatbázis szóalapú keresése nem képes a CJK-szövegek részeit megtalálni, ezért ez a beállítás átvált egy olyan részleges szövegegyeztetésre, amely képes erre. Nagyon nagy fórumok esetén ez lassabb, ilyenkor gyorsabb megoldás lehet egy adatbázisszintű CJK-kompatibilis teljes szöveges elemző beállítása (például a MySQL/MariaDB ngram-elemzője).",
+                    "min_length_label": "",
+                    "min_length_help": ""
                 },
-                "title": "Speciális"
+                "title": "Speciális",
+                "sessions": {
+                    "section_label": "",
+                    "lifetime_label": "",
+                    "lifetime_help": "",
+                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_help": "",
+                    "duration_value_label": "",
+                    "duration_unit_label": "",
+                    "never_expires": "",
+                    "enabled": "",
+                    "disabled": "",
+                    "units": {
+                        "seconds": "",
+                        "minutes": "",
+                        "hours": "",
+                        "days": "",
+                        "weeks": "",
+                        "years": ""
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "",
+                            "help": ""
+                        },
+                        "session_remember": {
+                            "label": "",
+                            "help": ""
+                        }
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "Engedélyezés a felhasználók számára, hogy kiválasszák a saját színsémájukat",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
-                }
+                },
+                "app_icon_background_help": "",
+                "app_icon_background_label": "",
+                "app_icon_heading": "",
+                "app_icon_preview_android_label": "",
+                "app_icon_preview_apple_label": "",
+                "app_icon_text": "",
+                "app_start_page_help": "",
+                "app_start_page_label": "",
+                "app_start_page_options": {
+                    "home_page": ""
+                },
+                "open_as_app_help": "",
+                "open_as_app_label": "",
+                "sections": {
+                    "custom_code": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "logos": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "splash_screen_background_help": "",
+                "splash_screen_background_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "Ellenőrzés most",
                 "abandoned_extensions_sync_success": "Az elhagyott bővítmények listája frissítve. {count} egyező telepített bővítmény található.",
                 "abandoned_extensions_sync_error": "Nem sikerült az elhagyatott bővítmények listájának lekérése. Próbálja újra később.",
-                "abandoned_extensions_notify_admins_label": "E-mailt küld az adminisztrátoroknak, ha egy új elhagyatott bővítmény jelenik meg a heti ellenőrzés során"
+                "abandoned_extensions_notify_admins_label": "E-mailt küld az adminisztrátoroknak, ha egy új elhagyatott bővítmény jelenik meg a heti ellenőrzés során",
+                "forum_short_name_heading": "",
+                "forum_short_name_text": "",
+                "sections": {
+                    "extensions": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "forum": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "home": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "members": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "urls": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "show_post_source_label": "",
+                "show_post_source_text": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "Többes szám (például moderátorok)",
                 "singular_placeholder": "Egyes szám (például moderátor)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Csoport létrehozása"
+                "title": "Csoport létrehozása",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "Ez egy levelet fog küldeni a fenti beállításokkal az e-mail-címére: {email}.",
                 "smtp_heading": "SMTP beállítások",
                 "smtp_description": "Az SMTP kapcsolati beállításainak megadása. Gyakori konfigurációk: 587-es port TLS-sel, vagy 465-ös port SSL-lel.",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "",
+                "bounce_handling_text": "",
+                "mail_mailgun_webhook_signing_key_label": "",
+                "mail_mailgun_webhook_signing_key_help": "",
+                "mailgun_description": "",
+                "sections": {
+                    "sending": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "register_webhook_button": "",
+                "register_webhook_success": "",
+                "unregister_webhook_button": "",
+                "unregister_webhook_success": "",
+                "suppress_bounced_label": "",
+                "suppress_bounced_help": "",
+                "webhook_password_label": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_url_provision_help": "",
+                "webhook_username_label": "",
+                "webhook_username_help": ""
             },
             "extension": {
                 "abandoned_no_replacement": "A bővítmény már nincs karban tartva, és lehet, hogy nem fog frissítéseket kapni.",
@@ -400,7 +516,10 @@
                     "title": "Beállítások alaphelyzetbe állítása",
                     "title_extension": "A(z) {extensionTitle} beállításainak alaphelyzetbe állítása"
                 },
-                "safe_mode_warning": "A biztonságos mód jelenleg engedélyezve van. A bővítmények nincsenek elindítva, így a beállításaik nem érhetők el."
+                "safe_mode_warning": "A biztonságos mód jelenleg engedélyezve van. A bővítmények nincsenek elindítva, így a beállításaik nem érhetők el.",
+                "general_tab": "",
+                "no_settings_or_permissions": "",
+                "unsaved_changes": ""
             },
             "header": {
                 "get_help": "Segítség",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Válasszon egy képet…"
+                "upload_button": "Válasszon egy képet…",
+                "set_by_extension_text": "",
+                "set_in_code_text": ""
             },
             "users": {
                 "create_user_button": "Új felhasználó",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "{username} profiljának megtekintése",
                             "title": "=> core.ref.username"
+                        },
+                        "email_bounced": {
+                            "title": "",
+                            "bounced": ""
                         }
                     },
                     "invalid_column_content": "Érvénytelen"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "Felhasználók száma: {count}"
+                "total_users": "Felhasználók száma: {count}",
+                "filters_label": ""
+            },
+            "streaming-warning": {
+                "check_again_button": "",
+                "detail": "",
+                "label": ""
+            },
+            "email_bounces": {
+                "title": "",
+                "about": "",
+                "refresh": "",
+                "load_error": "",
+                "period_hour": "",
+                "period_week": "",
+                "period_month": "",
+                "period_total": "",
+                "affected": "",
+                "recovered": "",
+                "not_configured": "",
+                "view_affected": ""
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "Kilépés a teljes képernyős módból",
                 "full_screen_tooltip": "Teljes képernyő",
                 "minimize_tooltip": "Minimalizálás",
-                "preview_tooltip": "Előnézet"
+                "preview_tooltip": "Előnézet",
+                "restore_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "Írjon egy bejegyzést…",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Ugrás a fő tartalomhoz",
-                "toggle_sidenav_dropdown_accessible_label": "Navigációs legördülő menü be/ki"
+                "toggle_sidenav_dropdown_accessible_label": "Navigációs legördülő menü be/ki",
+                "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "Szerkesztve",
                 "edited_tooltip": "{username} módosította {ago}",
-                "number_tooltip": "{number}. bejegyzés"
+                "number_tooltip": "{number}. bejegyzés",
+                "source_api_label": "",
+                "source_api_tooltip": "",
+                "source_app_tooltip": "",
+                "source_text": ""
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": "Üdvözlő üzenet elrejtése"
+            },
+            "user_email_bounced": {
+                "alert_message": "",
+                "update_button": ""
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Nem szerkesztheti ezt a felhasználót."
+                "nothing_available": "Nem szerkesztheti ezt a felhasználót.",
+                "clear_email_bounce_label": ""
             },
             "error": {
                 "circular_dependencies_message": "Körkörös függőségek észlelve. {extensions}. Megszakítás. Tiltsa le az egyik bővítményt, és próbálja újra.",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "téma",
                         "hint": "a téma azonosítója"
+                    },
+                    "source": {
+                        "key": "",
+                        "hint": ""
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "csoport",
                         "hint": "egy vagy több csoportnév"
+                    },
+                    "bounced": {
+                        "key": ""
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "ll",
                 "scrubber": "YYYY. MMMM",
                 "userListJoinDate": "LLL"
+            },
+            "icon_image_input": {
+                "remove_button": "",
+                "replace_button": "",
+                "upload_button": ""
+            },
+            "icon_picker": {
+                "count_text": "",
+                "families": {
+                    "brands": "",
+                    "classic": "",
+                    "duotone": "",
+                    "sharp": "",
+                    "sharp_duotone": ""
+                },
+                "family_label": "",
+                "forced_style_text": "",
+                "label": "",
+                "more_text": "",
+                "no_results_text": "",
+                "open_button": "",
+                "remove_button": "",
+                "search_placeholder": "",
+                "unreadable_text": "",
+                "use_button": "",
+                "weights": {
+                    "light": "",
+                    "regular": "",
+                    "solid": "",
+                    "thin": ""
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "A keresett oldal nem található.",
                 "not_found_return_link": "Visszatérés a(z) {forum} oldalra",
                 "permission_denied": "Nem rendelkezik megfelelő engedéllyel az oldal megtekintéséhez.",
-                "unknown": "Hiba történt az oldal betöltése során."
+                "unknown": "Hiba történt az oldal betöltése során.",
+                "not_found_actions_label": "",
+                "not_found_description": "",
+                "not_found_discussions_link": "",
+                "not_found_home_link": "",
+                "not_found_search_button": "",
+                "not_found_search_label": "",
+                "not_found_search_placeholder": "",
+                "not_found_title": ""
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "Azt kérte, hogy leiratkozzon a(z) „{type}” e-mail-értesítésekről innen: {forumTitle}.",
                 "success_message": "Sikeresen leiratkozott a(z) „{type}” értesítésekről innen: {forumTitle}. Ha újból meg akarja őket kapni, [frissítse a beállításait]({settingsLink}).",
                 "invalid_message": "Ez a leiratkozási hivatkozás érvénytelen vagy már fel lett használva. A(z) {forumTitle} e-mail-értesítéseinek megváltoztatásához [nézze meg a beállításait]({settingsLink})."
+            },
+            "offline": {
+                "text": "",
+                "title": ""
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "A(z) {filter} szűrőnek numerikusnak kell lennie.",
                 "must_not_be_array_message": "A(z) {filter} szűrőnek tömbnek kell lennie.",
                 "must_not_be_multidimensional_array_message": "A(z) {filter} szűrőnek többdimenziós tömbnek kell lennie."
-            }
+            },
+            "app_icon_too_small_message": "",
+            "image_set_by_code_message": "",
+            "image_set_by_theme_message": ""
         },
         "email": {
             "greeting": "Kedves {displayName}!",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "Ha már nem szeretne ilyen típusú értesítést kapni, [iratkozzon le itt]({unsubscribeLink}).",
                     "unsubscribe_text_plain": "Ha már nem szeretne ilyen típusú értesítést kapni, iratkozzon le itt: {unsubscribeLink}",
                     "settings_text": "Itt kezelje az [értesítési beállításait]({settingsLink}).",
-                    "settings_text_plain": "Itt kezelje az értesítési beállításait: {settingsLink}"
+                    "settings_text_plain": "Itt kezelje az értesítési beállításait: {settingsLink}",
+                    "main_text_generic": "",
+                    "main_text_generic_plain": ""
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "Felhasználók",
             "view": "Megtekintés",
             "write_a_reply": "Válasz írása…",
-            "you": "Ön"
+            "you": "Ön",
+            "icon_image": "",
+            "icon_image_text": ""
         },
         "group": {
             "admin": "Adminisztrátor",

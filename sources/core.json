@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "No search drivers are available yet. Install a search driver extension to be able to configure it.",
                     "cjk_mode_label": "Optimise search for CJK languages",
-                    "cjk_mode_help": "Enable if your forum is primarily in Chinese, Japanese, or Korean. The database's word-based search cannot match parts of CJK text, so this switches to a substring match that can. It is slower on very large forums, where configuring a CJK-aware fulltext parser at the database level (such as MySQL/MariaDB's ngram parser) is a faster alternative."
+                    "cjk_mode_help": "Enable if your forum is primarily in Chinese, Japanese, or Korean. The database's word-based search cannot match parts of CJK text, so this switches to a substring match that can. It is slower on very large forums, where configuring a CJK-aware fulltext parser at the database level (such as MySQL/MariaDB's ngram parser) is a faster alternative.",
+                    "min_length_label": "Minimum Search Length",
+                    "min_length_help": "The number of characters a search needs before results are loaded. Default is 3. Lower values suit languages with short words, such as Chinese, Japanese, or Korean, but match more loosely. On MySQL/MariaDB's default word-based search, discussion and post searches do not find words shorter than the database's minimum word length (3 by default) unless CJK search is enabled."
                 },
-                "title": "Advanced"
+                "title": "Advanced",
+                "sessions": {
+                    "section_label": "Sessions",
+                    "lifetime_label": "Session Length (minutes)",
+                    "lifetime_help": "How long a session may sit idle before it is discarded. Default is 120 minutes.",
+                    "cookie_expires_on_close_label": "End sessions when the browser closes",
+                    "cookie_expires_on_close_help": "Sign people out when they close their browser, rather than keeping them signed in until their session expires. Useful on shared computers.",
+                    "duration_value_label": "Length",
+                    "duration_unit_label": "Unit",
+                    "never_expires": "Never expires",
+                    "enabled": "Enabled",
+                    "disabled": "Disabled",
+                    "units": {
+                        "seconds": "seconds",
+                        "minutes": "minutes",
+                        "hours": "hours",
+                        "days": "days",
+                        "weeks": "weeks",
+                        "years": "years"
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "Sign-in Length",
+                            "help": "How long someone stays signed in after signing in without choosing to be remembered."
+                        },
+                        "session_remember": {
+                            "label": "\"Remember me\" Length",
+                            "help": "How long someone stays signed in when they choose to be remembered. This also covers signing in through another service, which is always remembered."
+                        }
+                    },
+                    "config_override": {
+                        "label": "Configured in config.php",
+                        "help": "Session lengths are set in config.php and cannot be changed here."
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "Allow users to choose their own color scheme",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
-                }
+                },
+                "app_icon_background_help": "Fills the transparent parts of the app icon on iPhones and iPads, the space around it on Android, and the splash screen.",
+                "app_icon_background_label": "App Icon Background",
+                "app_icon_heading": "App Icon",
+                "app_icon_preview_android_label": "Android",
+                "app_icon_preview_apple_label": "iPhone and iPad",
+                "app_icon_text": "Upload a square image, at least 512 pixels across, for phones to show when someone adds the forum to their home screen. If you don't upload a favicon, it's used as the favicon too.",
+                "app_start_page_help": "The page the app opens to from the home screen. Android picks up a change the next time the browser updates the app. iPhones and iPads don't check again once the app is on the home screen, so there the change only applies to apps added after it.",
+                "app_start_page_label": "App Start Page",
+                "app_start_page_options": {
+                    "home_page": "Same as the home page"
+                },
+                "open_as_app_help": "Phones open the forum from their home screen in a window of its own, without the browser's toolbar, and show a splash screen while it loads: the app icon on the splash screen background, the same on iPhones, iPads and Android. It needs an app icon.",
+                "open_as_app_label": "Open as an app from the home screen",
+                "sections": {
+                    "custom_code": {
+                        "description": "Add your own HTML and CSS to every page of the forum.",
+                        "label": "Custom Code"
+                    },
+                    "logos": {
+                        "description": "The images that identify your forum in the header, browser tabs, emails and home screens.",
+                        "label": "Logos & Icons"
+                    }
+                },
+                "splash_screen_background_help": "Fills the screen around the app icon, the same on iPhones, iPads and Android. Leave it empty to use the colour behind the app icon.",
+                "splash_screen_background_label": "Splash Screen Background"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "Check Now",
                 "abandoned_extensions_sync_success": "Abandoned extensions list updated. {count} matching installed extension(s) found.",
                 "abandoned_extensions_sync_error": "Failed to fetch the abandoned extensions list. Please try again later.",
-                "abandoned_extensions_notify_admins_label": "Email admins when a newly abandoned extension is detected during the weekly check"
+                "abandoned_extensions_notify_admins_label": "Email admins when a newly abandoned extension is detected during the weekly check",
+                "forum_short_name_heading": "Short Name",
+                "forum_short_name_text": "Up to 16 characters, used where the forum title doesn't fit: under the forum's icon on a phone's home screen, and when someone adds the forum as a search engine in their browser. Without one, the forum title is used, cut short at a whole word if it is too long.",
+                "sections": {
+                    "extensions": {
+                        "description": "Keep track of extensions their authors no longer maintain.",
+                        "label": "Extensions"
+                    },
+                    "forum": {
+                        "description": "How your forum is named and described to visitors and search engines.",
+                        "label": "Forum"
+                    },
+                    "home": {
+                        "description": "What visitors see when they first arrive.",
+                        "label": "Home Page"
+                    },
+                    "language": {
+                        "description": "The language your forum is shown in.",
+                        "label": "Language"
+                    },
+                    "members": {
+                        "description": "How members are named and pictured across the forum.",
+                        "label": "Members"
+                    },
+                    "urls": {
+                        "description": "How links to discussions and profiles are written.",
+                        "label": "Links"
+                    }
+                },
+                "show_post_source_label": "Show how posts were made",
+                "show_post_source_text": "Adds a small \"via …\" byline next to the author of posts made through the API or a connected app, and enables the source filter in post search."
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "Plural (e.g. Mods)",
                 "singular_placeholder": "Singular (e.g. Mod)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Create Group"
+                "title": "Create Group",
+                "icon_image_label": "=> core.ref.icon_image",
+                "icon_image_text": "=> core.ref.icon_image_text"
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
                 "smtp_heading": "SMTP Settings",
                 "smtp_description": "Configure SMTP connection settings. Common configurations: Port 587 with TLS, or Port 465 with SSL.",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "Bounce Handling",
+                "bounce_handling_text": "When your mail provider reports that an address permanently bounced or was marked as spam, Flarum can flag the affected user and optionally stop emailing them, protecting your sender reputation.",
+                "mail_mailgun_webhook_signing_key_label": "Webhook signing key",
+                "mail_mailgun_webhook_signing_key_help": "Mailgun's HTTP webhook signing key, used to verify incoming bounce/complaint webhooks. Found in your Mailgun dashboard under Settings → Webhooks. Required for bounce handling.",
+                "mailgun_description": "Send email via Mailgun's HTTP API. Enter the domain and secret key from your Mailgun account, and choose the region matching your domain.",
+                "sections": {
+                    "sending": {
+                        "description": "Who your forum's emails come from, and how they are sent.",
+                        "label": "Sending"
+                    }
+                },
+                "register_webhook_button": "Register webhook with provider",
+                "register_webhook_success": "Webhook registered with your mail provider.",
+                "unregister_webhook_button": "Remove webhook from provider",
+                "unregister_webhook_success": "Webhook removed from your mail provider.",
+                "suppress_bounced_label": "Stop emailing bounced addresses",
+                "suppress_bounced_help": "When enabled, users whose address has bounced or filed a spam complaint will be skipped when sending notification emails, until they update and confirm their address.",
+                "webhook_password_label": "Webhook password",
+                "webhook_url_label": "Webhook URL",
+                "webhook_url_help": "Add this URL as a webhook in your mail provider's dashboard, with bounce and spam complaint events turned on.",
+                "webhook_url_provision_help": "Register webhook with provider adds this URL to your mail provider for you.",
+                "webhook_username_label": "Webhook username",
+                "webhook_username_help": "Choose a username without colons and a strong password. These are required by drivers that authenticate webhooks with a username and password, and for forums behind HTTP basic authentication. The credentials are included in the webhook URL. After changing them, register the webhook again or update its URL in your provider's dashboard."
             },
             "extension": {
                 "abandoned_no_replacement": "This extension is no longer maintained by its author and may not receive updates.",
@@ -400,7 +516,10 @@
                     "title": "Reset Settings",
                     "title_extension": "Reset {extensionTitle} Settings"
                 },
-                "safe_mode_warning": "Safe mode is currently enabled. Extensions are not booted and their settings are therefore inaccessible."
+                "safe_mode_warning": "Safe mode is currently enabled. Extensions are not booted and their settings are therefore inaccessible.",
+                "general_tab": "General",
+                "no_settings_or_permissions": "This extension has no settings or permissions.",
+                "unsaved_changes": "Unsaved changes"
             },
             "header": {
                 "get_help": "Get Help",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Choose an Image..."
+                "upload_button": "Choose an Image...",
+                "set_by_extension_text": "Set by {extension}, so it can't be changed here.",
+                "set_in_code_text": "Set in the forum's code, so it can't be changed here."
             },
             "users": {
                 "create_user_button": "New User",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "Visit {username}'s profile",
                             "title": "=> core.ref.username"
+                        },
+                        "email_bounced": {
+                            "title": "Email delivery",
+                            "bounced": "Delivery failed"
                         }
                     },
                     "invalid_column_content": "Invalid"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "Total users: {count}"
+                "total_users": "Total users: {count}",
+                "filters_label": "Filter by:"
+            },
+            "streaming-warning": {
+                "check_again_button": "Check Again",
+                "detail": "This server holds back responses that should reach the browser as they're written, and sends them only once they're complete. Progress, such as clearing the cache, and replies that are written as they arrive, show only at the end. Turn off buffering for this site wherever it's on: PHP's output_buffering or zlib.output_compression, Apache's mod_deflate (or flushpackets=on for PHP-FPM behind mod_proxy_fcgi), nginx's fastcgi_buffering or proxy_buffering, or a proxy or CDN in front of the site.",
+                "label": "Responses held back"
+            },
+            "email_bounces": {
+                "title": "Email Bounces",
+                "about": "Bounce and spam-complaint events reported by your mail provider, counted over each period. Includes events for users who have since fixed their address.",
+                "refresh": "Refresh",
+                "load_error": "Could not load bounce statistics. Please try again later.",
+                "period_hour": "Past hour",
+                "period_week": "Past week",
+                "period_month": "Past month",
+                "period_total": "All time",
+                "affected": "{count, plural, =0 {No addresses currently affected} one {# address currently affected} other {# addresses currently affected}}",
+                "recovered": "{count, plural, =0 {none recovered} one {# recovered} other {# recovered}}",
+                "not_configured": "Bounce handling isn't fully set up, so no bounces will be received. <a>Check your email settings.</a>",
+                "view_affected": "View affected users"
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "Exit Full Screen",
                 "full_screen_tooltip": "Full Screen",
                 "minimize_tooltip": "Minimize",
-                "preview_tooltip": "Preview"
+                "preview_tooltip": "Preview",
+                "restore_tooltip": "Restore"
             },
             "composer_discussion": {
                 "body_placeholder": "Write a Post...",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Skip to main content",
-                "toggle_sidenav_dropdown_accessible_label": "Toggle navigation dropdown menu"
+                "toggle_sidenav_dropdown_accessible_label": "Toggle navigation dropdown menu",
+                "mark_filtered_as_read_confirmation": "Are you sure you want to mark the discussions matching the current filters as read?"
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "Edited",
                 "edited_tooltip": "{username} edited {ago}",
-                "number_tooltip": "Post #{number}"
+                "number_tooltip": "Post #{number}",
+                "source_api_label": "API",
+                "source_api_tooltip": "Posted through the API",
+                "source_app_tooltip": "Posted through a connected app",
+                "source_text": "via {source}"
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": "Hide welcome message"
+            },
+            "user_email_bounced": {
+                "alert_message": "Email to {email} has bounced or been reported as spam. Please check your email address or contact an administrator.",
+                "update_button": "Update Email"
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "You are not allowed to edit this user."
+                "nothing_available": "You are not allowed to edit this user.",
+                "clear_email_bounce_label": "Clear email bounce or spam complaint flag"
             },
             "error": {
                 "circular_dependencies_message": "Circular dependencies detected: {extensions}. Aborting. Please disable one of the extensions and try again.",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "discussion",
                         "hint": "the ID of the discussion"
+                    },
+                    "source": {
+                        "key": "source",
+                        "hint": "api, or a comma-separated list of sources"
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "group",
                         "hint": "singular or plural group names"
+                    },
+                    "bounced": {
+                        "key": "bounced"
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "ll",
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": "LLL"
+            },
+            "icon_image_input": {
+                "remove_button": "Remove",
+                "replace_button": "Replace image",
+                "upload_button": "Upload image"
+            },
+            "icon_picker": {
+                "count_text": "{count, plural, one {# icon} other {# icons}}",
+                "families": {
+                    "brands": "Brands",
+                    "classic": "Classic",
+                    "duotone": "Duotone",
+                    "sharp": "Sharp",
+                    "sharp_duotone": "Sharp Duotone"
+                },
+                "family_label": "Icon family",
+                "forced_style_text": "Every icon on this forum is shown in the style set on the Advanced page, so the style you choose here won't show while that setting is on.",
+                "label": "Choose an icon",
+                "more_text": "Showing {shown} of {count}. Search to narrow it down.",
+                "no_results_text": "No icons match.",
+                "open_button": "Choose an icon",
+                "remove_button": "Remove icon",
+                "search_placeholder": "Search icons, or type a class",
+                "unreadable_text": "Icons can't be listed here, because this forum's styles are served from another site that doesn't allow it. Type an icon's class instead, such as {example}.",
+                "use_button": "Use {value}",
+                "weights": {
+                    "light": "Light",
+                    "regular": "Regular",
+                    "solid": "Solid",
+                    "thin": "Thin"
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "The page you requested could not be found.",
                 "not_found_return_link": "Return to {forum}",
                 "permission_denied": "You do not have permission to access this page.",
-                "unknown": "An error occurred while trying to load this page."
+                "unknown": "An error occurred while trying to load this page.",
+                "not_found_actions_label": "Where to go next",
+                "not_found_description": "We couldn’t find this page. It may have moved, or you may need to log in to view it. Here are a couple of ways back in.",
+                "not_found_discussions_link": "Browse all discussions",
+                "not_found_home_link": "Go to the homepage",
+                "not_found_search_button": "Search",
+                "not_found_search_label": "Search the forum",
+                "not_found_search_placeholder": "Search discussions",
+                "not_found_title": "Page not found"
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "You have requested to unsubscribe from \"{type}\" email notifications from {forumTitle}.",
                 "success_message": "You have successfully unsubscribed from \"{type}\" notification from {forumTitle}. If you wish to receive them again, please [update your settings]({settingsLink}).",
                 "invalid_message": "This unsubscribe link is invalid or has already been used. For any changes in your email notifications from {forumTitle}, please [check your settings]({settingsLink})."
+            },
+            "offline": {
+                "text": "{forum} can't be reached. Check your connection: the page will load again as soon as it's back.",
+                "title": "No connection"
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "The {filter} filter must be numeric.",
                 "must_not_be_array_message": "The {filter} filter must not be an array.",
                 "must_not_be_multidimensional_array_message": "The {filter} filter must not be a multidimensional array."
-            }
+            },
+            "app_icon_too_small_message": "The app icon must be at least {size} pixels wide or tall, so it stays sharp on home screens.",
+            "image_set_by_code_message": "This image is set in the forum's code, so it can't be changed here.",
+            "image_set_by_theme_message": "This image is set by the {extension} extension, so it can't be changed here."
         },
         "email": {
             "greeting": "Hey {displayName},",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "If you'd like to stop receiving this type of notification, [unsubscribe here]({unsubscribeLink}).",
                     "unsubscribe_text_plain": "If you'd like to stop receiving this type of notification, unsubscribe here: {unsubscribeLink}",
                     "settings_text": "Manage your notification settings [here]({settingsLink}).",
-                    "settings_text_plain": "Manage your notification settings here: {settingsLink}"
+                    "settings_text_plain": "Manage your notification settings here: {settingsLink}",
+                    "main_text_generic": "This email was sent to {email} because email notifications are turned on for your account on [{forumTitle}]({forumUrl}).",
+                    "main_text_generic_plain": "This email was sent to {email} because email notifications are turned on for your account on {forumTitle}."
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "Users",
             "view": "View",
             "write_a_reply": "Write a Reply...",
-            "you": "You"
+            "you": "You",
+            "icon_image": "Icon image",
+            "icon_image_text": "An image to show instead of the icon. The icon is still used where an image can't be shown. PNG, JPEG, GIF, WebP or BMP; animated images keep their first frame."
         },
         "group": {
             "admin": "Admin",

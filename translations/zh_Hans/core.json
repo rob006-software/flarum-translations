@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "暂无可用驱动，请先安装相关扩展。",
                     "cjk_mode_label": "优化中日韩搜索",
-                    "cjk_mode_help": "如果论坛主要使用中文、日文或韩文，请开启此项。数据库默认搜索无法匹配中日韩文本中的部分内容，开启后将改用子串匹配。此模式在超大型论坛中速度较慢，可在数据库层配置支持中日韩文本的全文解析器（如 MySQL/MariaDB 的 ngram 解析器）来提升搜索性能。"
+                    "cjk_mode_help": "如果论坛主要使用中文、日文或韩文，请开启此项。数据库默认搜索无法匹配中日韩文本中的部分内容，开启后将改用子串匹配。此模式在超大型论坛中速度较慢，可在数据库层配置支持中日韩文本的全文解析器（如 MySQL/MariaDB 的 ngram 解析器）来提升搜索性能。",
+                    "min_length_label": "",
+                    "min_length_help": ""
                 },
-                "title": "高级设置"
+                "title": "高级设置",
+                "sessions": {
+                    "section_label": "",
+                    "lifetime_label": "",
+                    "lifetime_help": "",
+                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_help": "",
+                    "duration_value_label": "",
+                    "duration_unit_label": "",
+                    "never_expires": "",
+                    "enabled": "",
+                    "disabled": "",
+                    "units": {
+                        "seconds": "",
+                        "minutes": "",
+                        "hours": "",
+                        "days": "",
+                        "weeks": "",
+                        "years": ""
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "",
+                            "help": ""
+                        },
+                        "session_remember": {
+                            "label": "",
+                            "help": ""
+                        }
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "允许用户切换显示模式",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
-                }
+                },
+                "app_icon_background_help": "",
+                "app_icon_background_label": "",
+                "app_icon_heading": "",
+                "app_icon_preview_android_label": "",
+                "app_icon_preview_apple_label": "",
+                "app_icon_text": "",
+                "app_start_page_help": "",
+                "app_start_page_label": "",
+                "app_start_page_options": {
+                    "home_page": ""
+                },
+                "open_as_app_help": "",
+                "open_as_app_label": "",
+                "sections": {
+                    "custom_code": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "logos": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "splash_screen_background_help": "",
+                "splash_screen_background_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "立即检查",
                 "abandoned_extensions_sync_success": "停止维护的扩展清单已更新，发现 {count} 个已安装。",
                 "abandoned_extensions_sync_error": "获取停止维护的扩展程序清单失败，请稍后重试。",
-                "abandoned_extensions_notify_admins_label": "每周检查停止维护清单，匹配时邮件通知管理员"
+                "abandoned_extensions_notify_admins_label": "每周检查停止维护清单，匹配时邮件通知管理员",
+                "forum_short_name_heading": "",
+                "forum_short_name_text": "",
+                "sections": {
+                    "extensions": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "forum": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "home": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "members": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "urls": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "show_post_source_label": "",
+                "show_post_source_text": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "用户组（例如：管理组）",
                 "singular_placeholder": "成员（例如：管理员）",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "创建用户组"
+                "title": "创建用户组",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "使用上述配置向 {email} 发送测试邮件。",
                 "smtp_heading": "SMTP 服务",
                 "smtp_description": "配置 SMTP 服务器连接。通常使用 587 端口（TLS）或 465 端口（SSL）。",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "",
+                "bounce_handling_text": "",
+                "mail_mailgun_webhook_signing_key_label": "",
+                "mail_mailgun_webhook_signing_key_help": "",
+                "mailgun_description": "",
+                "sections": {
+                    "sending": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "register_webhook_button": "",
+                "register_webhook_success": "",
+                "unregister_webhook_button": "",
+                "unregister_webhook_success": "",
+                "suppress_bounced_label": "",
+                "suppress_bounced_help": "",
+                "webhook_password_label": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_url_provision_help": "",
+                "webhook_username_label": "",
+                "webhook_username_help": ""
             },
             "extension": {
                 "abandoned_no_replacement": "此扩展已停止维护，今后可能不再更新。",
@@ -400,7 +516,10 @@
                     "title": "重置设置",
                     "title_extension": "重置 {extensionTitle} 设置"
                 },
-                "safe_mode_warning": "当前处于安全模式，无法加载扩展及其设置。"
+                "safe_mode_warning": "当前处于安全模式，无法加载扩展及其设置。",
+                "general_tab": "",
+                "no_settings_or_permissions": "",
+                "unsaved_changes": ""
             },
             "header": {
                 "get_help": "获取帮助",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "选择图片..."
+                "upload_button": "选择图片...",
+                "set_by_extension_text": "",
+                "set_in_code_text": ""
             },
             "users": {
                 "create_user_button": "新建用户",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "访问 {username} 的主页",
                             "title": "=> core.ref.username"
+                        },
+                        "email_bounced": {
+                            "title": "",
+                            "bounced": ""
                         }
                     },
                     "invalid_column_content": "数据异常"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "用户数：{count}"
+                "total_users": "用户数：{count}",
+                "filters_label": ""
+            },
+            "streaming-warning": {
+                "check_again_button": "",
+                "detail": "",
+                "label": ""
+            },
+            "email_bounces": {
+                "title": "",
+                "about": "",
+                "refresh": "",
+                "load_error": "",
+                "period_hour": "",
+                "period_week": "",
+                "period_month": "",
+                "period_total": "",
+                "affected": "",
+                "recovered": "",
+                "not_configured": "",
+                "view_affected": ""
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "退出全屏",
                 "full_screen_tooltip": "全屏",
                 "minimize_tooltip": "最小化",
-                "preview_tooltip": "预览"
+                "preview_tooltip": "预览",
+                "restore_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "说点什么吧...",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "跳至主体内容",
-                "toggle_sidenav_dropdown_accessible_label": "展开或收起导航栏菜单"
+                "toggle_sidenav_dropdown_accessible_label": "展开或收起导航栏菜单",
+                "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "已编辑",
                 "edited_tooltip": "{username} 编辑于 {ago}",
-                "number_tooltip": "发布 #{number}"
+                "number_tooltip": "发布 #{number}",
+                "source_api_label": "",
+                "source_api_tooltip": "",
+                "source_app_tooltip": "",
+                "source_text": ""
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": "隐藏欢迎横幅"
+            },
+            "user_email_bounced": {
+                "alert_message": "",
+                "update_button": ""
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "你没有权限编辑此用户。"
+                "nothing_available": "你没有权限编辑此用户。",
+                "clear_email_bounce_label": ""
             },
             "error": {
                 "circular_dependencies_message": "检测到循环依赖关系：{extensions}，已中止操作。请禁用其中一个扩展后重试。",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "讨论",
                         "hint": "讨论 ID"
+                    },
+                    "source": {
+                        "key": "",
+                        "hint": ""
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "用户组",
                         "hint": "成员称谓或用户组名称"
+                    },
+                    "bounced": {
+                        "key": ""
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "ll",
                 "scrubber": "YYYY年M月",
                 "userListJoinDate": "LLL"
+            },
+            "icon_image_input": {
+                "remove_button": "",
+                "replace_button": "",
+                "upload_button": ""
+            },
+            "icon_picker": {
+                "count_text": "",
+                "families": {
+                    "brands": "",
+                    "classic": "",
+                    "duotone": "",
+                    "sharp": "",
+                    "sharp_duotone": ""
+                },
+                "family_label": "",
+                "forced_style_text": "",
+                "label": "",
+                "more_text": "",
+                "no_results_text": "",
+                "open_button": "",
+                "remove_button": "",
+                "search_placeholder": "",
+                "unreadable_text": "",
+                "use_button": "",
+                "weights": {
+                    "light": "",
+                    "regular": "",
+                    "solid": "",
+                    "thin": ""
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "你访问的页面不存在。",
                 "not_found_return_link": "返回 {forum}",
                 "permission_denied": "你没有权限访问此页面。",
-                "unknown": "出了点岔子，页面暂时无法加载。"
+                "unknown": "出了点岔子，页面暂时无法加载。",
+                "not_found_actions_label": "",
+                "not_found_description": "",
+                "not_found_discussions_link": "",
+                "not_found_home_link": "",
+                "not_found_search_button": "",
+                "not_found_search_label": "",
+                "not_found_search_placeholder": "",
+                "not_found_title": ""
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "你即将取消接收来自 {forumTitle} 的“{type}”邮件通知。",
                 "success_message": "你已成功退订来自 {forumTitle} 的“{type}”邮件通知。如需再次接收，请 [更新你的设置]({settingsLink})。",
                 "invalid_message": "此退订链接无效或已被使用。如需调整来自 {forumTitle} 的邮件通知，请 [查看你的设置]({settingsLink})。"
+            },
+            "offline": {
+                "text": "",
+                "title": ""
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "查询条件 {filter} 必须是数值。",
                 "must_not_be_array_message": "查询条件 {filter} 不能是数组。",
                 "must_not_be_multidimensional_array_message": "查询条件 {filter} 不能是多维数组。"
-            }
+            },
+            "app_icon_too_small_message": "",
+            "image_set_by_code_message": "",
+            "image_set_by_theme_message": ""
         },
         "email": {
             "greeting": "{displayName}，你好！",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "如不想再接收此类通知，可 [在此退订]({unsubscribeLink})。",
                     "unsubscribe_text_plain": "如不想再接收此类通知，可在此退订：{unsubscribeLink}",
                     "settings_text": "你可以 [在此]({settingsLink}) 管理通知设置。",
-                    "settings_text_plain": "你可以在此管理通知设置：{settingsLink}"
+                    "settings_text_plain": "你可以在此管理通知设置：{settingsLink}",
+                    "main_text_generic": "",
+                    "main_text_generic_plain": ""
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "用户",
             "view": "查看",
             "write_a_reply": "说点什么吧...",
-            "you": "你"
+            "you": "你",
+            "icon_image": "",
+            "icon_image_text": ""
         },
         "group": {
             "admin": "管理员",

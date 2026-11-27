@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "",
                     "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_help": "",
+                    "min_length_label": "",
+                    "min_length_help": ""
                 },
-                "title": ""
+                "title": "",
+                "sessions": {
+                    "section_label": "",
+                    "lifetime_label": "",
+                    "lifetime_help": "",
+                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_help": "",
+                    "duration_value_label": "",
+                    "duration_unit_label": "",
+                    "never_expires": "",
+                    "enabled": "",
+                    "disabled": "",
+                    "units": {
+                        "seconds": "",
+                        "minutes": "",
+                        "hours": "",
+                        "days": "",
+                        "weeks": "",
+                        "years": ""
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "",
+                            "help": ""
+                        },
+                        "session_remember": {
+                            "label": "",
+                            "help": ""
+                        }
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "",
                     "light_hc_mode_label": "",
                     "light_mode_label": ""
-                }
+                },
+                "app_icon_background_help": "",
+                "app_icon_background_label": "",
+                "app_icon_heading": "",
+                "app_icon_preview_android_label": "",
+                "app_icon_preview_apple_label": "",
+                "app_icon_text": "",
+                "app_start_page_help": "",
+                "app_start_page_label": "",
+                "app_start_page_options": {
+                    "home_page": ""
+                },
+                "open_as_app_help": "",
+                "open_as_app_label": "",
+                "sections": {
+                    "custom_code": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "logos": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "splash_screen_background_help": "",
+                "splash_screen_background_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "",
                 "abandoned_extensions_sync_success": "",
                 "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_notify_admins_label": "",
+                "forum_short_name_heading": "",
+                "forum_short_name_text": "",
+                "sections": {
+                    "extensions": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "forum": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "home": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "members": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "urls": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "show_post_source_label": "",
+                "show_post_source_text": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "বহুবচন (যেমন: Mods)",
                 "singular_placeholder": "এক বচন (যেমন: Mod)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "গ্রুপ তৈরি করুন"
+                "title": "গ্রুপ তৈরি করুন",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "এটা আপনার উপরোক্ত কনফিগারেশন ব্যবহার করে একটি ইমেইল পাঠাবে, {email} ।",
                 "smtp_heading": "SMTP সেটিংস",
                 "smtp_description": "",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "",
+                "bounce_handling_text": "",
+                "mail_mailgun_webhook_signing_key_label": "",
+                "mail_mailgun_webhook_signing_key_help": "",
+                "mailgun_description": "",
+                "sections": {
+                    "sending": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "register_webhook_button": "",
+                "register_webhook_success": "",
+                "unregister_webhook_button": "",
+                "unregister_webhook_success": "",
+                "suppress_bounced_label": "",
+                "suppress_bounced_help": "",
+                "webhook_password_label": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_url_provision_help": "",
+                "webhook_username_label": "",
+                "webhook_username_help": ""
             },
             "extension": {
                 "abandoned_no_replacement": "",
@@ -400,7 +516,10 @@
                     "title": "",
                     "title_extension": ""
                 },
-                "safe_mode_warning": ""
+                "safe_mode_warning": "",
+                "general_tab": "",
+                "no_settings_or_permissions": "",
+                "unsaved_changes": ""
             },
             "header": {
                 "get_help": "সাহায্য পান",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "একটি ছবি নির্বাচন করুন..।"
+                "upload_button": "একটি ছবি নির্বাচন করুন..।",
+                "set_by_extension_text": "",
+                "set_in_code_text": ""
             },
             "users": {
                 "create_user_button": "নতুন ব্যবহারকারী",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "",
                             "title": ""
+                        },
+                        "email_bounced": {
+                            "title": "",
+                            "bounced": ""
                         }
                     },
                     "invalid_column_content": ""
                 },
                 "search_placeholder": "",
                 "title": "",
-                "total_users": ""
+                "total_users": "",
+                "filters_label": ""
+            },
+            "streaming-warning": {
+                "check_again_button": "",
+                "detail": "",
+                "label": ""
+            },
+            "email_bounces": {
+                "title": "",
+                "about": "",
+                "refresh": "",
+                "load_error": "",
+                "period_hour": "",
+                "period_week": "",
+                "period_month": "",
+                "period_total": "",
+                "affected": "",
+                "recovered": "",
+                "not_configured": "",
+                "view_affected": ""
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "",
                 "full_screen_tooltip": "",
                 "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "preview_tooltip": "",
+                "restore_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "",
                 "start_discussion_button": "",
                 "skip_to_main_content": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "",
+                "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
                 "az_button": "",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "",
                 "edited_tooltip": "",
-                "number_tooltip": ""
+                "number_tooltip": "",
+                "source_api_label": "",
+                "source_api_tooltip": "",
+                "source_app_tooltip": "",
+                "source_text": ""
             },
             "post_controls": {
                 "delete_button": "",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": ""
+            },
+            "user_email_bounced": {
+                "alert_message": "",
+                "update_button": ""
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "",
                 "username_heading": "",
                 "username_label": "",
-                "nothing_available": ""
+                "nothing_available": "",
+                "clear_email_bounce_label": ""
             },
             "error": {
                 "circular_dependencies_message": "",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "",
                         "hint": ""
+                    },
+                    "source": {
+                        "key": "",
+                        "hint": ""
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "",
                         "hint": ""
+                    },
+                    "bounced": {
+                        "key": ""
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "",
                 "scrubber": "",
                 "userListJoinDate": ""
+            },
+            "icon_image_input": {
+                "remove_button": "",
+                "replace_button": "",
+                "upload_button": ""
+            },
+            "icon_picker": {
+                "count_text": "",
+                "families": {
+                    "brands": "",
+                    "classic": "",
+                    "duotone": "",
+                    "sharp": "",
+                    "sharp_duotone": ""
+                },
+                "family_label": "",
+                "forced_style_text": "",
+                "label": "",
+                "more_text": "",
+                "no_results_text": "",
+                "open_button": "",
+                "remove_button": "",
+                "search_placeholder": "",
+                "unreadable_text": "",
+                "use_button": "",
+                "weights": {
+                    "light": "",
+                    "regular": "",
+                    "solid": "",
+                    "thin": ""
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "",
                 "not_found_return_link": "",
                 "permission_denied": "",
-                "unknown": ""
+                "unknown": "",
+                "not_found_actions_label": "",
+                "not_found_description": "",
+                "not_found_discussions_link": "",
+                "not_found_home_link": "",
+                "not_found_search_button": "",
+                "not_found_search_label": "",
+                "not_found_search_placeholder": "",
+                "not_found_title": ""
             },
             "index": {
                 "all_discussions_heading": "",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "",
                 "success_message": "",
                 "invalid_message": ""
+            },
+            "offline": {
+                "text": "",
+                "title": ""
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "",
                 "must_not_be_array_message": "",
                 "must_not_be_multidimensional_array_message": ""
-            }
+            },
+            "app_icon_too_small_message": "",
+            "image_set_by_code_message": "",
+            "image_set_by_theme_message": ""
         },
         "email": {
             "greeting": "",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "",
                     "unsubscribe_text_plain": "",
                     "settings_text": "",
-                    "settings_text_plain": ""
+                    "settings_text_plain": "",
+                    "main_text_generic": "",
+                    "main_text_generic_plain": ""
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "",
             "view": "",
             "write_a_reply": "",
-            "you": ""
+            "you": "",
+            "icon_image": "",
+            "icon_image_text": ""
         },
         "group": {
             "admin": "",

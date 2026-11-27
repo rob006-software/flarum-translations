@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "暫無可用驅動程式，請先安裝相關擴充功能。",
                     "cjk_mode_label": "最佳化中日韓搜尋",
-                    "cjk_mode_help": "如果論壇主要使用中文、日文或韓文，請開啟此項。資料庫預設搜尋無法比對中日韓文字中的部分內容，開啟後將改用子字串比對。此模式在超大型論壇中速度較慢，可在資料庫層設定支援中日韓文字的全文解析器（如 MySQL/MariaDB 的 ngram 解析器）來提升搜尋效能。"
+                    "cjk_mode_help": "如果論壇主要使用中文、日文或韓文，請開啟此項。資料庫預設搜尋無法比對中日韓文字中的部分內容，開啟後將改用子字串比對。此模式在超大型論壇中速度較慢，可在資料庫層設定支援中日韓文字的全文解析器（如 MySQL/MariaDB 的 ngram 解析器）來提升搜尋效能。",
+                    "min_length_label": "",
+                    "min_length_help": ""
                 },
-                "title": "進階設定"
+                "title": "進階設定",
+                "sessions": {
+                    "section_label": "",
+                    "lifetime_label": "",
+                    "lifetime_help": "",
+                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_help": "",
+                    "duration_value_label": "",
+                    "duration_unit_label": "",
+                    "never_expires": "",
+                    "enabled": "",
+                    "disabled": "",
+                    "units": {
+                        "seconds": "",
+                        "minutes": "",
+                        "hours": "",
+                        "days": "",
+                        "weeks": "",
+                        "years": ""
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "",
+                            "help": ""
+                        },
+                        "session_remember": {
+                            "label": "",
+                            "help": ""
+                        }
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "允許使用者切換顯示模式",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
-                }
+                },
+                "app_icon_background_help": "",
+                "app_icon_background_label": "",
+                "app_icon_heading": "",
+                "app_icon_preview_android_label": "",
+                "app_icon_preview_apple_label": "",
+                "app_icon_text": "",
+                "app_start_page_help": "",
+                "app_start_page_label": "",
+                "app_start_page_options": {
+                    "home_page": ""
+                },
+                "open_as_app_help": "",
+                "open_as_app_label": "",
+                "sections": {
+                    "custom_code": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "logos": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "splash_screen_background_help": "",
+                "splash_screen_background_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "立即檢查",
                 "abandoned_extensions_sync_success": "停止維護的擴充功能清單已更新，發現 {count} 個已安裝。",
                 "abandoned_extensions_sync_error": "取得停止維護的擴充功能清單失敗，請稍後重試。",
-                "abandoned_extensions_notify_admins_label": "每週檢查停止維護清單，符合時以電子郵件通知管理員"
+                "abandoned_extensions_notify_admins_label": "每週檢查停止維護清單，符合時以電子郵件通知管理員",
+                "forum_short_name_heading": "",
+                "forum_short_name_text": "",
+                "sections": {
+                    "extensions": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "forum": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "home": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "members": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "urls": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "show_post_source_label": "",
+                "show_post_source_text": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "使用者組（例如：管理組）",
                 "singular_placeholder": "成員（例如：管理員）",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "建立使用者組"
+                "title": "建立使用者組",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "使用上述設置發送測試郵件到您的郵箱：{email}。",
                 "smtp_heading": "SMTP 服務",
                 "smtp_description": "設定 SMTP 伺服器連線。通常使用 587 連接埠（TLS）或 465 連接埠（SSL）。",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "",
+                "bounce_handling_text": "",
+                "mail_mailgun_webhook_signing_key_label": "",
+                "mail_mailgun_webhook_signing_key_help": "",
+                "mailgun_description": "",
+                "sections": {
+                    "sending": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "register_webhook_button": "",
+                "register_webhook_success": "",
+                "unregister_webhook_button": "",
+                "unregister_webhook_success": "",
+                "suppress_bounced_label": "",
+                "suppress_bounced_help": "",
+                "webhook_password_label": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_url_provision_help": "",
+                "webhook_username_label": "",
+                "webhook_username_help": ""
             },
             "extension": {
                 "abandoned_no_replacement": "此擴充功能已停止維護，今後可能不再更新。",
@@ -400,7 +516,10 @@
                     "title": "重設設定",
                     "title_extension": "重設 {extensionTitle} 設定"
                 },
-                "safe_mode_warning": "目前處於安全模式，無法載入擴充功能及其設定。"
+                "safe_mode_warning": "目前處於安全模式，無法載入擴充功能及其設定。",
+                "general_tab": "",
+                "no_settings_or_permissions": "",
+                "unsaved_changes": ""
             },
             "header": {
                 "get_help": "取得協助",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "選擇圖片..."
+                "upload_button": "選擇圖片...",
+                "set_by_extension_text": "",
+                "set_in_code_text": ""
             },
             "users": {
                 "create_user_button": "新增使用者",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "前往 {username} 的主頁",
                             "title": "=> core.ref.username"
+                        },
+                        "email_bounced": {
+                            "title": "",
+                            "bounced": ""
                         }
                     },
                     "invalid_column_content": "資料異常"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "使用者數：{count}"
+                "total_users": "使用者數：{count}",
+                "filters_label": ""
+            },
+            "streaming-warning": {
+                "check_again_button": "",
+                "detail": "",
+                "label": ""
+            },
+            "email_bounces": {
+                "title": "",
+                "about": "",
+                "refresh": "",
+                "load_error": "",
+                "period_hour": "",
+                "period_week": "",
+                "period_month": "",
+                "period_total": "",
+                "affected": "",
+                "recovered": "",
+                "not_configured": "",
+                "view_affected": ""
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "退出全螢幕",
                 "full_screen_tooltip": "全螢幕",
                 "minimize_tooltip": "最小化",
-                "preview_tooltip": "預覽"
+                "preview_tooltip": "預覽",
+                "restore_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "說點什麼吧...",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "跳至主體內容",
-                "toggle_sidenav_dropdown_accessible_label": "展開或收合導覽列選單"
+                "toggle_sidenav_dropdown_accessible_label": "展開或收合導覽列選單",
+                "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "已編輯",
                 "edited_tooltip": "{username} 編輯於 {ago}",
-                "number_tooltip": "發佈 #{number}"
+                "number_tooltip": "發佈 #{number}",
+                "source_api_label": "",
+                "source_api_tooltip": "",
+                "source_app_tooltip": "",
+                "source_text": ""
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": "隱藏歡迎橫幅"
+            },
+            "user_email_bounced": {
+                "alert_message": "",
+                "update_button": ""
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "你沒有權限編輯此使用者。"
+                "nothing_available": "你沒有權限編輯此使用者。",
+                "clear_email_bounce_label": ""
             },
             "error": {
                 "circular_dependencies_message": "偵測到循環依賴關係：{extensions}，已中止操作。請停用其中一個擴充功能後重試。",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "討論",
                         "hint": "討論 ID"
+                    },
+                    "source": {
+                        "key": "",
+                        "hint": ""
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "使用者組",
                         "hint": "成員稱謂或使用者組名稱"
+                    },
+                    "bounced": {
+                        "key": ""
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "ll",
                 "scrubber": "YYYY年M月",
                 "userListJoinDate": "LLL"
+            },
+            "icon_image_input": {
+                "remove_button": "",
+                "replace_button": "",
+                "upload_button": ""
+            },
+            "icon_picker": {
+                "count_text": "",
+                "families": {
+                    "brands": "",
+                    "classic": "",
+                    "duotone": "",
+                    "sharp": "",
+                    "sharp_duotone": ""
+                },
+                "family_label": "",
+                "forced_style_text": "",
+                "label": "",
+                "more_text": "",
+                "no_results_text": "",
+                "open_button": "",
+                "remove_button": "",
+                "search_placeholder": "",
+                "unreadable_text": "",
+                "use_button": "",
+                "weights": {
+                    "light": "",
+                    "regular": "",
+                    "solid": "",
+                    "thin": ""
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "你存取的頁面不存在。",
                 "not_found_return_link": "返回 {forum}",
                 "permission_denied": "你沒有權限存取此頁面。",
-                "unknown": "出了點差錯，頁面暫時無法載入。"
+                "unknown": "出了點差錯，頁面暫時無法載入。",
+                "not_found_actions_label": "",
+                "not_found_description": "",
+                "not_found_discussions_link": "",
+                "not_found_home_link": "",
+                "not_found_search_button": "",
+                "not_found_search_label": "",
+                "not_found_search_placeholder": "",
+                "not_found_title": ""
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "你即將取消接收來自 {forumTitle} 的「{type}」電子郵件通知。",
                 "success_message": "你已成功取消訂閱來自 {forumTitle} 的「{type}」電子郵件通知。如需再次接收，請 [更新你的設定]({settingsLink})。",
                 "invalid_message": "此取消訂閱連結無效或已被使用。如需調整來自 {forumTitle} 的電子郵件通知，請 [查看你的設定]({settingsLink})。"
+            },
+            "offline": {
+                "text": "",
+                "title": ""
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "查詢條件 {filter} 必須是數值。",
                 "must_not_be_array_message": "查詢條件 {filter} 不能是陣列。",
                 "must_not_be_multidimensional_array_message": "查詢條件 {filter} 不能是多維陣列。"
-            }
+            },
+            "app_icon_too_small_message": "",
+            "image_set_by_code_message": "",
+            "image_set_by_theme_message": ""
         },
         "email": {
             "greeting": "{displayName}，你好！",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "如不想再接收此類通知，可 [在此取消訂閱]({unsubscribeLink})。",
                     "unsubscribe_text_plain": "如不想再接收此類通知，可在此取消訂閱：{unsubscribeLink}",
                     "settings_text": "你可以 [在此]({settingsLink}) 管理通知設定。",
-                    "settings_text_plain": "你可以在此管理通知設定：{settingsLink}"
+                    "settings_text_plain": "你可以在此管理通知設定：{settingsLink}",
+                    "main_text_generic": "",
+                    "main_text_generic_plain": ""
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "使用者",
             "view": "檢視",
             "write_a_reply": "說點什麼吧...",
-            "you": "你"
+            "you": "你",
+            "icon_image": "",
+            "icon_image_text": ""
         },
         "group": {
             "admin": "管理員",

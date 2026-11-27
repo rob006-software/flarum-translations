@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "",
                     "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_help": "",
+                    "min_length_label": "",
+                    "min_length_help": ""
                 },
-                "title": ""
+                "title": "",
+                "sessions": {
+                    "section_label": "",
+                    "lifetime_label": "",
+                    "lifetime_help": "",
+                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_help": "",
+                    "duration_value_label": "",
+                    "duration_unit_label": "",
+                    "never_expires": "",
+                    "enabled": "",
+                    "disabled": "",
+                    "units": {
+                        "seconds": "",
+                        "minutes": "",
+                        "hours": "",
+                        "days": "",
+                        "weeks": "",
+                        "years": ""
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "",
+                            "help": ""
+                        },
+                        "session_remember": {
+                            "label": "",
+                            "help": ""
+                        }
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "",
                     "light_hc_mode_label": "",
                     "light_mode_label": ""
-                }
+                },
+                "app_icon_background_help": "",
+                "app_icon_background_label": "",
+                "app_icon_heading": "",
+                "app_icon_preview_android_label": "",
+                "app_icon_preview_apple_label": "",
+                "app_icon_text": "",
+                "app_start_page_help": "",
+                "app_start_page_label": "",
+                "app_start_page_options": {
+                    "home_page": ""
+                },
+                "open_as_app_help": "",
+                "open_as_app_label": "",
+                "sections": {
+                    "custom_code": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "logos": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "splash_screen_background_help": "",
+                "splash_screen_background_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "",
                 "abandoned_extensions_sync_success": "",
                 "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_notify_admins_label": "",
+                "forum_short_name_heading": "",
+                "forum_short_name_text": "",
+                "sections": {
+                    "extensions": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "forum": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "home": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "members": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "urls": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "show_post_source_label": "",
+                "show_post_source_text": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "복수",
                 "singular_placeholder": "단수",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "그룹 생성"
+                "title": "그룹 생성",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "위의 설정을 이용하여, {email} 주소로 이메일을 전송합니다.",
                 "smtp_heading": "SMTP 설정",
                 "smtp_description": "",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "",
+                "bounce_handling_text": "",
+                "mail_mailgun_webhook_signing_key_label": "",
+                "mail_mailgun_webhook_signing_key_help": "",
+                "mailgun_description": "",
+                "sections": {
+                    "sending": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "register_webhook_button": "",
+                "register_webhook_success": "",
+                "unregister_webhook_button": "",
+                "unregister_webhook_success": "",
+                "suppress_bounced_label": "",
+                "suppress_bounced_help": "",
+                "webhook_password_label": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_url_provision_help": "",
+                "webhook_username_label": "",
+                "webhook_username_help": ""
             },
             "extension": {
                 "abandoned_no_replacement": "",
@@ -400,7 +516,10 @@
                     "title": "",
                     "title_extension": ""
                 },
-                "safe_mode_warning": ""
+                "safe_mode_warning": "",
+                "general_tab": "",
+                "no_settings_or_permissions": "",
+                "unsaved_changes": ""
             },
             "header": {
                 "get_help": "도움받기",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "이미지 선택..."
+                "upload_button": "이미지 선택...",
+                "set_by_extension_text": "",
+                "set_in_code_text": ""
             },
             "users": {
                 "create_user_button": "새로운 사용자",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "{username}의 프로필 방문",
                             "title": "=> core.ref.username"
+                        },
+                        "email_bounced": {
+                            "title": "",
+                            "bounced": ""
                         }
                     },
                     "invalid_column_content": "유효하지 않음"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "총 유저: {count}"
+                "total_users": "총 유저: {count}",
+                "filters_label": ""
+            },
+            "streaming-warning": {
+                "check_again_button": "",
+                "detail": "",
+                "label": ""
+            },
+            "email_bounces": {
+                "title": "",
+                "about": "",
+                "refresh": "",
+                "load_error": "",
+                "period_hour": "",
+                "period_week": "",
+                "period_month": "",
+                "period_total": "",
+                "affected": "",
+                "recovered": "",
+                "not_configured": "",
+                "view_affected": ""
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "전체 화면 종료",
                 "full_screen_tooltip": "전체 화면",
                 "minimize_tooltip": "화면 최소",
-                "preview_tooltip": "미리 보기"
+                "preview_tooltip": "미리 보기",
+                "restore_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "게시물을 작성하십시오...",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
-                "toggle_sidenav_dropdown_accessible_label": "탐색 드롭다운 메뉴 토글하기"
+                "toggle_sidenav_dropdown_accessible_label": "탐색 드롭다운 메뉴 토글하기",
+                "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
                 "az_button": "",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "수정됨",
                 "edited_tooltip": "{username}님이 {ago}에 수정했습니다",
-                "number_tooltip": "#{number}개 게시"
+                "number_tooltip": "#{number}개 게시",
+                "source_api_label": "",
+                "source_api_tooltip": "",
+                "source_app_tooltip": "",
+                "source_text": ""
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": "환영 메세지 숨기기"
+            },
+            "user_email_bounced": {
+                "alert_message": "",
+                "update_button": ""
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "이 사용자를 편집할 권한이 없습니다."
+                "nothing_available": "이 사용자를 편집할 권한이 없습니다.",
+                "clear_email_bounce_label": ""
             },
             "error": {
                 "circular_dependencies_message": "순환 종속성이 감지되었습니다: {extensions}. 작업을 중단합니다. 하나의 확장을 비활성화하고 다시 시도하세요.",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "",
                         "hint": ""
+                    },
+                    "source": {
+                        "key": "",
+                        "hint": ""
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "",
                         "hint": ""
+                    },
+                    "bounced": {
+                        "key": ""
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "",
                 "scrubber": "",
                 "userListJoinDate": ""
+            },
+            "icon_image_input": {
+                "remove_button": "",
+                "replace_button": "",
+                "upload_button": ""
+            },
+            "icon_picker": {
+                "count_text": "",
+                "families": {
+                    "brands": "",
+                    "classic": "",
+                    "duotone": "",
+                    "sharp": "",
+                    "sharp_duotone": ""
+                },
+                "family_label": "",
+                "forced_style_text": "",
+                "label": "",
+                "more_text": "",
+                "no_results_text": "",
+                "open_button": "",
+                "remove_button": "",
+                "search_placeholder": "",
+                "unreadable_text": "",
+                "use_button": "",
+                "weights": {
+                    "light": "",
+                    "regular": "",
+                    "solid": "",
+                    "thin": ""
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "요청한 페이지를 찾을 수 없습니다.",
                 "not_found_return_link": "{forum}으로 돌아가기",
                 "permission_denied": "이 페이지에 접속할 수 있는 권한이 없습니다.",
-                "unknown": "이 페이지를 로드하는 동안 오류가 발생했습니다."
+                "unknown": "이 페이지를 로드하는 동안 오류가 발생했습니다.",
+                "not_found_actions_label": "",
+                "not_found_description": "",
+                "not_found_discussions_link": "",
+                "not_found_home_link": "",
+                "not_found_search_button": "",
+                "not_found_search_label": "",
+                "not_found_search_placeholder": "",
+                "not_found_title": ""
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "",
                 "success_message": "",
                 "invalid_message": ""
+            },
+            "offline": {
+                "text": "",
+                "title": ""
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "{filter} 필터는 숫자여야 합니다.",
                 "must_not_be_array_message": "{filter} 필터는 배열이 아니어야 합니다.",
                 "must_not_be_multidimensional_array_message": "{filter} 필터는 다차원 배열이 아니어야 합니다."
-            }
+            },
+            "app_icon_too_small_message": "",
+            "image_set_by_code_message": "",
+            "image_set_by_theme_message": ""
         },
         "email": {
             "greeting": "",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "",
                     "unsubscribe_text_plain": "",
                     "settings_text": "",
-                    "settings_text_plain": ""
+                    "settings_text_plain": "",
+                    "main_text_generic": "",
+                    "main_text_generic_plain": ""
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "사용자",
             "view": "보기",
             "write_a_reply": "답장 쓰기...",
-            "you": "당신"
+            "you": "당신",
+            "icon_image": "",
+            "icon_image_text": ""
         },
         "group": {
             "admin": "관리자",

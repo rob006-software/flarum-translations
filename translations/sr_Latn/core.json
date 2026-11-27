@@ -97,9 +97,45 @@
                     },
                     "no_other_drivers": "",
                     "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_help": "",
+                    "min_length_label": "",
+                    "min_length_help": ""
                 },
-                "title": ""
+                "title": "",
+                "sessions": {
+                    "section_label": "",
+                    "lifetime_label": "",
+                    "lifetime_help": "",
+                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_help": "",
+                    "duration_value_label": "",
+                    "duration_unit_label": "",
+                    "never_expires": "",
+                    "enabled": "",
+                    "disabled": "",
+                    "units": {
+                        "seconds": "",
+                        "minutes": "",
+                        "hours": "",
+                        "days": "",
+                        "weeks": "",
+                        "years": ""
+                    },
+                    "token_types": {
+                        "session": {
+                            "label": "",
+                            "help": ""
+                        },
+                        "session_remember": {
+                            "label": "",
+                            "help": ""
+                        }
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "appearance": {
                 "allow_user_color_scheme_label": "",
@@ -138,7 +174,32 @@
                     "dark_mode_label": "",
                     "light_hc_mode_label": "",
                     "light_mode_label": ""
-                }
+                },
+                "app_icon_background_help": "",
+                "app_icon_background_label": "",
+                "app_icon_heading": "",
+                "app_icon_preview_android_label": "",
+                "app_icon_preview_apple_label": "",
+                "app_icon_text": "",
+                "app_start_page_help": "",
+                "app_start_page_label": "",
+                "app_start_page_options": {
+                    "home_page": ""
+                },
+                "open_as_app_help": "",
+                "open_as_app_label": "",
+                "sections": {
+                    "custom_code": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "logos": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "splash_screen_background_help": "",
+                "splash_screen_background_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -181,7 +242,37 @@
                 "abandoned_extensions_sync_button": "Proveri sada",
                 "abandoned_extensions_sync_success": "Lista napuštenih dodataka je ažurirana. Broj pronađenih instaliranih dodataka je {count}.",
                 "abandoned_extensions_sync_error": "Učitavanje liste napuštenih dodataka je neuspešno. Pokušajte kasnije.",
-                "abandoned_extensions_notify_admins_label": "Pošalji e-poštu adminima kada novi napušteni dodatak bude otkriven tokom nedeljne provere"
+                "abandoned_extensions_notify_admins_label": "Pošalji e-poštu adminima kada novi napušteni dodatak bude otkriven tokom nedeljne provere",
+                "forum_short_name_heading": "",
+                "forum_short_name_text": "",
+                "sections": {
+                    "extensions": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "forum": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "home": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "members": {
+                        "description": "",
+                        "label": ""
+                    },
+                    "urls": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "show_post_source_label": "",
+                "show_post_source_text": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -316,7 +407,9 @@
                 "plural_placeholder": "Množina (npr. Moderatori)",
                 "singular_placeholder": "Jednina (npr. Moderator)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Napravi grupu"
+                "title": "Napravi grupu",
+                "icon_image_label": "",
+                "icon_image_text": ""
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -361,7 +454,30 @@
                 "send_test_mail_text": "Ovo će poslati probnu e-poštu koristeći gornja podešavanja na Vašu e-poštu, {email}.",
                 "smtp_heading": "SMTP podešavanja",
                 "smtp_description": "",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "bounce_handling_heading": "",
+                "bounce_handling_text": "",
+                "mail_mailgun_webhook_signing_key_label": "",
+                "mail_mailgun_webhook_signing_key_help": "",
+                "mailgun_description": "",
+                "sections": {
+                    "sending": {
+                        "description": "",
+                        "label": ""
+                    }
+                },
+                "register_webhook_button": "",
+                "register_webhook_success": "",
+                "unregister_webhook_button": "",
+                "unregister_webhook_success": "",
+                "suppress_bounced_label": "",
+                "suppress_bounced_help": "",
+                "webhook_password_label": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_url_provision_help": "",
+                "webhook_username_label": "",
+                "webhook_username_help": ""
             },
             "extension": {
                 "abandoned_no_replacement": "Ovaj dodatak više nije održavan od strane autora i možda neće primati ažuriranja.",
@@ -400,7 +516,10 @@
                     "title": "",
                     "title_extension": ""
                 },
-                "safe_mode_warning": ""
+                "safe_mode_warning": "",
+                "general_tab": "",
+                "no_settings_or_permissions": "",
+                "unsaved_changes": ""
             },
             "header": {
                 "get_help": "Pomoć",
@@ -506,7 +625,9 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Odaberite sliku..."
+                "upload_button": "Odaberite sliku...",
+                "set_by_extension_text": "",
+                "set_in_code_text": ""
             },
             "users": {
                 "create_user_button": "Novi korisnik",
@@ -541,13 +662,37 @@
                         "username": {
                             "profile_link_tooltip": "Poseti profil {username}",
                             "title": "=> core.ref.username"
+                        },
+                        "email_bounced": {
+                            "title": "",
+                            "bounced": ""
                         }
                     },
                     "invalid_column_content": "Nevažeći"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "Ukupno korisnika: {count}"
+                "total_users": "Ukupno korisnika: {count}",
+                "filters_label": ""
+            },
+            "streaming-warning": {
+                "check_again_button": "",
+                "detail": "",
+                "label": ""
+            },
+            "email_bounces": {
+                "title": "",
+                "about": "",
+                "refresh": "",
+                "load_error": "",
+                "period_hour": "",
+                "period_week": "",
+                "period_month": "",
+                "period_total": "",
+                "affected": "",
+                "recovered": "",
+                "not_configured": "",
+                "view_affected": ""
             }
         },
         "forum": {
@@ -569,7 +714,8 @@
                 "exit_full_screen_tooltip": "Izađi iz režima celog ekrana",
                 "full_screen_tooltip": "Režim celog ekrana",
                 "minimize_tooltip": "Umanji",
-                "preview_tooltip": "Pregled"
+                "preview_tooltip": "Pregled",
+                "restore_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "Započni kucanje...",
@@ -645,7 +791,8 @@
                 "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
-                "toggle_sidenav_dropdown_accessible_label": "Uključi ili isključi padajući meni za navigaciju"
+                "toggle_sidenav_dropdown_accessible_label": "Uključi ili isključi padajući meni za navigaciju",
+                "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
                 "az_button": "",
@@ -682,7 +829,11 @@
             "post": {
                 "edited_text": "Izmenjeno",
                 "edited_tooltip": "{username} je izmenio/la odgovor {ago}",
-                "number_tooltip": "Odgovor #{number}"
+                "number_tooltip": "Odgovor #{number}",
+                "source_api_label": "",
+                "source_api_tooltip": "",
+                "source_app_tooltip": "",
+                "source_text": ""
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -824,6 +975,10 @@
             },
             "welcome_hero": {
                 "hide": "Sakrijte poruku dobrodošlice"
+            },
+            "user_email_bounced": {
+                "alert_message": "",
+                "update_button": ""
             }
         },
         "lib": {
@@ -857,7 +1012,8 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Nije vam dozvoljeno da uređujete ovog člana."
+                "nothing_available": "Nije vam dozvoljeno da uređujete ovog člana.",
+                "clear_email_bounce_label": ""
             },
             "error": {
                 "circular_dependencies_message": "",
@@ -902,6 +1058,10 @@
                     "discussion": {
                         "key": "",
                         "hint": ""
+                    },
+                    "source": {
+                        "key": "",
+                        "hint": ""
                     }
                 },
                 "users": {
@@ -912,6 +1072,9 @@
                     "group": {
                         "key": "",
                         "hint": ""
+                    },
+                    "bounced": {
+                        "key": ""
                     }
                 }
             },
@@ -1014,6 +1177,37 @@
                 "humanTimeLong": "",
                 "scrubber": "",
                 "userListJoinDate": ""
+            },
+            "icon_image_input": {
+                "remove_button": "",
+                "replace_button": "",
+                "upload_button": ""
+            },
+            "icon_picker": {
+                "count_text": "",
+                "families": {
+                    "brands": "",
+                    "classic": "",
+                    "duotone": "",
+                    "sharp": "",
+                    "sharp_duotone": ""
+                },
+                "family_label": "",
+                "forced_style_text": "",
+                "label": "",
+                "more_text": "",
+                "no_results_text": "",
+                "open_button": "",
+                "remove_button": "",
+                "search_placeholder": "",
+                "unreadable_text": "",
+                "use_button": "",
+                "weights": {
+                    "light": "",
+                    "regular": "",
+                    "solid": "",
+                    "thin": ""
+                }
             }
         },
         "views": {
@@ -1058,7 +1252,15 @@
                 "not_found": "Nije moguće pronaći stranicu koju ste tražili.",
                 "not_found_return_link": "Povratak na {forum}",
                 "permission_denied": "Nemate pravo da pristupite ovoj stranici.",
-                "unknown": "Došlo je do greške prilikom učitavanja ove stranice."
+                "unknown": "Došlo je do greške prilikom učitavanja ove stranice.",
+                "not_found_actions_label": "",
+                "not_found_description": "",
+                "not_found_discussions_link": "",
+                "not_found_home_link": "",
+                "not_found_search_button": "",
+                "not_found_search_label": "",
+                "not_found_search_placeholder": "",
+                "not_found_title": ""
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1096,6 +1298,10 @@
                 "confirm_message": "",
                 "success_message": "",
                 "invalid_message": ""
+            },
+            "offline": {
+                "text": "",
+                "title": ""
             }
         },
         "api": {
@@ -1104,7 +1310,10 @@
                 "must_be_numeric_message": "{filter} filtar mora biti numerički.",
                 "must_not_be_array_message": "{filter} filtar ne sme biti niz.",
                 "must_not_be_multidimensional_array_message": "{filter} filtar ne sme biti višedimenzioni niz."
-            }
+            },
+            "app_icon_too_small_message": "",
+            "image_set_by_code_message": "",
+            "image_set_by_theme_message": ""
         },
         "email": {
             "greeting": "",
@@ -1122,7 +1331,9 @@
                     "unsubscribe_text": "",
                     "unsubscribe_text_plain": "",
                     "settings_text": "",
-                    "settings_text_plain": ""
+                    "settings_text_plain": "",
+                    "main_text_generic": "",
+                    "main_text_generic_plain": ""
                 }
             },
             "activate_account": {
@@ -1216,7 +1427,9 @@
             "users": "Korisnici",
             "view": "Pregled",
             "write_a_reply": "Napišite odgovor..",
-            "you": "Vi"
+            "you": "Vi",
+            "icon_image": "",
+            "icon_image_text": ""
         },
         "group": {
             "admin": "Administrator",
