@@ -36,18 +36,18 @@
                         "safe": "Turvaline režiim. Ühtegi lisaprogrammi ei käivitata ja ainult adminid näevad foorumit."
                     },
                     "safe_mode_extensions": "Lisaprogrammid, mida lubatakse käivitada turvalises režiimis",
-                    "safe_mode_extensions_override_help": "",
+                    "safe_mode_extensions_override_help": "See seade kirjutatakse üle failis <code>config.php</code> parameetri <code>safe_mode_extensions</code> väärtusega. (<b>{extensions}</b>)",
                     "section_label": "Hooldamine"
                 },
                 "fontawesome": {
                     "section_label": "FontAwesome ikoonid",
                     "source_label": "Ikooni allikas",
-                    "source_help": "",
+                    "source_help": "Vali kuidas FontAwesome ikoonid laaditakse. Kohalik kasutab kaasasolevaid ikoone, CDN laadib need CDN-ilt ja Komplekt kasutab FontAwesome kohandatud ikoonide komplekte.",
                     "source_local": "Kohalik (kaasatud)",
                     "source_cdn": "CDN",
                     "source_kit": "FontAwesome komplekt",
                     "cdn_url_label": "CDN URL",
-                    "cdn_url_help": "",
+                    "cdn_url_help": "FontAwesome CSS-faili täielik URL CDN-is.",
                     "kit_url_label": "Komplekti URL",
                     "kit_url_help": "",
                     "forced_style_label": "Sunnitud ikooni stiil",
@@ -164,7 +164,7 @@
                 "logo_text": "Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.",
                 "logo_dark_mode_heading": "Tumeda režiimi logo",
                 "logo_dark_mode_text": "Vali alternatiivne logo, mida näidatakse, kui tume režiim on sisse lülitatud.",
-                "show_theme_selector_help": "",
+                "show_theme_selector_help": "Luba kasutajatel saidi päises värviskeeme valida.",
                 "show_theme_selector_label": "Näita teema valijat",
                 "title": "Välimus",
                 "color_scheme_label": "Värviskeem (vaikeväärtus)",
@@ -180,7 +180,7 @@
                 "app_icon_heading": "Rakenduse ikoon",
                 "app_icon_preview_android_label": "Android",
                 "app_icon_preview_apple_label": "iPhone ja iPad",
-                "app_icon_text": "",
+                "app_icon_text": "Laadi üles ruudukujuline pilt, mille külg on vähemalt 512 pikslit, mida kasutatakse telefonidel foorumi lisamisel avalehele. Kui sa ei laadi üles faviconi, siis seda kasutatakse ka Faviconi-na.",
                 "app_start_page_help": "",
                 "app_start_page_label": "Rakenduse avaleht",
                 "app_start_page_options": {
@@ -190,11 +190,11 @@
                 "open_as_app_label": "Ava kui rakendus avalehelt",
                 "sections": {
                     "custom_code": {
-                        "description": "",
+                        "description": "Lisa omaenda HTML ja CSS igale foorumi lehele.",
                         "label": "Kohandatud kood"
                     },
                     "logos": {
-                        "description": "",
+                        "description": "Pildid, mille järgi võib sinu saidi ära tunda päises, brauseri vahekaardil ja avalehel.",
                         "label": "Logod ja ikoonid"
                     }
                 },
@@ -214,7 +214,7 @@
                     "default": "Vaikeväärtus"
                 },
                 "avatar_driver_heading": "Kasutaja avatar",
-                "avatar_driver_text": "",
+                "avatar_driver_text": "Vali draiver, mida kasutatakse kasutajate puhul, kui kasutaja poolt valitud avatar pole saadaval. Vaikimisi avatari ei näidata, kui kasutaja pole ise seda üles laadinud.",
                 "forum_description_heading": "Foorumi kirjeldus",
                 "forum_description_text": "Sisesta lühike lause või kaks, mis kirjeldab sinu foorumit. See läheb meta sildi sisse ja seda kasutatakse otsingumootorite poolt.",
                 "forum_title_heading": "Foorumi pealkiri",
@@ -367,19 +367,19 @@
                 "section_disabled_empty": "Kõik lisaprogrammid on sisse lülitatud.",
                 "title": "Lisaprogrammi tervis",
                 "section_abandoned_heading": "Vajab tähelepanu",
-                "section_abandoned_help": "",
+                "section_abandoned_help": "Neid lisaprogramme ei hooldata enam või neil on ühilduvusprobleeme. Kaalu nende uuendamist, asendamist või eemaldamist.",
                 "section_suggested_heading": "Soovitatud",
-                "section_suggested_help": "",
+                "section_suggested_help": "Flarumi lisaprogrammid võivad lisada valikulisi funktsioone kasutades teisi lisaprogramme või pakette. Need võivad lisada rohkem funktsioone või integratsioone.",
                 "section_disabled_heading": "Välja lülitatud",
                 "section_disabled_help": "Need lisaprogrammid on paigaldatud, aga need pole praegu sisse lülitatud. Lülita need seadete lehelt sisse või eemalda kui neid enam vaja pole.",
                 "suggested_by": "Soovitaja {extension}"
             },
             "database-driver-mismatch-warning": {
-                "detail": "Your <code>config.php</code> is configured to use the <code>{configured}</code> database driver, but Flarum has detected that the database server is actually <code>{actual}</code>.\n\nUsing the wrong driver can cause subtle, hard-to-diagnose bugs. Set <code>'driver' => ''{actual}''</code> in the <code>database</code> section of your <code>config.php</code> file. See <link>Flarum docs</link> for more information.\n",
+                "detail": "Sinu <code>config.php</code> on seadistatud kasutama andmebaasi draiverit <code>{configured}</code>, aga Flarum on tuvastanud, et andmebaasi draiver on tegelikult hoopis <code>{actual}</code>.\n\nVale draiveri kasutamine võib põhjustada väikseid ja raskesti tuvastatavaid probleeme. Määra oma <code>config.php</code> failis sektsioonis <code>database</code> väärtuseks <code>'driver' => ''{actual}''</code>. Vaata lisainfot <link>Flarum dokumentatsioonist</link>.\n",
                 "label": "Andmebaasi draiver ei kattu"
             },
             "database-version-warning": {
-                "below-recommended-detail": "",
+                "below-recommended-detail": "Sinu {server} server kasutab versiooni <code>{version}</code>. See on teotatud, aga Flarum soovitab versiooni {server} <code>{recommended}</code> või uuemat, et tagada kiirus ja ajakohase versiooni kasutamine. Vaata lisainfot <link>Flarum dokumentatsioonist</link>.\n",
                 "below-recommended-label": "Andmebaasi versioon on aegunud"
             },
             "debug-warning": {
@@ -430,8 +430,8 @@
                 "format_help": "",
                 "from_label": "Saatja",
                 "mail_encryption_label": "Krüpteering",
-                "mail_encryption_tls_help": "",
-                "mail_encryption_ssl_help": "",
+                "mail_encryption_tls_help": "Ühenduse algus on krüpteerimata ja seejärel läheb üle TLS-ile (STARTTLS). Tavaliselt kasutab porti 587 või 25.",
+                "mail_encryption_ssl_help": "Ühendus on täies ulatuses krüpteeritud (TSL). Tavaliselt kasutab porti 465.",
                 "mail_encryption_none_help": "Krüpteeringut pole. Reaalsel saidil kasutamine pole soovitatav.",
                 "mail_host_label": "Server",
                 "mail_mailgun_domain_label": "Domeen",
@@ -453,7 +453,7 @@
                 "send_test_mail_success": "Proovimeili saatmine õnnestus!",
                 "send_test_mail_text": "Saada proovikiri aadressile {email}.",
                 "smtp_heading": "SMTP seaded",
-                "smtp_description": "",
+                "smtp_description": "Seadista SMTP ühendus. Tavapärased seadistused: port 587 TSL-iga või port 465 SSL-iga.",
                 "title": "=> core.ref.email",
                 "bounce_handling_heading": "",
                 "bounce_handling_text": "",
@@ -484,7 +484,7 @@
                 "abandoned_with_replacement": "{replacement} on asendanud selle lisaprogrammi. Kaalu üle minemist uuemale lisaprogrammile.",
                 "configure_scopes": "Kõik õigused",
                 "confirm_purge": "Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Oled sa kindel, et soovid jätkata?",
-                "database_driver_mismatch": "",
+                "database_driver_mismatch": "See lisaprogramm ei toeta sinu andmebaasi draiverit.",
                 "deprecated": "Aegunud",
                 "disabled": "Keelatud",
                 "enable_to_see": "Luba laiendusel näha ja muuta seadeid.",
@@ -512,7 +512,7 @@
                     "button": "Nulli seaded",
                     "cancel_button": "Loobu",
                     "confirm_button": "Nulli",
-                    "warning": "",
+                    "warning": "Seda tegevust ei saa tagasi võtta. Need seaded kustutatakse jäädavalt sinu andmebaasist ja taastatakse vaikeväärtused. See ei mõjuta lisaprogrammi andmeid.",
                     "title": "Nulli seaded",
                     "title_extension": "Nulli {extensionTitle} seaded"
                 },
@@ -677,7 +677,7 @@
             },
             "streaming-warning": {
                 "check_again_button": "Kontrolli uuesti",
-                "detail": "",
+                "detail": "See server hoiab tagasi vastuseid, mis peaksid brauserisse jõudma jooksvalt nende loomise ajal, ja saadab need välja alles siis, kui kogu vastus on valmis. Tegevuste edenemine (näiteks vahemälu tühjendamine) ja jooksvalt ilmuvad vastused kuvatakse seetõttu alles kõige lõpus. Lülita sellel saidil puhverdamine välja kõikjal, kus see on sisse lülitatud: PHP seadetes output_buffering või zlib.output_compression, Apache'is mod_deflate (või kasuta flushpackets=on valikut, kui PHP-FPM töötab mod_proxy_fcgi taga), nginxis fastcgi_buffering või proxy_buffering ning saidi ees olevas puhverserveris või CDN-is.",
                 "label": "Tagasi hoitud vastused"
             },
             "email_bounces": {
@@ -1332,8 +1332,8 @@
                     "unsubscribe_text_plain": "",
                     "settings_text": "Halda oma teavituste seadeid [siin]({settingsLink}).",
                     "settings_text_plain": "Halda oma teavituste seadeid siin: {settingsLink}",
-                    "main_text_generic": "",
-                    "main_text_generic_plain": ""
+                    "main_text_generic": "See kiri saadeti aadressile {email} kuna sinu kontol foorumis [{forumTitle}]({forumUrl}) on sisse lülitatud teavitused e-postile.",
+                    "main_text_generic_plain": "See kiri saadeti aadressile {email} kuna sinu kontol foorumis {forumTitle} on sisse lülitatud teavitused e-postile."
                 }
             },
             "activate_account": {
@@ -1342,20 +1342,20 @@
             },
             "confirm_email": {
                 "subject": "Kinnita oma uus meiliaadress",
-                "body": ""
+                "body": "Keegi (loodetavasti sina!) määras foorumis {forum} oma e-posti aadressiks selle e-posti aadressi.\n\nKui see olid sina, siis lihtsalt kliki alloleval lingil ja sinu e-posti aadress kinnitatakse:\n{url}\n\nKui see polnud sina, siis ignoreeri seda kirja.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": ""
+                "body": "Keegi (loodetavasti sina!) proovis foorumis {forum}, parooli taastada.\n\nKui see olid sina, siis lihtsalt kliki alloleval lingil ja sinu parool taastatakse:\n{url}\n\nKui sa ei soovi oma parooli muuta, siis ignoreeri seda kirja ja midagi ei juhtu.\n"
             },
             "send_test": {
                 "subject": "Flarumi proovikiri",
-                "body": ""
+                "body": "See on testikiri, mis kinnitab, et sin uFlarumi e-posti seadistus töötab korrektselt.\n\nKui see olid sina, siis see kiri näitab, et sinu seadistus töötab!\n\nKui see polnud sina, siis palun ignoreeri seda kirja.\n"
             },
             "abandoned_extensions": {
                 "subject": "Toiming on vajalik: tuvastati hüljatud lisaprogramm(e)",
-                "body_intro": "",
-                "body_outro": "",
+                "body_intro": "Järgnevad paigaldatud lisaprogramm(id) on märgitud kui hüljatud:",
+                "body_outro": "Palun vaata need lisaprogrammid üle ning kaalu kolimist mõnele alternatiivile, kui need on saadaval.",
                 "line_with_replacement": "{package} (soovitatud asendus: {replacement})",
                 "line_no_replacement": "{package} (asendust pole saadaval)"
             }
