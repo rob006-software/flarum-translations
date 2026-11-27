@@ -1,0 +1,220 @@
+{
+    "mrcaspan-flarum2-events-calendar": {
+        "forum": {
+            "button": {
+                "landing": "",
+                "post_game": ""
+            },
+            "composer": {
+                "event_when": "",
+                "required": ""
+            },
+            "banner": {
+                "when": "",
+                "edit": "",
+                "add": "",
+                "edit_title": "",
+                "no_date": "",
+                "save": "",
+                "clear": "",
+                "delete": "",
+                "clear_confirm": ""
+            },
+            "picker": {
+                "placeholder": "",
+                "ok": "",
+                "clear": ""
+            },
+            "players": {
+                "title": "",
+                "count": "",
+                "need_more": "",
+                "game_on": "",
+                "host": "",
+                "guest": "",
+                "open_seat": "",
+                "waitlist": "",
+                "requests": "",
+                "out": "",
+                "status": {
+                    "confirmed": "",
+                    "in": "",
+                    "pill_requested": "",
+                    "pill_offer": "",
+                    "tbd": "",
+                    "pill_out": "",
+                    "pill_missed": "",
+                    "pill_wait": "",
+                    "invited": "",
+                    "offered": "",
+                    "requested": "",
+                    "declined": "",
+                    "expired": ""
+                },
+                "you_invited": "",
+                "you_offered": "",
+                "you_confirmed": "",
+                "you_waitlisted": "",
+                "you_requested": "",
+                "im_in": "",
+                "cant_make_it": "",
+                "drop_out": "",
+                "leave_waitlist": "",
+                "cancel_request": "",
+                "request_seat": "",
+                "request_waitlist": "",
+                "login_to_request": "",
+                "invite_placeholder": "",
+                "setup_prompt": "",
+                "setup_button": "",
+                "setup_title": "",
+                "settings_title": "",
+                "seats": "",
+                "min_players": "",
+                "min_players_placeholder": "",
+                "allow_requests": "",
+                "allow_requests_help": "",
+                "allow_requests_help_no_waitlist": "",
+                "use_waitlist": "",
+                "use_waitlist_help": "",
+                "full_no_waitlist": "",
+                "add_to_waitlist": "",
+                "add_guest": "",
+                "cancel": "",
+                "create": "",
+                "save": "",
+                "remove_list": "",
+                "remove_confirm": "",
+                "schedule_next": "",
+                "schedule_next_button": "",
+                "host_menu": {
+                    "label": "",
+                    "approve": "",
+                    "confirm": "",
+                    "seat": "",
+                    "waitlist": "",
+                    "up": "",
+                    "down": "",
+                    "note": "",
+                    "note_prompt": "",
+                    "remove": "",
+                    "remove_confirm": ""
+                }
+            },
+            "schedule_next": {
+                "title": "",
+                "game_title": "",
+                "weeks": "",
+                "copy_players": "",
+                "copy_players_help": "",
+                "copy_waitlist": "",
+                "copy_waitlist_help": "",
+                "help": "",
+                "submit": ""
+            },
+            "notifications": {
+                "settings_label": "",
+                "invited": "",
+                "offered": "",
+                "request": "",
+                "accepted": "",
+                "declined": "",
+                "left": "",
+                "left_waitlist": "",
+                "approved_seat": "",
+                "approved_waitlist": "",
+                "expired": "",
+                "expired_host": ""
+            }
+        },
+        "email": {
+            "invited": {
+                "subject": "",
+                "body": ""
+            },
+            "offered": {
+                "subject": "",
+                "body": ""
+            },
+            "request": {
+                "subject": "",
+                "body": ""
+            },
+            "accepted": {
+                "subject": "",
+                "body": ""
+            },
+            "declined": {
+                "subject": "",
+                "body": ""
+            },
+            "left": {
+                "subject": "",
+                "body": ""
+            },
+            "left_waitlist": {
+                "subject": "",
+                "body": ""
+            },
+            "approved_seat": {
+                "subject": "",
+                "body": ""
+            },
+            "approved_waitlist": {
+                "subject": "",
+                "body": ""
+            },
+            "expired": {
+                "subject": "",
+                "body": ""
+            },
+            "expired_host": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "api": {
+            "waitlist_off": "",
+            "full_no_waitlist": "",
+            "date_required": "",
+            "no_list": "",
+            "not_events_tag": "",
+            "list_needs_date": "",
+            "date_has_list": "",
+            "no_requests": "",
+            "already_listed": "",
+            "member_not_found": "",
+            "member_already_listed": "",
+            "guest_name_required": "",
+            "not_on_list": "",
+            "unknown_action": "",
+            "next_title_required": "",
+            "next_date_required": "",
+            "no_post_text": "",
+            "no_open_spots": "",
+            "list_changed": ""
+        },
+        "admin": {
+            "settings": {
+                "events_tag": "",
+                "events_tag_help": "",
+                "go_heading": "",
+                "go_help": "",
+                "go_placeholder": "",
+                "waitlist_enabled": "",
+                "waitlist_enabled_help": "",
+                "require_date": "",
+                "require_date_help": "",
+                "who_help": "",
+                "words_heading": "",
+                "words_help": "",
+                "word_event": "",
+                "word_events": "",
+                "word_attendee": "",
+                "word_attendees": "",
+                "word_spot": "",
+                "word_spots": ""
+            }
+        }
+    }
+}

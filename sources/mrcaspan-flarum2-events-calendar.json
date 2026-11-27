@@ -1,0 +1,220 @@
+{
+    "mrcaspan-flarum2-events-calendar": {
+        "forum": {
+            "button": {
+                "landing": "{Events} Calendar",
+                "post_game": "Post {Event}"
+            },
+            "composer": {
+                "event_when": "When?",
+                "required": "required"
+            },
+            "banner": {
+                "when": "When",
+                "edit": "Edit date",
+                "add": "Add {event} date",
+                "edit_title": "Edit {event} date",
+                "no_date": "No date set: this discussion won't appear on the calendar yet",
+                "save": "Save",
+                "clear": "Remove date",
+                "delete": "Delete",
+                "clear_confirm": "Remove this discussion's {event} date? It will no longer appear on the calendar."
+            },
+            "picker": {
+                "placeholder": "Pick a date and time",
+                "ok": "OK",
+                "clear": "Clear date"
+            },
+            "players": {
+                "title": "{Attendees} List",
+                "count": "{taken} / {seats} {spots}",
+                "need_more": "{count, plural, one {Need # more confirmed to go ahead} other {Need # more confirmed to go ahead}}",
+                "game_on": "It's on! See you there.",
+                "host": "Host",
+                "guest": "Guest",
+                "open_seat": "Open {spot}",
+                "waitlist": "Wait List",
+                "requests": "Asked to join",
+                "out": "Out",
+                "status": {
+                    "confirmed": "Confirmed",
+                    "in": "IN",
+                    "pill_requested": "ASKED",
+                    "pill_offer": "OFFER",
+                    "tbd": "TBD",
+                    "pill_out": "OUT",
+                    "pill_missed": "MISSED",
+                    "pill_wait": "WAIT",
+                    "invited": "Awaiting reply",
+                    "offered": "{Spot} offered, reply by {time}",
+                    "requested": "Waiting for the host",
+                    "declined": "Can't make it",
+                    "expired": "Missed the {spot} offer"
+                },
+                "you_invited": "You're on the list. Are you coming?",
+                "you_offered": "The host offered you a {spot}! Reply by {time} to take it.",
+                "you_confirmed": "You're in. See you there!",
+                "you_waitlisted": "You're on the wait list. The host will let you know if a {spot} opens up.",
+                "you_requested": "You asked to join. The host will let you know.",
+                "im_in": "I'm in",
+                "cant_make_it": "Can't make it",
+                "drop_out": "Drop out",
+                "leave_waitlist": "Leave wait list",
+                "cancel_request": "Cancel request",
+                "request_seat": "Ask to join",
+                "request_waitlist": "{Event} full: ask to join the wait list",
+                "login_to_request": "Log in to ask to join.",
+                "invite_placeholder": "Add by username…",
+                "setup_prompt": "Add a list of {attendees} so people can confirm and join the wait list.",
+                "setup_button": "Add {attendees} list",
+                "setup_title": "Add {attendees} list",
+                "settings_title": "{Attendees} list settings",
+                "seats": "{Spots}",
+                "min_players": "Minimum {attendees} for the {event} to go ahead",
+                "min_players_placeholder": "Optional",
+                "allow_requests": "Let members ask to join",
+                "allow_requests_help": "You approve every request. When the {event} is full, approved {attendees} go on the wait list.",
+                "allow_requests_help_no_waitlist": "You approve every request. Once every {spot} is taken, nobody else can ask to join.",
+                "use_waitlist": "Use a wait list",
+                "use_waitlist_help": "When the {event} is full, people can join a wait list, and you move them in when a {spot} opens. Untick to have no wait list for this {event}.",
+                "full_no_waitlist": "This {event} is full.",
+                "add_to_waitlist": "Add to wait list",
+                "add_guest": "{name} (Add as Guest)",
+                "cancel": "Cancel",
+                "create": "Create list",
+                "save": "Save",
+                "remove_list": "Remove list",
+                "remove_confirm": "Remove the {attendees} list and everyone on it?",
+                "schedule_next": "Schedule next {event}",
+                "schedule_next_button": "Schedule Next",
+                "host_menu": {
+                    "label": "Manage {attendee}",
+                    "approve": "Approve",
+                    "confirm": "Mark confirmed",
+                    "seat": "Add to {event}",
+                    "waitlist": "Move to wait list",
+                    "up": "Move up",
+                    "down": "Move down",
+                    "note": "Edit note",
+                    "note_prompt": "Note shown after the name (e.g. real first name):",
+                    "remove": "Remove",
+                    "remove_confirm": "Remove {name} from this {event}?"
+                }
+            },
+            "schedule_next": {
+                "title": "Schedule next {event}",
+                "game_title": "Title",
+                "weeks": "{count, plural, one {+# week} other {+# weeks}}",
+                "copy_players": "Copy {attendees} list",
+                "copy_players_help": "{Attendees} with a {spot} are added again and asked to confirm for the new date.",
+                "copy_waitlist": "Copy wait list",
+                "copy_waitlist_help": "Keeps the same order. Nobody on the wait list is notified.",
+                "help": "Creates a new {event} with the same tags and first post. You can edit the post afterwards.",
+                "submit": "Create {event}"
+            },
+            "notifications": {
+                "settings_label": "Someone adds me to the {attendees} list of {events}, or responds to {events} I host",
+                "invited": "{username} added you to their {event}. Are you coming?",
+                "offered": "{username} offered you a {spot}! Reply by {time} to take it",
+                "request": "{username} asked to join your {event}",
+                "accepted": "{username} is in for your {event}",
+                "declined": "{username} can't make your {event}",
+                "left": "{username} dropped out of your {event}",
+                "left_waitlist": "{username} left the wait list for your {event}",
+                "approved_seat": "{username} approved your request to join the {event}",
+                "approved_waitlist": "{username} put you on the wait list for the {event}",
+                "expired": "Your {spot} offer expired",
+                "expired_host": "{username} didn't take the offered {spot} in time"
+            }
+        },
+        "email": {
+            "invited": {
+                "subject": "[{Event}] {actor} added you to {title}",
+                "body": "{actor} added you to the {attendees} list for **{title}**. Let them know if you're coming:\n\n{url}"
+            },
+            "offered": {
+                "subject": "[{Event}] {actor} offered you a {spot}: {title}",
+                "body": "{actor} offered you a {spot} in **{title}**. Reply within {hours} hours to take it:\n\n{url}"
+            },
+            "request": {
+                "subject": "[{Event}] {actor} asked to join {title}",
+                "body": "{actor} asked to join **{title}**. Approve or remove them from the {attendees} list:\n\n{url}"
+            },
+            "accepted": {
+                "subject": "[{Event}] {actor} is in for {title}",
+                "body": "{actor} confirmed for **{title}**.\n\n{url}"
+            },
+            "declined": {
+                "subject": "[{Event}] {actor} can't make {title}",
+                "body": "{actor} can't make **{title}**. Their {spot} is open; you can add someone from the wait list.\n\n{url}"
+            },
+            "left": {
+                "subject": "[{Event}] {actor} dropped out of {title}",
+                "body": "{actor} dropped out of **{title}**. Their {spot} is open; you can add someone from the wait list.\n\n{url}"
+            },
+            "left_waitlist": {
+                "subject": "[{Event}] {actor} left the wait list for {title}",
+                "body": "{actor} left the wait list for **{title}**.\n\n{url}"
+            },
+            "approved_seat": {
+                "subject": "[{Event}] You're in: {title}",
+                "body": "{actor} approved your request to join **{title}**. See you there!\n\n{url}"
+            },
+            "approved_waitlist": {
+                "subject": "[{Event}] You're on the wait list: {title}",
+                "body": "{actor} put you on the wait list for **{title}**. The host will let you know if a {spot} opens up.\n\n{url}"
+            },
+            "expired": {
+                "subject": "[{Event}] Your {spot} offer expired: {title}",
+                "body": "The {spot} offer for **{title}** expired. The host can still offer it to you again.\n\n{url}"
+            },
+            "expired_host": {
+                "subject": "[{Event}] {actor} didn't take the {spot} in {title}",
+                "body": "{actor} didn't reply to the {spot} offer for **{title}** in time. The {spot} is open again.\n\n{url}"
+            }
+        },
+        "api": {
+            "waitlist_off": "This {event} has no wait list.",
+            "full_no_waitlist": "This {event} is full and has no wait list.",
+            "date_required": "Every {event} needs a date and time. Fill in \"When?\" to continue.",
+            "no_list": "This {event} has no {attendees} list.",
+            "not_events_tag": "{Attendees} lists are only available on discussions in the events tag.",
+            "list_needs_date": "Add a date and time first: a list of {attendees} can only be added once the {event} has a date.",
+            "date_has_list": "This {event} has a list of {attendees}, so it needs a date. You can change the date, or remove the {attendees} list first.",
+            "no_requests": "The host is not taking requests for this {event}.",
+            "already_listed": "You are already on the list for this {event}.",
+            "member_not_found": "That member could not be found.",
+            "member_already_listed": "{name} is already on the list.",
+            "guest_name_required": "Type a name to add.",
+            "not_on_list": "That {attendee} is no longer on the list.",
+            "unknown_action": "Unknown action.",
+            "next_title_required": "Enter a title for the next {event}.",
+            "next_date_required": "Pick a date and time for the next {event}.",
+            "no_post_text": "The first post has no text to copy.",
+            "no_open_spots": "All {spots} are taken. Add a {spot} or move someone to the wait list first.",
+            "list_changed": "Your place on the list has changed. Refresh the page and try again."
+        },
+        "admin": {
+            "settings": {
+                "events_tag": "Events tag",
+                "events_tag_help": "Pick the tag you use for events. Discussions started in this tag get a \"When?\" date and time box in the composer. Once a discussion has a date, it shows on the calendar page (/events) and its starter can add an attendee list. The date is optional unless you turn on the setting below; a discussion in this tag without a date is just a normal discussion. Discussions in other tags aren't affected. The \"Post Event\" button on the calendar page starts a discussion in this tag.",
+                "go_heading": "When an event has enough attendees",
+                "go_help": "Hosts can set a minimum number of attendees for an event to go ahead. Once enough have confirmed, the attendee list shows this message. You can use '{Event}', '{event}', '{Attendees}' and the other wording placeholders. Leave it empty for the default.",
+                "go_placeholder": "It's on! See you there.",
+                "waitlist_enabled": "Allow wait lists",
+                "waitlist_enabled_help": "When this is on, each event's attendee list can have a wait list for when it's full, and hosts can still turn it off for their own event. When it's off, no event has a wait list. Once every spot is taken nobody else can join, and the wait list options are hidden. People already on a wait list stay listed until the host moves or removes them.",
+                "require_date": "Every event must have a date and time",
+                "require_date_help": "When this is on, a new discussion in the events tag can't be posted until \"When?\" is filled in, and an event's date can be changed but not removed. Discussions that already exist without a date aren't changed.",
+                "who_help": "Who can post events: anyone who can start a discussion in the events tag can post an event. To limit it to certain groups, go to <a>Permissions</a>, restrict the events tag, and choose who can \"Start discussions\" in it. Viewing and replying work the same way, through the tag's own permissions.",
+                "words_heading": "Wording",
+                "words_help": "What your forum calls these things. Every button, label, notification and email uses them. Leave a box empty for the default shown in it.",
+                "word_event": "One event",
+                "word_events": "Several events",
+                "word_attendee": "One attendee",
+                "word_attendees": "Several attendees",
+                "word_spot": "One spot",
+                "word_spots": "Several spots"
+            }
+        }
+    }
+}
