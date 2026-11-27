@@ -12,8 +12,8 @@
             },
             "sections": {
                 "columns": {
-                    "description": "",
-                    "label": ""
+                    "description": "Combien de colonnes les membres peuvent-ils ajouter à leur deck et à quelle fréquence ces colonnes sont-elles actualisées.",
+                    "label": "Colonnes"
                 }
             }
         },
@@ -37,7 +37,7 @@
                 "submit_button": "Ajouter colonne",
                 "title": "Ajouter une colonne",
                 "use_filters_button": "Utiliser ces filtres",
-                "filter_unknown_message": ""
+                "filter_unknown_message": "{count, plural, one {{parts} n'est pas un filtre pour les discussions.} other {{parts} ne sont pas des filtres pour les discussions.}} Utilisez des filtres tels que « étiquette:support» ou «est:non lue »."
             },
             "column": {
                 "controls_label": "Options de la colonne {title}",
@@ -55,7 +55,7 @@
                 "remove_button": "Supprimer la colonne",
                 "reset_width_button": "Réinitialiser la largeur",
                 "resize_label": "Redimensionner {title}",
-                "edit_button": ""
+                "edit_button": "Modifier la colonne"
             },
             "column_types": {
                 "all": "Toutes les discussions",
@@ -109,9 +109,9 @@
                 "title": "Deck"
             },
             "edit_column": {
-                "name_label": "",
-                "submit_button": "",
-                "title": ""
+                "name_label": "Nom",
+                "submit_button": "Enregistrer",
+                "title": "Modifier la colonne"
             }
         }
     }
