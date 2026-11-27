@@ -16,7 +16,12 @@
             "no_attempts_left": "",
             "no_questions": "",
             "slow_down": "",
-            "busy": ""
+            "busy": "",
+            "course": "",
+            "assessment_title": "",
+            "assessment_empty": "",
+            "assessment_too_many": "",
+            "assessment_quiz": ""
         },
         "lib": {
             "units": {
@@ -40,6 +45,7 @@
                 "create": ""
             },
             "facts": {
+                "course_only": "",
                 "questions": "",
                 "pass_mark": "",
                 "attempts": "",
@@ -61,6 +67,8 @@
             "index": {
                 "title": "",
                 "new": "",
+                "new_assessment": "",
+                "no_assessments": "",
                 "search": "",
                 "more": "",
                 "empty": "",
@@ -68,8 +76,59 @@
                 "tabs": {
                     "new": "",
                     "popular": "",
-                    "mine": ""
+                    "mine": "",
+                    "assessments": ""
                 }
+            },
+            "assessment": {
+                "missing": "",
+                "count": "",
+                "pass_mark": "",
+                "progress": "",
+                "standing": "",
+                "complete": "",
+                "in_progress": "",
+                "not_started": "",
+                "log_in": "",
+                "weighted_note": "",
+                "locked": "",
+                "optional": "",
+                "weight": "",
+                "not_taken": "",
+                "open": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": ""
+            },
+            "assessment_editor": {
+                "new_title": "",
+                "edit_title": "",
+                "title": "",
+                "description": "",
+                "quizzes": "",
+                "quizzes_help": "",
+                "add": "",
+                "all_added": "",
+                "no_quizzes": "",
+                "quiz_number": "",
+                "weight": "",
+                "required": "",
+                "up": "",
+                "down": "",
+                "remove": "",
+                "settings": "",
+                "pass_mark": "",
+                "pass_mark_help": "",
+                "weighting": "",
+                "weighting_equal": "",
+                "weighting_weighted": "",
+                "save_draft": "",
+                "unpublish": "",
+                "publish": "",
+                "save": "",
+                "saved": "",
+                "published": "",
+                "save_failed": ""
             },
             "quiz": {
                 "all": "",
@@ -230,6 +289,10 @@
                 "reward_points": "",
                 "reward_points_help": "",
                 "reward_badge": "",
+                "course": "",
+                "course_everyone": "",
+                "course_other": "",
+                "course_help": "",
                 "no_badge": "",
                 "save_draft": "",
                 "unpublish": "",
@@ -263,6 +326,7 @@
             },
             "settings": {
                 "show_nav": "",
+                "show_nav_help": "",
                 "editors_count": "",
                 "editors_count_help": ""
             },

@@ -16,7 +16,12 @@
             "no_attempts_left": "Du hast alle deine Versuche für dieses Quiz aufgebraucht.",
             "no_questions": "Dieses Quiz hat noch keine Fragen.",
             "slow_down": "Das ist ziemlich viel in so kurzer Zeit. Warte ein paar Minuten und versuche es dann erneut.",
-            "busy": ""
+            "busy": "",
+            "course": "",
+            "assessment_title": "",
+            "assessment_empty": "",
+            "assessment_too_many": "",
+            "assessment_quiz": ""
         },
         "lib": {
             "units": {
@@ -40,6 +45,7 @@
                 "create": "Neues Quiz schreiben"
             },
             "facts": {
+                "course_only": "",
                 "questions": "{count, plural, one {# Frage} other {# Fragen}}",
                 "pass_mark": "Mindestpunktzahl zum Bestehen: {mark} %",
                 "attempts": "{count, plural, one {# Versuch} other {# Versuche}}",
@@ -61,6 +67,8 @@
             "index": {
                 "title": "Quiz",
                 "new": "Neues Quiz",
+                "new_assessment": "",
+                "no_assessments": "",
                 "search": "Quiz durchsuchen",
                 "more": "Mehr laden",
                 "empty": "Noch keine Quiz.",
@@ -68,8 +76,59 @@
                 "tabs": {
                     "new": "Neueste",
                     "popular": "Meistgespielt",
-                    "mine": "Meine"
+                    "mine": "Meine",
+                    "assessments": ""
                 }
+            },
+            "assessment": {
+                "missing": "",
+                "count": "",
+                "pass_mark": "",
+                "progress": "",
+                "standing": "",
+                "complete": "",
+                "in_progress": "",
+                "not_started": "",
+                "log_in": "",
+                "weighted_note": "",
+                "locked": "",
+                "optional": "",
+                "weight": "",
+                "not_taken": "",
+                "open": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": ""
+            },
+            "assessment_editor": {
+                "new_title": "",
+                "edit_title": "",
+                "title": "",
+                "description": "",
+                "quizzes": "",
+                "quizzes_help": "",
+                "add": "",
+                "all_added": "",
+                "no_quizzes": "",
+                "quiz_number": "",
+                "weight": "",
+                "required": "",
+                "up": "",
+                "down": "",
+                "remove": "",
+                "settings": "",
+                "pass_mark": "",
+                "pass_mark_help": "",
+                "weighting": "",
+                "weighting_equal": "",
+                "weighting_weighted": "",
+                "save_draft": "",
+                "unpublish": "",
+                "publish": "",
+                "save": "",
+                "saved": "",
+                "published": "",
+                "save_failed": ""
             },
             "quiz": {
                 "all": "Alle Quiz",
@@ -230,6 +289,10 @@
                 "reward_points": "",
                 "reward_points_help": "",
                 "reward_badge": "",
+                "course": "",
+                "course_everyone": "",
+                "course_other": "",
+                "course_help": "",
                 "no_badge": "",
                 "save_draft": "",
                 "unpublish": "",
@@ -263,6 +326,7 @@
             },
             "settings": {
                 "show_nav": "",
+                "show_nav_help": "",
                 "editors_count": "",
                 "editors_count_help": ""
             },

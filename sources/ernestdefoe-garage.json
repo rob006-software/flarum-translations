@@ -161,13 +161,43 @@
                 "empty_own": "Your garage is empty. Add your first build and show it off!",
                 "likes": "{count, plural, one {like} other {likes}}",
                 "spent": "spent",
+                "team_builds": "Team builds",
                 "updates": "{count, plural, one {update} other {updates}}"
             },
             "notifications": {
                 "comment": "{username} commented on {build}",
                 "comment_setting": "Someone comments on my build",
                 "new_entry": "{username} posted an update to {build}",
-                "new_entry_setting": "Someone posts an update to a build I follow"
+                "new_entry_setting": "Someone posts an update to a build I follow",
+                "team_invite": "{username} invited you to the team of {build}",
+                "team_invite_setting": "Someone invites me to a build's team",
+                "team_joined": "{username} joined the team of {build}",
+                "team_joined_setting": "Someone accepts my invite to a build's team"
+            },
+            "team": {
+                "accept": "Join the team",
+                "decline": "Decline",
+                "empty": "Nobody's on the team yet. Invite members above.",
+                "heading": "Team",
+                "invite": "Send invite",
+                "invite_first": "Invite a team",
+                "invite_heading": "Invite a member",
+                "invited": "Invited",
+                "invited_as": "{username} invited you to this build's team as {role}.",
+                "invited_plain": "{username} invited you to this build's team.",
+                "leave": "Leave team",
+                "leave_confirm": "Leave this build's team? The owner can invite you again.",
+                "manage": "Manage team",
+                "manage_title": "Team",
+                "member_label": "Member",
+                "member_placeholder": "Username",
+                "no_such_member": "Nobody here is called {username}. Check the spelling.",
+                "owner": "Owner",
+                "remove": "Remove {username} from the team",
+                "role_for": "{username}'s role",
+                "role_label": "Role",
+                "role_placeholder": "Like Backend developer or QA",
+                "withdraw": "Withdraw {username}'s invite"
             },
             "signature": {
                 "label": "My build"
@@ -232,14 +262,22 @@
         },
         "lib": {
             "gdpr": {
-                "export": "Garage: the member's builds with their photos, spec sheets, stories and build logs, and their comments.",
-                "delete": "Garage: the member's builds (photos and build logs included), comments, likes and follows are deleted."
+                "export": "Garage: the member's builds with their photos, spec sheets, stories and build logs, their comments, and the teams they're on.",
+                "delete": "Garage: the member's builds (photos and build logs included), comments, likes, follows and team places are deleted."
             }
         },
         "api": {
             "last_category": "The last category can't be deleted while it has builds.",
             "photo_not_found": "That photo couldn't be found. Upload it again.",
             "text_too_long": "That's too long to save. Shorten it and try again.",
+            "team": {
+                "already": "They're already on this build's team, or invited to it.",
+                "cannot_see": "They can't see this build, so they can't join its team.",
+                "draft": "Publish the build before you invite a team.",
+                "full": "A team can have up to {count} members, invites included.",
+                "not_found": "That member wasn't found."
+            },
+            "too_many_invites": "You've sent a lot of invites in a short time. Try again later.",
             "too_many_builds": "You can have up to {count} builds.",
             "too_many_comments": "You're commenting too fast. Wait a minute and try again.",
             "too_many_entries": "A build log can have up to {count} updates.",

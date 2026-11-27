@@ -16,7 +16,12 @@
             "no_attempts_left": "Ви використали всі спроби пройти цей тест.",
             "no_questions": "У цьому тесті ще немає запитань.",
             "slow_down": "Забагато запитів за короткий час. Зачекайте кілька хвилин і спробуйте ще раз.",
-            "busy": "Ваша спроба ще запускається. Спробуйте ще раз за мить."
+            "busy": "Ваша спроба ще запускається. Спробуйте ще раз за мить.",
+            "course": "",
+            "assessment_title": "",
+            "assessment_empty": "",
+            "assessment_too_many": "",
+            "assessment_quiz": ""
         },
         "lib": {
             "units": {
@@ -40,6 +45,7 @@
                 "create": "Створити новий тест"
             },
             "facts": {
+                "course_only": "",
                 "questions": "{count, plural, one {# запитання} few {# запитання} many {# запитань} other {# запитання}}",
                 "pass_mark": "Прохідний бал: {mark}%",
                 "attempts": "{count, plural, one {# спроба} few {# спроби} many {# спроб} other {# спроби}}",
@@ -61,6 +67,8 @@
             "index": {
                 "title": "Тести",
                 "new": "Новий тест",
+                "new_assessment": "",
+                "no_assessments": "",
                 "search": "Шукати тести",
                 "more": "Завантажити ще",
                 "empty": "Тестів ще немає.",
@@ -68,8 +76,59 @@
                 "tabs": {
                     "new": "Найновіші",
                     "popular": "Найпопулярніші",
-                    "mine": "Мої тести"
+                    "mine": "Мої тести",
+                    "assessments": ""
                 }
+            },
+            "assessment": {
+                "missing": "",
+                "count": "",
+                "pass_mark": "",
+                "progress": "",
+                "standing": "",
+                "complete": "",
+                "in_progress": "",
+                "not_started": "",
+                "log_in": "",
+                "weighted_note": "",
+                "locked": "",
+                "optional": "",
+                "weight": "",
+                "not_taken": "",
+                "open": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": ""
+            },
+            "assessment_editor": {
+                "new_title": "",
+                "edit_title": "",
+                "title": "",
+                "description": "",
+                "quizzes": "",
+                "quizzes_help": "",
+                "add": "",
+                "all_added": "",
+                "no_quizzes": "",
+                "quiz_number": "",
+                "weight": "",
+                "required": "",
+                "up": "",
+                "down": "",
+                "remove": "",
+                "settings": "",
+                "pass_mark": "",
+                "pass_mark_help": "",
+                "weighting": "",
+                "weighting_equal": "",
+                "weighting_weighted": "",
+                "save_draft": "",
+                "unpublish": "",
+                "publish": "",
+                "save": "",
+                "saved": "",
+                "published": "",
+                "save_failed": ""
             },
             "quiz": {
                 "all": "Усі тести",
@@ -230,6 +289,10 @@
                 "reward_points": "Бали",
                 "reward_points_help": "Бали FoF Gamification.",
                 "reward_badge": "Відзнака",
+                "course": "",
+                "course_everyone": "",
+                "course_other": "",
+                "course_help": "",
                 "no_badge": "Без відзнаки",
                 "save_draft": "Зберегти чернетку",
                 "unpublish": "Повернути до чернеток",
@@ -263,6 +326,7 @@
             },
             "settings": {
                 "show_nav": "Показувати «Тести» в бічній навігації",
+                "show_nav_help": "",
                 "editors_count": "Ураховувати спроби авторів тестів",
                 "editors_count_help": "Якщо вимкнено, автори й адміністратори тесту бачать відповіді, тому їхні спроби враховуються лише як тренувальні. Якщо ввімкнено, після публікації й відкриття тесту їхні спроби враховуються нарівні з іншими для рейтингів, лімітів і винагород. Це зручно, коли запитання підготувала інша людина або ШІ, а автор не знає відповідей. Спроби для чернеток і ще не відкритих тестів залишаються тренувальними."
             },

@@ -18,11 +18,13 @@
                 "fade": "Überblendung",
                 "off": "Aus"
             },
-            "speed_label": "Übergangsgeschwindigkeit",
-            "speed": {
-                "fast": "Schnell",
-                "normal": "Normal",
-                "slow": "Langsam"
+            "duration_label": "",
+            "duration_help": "",
+            "exclude": {
+                "label": "",
+                "help": "",
+                "placeholder": "",
+                "invalid": ""
             },
             "full_page_label": "Gleichmäßiges Laden ganzer Seiten",
             "full_page_help": "Es erfolgt ein Überblend-Effekt, wenn der Browser eine komplett neue Seite innerhalb des Forums lädt, beispielsweise nach der Anmeldung, anstatt zunächst einen leeren Bildschirm anzuzeigen.",
@@ -39,6 +41,12 @@
                 "remove": "Dieses Symbol entfernen",
                 "upload": "Füge dein eigenes hinzu",
                 "upload_help": "Laden Sie eine GIF-, PNG-, WebP- oder JPEG-Datei mit einer Größe von bis zu 2 MB hoch. Animierte GIFs und WebP-Dateien werden weiterhin abgespielt. Symbole werden sofort nach dem Hochladen gespeichert; um eines auszuwählen, müssen Sie weiterhin auf „Änderungen speichern“ klicken."
+            },
+            "speed_label": "Übergangsgeschwindigkeit",
+            "speed": {
+                "fast": "Schnell",
+                "normal": "Normal",
+                "slow": "Langsam"
             }
         },
         "api": {

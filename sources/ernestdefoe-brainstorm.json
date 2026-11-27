@@ -16,7 +16,12 @@
             "no_attempts_left": "You have used all your attempts at this quiz.",
             "no_questions": "This quiz has no questions yet.",
             "slow_down": "Too many requests in a short time. Wait a few minutes and try again.",
-            "busy": "Still starting your attempt. Try again in a moment."
+            "busy": "Still starting your attempt. Try again in a moment.",
+            "course": "You can only limit a quiz to a course you teach.",
+            "assessment_title": "Give the assessment a title of up to 200 characters.",
+            "assessment_empty": "Add at least one quiz before publishing.",
+            "assessment_too_many": "An assessment can hold up to {max} quizzes.",
+            "assessment_quiz": "One of the quizzes can't be found, or you can't see it."
         },
         "lib": {
             "units": {
@@ -40,6 +45,7 @@
                 "create": "Write a new quiz"
             },
             "facts": {
+                "course_only": "Course members only",
                 "questions": "{count, plural, one {# question} other {# questions}}",
                 "pass_mark": "Passing score: {mark}%",
                 "attempts": "{count, plural, one {# attempt} other {# attempts}}",
@@ -61,6 +67,8 @@
             "index": {
                 "title": "Quizzes",
                 "new": "New quiz",
+                "new_assessment": "New assessment",
+                "no_assessments": "No assessments yet.",
                 "search": "Search quizzes",
                 "more": "Load more",
                 "empty": "No quizzes yet.",
@@ -68,8 +76,59 @@
                 "tabs": {
                     "new": "Newest",
                     "popular": "Most played",
-                    "mine": "Mine"
+                    "mine": "Mine",
+                    "assessments": "Assessments"
                 }
+            },
+            "assessment": {
+                "missing": "This assessment doesn't exist, or you can't see it.",
+                "count": "{count, plural, one {# quiz} other {# quizzes}}",
+                "pass_mark": "Passing score: {mark}%",
+                "progress": "{done} of {total} quizzes finished · {required} required · passing score {mark}%",
+                "standing": "{percent} · {done} of {total} finished",
+                "complete": "Completed!",
+                "in_progress": "In progress",
+                "not_started": "Not started yet",
+                "log_in": "Log in to see your progress.",
+                "weighted_note": "Some quizzes count more than others toward the overall result.",
+                "locked": "A quiz you can't see yet",
+                "optional": "Optional",
+                "weight": "Counts ×{weight}",
+                "not_taken": "Not taken yet",
+                "open": "Open",
+                "edit": "Edit assessment",
+                "delete": "Delete",
+                "delete_confirm": "Delete this assessment? Its quizzes and everyone's results at them stay."
+            },
+            "assessment_editor": {
+                "new_title": "New assessment",
+                "edit_title": "Edit assessment",
+                "title": "Title",
+                "description": "Description",
+                "quizzes": "Quizzes ({count})",
+                "quizzes_help": "Each quiz stays its own quiz. The overall result is the average of a member's best score at the quizzes they have finished.",
+                "add": "Add a quiz…",
+                "all_added": "Every quiz you can add is already here.",
+                "no_quizzes": "There are no quizzes to add yet.",
+                "quiz_number": "Quiz {id}",
+                "weight": "Weight",
+                "required": "Required",
+                "up": "Move up",
+                "down": "Move down",
+                "remove": "Remove",
+                "settings": "Settings",
+                "pass_mark": "Passing score (%)",
+                "pass_mark_help": "Completed when every required quiz is finished and the average reaches this.",
+                "weighting": "Overall result",
+                "weighting_equal": "Every quiz counts the same",
+                "weighting_weighted": "Weighted (set a weight per quiz)",
+                "save_draft": "Save draft",
+                "unpublish": "Back to draft",
+                "publish": "Publish",
+                "save": "Save",
+                "saved": "Saved.",
+                "published": "Published.",
+                "save_failed": "The assessment couldn't be saved."
             },
             "quiz": {
                 "all": "All quizzes",
@@ -230,6 +289,10 @@
                 "reward_points": "Points",
                 "reward_points_help": "FoF Gamification points.",
                 "reward_badge": "Badge",
+                "course": "Who can take it",
+                "course_everyone": "Everyone who can view quizzes",
+                "course_other": "Another course (kept as it is)",
+                "course_help": "Limit the quiz to members enrolled in one of your Syllabus courses. Its instructors and course managers see it too.",
                 "no_badge": "No badge",
                 "save_draft": "Save draft",
                 "unpublish": "Back to draft",
@@ -263,6 +326,7 @@
             },
             "settings": {
                 "show_nav": "Show \"Quizzes\" in the sidebar navigation",
+                "show_nav_help": "Off hides the link from visitors and members. Admins and members who may write quizzes still see it, so they can reach the quiz list and the editor.",
                 "editors_count": "Count quiz writers' own attempts",
                 "editors_count_help": "Off: whoever writes or manages a quiz can see its answers, so their attempts only count as practice. On: once a quiz is published and open, their attempts count like anyone's: leaderboards, attempt limits and rewards. Useful when the questions came from someone else (or an AI) and the writer doesn't know the answers. Drafts and quizzes not open yet stay practice."
             },

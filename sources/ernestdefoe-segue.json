@@ -12,17 +12,19 @@
             "color_label": "Icon color",
             "color_help": "Leave empty to use the forum's primary color. Uploaded icons keep their own colors.",
             "transitions_label": "Page transitions",
-            "transitions_help": "Glide: the header stays still, the page fades in as it rises, and a discussion's title and starter's avatar glide from the list into the discussion (and back). Fade: a plain cross-fade. Works in browsers that support View Transitions; others open pages as before. Members who ask their device for reduced motion get no animation.",
+            "transitions_help": "Glide: the header stays still, the page fades in as it rises, and a discussion's title and starter's avatar glide from the list into the discussion (and back). Fade: a plain cross-fade. Works in browsers that support View Transitions; others open pages as before. Members who ask their device for reduced motion get no animation. While a page opens, Segue waits a moment for its widgets to load, so the page doesn't jump once it's shown.",
             "transitions": {
                 "glide": "Glide",
                 "fade": "Fade",
                 "off": "Off"
             },
-            "speed_label": "Transition speed",
-            "speed": {
-                "fast": "Fast",
-                "normal": "Normal",
-                "slow": "Slow"
+            "duration_label": "Transition time (seconds)",
+            "duration_help": "How long one page transition takes, from 0.2 to 2 seconds. 0.5 is the default.",
+            "exclude": {
+                "label": "Keep these elements still",
+                "help": "One CSS selector per line, such as .TopBar or #my-banner. Matching elements stay where they are during a page transition instead of fading and rising with the page. A line that isn't a valid selector is skipped.",
+                "placeholder": ".TopBar",
+                "invalid": "These lines aren't valid selectors and will be skipped: {selectors}"
             },
             "full_page_label": "Smooth full page loads",
             "full_page_help": "Cross-fades when the browser loads a whole new page within the forum, such as after signing in, instead of going blank first.",

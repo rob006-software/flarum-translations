@@ -161,13 +161,43 @@
                 "empty_own": "У вашому гаражі порожньо. Додайте першу збірку й покажіть її всім!",
                 "likes": "{count, plural, one {вподобання} few {вподобання} many {вподобань} other {вподобання}}",
                 "spent": "витрачено",
+                "team_builds": "",
                 "updates": "{count, plural, one {оновлення} few {оновлення} many {оновлень} other {оновлення}}"
             },
             "notifications": {
                 "comment": "{username} прокоментував збірку «{build}»",
                 "comment_setting": "Хтось коментує мою збірку",
                 "new_entry": "{username} опублікував оновлення для збірки «{build}»",
-                "new_entry_setting": "Хтось оновлює збірку, яку я відстежую"
+                "new_entry_setting": "Хтось оновлює збірку, яку я відстежую",
+                "team_invite": "",
+                "team_invite_setting": "",
+                "team_joined": "",
+                "team_joined_setting": ""
+            },
+            "team": {
+                "accept": "",
+                "decline": "",
+                "empty": "",
+                "heading": "",
+                "invite": "",
+                "invite_first": "",
+                "invite_heading": "",
+                "invited": "",
+                "invited_as": "",
+                "invited_plain": "",
+                "leave": "",
+                "leave_confirm": "",
+                "manage": "",
+                "manage_title": "",
+                "member_label": "",
+                "member_placeholder": "",
+                "no_such_member": "",
+                "owner": "",
+                "remove": "",
+                "role_for": "",
+                "role_label": "",
+                "role_placeholder": "",
+                "withdraw": ""
             },
             "signature": {
                 "label": "Моя збірка"
@@ -240,6 +270,14 @@
             "last_category": "Останню категорію не можна видалити, доки в ній є збірки.",
             "photo_not_found": "Не вдалося знайти фото. Завантажте його ще раз.",
             "text_too_long": "Текст задовгий для збереження. Скоротіть його й спробуйте ще раз.",
+            "team": {
+                "already": "",
+                "cannot_see": "",
+                "draft": "",
+                "full": "",
+                "not_found": ""
+            },
+            "too_many_invites": "",
             "too_many_builds": "Ви можете мати до {count} збірок.",
             "too_many_comments": "Ви коментуєте надто часто. Зачекайте хвилину й спробуйте ще раз.",
             "too_many_entries": "У журналі збірки може бути до {count} оновлень.",
