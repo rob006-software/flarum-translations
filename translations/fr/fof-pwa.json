@@ -89,32 +89,32 @@
                 "key_gen_failed": "La génération des clés nécessaires aux notifications poussées a échouée. Le message d'erreur complet est : {error}",
                 "suggest_gmp": "L’extension PHP gmp ne semble pas être activée sur votre serveur. Elle n’est pas absolument nécessaire, mais peut améliorer les performances et est recommandée. Certains hébergements partagés peuvent ne pas supporter cette fonctionnalité.",
                 "success": "Aucun problème potentiel trouvé !",
-                "check_failed": ""
+                "check_failed": "Les vérifications d'état n'ont pas pu être chargées. Actualisez la page pour réessayer."
             },
             "tabs": {
-                "app": "",
-                "push": ""
+                "app": "Application",
+                "push": "Notifications push"
             },
             "sections": {
                 "status": {
-                    "label": "",
-                    "description": ""
+                    "label": "Statut",
+                    "description": "Ce dont le forum a encore besoin pour pouvoir être installé en tant qu'application et envoyer des notifications push."
                 },
                 "home_screen": {
-                    "label": "",
-                    "description": ""
+                    "label": "Écran d'accueil",
+                    "description": "L'icône de l'application, l'arrière-plan de l'écran de démarrage et la couleur principale sont définis sur la <appearance>page Apparence</appearance>, tout comme le fait que le forum s'ouvre ou non sous forme d'application. Son nom correspond au titre du forum, et son nom abrégé est indiqué à côté sur la <basics>page Essentiels</basics>. Ce sont les navigateurs qui décident quand proposer l'installation de l'application ; pensez donc à indiquer aux membres comment l'ajouter à leur écran d'accueil."
                 },
                 "sharing": {
-                    "label": ""
+                    "label": "Partage"
                 },
                 "delivery": {
-                    "label": ""
+                    "label": "Livraison"
                 },
                 "keys": {
-                    "label": ""
+                    "label": "Clés VAPID"
                 },
                 "troubleshooting": {
-                    "label": ""
+                    "label": "Dépannage"
                 }
             }
         },
