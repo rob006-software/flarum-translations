@@ -14,7 +14,7 @@
                         "description": "",
                         "end_button": "Sulge ja mine lisaprogrammi lehele",
                         "issue_question": "Kas see probleem on veel alles?",
-                        "issue_question_help": "",
+                        "issue_question_help": "Proovi probleemi taasluua teisel lehel ja vasta siin vastavalt tulemusele.",
                         "no_button": "Ei",
                         "result_description": "",
                         "start_button": "Alusta veatuvastust",
@@ -28,12 +28,12 @@
                         "label": "Sinu fail <code>config.php</code> kirjutab need seaded üle.",
                         "help": ""
                     },
-                    "help": "",
+                    "help": "Pane oma foorum hooldusrežiimi, et kasutajad sellele ligi ei saaks.",
                     "options": {
                         "none": "Pole hooldamisel.",
                         "high": "",
                         "low": "",
-                        "safe": ""
+                        "safe": "Turvaline režiim. Ühtegi lisaprogrammi ei käivitata ja ainult adminid näevad foorumit."
                     },
                     "safe_mode_extensions": "",
                     "safe_mode_extensions_override_help": "",
@@ -84,7 +84,7 @@
                     "timeout_label": "Töö aegumine (sekundites)",
                     "timeout_help": "",
                     "rest_label": "Puhkamise aeg (sekundites)",
-                    "rest_help": "",
+                    "rest_help": "Erinevate tööde vahel ootamise aeg. Vaikeväärtus on 0 sekundit.",
                     "backoff_label": "",
                     "backoff_help": ""
                 },
@@ -98,15 +98,15 @@
                     "no_other_drivers": "",
                     "cjk_mode_label": "",
                     "cjk_mode_help": "",
-                    "min_length_label": "",
+                    "min_length_label": "Minimaalne otsingu pikkus",
                     "min_length_help": ""
                 },
                 "title": "Edasijõudnutele",
                 "sessions": {
-                    "section_label": "",
-                    "lifetime_label": "",
+                    "section_label": "Sessioonid",
+                    "lifetime_label": "Sessiooni pikkus (minutites)",
                     "lifetime_help": "",
-                    "cookie_expires_on_close_label": "",
+                    "cookie_expires_on_close_label": "Sulge sessioonid, kui brauser suletakse",
                     "cookie_expires_on_close_help": "",
                     "duration_value_label": "Pikkus",
                     "duration_unit_label": "Ühik",
@@ -133,12 +133,12 @@
                     },
                     "config_override": {
                         "label": "Seadistatud failis config.php",
-                        "help": ""
+                        "help": "Sessiooni pikkused on määratud failis config.php ja neid ei saa siin muuta."
                     }
                 }
             },
             "appearance": {
-                "allow_user_color_scheme_label": "",
+                "allow_user_color_scheme_label": "Luba kasutajatel nende endi värviskeeme valida",
                 "colored_header_label": "Värviline päis",
                 "colors_heading": "Värvid",
                 "colors_primary_label": "Põhivärv",
@@ -271,7 +271,7 @@
                         "label": "Lingid"
                     }
                 },
-                "show_post_source_label": "",
+                "show_post_source_label": "Näita, kudias postitus loodi",
                 "show_post_source_text": ""
             },
             "create_user": {
@@ -322,11 +322,11 @@
                 "clear_cache_modal": {
                     "title": "Tühjenda vahemälu",
                     "working": "",
-                    "cleared": "",
+                    "cleared": "Tühjendatud {name}",
                     "cleared_files": "Tühjendatud {name} ({count} faili)",
-                    "rebuilt": "",
-                    "unchanged": "",
-                    "rewritten": "",
+                    "rebuilt": "Ehita uuesti {bundle}",
+                    "unchanged": "{bundle} oli juba ajakohane",
+                    "rewritten": "Kirjuta uuesti {bundle}",
                     "empty": "",
                     "chunks": "",
                     "failed": "",
@@ -372,7 +372,7 @@
                 "section_suggested_help": "",
                 "section_disabled_heading": "Välja lülitatud",
                 "section_disabled_help": "",
-                "suggested_by": ""
+                "suggested_by": "Soovitaja {extension}"
             },
             "database-driver-mismatch-warning": {
                 "detail": "",
@@ -518,7 +518,7 @@
                 },
                 "safe_mode_warning": "",
                 "general_tab": "Üldine",
-                "no_settings_or_permissions": "",
+                "no_settings_or_permissions": "Sellel lisaprogrammil pole seadeid või õiguseid.",
                 "unsaved_changes": "Salvestamata muudatused"
             },
             "header": {
@@ -626,8 +626,8 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Vali pilt...",
-                "set_by_extension_text": "",
-                "set_in_code_text": ""
+                "set_by_extension_text": "Selle määras lisaprogramm {extension} ja seega ei saa seda siin muuta.",
+                "set_in_code_text": "See on määratud foorumi koodis ja seda ei saa siin muuta."
             },
             "users": {
                 "create_user_button": "Uus kasutaja",
@@ -678,18 +678,18 @@
             "streaming-warning": {
                 "check_again_button": "Kontrolli uuesti",
                 "detail": "",
-                "label": ""
+                "label": "Tagasi hoitud vastused"
             },
             "email_bounces": {
-                "title": "",
+                "title": "E-posti tagasi põrkamised",
                 "about": "",
                 "refresh": "Värskenda",
-                "load_error": "",
+                "load_error": "Tagasipõrkamise statistika laadimine ebaõnnestus. Proovi hiljem uuesti.",
                 "period_hour": "Viimane tund",
                 "period_week": "Viimane nädal",
                 "period_month": "Eelmine kuu",
                 "period_total": "Kogu aeg",
-                "affected": "",
+                "affected": "{count, plural, =0 {Ükski aadress pole praegu mõjutatud} one {# aasdress on praegu mõjutatud} other {# aadressi on praegu mõjutatud}}",
                 "recovered": "",
                 "not_configured": "",
                 "view_affected": "Vaata mõjutatud kasutajaid"
@@ -792,7 +792,7 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Otse põhisisu juurde",
                 "toggle_sidenav_dropdown_accessible_label": "Näita navigeerimise menüüd",
-                "mark_filtered_as_read_confirmation": ""
+                "mark_filtered_as_read_confirmation": "Oled sa kindel, et soovid oma praegusele filtrile vastavad postitused loetuks märkida?"
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -831,9 +831,9 @@
                 "edited_tooltip": "{username} muutis {ago}",
                 "number_tooltip": "Postitus #{number}",
                 "source_api_label": "API",
-                "source_api_tooltip": "",
-                "source_app_tooltip": "",
-                "source_text": ""
+                "source_api_tooltip": "Postitatud läbi API",
+                "source_app_tooltip": "Postitatud läbi ühendatud rakenduse",
+                "source_text": "kasutades {source}"
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -978,7 +978,7 @@
             },
             "user_email_bounced": {
                 "alert_message": "",
-                "update_button": ""
+                "update_button": "Uuenda e-posti"
             }
         },
         "lib": {
@@ -1060,8 +1060,8 @@
                         "hint": "vestluse ID"
                     },
                     "source": {
-                        "key": "",
-                        "hint": ""
+                        "key": "allikas",
+                        "hint": "api või komadega eraldatud allikate nimekiri"
                     }
                 },
                 "users": {
@@ -1074,7 +1074,7 @@
                         "hint": "grupi nimi ainsuses või mitmuses"
                     },
                     "bounced": {
-                        "key": ""
+                        "key": "põrkas tagasi"
                     }
                 }
             },
@@ -1104,7 +1104,7 @@
             "notices": {
                 "bisecting": "",
                 "bisecting_continue": "Jätka veatuvastust",
-                "maintenance_mode_low": "",
+                "maintenance_mode_low": "Hooldamisel. Ainult administraatorid näevad foorumit.",
                 "maintenance_mode_safe": ""
             },
             "index_sort": {
@@ -1179,34 +1179,34 @@
                 "userListJoinDate": "LLL"
             },
             "icon_image_input": {
-                "remove_button": "",
-                "replace_button": "",
-                "upload_button": ""
+                "remove_button": "Eemalda",
+                "replace_button": "Asenda pilt",
+                "upload_button": "Laadi pilt üles"
             },
             "icon_picker": {
-                "count_text": "",
+                "count_text": "{count, plural, one {# ikoon} other {# ikooni}}",
                 "families": {
-                    "brands": "",
-                    "classic": "",
-                    "duotone": "",
-                    "sharp": "",
-                    "sharp_duotone": ""
+                    "brands": "Brändid",
+                    "classic": "Klassikaline",
+                    "duotone": "Kahetooniline",
+                    "sharp": "Terav",
+                    "sharp_duotone": "Terav kahetooniline"
                 },
-                "family_label": "",
+                "family_label": "Ikoonide perekond",
                 "forced_style_text": "",
-                "label": "",
+                "label": "Vali ikoon",
                 "more_text": "",
-                "no_results_text": "",
-                "open_button": "",
-                "remove_button": "",
-                "search_placeholder": "",
+                "no_results_text": "Ükski ikoon ei kattu.",
+                "open_button": "Vali ikoon",
+                "remove_button": "Eemalda ikoon",
+                "search_placeholder": "Otsi ikoone või kirjuta klass",
                 "unreadable_text": "",
-                "use_button": "",
+                "use_button": "Kasuta {value}",
                 "weights": {
-                    "light": "",
-                    "regular": "",
-                    "solid": "",
-                    "thin": ""
+                    "light": "Hele",
+                    "regular": "Tavaline",
+                    "solid": "Täidetud",
+                    "thin": "Peenike joon"
                 }
             }
         },
@@ -1253,14 +1253,14 @@
                 "not_found_return_link": "Mine tagasi lehele {forum}",
                 "permission_denied": "Sul pole sellele lehele ligipääsuõigust.",
                 "unknown": "Lehel laadimisel tekkis viga.",
-                "not_found_actions_label": "",
+                "not_found_actions_label": "Millega jätkata",
                 "not_found_description": "",
-                "not_found_discussions_link": "",
-                "not_found_home_link": "",
-                "not_found_search_button": "",
-                "not_found_search_label": "",
-                "not_found_search_placeholder": "",
-                "not_found_title": ""
+                "not_found_discussions_link": "Sirvi kõiki vestlusi",
+                "not_found_home_link": "Mine avalehele",
+                "not_found_search_button": "Otsi",
+                "not_found_search_label": "Otsi foorumist",
+                "not_found_search_placeholder": "Otsi vestluseid",
+                "not_found_title": "Lehekülge ei leitud"
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1294,25 +1294,25 @@
                 "title": "Tellimuse tühistamise kinnitus",
                 "return_to_forum": "Tagasi foorumisse {forumTitle}",
                 "confirm_button": "Kinnita",
-                "immediate_helptext": "",
-                "confirm_message": "",
-                "success_message": "",
-                "invalid_message": ""
+                "immediate_helptext": "Jälgimine tühistatakse kohe pärast sinu kinnitust.",
+                "confirm_message": "Oled soovinud loobuda \"{type}\" tüüpi e-posti teavitustest foorumis {forumTitle}.",
+                "success_message": "Oled tühistanud \"{type}\" tüüpi e-posti teavitused foorumis {forumTitle}. Kui soovid neid hiljem uuesti saada, siis palun [uuenda oma seadeid]({settingsLink}).",
+                "invalid_message": "Teavituste tühistamise link on vigane või seda on juba kasutatud. Muudatusi oma e-posti teavitustest foorumis {forumTitle} näed [oma seadetest]({settingsLink})."
             },
             "offline": {
                 "text": "",
-                "title": ""
+                "title": "Ühendust pole"
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "KAsutajanimes võivad olla ainult tähed, numbrid ja sidekriipsud. Selles peab olema vähemalt üks täht.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Filter {filter} peab olema number.",
                 "must_not_be_array_message": "Filter {filter} ei tohi olla andmemassiiv.",
                 "must_not_be_multidimensional_array_message": "Filter {filter} ei tohi olla mitmemõõduline andmemassiiv."
             },
             "app_icon_too_small_message": "",
-            "image_set_by_code_message": "",
+            "image_set_by_code_message": "See pilt on määratud foorumi koodis ja seega ei saa seda siin muuta.",
             "image_set_by_theme_message": ""
         },
         "email": {
@@ -1330,8 +1330,8 @@
                     "main_text_plain": "",
                     "unsubscribe_text": "",
                     "unsubscribe_text_plain": "",
-                    "settings_text": "",
-                    "settings_text_plain": "",
+                    "settings_text": "Halda oma teavituste seadeid [siin]({settingsLink}).",
+                    "settings_text_plain": "Halda oma teavituste seadeid siin: {settingsLink}",
                     "main_text_generic": "",
                     "main_text_generic_plain": ""
                 }
@@ -1428,8 +1428,8 @@
             "view": "Vaata",
             "write_a_reply": "Kirjuta vastus...",
             "you": "Sina",
-            "icon_image": "",
-            "icon_image_text": ""
+            "icon_image": "Ikooni pilt",
+            "icon_image_text": "Pilt, mida näidatakse ikooni asemel. Seal kus pilti ei saa kasutada näidatakse ikooni. Sobivad PNG, JPEG, GIF või BMP. Animeeritud piltidest näidatakse esimest kaardit."
         },
         "group": {
             "admin": "Administraator",
