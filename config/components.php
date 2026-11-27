@@ -320,7 +320,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gauntlet/1.1.2/locale/en.yml',
 	],
 	'ernestdefoe-giveaways' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.7.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.8.1/locale/en.yml',
 	],
 	'ernestdefoe-glimpse' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/glimpse/1.0.8/locale/en.yml',
