@@ -214,7 +214,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bouncer/1.0.3/resources/locale/en.yml',
 	],
 	'ernestdefoe-brainstorm' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.3.0/locale/en.yml',
 	],
 	'ernestdefoe-broadsheet' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/broadsheet/1.0.5/locale/en.yml',
