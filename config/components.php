@@ -862,7 +862,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mailing/2.0.0/resources/locale/en.yml',
 	],
 	'fof-mailtrap-mail' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mailtrap-mail/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mailtrap-mail/2.1.0/locale/en.yml',
 	],
 	'fof-mark-unread' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mark-unread/2.0.0/locale/en.yml',
