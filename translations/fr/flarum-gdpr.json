@@ -73,16 +73,16 @@
             },
             "sections": {
                 "anonymization": {
-                    "description": "",
-                    "label": ""
+                    "description": "Comment les membres anonymisés sont-ils désignés une fois leurs données effacées.",
+                    "label": "Anonymisation"
                 },
                 "erasure": {
-                    "description": "",
-                    "label": ""
+                    "description": "Quelles méthodes de suppression les membres peuvent-ils demander et laquelle est utilisée par défaut.",
+                    "label": "Demandes de suppression"
                 },
                 "overview": {
-                    "description": "",
-                    "label": ""
+                    "description": "Quelles données sont exportées et supprimées, y compris celles enregistrées par d'autres extensions.",
+                    "label": "Vue d'ensemble des données"
                 }
             }
         },
@@ -115,7 +115,7 @@
                     "export_description": "Exporte les données de la table des utilisateurs. Concerne toutes les colonnes à l'exception de l'identifiant et du mot de passe."
                 },
                 "emailbounceevents": {
-                    "anonymize_description": "",
+                    "anonymize_description": "Supprime l'adresse courriel de l'historique des courriels non remis de l'utilisateur, tout en conservant des enregistrements anonymes à des fins statistiques.",
                     "delete_description": "",
                     "export_description": ""
                 }
