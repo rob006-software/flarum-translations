@@ -3,9 +3,9 @@
         "admin": {
             "email": {
                 "brevo_heading": "Brevo seaded",
-                "brevo_description": "",
-                "mail_brevo_api_key_label": "",
-                "mail_brevo_api_key_help": ""
+                "brevo_description": "Saada e-kirju Brevo e-kirjade API-ga. Saatja aadress peab olema kontrollitud saatja või kuuluma Brevos autenditud domeeni.",
+                "mail_brevo_api_key_label": "API võti",
+                "mail_brevo_api_key_help": "Loo Brevos valides sealt SMTP & API → API keys. Kasuta API võtit (algab märkidega xkeysib-), mitte SMTP võtit."
             }
         }
     }
