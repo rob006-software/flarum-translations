@@ -238,7 +238,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/club/v1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-community-goals' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/community-goals/1.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/community-goals/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-community-reviews' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/community-reviews/1.0.2/locale/en.yml',
