@@ -829,7 +829,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-widgets-core/2.0.2/locale/en.yml',
 	],
 	'fof-frontpage' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/2.0.0-beta.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/2.1.0/resources/locale/en.yml',
 	],
 	'fof-gamification' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/2.0.0-beta.5/resources/locale/en.yml',
