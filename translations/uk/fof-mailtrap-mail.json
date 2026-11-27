@@ -11,12 +11,15 @@
                 "mail_mailtrap_inbox_id_label": "ID тестової скриньки",
                 "mail_mailtrap_inbox_id_help": "Використовується лише в тестовому режимі. Це число в адресі скриньки, наприклад 1234567 у mailtrap.io/inboxes/1234567/messages.",
                 "mail_mailtrap_category_label": "Категорія",
-                "mail_mailtrap_category_help": "Необов’язково. Позначає кожен лист для фільтрації в журналах і статистиці Mailtrap, наприклад назвою форуму."
+                "mail_mailtrap_category_help": "Необов’язково. Позначає кожен лист для фільтрації в журналах і статистиці Mailtrap, наприклад назвою форуму.",
+                "mail_mailtrap_webhook_signing_secret_label": "",
+                "mail_mailtrap_webhook_signing_secret_help": ""
             }
         }
     },
     "fof-mailtrap-mail": {
         "admin": {
+            "invalid_webhook_secret": "",
             "pinned_help": "Задано в коді конфігурацією цього форуму, тому тут змінити неможливо.",
             "mode": {
                 "sending": "Надсилання пошти",

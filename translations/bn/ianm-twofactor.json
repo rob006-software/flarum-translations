@@ -24,8 +24,6 @@
                 "tokens": {
                     "heading": "",
                     "help": "",
-                    "kill_inactive_tokens": "",
-                    "kill_inactive_tokens_help": "",
                     "kill_inactive_tokens_age_days": "",
                     "kill_inactive_tokens_age_days_help": "",
                     "also_kill_developer_tokens": "",
@@ -66,6 +64,7 @@
                 "change_device_button": "",
                 "verify_current_device_message": "",
                 "enter_current_token": "",
+                "current_token_required": "",
                 "scan_new_device_qr": "",
                 "verify_new_device_message": "",
                 "enter_new_token": "",
@@ -111,7 +110,17 @@
             "two_factor_token": {
                 "title": "",
                 "submit_button": "",
-                "oauth_session_expired": ""
+                "oauth_session_expired": "",
+                "too_many_attempts_message": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "twofactor": {
+                        "key": ""
+                    }
+                }
             }
         }
     },

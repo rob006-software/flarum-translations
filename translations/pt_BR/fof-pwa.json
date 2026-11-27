@@ -87,7 +87,34 @@
                 "no_vapid_keys": "Nenhuma chave VAPID encontrada. Elas são necessárias para o envio de notificações push. Você pode redefinir as chaves VAPID abaixo.",
                 "key_gen_failed": "A geração das chaves necessárias para as notificações push falhou. A mensagem de erro completa foi: {error}",
                 "suggest_gmp": "A extensão PHP gmp não parece estar ativada no seu servidor. Ela não é estritamente necessária, mas pode melhorar o desempenho e é recomendada. Porém, algumas hospedagens compartilhadas podem não oferecer suporte a ela.",
-                "success": "Nenhum problema potencial encontrado!"
+                "success": "Nenhum problema potencial encontrado!",
+                "check_failed": ""
+            },
+            "tabs": {
+                "app": "",
+                "push": ""
+            },
+            "sections": {
+                "status": {
+                    "label": "",
+                    "description": ""
+                },
+                "home_screen": {
+                    "label": "",
+                    "description": ""
+                },
+                "sharing": {
+                    "label": ""
+                },
+                "delivery": {
+                    "label": ""
+                },
+                "keys": {
+                    "label": ""
+                },
+                "troubleshooting": {
+                    "label": ""
+                }
             }
         },
         "forum": {

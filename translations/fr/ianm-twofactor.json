@@ -24,12 +24,12 @@
                 "tokens": {
                     "heading": "Jetons d'accès",
                     "help": "Pour une sécurité accrue, vous pouvez gérer ici des comportements supplémentaires liés aux jetons d'accès.",
-                    "kill_inactive_tokens": "Mettre fin aux jetons inactifs",
-                    "kill_inactive_tokens_help": "Met fin automatiquement aux jetons d'accès qui ont été inactifs pendant une période de temps spécifiée.",
                     "kill_inactive_tokens_age_days": "Délai d'expiration des jetons inactifs (en jours)",
                     "kill_inactive_tokens_age_days_help": "Le nombre de jours d'inactivité après lesquels les jetons d'accès seront supprimés.",
                     "also_kill_developer_tokens": "Mettre également fin aux jetons des développeurs",
-                    "also_kill_developer_tokens_help": "Met également fin aux jetons d'accès des développeurs qui ont été inactifs pendant la période spécifiée."
+                    "also_kill_developer_tokens_help": "Met également fin aux jetons d'accès des développeurs qui ont été inactifs pendant la période spécifiée.",
+                    "kill_inactive_tokens": "Mettre fin aux jetons inactifs",
+                    "kill_inactive_tokens_help": "Met fin automatiquement aux jetons d'accès qui ont été inactifs pendant une période de temps spécifiée."
                 }
             }
         },
@@ -66,6 +66,7 @@
                 "change_device_button": "Modifier l'appareil",
                 "verify_current_device_message": "Veuillez saisir un jeton de votre appareil d'authentification actuel pour vérifier votre identité.",
                 "enter_current_token": "Saisir le jeton de l'appareil actuel",
+                "current_token_required": "",
                 "scan_new_device_qr": "Scannez ce code QR avec votre nouvel appareil d'authentification.",
                 "verify_new_device_message": "Saisissez maintenant un jeton à partir de votre nouvel appareil pour terminer la modification.",
                 "enter_new_token": "Saisir le jeton à partir du nouvel appareil",
@@ -111,7 +112,17 @@
             "two_factor_token": {
                 "title": "Authentification à deux facteurs",
                 "submit_button": "Envoyer le jeton",
-                "oauth_session_expired": "La session OAuth a expiré. Veuillez vous reconnecter."
+                "oauth_session_expired": "La session OAuth a expiré. Veuillez vous reconnecter.",
+                "too_many_attempts_message": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "twofactor": {
+                        "key": ""
+                    }
+                }
             }
         }
     },

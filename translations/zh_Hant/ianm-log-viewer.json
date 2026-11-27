@@ -10,11 +10,17 @@
                 "purge-days": "幾天後清除日誌檔案",
                 "purge-days-help": "依賴於Flarum 程式排程處於活動狀態。 0 表示停用。"
             },
+            "tabs": {
+                "logs": "",
+                "settings": ""
+            },
             "viewer": {
                 "available_logs_heading": "可用檔案",
                 "file_contents_heading": "檔案內容",
                 "last_updated": "最後更新: {updated}",
                 "no_log_files": "",
+                "list_failed": "",
+                "retry": "",
                 "no_file_selected": "查看記錄檔。",
                 "view_log": "",
                 "download_log": "",

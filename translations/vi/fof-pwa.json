@@ -88,7 +88,34 @@
                 "no_vapid_keys": "Không tìm thấy khóa VAPID. Các khóa này là bắt buộc để gửi thông báo đẩy. Bạn có thể đặt lại khóa VAPID bên dưới.",
                 "key_gen_failed": "Việc tạo các khóa cần thiết cho thông báo đẩy đã thất bại. Thông báo lỗi đầy đủ: {error}",
                 "suggest_gmp": "Có vẻ như tiện ích PHP gmp chưa được bật trên máy chủ của bạn. Nó không thực sự bắt buộc, nhưng có thể cải thiện hiệu năng và được khuyến nghị. Tuy nhiên một số dịch vụ lưu trữ dùng chung có thể không hỗ trợ.",
-                "success": "Không tìm thấy vấn đề tiềm ẩn nào!"
+                "success": "Không tìm thấy vấn đề tiềm ẩn nào!",
+                "check_failed": ""
+            },
+            "tabs": {
+                "app": "",
+                "push": ""
+            },
+            "sections": {
+                "status": {
+                    "label": "",
+                    "description": ""
+                },
+                "home_screen": {
+                    "label": "",
+                    "description": ""
+                },
+                "sharing": {
+                    "label": ""
+                },
+                "delivery": {
+                    "label": ""
+                },
+                "keys": {
+                    "label": ""
+                },
+                "troubleshooting": {
+                    "label": ""
+                }
             }
         },
         "forum": {

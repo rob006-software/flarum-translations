@@ -24,12 +24,12 @@
                 "tokens": {
                     "heading": "Hozzáférési tokenek",
                     "help": "A még nagyobb biztonság érdekében a hozzáférési tokenek további viselkedését itt kezelheti.",
-                    "kill_inactive_tokens": "Inaktív tokenek érvénytelenítése",
-                    "kill_inactive_tokens_help": "Automatikusan érvényteleníti azokat a tokeneket, melyek a megadott ideig inaktívak voltak.",
                     "kill_inactive_tokens_age_days": "Inaktív tokenek érvénytelenítése ennyi idő után (napban)",
                     "kill_inactive_tokens_age_days_help": "A napok száma, amennyi tétlenség után a hozzáférési tokenek törölve lesznek.",
                     "also_kill_developer_tokens": "Fejlesztői tokenek érvénytelenítése",
-                    "also_kill_developer_tokens_help": "Törli a fejlesztői hozzáférési tokeneket is a megadott időtartamnyi tétlenség után."
+                    "also_kill_developer_tokens_help": "Törli a fejlesztői hozzáférési tokeneket is a megadott időtartamnyi tétlenség után.",
+                    "kill_inactive_tokens": "Inaktív tokenek érvénytelenítése",
+                    "kill_inactive_tokens_help": "Automatikusan érvényteleníti azokat a tokeneket, melyek a megadott ideig inaktívak voltak."
                 }
             }
         },
@@ -66,6 +66,7 @@
                 "change_device_button": "Eszköz módosítása",
                 "verify_current_device_message": "Adjon meg egy tokent a jelenlegi hitelesítési eszközéről, hogy megerősítse a személyazonosságát.",
                 "enter_current_token": "Adjon meg egy tokent a jelenlegi eszközéről",
+                "current_token_required": "",
                 "scan_new_device_qr": "Olvassa le ezt a QR-kódot a jelenlegi hitelesítési eszközén.",
                 "verify_new_device_message": "Most adjon meg egy tokent az új eszközéről, hogy befejezze a módosítást.",
                 "enter_new_token": "Adjon meg egy tokent az új eszközéről",
@@ -111,7 +112,17 @@
             "two_factor_token": {
                 "title": "Kétlépcsős hitelesítés",
                 "submit_button": "Token beküldése",
-                "oauth_session_expired": "Az OAuth-munkamenet lejárt. Próbáljon meg újra bejelentkezni."
+                "oauth_session_expired": "Az OAuth-munkamenet lejárt. Próbáljon meg újra bejelentkezni.",
+                "too_many_attempts_message": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "twofactor": {
+                        "key": ""
+                    }
+                }
             }
         }
     },

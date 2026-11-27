@@ -88,7 +88,34 @@
                 "no_vapid_keys": "Aucune clé VAPID trouvée. Celles-ci sont requises pour l'envoi des notifications push. Vous pouvez réinitialiser les clés VAPID ci-dessous.",
                 "key_gen_failed": "La génération des clés nécessaires aux notifications poussées a échouée. Le message d'erreur complet est : {error}",
                 "suggest_gmp": "L’extension PHP gmp ne semble pas être activée sur votre serveur. Elle n’est pas absolument nécessaire, mais peut améliorer les performances et est recommandée. Certains hébergements partagés peuvent ne pas supporter cette fonctionnalité.",
-                "success": "Aucun problème potentiel trouvé !"
+                "success": "Aucun problème potentiel trouvé !",
+                "check_failed": ""
+            },
+            "tabs": {
+                "app": "",
+                "push": ""
+            },
+            "sections": {
+                "status": {
+                    "label": "",
+                    "description": ""
+                },
+                "home_screen": {
+                    "label": "",
+                    "description": ""
+                },
+                "sharing": {
+                    "label": ""
+                },
+                "delivery": {
+                    "label": ""
+                },
+                "keys": {
+                    "label": ""
+                },
+                "troubleshooting": {
+                    "label": ""
+                }
             }
         },
         "forum": {

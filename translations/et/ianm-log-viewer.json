@@ -10,11 +10,17 @@
                 "purge-days": "Kustuta logifailid nii mitme päeva pärast",
                 "purge-days-help": "Sõltub sellest, kas Flarumi ajastaja on aktiivne. 0 tähendab, et see on välja lülitatud."
             },
+            "tabs": {
+                "logs": "",
+                "settings": ""
+            },
             "viewer": {
                 "available_logs_heading": "Saadaolevad failid",
                 "file_contents_heading": "Faili sisu",
                 "last_updated": "Viimati uuendatud: {updated}",
                 "no_log_files": "",
+                "list_failed": "",
+                "retry": "",
                 "no_file_selected": "Vali logifail, et selle sisu näha.",
                 "view_log": "Vaata logifaili",
                 "download_log": "Laadi logifail alla",

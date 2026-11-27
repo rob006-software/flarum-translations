@@ -88,7 +88,34 @@
                 "no_vapid_keys": "Nie znaleziono kluczy VAPID. Są one wymagane do wysyłania powiadomień push. Możesz je zresetować poniżej.",
                 "key_gen_failed": "Nie udało się wygenerować kluczy wymaganych do obsługi powiadomień push. Pełny komunikat błędu: {error}",
                 "suggest_gmp": "Wygląda na to, że rozszerzenie PHP gmp nie jest włączone na serwerze. Nie jest ono bezwzględnie wymagane, ale może poprawić wydajność i jest zalecane. Niektóre hostingi współdzielone mogą go nie obsługiwać.",
-                "success": "Nie znaleziono żadnych potencjalnych problemów!"
+                "success": "Nie znaleziono żadnych potencjalnych problemów!",
+                "check_failed": ""
+            },
+            "tabs": {
+                "app": "",
+                "push": ""
+            },
+            "sections": {
+                "status": {
+                    "label": "",
+                    "description": ""
+                },
+                "home_screen": {
+                    "label": "",
+                    "description": ""
+                },
+                "sharing": {
+                    "label": ""
+                },
+                "delivery": {
+                    "label": ""
+                },
+                "keys": {
+                    "label": ""
+                },
+                "troubleshooting": {
+                    "label": ""
+                }
             }
         },
         "forum": {

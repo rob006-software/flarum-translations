@@ -11,12 +11,15 @@
                 "mail_mailtrap_inbox_id_label": "",
                 "mail_mailtrap_inbox_id_help": "",
                 "mail_mailtrap_category_label": "",
-                "mail_mailtrap_category_help": ""
+                "mail_mailtrap_category_help": "",
+                "mail_mailtrap_webhook_signing_secret_label": "",
+                "mail_mailtrap_webhook_signing_secret_help": ""
             }
         }
     },
     "fof-mailtrap-mail": {
         "admin": {
+            "invalid_webhook_secret": "",
             "pinned_help": "",
             "mode": {
                 "sending": "",

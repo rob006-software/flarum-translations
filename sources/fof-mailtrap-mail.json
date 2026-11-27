@@ -11,12 +11,15 @@
                 "mail_mailtrap_inbox_id_label": "Sandbox inbox ID",
                 "mail_mailtrap_inbox_id_help": "Only used in Sandbox mode. It is the number in the inbox's address, e.g. 1234567 in mailtrap.io/inboxes/1234567/messages.",
                 "mail_mailtrap_category_label": "Category",
-                "mail_mailtrap_category_help": "Optional. Tags each email so you can filter by it in Mailtrap's email logs and stats, e.g. the forum's name."
+                "mail_mailtrap_category_help": "Optional. Tags each email so you can filter by it in Mailtrap's email logs and stats, e.g. the forum's name.",
+                "mail_mailtrap_webhook_signing_secret_label": "Webhook signing secret",
+                "mail_mailtrap_webhook_signing_secret_help": "Optional, and used only in Send email mode. Add an Email Sending webhook in Mailtrap with payload format JSON and the URL under Bounce Handling, then paste its 32-character hexadecimal signing secret here."
             }
         }
     },
     "fof-mailtrap-mail": {
         "admin": {
+            "invalid_webhook_secret": "Enter the 32-character hexadecimal webhook signing secret.",
             "pinned_help": "Set in code by this forum's configuration, so it can't be changed here.",
             "mode": {
                 "sending": "Send email",

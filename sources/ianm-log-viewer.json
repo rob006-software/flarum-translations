@@ -10,11 +10,17 @@
                 "purge-days": "Purge logfiles after days",
                 "purge-days-help": "Relies on the Flarum scheduler being active. 0 for disabled."
             },
+            "tabs": {
+                "logs": "Logs",
+                "settings": "Settings"
+            },
             "viewer": {
                 "available_logs_heading": "Available files",
                 "file_contents_heading": "File contents",
                 "last_updated": "Last updated: {updated}",
                 "no_log_files": "No log files found.",
+                "list_failed": "Could not load the log files.",
+                "retry": "Try again",
                 "no_file_selected": "Select a log file to view its content.",
                 "view_log": "View log file",
                 "download_log": "Download log file",

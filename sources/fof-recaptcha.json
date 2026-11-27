@@ -31,6 +31,9 @@
                 "post_without_captcha": "Create posts and discussions without captcha"
             }
         },
+        "api": {
+            "not_available_to_clients": "This forum asks for a reCAPTCHA on new discussions and replies, which can't be completed outside the forum's own pages, such as through the API or an MCP client. Post from the forum instead, or ask an administrator for the \"{permission}\" permission."
+        },
         "lib": {
             "error": "There was an error submitting reCAPTCHA. Try again.",
             "not_completed": "Please complete the reCAPTCHA check before continuing.",

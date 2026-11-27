@@ -24,12 +24,12 @@
                 "tokens": {
                     "heading": "登录会话与访问令牌",
                     "help": "管理长期未活动的登录会话和开发者访问令牌，进一步提升账号安全。",
-                    "kill_inactive_tokens": "自动结束长期未活动的登录会话",
-                    "kill_inactive_tokens_help": "超过指定时间未活动的登录会话会自动失效，对应设备需要重新登录。",
                     "kill_inactive_tokens_age_days": "会话最长闲置时间（天）",
                     "kill_inactive_tokens_age_days_help": "登录会话连续闲置超过此天数后将被自动结束。",
                     "also_kill_developer_tokens": "同时删除开发者访问令牌",
-                    "also_kill_developer_tokens_help": "同时删除超过指定时间未使用的开发者访问令牌。"
+                    "also_kill_developer_tokens_help": "同时删除超过指定时间未使用的开发者访问令牌。",
+                    "kill_inactive_tokens": "自动结束长期未活动的登录会话",
+                    "kill_inactive_tokens_help": "超过指定时间未活动的登录会话会自动失效，对应设备需要重新登录。"
                 }
             }
         },
@@ -66,6 +66,7 @@
                 "change_device_button": "更换设备",
                 "verify_current_device_message": "请输入当前验证设备生成的验证码，以验证你的身份。",
                 "enter_current_token": "输入当前设备的验证码",
+                "current_token_required": "",
                 "scan_new_device_qr": "使用新设备上的验证器应用扫描此二维码。",
                 "verify_new_device_message": "输入新设备生成的验证码以完成更换。",
                 "enter_new_token": "输入新设备的验证码",
@@ -111,7 +112,17 @@
             "two_factor_token": {
                 "title": "双重身份验证",
                 "submit_button": "提交验证码",
-                "oauth_session_expired": "OAuth 会话已过期，请重新登录。"
+                "oauth_session_expired": "OAuth 会话已过期，请重新登录。",
+                "too_many_attempts_message": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "twofactor": {
+                        "key": ""
+                    }
+                }
             }
         }
     },

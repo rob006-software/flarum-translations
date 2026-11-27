@@ -10,11 +10,17 @@
                 "purge-days": "Bersihkan file log setelah beberapa hari",
                 "purge-days-help": "Bergantung pada Flarum scheduler yang aktif. 0 untuk dinonaktifkan."
             },
+            "tabs": {
+                "logs": "",
+                "settings": ""
+            },
             "viewer": {
                 "available_logs_heading": "File yang tersedia",
                 "file_contents_heading": "Isi file",
                 "last_updated": "Terakhir diperbarui: {updated}",
                 "no_log_files": "",
+                "list_failed": "",
+                "retry": "",
                 "no_file_selected": "Pilih file log untuk melihat isinya.",
                 "view_log": "Lihat file log",
                 "download_log": "Download file log",

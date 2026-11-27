@@ -87,7 +87,34 @@
                 "no_vapid_keys": "No VAPID keys found. These are required for push notifications to be sent. You can reset VAPID keys below.",
                 "key_gen_failed": "Generation of the keys needed for push notifications has failed. The full error message was: {error}",
                 "suggest_gmp": "The gmp PHP extension doesn't seem to be enabled on your server. It's not strictly necessary, but it can improve performance and is recommended. Some shared hosts might not support it, though.",
-                "success": "No potential issues found!"
+                "success": "No potential issues found!",
+                "check_failed": "The status checks couldn't be loaded. Reload the page to try again."
+            },
+            "tabs": {
+                "app": "App",
+                "push": "Push notifications"
+            },
+            "sections": {
+                "status": {
+                    "label": "Status",
+                    "description": "What the forum still needs to be installable as an app and to send push notifications."
+                },
+                "home_screen": {
+                    "label": "Home screen",
+                    "description": "The app's icon, splash screen background and primary colour are set on the <appearance>Appearance page</appearance>, along with whether the forum opens as an app. Its name is the forum title, and its short name is set beside it on the <basics>Basics page</basics>. Browsers decide when to offer to install the app, so consider telling members how to add it to their home screen."
+                },
+                "sharing": {
+                    "label": "Sharing"
+                },
+                "delivery": {
+                    "label": "Delivery"
+                },
+                "keys": {
+                    "label": "VAPID keys"
+                },
+                "troubleshooting": {
+                    "label": "Troubleshooting"
+                }
             }
         },
         "forum": {

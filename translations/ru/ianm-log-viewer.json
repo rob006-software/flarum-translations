@@ -10,11 +10,17 @@
                 "purge-days": "Удалять файлы логов через указанное количество дней",
                 "purge-days-help": "Работает только при активном планировщике. 0 — отключено."
             },
+            "tabs": {
+                "logs": "",
+                "settings": ""
+            },
             "viewer": {
                 "available_logs_heading": "Доступные файлы",
                 "file_contents_heading": "Содержимое файла",
                 "last_updated": "Последнее обновление: {updated}",
                 "no_log_files": "Логи не найдены.",
+                "list_failed": "",
+                "retry": "",
                 "no_file_selected": "Выберите файл журнала для просмотра.",
                 "view_log": "Просмотреть файл логов",
                 "download_log": "Скачать файл логов",

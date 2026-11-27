@@ -10,11 +10,17 @@
                 "purge-days": "Purger les fichiers journaux après plusieurs jours",
                 "purge-days-help": "Repose sur le fait que le planificateur Flarum est actif. Saisissez 0 pour désactiver cette fonctionnalité."
             },
+            "tabs": {
+                "logs": "",
+                "settings": ""
+            },
             "viewer": {
                 "available_logs_heading": "Fichiers disponibles",
                 "file_contents_heading": "Contenu des fichiers",
                 "last_updated": "Dernière mise à jour : {updated}",
                 "no_log_files": "Aucun fichier journal trouvé.",
+                "list_failed": "",
+                "retry": "",
                 "no_file_selected": "Sélectionner un fichier journal pour afficher son contenu.",
                 "view_log": "Afficher le fichier journal",
                 "download_log": "Télécharger le fichier journal",

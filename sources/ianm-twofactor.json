@@ -22,14 +22,12 @@
                 "logo_qr": "Logo on QR Code",
                 "logo_qr_help": "If logo has been uploaded, this logo will be embedded on the QR code. Leave blank to use the forum logo.",
                 "tokens": {
-                    "heading": "Access Tokens",
-                    "help": "For extended security, you can manage additional behaviour here related to access tokens.",
-                    "kill_inactive_tokens": "Kill Inactive Tokens",
-                    "kill_inactive_tokens_help": "Automatically kill access tokens that have been inactive for a specified period of time.",
-                    "kill_inactive_tokens_age_days": "Kill Inactive Tokens After (Days)",
-                    "kill_inactive_tokens_age_days_help": "The number of days of inactivity after which access tokens will be deleted.",
-                    "also_kill_developer_tokens": "Also Kill Developer Tokens",
-                    "also_kill_developer_tokens_help": "Also kill developer access tokens that have been inactive for the specified period of time."
+                    "heading": "Developer Tokens",
+                    "help": "Sign-in and \"remember me\" lengths are set on the Advanced page, under Sessions. Developer tokens never expire there, so they can be cleaned up here instead.",
+                    "kill_inactive_tokens_age_days": "Delete Developer Tokens After (Days)",
+                    "kill_inactive_tokens_age_days_help": "The number of days a developer token may go unused before it is deleted.",
+                    "also_kill_developer_tokens": "Delete Unused Developer Tokens",
+                    "also_kill_developer_tokens_help": "Delete developer access tokens that have not been used for the number of days below. Scripts and integrations using one will stop working."
                 }
             }
         },
@@ -66,6 +64,7 @@
                 "change_device_button": "Change Device",
                 "verify_current_device_message": "Please enter a token from your current authentication device to verify your identity.",
                 "enter_current_token": "Enter token from current device",
+                "current_token_required": "Enter a token from your current device to continue.",
                 "scan_new_device_qr": "Scan this QR code with your new authentication device.",
                 "verify_new_device_message": "Now enter a token from your new device to complete the change.",
                 "enter_new_token": "Enter token from new device",
@@ -111,7 +110,17 @@
             "two_factor_token": {
                 "title": "Two-Factor Authentication",
                 "submit_button": "Submit Token",
-                "oauth_session_expired": "OAuth session expired. Please try signing in again."
+                "oauth_session_expired": "OAuth session expired. Please try signing in again.",
+                "too_many_attempts_message": "Too many incorrect 2FA codes. Please wait a few minutes, then try again."
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "twofactor": {
+                        "key": "2fa"
+                    }
+                }
             }
         }
     },

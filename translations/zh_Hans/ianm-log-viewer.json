@@ -10,11 +10,17 @@
                 "purge-days": "日志文件保留天数",
                 "purge-days-help": "需要启用 Flarum 定时任务。设为 0 可关闭自动清理。"
             },
+            "tabs": {
+                "logs": "",
+                "settings": ""
+            },
             "viewer": {
                 "available_logs_heading": "可用日志文件",
                 "file_contents_heading": "文件内容",
                 "last_updated": "最后更新：{updated}",
                 "no_log_files": "未找到日志文件",
+                "list_failed": "",
+                "retry": "",
                 "no_file_selected": "请选择日志文件",
                 "view_log": "查看日志",
                 "download_log": "下载日志",

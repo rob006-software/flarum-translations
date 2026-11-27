@@ -24,12 +24,12 @@
                 "tokens": {
                     "heading": "Tokeny dostępu",
                     "help": "W celu zwiększenia bezpieczeństwa możesz tutaj zarządzać dodatkowymi zachowaniami związanymi z tokenami dostępu.",
-                    "kill_inactive_tokens": "Unieważniaj nieaktywne tokeny",
-                    "kill_inactive_tokens_help": "Automatycznie unieważnia tokeny dostępu, które były nieaktywne przez określony czas.",
                     "kill_inactive_tokens_age_days": "Unieważniaj nieaktywne tokeny po (dniach)",
                     "kill_inactive_tokens_age_days_help": "Liczba dni braku aktywności, po których tokeny dostępu zostaną usunięte.",
                     "also_kill_developer_tokens": "Unieważniaj także tokeny deweloperskie",
-                    "also_kill_developer_tokens_help": "Unieważnia również tokeny dostępu dewelopera, które były nieaktywne przez określony czas."
+                    "also_kill_developer_tokens_help": "Unieważnia również tokeny dostępu dewelopera, które były nieaktywne przez określony czas.",
+                    "kill_inactive_tokens": "Unieważniaj nieaktywne tokeny",
+                    "kill_inactive_tokens_help": "Automatycznie unieważnia tokeny dostępu, które były nieaktywne przez określony czas."
                 }
             }
         },
@@ -66,6 +66,7 @@
                 "change_device_button": "Zmień urządzenie",
                 "verify_current_device_message": "Wprowadź token z bieżącego urządzenia uwierzytelniającego, aby zweryfikować swoją tożsamość.",
                 "enter_current_token": "Wprowadź token z bieżącego urządzenia",
+                "current_token_required": "",
                 "scan_new_device_qr": "Zeskanuj ten kod QR za pomocą nowego urządzenia uwierzytelniającego.",
                 "verify_new_device_message": "Teraz wprowadź token z nowego urządzenia, aby zakończyć zmianę.",
                 "enter_new_token": "Wprowadź token z nowego urządzenia",
@@ -111,7 +112,17 @@
             "two_factor_token": {
                 "title": "Uwierzytelnianie dwuskładnikowe",
                 "submit_button": "Prześlij token",
-                "oauth_session_expired": "Sesja uwierzytelniania OAuth wygasła. Spróbuj zalogować się ponownie."
+                "oauth_session_expired": "Sesja uwierzytelniania OAuth wygasła. Spróbuj zalogować się ponownie.",
+                "too_many_attempts_message": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "twofactor": {
+                        "key": ""
+                    }
+                }
             }
         }
     },

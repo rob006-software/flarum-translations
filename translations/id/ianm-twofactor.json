@@ -24,12 +24,12 @@
                 "tokens": {
                     "heading": "Token Akses",
                     "help": "Untuk keamanan yang lebih baik, Anda dapat mengelola perilaku tambahan di sini yang terkait dengan token akses.",
-                    "kill_inactive_tokens": "Matikan Token yang Tidak Aktif",
-                    "kill_inactive_tokens_help": "Secara otomatis mematikan token akses yang tidak aktif selama jangka waktu tertentu.",
                     "kill_inactive_tokens_age_days": "Matikan Token Tidak Aktif Setelah (Hari)",
                     "kill_inactive_tokens_age_days_help": "Jumlah hari tidak aktif setelah token akses akan dihapus.",
                     "also_kill_developer_tokens": "Juga Matikan Token Pengembang",
-                    "also_kill_developer_tokens_help": "Juga mematikan token akses pengembang yang tidak aktif selama jangka waktu tertentu."
+                    "also_kill_developer_tokens_help": "Juga mematikan token akses pengembang yang tidak aktif selama jangka waktu tertentu.",
+                    "kill_inactive_tokens": "Matikan Token yang Tidak Aktif",
+                    "kill_inactive_tokens_help": "Secara otomatis mematikan token akses yang tidak aktif selama jangka waktu tertentu."
                 }
             }
         },
@@ -66,6 +66,7 @@
                 "change_device_button": "Ganti Perangkat",
                 "verify_current_device_message": "Masukkan token dari perangkat autentikasi Anda saat ini untuk memverifikasi identitas Anda.",
                 "enter_current_token": "Masukkan token dari perangkat saat ini",
+                "current_token_required": "",
                 "scan_new_device_qr": "Pindai kode QR ini dengan perangkat autentikasi baru Anda.",
                 "verify_new_device_message": "Sekarang masukkan token dari perangkat baru Anda untuk menyelesaikan perubahan.",
                 "enter_new_token": "Masukkan token dari perangkat baru",
@@ -111,7 +112,17 @@
             "two_factor_token": {
                 "title": "Autentikasi Dua Faktor (2FA)",
                 "submit_button": "Kirim Token",
-                "oauth_session_expired": ""
+                "oauth_session_expired": "",
+                "too_many_attempts_message": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "twofactor": {
+                        "key": ""
+                    }
+                }
             }
         }
     },

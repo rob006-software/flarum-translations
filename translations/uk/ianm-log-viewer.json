@@ -10,11 +10,17 @@
                 "purge-days": "Очищення файлів журналів через дні",
                 "purge-days-help": "Покладається на активний планувальник Flarum. 0 для вимкненого."
             },
+            "tabs": {
+                "logs": "",
+                "settings": ""
+            },
             "viewer": {
                 "available_logs_heading": "Доступні файли",
                 "file_contents_heading": "Вміст файлу",
                 "last_updated": "Останнє оновлення: {updated}",
                 "no_log_files": "Файлів журналу не знайдено.",
+                "list_failed": "",
+                "retry": "",
                 "no_file_selected": "Оберіть файл журналу, щоб переглянути його вміст.",
                 "view_log": "Переглянути файл журналу",
                 "download_log": "Завантажити файл журналу",
