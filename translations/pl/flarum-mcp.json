@@ -2,71 +2,71 @@
     "flarum-mcp": {
         "admin": {
             "page": {
-                "access_destructive": "",
-                "access_read": "",
-                "access_write": "",
-                "capabilities_failed": "",
-                "chatgpt_steps": "",
-                "chatgpt_title": "",
-                "claude_steps": "",
-                "claude_title": "",
-                "column_access": "",
-                "column_kind": "",
-                "column_name": "",
-                "column_source": "",
-                "copied": "",
-                "copy_button": "",
-                "copy_failed": "",
-                "kind_prompt": "",
-                "kind_resource": "",
-                "kind_template": "",
-                "kind_tool": "",
-                "metadata_url_label": "",
-                "server_url_label": "",
-                "sub_path_apache": "",
-                "sub_path_nginx": "",
-                "sub_path_warning": "",
-                "token_steps": "",
-                "token_title": "",
-                "vscode_steps": "",
-                "vscode_title": ""
+                "access_destructive": "Zapis, nieodwracalne zmiany",
+                "access_read": "Odczyt",
+                "access_write": "Zapis",
+                "capabilities_failed": "Nie udało się wczytać listy.",
+                "chatgpt_steps": "W ustawieniach ChatGPT otwórz Connectors (tryb deweloperski musi być włączony), utwórz konektor, wklej adres URL serwera i wybierz OAuth. ChatGPT poprosi Cię wtedy o zalogowanie się na forum.",
+                "chatgpt_title": "ChatGPT",
+                "claude_steps": "W Claude otwórz Settings > Connectors, wybierz Add custom connector i wklej adres URL serwera. Claude poprosi Cię wtedy o zalogowanie się na forum.",
+                "claude_title": "Claude",
+                "column_access": "Dostęp",
+                "column_kind": "Rodzaj",
+                "column_name": "Nazwa",
+                "column_source": "Dodane przez",
+                "copied": "Skopiowano do schowka.",
+                "copy_button": "Kopiuj",
+                "copy_failed": "Nie udało się skopiować do schowka.",
+                "kind_prompt": "Prompt",
+                "kind_resource": "Zasób",
+                "kind_template": "Szablon zasobu",
+                "kind_tool": "Narzędzie",
+                "metadata_url_label": "Adres URL metadanych zasobu",
+                "server_url_label": "Adres URL serwera",
+                "sub_path_apache": "W przypadku Apache – w pliku .htaccess w katalogu głównym witryny:",
+                "sub_path_nginx": "W przypadku nginx – w bloku server:",
+                "sub_path_warning": "To forum jest zainstalowane pod ścieżką {path}, więc nie może odpowiadać w katalogu głównym {origin}, gdzie asystenci szukają dokumentów z informacjami o sposobie logowania. Przekieruj te dwa adresy do forum:",
+                "token_steps": "Inni klienci, np. Cursor lub Twoje własne skrypty, mogą zamiast logowania używać tokenu developerskiego. Utwórz go na stronie <a>Bezpieczeństwo</a> i wysyłaj w nagłówku {header}.",
+                "token_title": "Cursor i inni klienci",
+                "vscode_steps": "Dodaj serwer do pliku {file} w swoim projekcie (lub do konfiguracji użytkownika). VS Code poprosi Cię o zalogowanie się na forum przy pierwszym połączeniu.",
+                "vscode_title": "VS Code"
             },
             "permissions": {
-                "heading": "",
-                "use_label": ""
+                "heading": "MCP",
+                "use_label": "Łączenie asystentów AI (MCP)"
             },
             "sections": {
                 "capabilities": {
-                    "description": "",
-                    "label": ""
+                    "description": "Wszystko, co oferuje serwer, tak jak widzi to administrator. Każdy użytkownik widzi tylko to, z czego może korzystać, a każda operacja jest wykonywana z jego własnymi uprawnieniami.",
+                    "label": "Z czego mogą korzystać asystenci"
                 },
                 "connect": {
-                    "description": "",
-                    "label": ""
+                    "description": "Użytkownicy łączą własnych asystentów. Każdy asystent loguje się kontem użytkownika na forum i działa dokładnie z jego uprawnieniami.",
+                    "label": "Łączenie asystenta"
                 },
                 "server": {
-                    "description": "",
-                    "label": ""
+                    "description": "Asystenci obsługujący Model Context Protocol (MCP) łączą się z tym adresem URL. To, kto może się łączyć, określa uprawnienie „Łączenie asystentów AI (MCP)” na karcie „Uprawnienia”: nadaj je gościom, aby umożliwić dostęp bez logowania.",
+                    "label": "Serwer"
                 }
             },
             "tabs": {
-                "capabilities": "",
-                "connect": ""
+                "capabilities": "Możliwości",
+                "connect": "Łączenie"
             }
         },
         "api": {
-            "fields_not_writable": "",
-            "forbidden": "",
-            "forbidden_description": "",
-            "invalid": "",
-            "invalid_token": "",
-            "not_exposed": "",
-            "not_found": "",
-            "requires_read_scope": "",
-            "requires_sign_in": "",
-            "requires_write_scope": "",
-            "throttled": "",
-            "unknown_filters": ""
+            "fields_not_writable": "Nie można zmienić przez MCP następujących pól typu {type}: {fields}.",
+            "forbidden": "Nie masz uprawnień, aby to zrobić.",
+            "forbidden_description": "Twoje konto nie może korzystać z serwera MCP tego forum.",
+            "invalid": "Żądanie jest nieprawidłowe.",
+            "invalid_token": "Brak tokenu dostępu albo jest on nieprawidłowy, wygasł lub nie został wydany dla tego serwera.",
+            "not_exposed": "Operacja {operation} na typie {type} nie jest dostępna przez MCP.",
+            "not_found": "Nie znaleziono.",
+            "requires_read_scope": "Ten token dostępu nie daje dostępu do serwera MCP. Połącz się ponownie i przyznaj dostęp do odczytu.",
+            "requires_sign_in": "To wymaga zalogowania. Połącz się ze swoim kontem na forum i spróbuj ponownie.",
+            "requires_write_scope": "To wymaga dostępu do zapisu. Połącz się ponownie i przyznaj uprawnienia do wprowadzania zmian.",
+            "throttled": "Robisz to zbyt często. Odczekaj chwilę przed ponowną próbą.",
+            "unknown_filters": "Typu {type} nie można filtrować według: {filters}. Listę obsługiwanych filtrów zwraca describe_api."
         }
     }
 }

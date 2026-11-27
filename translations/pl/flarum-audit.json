@@ -18,7 +18,7 @@
                 "limitedIpAddress": "Wyświetlanie adresów IP"
             },
             "tabs": {
-                "log": ""
+                "log": "Dziennik"
             }
         },
         "forum": {
@@ -157,11 +157,11 @@
                     "password_reset_attempted_unmatched": "Poproszono o reset hasła dla adresu {email} (brak pasującego konta)",
                     "provider_connected": "Połączono dostawcę {provider} z kontem użytkownika {username}",
                     "username_changed": "Zmieniono nazwę użytkownika {username} z {old_username} na {new_username}",
-                    "email_bounced": "",
-                    "email_bounced_unmatched": "",
-                    "email_complained": "",
-                    "email_complained_unmatched": "",
-                    "logged_out_everywhere": "",
+                    "email_bounced": "Wiadomość do użytkownika {username} została zwrócona: {reason}",
+                    "email_bounced_unmatched": "Wiadomość na adres {email} została zwrócona (brak pasującego konta): {reason}",
+                    "email_complained": "Użytkownik {username} oznaczył wiadomość z forum jako spam",
+                    "email_complained_unmatched": "Wiadomość na adres {email} została oznaczona jako spam (brak pasującego konta)",
+                    "logged_out_everywhere": "Wylogowano użytkownika {username} ze wszystkich sesji",
                     "bio_changed": "Zmieniono bio użytkownika {username}",
                     "impersonated": "Podszyto się pod użytkownika {username}",
                     "nickname_requested": "Poproszono o nowy pseudonim {new_nickname} dla użytkownika {username}",

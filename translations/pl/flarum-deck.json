@@ -12,8 +12,8 @@
             },
             "sections": {
                 "columns": {
-                    "description": "",
-                    "label": ""
+                    "description": "Ile kolumn użytkownicy mogą dodać do swojego pulpitu i jak często są one odświeżane.",
+                    "label": "Kolumny"
                 }
             }
         },
@@ -37,7 +37,7 @@
                 "submit_button": "Dodaj kolumnę",
                 "title": "Dodaj kolumnę",
                 "use_filters_button": "Użyj tych filtrów",
-                "filter_unknown_message": ""
+                "filter_unknown_message": "{count, plural, one {{parts} nie jest filtrem dyskusji.} other {{parts} nie są filtrami dyskusji.}} Użyj filtrów, np. tag:support lub jest:nieodczytana."
             },
             "column": {
                 "controls_label": "Opcje kolumny „{title}”",
@@ -55,7 +55,7 @@
                 "remove_button": "Usuń kolumnę",
                 "reset_width_button": "Przywróć domyślną szerokość",
                 "resize_label": "Zmień szerokość kolumny „{title}”",
-                "edit_button": ""
+                "edit_button": "Edytuj kolumnę"
             },
             "column_types": {
                 "all": "Wszystkie dyskusje",
@@ -109,9 +109,9 @@
                 "title": "Pulpit"
             },
             "edit_column": {
-                "name_label": "",
-                "submit_button": "",
-                "title": ""
+                "name_label": "Nazwa",
+                "submit_button": "Zapisz",
+                "title": "Edytuj kolumnę"
             }
         }
     }

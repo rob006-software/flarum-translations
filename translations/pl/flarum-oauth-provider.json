@@ -3,118 +3,118 @@
         "admin": {
             "clients": {
                 "applications": {
-                    "heading": "",
-                    "help": "",
-                    "empty": "",
-                    "off": ""
+                    "heading": "Aplikacje",
+                    "help": "Aplikacje dodane ręcznie, np. inna witryna, która pozwala użytkownikom logować się kontem z tego forum. Każda otrzymuje ID klienta oraz sekret, jeśli potrafi go bezpiecznie przechowywać.",
+                    "empty": "Nie dodano jeszcze żadnych aplikacji.",
+                    "off": "Aplikacje dodane przez administratora są wyłączone w ustawieniach: nie mogą logować użytkowników ani korzystać z dostępu przyznanego przez użytkowników."
                 },
                 "self_registered": {
-                    "heading": "",
-                    "help": "",
-                    "empty": "",
-                    "off": ""
+                    "heading": "Aplikacje zarejestrowane samodzielnie",
+                    "help": "Aplikacje, które połączyły się samodzielnie, np. asystenci AI korzystający z MCP (Claude, ChatGPT, Codex). Rejestrują się same lub identyfikują się adresem URL dokumentu z metadanymi.",
+                    "empty": "Żadna aplikacja nie zarejestrowała się jeszcze samodzielnie.",
+                    "off": "Aplikacje zarejestrowane samodzielnie są wyłączone w ustawieniach: nowe nie mogą się połączyć, a te poniżej nie mogą logować użytkowników ani korzystać z dostępu przyznanego przez użytkowników."
                 },
-                "new_button": "",
-                "connections": "",
-                "connections_none": "",
-                "last_used": "",
-                "never_used": "",
-                "name_column": "",
-                "id_column": "",
-                "redirects_column": "",
-                "status_column": "",
-                "status_active": "",
-                "status_revoked": "",
-                "edit_button": "",
-                "delete_button": "",
-                "rotate_button": "",
-                "delete_confirm": "",
-                "rotate_confirm": ""
+                "new_button": "Dodaj klienta",
+                "connections": "{count, plural, one {# użytkownik} few {# użytkownicy} many {# użytkowników} other {# użytkownika}}",
+                "connections_none": "Brak użytkowników",
+                "last_used": "Ostatnio użyto {ago}",
+                "never_used": "Nigdy nie użyto",
+                "name_column": "Nazwa",
+                "id_column": "ID klienta",
+                "redirects_column": "Adresy URI przekierowania",
+                "status_column": "Status",
+                "status_active": "Aktywny",
+                "status_revoked": "Unieważniony",
+                "edit_button": "Edytuj",
+                "delete_button": "Usuń",
+                "rotate_button": "Wygeneruj nowy sekret",
+                "delete_confirm": "Czy na pewno chcesz usunąć tego klienta OAuth? Wszystkie wydane mu tokeny zostaną unieważnione.",
+                "rotate_confirm": "Czy na pewno chcesz wygenerować nowy sekret tego klienta? Stary sekret natychmiast przestanie działać, wszystkie istniejące tokeny dostępu i odświeżania zostaną unieważnione, a aplikacje korzystające ze starego sekretu będą potrzebowały nowego, aby połączyć się ponownie."
             },
             "form": {
-                "new_title": "",
-                "edit_title": "",
-                "name_label": "",
-                "redirect_uris_label": "",
-                "redirect_uris_help": "",
-                "scopes_label": "",
-                "scopes_help": "",
-                "confidential_label": "",
-                "confidential_help": "",
-                "revoked_label": "",
-                "save_button": ""
+                "new_title": "Dodaj klienta OAuth",
+                "edit_title": "Edytuj klienta OAuth",
+                "name_label": "Wyświetlana nazwa",
+                "redirect_uris_label": "Adresy URI przekierowania",
+                "redirect_uris_help": "Jeden adres URI w każdym wierszu. Klient musi wysłać jeden z nich jako redirect_uri w żądaniu autoryzacji.",
+                "scopes_label": "Dozwolone zakresy uprawnień",
+                "scopes_help": "Lista zakresów uprawnień oddzielonych spacjami, o które może prosić ten klient. Pozostaw puste, aby zezwolić na wszystkie zakresy.",
+                "confidential_label": "Klient poufny (backend może bezpiecznie przechowywać sekret)",
+                "confidential_help": "Odznacz w przypadku klientów publicznych (SPA, aplikacje mobilne), które muszą używać PKCE. Nie można tego zmienić po utworzeniu.",
+                "revoked_label": "Unieważniony (odrzucaj wszystkie nowe żądania autoryzacji)",
+                "save_button": "Zapisz"
             },
             "sections": {
                 "registration": {
-                    "label": "",
-                    "description": ""
+                    "label": "Dozwolone aplikacje",
+                    "description": "Które aplikacje mogą logować użytkowników. Wyłączenie danego rodzaju aplikacji wstrzymuje ich działanie, bez usuwania ich, dopóki nie zostanie ponownie włączony."
                 }
             },
             "settings": {
-                "allow_self_registered_clients_label": "",
-                "allow_self_registered_clients_help": "",
-                "allow_admin_clients_label": "",
-                "allow_admin_clients_help": "",
-                "source_metadata_document": "",
-                "source_dynamic": ""
+                "allow_self_registered_clients_label": "Zezwalaj na aplikacje zarejestrowane samodzielnie",
+                "allow_self_registered_clients_help": "Pozwala aplikacjom, takim jak klienci MCP (Claude, ChatGPT), łączyć się samodzielnie: za pomocą Dynamic Client Registration (RFC 7591) rejestrują się same pod adresem /oauth/register, a za pomocą Client ID Metadata Document identyfikują się adresem URL, który je opisuje. Są to zawsze klienci publiczni i muszą używać PKCE.",
+                "allow_admin_clients_label": "Zezwalaj na aplikacje dodane przez administratora",
+                "allow_admin_clients_help": "Pozwala aplikacjom z karty „Aplikacje” logować użytkowników. Po wyłączeniu tej opcji przycisk „Dodaj klienta” jest również ukryty.",
+                "source_metadata_document": "Dokument z metadanymi",
+                "source_dynamic": "Zarejestrowana samodzielnie"
             },
             "tabs": {
-                "applications": "",
-                "self_registered": "",
-                "settings": ""
+                "applications": "Aplikacje",
+                "self_registered": "Zarejestrowane samodzielnie",
+                "settings": "Ustawienia"
             },
             "permissions": {
-                "connect_label": ""
+                "connect_label": "Łączenie aplikacji z własnym kontem"
             },
             "secret_modal": {
-                "title": "",
-                "intro": "",
-                "rotated_title": "",
-                "rotated_intro": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "close_button": ""
+                "title": "Utworzono klienta",
+                "intro": "Zapisz te dane uwierzytelniające teraz – sekret nie zostanie wyświetlony ponownie.",
+                "rotated_title": "Wygenerowano nowy sekret",
+                "rotated_intro": "Sekret klienta został zmieniony. Zaktualizuj korzystającą z niego aplikację, podając nowy sekret – stary przestał działać, a wszystkie istniejące sesje zostały unieważnione.",
+                "client_id_label": "ID klienta",
+                "client_secret_label": "Sekret klienta",
+                "close_button": "Zapisałem te dane"
             }
         },
         "lib": {
             "gambits": {
                 "users": {
                     "connected": {
-                        "key": "",
-                        "hint": ""
+                        "key": "połączony",
+                        "hint": "ID klienta"
                     }
                 }
             }
         },
         "api": {
-            "scopes_empty_message": "",
-            "scope_unknown_message": ""
+            "scopes_empty_message": "Lista dozwolonych zakresów uprawnień nie może być pusta. Pozostaw pole puste, aby zezwolić na wszystkie zakresy, lub unieważnij klienta, aby go zablokować.",
+            "scope_unknown_message": "Nieznany zakres uprawnień: {scope}."
         },
         "forum": {
             "consent": {
-                "title": "",
-                "intro": "",
-                "scopes_heading": "",
-                "approve_button": "",
-                "deny_button": "",
-                "from_host": "",
-                "unverified": "",
-                "redirect_host": ""
+                "title": "Autoryzuj aplikację",
+                "intro": "Witaj, {username}! Aplikacja {client} prosi o dostęp do Twojego konta.",
+                "scopes_heading": "Aplikacja będzie mogła:",
+                "approve_button": "Autoryzuj",
+                "deny_button": "Anuluj",
+                "from_host": "z {host}",
+                "unverified": "niezweryfikowana, zarejestrowana samodzielnie",
+                "redirect_host": "Po podjęciu decyzji zostaniesz przekierowany do {host}."
             },
             "connected_apps": {
-                "heading": "",
-                "help_text": "",
-                "empty": "",
-                "from_host": "",
-                "connected": "",
-                "last_used": "",
-                "never_used": "",
-                "revoke_button": "",
-                "revoke_confirm": "",
-                "revoked": "",
-                "revoke_all_button": "",
-                "revoke_all_confirm": "",
-                "revoked_all": ""
+                "heading": "Połączone aplikacje",
+                "help_text": "Aplikacje, którym pozwoliłeś korzystać ze swojego konta, np. asystenci AI. Odebranie dostępu wylogowuje aplikację. Globalne wylogowanie lub zmiana hasła rozłącza je wszystkie.",
+                "empty": "Nie połączyłeś żadnych aplikacji.",
+                "from_host": "z {host}",
+                "connected": "Połączono",
+                "last_used": "Ostatnio użyto",
+                "never_used": "Nigdy",
+                "revoke_button": "Odbierz dostęp",
+                "revoke_confirm": "Czy na pewno chcesz odebrać dostęp aplikacji {client}? Zostanie wylogowana i będzie musiała ponownie poprosić o pozwolenie.",
+                "revoked": "Aplikacja {client} nie ma już dostępu do Twojego konta.",
+                "revoke_all_button": "Odbierz dostęp wszystkim",
+                "revoke_all_confirm": "Czy na pewno chcesz odebrać dostęp wszystkim połączonym aplikacjom? Każda z nich zostanie wylogowana i będzie musiała ponownie poprosić o pozwolenie.",
+                "revoked_all": "Żadna aplikacja nie ma już dostępu do Twojego konta."
             }
         }
     },
@@ -122,9 +122,9 @@
         "lib": {
             "data": {
                 "connectedapplications": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Aplikacje połączone z Twoim kontem wraz z informacją, na co i kiedy im pozwoliłeś.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.connectedapplications.delete_description",
+                    "delete_description": "Połączone aplikacje zostaną odłączone, a ich dostęp do Twojego konta – odebrany."
                 }
             }
         }
@@ -133,16 +133,16 @@
         "lib": {
             "browser": {
                 "user": {
-                    "oauth_connected": "",
-                    "oauth_signed_in": "",
-                    "oauth_disconnected": "",
-                    "oauth_disconnected_all": ""
+                    "oauth_connected": "Połączono {client} z kontem użytkownika {username}",
+                    "oauth_signed_in": "Zalogowano się w {client} kontem użytkownika {username}",
+                    "oauth_disconnected": "Odłączono {client} od konta użytkownika {username}",
+                    "oauth_disconnected_all": "Odłączono wszystkie aplikacje od konta użytkownika {username}{cause, select, logout_everywhere { przez globalne wylogowanie} password_change { przez zmianę hasła} other {}}"
                 },
                 "oauth_client": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": "",
-                    "secret_rotated": ""
+                    "created": "Dodano klienta OAuth {client}",
+                    "updated": "Edytowano klienta OAuth {client}",
+                    "deleted": "Usunięto klienta OAuth {client}",
+                    "secret_rotated": "Wygenerowano nowy sekret klienta OAuth {client}"
                 }
             }
         }
