@@ -22,12 +22,12 @@
                 "logo_qr": "Logo sur le code QR",
                 "logo_qr_help": "Si un logo a été transféré, il sera intégré au code QR. Laissez vide pour utiliser le logo du forum.",
                 "tokens": {
-                    "heading": "Jetons d'accès",
-                    "help": "Pour une sécurité accrue, vous pouvez gérer ici des comportements supplémentaires liés aux jetons d'accès.",
-                    "kill_inactive_tokens_age_days": "Délai d'expiration des jetons inactifs (en jours)",
-                    "kill_inactive_tokens_age_days_help": "Le nombre de jours d'inactivité après lesquels les jetons d'accès seront supprimés.",
-                    "also_kill_developer_tokens": "Mettre également fin aux jetons des développeurs",
-                    "also_kill_developer_tokens_help": "Met également fin aux jetons d'accès des développeurs qui ont été inactifs pendant la période spécifiée.",
+                    "heading": "Jetons de développeur",
+                    "help": "La durée de validité de la connexion et de l'option « Se souvenir de moi » se définie sur la page « Avancé », dans la section « Sessions ». Les jetons de développeur n'y expirent jamais ; ils peuvent donc être supprimés ici.",
+                    "kill_inactive_tokens_age_days": "Supprimer les jetons de développeur après (jours)",
+                    "kill_inactive_tokens_age_days_help": "Nombre de jours pendant lesquels un jeton de développeur peut rester inutilisé avant d'être supprimé.",
+                    "also_kill_developer_tokens": "Supprimer les jetons de développeur inutilisés",
+                    "also_kill_developer_tokens_help": "Supprimez les jetons d'accès développeur qui n'ont pas été utilisés depuis le nombre de jours indiqué ci-dessous. Les scripts et les intégrations qui en utilisent un cesseront de fonctionner.",
                     "kill_inactive_tokens": "Mettre fin aux jetons inactifs",
                     "kill_inactive_tokens_help": "Met fin automatiquement aux jetons d'accès qui ont été inactifs pendant une période de temps spécifiée."
                 }
@@ -66,7 +66,7 @@
                 "change_device_button": "Modifier l'appareil",
                 "verify_current_device_message": "Veuillez saisir un jeton de votre appareil d'authentification actuel pour vérifier votre identité.",
                 "enter_current_token": "Saisir le jeton de l'appareil actuel",
-                "current_token_required": "",
+                "current_token_required": "Saisissez un jeton depuis votre appareil actuel pour continuer.",
                 "scan_new_device_qr": "Scannez ce code QR avec votre nouvel appareil d'authentification.",
                 "verify_new_device_message": "Saisissez maintenant un jeton à partir de votre nouvel appareil pour terminer la modification.",
                 "enter_new_token": "Saisir le jeton à partir du nouvel appareil",
@@ -113,14 +113,14 @@
                 "title": "Authentification à deux facteurs",
                 "submit_button": "Envoyer le jeton",
                 "oauth_session_expired": "La session OAuth a expiré. Veuillez vous reconnecter.",
-                "too_many_attempts_message": ""
+                "too_many_attempts_message": "Trop de codes d'authentification à deux facteurs (A2F) incorrects. Veuillez patienter quelques minutes, puis réessayez."
             }
         },
         "lib": {
             "gambits": {
                 "users": {
                     "twofactor": {
-                        "key": ""
+                        "key": "a2f"
                     }
                 }
             }
