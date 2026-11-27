@@ -35,9 +35,9 @@
                 "not_following_text": "Będziesz powiadamiany tylko wtedy, kiedy zostaniesz @wspomniany.",
                 "notify_alert_tooltip": "Otrzymuj powiadomienia na forum, kiedy pojawią się nowe posty",
                 "notify_email_tooltip": "Otrzymuj powiadomienia e-mail, kiedy pojawią się nowe posty",
-                "following_option": "",
-                "ignoring_option": "",
-                "not_following_option": ""
+                "following_option": "=> flarum-subscriptions.ref.following",
+                "ignoring_option": "=> flarum-subscriptions.ref.ignoring",
+                "not_following_option": "=> flarum-subscriptions.forum.sub_controls.not_following_button"
             }
         },
         "email": {
@@ -71,7 +71,7 @@
         "email": {
             "notification": {
                 "types": {
-                    "newPost": ""
+                    "newPost": "Nowe posty w obserwowanych dyskusjach"
                 }
             }
         }
