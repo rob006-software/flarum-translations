@@ -18,7 +18,7 @@
                 "limitedIpAddress": "Afficher l'adresse IP"
             },
             "tabs": {
-                "log": ""
+                "log": "Journal"
             }
         },
         "forum": {
@@ -157,8 +157,8 @@
                     "password_reset_attempted_unmatched": "A demandé une réinitialisation du mot de passe pour {email} (aucun compte correspondant)",
                     "provider_connected": "A connecté le fournisseur {provider} au compte de {username}",
                     "username_changed": "A modifié le nom d'utilisateur de {username}, {old_username} en {new_username}",
-                    "email_bounced": "",
-                    "email_bounced_unmatched": "",
+                    "email_bounced": "Courriel envoyé à {username} rejeté : {reason}",
+                    "email_bounced_unmatched": "Courriel envoyé à {email} rejeté (aucun compte correspondant) : {reason}",
                     "email_complained": "",
                     "email_complained_unmatched": "",
                     "logged_out_everywhere": "",
