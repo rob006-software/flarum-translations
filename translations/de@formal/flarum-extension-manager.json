@@ -137,7 +137,7 @@
             "extensions": {
                 "already_installed": "Diese Erweiterung ist bereits installiert",
                 "check_why_it_failed_updating": "Zeige, warum sie nicht auf die neueste Version aktualisiert wurde.",
-                "install": "Installiere eine neue Erweiterung",
+                "install": "Neue Erweiterung installieren",
                 "install_help": "Geben Sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können eine <semantic_link>semantische Version</semantic_link> angeben, indem Sie das Format <code>vendor/package-name:version</code> verwenden. Besuchen Sie {link}, um Pakete zu durchsuchen.\n",
                 "proceed": "Fortfahren",
                 "remove": "Deinstallieren",
@@ -512,7 +512,7 @@
             }
         },
         "api": {
-            "unknown_action": "",
+            "unknown_action": "Unbekannte Aktion.",
             "apply": {
                 "local_path": "",
                 "move_aside_failed": "",
@@ -520,8 +520,8 @@
                 "previous_unfinished": ""
             },
             "change": {
-                "added": "",
-                "removed": ""
+                "added": "{package} {version} (neu)",
+                "removed": "{package} {version} (entfernt)"
             },
             "check": {
                 "no_lock": ""
@@ -531,21 +531,21 @@
                 "abandoned_replaced": "",
                 "advice_memory": "",
                 "advice_time": "",
-                "and_more": "",
+                "and_more": "und {count} weitere",
                 "assets_published": "",
                 "autoloader_copy_failed": "",
                 "broke_site_no_restore": "",
                 "broke_site_restored": "",
                 "caches_cleared": "",
                 "autoload_files_pruned": "",
-                "composer_failed": "",
+                "composer_failed": "Composer fehlgeschlagen:",
                 "core_db_failed": "",
                 "core_db_failed_undone": "",
                 "core_db_unchanged": "",
                 "core_moved": "",
                 "core_same_version": "",
-                "downloaded": "",
-                "flarum_command_failed": "",
+                "downloaded": "{package} heruntergeladen",
+                "flarum_command_failed": "`flarum {command}` fehlgeschlagen:",
                 "health_503_waiting": "",
                 "health_down_before": "",
                 "health_no_address": "",
