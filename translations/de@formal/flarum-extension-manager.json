@@ -69,14 +69,14 @@
                         "dev": "Entwickler"
                     },
                     "stat": "",
-                    "recommended": "",
+                    "recommended": "empfohlen",
                     "prefer_stable": "",
                     "prefer_stable_help": "",
                     "short": {
                         "stable": "",
-                        "rc": "",
-                        "alpha": "",
-                        "dev": ""
+                        "rc": "Veröffentlichungskandidaten",
+                        "alpha": "Vorschauversionen",
+                        "dev": "Unveröffentlichter Code"
                     },
                     "means": {
                         "stable": "",
@@ -102,26 +102,26 @@
                         "submit_button": "Senden"
                     },
                     "none": "",
-                    "stat": "",
-                    "filter": "",
+                    "stat": "{count, plural, one {Repository} other {Repositorys}}",
+                    "filter": "Repositorys filtern",
                     "no_match": "",
-                    "open": "",
-                    "remove_named": "",
-                    "duplicate": "",
-                    "will_add": "",
+                    "open": "In neuem Tab öffnen",
+                    "remove_named": "{name} entfernen?",
+                    "duplicate": "Dieses Repository wurde bereits eingetragen.",
+                    "will_add": "Fügt {name} von {where} hinzu.",
                     "type_help": {
-                        "vcs": "",
-                        "composer": "",
+                        "vcs": "GitHub, GitLab, Bitbucket oder einem beliebigen Git-Host",
+                        "composer": "Private Packagist oder ein bezahlter Marktplatz",
                         "path": ""
                     },
                     "placeholders": {
-                        "vcs": "",
-                        "composer": "",
-                        "path": ""
+                        "vcs": "https://github.com/du/deine-erweiterung",
+                        "composer": "https://repo.beispiel.de",
+                        "path": "/home/du/extensions/deine-erweiterung"
                     }
                 },
                 "config_failed": "",
-                "remove_repository_label": ""
+                "remove_repository_label": "{name} entfernen"
             },
             "exceptions": {
                 "composer_command_failure": "Ausführung fehlgeschlagen. Überprüfen sie die Composer-Logs in storage/logs/composer.",
@@ -147,19 +147,19 @@
                 "update": "Aktualisieren",
                 "update_soft_label": "Soft-Aktualisierung",
                 "update_hard_label": "Hard-Aktualisierung",
-                "update_one": "",
+                "update_one": "{name} aktualisieren",
                 "repin_confirm": "",
-                "remove_files": "",
+                "remove_files": "Dateien entfernen",
                 "remove_confirm": "",
-                "enabled": "",
-                "disabled": "",
-                "version_unknown": "",
-                "library": "",
+                "enabled": "aktiviert",
+                "disabled": "deaktiviert",
+                "version_unknown": "unbekannte Version",
+                "library": "Composer-Paket",
                 "library_why": "",
                 "path_install": "",
                 "path_install_why": "",
-                "open_settings": "",
-                "learn_more": ""
+                "open_settings": "Einstellungen von {name} öffnen",
+                "learn_more": "Mehr erfahren"
             },
             "file_permissions": "Der Erweiterungsmanager benötigt Lese- und Schreibrechte auf den folgenden Dateien und Verzeichnissen: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
@@ -194,11 +194,11 @@
                         "downloads": "{count, plural, one {{formattedCount} Download} other {{formattedCount} Downloads}}",
                         "abandoned_why": "",
                         "abandoned_for": "",
-                        "replaced": "",
-                        "replaced_by": "",
+                        "replaced": "ersetzt",
+                        "replaced_by": "ersetzt durch {replacement}",
                         "replaced_why": "",
-                        "install_replacement": "",
-                        "installed_as": "",
+                        "install_replacement": "{replacement} installieren",
+                        "installed_as": "als {replacement} installiert",
                         "replacement_installed": ""
                     },
                     "search": "Suchen",
