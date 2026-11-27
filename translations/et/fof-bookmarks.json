@@ -2,14 +2,14 @@
     "fof-bookmarks": {
         "admin": {
             "settings": {
-                "independent_button": "",
-                "independent_button_help": "",
-                "post_button_position": "",
+                "independent_button": "Näita järjehoidja nuppu külgribal",
+                "independent_button_help": "Kui see on välja lülitatud, siis on järjehoidja lisamise valik rippmenüüs.",
+                "post_button_position": "Postituse järjehoidjatesse lisamise nupu asukoht",
                 "post_button_position_header": "Postituse kohal (päis)",
-                "post_button_position_actions": "",
-                "post_button_position_menu": "",
-                "post_header_badge": "",
-                "post_header_badge_help": ""
+                "post_button_position_actions": "Postituse all (kiirtegevused)",
+                "post_button_position_menu": "Postituse menüüs (kolm täppi)",
+                "post_header_badge": "Märgista järjehoidjatesse lisatud postitused",
+                "post_header_badge_help": "Näitab silti järjehoidjatesse lisatud postituse kohal. Rakendatakse ainult siis, kui nupp pole päises."
             }
         },
         "forum": {
@@ -24,7 +24,7 @@
             },
             "postButton": {
                 "add": "Järjehoidja",
-                "remove": ""
+                "remove": "Järjehoidjates"
             },
             "alert": {
                 "added": "Järjehoidja on lisatud!",
@@ -35,8 +35,8 @@
                 "link": "Järjehoidjad",
                 "title": "Järjehoidjad",
                 "hero": {
-                    "title": "",
-                    "subtitle": ""
+                    "title": "Järjehoidjad",
+                    "subtitle": "Vestlused ja postitused, mida sa oled enda jaoks salvestanud."
                 },
                 "tab": {
                     "discussions": "Vestlused",
@@ -47,7 +47,7 @@
         "lib": {
             "gambits": {
                 "bookmarked": {
-                    "key": ""
+                    "key": "järjehoidjates"
                 }
             }
         }
