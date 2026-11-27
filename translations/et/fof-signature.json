@@ -9,8 +9,8 @@
             "errors": {
                 "max_char_limit_exceed": "Maksimaalne märkide arv ületatud.",
                 "max_image_count_exceed": "Maksimaalne piltide arv ületatud.",
-                "remote_images_not_allowed": "",
-                "save_failed": ""
+                "remote_images_not_allowed": "Allkirjades ei või kasutada kaugpilte.",
+                "save_failed": "Sinu allkirja salvestamisel läks midagi valesti."
             },
             "editor": {
                 "placeholder": "Muuda oma allkirja siin"
@@ -25,28 +25,28 @@
         "admin": {
             "permissions": {
                 "edit_signature_others": "Teise kasutajate allkirja muutmine",
-                "allow_signature": ""
+                "allow_signature": "Võib lisada allkirja"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "Maksimaalne sisestatud piltide arv.",
+                    "help": "Kui kasutaja ületab maksimaalse lubatud piltide arvu, siis nad ei saa seda salvestada enne, kui piltide arv on õige."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "Maksimaalne märkide arv allkirjas.",
+                    "help": "Kui kasutaja ületab allkirja maksimaalse märkide arvu, siis nad ei saa seda salvestada enne, kui märkide arv on õige."
                 },
                 "allow_remote_images": {
-                    "description": "",
-                    "help": ""
+                    "description": "Luba kaugpiltide kasutamine.",
+                    "help": "Kui see on välja lülitatud, siis kasutajad ei saa kasutada pilte, mis on majutatud mõnda teise serverisse. See takistab muudel saitidel IP pildi vaatajate aadressi jälgimist."
                 },
                 "allowed_image_hosts": {
-                    "description": "",
-                    "help": ""
+                    "description": "Lubatud piltide hostid.",
+                    "help": "Kui kaugpiltide kasutamine on välja lülitatud, siis nende hostide piltide kasutamine on siiski lubatud (lisaks piltidele sinu enda foorumi). Sisesta üks host rea kohta, nt. sinu CDN nagu näiteks cdn.example.com."
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Allkira otsene muutmine.",
+                    "help": "Kui see on sisse lülitatud, siis kasutajad saavad oma allkirja muuta postitust vaadates."
                 }
             }
         }
