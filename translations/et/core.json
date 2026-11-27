@@ -223,8 +223,8 @@
                 "show_language_selector_label": "Näita keelevalikut",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "",
-                        "utf8": ""
+                        "default": "ID koos nimeviitega",
+                        "utf8": "ID koos UTF-8 nimeviitega"
                     },
                     "users": {
                         "default": "Kasutajanimi",
@@ -244,10 +244,10 @@
                 "abandoned_extensions_sync_error": "Hüljatud lisaprogrammide nimekirja tõmbamine ebaõnnestus. Proovi hiljem uuesti.",
                 "abandoned_extensions_notify_admins_label": "Saada adminidele kiri, kui nädalase kontrolli käigus leitakse uus hüljetud lisaprogramm",
                 "forum_short_name_heading": "Lühinimi",
-                "forum_short_name_text": "",
+                "forum_short_name_text": "Kuni 16 tähemärki; kasutatakse seal, kuhu foorumi pealkiri ära ei mahu – telefoni avakuval foorumi ikooni all ja siis, kui keegi lisab foorumi oma brauseris otsingumootoriks. Kui seda pole määratud, kasutatakse foorumi pealkirja, mis lõigatakse liigse pikkuse korral täissõna pealt lühemaks.",
                 "sections": {
                     "extensions": {
-                        "description": "",
+                        "description": "Hoia silm peal lisaprogrammidel, mida nende autorid enam ei hoolda.",
                         "label": "Lisaprogrammid"
                     },
                     "forum": {
@@ -427,7 +427,7 @@
                     "html_option": "HTML"
                 },
                 "format_heading": "Väljuvate e-kirjade vorming",
-                "format_help": "",
+                "format_help": "Vali vorming, milles väljuvad e-kirjad saadetakse. Soovitatav valik on <code>multipart</code>, kuna see võimaldab kasutaja e-posti kliendil kuvada kõige sobivamat vormingut.",
                 "from_label": "Saatja",
                 "mail_encryption_label": "Krüpteering",
                 "mail_encryption_tls_help": "Ühenduse algus on krüpteerimata ja seejärel läheb üle TLS-ile (STARTTLS). Tavaliselt kasutab porti 587 või 25.",
@@ -442,7 +442,7 @@
                 "mail_postmark_message_stream_label": "Sõnumi voog",
                 "mail_postmark_token_label": "Serveri kontrollkood",
                 "mail_smtp_verify_peer_label": "Kinnita SSL sertifikaat",
-                "mail_smtp_verify_peer_help": "",
+                "mail_smtp_verify_peer_help": "Kontrolli serveri SSL-sertifikaati TLS- või SSL-krüptimise kasutamisel. Lülita see välja ainult siis, kui sinu meiliserver kasutab iseallkirjastatud sertifikaati.",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun seaded",
                 "postmark_heading": "Poastmarki seaded",
@@ -455,9 +455,9 @@
                 "smtp_heading": "SMTP seaded",
                 "smtp_description": "Seadista SMTP ühendus. Tavapärased seadistused: port 587 TSL-iga või port 465 SSL-iga.",
                 "title": "=> core.ref.email",
-                "bounce_handling_heading": "",
-                "bounce_handling_text": "",
-                "mail_mailgun_webhook_signing_key_label": "",
+                "bounce_handling_heading": "Tagasipõrkamiste haldamine",
+                "bounce_handling_text": "Kui sinu meiliteenuse pakkuja teatab, et e-posti aadress põrkas püsivalt tagasi (kiri ei jõudnud kohale) või kiri märgiti rämpspostiks, saab Flarum vastava kasutaja märgistada ja soovi korral lõpetada talle kirjade saatmise, kaitstes seeläbi sinu saatja mainet.",
+                "mail_mailgun_webhook_signing_key_label": "Webhooki allkirjastamise võti",
                 "mail_mailgun_webhook_signing_key_help": "",
                 "mailgun_description": "",
                 "sections": {
@@ -466,17 +466,17 @@
                         "label": "Saatmine"
                     }
                 },
-                "register_webhook_button": "",
-                "register_webhook_success": "",
-                "unregister_webhook_button": "",
-                "unregister_webhook_success": "",
-                "suppress_bounced_label": "",
+                "register_webhook_button": "Registreeeri webhook teenusepakkujaga",
+                "register_webhook_success": "Webhook on registreeritud sinu e-posti teenusepakkujaga.",
+                "unregister_webhook_button": "Eemalda teenusepakkujalt webhook",
+                "unregister_webhook_success": "E-posti teenusepakkujalt on eemaldatud webhook.",
+                "suppress_bounced_label": "Lõpeta tagasipõrkunud aadressidele kirjade saatmine",
                 "suppress_bounced_help": "",
-                "webhook_password_label": "",
-                "webhook_url_label": "",
+                "webhook_password_label": "Webhooki parool",
+                "webhook_url_label": "Webhooki URL",
                 "webhook_url_help": "",
                 "webhook_url_provision_help": "",
-                "webhook_username_label": "",
+                "webhook_username_label": "Webhooki kasutajanimi",
                 "webhook_username_help": ""
             },
             "extension": {
@@ -516,7 +516,7 @@
                     "title": "Nulli seaded",
                     "title_extension": "Nulli {extensionTitle} seaded"
                 },
-                "safe_mode_warning": "",
+                "safe_mode_warning": "Turvaline režiim on praegu sisse lülitatud. Lisaprogramme ei käivitata ja seetõttu pole nende seaded saadaval.",
                 "general_tab": "Üldine",
                 "no_settings_or_permissions": "Sellel lisaprogrammil pole seadeid või õiguseid.",
                 "unsaved_changes": "Salvestamata muudatused"
@@ -1105,7 +1105,7 @@
                 "bisecting": "",
                 "bisecting_continue": "Jätka veatuvastust",
                 "maintenance_mode_low": "Hooldamisel. Ainult administraatorid näevad foorumit.",
-                "maintenance_mode_safe": ""
+                "maintenance_mode_safe": "Suletud hoolduseks turvalises režiimis. Ainult administraatorid näevad foorumit ja ühtegi lisaprogrammi ei käivitata."
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -1145,7 +1145,7 @@
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "",
+                    "all_button": "Otsi kõigist vestlustest \"{query}\"",
                     "heading": "=> core.ref.discussions"
                 },
                 "posts": {
@@ -1163,7 +1163,7 @@
             },
             "user_selection_modal": {
                 "empty_results": "Sinu otsingule ei vastanud ükski kasutaja.",
-                "max_items_to_select": "",
+                "max_items_to_select": "{count, plural, one {Vali kuni # kasutaja} other {Vali kuni # kasutajat}}",
                 "search_placeholder": "=> core.ref.search_users",
                 "submit_button": "=> core.ref.okay",
                 "title": "Vali asjakohased kasutajad"
@@ -1245,7 +1245,7 @@
                 "csrf_token_mismatch_return_link": "Mine tagasi, et uuesti proovida",
                 "invalid_confirmation_token": "See kinnituslink pole õige või seda on juba kasutatud.",
                 "maintenance_mode_link": "Administraatori kasutajakonto",
-                "maintenance_mode_message": "",
+                "maintenance_mode_message": "See foorum on praegu hooldamisel. Palun tule hiljem tagasi.",
                 "maintenance_mode_title": "Hooldus",
                 "method_not_allowed": "See lehekülg ei toeta seda nõutud meetodit.",
                 "not_authenticated": "Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.",
@@ -1254,7 +1254,7 @@
                 "permission_denied": "Sul pole sellele lehele ligipääsuõigust.",
                 "unknown": "Lehel laadimisel tekkis viga.",
                 "not_found_actions_label": "Millega jätkata",
-                "not_found_description": "",
+                "not_found_description": "Seda lehekülge ei leitud. Võimalik, et seda on liigutatud või sa pead selle nägemiseks sisse logima. Siin on mõned viisid tagasi sisse saamiseks.",
                 "not_found_discussions_link": "Sirvi kõiki vestlusi",
                 "not_found_home_link": "Mine avalehele",
                 "not_found_search_button": "Otsi",
@@ -1300,7 +1300,7 @@
                 "invalid_message": "Teavituste tühistamise link on vigane või seda on juba kasutatud. Muudatusi oma e-posti teavitustest foorumis {forumTitle} näed [oma seadetest]({settingsLink})."
             },
             "offline": {
-                "text": "",
+                "text": "Foorumiga {forum} ei saa ühendust. Kontrolli oma ühendust: see lehekülg laadib ennast uuesti niipea, kui see taas töötab.",
                 "title": "Ühendust pole"
             }
         },
@@ -1311,9 +1311,9 @@
                 "must_not_be_array_message": "Filter {filter} ei tohi olla andmemassiiv.",
                 "must_not_be_multidimensional_array_message": "Filter {filter} ei tohi olla mitmemõõduline andmemassiiv."
             },
-            "app_icon_too_small_message": "",
+            "app_icon_too_small_message": "Rakenduse ikoon peab olema vähemalt {size} pikslit lai või kõrge, et see oleks avaekraanil alati terava pildiga.",
             "image_set_by_code_message": "See pilt on määratud foorumi koodis ja seega ei saa seda siin muuta.",
-            "image_set_by_theme_message": ""
+            "image_set_by_theme_message": "See pilt on määratud lisaprogrammi {extension} poolt ning seega ei saa seda siit muuta."
         },
         "email": {
             "greeting": "Tere {displayName},",
@@ -1328,8 +1328,8 @@
                 "footer": {
                     "main_text": "",
                     "main_text_plain": "",
-                    "unsubscribe_text": "",
-                    "unsubscribe_text_plain": "",
+                    "unsubscribe_text": "Kui sa ei soovi seda tüüpi teavitusi saada, siis tühista need [siin]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "Kui sa ei soovi seda tüüpi teavitusi saada, siis tühista need siin: {unsubscribeLink}",
                     "settings_text": "Halda oma teavituste seadeid [siin]({settingsLink}).",
                     "settings_text_plain": "Halda oma teavituste seadeid siin: {settingsLink}",
                     "main_text_generic": "See kiri saadeti aadressile {email} kuna sinu kontol foorumis [{forumTitle}]({forumUrl}) on sisse lülitatud teavitused e-postile.",
@@ -1338,7 +1338,7 @@
             },
             "activate_account": {
                 "subject": "Aktiveeri oma uus konto",
-                "body": ""
+                "body": "Keegi (loodetavasti sina!) liitus foorumiga {forum} kasutades seda e-posti aadressi.\n\nKui see olid sina, siis lihtsalt kliki allolevale lingile ja sinu konto aktiveeritakse:\n{url}\n\nKui see polnud sina, siis palun ignoreeri seda kirja.\n"
             },
             "confirm_email": {
                 "subject": "Kinnita oma uus meiliaadress",
