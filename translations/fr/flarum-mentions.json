@@ -10,8 +10,8 @@
             },
             "sections": {
                 "format": {
-                    "description": "",
-                    "label": ""
+                    "description": "Quelle syntaxe les membres peuvent-ils utiliser pour mentionner un autre membre.",
+                    "label": "Format de mention"
                 }
             }
         },
@@ -38,7 +38,7 @@
                 "quote_button": "Citer",
                 "reply_link": "=> core.ref.reply",
                 "you_text": "=> core.ref.you",
-                "mentioned_by_self_only_text": ""
+                "mentioned_by_self_only_text": "{users} ont répondu à ceci."
             },
             "settings": {
                 "notify_post_mentioned_label": "Quelqu'un répond à un de mes messages",
@@ -99,9 +99,9 @@
         "email": {
             "notification": {
                 "types": {
-                    "groupMentioned": "",
-                    "postMentioned": "",
-                    "userMentioned": ""
+                    "groupMentioned": "Mentions de vos groupes",
+                    "postMentioned": "Réponses à vos messages",
+                    "userMentioned": "Mentions de vous"
                 }
             }
         }
