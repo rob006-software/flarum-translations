@@ -98,28 +98,28 @@
                     "no_other_drivers": "Es sind noch keine Suchtreiber verfügbar. Installiere eine Suchtreiber-Erweiterung, um diese konfigurieren zu können.",
                     "cjk_mode_label": "Suche für CJK-Sprachen optimieren",
                     "cjk_mode_help": "Aktiviere diese Option, wenn dein Forum hauptsächlich auf Chinesisch, Japanisch oder Koreanisch verwendet wird. Die wortbasierte Suche der Datenbank kann keine Teilzeichenfolgen in CJK-Texten finden, daher wird hier auf eine Teilzeichenfolgen-Suche umgeschaltet, die dies ermöglicht. Bei sehr großen Foren ist dieser Vorgang langsamer; in diesem Fall ist die Konfiguration eines CJK-fähigen Volltext-Parsers auf Datenbankebene (wie beispielsweise der ngram-Parser von MySQL/MariaDB) eine schnellere Alternative.",
-                    "min_length_label": "",
-                    "min_length_help": ""
+                    "min_length_label": "Mindestlänge für Suche",
+                    "min_length_help": "Die Anzahl der Zeichen, die bei einer Suche eingegeben werden müssen, bevor Ergebnisse geladen werden. Der Standardwert ist 3. Niedrigere Werte eignen sich für Sprachen mit kurzen Wörtern, wie Chinesisch, Japanisch oder Koreanisch, führen jedoch zu einer weniger genauen Übereinstimmung. Bei der standardmäßigen wortbasierten Suche von MySQL/MariaDB werden bei der Suche in Diskussionen und Beiträgen keine Wörter gefunden, die kürzer sind als die minimale Wortlänge der Datenbank (standardmäßig 3), es sei denn, die CJK-Suche ist aktiviert."
                 },
                 "title": "Fortgeschritten",
                 "sessions": {
-                    "section_label": "",
-                    "lifetime_label": "",
+                    "section_label": "Sitzungen",
+                    "lifetime_label": "Sitzungsdauer (Minuten)",
                     "lifetime_help": "",
                     "cookie_expires_on_close_label": "",
                     "cookie_expires_on_close_help": "",
-                    "duration_value_label": "",
-                    "duration_unit_label": "",
+                    "duration_value_label": "Dauer",
+                    "duration_unit_label": "Einheit",
                     "never_expires": "",
-                    "enabled": "",
-                    "disabled": "",
+                    "enabled": "Aktiviert",
+                    "disabled": "Deaktiviert",
                     "units": {
-                        "seconds": "",
-                        "minutes": "",
-                        "hours": "",
-                        "days": "",
-                        "weeks": "",
-                        "years": ""
+                        "seconds": "Sekunden",
+                        "minutes": "Minuten",
+                        "hours": "Stunden",
+                        "days": "Tage",
+                        "weeks": "Wochen",
+                        "years": "Jahre"
                     },
                     "token_types": {
                         "session": {
@@ -132,7 +132,7 @@
                         }
                     },
                     "config_override": {
-                        "label": "",
+                        "label": "In config.php konfiguriert",
                         "help": ""
                     }
                 }
@@ -1179,34 +1179,34 @@
                 "userListJoinDate": "LLL"
             },
             "icon_image_input": {
-                "remove_button": "",
+                "remove_button": "Entfernen",
                 "replace_button": "",
-                "upload_button": ""
+                "upload_button": "Bild hochladen"
             },
             "icon_picker": {
-                "count_text": "",
+                "count_text": "{count, plural, one {# Symbol} other {# Symbole}}",
                 "families": {
-                    "brands": "",
-                    "classic": "",
-                    "duotone": "",
-                    "sharp": "",
-                    "sharp_duotone": ""
+                    "brands": "Marken",
+                    "classic": "Klassisch",
+                    "duotone": "Duotone",
+                    "sharp": "Sharp",
+                    "sharp_duotone": "Sharp Duotone"
                 },
-                "family_label": "",
+                "family_label": "Symbolfamilie",
                 "forced_style_text": "",
                 "label": "",
                 "more_text": "",
                 "no_results_text": "",
-                "open_button": "",
-                "remove_button": "",
+                "open_button": "Symbol auswählen",
+                "remove_button": "Symbol entfernen",
                 "search_placeholder": "",
                 "unreadable_text": "",
                 "use_button": "",
                 "weights": {
-                    "light": "",
-                    "regular": "",
-                    "solid": "",
-                    "thin": ""
+                    "light": "Dünn",
+                    "regular": "Normal",
+                    "solid": "Fett",
+                    "thin": "Schlank"
                 }
             }
         },
