@@ -10,8 +10,8 @@
             },
             "sections": {
                 "format": {
-                    "description": "",
-                    "label": ""
+                    "description": "Jaką składnię mogą wpisywać użytkownicy, aby wspomnieć o innym użytkowniku.",
+                    "label": "Format wzmianek"
                 }
             }
         },
@@ -38,7 +38,7 @@
                 "quote_button": "Cytuj",
                 "reply_link": "=> core.ref.reply",
                 "you_text": "=> core.ref.you",
-                "mentioned_by_self_only_text": ""
+                "mentioned_by_self_only_text": "{users} odpowiedziałeś na to."
             },
             "settings": {
                 "notify_post_mentioned_label": "Ktoś odpowiedział na mój post",
@@ -99,9 +99,9 @@
         "email": {
             "notification": {
                 "types": {
-                    "groupMentioned": "",
-                    "postMentioned": "",
-                    "userMentioned": ""
+                    "groupMentioned": "Wzmianki o Twoich grupach",
+                    "postMentioned": "Odpowiedzi na Twoje posty",
+                    "userMentioned": "Wzmianki o Tobie"
                 }
             }
         }
