@@ -72,16 +72,16 @@
             },
             "sections": {
                 "anonymization": {
-                    "description": "",
-                    "label": ""
+                    "description": "Jak nazywani są zanonimizowani użytkownicy po usunięciu ich danych.",
+                    "label": "Anonimizacja"
                 },
                 "erasure": {
-                    "description": "",
-                    "label": ""
+                    "description": "Które metody usunięcia danych mogą wybrać użytkownicy i która jest używana domyślnie.",
+                    "label": "Wnioski o usunięcie danych"
                 },
                 "overview": {
-                    "description": "",
-                    "label": ""
+                    "description": "Które dane są eksportowane i usuwane, w tym dane zarejestrowane przez inne rozszerzenia.",
+                    "label": "Przegląd danych"
                 }
             }
         },
@@ -114,9 +114,9 @@
                     "export_description": "Eksportuje dane z tabeli użytkownika. Wszystkie kolumny oprócz id, hasła."
                 },
                 "emailbounceevents": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Usuwa adres e-mail z historii zwrotów wiadomości użytkownika, zachowując anonimowe wpisy na potrzeby statystyk.",
+                    "delete_description": "Usuwa historię zwrotów wiadomości e-mail użytkownika.",
+                    "export_description": "Eksportuje historię zwrotów wiadomości e-mail i zgłoszeń spamu użytkownika."
                 }
             },
             "request_data": {
