@@ -16,7 +16,7 @@
                 "any": "Ükskõik, mis keel"
             },
             "language_dropdown": {
-                "toggle_label": ""
+                "toggle_label": "Vali vestluse keel"
             },
             "sub_controls": {
                 "subscription_language_label": "Vestluse keel",
@@ -34,21 +34,21 @@
                 "errors": {
                     "missing_assets": "Selle lisaprogrammi jaoks vajalike ressursside laadimine ebaõnnestus. Proovi käsku <code>php flarum assets:publish</code>, et näha, kas see lahendab probleemi."
                 },
-                "languages_heading": "",
-                "languages_help": "",
-                "attribution": "",
+                "languages_heading": "Keeled",
+                "languages_help": "Keeled, milles vestlus võib olla. Riik valib keele, mille lippu näidatakse.",
+                "attribution": "See lisaprogramm kasutab Wikipedia artiklit <article>ISO 639-2 koodide nimekiri</article>, mis on väljaantud <license>Creative Commons Attribution-Share-Alike License 3.0</license> alusel.",
                 "config": {
                     "language_label": "Keel",
                     "country_label": "Riik (lipu näitamiseks)",
-                    "choose_language": "",
-                    "choose_country": "",
-                    "add_button": "",
-                    "remove_button": ""
+                    "choose_language": "Vali keel…",
+                    "choose_country": "Vali riik…",
+                    "add_button": "Lisa keel",
+                    "remove_button": "Eemalda {language}"
                 }
             },
             "permissions": {
                 "allow_change_language_label": "Luba keele muutmine",
-                "change_language_label": ""
+                "change_language_label": "Muuda vestluse keelt"
             }
         },
         "api": {
@@ -59,8 +59,8 @@
         "lib": {
             "gambits": {
                 "language": {
-                    "key": "",
-                    "hint": ""
+                    "key": "keel",
+                    "hint": "keelekood või komadega eraldatud nimekiri keelekoodidest"
                 }
             }
         }
@@ -69,8 +69,8 @@
         "lib": {
             "data": {
                 "subscriptionlanguages": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Eksporditakse iga sildi jälgimisega, kuna fof/follow-tags ekspordib neid.",
+                    "anonymize_description": "Eemaldab kasutaja valitud vestluse keele igalt sildilt, mida nad jälgivad."
                 }
             }
         }

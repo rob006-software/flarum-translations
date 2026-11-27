@@ -2,13 +2,13 @@
     "fof-profile-image-crop": {
         "forum": {
             "modal": {
-                "crop_too_small": "",
+                "crop_too_small": "Valitud ala on liiga välike — vali vähemalt {size}×{size} pikslit, et avatar oleks terav.",
                 "error": {
                     "failed_to_load_cropper": "Pildi kärpija laadimine ebaõnnestus.",
                     "generic_resize": "Midagi läks pildi kärpimisel ja suuruse muutmisel valesti.",
                     "get_image_data": "Kärpimine ebaõnnestus. Veendu, et sinu veebisirvija sõrmejälje kaitse on välja lülitatud."
                 },
-                "help_text": "",
+                "help_text": "Pildi üleslaadimine võib ebaõnnestuda, kui brauseri privaatsusseaded on liiga ranged. Kui sul on probleeme, siis ptoovi fingerprinting kaitse väljalülitamist. Kui see ei toimi, siis võid <disableCrop>kärpimise säielikult välja lülitada</disableCrop>.\n",
                 "submit_button": "Laadi üles",
                 "submit_crop_button": "Kärbi ja laadi üles"
             }
