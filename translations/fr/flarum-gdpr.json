@@ -115,9 +115,9 @@
                     "export_description": "Exporte les données de la table des utilisateurs. Concerne toutes les colonnes à l'exception de l'identifiant et du mot de passe."
                 },
                 "emailbounceevents": {
-                    "anonymize_description": "Supprime l'adresse courriel de l'historique des courriels non remis de l'utilisateur, tout en conservant des enregistrements anonymes à des fins statistiques.",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Supprime l'adresse courriel de l'historique des courriels en échec de l'utilisateur, tout en conservant des enregistrements anonymes à des fins statistiques.",
+                    "delete_description": "Supprime l'historique des courriels en échec de l'utilisateur.",
+                    "export_description": "Exporte l'historique des courriels en échec et des signalements de spam de l'utilisateur."
                 }
             },
             "request_data": {
