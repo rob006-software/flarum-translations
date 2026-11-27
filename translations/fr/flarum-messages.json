@@ -7,23 +7,23 @@
                 "delete_own_messages_label": "Supprimer ses propres messages",
                 "send_without_throttle_label": "Envoyer des messages sans limitation de débit",
                 "view_ips_label": "Afficher les adresses IP des messages",
-                "delete_messages_forever_label": "",
-                "edit_own_messages_label": "",
-                "message_groups_label": ""
+                "delete_messages_forever_label": "Supprimer définitivement les messages",
+                "edit_own_messages_label": "Modifier ses propres messages",
+                "message_groups_label": "Démarrer des conversations avec des groupes"
             },
             "sections": {
                 "groups": {
-                    "description": "",
-                    "label": ""
+                    "description": "Conversations démarrées avec plusieurs membres à la fois.",
+                    "label": "Conversations de groupe"
                 }
             },
             "settings": {
-                "recipient_groups_label": "",
-                "recipient_groups_help": "",
-                "allow_group_names_help": "",
-                "allow_group_names_label": "",
-                "max_recipients_help": "",
-                "max_recipients_label": ""
+                "recipient_groups_label": "Groupes qui peuvent recevoir des messages",
+                "recipient_groups_help": "Les expéditeurs autorisés à démarrer des conversations avec des groupes peuvent sélectionner ces groupes. Par défaut, seuls les administrateurs disposent de cette autorisation. Désactiver un groupe ici ne le supprime pas des conversations existantes. Toute personne habilitée à gérer l'adhésion au groupe peut accorder l'accès à l'historique complet des conversations.",
+                "allow_group_names_help": "Les membres qui peuvent écrire dans une conversation de groupe peuvent lui attribuer un nom, que tous les participants verront à la place de la liste des membres. Désactiver cette option masque les noms déjà attribués.",
+                "allow_group_names_label": "Permettre aux membres de nommer les conversations de groupe",
+                "max_recipients_help": "Nombre de membres auxquels un message peut être envoyé. Si ce nombre est supérieur à un, une conversation de groupe est démarrée, s'il est égal à 1, les conversations de groupe sont désactivées. 50 au maximum.",
+                "max_recipients_label": "Destinataires par message"
             }
         },
         "forum": {
@@ -33,7 +33,7 @@
                 "recipients": "Destinataires",
                 "submit_button": "Envoyer le message",
                 "to": "À :",
-                "title": ""
+                "title": "Nouveau message"
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
@@ -42,15 +42,15 @@
                 "title": "Messages",
                 "unread_count_text": "{count} non lus",
                 "view_all": "Afficher tous les messages",
-                "group_last_message_preview": ""
+                "group_last_message_preview": "{username} : {content}"
             },
             "dialog_section": {
                 "back_label": "Revenir en arrière",
                 "cannot_reply_text": "Cet utilisateur ne peut pas répondre",
                 "controls": {
                     "details_button": "Informations",
-                    "leave_button": "",
-                    "rename_button": ""
+                    "leave_button": "Quitter la conversation",
+                    "rename_button": "Renommer une conversation"
                 },
                 "controls_toggle_label": "Actions de contrôle de la conversation",
                 "details_modal": {
@@ -58,8 +58,8 @@
                     "recipients": "Participants",
                     "title": "Détails de la conversation"
                 },
-                "leave_confirmation": "",
-                "members_button": ""
+                "leave_confirmation": "Quitter cette conversation ? Vous ne la verrez plus et ne serez plus informé(e) des nouveaux messages qui y sont publiés. Ce que vous avez écrit reste visible pour les autres.",
+                "members_button": "{count, plural, one {# membre} other {# membres}}"
             },
             "header": {
                 "dropdown_tooltip": "Messages"
@@ -75,10 +75,10 @@
             "message_controls": {
                 "delete_button": "Supprimer",
                 "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce message ? Cette action est irréversible.",
-                "delete_forever_button": "",
-                "delete_forever_confirmation": "",
-                "edit_button": "",
-                "restore_button": ""
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "delete_forever_confirmation": "Êtes-vous sûr de vouloir supprimer définitivement ce message ? Cette action est irréversible.",
+                "edit_button": "=> core.ref.edit",
+                "restore_button": "=> core.ref.restore"
             },
             "messages_page": {
                 "cannot_send_message_button": "Impossible d'envoyer un message",
@@ -95,17 +95,17 @@
                     "load_next_button": "Charger les messages suivants",
                     "start_of_the_conversation": "Début de la conversation",
                     "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text",
-                    "name_removed_text": "",
-                    "renamed_text": "",
-                    "user_left_text": ""
+                    "name_removed_text": "{username} a supprimé le nom de la conversation",
+                    "renamed_text": "{username} a nommé la conversation « {name} »",
+                    "user_left_text": "{username} a quitté la conversation"
                 },
                 "title": "Messages"
             },
             "recipient_selection_modal": {
                 "cannot_reply_text": "Impossible de répondre aux messages",
                 "title": "Sélectionnez les destinataires de ce message",
-                "groups_heading": "",
-                "groups_help": ""
+                "groups_heading": "Groupes",
+                "groups_help": "Les membres actuels et futurs de ces groupes peuvent lire l'intégralité de la conversation. Jusqu'à 10 groupes."
             },
             "search_source": {
                 "conversation_with": "Conversation avec {username}",
@@ -113,8 +113,8 @@
             },
             "settings": {
                 "notify_message_received_label": "Quelqu'un m'a envoyé un message",
-                "notify_message_liked_label": "",
-                "privacy_disclose_read_receipts_label": ""
+                "notify_message_liked_label": "Quelqu'un aime un de mes messages",
+                "privacy_disclose_read_receipts_label": "Indiquer aux autres quand j'ai lu leurs messages (et voir quand ils ont lu les miens)"
             },
             "user_controls": {
                 "send_message_button": "Envoyer un message",
@@ -122,32 +122,32 @@
             },
             "notifications": {
                 "message_received_text": "{user} vous a envoyé un message",
-                "message_liked_text": ""
+                "message_liked_text": "{username} a aimé votre message"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "submit_button": "",
-                "title": ""
+                "discard_confirmation": "=> core.forum.composer_edit.discard_confirmation",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Modifier le message"
             },
             "message": {
-                "deleted_text": "",
-                "edited_text": "",
-                "edited_tooltip": "",
+                "deleted_text": "Ce message a été supprimé.",
+                "edited_text": "=> core.forum.post.edited_text",
+                "edited_tooltip": "=> core.forum.post.edited_tooltip",
                 "read_status": {
-                    "read_by_everyone_tooltip": "",
-                    "read_by_some_tooltip": "",
-                    "read_tooltip": "",
-                    "sent_tooltip": ""
+                    "read_by_everyone_tooltip": "Lu par tout le monde",
+                    "read_by_some_tooltip": "Lu par {count} sur {total}",
+                    "read_tooltip": "Lu",
+                    "sent_tooltip": "Envoyé"
                 }
             },
             "read_by_modal": {
-                "title": ""
+                "title": "Lu par"
             },
             "rename_dialog_modal": {
-                "help_text": "",
-                "name_label": "",
-                "submit_button": "",
-                "title": ""
+                "help_text": "Tout le monde dans la conversation voit ce nom. Laisse ce champ vide pour afficher à la place la liste des participants.",
+                "name_label": "Nom",
+                "submit_button": "Enregistrer",
+                "title": "Renommer une conversation"
             }
         },
         "email": {
@@ -159,21 +159,21 @@
                 "html": {
                     "body": "{user_display_name} vous a envoyé un [nouveau message]({url}).\n\nVous ne recevrez plus de courriels concernant cette conversation tant que vous ne l'aurez pas lue.\n"
                 },
-                "group_subject": ""
+                "group_subject": "{user_display_name} vous a envoyé un message, ainsi qu’à {count, plural, one {# un autre personne} other {# autres personnes}}"
             }
         },
         "lib": {
             "dialog": {
                 "title": "Messagerie {username}",
-                "private_group_title": "",
-                "group_title": ""
+                "private_group_title": "Conversation privée",
+                "group_title": "{names}{others, plural, =0 {} other { +#}}"
             },
             "no_other_members_message": "Il n'y a personne d'autre dans cette conversation.",
             "recipient_cannot_reply_message": "{username} ne peut pas répondre aux messages.",
             "recipient_unavailable_message": "{username} ne peut pas recevoir de messages.",
-            "too_many_groups_message": "",
-            "groups_unavailable_message": "",
-            "too_many_recipients_message": ""
+            "too_many_groups_message": "Un message peut être envoyé à {count} groupes au maximum.",
+            "groups_unavailable_message": "Ces groupes ne peuvent pas recevoir de messages.",
+            "too_many_recipients_message": "{count, plural, one {Un message ne peut être envoyé qu’à un seul membre.} other {Un message peut être envoyé à un maximum de # membres.}}"
         }
     },
     "flarum-gdpr": {
@@ -193,12 +193,12 @@
                 "dialog": {
                     "started": "A commencé une conversation privée avec {username}",
                     "posted": "A envoyé un message privé à {username}",
-                    "group_started": "",
-                    "group_posted": "",
-                    "message_edited": "",
-                    "message_hidden": "",
-                    "message_restored": "",
-                    "message_deleted": ""
+                    "group_started": "A démarré une conversation privée avec le groupe {group_id}",
+                    "group_posted": "A envoyé un message privé au groupe {group_id}",
+                    "message_edited": "A modifié un message privé envoyé par {username}",
+                    "message_hidden": "A supprimé un message privé envoyé par {username}",
+                    "message_restored": "A restauré un message privé envoyé par {username}",
+                    "message_deleted": "A supprimé définitivement un message privé envoyé par {username}"
                 }
             }
         }
@@ -215,7 +215,7 @@
         "email": {
             "notification": {
                 "types": {
-                    "messageReceived": ""
+                    "messageReceived": "Messages qui vous ont été envoyés"
                 }
             }
         }
