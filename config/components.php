@@ -914,6 +914,7 @@ return [
 	],
 	'fof-pwa' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwa/2.0.1/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwa/2.1.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-pwned-passwords' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/2.0.0/locale/en.yml',
