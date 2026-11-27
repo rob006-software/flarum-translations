@@ -17,13 +17,13 @@
                 "remove_all_reaction_type": "Eemalda kõik {reaction} reaktsioonid",
                 "remove_user_reaction": "Eemalda reaktsioon",
                 "confirm_remove_all_reaction_type": "Oled sa kindel, et soovid sellelt postituselt kõik {reaction} reaktsioonid eemaldada? Seda tegevust ei saa tagasi võtta.",
-                "confirm_remove_user_reaction": ""
+                "confirm_remove_user_reaction": "Oled sa kindel, et soovid eemaldada kasutaja {username} reaktsiooni {reaction} sellelt postituselt? Seda tegevust ei saa tagasi võtta."
             },
             "mod_item": "Vaata reaktsioone",
             "react_button_label": "Reageeri",
             "unreact_button_label": "Eemalda reaktsioon",
             "reaction_button_label": "Reageeri {reaction}",
-            "reacted_with_label": ""
+            "reacted_with_label": "{count, plural, one {{reaction} (# reaktsioon)} other {{reaction} (# reaktsiooni)}}"
         },
         "admin": {
             "permissions": {
@@ -34,7 +34,7 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "Vaikimisi näidatakse reaktsioonide faile Cloudflare's CDN-ist. Võid soovi korral määrata ka mõne muu CDN-i aadressi.\n<code>[codepoint]</code> asendatakse emoji koodipunktiga.\n\nNäiteks, kui soovid kasutada Noto Emoji läbi jsdelivr, siis võid sisestada <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. See väli EI TOHI kunagi olla tühi.\n",
+                    "help": "Vaikimisi näidatakse reaktsioonide faile Cloudflare's CDN-ist. Võid soovi korral määrata ka mõne muu CDN-i aadressi.\n<code>[codepoint]</code> asendatakse emoji koodipunktiga.\n\nNäiteks, kui soovid kasutada Noto Emoji läbi jsdelivr, siis võid sisestada <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nSinu CDN peab toetama Emoji/Unicode versiooni {emojibase} või uuemat. Kasuta [twemoji], et asendada Twemoji versioon.\n",
                     "label": "URL",
                     "default-url": "Vaikeväärtus: {url}"
                 },
@@ -96,12 +96,12 @@
             "browser": {
                 "fof-reactions": {
                     "reaction_created": "Loodud reaktsioon {reaction}",
-                    "reaction_updated": "",
+                    "reaction_updated": "Muutis reaktsioon {reaction} võtit {key}. Vana väärtus {old_value}. Uus väärtus {new_value}",
                     "reaction_enabled": "Sisse lülitatud reaktsioon {reaction}",
                     "reaction_disabled": "Välja lülitatud reaktsioon {reaction}",
                     "reaction_deleted": "Kustutatud reaktsioon {reaction}",
-                    "post_reaction_removed": "",
-                    "post_reactions_removed": ""
+                    "post_reaction_removed": "Eemaldas kasutaja {username} reaktsiooni {reaction} kasutaja {postuser} postituselt {post} vestluses {discussion}",
+                    "post_reactions_removed": "Eemaldas {count, plural, one {# {reaction} reaktsiooni} other {# {reaction} reaktsiooni}} kasutajalt {postuser} postituses {post} vestluses {discussion}"
                 }
             }
         }
