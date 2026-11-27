@@ -89,32 +89,32 @@
                 "key_gen_failed": "Die Generierung der für Push-Benachrichtigungen benötigten Schlüssel ist fehlgeschlagen. Die vollständige Fehlermeldung ist: {error}",
                 "suggest_gmp": "Die gmp-PHP-Erweiterung scheint auf deinem Server nicht aktiviert zu sein. Dies ist nicht unbedingt erforderlich, kann jedoch die Leistung verbessern und wird empfohlen. Einige gemeinsam genutzte Hosts unterstützen dies jedoch möglicherweise nicht.",
                 "success": "Keine Probleme gefunden!",
-                "check_failed": ""
+                "check_failed": "Die Statusprüfungen konnten nicht geladen werden. Lade die Seite neu, um es erneut zu versuchen."
             },
             "tabs": {
-                "app": "",
-                "push": ""
+                "app": "App",
+                "push": "Push-Benachrichtigungen"
             },
             "sections": {
                 "status": {
-                    "label": "",
-                    "description": ""
+                    "label": "Status",
+                    "description": "Welche Anpassungen noch am Forum vorgenommen werden müssen, damit es als App installiert werden kann und Push-Benachrichtigungen versendet werden können."
                 },
                 "home_screen": {
-                    "label": "",
-                    "description": ""
+                    "label": "Startbildschirm",
+                    "description": "Das App-Symbol, der Hintergrund des Startbildschirms und die Hauptfarbe werden auf der Seite <appearance>„Erscheinungsbild“</appearance> festgelegt, ebenso wie die Einstellung, ob das Forum als App geöffnet wird. Der Name entspricht dem Forumstitel, und der Kurzname wird daneben auf der Seite <basics>„Grundeinstellungen“</basics> festgelegt. Da Browser selbst entscheiden, wann sie die Installation der App anbieten, solltest du den Mitgliedern erklären, wie sie diese zu ihrem Startbildschirm hinzufügen können."
                 },
                 "sharing": {
-                    "label": ""
+                    "label": "Teilen"
                 },
                 "delivery": {
-                    "label": ""
+                    "label": "Zustellung"
                 },
                 "keys": {
-                    "label": ""
+                    "label": "VAPID-Schlüssel"
                 },
                 "troubleshooting": {
-                    "label": ""
+                    "label": "Fehlerbehebung"
                 }
             }
         },
