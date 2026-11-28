@@ -7,7 +7,7 @@
                 "learn_more": "Vaata lisa"
             },
             "permissions": {
-                "configure_seo": "",
+                "configure_seo": "Luba SEO seadistamine",
                 "category_label": "SEO"
             },
             "header": {
@@ -41,7 +41,7 @@
                     "intro": "",
                     "default_note": "",
                     "learn_more_line": "",
-                    "add_placeholder": "",
+                    "add_placeholder": "Luba domeen",
                     "duplicate_error": ""
                 }
             },
@@ -114,13 +114,13 @@
                     "yandex_sitemap": "",
                     "yahoo_heading": "",
                     "yahoo_body": "",
-                    "confirm_button": ""
+                    "confirm_button": "Olen seda lugenud"
                 },
                 "sitemap": {
-                    "why_heading": "",
+                    "why_heading": "Miks sa peaksid sisukaarti kasutama?",
                     "why_body": "",
                     "generated_note": "",
-                    "which_extension_heading": "",
+                    "which_extension_heading": "Mis lisaprogrammi ma peaks paigaldama?",
                     "which_extension_body": "",
                     "which_extension_details": "",
                     "robots_heading": "",
@@ -135,32 +135,32 @@
                     "rankings_body": "",
                     "rankings_body_ssl": "",
                     "what_heading": "",
-                    "what_body": "",
-                    "how_heading": "",
-                    "how_body": "",
-                    "added_heading": "",
+                    "what_body": "Enamik inimesi teab turvaliste ühenduste jaoks kasutatavat <b>https</b>-i kui SSL-i: <i>Secure Sockets Layer</i>. Ametlikult nimetatakse seda TLS-iks: <i>Transport Layer Security</i>. Seda meetodit kasutatakse turvalise ühenduse loomiseks sinu veebiserveriga, mis takistab ründajatel või teistel veebiserveritel sinu veebisaidina esinemist ning hoiab sinu külastajaid kaitstuna. Kui nii peaks juhtuma, siis SSL-ühendus katkeb ja külastajate brauserid hoiatavad kasutajat, et ühendus ei ole usaldusväärne.",
+                    "how_heading": "Kuidas lisada SSL-i oma veebisaidile?",
+                    "how_body": "Veebimajutust kasutavate inimeste jaoks on kõige tavalisem viis siseneda veebimajutuse juhtpaneelile, avada oma veebisaidi majutuse seaded ja klõpsata valikul SSL. Saad järgida juhiseid, et lisada oma veebisaidile SSL. Enamik veebimajutuse pakkujaid toetab tänapäeval populaarset sertifikaadiväljastajat {link}.",
+                    "added_heading": "OK, lisasin SSL-i!",
                     "added_body": "",
                     "no_ssl_heading": "",
                     "no_ssl_body": ""
                 },
                 "health": {
                     "legend": "",
-                    "default_button": "",
+                    "default_button": "Uuenda seadeid",
                     "table": {
-                        "technique": "",
-                        "status": ""
+                        "technique": "Tehnika",
+                        "status": "Staatus"
                     },
                     "status": {
-                        "warning": "",
-                        "passed": ""
+                        "warning": "Hoiatus!",
+                        "passed": "Kõik on tehtud!"
                     },
                     "checks": {
                         "description": {
                             "label": "",
-                            "reason_missing": "",
+                            "reason_missing": "Sa pole veel foorumi kirjeldust määranud!",
                             "reason_default": "",
                             "reason_too_short": "",
-                            "button": ""
+                            "button": "Uuenda kirjeldust"
                         },
                         "keywords": {
                             "label": "",
@@ -170,17 +170,17 @@
                         "ssl": {
                             "label": "",
                             "reason": "",
-                            "button": ""
+                            "button": "Kuidas SSL-i seadistada"
                         },
                         "crawl": {
                             "label": "",
                             "reason": "",
-                            "button": ""
+                            "button": "Vaata üle postituse seaded"
                         },
                         "social_media": {
                             "label": "",
                             "reason": "",
-                            "button": ""
+                            "button": "Laadi pilt üles"
                         },
                         "sitemap": {
                             "label": "",
@@ -198,7 +198,7 @@
                         "search_engines": {
                             "label": "",
                             "reason": "",
-                            "button": ""
+                            "button": "Veel infot"
                         },
                         "review": {
                             "label": "",
@@ -210,59 +210,59 @@
             }
         },
         "forum": {
-            "profile_title": "",
+            "profile_title": "{username} profiil",
             "profile_description": "",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "Seadista SEO",
+                "update_seo": "Uuenda SEO-d",
+                "reset_seo": "Nulli SEO"
             },
             "meta_seo": {
-                "title": "",
-                "note_prefix": "",
-                "managed": "",
-                "saved": "",
+                "title": "SEO seaded - Meta",
+                "note_prefix": "Märkus:",
+                "managed": "Hallatud",
+                "saved": "Salvestatud!",
                 "close": {
-                    "close": "",
-                    "save": "",
-                    "save_autofill": "",
+                    "close": "Sulge",
+                    "save": "Salvesta",
+                    "save_autofill": "Salvesta ja täida automaatselt",
                     "autofill_info": ""
                 },
                 "unsupported_object": {
                     "title": "",
-                    "docs_link": "",
+                    "docs_link": "Dokumentatsioon",
                     "body": ""
                 },
                 "auto_update": {
-                    "label": "",
+                    "label": "Uuenda meta-silte automaatselt",
                     "help": "",
                     "switch": ""
                 },
                 "meta_title": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Meta pealkiri",
+                    "help": "Pealkiri otsingumootorites.",
+                    "placeholder": "Sisesta lehe pealkiri"
                 },
                 "meta_description": {
-                    "label": "",
+                    "label": "Meta kirjeldus",
                     "help": ""
                 },
                 "keywords": {
-                    "label": "",
+                    "label": "Võtmesõnad",
                     "help": "",
                     "placeholder": "",
                     "comma_note": "",
                     "example": ""
                 },
                 "image": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
+                    "label": "Meta pilt",
+                    "help": "Näitab pilti.",
+                    "placeholder": "Sisesta pildi URL",
                     "managed_by": "",
-                    "upload": ""
+                    "upload": "Laadi fail üles"
                 },
                 "robots": {
-                    "label": "",
+                    "label": "Robotid",
                     "help": "",
                     "tags": {
                         "indexing_allowed": "",
@@ -294,7 +294,7 @@
                     "image": {
                         "label": "",
                         "help": "",
-                        "reset": ""
+                        "reset": "Taasta pilt"
                     }
                 },
                 "og": {
