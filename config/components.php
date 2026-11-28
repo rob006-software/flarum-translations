@@ -1530,6 +1530,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-custom-heroes/1.0.0/locale/en.yml',
 		'__builtInLanguages' => ['fr'],
 	],
+	'waazdakka-users-map-location-osm' => [
+		'tag' => 'https://raw.githubusercontent.com/waazdakka/users-map-location-osm/v1.0.0/locale/en.yml',
+	],
 	'walsgit-discussion-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-discussion-cards/2.1.0/locale/en.yml',
 		'__builtInLanguages' => ['fr'],
