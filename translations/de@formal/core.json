@@ -455,10 +455,10 @@
                 "smtp_heading": "SMTP Einstellungen",
                 "smtp_description": "Konfiguriere die SMTP-Verbindungseinstellungen. Gängige Konfigurationen: Port 587 mit TLS oder Port 465 mit SSL.",
                 "title": "=> core.ref.email",
-                "bounce_handling_heading": "",
-                "bounce_handling_text": "",
-                "mail_mailgun_webhook_signing_key_label": "",
-                "mail_mailgun_webhook_signing_key_help": "",
+                "bounce_handling_heading": "Umgang mit E-Mail-Bounces",
+                "bounce_handling_text": "Wenn dein E-Mail-Anbieter meldet, dass eine Adresse dauerhaft zurückgewiesen oder als Spam markiert wurde, kann Flarum den betroffenen Nutzer kennzeichnen und optional den E-Mail-Versand an ihn einstellen, um deine Absenderreputation zu schützen.",
+                "mail_mailgun_webhook_signing_key_label": "Webhook-Signaturschlüssel",
+                "mail_mailgun_webhook_signing_key_help": "Der HTTP-Webhook-Signaturschlüssel von Mailgun, der zur Überprüfung eingehender Bounce-/Beschwerde-Webhooks verwendet wird. Zu finden in deinem Mailgun-Dashboard unter „Einstellungen“ → „Webhooks“. Erforderlich für die Bearbeitung von Bounces.",
                 "mailgun_description": "",
                 "sections": {
                     "sending": {
