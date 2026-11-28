@@ -529,6 +529,9 @@ return [
 	'ernestdefoe-slow-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/slow-mail/1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-showcase' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-showcase/2.0.6/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.9.0/locale/en.yml',
 	],
