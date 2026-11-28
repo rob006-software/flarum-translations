@@ -632,6 +632,9 @@ return [
 	'flarum-ai' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/ai/v2.1.0-beta.1/locale/en.yml',
 	],
+	'ernestdefoe-espn-cfb-ticker' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/espn-cfb-ticker/v2.2.0/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.1/locale/en.yml',
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.1.0-beta.1/locale/en.yml',
