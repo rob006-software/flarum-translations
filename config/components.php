@@ -477,6 +477,9 @@ return [
 	'ernestdefoe-renown' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/renown/1.4.1/locale/en.yml',
 	],
+	'ernestdefoe-picks' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/picks/2.16.7/resources/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.7/locale/en.yml',
 	],
