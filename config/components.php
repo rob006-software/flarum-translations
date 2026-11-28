@@ -458,6 +458,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/el-choco/flarum-admin-console/v0.2.0/locale/en.yml',
 		'__builtInLanguages' => ['de', 'es'],
 	],
+	'el-choco-extension-uninstaller' => [
+		'tag' => 'https://raw.githubusercontent.com/el-choco/extension-uninstaller/v0.1.0/locale/en.yml',
+		'__builtInLanguages' => ['de'],
+	],
 	'ernestdefoe-aurora' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/1.0.3/resources/locale/en.yml',
 	],
