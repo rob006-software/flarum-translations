@@ -254,6 +254,9 @@ return [
 	'ernestdefoe-corkboard' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/corkboard/1.1.0/locale/en.yml',
 	],
+	'ernestdefoe-courier' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/courier/1.0.4/resources/locale/en.yml',
+	],
 	'ernestdefoe-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.2.1/locale/en.yml',
 	],
