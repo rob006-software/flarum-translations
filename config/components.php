@@ -1168,6 +1168,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/kuma-develop/Level/1.1.0/locale/en.yml',
 		'__builtInLanguages' => ['vi'],
 	],
+	'kvothe-tag-hero-backgrounds' => [
+		'tag' => 'https://raw.githubusercontent.com/oaklinq/tag-hero-backgrounds/v1.0.2/locale/en.yml',
+	],
 	'lcoy-cipher' => [
 		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/1.2.4/resources/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
