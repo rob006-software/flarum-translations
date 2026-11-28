@@ -100,15 +100,15 @@
                 "from_host": "z {host}",
                 "unverified": "niezweryfikowana, zarejestrowana samodzielnie",
                 "redirect_host": "Po podjęciu decyzji zostaniesz przekierowany do {host}.",
-                "details_changed": "",
-                "details_changed_to": ""
+                "details_changed": "Dane tej aplikacji zmieniły się w trakcie ich przeglądania. Sprawdź je, zanim przejdziesz dalej.",
+                "details_changed_to": "Dane tej aplikacji zmieniły się w trakcie ich przeglądania. Teraz zostaniesz przekierowany do {host} – zanim przejdziesz dalej, sprawdź, czy to prawidłowy adres."
             },
             "authorize_error": {
-                "title": "",
-                "intro": "",
-                "intro_unknown": "",
-                "not_redirected": "",
-                "error_code": ""
+                "title": "Autoryzacja nie powiodła się",
+                "intro": "Nie udało się autoryzować aplikacji {client}.",
+                "intro_unknown": "Nie udało się autoryzować aplikacji.",
+                "not_redirected": "Ze względów bezpieczeństwa nie przekierowano Cię do {host}.",
+                "error_code": "Błąd:"
             },
             "connected_apps": {
                 "heading": "Połączone aplikacje",
