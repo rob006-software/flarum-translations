@@ -197,6 +197,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/el-choco/error-analyzer/v1.0.0/locale/en.yml',
 		'__builtInLanguages' => ['de'],
 	],
+	'el-choco-kobalt' => [
+		'beta' => 'https://raw.githubusercontent.com/el-choco/kobalt-theme/0.1.0-beta.1/locale/en.yml',
+		'__builtInLanguages' => ['de'],
+	],
 	'ernestdefoe-answers' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/answers/1.1.1/locale/en.yml',
 	],
