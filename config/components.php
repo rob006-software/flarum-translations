@@ -490,6 +490,9 @@ return [
 	'ernestdefoe-roleplay' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roleplay/v1.1.11/resources/locale/en.yml',
 	],
+	'ernestdefoe-rosette' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/rosette/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-rotation' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/rotation/1.0.0/locale/en.yml',
 	],
