@@ -716,7 +716,7 @@ return [
 	],
 	'flarum-subscriptions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/subscriptions/v2.0.1/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/flarum/subscriptions/v2.1.0-beta.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/subscriptions/v2.1.0-beta.2/locale/en.yml',
 	],
 	'flarum-suspend' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v2.0.2/locale/en.yml',
