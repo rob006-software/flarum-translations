@@ -895,6 +895,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.3/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'hamcq-login-to-see' => [
+		'tag' => 'https://raw.githubusercontent.com/HamCQ/flarum-ext-login-to-see/v1.1/locale/en.yml',
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
