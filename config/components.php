@@ -720,7 +720,7 @@ return [
 	],
 	'flarum-suspend' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v2.0.2/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/flarum/suspend/v2.1.0-beta.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/suspend/v2.1.0-beta.2/locale/en.yml',
 	],
 	'flarum-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v2.0.2/locale/en.yml',
