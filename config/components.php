@@ -739,7 +739,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/2.0.1/resources/locale/en.yml',
 	],
 	'fof-anti-spam' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/2.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/2.0.5/locale/en.yml',
 	],
 	'fof-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/author-change/2.1.0/resources/locale/en.yml',
