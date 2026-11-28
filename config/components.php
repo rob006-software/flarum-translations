@@ -312,6 +312,9 @@ return [
 	'ernestdefoe-garage' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garage/1.3.0/locale/en.yml',
 	],
+	'ernestdefoe-gameday' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gameday/1.9.1/resources/locale/en.yml',
+	],
 	'ernestdefoe-garrison' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.6.5/resources/locale/en.yml',
 	],
