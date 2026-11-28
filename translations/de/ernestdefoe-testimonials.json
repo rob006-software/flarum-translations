@@ -13,6 +13,8 @@
                 "min_posts": "",
                 "min_posts_help": "",
                 "min_days": "",
+                "course_invite_hours": "",
+                "course_invite_hours_help": "",
                 "min_trust_level": "",
                 "widget_min_rating": "",
                 "widget_min_rating_help": "",
@@ -34,7 +36,9 @@
                 "name": "",
                 "up": "",
                 "remove": "",
-                "add": ""
+                "add": "",
+                "course_label": "",
+                "course_help": ""
             }
         },
         "forum": {
@@ -48,6 +52,15 @@
             },
             "subject": {
                 "community": ""
+            },
+            "badge": {
+                "verified_graduate": ""
+            },
+            "course": {
+                "title": "",
+                "share": "",
+                "graduates_only": "",
+                "empty": ""
             },
             "page": {
                 "title": "",
@@ -92,6 +105,8 @@
                 "about_community": "",
                 "about_tag": "",
                 "about_depot": "",
+                "about_course": "",
+                "pick_course": "",
                 "about_post": "",
                 "pick_tag": "",
                 "find_download": "",
@@ -227,7 +242,10 @@
                 "testimonialApproved_preference": "",
                 "testimonialFeatured_preference": "",
                 "testimonialDeclined_preference": "",
-                "testimonialEdited_preference": ""
+                "testimonialEdited_preference": "",
+                "testimonialCourseInvite": "",
+                "testimonialCourseInvite_excerpt": "",
+                "testimonialCourseInvite_preference": ""
             },
             "nudge": {
                 "close": "",

@@ -13,6 +13,8 @@
                 "min_posts": "Posts needed before writing one",
                 "min_posts_help": "0 lets any member with permission write one. Moderators are never held back.",
                 "min_days": "Days since joining before writing one",
+                "course_invite_hours": "Hours after a Syllabus course before inviting a review",
+                "course_invite_hours_help": "Graduates get one quiet notification inviting them to share their experience, after Fanfare's congratulations, never on top of them. Only with Syllabus.",
                 "min_trust_level": "Trust level needed before writing one",
                 "widget_min_rating": "Widgets show testimonials rated at least",
                 "widget_min_rating_help": "Stars, 0 to 5. The Testimonials page always lists them all. 0 shows everything in the widgets too.",
@@ -34,7 +36,9 @@
                 "name": "Aspect {index}",
                 "up": "Move up",
                 "remove": "Remove",
-                "add": "Add an aspect"
+                "add": "Add an aspect",
+                "course_label": "Rated aspects for courses",
+                "course_help": "Syllabus courses use this list instead. Only students who finished a course and earned its certificate can write about it."
             }
         },
         "forum": {
@@ -48,6 +52,15 @@
             },
             "subject": {
                 "community": "The community"
+            },
+            "badge": {
+                "verified_graduate": "Verified graduate"
+            },
+            "course": {
+                "title": "Reviews and testimonials",
+                "share": "Share your experience",
+                "graduates_only": "Only students who finished this course and earned its certificate can share one.",
+                "empty": "No reviews yet."
             },
             "page": {
                 "title": "Testimonials",
@@ -92,6 +105,8 @@
                 "about_community": "The community",
                 "about_tag": "A tag",
                 "about_depot": "A download",
+                "about_course": "A course",
+                "pick_course": "Choose a course you finished",
                 "about_post": "One of my posts",
                 "pick_tag": "Choose a tag",
                 "find_download": "Search downloads",
@@ -227,7 +242,10 @@
                 "testimonialApproved_preference": "When my testimonial goes live",
                 "testimonialFeatured_preference": "When my testimonial is featured",
                 "testimonialDeclined_preference": "When my testimonial is declined",
-                "testimonialEdited_preference": "When a moderator edits my testimonial"
+                "testimonialEdited_preference": "When a moderator edits my testimonial",
+                "testimonialCourseInvite": "How was {course}? Share your experience",
+                "testimonialCourseInvite_excerpt": "Tell future students what the course was like. Only graduates can.",
+                "testimonialCourseInvite_preference": "When I finish a course, invite me to share my experience"
             },
             "nudge": {
                 "close": "Dismiss",

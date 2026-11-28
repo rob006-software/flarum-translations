@@ -13,6 +13,8 @@
                 "min_posts": "Мінімум дописів для написання відгуку",
                 "min_posts_help": "Значення 0 дозволяє написати відгук кожному учаснику з відповідним дозволом. На модераторів це обмеження не поширюється.",
                 "min_days": "Мінімум днів після приєднання для написання відгуку",
+                "course_invite_hours": "",
+                "course_invite_hours_help": "",
                 "min_trust_level": "Потрібний рівень довіри для написання відгуку",
                 "widget_min_rating": "Мінімальна оцінка відгуків у віджетах",
                 "widget_min_rating_help": "Від 0 до 5 зірок. На сторінці відгуків завжди показуються всі відгуки. Значення 0 показує всі відгуки й у віджетах.",
@@ -34,7 +36,9 @@
                 "name": "Аспект {index}",
                 "up": "Перемістити вгору",
                 "remove": "Видалити",
-                "add": "Додати аспект"
+                "add": "Додати аспект",
+                "course_label": "",
+                "course_help": ""
             }
         },
         "forum": {
@@ -48,6 +52,15 @@
             },
             "subject": {
                 "community": "Спільнота"
+            },
+            "badge": {
+                "verified_graduate": ""
+            },
+            "course": {
+                "title": "",
+                "share": "",
+                "graduates_only": "",
+                "empty": ""
             },
             "page": {
                 "title": "Відгуки",
@@ -92,6 +105,8 @@
                 "about_community": "Спільнота",
                 "about_tag": "Тег",
                 "about_depot": "Завантаження",
+                "about_course": "",
+                "pick_course": "",
                 "about_post": "Один із моїх дописів",
                 "pick_tag": "Виберіть тег",
                 "find_download": "Шукати завантаження",
@@ -227,7 +242,10 @@
                 "testimonialApproved_preference": "Мій відгук опубліковано",
                 "testimonialFeatured_preference": "Мій відгук рекомендовано",
                 "testimonialDeclined_preference": "Мій відгук відхилено",
-                "testimonialEdited_preference": "Модератор редагує мій відгук"
+                "testimonialEdited_preference": "Модератор редагує мій відгук",
+                "testimonialCourseInvite": "",
+                "testimonialCourseInvite_excerpt": "",
+                "testimonialCourseInvite_preference": ""
             },
             "nudge": {
                 "close": "Закрити",

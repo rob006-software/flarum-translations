@@ -15,12 +15,12 @@
         },
         "api": {
             "limits": {
-                "links": "{level} members can add {max} links to a post. Remove {over} to post it.",
-                "images": "{level} members can add {max} images to a post. Remove {over} to post it.",
-                "mentions": "{level} members can mention {max} people in a post. Remove {over} to post it.",
-                "post_seconds": "{level} members can post once every {max} seconds. Try again in {over} seconds.",
-                "discussions_day": "{level} members can start {max} discussions a day. Try again tomorrow.",
-                "messages_day": "{max, plural, =0 {{level} members can't send private messages.} other {{level} members can send # private messages a day.}}",
+                "links": "{level} members can add {max, plural, =0 {no links} one {# link} other {# links}} to a post. Remove {over} to post it.",
+                "images": "{level} members can add {max, plural, =0 {no images} one {# image} other {# images}} to a post. Remove {over} to post it.",
+                "mentions": "{level} members can mention {max, plural, =0 {no one} one {# person} other {# people}} in a post. Remove {over} to post it.",
+                "post_seconds": "{level} members can post once every {max, plural, one {second} other {# seconds}}. Try again in {over, plural, one {# second} other {# seconds}}.",
+                "discussions_day": "{max, plural, =0 {{level} members can't start discussions.} one {{level} members can start # discussion a day. Try again tomorrow.} other {{level} members can start # discussions a day. Try again tomorrow.}}",
+                "messages_day": "{max, plural, =0 {{level} members can't send private messages.} one {{level} members can send # private message a day.} other {{level} members can send # private messages a day.}}",
                 "lifted": "You can do more once you reach {level}."
             },
             "silenced": "Your account is on hold while a moderator looks at a reported post. You can't send messages until then.",
@@ -63,8 +63,8 @@
                 "on_hold": "You can't send private messages while your account is on hold."
             },
             "composer": {
-                "links": "{count} of {max} links",
-                "images": "{count} of {max} images"
+                "links": "{count} of {max, plural, one {# link} other {# links}}",
+                "images": "{count} of {max, plural, one {# image} other {# images}}"
             },
             "page": {
                 "nav": "Trust level",
@@ -106,17 +106,17 @@
                 "not_suspended": "Not suspended in the last 6 months"
             },
             "unlocks": {
-                "links": "Up to {value} links in a post",
+                "links": "Up to {value, plural, one {# link} other {# links}} in a post",
                 "links_none": "Any number of links",
-                "images": "Up to {value} images in a post",
+                "images": "Up to {value, plural, one {# image} other {# images}} in a post",
                 "images_none": "Any number of images",
-                "mentions": "Mention up to {value} people in a post",
+                "mentions": "Mention up to {value, plural, one {# person} other {# people}} in a post",
                 "mentions_none": "Mention as many people as you like",
-                "post_seconds": "Post again after {value} seconds",
+                "post_seconds": "Post again after {value, plural, one {# second} other {# seconds}}",
                 "post_seconds_none": "No wait between posts",
-                "discussions_day": "Start up to {value} discussions a day",
+                "discussions_day": "Start up to {value, plural, one {# discussion} other {# discussions}} a day",
                 "discussions_day_none": "Start as many discussions as you like",
-                "messages_day": "Send up to {value} private messages a day",
+                "messages_day": "Send up to {value, plural, one {# private message} other {# private messages}} a day",
                 "messages_day_none": "Send as many private messages as you like",
                 "uploads": "Attach files and images",
                 "approval": "Your posts appear without waiting for approval"
@@ -171,7 +171,7 @@
                 "close_empty": "Nobody yet. Members show up here after the first check.",
                 "recent_title": "Changes in the last 7 days",
                 "recent_empty": "No changes yet.",
-                "last_run": "Last check: {time} ({count} members, {seconds} s)",
+                "last_run": "Last check: {time} ({count, plural, one {# member} other {# members}}, {seconds} s)",
                 "never_run": "Not checked yet.",
                 "run_now": "Run now",
                 "busy": "A check is already running. Its results will show here when it finishes.",
@@ -190,15 +190,15 @@
                 }
             },
             "missing": {
-                "days_visited": "{count} more visit days",
-                "topics_entered": "{count} more discussions",
-                "posts_read": "{count} more posts read",
-                "read_minutes": "{count} more minutes reading",
-                "replied_topics": "{count} more discussions replied in",
-                "likes_given": "{count} more likes given",
-                "likes_received": "{count} more likes",
-                "likes_received_users": "likes from {count} more people",
-                "likes_received_days": "likes on {count} more days",
+                "days_visited": "{count, plural, one {# more visit day} other {# more visit days}}",
+                "topics_entered": "{count, plural, one {# more discussion} other {# more discussions}}",
+                "posts_read": "{count, plural, one {# more post read} other {# more posts read}}",
+                "read_minutes": "{count, plural, one {# more minute reading} other {# more minutes reading}}",
+                "replied_topics": "{count, plural, one {# more discussion replied in} other {# more discussions replied in}}",
+                "likes_given": "{count, plural, one {# more like given} other {# more likes given}}",
+                "likes_received": "{count, plural, one {# more like} other {# more likes}}",
+                "likes_received_users": "likes from {count, plural, one {# more person} other {# more people}}",
+                "likes_received_days": "likes on {count, plural, one {# more day} other {# more days}}",
                 "flagged_posts": "fewer reported posts",
                 "flagged_by": "fewer reports",
                 "not_suspended": "no recent suspension"
