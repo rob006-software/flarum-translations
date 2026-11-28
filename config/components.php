@@ -1229,6 +1229,10 @@ return [
 	'linkrobins-wiki' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-wiki/v1.12.0/locale/en.yml',
 	],
+	'liufencn-user-delete' => [
+		'tag' => 'https://raw.githubusercontent.com/LiuFenCN/flarum-ext-user-delete/v1.0.0/resources/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0.1/locale/en.yml',
 		'__builtInLanguages' => ['it'],
