@@ -59,7 +59,7 @@
                     "preview": {
                         "button": "Ikoonide eelvaade",
                         "label": "Ikooni eelvaade",
-                        "help": "",
+                        "help": "Kontrolli oma FontAwesome'i seadistust. Korrektselt kuvatav ikoon tähendab, et see variant on saadaval; katkine kastike tähendab, et see pole laaditud.",
                         "fa5_fa6_label": "FA5/FA6 aliased",
                         "fa7_label": "FA7 klassid",
                         "pro_label": "Ainult Pro"
@@ -72,20 +72,20 @@
                     "pause_label": "Peata päringu töötlemine",
                     "pause_all_label": "Peata kõik päringud",
                     "pause_queue_label": "Peata järjekord {queue}",
-                    "pause_help": "",
+                    "pause_help": "Pausil oleku ajal lõpetavad tööprotsessid uute ülesannete vastuvõtmise mõjutatud järjekordadest – ülesanded kogunevad järjekorda seni, kuni töötlemine jätkub. Juba käimasolevaid ülesandeid see ei mõjuta.",
                     "section_label": "Järjekord",
-                    "sync_info": "",
-                    "sync_help": "",
-                    "custom_driver": "",
+                    "sync_info": "Sinu foorum kasutab sünkroonset järjekorradraiverit. Ülesanded töödeldakse kohe põhiprotsessi lõimes.",
+                    "sync_help": "Parema jõudluse ja kasutuskogemuse saavutamiseks kaalu andmebaasi järjekorradraiveri kasutamist. Loe lähemalt dokumentatsioonist.",
+                    "custom_driver": "Sinu foorum kasutab järjekorradraiverit {driver}, mida pakub lisamoodul.",
                     "retries_label": "Töö uuesti proovimised",
                     "retries_help": "Mitu korda tööd maksimaalselt uuesti proovitakse, enne kui see ebaõnnestunuks märgitakse. Vaikeväärtu on 1.",
                     "memory_label": "Mälu limiit (MB)",
-                    "memory_help": "",
+                    "memory_help": "Maksimaalne mälumaht, mida järjekorra tööprotsess võib enne taaskäivitamist kasutada. Vaikeväärtus on 128 MB.",
                     "timeout_label": "Töö aegumine (sekundites)",
-                    "timeout_help": "",
+                    "timeout_help": "Maksimaalne aeg, mida üks tööprotsess võib enne aegumist kasutada. Vaikeväärtus on 60 sekundit.",
                     "rest_label": "Puhkamise aeg (sekundites)",
                     "rest_help": "Erinevate tööde vahel ootamise aeg. Vaikeväärtus on 0 sekundit.",
-                    "backoff_label": "",
+                    "backoff_label": "Tagsiooteaeg (sekundites)",
                     "backoff_help": "Aeg enne, kui ebaõnnestunud tööd uuesti proovitakse. Vaikeväärtus on 0 sekundit."
                 },
                 "search": {
@@ -272,7 +272,7 @@
                     }
                 },
                 "show_post_source_label": "Näita, kudias postitus loodi",
-                "show_post_source_text": ""
+                "show_post_source_text": "Lisab API või ühendatud rakenduse kaudu tehtud postituste autori nime kõrvale väikese märke „kaudu …“ ning lubab postituste otsingus allikafiltri kasutamise."
             },
             "create_user": {
                 "email_placeholder": "E-post",
@@ -315,21 +315,21 @@
                 "delete": "Kustuta"
             },
             "dashboard": {
-                "queue_paused_warning": "",
-                "queue_paused_all_warning": "",
+                "queue_paused_warning": "Järjekorra töötlemine on peatatud (järjekord: {queues}). Ülesanded kogunevad järjekorda seni, kuni töötlemine jätkub.",
+                "queue_paused_all_warning": "Kogu järjekorra töötlemine on peatatud. Ülesanded kogunevad järjekorda seni, kuni töötlemine jätkub.",
                 "queue_paused_manage": "Haldamine",
                 "clear_cache_button": "Puhasta vahemälu",
                 "clear_cache_modal": {
                     "title": "Tühjenda vahemälu",
-                    "working": "",
+                    "working": "Kompileeritud varade uuesti ehitamine. Suuremates foorumites võib see võtta veidi aega.",
                     "cleared": "Tühjendatud {name}",
                     "cleared_files": "Tühjendatud {name} ({count} faili)",
                     "rebuilt": "Ehita uuesti {bundle}",
                     "unchanged": "{bundle} oli juba ajakohane",
                     "rewritten": "Kirjuta uuesti {bundle}",
-                    "empty": "",
-                    "chunks": "",
-                    "failed": "",
+                    "empty": "Paketis {bundle} pole midagi kompileerida",
+                    "chunks": "Jaotatud koodiosad liidese {frontend} jaoks uuesti ehitatud ({count} korda muudetud)",
+                    "failed": "Uuesti ehitamine ebaõnnestus {step}: {message}",
                     "took": "{time}ms",
                     "reload_button": "Laadi uuesti"
                 },
@@ -347,7 +347,7 @@
                         "scheduler-status": "Ajastaja",
                         "queue-driver": "Järjekorra draiver",
                         "session-driver": "Sessiooni draiver",
-                        "image-driver": ""
+                        "image-driver": "Pildi draiver"
                     },
                     "scheduler": {
                         "active": "Aktiivne",
@@ -410,7 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Loo uus grupp",
                 "icon_image_label": "=> core.ref.icon_image",
-                "icon_image_animated_webp_text": "",
+                "icon_image_animated_webp_text": "=> core.ref.icon_image_animated_webp_text",
                 "icon_image_text": "=> core.ref.icon_image_text"
             },
             "edit_header": {
@@ -460,11 +460,11 @@
                 "bounce_handling_heading": "Tagasipõrkamiste haldamine",
                 "bounce_handling_text": "Kui sinu meiliteenuse pakkuja teatab, et e-posti aadress põrkas püsivalt tagasi (kiri ei jõudnud kohale) või kiri märgiti rämpspostiks, saab Flarum vastava kasutaja märgistada ja soovi korral lõpetada talle kirjade saatmise, kaitstes seeläbi sinu saatja mainet.",
                 "mail_mailgun_webhook_signing_key_label": "Webhooki allkirjastamise võti",
-                "mail_mailgun_webhook_signing_key_help": "",
-                "mailgun_description": "",
+                "mail_mailgun_webhook_signing_key_help": "Mailguni HTTP webhooki allkirjastamisvõti, mida kasutatakse sissetulevate tagasipõrke- ja kaebusteadete kinnitamiseks. Selle leiab Mailguni juhtpaneelilt jaotisest Settings → Webhooks. Kohustuslik kohaletoimetamata kirjade halduseks.",
+                "mailgun_description": "Saada e-kirju Mailguni HTTP API kaudu. Sisesta oma Mailguni konto domeen ja salavõti ning vali oma domeenile vastav piirkond.",
                 "sections": {
                     "sending": {
-                        "description": "",
+                        "description": "Kellelt sinu foorumi e-kirjad tulevad ja kuidas need saadetakse.",
                         "label": "Saatmine"
                     }
                 },
@@ -473,13 +473,13 @@
                 "unregister_webhook_button": "Eemalda teenusepakkujalt webhook",
                 "unregister_webhook_success": "E-posti teenusepakkujalt on eemaldatud webhook.",
                 "suppress_bounced_label": "Lõpeta tagasipõrkunud aadressidele kirjade saatmine",
-                "suppress_bounced_help": "",
+                "suppress_bounced_help": "Kui see on sisse lülitatud, jäetakse teavituskirjade saatmisel vahele kasutajad, kelle e-posti aadress on tagasi põrganud või kes on esitanud rämpspostikaebuse, kuni nad oma aadressi uuendavad ja kinnitavad.",
                 "webhook_password_label": "Webhooki parool",
                 "webhook_url_label": "Webhooki URL",
-                "webhook_url_help": "",
-                "webhook_url_provision_help": "",
+                "webhook_url_help": "Lisa see URL oma meiliteenuse pakkuja juhtpaneelil webhookina ning lülita sisse tagasipõrgete ja rämpspostikaebuste sündmused.",
+                "webhook_url_provision_help": "Registreeri webhook teenusepakkuja juures lisab selle URL-i sinu meiliteenuse pakkuja juurde automaatselt.",
                 "webhook_username_label": "Webhooki kasutajanimi",
-                "webhook_username_help": ""
+                "webhook_username_help": "Vali kooloniteta kasutajanimi ja tugev parool. Neid nõuavad draiverid, mis autentivad webhooke kasutajanime ja parooliga, ning foorumid, mis on kaitstud HTTP põhiautentimisega. Sisselogimisandmed lisatakse webhooki URL-i. Pärast nende muutmist registreeri webhook uuesti või uuenda selle URL-i oma teenusepakkuja juhtpaneelil."
             },
             "extension": {
                 "abandoned_no_replacement": "Selle lisaprogrammi autor ei arendata seda enam ning seega ei pruugi see uuendusi saada.",
@@ -603,7 +603,7 @@
                 "view_hidden_groups_label": "Peidetud gruppide vaatamine",
                 "view_last_seen_at_label": "Kasutaja viimati lehel olemise vaatamine",
                 "view_post_ips_label": "Postituse IP-aadressi näitamine",
-                "remove_scope_button": ""
+                "remove_scope_button": "=> core.ref.remove"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Määramata ajaks",
@@ -685,7 +685,7 @@
             },
             "email_bounces": {
                 "title": "E-posti tagasi põrkamised",
-                "about": "",
+                "about": "Sinu meiliteenuse pakkuja teatatud tagasipõrgete ja rämpspostikaebuste sündmused, loendatuna iga perioodi kohta. Sisaldab ka nende kasutajate sündmusi, kes on vahepeal oma aadressi parandanud.",
                 "refresh": "Värskenda",
                 "load_error": "Tagasipõrkamise statistika laadimine ebaõnnestus. Proovi hiljem uuesti.",
                 "period_hour": "Viimane tund",
@@ -694,7 +694,7 @@
                 "period_total": "Kogu aeg",
                 "affected": "{count, plural, =0 {Ükski aadress pole praegu mõjutatud} one {# aasdress on praegu mõjutatud} other {# aadressi on praegu mõjutatud}}",
                 "recovered": "{count, plural, =0 {midagi ei taastatud} one {# taastati} other {# taastati}}",
-                "not_configured": "",
+                "not_configured": "Kohaletoimetamata kirjade haldus pole täielikult seadistatud, mistõttu tagasipõrketeateid vastu ei võeta. <a>Kontrolli oma e-posti seadeid.</a>",
                 "view_affected": "Vaata mõjutatud kasutajaid"
             }
         },
@@ -718,8 +718,8 @@
                 "full_screen_tooltip": "Täisekraanile",
                 "minimize_tooltip": "Minimeeri",
                 "preview_tooltip": "Eelvaade",
-                "discard_button": "",
-                "keep_writing_button": "",
+                "discard_button": "Loobu",
+                "keep_writing_button": "Jätka kirjutamist",
                 "restore_tooltip": "Taasta"
             },
             "composer_discussion": {
@@ -797,8 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Otse põhisisu juurde",
                 "toggle_sidenav_dropdown_accessible_label": "Näita navigeerimise menüüd",
-                "mark_all_as_read_button": "",
-                "mark_filtered_as_read_button": "",
+                "mark_all_as_read_button": "=> core.ref.mark_all_as_read",
+                "mark_filtered_as_read_button": "Märgi loetuks",
                 "mark_filtered_as_read_confirmation": "Oled sa kindel, et soovid oma praegusele filtrile vastavad postitused loetuks märkida?"
             },
             "index_sort": {
@@ -832,7 +832,7 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Näita teateid",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_button": ""
+                "delete_all_button": "Kustuta kõik"
             },
             "post": {
                 "edited_text": "Muudetud",
@@ -985,7 +985,7 @@
                 "hide": "Peida tervitussõnum"
             },
             "user_email_bounced": {
-                "alert_message": "",
+                "alert_message": "Aadressile {email} saadetud e-kiri põrkas tagasi või märgiti rämpspostiks. Palun kontrolli oma e-posti aadressi või võta ühendust administraatoriga.",
                 "update_button": "Uuenda e-posti"
             }
         },
@@ -1021,7 +1021,7 @@
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
                 "nothing_available": "Sul pole õigust seda kasutajat muuta.",
-                "clear_email_bounce_label": ""
+                "clear_email_bounce_label": "Eemalda e-posti tagasipõrke või rämpspostikaebuse märge"
             },
             "error": {
                 "circular_dependencies_message": "Tuvastati probleemsed sõltuvused: {extensions}. Katkestamine. Palun lülita üks lisaprogrammidest välja ja proovi siis uuesti.",
@@ -1107,10 +1107,10 @@
             },
             "nav": {
                 "drawer_button": "Ava navigatsioon",
-                "pin_pane_button": ""
+                "pin_pane_button": "Kinnita vestluste nimekiri"
             },
             "notices": {
-                "bisecting": "",
+                "bisecting": "Lisaprogrammi veatuvastuse protsess on käimas, et tuvastada, mis lisaprogramm on vea põhjuseks.",
                 "bisecting_continue": "Jätka veatuvastust",
                 "maintenance_mode_low": "Hooldamisel. Ainult administraatorid näevad foorumit.",
                 "maintenance_mode_safe": "Suletud hoolduseks turvalises režiimis. Ainult administraatorid näevad foorumit ja ühtegi lisaprogrammi ei käivitata."
@@ -1187,8 +1187,8 @@
                 "userListJoinDate": "LLL"
             },
             "confirm_modal": {
-                "cancel_button": "",
-                "confirm_button": ""
+                "cancel_button": "Loobu",
+                "confirm_button": "Kinnita"
             },
             "icon_image_input": {
                 "remove_button": "Eemalda",
@@ -1205,14 +1205,14 @@
                     "sharp_duotone": "Terav kahetooniline"
                 },
                 "family_label": "Ikoonide perekond",
-                "forced_style_text": "",
+                "forced_style_text": "Kõiki selle foorumi ikoone kuvatakse lehel Täpsemad valikud määratud stiilis, seega siin valitud stiil ei rakendu seni, kuni see säte on sisse lülitatud.",
                 "label": "Vali ikoon",
-                "more_text": "",
+                "more_text": "Näidatakse {shown} / {count}. Valiku kitsendamiseks kasuta otsingut.",
                 "no_results_text": "Ükski ikoon ei kattu.",
                 "open_button": "Vali ikoon",
                 "remove_button": "Eemalda ikoon",
                 "search_placeholder": "Otsi ikoone või kirjuta klass",
-                "unreadable_text": "",
+                "unreadable_text": "Ikoone ei saa siin loetleda, kuna selle foorumi stiilifaile pakutakse teiselt veebisaidilt, mis seda ei luba. Sisesta selle asemel ikooni klass, näiteks {example}.",
                 "use_button": "Kasuta {value}",
                 "weights": {
                     "light": "Hele",
@@ -1332,14 +1332,14 @@
             "signoff": "Foorumi {forumTitle} meeskond",
             "informational": {
                 "default_title": "Info",
-                "footer": "",
-                "footer_plain": ""
+                "footer": "See e-kiri saadeti aadressile {userEmail} teavitusteenusena, mis on seotud sinu kontoga foorumis {forumTitle}({forumUrl}).",
+                "footer_plain": "See e-kiri saadeti aadressile {userEmail} teavitusteenusena, mis on seotud sinu kontoga foorumis {forumTitle}."
             },
             "notification": {
                 "default_title": "Teavitus",
                 "footer": {
-                    "main_text": "",
-                    "main_text_plain": "",
+                    "main_text": "See e-kiri saadeti aadressile {email}, kuna oled tellinud foorumi {forumTitle}({forumUrl}) teavitused „{type}“.",
+                    "main_text_plain": "See e-kiri saadeti aadressile {email}, kuna oled tellinud foorumi {forumTitle} teavitused „{type}“.",
                     "unsubscribe_text": "Kui sa ei soovi seda tüüpi teavitusi saada, siis tühista need [siin]({unsubscribeLink}).",
                     "unsubscribe_text_plain": "Kui sa ei soovi seda tüüpi teavitusi saada, siis tühista need siin: {unsubscribeLink}",
                     "settings_text": "Halda oma teavituste seadeid [siin]({settingsLink}).",
@@ -1442,7 +1442,7 @@
             "you": "Sina",
             "icon_image": "Ikooni pilt",
             "icon_image_text": "Pilt, mida näidatakse ikooni asemel. Seal kus pilti ei saa kasutada näidatakse ikooni. Sobivad PNG, JPEG, GIF või BMP. Animeeritud piltidest näidatakse esimest kaardit.",
-            "icon_image_animated_webp_text": ""
+            "icon_image_animated_webp_text": "Animeeritud WebP vajab Imagick pildi draiverit."
         },
         "group": {
             "admin": "Administraator",
