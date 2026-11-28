@@ -52,6 +52,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-contact-page/v1.1.0/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
+	'cengizkemec-google-news' => [
+		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-google-news/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => ['tr'],
+	],
 	'cengizkemec-passkeys' => [
 		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-passkeys/v1.1.1/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
