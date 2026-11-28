@@ -6,7 +6,7 @@
                 "guests_only_label": "Näita ainult külalistele",
                 "guests_only_help": "Kui see on sisse lülitatud, siis sisseloginud kasutajatele avalehte ei näidata ning talle näidatakse tavalist foorumit. Paigalda lisaprogramm fof/direct-links eraldi /login ja /register lehekülgede jaoks või kasuta oma HTML-is muutujaid '{{ login_url }}' ja '{{ register_url }}'.\n",
                 "html_label": "Avalehe HTML",
-                "html_help": ""
+                "html_help": "Kopeeri kogu oma HTML dokument siia (koos siltidega DOCTYPE html ja muud html sildid). Saadavad kujunduse muutujad: '{{ forum_title }}', '{{ forum_url }}', '{{ login_url }}', '{{ register_url }}', '{{ year }}'.\n"
             }
         }
     }
