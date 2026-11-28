@@ -1229,6 +1229,10 @@ return [
 	'linkrobins-wiki' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-wiki/v1.12.0/locale/en.yml',
 	],
+	'm4v3rick4git-lineup' => [
+		'tag' => 'https://raw.githubusercontent.com/m4v3rick4git/flarum-lineup/v0.2.0/locale/en.yml',
+		'__builtInLanguages' => ['de'],
+	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0.1/locale/en.yml',
 		'__builtInLanguages' => ['it'],
