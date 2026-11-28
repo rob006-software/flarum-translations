@@ -294,6 +294,9 @@ return [
 	'ernestdefoe-fanfare' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/fanfare/1.2.0/locale/en.yml',
 	],
+	'ernestdefoe-fantasy' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/fantasy/1.2.0/resources/locale/en.yml',
+	],
 	'ernestdefoe-federation' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.1.3/resources/locale/en.yml',
 	],
