@@ -2,17 +2,37 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **0** are translated differently and **7** are
-translated only in `de@formal`. Altogether they cover **1** components.
+sides, but do not match between them: **1** are translated differently and **7** are
+translated only in `de@formal`. Altogether they cover **2** components.
 
 <!-- {% raw %} -->
 
 
 ## Contents
 
-| Component | Missing translations |
-| --- | --- |
-| `forumfortress-flarum` | [7](#forumfortress-flarum-missing) |
+| Component | Different translations | Missing translations |
+| --- | --- | --- |
+| `flarum-extension-manager` | [1](#flarum-extension-manager) | 0 |
+| `forumfortress-flarum` | 0 | [7](#forumfortress-flarum-missing) |
+
+
+## Different translations
+
+Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `de@formal` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
+
+
+### `flarum-extension-manager`
+
+#### [`flarum-extension-manager.admin.extensions.install`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/de@formal/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.install%22)
+
+> Install a new extension
+
+```diff
+-Installiere eine neue Erweiterung
++Neue Erweiterung installieren
+```
+
+<del>Installiere eine neue</del><ins>Neue</ins> Erweiterung<ins> installieren</ins>
 
 
 ## Missing translations

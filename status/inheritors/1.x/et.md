@@ -2,8 +2,8 @@
 
 Translations for Estonian (`et`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **3** are translated differently and **120** are
-translated only in `et`. Altogether they cover **24** components.
+sides, but do not match between them: **3** are translated differently and **137** are
+translated only in `et`. Altogether they cover **27** components.
 
 <!-- {% raw %} -->
 
@@ -15,16 +15,19 @@ translated only in `et`. Altogether they cover **24** components.
 | `el-choco-admin-console` | 0 | [1](#el-choco-admin-console-missing) |
 | `ffans-threadmarks` | 0 | [19](#ffans-threadmarks-missing) |
 | `fof-badges` | 0 | [1](#fof-badges-missing) |
+| `fof-bookmarks` | 0 | [8](#fof-bookmarks-missing) |
 | `fof-follow-tags` | 0 | [7](#fof-follow-tags-missing) |
 | `fof-mailing` | 0 | [2](#fof-mailing-missing) |
 | `fof-move-posts` | 0 | [4](#fof-move-posts-missing) |
 | `fof-rich-text` | 0 | [4](#fof-rich-text-missing) |
 | `fof-sentry` | 0 | [1](#fof-sentry-missing) |
+| `fof-signature` | 0 | [8](#fof-signature-missing) |
 | `fof-upgrade-advisor` | 0 | [37](#fof-upgrade-advisor-missing) |
 | `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
 | `huseyinfiliz-diff` | 0 | [12](#huseyinfiliz-diff-missing) |
 | `huseyinfiliz-sticky-title` | 0 | [1](#huseyinfiliz-sticky-title-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [1](#michaelbelgium-ai-autoreply-missing) |
+| `peopleinside-fla-powcaptcha` | 0 | [1](#peopleinside-fla-powcaptcha-missing) |
 | `pianotell-flamoji` | 0 | [22](#pianotell-flamoji-missing) |
 | `prm-forum-activity` | 0 | [1](#prm-forum-activity-missing) |
 | `prm-hero-image` | [1](#prm-hero-image) | 0 |
@@ -267,6 +270,73 @@ These strings are translated only in `et`, so there is nothing to inherit from F
 ```
 
 
+### `fof-bookmarks` (missing)
+
+#### [`fof-bookmarks.admin.settings.independent_button`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/et/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button%22)
+
+> Show the discussion bookmark control in the sidebar
+
+```diff
++Näita järjehoidja nuppu külgribal
+```
+
+#### [`fof-bookmarks.admin.settings.independent_button_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/et/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button_help%22)
+
+> When off, the control appears in the discussion dropdown menu instead.
+
+```diff
++Kui see on välja lülitatud, siis on järjehoidja lisamise valik rippmenüüs.
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/et/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position%22)
+
+> Post bookmark button position
+
+```diff
++Postituse järjehoidjatesse lisamise nupu asukoht
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_actions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/et/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_actions%22)
+
+> Below post (quick actions)
+
+```diff
++Postituse all (kiirtegevused)
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_menu`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/et/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_menu%22)
+
+> In post menu (three dots)
+
+```diff
++Postituse menüüs (kolm täppi)
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/et/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge%22)
+
+> Label bookmarked posts
+
+```diff
++Märgista järjehoidjatesse lisatud postitused
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/et/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge_help%22)
+
+> Shows a label above a bookmarked post. Only applies when the button is not in the header.
+
+```diff
++Näitab silti järjehoidjatesse lisatud postituse kohal. Rakendatakse ainult siis, kui nupp pole päises.
+```
+
+#### [`fof-bookmarks.forum.postButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/et/?q=context%3A%3D%22fof-bookmarks.forum.postButton.remove%22)
+
+> Bookmarked
+
+```diff
++Järjehoidjates
+```
+
+
 ### `fof-follow-tags` (missing)
 
 #### [`fof-follow-tags.admin.settings.prompt_tag_ids_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/et/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_ids_label%22)
@@ -423,6 +493,73 @@ These strings are translated only in `et`, so there is nothing to inherit from F
 
 ```diff
 +Sentry seaded
+```
+
+
+### `fof-signature` (missing)
+
+#### [`fof-signature.admin.permissions.allow_signature`](https://weblate.rob006.net/translate/flarum2/fof-signature/et/?q=context%3A%3D%22fof-signature.admin.permissions.allow_signature%22)
+
+> Can have a signature
+
+```diff
++Võib lisada allkirja
+```
+
+#### [`fof-signature.admin.settings.allow_inline_editing.description`](https://weblate.rob006.net/translate/flarum2/fof-signature/et/?q=context%3A%3D%22fof-signature.admin.settings.allow_inline_editing.description%22)
+
+> Inline editing of signature.
+
+```diff
++Allkira otsene muutmine.
+```
+
+#### [`fof-signature.admin.settings.allow_inline_editing.help`](https://weblate.rob006.net/translate/flarum2/fof-signature/et/?q=context%3A%3D%22fof-signature.admin.settings.allow_inline_editing.help%22)
+
+> When enabled, users can edit their signature while viewing a post.
+
+```diff
++Kui see on sisse lülitatud, siis kasutajad saavad oma allkirja muuta postitust vaadates.
+```
+
+#### [`fof-signature.admin.settings.maximum_char_limit.description`](https://weblate.rob006.net/translate/flarum2/fof-signature/et/?q=context%3A%3D%22fof-signature.admin.settings.maximum_char_limit.description%22)
+
+> Maximum character limit of signature.
+
+```diff
++Maksimaalne märkide arv allkirjas.
+```
+
+#### [`fof-signature.admin.settings.maximum_char_limit.help`](https://weblate.rob006.net/translate/flarum2/fof-signature/et/?q=context%3A%3D%22fof-signature.admin.settings.maximum_char_limit.help%22)
+
+> When the user exceeds the maximum character limit in their signature, they will be prevented from saving until the character count is accordingly.
+
+```diff
++Kui kasutaja ületab allkirja maksimaalse märkide arvu, siis nad ei saa seda salvestada enne, kui märkide arv on õige.
+```
+
+#### [`fof-signature.admin.settings.maximum_image_count.description`](https://weblate.rob006.net/translate/flarum2/fof-signature/et/?q=context%3A%3D%22fof-signature.admin.settings.maximum_image_count.description%22)
+
+> Maximum inserted images.
+
+```diff
++Maksimaalne sisestatud piltide arv.
+```
+
+#### [`fof-signature.admin.settings.maximum_image_count.help`](https://weblate.rob006.net/translate/flarum2/fof-signature/et/?q=context%3A%3D%22fof-signature.admin.settings.maximum_image_count.help%22)
+
+> When the user exceeds the maximum image count in their signature, they will be prevented from saving until the image count is accordingly.
+
+```diff
++Kui kasutaja ületab maksimaalse lubatud piltide arvu, siis nad ei saa seda salvestada enne, kui piltide arv on õige.
+```
+
+#### [`fof-signature.forum.errors.save_failed`](https://weblate.rob006.net/translate/flarum2/fof-signature/et/?q=context%3A%3D%22fof-signature.forum.errors.save_failed%22)
+
+> Something went wrong while saving your signature.
+
+```diff
++Sinu allkirja salvestamisel läks midagi valesti.
 ```
 
 
@@ -854,6 +991,17 @@ These strings are translated only in `et`, so there is nothing to inherit from F
 
 ```diff
 +Platform
+```
+
+
+### `peopleinside-fla-powcaptcha` (missing)
+
+#### [`peopleinside-powcaptcha.admin.settings.log_ip_help`](https://weblate.rob006.net/translate/flarum2/peopleinside-fla-powcaptcha/et/?q=context%3A%3D%22peopleinside-powcaptcha.admin.settings.log_ip_help%22)
+
+> WARNING: an IP address is personal data under the GDPR. By enabling this option you, as data controller, are responsible for having a valid legal basis (e.g. legitimate interest in security), for describing the processing in your privacy policy, for limiting retention and for handling data-subject requests. Non-compliant use may constitute a GDPR violation and lead to penalties. IPs are kept only while the entry is among the most recent events retained (see 'Log entries to keep') and not older than the configured number of days, or until the log is cleared. Disabled by default: if you do not need it, leave it off. This is not legal advice; if in doubt, consult a professional.
+
+```diff
++HOIATUS: IP-aadress on isikuandmete kaitse üldmääruse (GDPR) kohaselt isikuandmed. Selle valiku lubamisega vastutad sina kui vastutav töötleja selle eest, et olemas oleks kehtiv õiguslik alus (nt õigustatud huvi turvalisuse tagamiseks), et andmetöötlus oleks kirjeldatud sinu privaatsuspoliitikas, et andmete säilitamine oleks piiratud ning et andmesubjektide taotlusi menetletaks nõuetekohaselt. Nõuetele mittevastav kasutamine võib kujutada endast GDPR-i rikkumist ja tuua kaasa trahvid. IP-aadresse säilitatakse ainult seni, kuni kirje kuulub viimaste alleshoitavate sündmuste hulka (vt „Säilitatavad logikirjed“) ja ei ole vanem kui määratud päevade arv, või kuni logi tühjendamiseni. Vaikimisi välja lülitatud: kui sa seda ei vaja, jäta see väljalülitatuks. See ei ole õiguslik nõuanne; kahtluse korral pea nõu spetsialistiga.
 ```
 
 

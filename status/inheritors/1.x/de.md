@@ -2,17 +2,52 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **0** are translated differently and **7** are
-translated only in `de`. Altogether they cover **1** components.
+sides, but do not match between them: **2** are translated differently and **7** are
+translated only in `de`. Altogether they cover **3** components.
 
 <!-- {% raw %} -->
 
 
 ## Contents
 
-| Component | Missing translations |
-| --- | --- |
-| `forumfortress-flarum` | [7](#forumfortress-flarum-missing) |
+| Component | Different translations | Missing translations |
+| --- | --- | --- |
+| `core` | [1](#core) | 0 |
+| `flarum-extension-manager` | [1](#flarum-extension-manager) | 0 |
+| `forumfortress-flarum` | 0 | [7](#forumfortress-flarum-missing) |
+
+
+## Different translations
+
+Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `de` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
+
+
+### `core`
+
+#### [`core.admin.basics.slug_driver_text`](https://weblate.rob006.net/translate/flarum2/core/de/?q=context%3A%3D%22core.admin.basics.slug_driver_text%22)
+
+> Select a driver to be used for slugging this model.
+
+```diff
+-Wähle den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.
++Wähle den Treiber, welcher die Foren-URLs mit einem „Slug“ ausstattet.
+```
+
+Wähle den Treiber, welcher die Foren-URLs mit einem <del>"Slug"</del><ins>„Slug“</ins> ausstattet.
+
+
+### `flarum-extension-manager`
+
+#### [`flarum-extension-manager.admin.extensions.install`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/de/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.install%22)
+
+> Install a new extension
+
+```diff
+-Installiere eine neue Erweiterung
++Neue Erweiterung installieren
+```
+
+<del>Installiere eine neue</del><ins>Neue</ins> Erweiterung<ins> installieren</ins>
 
 
 ## Missing translations

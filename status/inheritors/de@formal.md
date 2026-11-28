@@ -319,11 +319,11 @@ Das Abrufen der Liste verwaister Erweiterungen ist fehlgeschlagen. Bitte <del>ve
 > Select a driver to be used for slugging this model.
 
 ```diff
--Wähle den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.
+-Wähle den Treiber, welcher die Foren-URLs mit einem „Slug“ ausstattet.
 +Wählen Sie den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.
 ```
 
-<del>Wähle</del><ins>Wählen Sie</ins> den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.
+<del>Wähle</del><ins>Wählen Sie</ins> den Treiber, welcher die Foren-URLs mit einem <del>„Slug“</del><ins>"Slug"</ins> ausstattet.
 
 #### [`core.admin.basics.welcome_banner_text`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.basics.welcome_banner_text%22)
 
