@@ -12530,6 +12530,14 @@
             "admin": {
                 "color_help": "486ab5e2a565cf692bee5578c8d7e3d8 486ab5e2a565cf692bee5578c8d7e3d8",
                 "color_label": "3734ed1da78ea632f8efaa1dea0be340 3734ed1da78ea632f8efaa1dea0be340",
+                "duration_help": "a7d189e923ee2bb656dc1331dc39472d a7d189e923ee2bb656dc1331dc39472d",
+                "duration_label": "c8dadcae91b13eac79489aa8f3c31295 c8dadcae91b13eac79489aa8f3c31295",
+                "exclude": {
+                    "help": "8326eb13c41664b970e55e3a9343c202 8326eb13c41664b970e55e3a9343c202",
+                    "invalid": "4cce11eee4cd52a3a80832d2dcaf5a7b 4cce11eee4cd52a3a80832d2dcaf5a7b",
+                    "label": "a48a981ca6f020892e61d541de76903f a48a981ca6f020892e61d541de76903f",
+                    "placeholder": "1fa3b9a5828b92f042a2cdd1255fb8e5 1fa3b9a5828b92f042a2cdd1255fb8e5"
+                },
                 "full_page_help": "b7b00f3ff26b52fd5db71f3d022d6251 b7b00f3ff26b52fd5db71f3d022d6251",
                 "full_page_label": "242fb60b5272948d842db1618697a6c1 242fb60b5272948d842db1618697a6c1",
                 "icons": {
@@ -12565,7 +12573,7 @@
                     "glide": "26af1b4c2c56012da7e4d0bde330b9b3 26af1b4c2c56012da7e4d0bde330b9b3",
                     "off": "4f1908abfc1ec48256af5818ed6784ab 4f1908abfc1ec48256af5818ed6784ab"
                 },
-                "transitions_help": "ce4db567728505a8832ed203a3a2c8c5 ce4db567728505a8832ed203a3a2c8c5",
+                "transitions_help": "0b5df28d51cf81491f4138a2afe1d212 0b5df28d51cf81491f4138a2afe1d212",
                 "transitions_label": "ff3ed3a69d1872fbb64b26322478483c ff3ed3a69d1872fbb64b26322478483c"
             },
             "api": {
@@ -15324,6 +15332,10 @@
                     "minimum_stability": {
                         "help": "a17f03f7bd5ff0e6f06e5b9848f8a543 38cfca9f0fb8a1f21b22c94be4f3a835",
                         "label": "9d884da0ec8c574da1cbb9c9a5d11187 9d884da0ec8c574da1cbb9c9a5d11187",
+                        "means": {
+                            "rc": "0d5b170be02559228cfdf69ced40bb30 0d5b170be02559228cfdf69ced40bb30",
+                            "stable": "83030419e24dc1dbe2808a5c1ed5831f 83030419e24dc1dbe2808a5c1ed5831f"
+                        },
                         "options": {
                             "alpha": "6132295fcf5570fb8b0a944ef322a598 6132295fcf5570fb8b0a944ef322a598",
                             "beta": "0b87d66b88c72957dfea8c9605016442 0b87d66b88c72957dfea8c9605016442",
@@ -15331,11 +15343,13 @@
                             "rc": "d023eed89764a4715ee03220ce1f53d7 d023eed89764a4715ee03220ce1f53d7",
                             "stable": "e3681b7654dc67d9128833bf2160db37 e3681b7654dc67d9128833bf2160db37"
                         },
+                        "prefer_stable_help": "842d92e1349427ec5e8a06d03c2760b5 842d92e1349427ec5e8a06d03c2760b5",
                         "recommended": "58163d95b6badecf411f101ed96b87da 58163d95b6badecf411f101ed96b87da",
                         "short": {
                             "alpha": "16632bb9ce61560497b7da1df9ca6237 16632bb9ce61560497b7da1df9ca6237",
                             "dev": "d7fda493b13d935c377773f975ac3627 d7fda493b13d935c377773f975ac3627",
-                            "rc": "881a59a41d66fc8e8a8259e73a3ae6a5 881a59a41d66fc8e8a8259e73a3ae6a5"
+                            "rc": "881a59a41d66fc8e8a8259e73a3ae6a5 881a59a41d66fc8e8a8259e73a3ae6a5",
+                            "stable": "51e386ae246b40d165acbdb954482cbb 51e386ae246b40d165acbdb954482cbb"
                         }
                     },
                     "remove_repository_label": "57216ef4976843b84711d4ec4ed2d050 57216ef4976843b84711d4ec4ed2d050",
