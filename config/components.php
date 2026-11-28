@@ -1767,5 +1767,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/view-history/v0.1.7/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'zrobot-gitea-org-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/Nicotinamide/flarum-gitea-org/v0.1.5/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	/* extensions list end */
 ];
