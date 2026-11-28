@@ -230,6 +230,9 @@ return [
 	'ernestdefoe-calendar' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/v2.10.0/resources/locale/en.yml',
 	],
+	'ernestdefoe-callboard' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/callboard/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-cascade' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cascade/v0.3.9/locale/en.yml',
 	],
