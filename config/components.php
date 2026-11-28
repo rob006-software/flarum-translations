@@ -477,6 +477,9 @@ return [
 	'ernestdefoe-renown' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/renown/1.4.1/locale/en.yml',
 	],
+	'ernestdefoe-gridiron-nation' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gridiron-nation/2.3.16/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.7/locale/en.yml',
 	],
