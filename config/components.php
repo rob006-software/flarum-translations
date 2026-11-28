@@ -693,7 +693,7 @@ return [
 	],
 	'flarum-nicknames' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/v2.0.1/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/flarum/nicknames/v2.1.0-beta.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/nicknames/v2.1.0-beta.2/locale/en.yml',
 	],
 	'flarum-oauth-provider' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/oauth-provider/v2.1.0-beta.1/resources/locale/en.yml',
