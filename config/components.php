@@ -1522,6 +1522,10 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/u0-ani-nya/ani-nya_i18n/1.3.5-beta/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'vatebur-message-chat-enhancement' => [
+		'tag' => 'https://raw.githubusercontent.com/vatebur/flarum-message-chat-enhancement/v0.1.6/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'vlssu-cravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.3.0/resources/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
