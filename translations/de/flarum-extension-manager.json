@@ -71,16 +71,16 @@
                     "stat": "",
                     "recommended": "empfohlen",
                     "prefer_stable": "",
-                    "prefer_stable_help": "",
+                    "prefer_stable_help": "Wenn für eine Erweiterung sowohl eine Beta- als auch eine fertige Version verfügbar ist, die funktionieren würde, solltest du die fertige Version wählen.",
                     "short": {
-                        "stable": "",
+                        "stable": "nur fertige",
                         "rc": "Veröffentlichungskandidaten",
                         "alpha": "Vorschauversionen",
                         "dev": "Unveröffentlichter Code"
                     },
                     "means": {
-                        "stable": "",
-                        "rc": "",
+                        "stable": "Nur fertige Versionen. Flarum 2 selbst ist stabil, aber viele der Erweiterungen befinden sich noch in der Beta-Phase oder sind Release-Kandidaten, und diese können hier nicht installiert werden.",
+                        "rc": "Release-Kandidaten sowie fertige Versionen.",
                         "beta": "",
                         "alpha": "",
                         "dev": ""
