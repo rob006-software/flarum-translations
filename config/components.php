@@ -45,6 +45,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/archlinux-de/flarum-click-image/1.1.2/locale/en.yml',
 		'__builtInLanguages' => ['de', 'de@formal'],
 	],
+	'arthurydalgo-follow-users' => [
+		'tag' => 'https://raw.githubusercontent.com/ArthurYdalgo/follow-users/1.0.1/resources/locale/en.yml',
+	],
 	'askvortsov-article-series' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-article-series/v0.2.0/locale/en.yml',
 	],
