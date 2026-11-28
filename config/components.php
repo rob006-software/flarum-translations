@@ -396,6 +396,9 @@ return [
 	'ernestdefoe-lectern' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lectern/1.2.2/locale/en.yml',
 	],
+	'ernestdefoe-livery' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/livery/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-lobby' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lobby/1.0.4/locale/en.yml',
 	],
