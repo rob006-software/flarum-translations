@@ -493,8 +493,8 @@
                 "php_hidden_fix_cpanel": "",
                 "php_hidden_fix_generic": "",
                 "php_fails": "",
-                "php_fails_why": "Ausführung fehlgeschlagen mit:",
-                "php_missing": "",
+                "php_fails_why": "Ausführung fehlgeschlagen mit: {error}",
+                "php_missing": "Kein PHP auf der Befehlszeile wurde gefunden",
                 "php_missing_why": "",
                 "php_override_broken_title": "",
                 "php_override_broken": "",
@@ -505,9 +505,9 @@
                 "summary_in_process_git": "",
                 "php_setting_label": "",
                 "php_setting_help": "",
-                "php_setting_save": "",
-                "php_setting_clear": "",
-                "php_setting_saved": "",
+                "php_setting_save": "Speichern",
+                "php_setting_clear": "Löschen",
+                "php_setting_saved": "Gespeichert. Der Extension Manager wird dieses PHP verwenden.",
                 "php_setting_cleared": ""
             }
         },
@@ -532,7 +532,7 @@
                 "advice_memory": "",
                 "advice_time": "",
                 "and_more": "und {count} weitere",
-                "assets_published": "",
+                "assets_published": "Assets veröffentlicht",
                 "autoloader_copy_failed": "",
                 "broke_site_no_restore": "",
                 "broke_site_restored": "",
@@ -550,10 +550,10 @@
                 "health_down_before": "",
                 "health_no_address": "",
                 "health_not_checked": "",
-                "health_ok_after": "",
+                "health_ok_after": "Die Website antwortet nach der Aktualisierung normal.",
                 "health_ok_before": "",
                 "health_still_down": "",
-                "limit_joiner": "",
+                "limit_joiner": "und ",
                 "limit_memory": "",
                 "limit_note": "",
                 "limit_time": "",
@@ -562,16 +562,16 @@
                 "missing": "",
                 "needs_git": "",
                 "no_archive": "",
-                "not_in_plan": "",
+                "not_in_plan": "{package} wurde nicht eingeplant.",
                 "nothing_changed_install": "",
                 "nothing_changed_remove": "",
                 "nothing_moved_pinned": "",
-                "nothing_to_do": "",
+                "nothing_to_do": "nichts zu tun",
                 "nothing_to_update": "",
                 "permissions_not_checked": "",
                 "plan_unreadable": "",
                 "permissions_ok": "",
-                "pin_raised": "",
+                "pin_raised": "{package} wird in {version} statt in {current} benötigt",
                 "pinned_to": "",
                 "plan_unwritable": "",
                 "registered": "",
@@ -586,48 +586,48 @@
                 "stopped_memory": "",
                 "stopped_time": "",
                 "stopped_unknown": "",
-                "the_error_was": "",
+                "the_error_was": "Der Fehler war: {error}",
                 "replaced_core_class": "",
                 "tidy_left": "",
                 "tidy_no_storage": "",
                 "tidy_nothing": "",
                 "tidy_removed": "",
-                "tidy_rest_tonight": "",
+                "tidy_rest_tonight": "Der Rest wird heute nacht aufgeräumt.",
                 "wait_too_long": "",
                 "waiting_reread": "",
                 "web_cache_cleared": "",
-                "will_change": ""
+                "will_change": "{count, plural, one {# Paket} other {# Pakete}} werden geändert: {list}"
             },
             "config": {
-                "basic_needs_username": "",
+                "basic_needs_username": "https-basic benötigt einen Benutzernamen sowie ein Passwort.",
                 "credential_empty": "",
                 "json_encode_failed": "",
                 "json_invalid": "",
                 "json_refuse_write": "",
-                "json_replace_failed": "",
-                "json_unreadable": "",
+                "json_replace_failed": "{path} konnte nicht ersetzt werden.",
+                "json_unreadable": "{path} konnte nicht gelesen werden.",
                 "json_write_failed": "",
                 "no_credential": "",
                 "not_a_hostname": "",
                 "repo_ambiguous": "",
                 "repo_bad_url": "",
-                "repo_exists": "",
+                "repo_exists": "Dieses Repository ist bereits eingerichtet.",
                 "repo_insecure": "",
-                "repo_missing": "",
-                "repo_needs_url": "",
+                "repo_missing": "Dieses Repository ist nicht in composer.json.",
+                "repo_needs_url": "Ein Repository benötigt eine URL.",
                 "repo_path_not_url": "",
                 "repo_type_unsupported": "",
                 "stability_invalid": "",
                 "takes_effect_next_time": "",
                 "unknown_credential_type": "",
-                "unknown_error": ""
+                "unknown_error": "unbekannter Fehler"
             },
             "core": {
                 "no_lock": ""
             },
             "discover": {
                 "unexpected": "",
-                "unreachable": ""
+                "unreachable": "Packagist konnte nicht erreicht werden."
             },
             "fetch": {
                 "checksum": "",
@@ -649,8 +649,8 @@
                 "waiting_request": ""
             },
             "fs": {
-                "create_failed": "",
-                "read_failed": ""
+                "create_failed": "{path} konnte nicht erstellt werden",
+                "read_failed": "{path} konnte nicht gelesen werden."
             },
             "git": {
                 "add_token": "",
@@ -658,17 +658,17 @@
                 "git_only": ""
             },
             "health": {
-                "answered": "",
+                "answered": "Die Webseite hat geantwortet mit {status}.",
                 "asked_directly": "",
                 "never_reached": "",
                 "no_answer": "",
-                "no_response": ""
+                "no_response": "keine Antwort"
             },
             "capability": {
                 "disk_free": "",
                 "disk_unknown": "",
                 "disk_why": "",
-                "memory": "",
+                "memory": "Speicher: {memory}",
                 "memory_full": "",
                 "memory_none": "",
                 "memory_targeted": "",
@@ -686,7 +686,7 @@
                 "time_limit_why": "",
                 "time_none": "",
                 "time_none_why": "",
-                "unlimited": ""
+                "unlimited": "unbegrenzt"
             },
             "installed": {
                 "rewrite_failed": ""
@@ -714,7 +714,7 @@
                 "not_cleared_restart": ""
             },
             "permissions": {
-                "and_more": "",
+                "and_more": "… und {count} weitere",
                 "blocked": "",
                 "web_user": ""
             },
@@ -732,8 +732,8 @@
             },
             "process": {
                 "start_failed": "",
-                "the_command": "",
-                "the_command_start": "",
+                "the_command": "der Befehl",
+                "the_command_start": "Der Befehl",
                 "timeout": ""
             },
             "prune": {
@@ -741,7 +741,7 @@
                 "cannot_list": "",
                 "journal_unreadable": "",
                 "not_inside": "",
-                "not_readable": "",
+                "not_readable": "{path} konnte nicht gelesen werden.",
                 "not_single_name": "",
                 "remove_dir_failed": "",
                 "remove_failed": "",
@@ -774,15 +774,15 @@
                 "failed_during": "",
                 "failed_internal": "",
                 "failed_network": "",
-                "finished": "",
-                "finished_phase": "",
+                "finished": "Abgeschlossen",
+                "finished_phase": "{phase} abgeschlossen",
                 "lock_dir_failed": "",
                 "lock_failed": "",
                 "no_worker": "",
                 "nothing_to_undo": "",
                 "put_back": "",
                 "queue_worker": "",
-                "rolled_back": "",
+                "rolled_back": "Rückgängig gemacht: {undone}",
                 "starting": "",
                 "state_move_failed": "",
                 "state_write_failed": "",
@@ -795,7 +795,7 @@
             "start": {
                 "abandoned_for": "",
                 "abandoned_no_usable": "",
-                "in_progress": "",
+                "in_progress": "Eine Aktualisierung wird bereits ausgeführt.",
                 "in_progress_stale": "",
                 "lock_unwritable": "",
                 "no_nightly": "",
