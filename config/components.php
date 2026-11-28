@@ -131,6 +131,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.2/resources/locale/en.yml',
 		'__builtInLanguages' => ['es', 'es@formal'],
 	],
+	'cc2562-gravatar' => [
+		'tag' => 'https://raw.githubusercontent.com/cc2562/gravatar/0.1/resources/locale/en.yml',
+	],
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
