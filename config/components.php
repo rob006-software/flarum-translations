@@ -450,6 +450,9 @@ return [
 	'ernestdefoe-parley' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/parley/1.11.1/locale/en.yml',
 	],
+	'ernestdefoe-permission-desk' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/permission-desk/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-phrasebook' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/phrasebook/1.1.1/locale/en.yml',
 	],
