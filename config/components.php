@@ -1583,6 +1583,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/sonsuzus/flarum-ext-engagement-money/v1.3.1/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
+	'skynettechnologies-all-in-one-accessibility' => [
+		'tag' => 'https://raw.githubusercontent.com/skynettechnologies/flarum-all-in-one-accessibility/1.0.4/resources/locale/en.yml',
+	],
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.8.0.1/locale/en.yml',
 	],
