@@ -10,10 +10,8 @@
                 "content_filter": "Filtro de contenido",
                 "spammer_actions": "Acciones contra spammers"
             },
-            "unsaved_changes": "Tiene cambios sin guardar en esta pestaña. ¿Desea salir sin guardarlos?",
             "settings": {
                 "sign_ups": {
-                    "heading": "Verificaciones de registro",
                     "introduction": "Comprobaciones que realiza el foro de forma interna en cada registro, sin enviar datos a servicios externos. Las consultas a la base de datos de StopForumSpam disponen de su propia pestaña.",
                     "honeypot_heading": "Trampa de bots (Honeypot)",
                     "honeypot_label": "Capturar bots de formulario",
@@ -24,7 +22,8 @@
                     "honeypot_strict_help": "Rechaza también los registros enviados sin el formulario web, como las peticiones directas a la API. Desactive esta opción si utiliza aplicaciones móviles, puentes SSO u otras herramientas para crear cuentas por API.",
                     "throttle_heading": "Límite de frecuencia",
                     "registration_throttle_label": "Segundos entre registros desde una misma dirección IP",
-                    "registration_throttle_help": "Flarum limita la frecuencia de publicación, pero no la creación de cuentas. Configure 0 para desactivar. Tenga en cuenta que oficinas, centros educativos o redes móviles comparten una misma IP entre múltiples usuarios."
+                    "registration_throttle_help": "Flarum limita la frecuencia de publicación, pero no la creación de cuentas. Configure 0 para desactivar. Tenga en cuenta que oficinas, centros educativos o redes móviles comparten una misma IP entre múltiples usuarios.",
+                    "heading": "Verificaciones de registro"
                 },
                 "content-filter": {
                     "heading": "Filtro de contenido",
@@ -219,7 +218,8 @@
                     "copied": "Copiado al portapapeles.",
                     "copy_failed": "No se pudo copiar al portapapeles."
                 }
-            }
+            },
+            "unsaved_changes": "Tiene cambios sin guardar en esta pestaña. ¿Desea salir sin guardarlos?"
         },
         "forum": {
             "sign_up": {

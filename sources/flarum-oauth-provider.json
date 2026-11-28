@@ -99,7 +99,16 @@
                 "deny_button": "Cancel",
                 "from_host": "from {host}",
                 "unverified": "unverified, self-registered",
-                "redirect_host": "After you decide, you will be sent to {host}."
+                "redirect_host": "After you decide, you will be sent to {host}.",
+                "details_changed": "This application's details changed while you were reviewing them. Check them before you continue.",
+                "details_changed_to": "This application's details changed while you were reviewing them. It will now send you to {host} — check this is right before you continue."
+            },
+            "authorize_error": {
+                "title": "Authorization failed",
+                "intro": "{client} could not be authorized.",
+                "intro_unknown": "The application could not be authorized.",
+                "not_redirected": "For your safety, you were not sent on to {host}.",
+                "error_code": "Error:"
             },
             "connected_apps": {
                 "heading": "Connected applications",

@@ -10,10 +10,8 @@
                 "content_filter": "Filtr treści",
                 "spammer_actions": "Działania wobec spamerów"
             },
-            "unsaved_changes": "Na tej karcie masz niezapisane zmiany. Opuścić ją bez zapisywania?",
             "settings": {
                 "sign_ups": {
-                    "heading": "Kontrola rejestracji",
                     "introduction": "Kontrole wykonywane przez forum przy każdej rejestracji, bez przesyłania danych do usług zewnętrznych. Sprawdzanie w StopForumSpam znajduje się na osobnej karcie.",
                     "honeypot_heading": "Pułapka na boty",
                     "honeypot_label": "Wykrywaj boty wypełniające formularz",
@@ -24,7 +22,8 @@
                     "honeypot_strict_help": "Odrzuca również rejestracje gości przesyłane bez formularza, np. przez skrypty wysyłające żądania bezpośrednio do API. Wyłącz tę opcję, jeśli aplikacja, integracja SSO lub inne narzędzie tworzy konta przez API.",
                     "throttle_heading": "Ograniczenie częstotliwości",
                     "registration_throttle_label": "Minimalny odstęp między rejestracjami z jednego adresu (sekundy)",
-                    "registration_throttle_help": "Flarum ogranicza częstotliwość publikowania, ale nie zakładania kont. Ustaw 0, aby wyłączyć limit. Pamiętaj, że w biurach, szkołach i sieciach komórkowych wiele osób może korzystać z jednego adresu IP."
+                    "registration_throttle_help": "Flarum ogranicza częstotliwość publikowania, ale nie zakładania kont. Ustaw 0, aby wyłączyć limit. Pamiętaj, że w biurach, szkołach i sieciach komórkowych wiele osób może korzystać z jednego adresu IP.",
+                    "heading": "Kontrola rejestracji"
                 },
                 "content-filter": {
                     "heading": "Filtr treści",
@@ -224,7 +223,8 @@
                     "copied": "Skopiowano do schowka.",
                     "copy_failed": "Nie udało się skopiować do schowka."
                 }
-            }
+            },
+            "unsaved_changes": "Na tej karcie masz niezapisane zmiany. Opuścić ją bez zapisywania?"
         },
         "forum": {
             "sign_up": {

@@ -10,10 +10,8 @@
                 "content_filter": "Inhaltsfilter",
                 "spammer_actions": "Spammer-Aktivitäten"
             },
-            "unsaved_changes": "Auf diesem Tab sind noch nicht gespeicherte Änderungen vorhanden. Möchtest du diesen Tab verlassen, ohne sie zu speichern?",
             "settings": {
                 "sign_ups": {
-                    "heading": "Registrierungschecks",
                     "introduction": "Diese Überprüfungen führt das Forum bei jeder Registrierung selbst durch, ohne dass Daten an einen externen Dienst übermittelt werden. Abfragen bei StopForumSpam haben einen eigenen Reiter.",
                     "honeypot_heading": "Honeypot",
                     "honeypot_label": "Bots, die Formularfelder ausfüllen, abfangen",
@@ -24,7 +22,8 @@
                     "honeypot_strict_help": "Lehnt außerdem Gastanregistrierungen ab, die ohne das Formular gesendet werden, wie dies bei Skripten der Fall ist, die Daten direkt an die API übermitteln. Lasse diese Option deaktiviert, wenn eine App, eine SSO-Brücke oder ein anderes Tool Konten über die API erstellt.",
                     "throttle_heading": "Ratenbegrenzung",
                     "registration_throttle_label": "Sekunden zwischen Registrierungen von einer Adresse",
-                    "registration_throttle_help": "Flarum schränkt ein, wie oft jemand Beiträge verfassen darf, nicht jedoch, wie oft er Konten erstellen darf. Mit dem Wert 0 wird diese Einschränkung deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse gemeinsam nutzen."
+                    "registration_throttle_help": "Flarum schränkt ein, wie oft jemand Beiträge verfassen darf, nicht jedoch, wie oft er Konten erstellen darf. Mit dem Wert 0 wird diese Einschränkung deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse gemeinsam nutzen.",
+                    "heading": "Registrierungschecks"
                 },
                 "content-filter": {
                     "heading": "Inhaltsfilter",
@@ -224,7 +223,8 @@
                     "copied": "In die Zwischenablage kopiert.",
                     "copy_failed": "Konnte nicht in die Zwischenablage kopiert werden."
                 }
-            }
+            },
+            "unsaved_changes": "Auf diesem Tab sind noch nicht gespeicherte Änderungen vorhanden. Möchtest du diesen Tab verlassen, ohne sie zu speichern?"
         },
         "forum": {
             "sign_up": {

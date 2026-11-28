@@ -10,10 +10,8 @@
                 "content_filter": "Filtre de contenu",
                 "spammer_actions": "Actions de modération"
             },
-            "unsaved_changes": "Vous avez des modifications non enregistrées dans cet onglet. Voulez-vous quitter sans les enregistrer ?",
             "settings": {
                 "sign_ups": {
-                    "heading": "Vérifications lors de l’inscription",
                     "introduction": "Ce forum effectue lui-même ces vérifications lors de chaque inscription, sans rien transmettre à un service externe. Les recherches effectuées auprès de StopForumSpam disposent d'un onglet dédié.",
                     "honeypot_heading": "Honeypot",
                     "honeypot_label": "Piéger les robots qui remplissent des formulaires",
@@ -24,7 +22,8 @@
                     "honeypot_strict_help": "Refuse également les inscriptions d'invités envoyées sans le formulaire, comme c'est le cas avec les scripts qui effectuent des requêtes directement via l'API. Désactivez cette option si une application, une passerelle SSO ou un autre outil crée des comptes via l'API.",
                     "throttle_heading": "Limite de fréquence",
                     "registration_throttle_label": "Nombre de secondes entre deux inscriptions provenant d'une même adresse",
-                    "registration_throttle_help": "Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l'esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes."
+                    "registration_throttle_help": "Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l'esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes.",
+                    "heading": "Vérifications lors de l’inscription"
                 },
                 "content-filter": {
                     "heading": "Filtre de contenu",
@@ -224,7 +223,8 @@
                     "copied": "Copiée dans le presse-papiers.",
                     "copy_failed": "Impossible de copier dans le presse-papiers."
                 }
-            }
+            },
+            "unsaved_changes": "Vous avez des modifications non enregistrées dans cet onglet. Voulez-vous quitter sans les enregistrer ?"
         },
         "forum": {
             "sign_up": {
