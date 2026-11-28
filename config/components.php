@@ -41,6 +41,9 @@ return [
 	'asyntai-chatbot' => [
 		'tag' => 'https://raw.githubusercontent.com/asyntai/flarum-chatbot/v1.0.1/locale/en.yml',
 	],
+	'campkitchenus-camp-water' => [
+		'tag' => 'https://gitlab.com/campkitchenus1/flarum-camp-water/raw/v1.0.0/locale/en.yml',
+	],
 	'captchala-flarum' => [
 		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.2/resources/locale/en.yml',
 	],
