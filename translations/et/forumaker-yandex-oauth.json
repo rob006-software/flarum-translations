@@ -7,19 +7,19 @@
         },
         "forum": {
             "providers": {
-                "yandex": ""
+                "yandex": "Yandex"
             },
             "log_in": {
-                "with_yandex_button": ""
+                "with_yandex_button": "Logi sisse Yandexiga"
             }
         },
         "admin": {
             "settings": {
                 "providers": {
                     "yandex": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Loo rakendus aadressil https://oauth.yandex.ru",
+                        "client_id_label": "Kliendi ID",
+                        "client_secret_label": "Kliendi salasõna"
                     }
                 }
             }

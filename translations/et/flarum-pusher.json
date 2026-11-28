@@ -10,18 +10,18 @@
                 "app_key_help": "",
                 "app_secret_label": "Rakenduse salasõna",
                 "app_secret_help": "",
-                "server_hostname_label": "",
+                "server_hostname_label": "Serveri hostinimi",
                 "server_hostname_help": "",
                 "title": "Pusheri seaded"
             },
             "sections": {
                 "connection": {
                     "description": "",
-                    "label": ""
+                    "label": "Ühendus"
                 },
                 "server": {
-                    "description": "",
-                    "label": ""
+                    "description": "Vajalik ainult siis, kui kasutad omaenda Pusherida ühilduvat serverit.",
+                    "label": "Kohandatud server"
                 }
             }
         },
