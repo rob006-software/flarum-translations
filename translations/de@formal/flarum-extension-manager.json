@@ -155,9 +155,9 @@
                 "disabled": "deaktiviert",
                 "version_unknown": "unbekannte Version",
                 "library": "Composer-Paket",
-                "library_why": "",
+                "library_why": "Eine Bibliothek, die dieses Forum in seiner eigenen composer.json-Datei benötigt. Du verfügst über keine Einstellungsseite, und der Extension Manager bietet nie an, sie zu entfernen.",
                 "path_install": "",
-                "path_install_why": "",
+                "path_install_why": "Diese Erweiterung ist ein symbolischer Link zu einem Verzeichnis auf diesem Server, es handelt sich also wahrscheinlich um eine Erweiterung, an der du gerade arbeitest. Der Extension Manager wird sie nicht ersetzen – aktualisiere sie stattdessen mittels Git.",
                 "open_settings": "Einstellungen von {name} öffnen",
                 "learn_more": "Mehr erfahren"
             },
@@ -192,14 +192,14 @@
                             "unstable": "Instabil"
                         },
                         "downloads": "{count, plural, one {{formattedCount} Download} other {{formattedCount} Downloads}}",
-                        "abandoned_why": "",
-                        "abandoned_for": "",
+                        "abandoned_why": "Dem Autor zufolge – oder laut Flarums Liste der eingestellten Erweiterungen – wird sie nicht mehr gepflegt. Möglicherweise funktioniert sie aber noch.",
+                        "abandoned_for": "Wird nicht mehr gepflegt: Verwende stattdessen {replacement}.",
                         "replaced": "ersetzt",
                         "replaced_by": "ersetzt durch {replacement}",
-                        "replaced_why": "",
+                        "replaced_why": "Dieser Name ist veraltet. Die Erweiterung wurde in ein neues Paket verschoben, und wenn du den alten Namen installierst, erhältst du die neue Erweiterung unter der falschen ID, die dann nicht aktiviert werden kann.",
                         "install_replacement": "{replacement} installieren",
                         "installed_as": "als {replacement} installiert",
-                        "replacement_installed": ""
+                        "replacement_installed": "{replacement} ist installiert"
                     },
                     "search": "Suchen",
                     "server_error": "Der Dienst ist derzeit nicht verfügbar. Bitte versuche es später erneut.",
@@ -213,26 +213,26 @@
                         "extensions": "Erweiterungen",
                         "languages": "Sprachen",
                         "themes": "Themen",
-                        "label": "",
-                        "all": "",
-                        "widgets": ""
+                        "label": "Anzeigen",
+                        "all": "Alle",
+                        "widgets": "Widgets"
                     },
                     "title": "Erweiterungen",
-                    "search_button": "",
-                    "searching": "",
-                    "hint": "",
-                    "against": "",
-                    "no_match": "",
-                    "show_more": "",
-                    "loading_more": "",
-                    "open_packagist": "",
+                    "search_button": "Suchen",
+                    "searching": "Wird gesucht…",
+                    "hint": "Alle auf Packagist veröffentlichten Flarum-Erweiterungen, sortiert nach der höchsten Nutzungshäufigkeit.",
+                    "against": "Mit der Flarum-Version {version} abgeglichen, auf der dieses Forum läuft.",
+                    "no_match": "Auf Packagist gibt es keine Treffer für „{query}“.",
+                    "show_more": "Mehr anzeigen",
+                    "loading_more": "Wird geladen…",
+                    "open_packagist": "{name} auf Packagist",
                     "compat": {
-                        "incompatible": "",
-                        "incompatible_why": "",
-                        "unknown": "",
-                        "needs_stability": "",
-                        "prerelease": "",
-                        "checking": ""
+                        "incompatible": "nicht für dieses Flarum",
+                        "incompatible_why": "Die neueste Version erfordert „flarum/core“ {requires}.",
+                        "unknown": "konnte nicht prüfen",
+                        "needs_stability": "benötigt {level} in Quellen",
+                        "prerelease": "{version} – eine Vorabversion",
+                        "checking": "Wird geprüft…"
                     },
                     "premium_extension_terms": "Bedingungen für Premium-Erweiterungen",
                     "party_filter": {
@@ -273,14 +273,14 @@
                         "failure": "Fehlgeschlagen",
                         "pending": "Ausstehend",
                         "running": "In Bearbeitung",
-                        "rolled_back": ""
+                        "rolled_back": "Rückgängig gemacht"
                     },
                     "task_just_started": "Aufgabe hat gerade begonnen",
                     "title": "Warteschlange",
-                    "flarum": "",
-                    "new_version": "",
-                    "removed_version": "",
-                    "nothing": "",
+                    "flarum": "Flarum",
+                    "new_version": "{version} (neu)",
+                    "removed_version": "{version} (entfernt)",
+                    "nothing": "Nichts wurde geändert",
                     "migrations": ""
                 },
                 "settings": {
@@ -288,7 +288,7 @@
                     "description": "Konfiguriere den Erweiterungsmanager und überprüfe die Vorgänge in der Warteschlange."
                 },
                 "installed": {
-                    "title": ""
+                    "title": "Installiert ({count})"
                 }
             },
             "settings": {
@@ -395,11 +395,11 @@
                     "remove": "{packages} wird entfernt",
                     "more": "{shown} und {count} weitere"
                 },
-                "details": "",
-                "start_failed": "",
+                "details": "Details zur Aktualisierung",
+                "start_failed": "Die Aktualisierung konnte nicht gestartet werden, und im Forum wurde kein Grund dafür genannt. Es hat sich nichts geändert.",
                 "phases_label": "Fortschritt",
                 "phases": {
-                    "plan": "Ermitteln, was sich geändert hat",
+                    "plan": "Ermitteln, was sich ändern wird",
                     "fetch": "Wird heruntergeladen",
                     "apply": "Dateien werden ausgetauscht",
                     "finalise": "Wird abgeschlossen"
@@ -407,16 +407,16 @@
                 "working_out": "",
                 "working_on": "{item} — {index} von {total}",
                 "steps": {
-                    "check_the_site": "",
-                    "work_out_what_changes": "",
+                    "check_the_site": "Überprüfung der Website",
+                    "work_out_what_changes": "Ermitteln, was sich ändern wird",
                     "check_file_permissions": "Dateiberechtigungen prüfen",
                     "register": "Composer-Einträge aktualisieren",
                     "migrations": "Datenbank-Migration ausführen",
                     "assets": "Assets veröffentlichen",
                     "caches": "Caches leeren",
                     "code_cache": "PHP Code-Cache leeren",
-                    "check_the_site_again": "",
-                    "tidy_the_trash": ""
+                    "check_the_site_again": "Erneute Überprüfung der Website",
+                    "tidy_the_trash": "Aufräumen alter Kopien"
                 },
                 "failed_at": "Abgebrochen während: {step}",
                 "failed_at_step": "Abgebrochen während: {phase} → {step}",
@@ -435,13 +435,13 @@
                 "cannot_reach": ""
             },
             "trash": {
-                "title": "",
-                "help": "",
-                "size": "",
+                "title": "Rollback-Kopien",
+                "help": "Bei jeder Aktualisierung werden die ersetzten Versionen beibehalten, sodass ein Rollback möglich ist. Kopien, die für kein Rollback mehr benötigt werden, werden nach jeder Aktualisierung und jede Nacht bereinigt. Die Kopien, die für die neueste Aktualisierung benötigt werden, werden niemals entfernt.",
+                "size": "Platzbedarf",
                 "size_value": "{size} in {count, plural, one {# Kopie} other {# Kopien}}",
                 "freeable": "",
-                "freeable_value": "",
-                "freeable_none": "",
+                "freeable_value": "{size} — {count, plural, one {# Eintrag} other {# Einträge}}",
+                "freeable_none": "Nichts – alles, was aufbewahrt wird, wird noch gebraucht",
                 "last": "Zuletzt aufgeräumt",
                 "last_value": "{when} — {count, plural, =0 {Nichts aufzuräumen} other {# entfernt, {size} freigegeben}}",
                 "last_never": "Noch nie",
@@ -455,7 +455,7 @@
                 "rule": "",
                 "confirm": "",
                 "done": "",
-                "failed": ""
+                "failed": "Der Extension Manager konnte seine Rollback-Kopien nicht lesen."
             },
             "host": {
                 "title": "Dieser Host",
@@ -472,10 +472,10 @@
                 "in_process_fix_ini": "",
                 "in_process_fix": "",
                 "in_process_no_php": "",
-                "memory_in_process": "",
+                "memory_in_process": "Speicher: {limit} (angehoben während Composer läuft)",
                 "memory_in_process_why": "",
-                "time_none": "",
-                "time_limit": "",
+                "time_none": "Ausführungslimit: keines",
+                "time_limit": "Ausführungslimit: {seconds} Sekunden",
                 "time_in_process_lifted": "",
                 "time_in_process_locked": "",
                 "time_in_process_retry": "",
@@ -484,7 +484,7 @@
                 "git_needed_token": "",
                 "git_needed_git": "",
                 "ssh_differs": "",
-                "php_found": "",
+                "php_found": "PHP auf der Befehlszeile: {path} {version}",
                 "php_found_why": "",
                 "php_found_override_why": "",
                 "php_hidden": "",
@@ -493,7 +493,7 @@
                 "php_hidden_fix_cpanel": "",
                 "php_hidden_fix_generic": "",
                 "php_fails": "",
-                "php_fails_why": "",
+                "php_fails_why": "Ausführung fehlgeschlagen mit:",
                 "php_missing": "",
                 "php_missing_why": "",
                 "php_override_broken_title": "",

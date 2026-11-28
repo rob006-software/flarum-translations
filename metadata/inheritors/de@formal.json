@@ -15413,7 +15413,9 @@
                     "install_help": "8372d0b7f92e1339eff20a00352fa331 a4ff2c7926b93eee2590a189e57903c7",
                     "learn_more": "3d34ae6b2170a867c24e35dba78f3a3e 3d34ae6b2170a867c24e35dba78f3a3e",
                     "library": "685a7fc1eb1cc7dfd4830d4dfcc67e54 685a7fc1eb1cc7dfd4830d4dfcc67e54",
+                    "library_why": "221ee995d64caf30ae9cc75378bb2c42 221ee995d64caf30ae9cc75378bb2c42",
                     "open_settings": "905a4bf61a9e1717de8052eb6ca06a36 905a4bf61a9e1717de8052eb6ca06a36",
+                    "path_install_why": "4c3ad75054184568bf16c6e413f44c5e 4c3ad75054184568bf16c6e413f44c5e",
                     "proceed": "6bb478b68c23107fa86bb14bdaf7bd0b 6bb478b68c23107fa86bb14bdaf7bd0b",
                     "remove": "e3e4ed7740f7c51d7a9f57157d71e5af e3e4ed7740f7c51d7a9f57157d71e5af",
                     "remove_files": "22e54bdb84945e7f11bd91865bfe2997 22e54bdb84945e7f11bd91865bfe2997",
@@ -15429,11 +15431,16 @@
                 },
                 "file_permissions": "a6b8e8e46d14603af828e90e89edb533 a6b8e8e46d14603af828e90e89edb533",
                 "host": {
+                    "memory_in_process": "96d4a03579dcab76cc8d4aa2ff26c32f 96d4a03579dcab76cc8d4aa2ff26c32f",
+                    "php_fails_why": "c032c884ae1de66028b4bb6d383646aa c032c884ae1de66028b4bb6d383646aa",
+                    "php_found": "7b94d4b9453ff5c30aee4d22d0aa2415 7b94d4b9453ff5c30aee4d22d0aa2415",
                     "status": {
                         "fail": "df0f20d62dc4ba9c471fdeef6751ec5f df0f20d62dc4ba9c471fdeef6751ec5f",
                         "ok": "e0aa021e21dddbd6d8cecec71e9cf564 e0aa021e21dddbd6d8cecec71e9cf564",
                         "warn": "d0080305f525016486c53cdcc818dd62 d0080305f525016486c53cdcc818dd62"
                     },
+                    "time_limit": "879418b72c94fe6115caa9089984d6f6 879418b72c94fe6115caa9089984d6f6",
+                    "time_none": "e52b627a750f756ffc0aa229d63bd3cd e52b627a750f756ffc0aa229d63bd3cd",
                     "title": "64637b52d6720f12a02785244e1c691c 64637b52d6720f12a02785244e1c691c"
                 },
                 "major_updater": {
@@ -15458,6 +15465,7 @@
                 },
                 "required_php_functions": "854d828d72c472dd4c9dcf570bd0cdb3 854d828d72c472dd4c9dcf570bd0cdb3",
                 "run": {
+                    "details": "a7dca4b4d145eb5b50c44bd1a76bd225 a7dca4b4d145eb5b50c44bd1a76bd225",
                     "dismiss": "0db7fc417f792fc727eba9668b46c6f1 0db7fc417f792fc727eba9668b46c6f1",
                     "done": "8ffa8c0eeadfde21d37edb098da1446d 8ffa8c0eeadfde21d37edb098da1446d",
                     "failed": "3000b094c0b3e35d7084136fcae3f1c4 3000b094c0b3e35d7084136fcae3f1c4",
@@ -15467,20 +15475,25 @@
                         "apply": "75f0cfe232349227372a1e6cacb97164 75f0cfe232349227372a1e6cacb97164",
                         "fetch": "2a2c707116fcf311b3a516e7dc160e3d 2a2c707116fcf311b3a516e7dc160e3d",
                         "finalise": "56c1aeab766acc5498d7d4bec873e6d0 56c1aeab766acc5498d7d4bec873e6d0",
-                        "plan": "1eb95fda94811dd66489f65ea24a9257 1eb95fda94811dd66489f65ea24a9257"
+                        "plan": "6eef6e681047d61a640f4d3d8a293c39 6eef6e681047d61a640f4d3d8a293c39"
                     },
                     "phases_label": "adcbc9a8c7aa494a82383626f5bc47e3 adcbc9a8c7aa494a82383626f5bc47e3",
                     "reload_page": "23f48fe561b4bdd35df0aeb2b558cb81 23f48fe561b4bdd35df0aeb2b558cb81",
                     "roll_back": "5b1327cec322a66e8cbadd0c6424a55c 5b1327cec322a66e8cbadd0c6424a55c",
                     "rolled_back": "18a82a294ec4846a00bd8cca370d0486 18a82a294ec4846a00bd8cca370d0486",
                     "rolling_back": "ca0365b796025f3f3cdcd28e091473bf ca0365b796025f3f3cdcd28e091473bf",
+                    "start_failed": "73d4ccc19deb8df83bbaf23dfc56332e 73d4ccc19deb8df83bbaf23dfc56332e",
                     "steps": {
                         "assets": "0b2406d43943207e01fcd64ddd26aed0 0b2406d43943207e01fcd64ddd26aed0",
                         "caches": "0577ca4a8c8b5700142ed2fcb7fadbc3 0577ca4a8c8b5700142ed2fcb7fadbc3",
                         "check_file_permissions": "b66a7c70ce448eafa1d9dca2dc1baf6b b66a7c70ce448eafa1d9dca2dc1baf6b",
+                        "check_the_site": "07e6f5ecdf8fb595670017cd065d3999 07e6f5ecdf8fb595670017cd065d3999",
+                        "check_the_site_again": "a16d7b588a5bd6367df8a68f896d2194 a16d7b588a5bd6367df8a68f896d2194",
                         "code_cache": "f65555e5106ab53f57f3d5a1d257e3a6 f65555e5106ab53f57f3d5a1d257e3a6",
                         "migrations": "8c212522daa13f78d85f9e7710be0df9 8c212522daa13f78d85f9e7710be0df9",
-                        "register": "f7b033ad359a1188b2661ed28b264a3e f7b033ad359a1188b2661ed28b264a3e"
+                        "register": "f7b033ad359a1188b2661ed28b264a3e f7b033ad359a1188b2661ed28b264a3e",
+                        "tidy_the_trash": "b43311d3473882ea610ea657a0fbb115 b43311d3473882ea610ea657a0fbb115",
+                        "work_out_what_changes": "6eef6e681047d61a640f4d3d8a293c39 6eef6e681047d61a640f4d3d8a293c39"
                     },
                     "target": {
                         "install": "23d1f26d0f900ac9ee9286fdcfe8b8b3 23d1f26d0f900ac9ee9286fdcfe8b8b3",
@@ -15493,9 +15506,20 @@
                 },
                 "sections": {
                     "discover": {
+                        "against": "88540d801cca34efe9b65fc9afdb887a 88540d801cca34efe9b65fc9afdb887a",
+                        "compat": {
+                            "checking": "1a6ff061731ee3b2c442a9257b30a911 1a6ff061731ee3b2c442a9257b30a911",
+                            "incompatible": "c04dfb6e10bdd1a88c022e73b5533d0d c04dfb6e10bdd1a88c022e73b5533d0d",
+                            "incompatible_why": "5e6ad1275e5cc2c8aa1fcde0d21a325d 5e6ad1275e5cc2c8aa1fcde0d21a325d",
+                            "needs_stability": "330f1315daead71aa89907c96c5b67a3 330f1315daead71aa89907c96c5b67a3",
+                            "prerelease": "6f5dd180c79966fec8ffb312f1c24f3b 6f5dd180c79966fec8ffb312f1c24f3b",
+                            "unknown": "3888337f09bc5079f5fa41c5878f3d25 3888337f09bc5079f5fa41c5878f3d25"
+                        },
                         "description": "394cbdcf16defa7e5e4b7064d6196d15 394cbdcf16defa7e5e4b7064d6196d15",
                         "empty_results": "12c15b9eac02440aaf1635510b66bb3a 12c15b9eac02440aaf1635510b66bb3a",
                         "extension": {
+                            "abandoned_for": "7f05ed92a904dd554c64581727246380 7f05ed92a904dd554c64581727246380",
+                            "abandoned_why": "b2e059d5a50cda931cf2f5845a8260f7 b2e059d5a50cda931cf2f5845a8260f7",
                             "badges": {
                                 "abandoned": "47a85ae87e3b4e0e5ae2ff5f9e69afe6 47a85ae87e3b4e0e5ae2ff5f9e69afe6",
                                 "compatible": "304e5227f02f4ddee4b2a2ce0e6d199e 304e5227f02f4ddee4b2a2ce0e6d199e",
@@ -15509,8 +15533,14 @@
                             "install_replacement": "5859a86df80dc2a428054e075eb56d8f 5859a86df80dc2a428054e075eb56d8f",
                             "installed_as": "cf663c7b8a6a6a79e257892a323404b3 cf663c7b8a6a6a79e257892a323404b3",
                             "replaced": "ff584df986d01770da0c6f27bccb0992 ff584df986d01770da0c6f27bccb0992",
-                            "replaced_by": "6e318d3dc8c005abf795557de7a932b5 6e318d3dc8c005abf795557de7a932b5"
+                            "replaced_by": "6e318d3dc8c005abf795557de7a932b5 6e318d3dc8c005abf795557de7a932b5",
+                            "replaced_why": "ee36f2342e8e217f4407d5da7d94fb0f ee36f2342e8e217f4407d5da7d94fb0f",
+                            "replacement_installed": "8a0ab05b5d6aa6d34229a7f719558048 8a0ab05b5d6aa6d34229a7f719558048"
                         },
+                        "hint": "ed567aa22970075c7af2883443f00424 ed567aa22970075c7af2883443f00424",
+                        "loading_more": "27083c267dde52a045674f9a9ea4255e 27083c267dde52a045674f9a9ea4255e",
+                        "no_match": "022fc1598ecd87921444da6e33fc78a1 022fc1598ecd87921444da6e33fc78a1",
+                        "open_packagist": "cecb5cf4c75c5b67ba15d0761f12f439 cecb5cf4c75c5b67ba15d0761f12f439",
                         "party_filter": {
                             "all": "2bca61615ad4e3e8c668c33b238a99c8 2bca61615ad4e3e8c668c33b238a99c8",
                             "premium": "8d5e7e72f12067991186cdf3cb7d5d9d 8d5e7e72f12067991186cdf3cb7d5d9d",
@@ -15518,19 +15548,28 @@
                         },
                         "premium_extension_terms": "d20272b1345e45eb33ef264c3897f6f8 d20272b1345e45eb33ef264c3897f6f8",
                         "search": "4474fbc0115b236a45eb9573889b2653 4474fbc0115b236a45eb9573889b2653",
+                        "search_button": "4474fbc0115b236a45eb9573889b2653 4474fbc0115b236a45eb9573889b2653",
+                        "searching": "5de5c78f219f4d0a20c461874b7ec3ed 5de5c78f219f4d0a20c461874b7ec3ed",
                         "server_error": "9398296359eee2b9f2f20e25295a28d6 9398296359eee2b9f2f20e25295a28d6",
+                        "show_more": "4f02abcd0236148c6fe91ca67cca6b4c 4f02abcd0236148c6fe91ca67cca6b4c",
                         "sort": {
                             "latest": "a131e842b2bac1c54ab2d93015431a30 a131e842b2bac1c54ab2d93015431a30",
                             "toggle_dropdown_accessible_label": "b365fa4df3e367c16daf91698830c564 b365fa4df3e367c16daf91698830c564",
                             "top": "d9db2cd08a8d8279d9d97961315f0366 d9db2cd08a8d8279d9d97961315f0366"
                         },
                         "tabs": {
+                            "all": "2bca61615ad4e3e8c668c33b238a99c8 2bca61615ad4e3e8c668c33b238a99c8",
                             "discover": "917414c6d9ee9d6f3c61b48f580e81e0 917414c6d9ee9d6f3c61b48f580e81e0",
                             "extensions": "4ecfd5ba4473d6d947b37600399ad2be 4ecfd5ba4473d6d947b37600399ad2be",
+                            "label": "60d441bc928fe885ac10754bf77120ec 60d441bc928fe885ac10754bf77120ec",
                             "languages": "bf6c56085d5ba147fe0860211f201685 bf6c56085d5ba147fe0860211f201685",
-                            "themes": "fb68224d1488a94ba3000c78c002ae9b fb68224d1488a94ba3000c78c002ae9b"
+                            "themes": "fb68224d1488a94ba3000c78c002ae9b fb68224d1488a94ba3000c78c002ae9b",
+                            "widgets": "fa07652cb6a5517c5dffb407c8eca014 fa07652cb6a5517c5dffb407c8eca014"
                         },
                         "title": "4ecfd5ba4473d6d947b37600399ad2be 4ecfd5ba4473d6d947b37600399ad2be"
+                    },
+                    "installed": {
+                        "title": "2f80fa55f7a5dc65e79f0d8baaa86085 2f80fa55f7a5dc65e79f0d8baaa86085"
                     },
                     "queue": {
                         "columns": {
@@ -15541,7 +15580,10 @@
                             "peak_memory_used": "a456b20a8bf2c7e751da2bd94c206a04 a456b20a8bf2c7e751da2bd94c206a04",
                             "status": "ec53a8c4f07baed5d8825072c89799be ec53a8c4f07baed5d8825072c89799be"
                         },
+                        "flarum": "48a0c5639eafe653dac27d0b60eef2a9 48a0c5639eafe653dac27d0b60eef2a9",
+                        "new_version": "5f597759484cdcb6afe15a0ad7dc72cc 5f597759484cdcb6afe15a0ad7dc72cc",
                         "none": "0bf1b12cddd020126c5ff3259b99b4a7 0bf1b12cddd020126c5ff3259b99b4a7",
+                        "nothing": "e129b17d9cb77821458e66e14fe403ea e129b17d9cb77821458e66e14fe403ea",
                         "operations": {
                             "extension_install": "f65ea195c56c15254473d9629243eb2c f65ea195c56c15254473d9629243eb2c",
                             "extension_remove": "decef56a976202f35c260aac4e6c3daf decef56a976202f35c260aac4e6c3daf",
@@ -15559,9 +15601,11 @@
                             "output": "462fd451c94dde14cf60377c2bde32c1 462fd451c94dde14cf60377c2bde32c1"
                         },
                         "refresh": "d0da905ca3e7b199e3e8d1bf0b1b823c d0da905ca3e7b199e3e8d1bf0b1b823c",
+                        "removed_version": "21dce6e89096c21c358556c87769aa6b 21dce6e89096c21c358556c87769aa6b",
                         "statuses": {
                             "failure": "de1707496ef1fa73a956d6b02db54784 de1707496ef1fa73a956d6b02db54784",
                             "pending": "785dd3dc38ecc4290d644a7c141e8e99 785dd3dc38ecc4290d644a7c141e8e99",
+                            "rolled_back": "817dcf538007d6ed13279cdac6e31a24 817dcf538007d6ed13279cdac6e31a24",
                             "running": "5adb663cf7af0d051fab16890eca6764 5adb663cf7af0d051fab16890eca6764",
                             "success": "ded86575b97cdfd8a7ea9c2dd57bb337 ded86575b97cdfd8a7ea9c2dd57bb337"
                         },
@@ -15584,6 +15628,10 @@
                 },
                 "trash": {
                     "days": "ea511d0f3441763ba2e9c0196342ed23 ea511d0f3441763ba2e9c0196342ed23",
+                    "failed": "b224d668c7a327c7bc0552050959c9ae b224d668c7a327c7bc0552050959c9ae",
+                    "freeable_none": "c7fe0716e5e5d4e3ec59e2b841814362 c7fe0716e5e5d4e3ec59e2b841814362",
+                    "freeable_value": "e5b0a7fbd682d066bc1f6420f5e28d74 e5b0a7fbd682d066bc1f6420f5e28d74",
+                    "help": "4d098545bf01e34174f8b0ee17d42caf 4d098545bf01e34174f8b0ee17d42caf",
                     "keep_days": "d5345c9c4c4eef390a3391fd2e05a1ea d5345c9c4c4eef390a3391fd2e05a1ea",
                     "keep_runs": "639ce671626b394497c250fda641f907 639ce671626b394497c250fda641f907",
                     "last": "0f1b1cd2a5c3fe38ad0d71d085cdc828 0f1b1cd2a5c3fe38ad0d71d085cdc828",
@@ -15593,7 +15641,9 @@
                     "pruning": "1d1a8a49c9d06425864dd2dc674f8332 1d1a8a49c9d06425864dd2dc674f8332",
                     "runs": "0e63914bfefe46f81ce7ccb9570ce538 0e63914bfefe46f81ce7ccb9570ce538",
                     "saved": "d88dae73bf14c96963d05c87a98a7b95 d88dae73bf14c96963d05c87a98a7b95",
-                    "size_value": "664ee0db769e7fb98f5da87d68ea0004 664ee0db769e7fb98f5da87d68ea0004"
+                    "size": "202b9fd85c6b7d6bbac6eb8f6b554b4c 202b9fd85c6b7d6bbac6eb8f6b554b4c",
+                    "size_value": "664ee0db769e7fb98f5da87d68ea0004 664ee0db769e7fb98f5da87d68ea0004",
+                    "title": "38f6e91cab573749df25fff98ba87e00 38f6e91cab573749df25fff98ba87e00"
                 },
                 "update_successful": "30a9c5b7d041afdc0c4550d13eb269d2 30a9c5b7d041afdc0c4550d13eb269d2",
                 "updater": {
