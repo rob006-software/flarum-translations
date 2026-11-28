@@ -747,6 +747,9 @@ return [
 	'flectar-turnstile' => [
 		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/2.0.1/locale/en.yml',
 	],
+	'floxum-ad-units' => [
+		'tag' => 'https://gitlab.com/floxum/extensions/flarum-ext-ad-units/raw/1.0/locale/en.yml',
+	],
 	'floxum-payments' => [
 		'tag' => 'https://gitlab.com/floxum/extensions/flarum-ext-payments/raw/2.0.3/resources/locale/en.yml',
 	],
