@@ -456,6 +456,9 @@ return [
 	'ernestdefoe-pigeonhole' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/pigeonhole/v1.1.3/locale/en.yml',
 	],
+	'ernestdefoe-postcards' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/postcards/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-predictions' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/predictions/1.1.0/locale/en.yml',
 	],
