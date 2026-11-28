@@ -15326,6 +15326,7 @@
                 },
                 "composer": {
                     "add_repository_label": "d44bcf543106116a49836cb82c8335b6 d44bcf543106116a49836cb82c8335b6",
+                    "config_failed": "cac9c49d95929eafb42d935072569ddf cac9c49d95929eafb42d935072569ddf",
                     "delete_repository_confirmation": "0a155e00837dfdc070a5c60f91d2aabe 05d7209da432ff50c01474533e705f3f",
                     "delete_repository_label": "a68f3ee2f57bc5cfacc3fe12f2245fbb a68f3ee2f57bc5cfacc3fe12f2245fbb",
                     "edit_repository_label": "da6891f3bca7c4811ef98a95f644d03d da6891f3bca7c4811ef98a95f644d03d",
@@ -15333,6 +15334,9 @@
                         "help": "a17f03f7bd5ff0e6f06e5b9848f8a543 38cfca9f0fb8a1f21b22c94be4f3a835",
                         "label": "9d884da0ec8c574da1cbb9c9a5d11187 9d884da0ec8c574da1cbb9c9a5d11187",
                         "means": {
+                            "alpha": "c05761eb7b6beec4eee87a790365df21 c05761eb7b6beec4eee87a790365df21",
+                            "beta": "8948ded2d81489e46f7b3b496ac24ab1 8948ded2d81489e46f7b3b496ac24ab1",
+                            "dev": "a8ace72027627752de24bfef9ca96d69 a8ace72027627752de24bfef9ca96d69",
                             "rc": "0d5b170be02559228cfdf69ced40bb30 0d5b170be02559228cfdf69ced40bb30",
                             "stable": "83030419e24dc1dbe2808a5c1ed5831f 83030419e24dc1dbe2808a5c1ed5831f"
                         },
@@ -15343,12 +15347,13 @@
                             "rc": "d023eed89764a4715ee03220ce1f53d7 d023eed89764a4715ee03220ce1f53d7",
                             "stable": "e3681b7654dc67d9128833bf2160db37 e3681b7654dc67d9128833bf2160db37"
                         },
+                        "prefer_stable": "f60145c1fbd39f568959bd920c445c04 f60145c1fbd39f568959bd920c445c04",
                         "prefer_stable_help": "842d92e1349427ec5e8a06d03c2760b5 842d92e1349427ec5e8a06d03c2760b5",
                         "recommended": "58163d95b6badecf411f101ed96b87da 58163d95b6badecf411f101ed96b87da",
                         "short": {
                             "alpha": "16632bb9ce61560497b7da1df9ca6237 16632bb9ce61560497b7da1df9ca6237",
                             "dev": "d7fda493b13d935c377773f975ac3627 d7fda493b13d935c377773f975ac3627",
-                            "rc": "881a59a41d66fc8e8a8259e73a3ae6a5 881a59a41d66fc8e8a8259e73a3ae6a5",
+                            "rc": "fba5b1d6f836bbb5bd484549cf7bf3b6 fba5b1d6f836bbb5bd484549cf7bf3b6",
                             "stable": "51e386ae246b40d165acbdb954482cbb 51e386ae246b40d165acbdb954482cbb"
                         }
                     },
@@ -15364,6 +15369,8 @@
                         "filter": "1c475929e977c06017c5deb5a85e366b 1c475929e977c06017c5deb5a85e366b",
                         "help": "74f0ca8631f7854b39ad3da817428e3f 8f8cd53c013c2c77653a8772345b7878",
                         "label": "de1f88f6f7789baf4d35f2919f100fc3 de1f88f6f7789baf4d35f2919f100fc3",
+                        "no_match": "fc5ba7dab583b77ad23705d7ae5649bb fc5ba7dab583b77ad23705d7ae5649bb",
+                        "none": "d5cbede9ba97b168bbd6de9ef30f2683 d5cbede9ba97b168bbd6de9ef30f2683",
                         "open": "54e1c6294d985afa006a2bb81af24c6c 54e1c6294d985afa006a2bb81af24c6c",
                         "placeholders": {
                             "composer": "cacb6ea74a382ff03b65f6499f7f6b8c cacb6ea74a382ff03b65f6499f7f6b8c",
@@ -15377,6 +15384,7 @@
                             "vcs": "1db3e71341c51b89b4fefe506e31dcb8 1db3e71341c51b89b4fefe506e31dcb8"
                         },
                         "types": {
+                            "artifact": "0b75dee0f611c9f303338a230b12485b 0b75dee0f611c9f303338a230b12485b",
                             "composer": "180b81a58ca6dde990aba761b7299f43 180b81a58ca6dde990aba761b7299f43",
                             "path": "6ce7f274763ddf039b7621ffbe371b9e 6ce7f274763ddf039b7621ffbe371b9e",
                             "vcs": "d6bfe3ce1bf5714887f4ffbb7b94feab d6bfe3ce1bf5714887f4ffbb7b94feab"
@@ -15409,6 +15417,7 @@
                     "proceed": "6bb478b68c23107fa86bb14bdaf7bd0b 6bb478b68c23107fa86bb14bdaf7bd0b",
                     "remove": "e3e4ed7740f7c51d7a9f57157d71e5af e3e4ed7740f7c51d7a9f57157d71e5af",
                     "remove_files": "22e54bdb84945e7f11bd91865bfe2997 22e54bdb84945e7f11bd91865bfe2997",
+                    "repin_confirm": "db0100a91efd3bd4ca16130bf64f8bec db0100a91efd3bd4ca16130bf64f8bec",
                     "successful_install": "b9eb86caea6f0f0edeefdd33f9e68b2f b9eb86caea6f0f0edeefdd33f9e68b2f",
                     "successful_remove": "a59f0429133a7902d9362db70919521d a59f0429133a7902d9362db70919521d",
                     "successful_update": "ee537f0ad857b543892118ab5c50c2a8 ee537f0ad857b543892118ab5c50c2a8",
