@@ -347,7 +347,7 @@
                         "scheduler-status": "Harmonogram",
                         "queue-driver": "Sterownik kolejki",
                         "session-driver": "Sterownik sesji",
-                        "image-driver": ""
+                        "image-driver": "Sterownik obrazów"
                     },
                     "scheduler": {
                         "active": "Aktywny",
@@ -410,7 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Utwórz grupę",
                 "icon_image_label": "=> core.ref.icon_image",
-                "icon_image_animated_webp_text": "",
+                "icon_image_animated_webp_text": "=> core.ref.icon_image_animated_webp_text",
                 "icon_image_text": "=> core.ref.icon_image_text"
             },
             "edit_header": {
@@ -603,7 +603,7 @@
                 "view_hidden_groups_label": "Przeglądanie etykiet ukrytych grup",
                 "view_last_seen_at_label": "Dostęp do daty ostatniej wizyty użytkownika",
                 "view_post_ips_label": "Przeglądanie IP użytkowników",
-                "remove_scope_button": ""
+                "remove_scope_button": "=> core.ref.remove"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Cały czas",
@@ -718,8 +718,8 @@
                 "full_screen_tooltip": "Pełny ekran",
                 "minimize_tooltip": "Zminimalizuj",
                 "preview_tooltip": "Podgląd",
-                "discard_button": "",
-                "keep_writing_button": "",
+                "discard_button": "Porzuć",
+                "keep_writing_button": "Pisz dalej",
                 "restore_tooltip": "Przywróć"
             },
             "composer_discussion": {
@@ -797,8 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Przejdź do głównej treści",
                 "toggle_sidenav_dropdown_accessible_label": "Przełącz menu rozwijane z nawigacją",
-                "mark_all_as_read_button": "",
-                "mark_filtered_as_read_button": "",
+                "mark_all_as_read_button": "=> core.ref.mark_all_as_read",
+                "mark_filtered_as_read_button": "Oznacz jako odczytane",
                 "mark_filtered_as_read_confirmation": "Czy na pewno chcesz oznaczyć dyskusje pasujące do bieżących filtrów jako odczytane?"
             },
             "index_sort": {
@@ -832,7 +832,7 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Zobacz powiadomienia",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_button": ""
+                "delete_all_button": "Usuń wszystkie"
             },
             "post": {
                 "edited_text": "Edytowany",
@@ -1187,8 +1187,8 @@
                 "userListJoinDate": "LLL"
             },
             "confirm_modal": {
-                "cancel_button": "",
-                "confirm_button": ""
+                "cancel_button": "Anuluj",
+                "confirm_button": "Potwierdź"
             },
             "icon_image_input": {
                 "remove_button": "Usuń",
@@ -1442,7 +1442,7 @@
             "you": "Ty",
             "icon_image": "Obraz ikony",
             "icon_image_text": "Obraz wyświetlany zamiast ikony. Ikona jest nadal używana tam, gdzie nie można wyświetlić obrazu. PNG, JPEG, GIF, WebP lub BMP; z obrazów animowanych zostaje zachowana pierwsza klatka.",
-            "icon_image_animated_webp_text": ""
+            "icon_image_animated_webp_text": "Animowane obrazy WebP wymagają sterownika obrazów Imagick."
         },
         "group": {
             "admin": "Administrator",
