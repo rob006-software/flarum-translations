@@ -556,6 +556,9 @@ return [
 	'ernestdefoe-stances' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/stances/1.1.0/locale/en.yml',
 	],
+	'ernestdefoe-stepwise' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/stepwise/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-steward' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/steward/1.3.0/locale/en.yml',
 	],
