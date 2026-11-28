@@ -887,6 +887,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/4.0.0/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
+	'gradba-pagination' => [
+		'tag' => 'https://raw.githubusercontent.com/gradba/flarum-pagination/v1.1.1/resources/locale/en.yml',
+		'__builtInLanguages' => ['mk'],
+	],
 	'gtdxyz-badges' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-badges/1.0.2/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
