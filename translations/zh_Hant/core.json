@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "任務排程",
                         "queue-driver": "佇列驅動程式",
-                        "session-driver": "工作階段驅動程式"
+                        "session-driver": "工作階段驅動程式",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "執行中",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "建立使用者組",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "瀏覽論壇（討論和使用者）",
                 "view_hidden_groups_label": "檢視隱藏的使用者組徽章",
                 "view_last_seen_at_label": "始終檢視使用者最後上線時間",
-                "view_post_ips_label": "檢視 IP 位址"
+                "view_post_ips_label": "檢視 IP 位址",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "無限制",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "全螢幕",
                 "minimize_tooltip": "最小化",
                 "preview_tooltip": "預覽",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "跳至主體內容",
                 "toggle_sidenav_dropdown_accessible_label": "展開或收合導覽列選單",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "標記為已讀",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "檢視通知",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "已編輯",
@@ -1178,6 +1186,10 @@
                 "scrubber": "YYYY年M月",
                 "userListJoinDate": "LLL"
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "說點什麼吧...",
             "you": "你",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "管理員",

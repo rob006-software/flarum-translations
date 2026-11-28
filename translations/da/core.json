@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "",
                         "queue-driver": "",
-                        "session-driver": ""
+                        "session-driver": "",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "",
@@ -409,6 +410,7 @@
                 "submit_button": "Gem ændringer",
                 "title": "Opret gruppe",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "Vis forum (diskussioner og brugere)",
                 "view_hidden_groups_label": "Vis skjulte brugeremblemer",
                 "view_last_seen_at_label": "Vis altid bruger senest set tid",
-                "view_post_ips_label": "Vis indlæg IP-adresse"
+                "view_post_ips_label": "Vis indlæg IP-adresse",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Uendeligt",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "Fuld skærm",
                 "minimize_tooltip": "Minimér",
                 "preview_tooltip": "Forhåndsvisning",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "Start en diskussion",
                 "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Skift visning af navigationsrullemenu",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "Markér som læst",
                 "title": "Påmindelser",
                 "toggle_dropdown_accessible_label": "Vis påmindelser",
-                "tooltip": "Påmindelser"
+                "tooltip": "Påmindelser",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "Rettet",
@@ -1178,6 +1186,10 @@
                 "scrubber": "",
                 "userListJoinDate": ""
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "Skriv et svar ...",
             "you": "Dig",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "Admin",

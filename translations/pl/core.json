@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "Harmonogram",
                         "queue-driver": "Sterownik kolejki",
-                        "session-driver": "Sterownik sesji"
+                        "session-driver": "Sterownik sesji",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "Aktywny",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Utwórz grupę",
                 "icon_image_label": "=> core.ref.icon_image",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": "=> core.ref.icon_image_text"
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "Przeglądanie forum (dyskusji i użytkowników)",
                 "view_hidden_groups_label": "Przeglądanie etykiet ukrytych grup",
                 "view_last_seen_at_label": "Dostęp do daty ostatniej wizyty użytkownika",
-                "view_post_ips_label": "Przeglądanie IP użytkowników"
+                "view_post_ips_label": "Przeglądanie IP użytkowników",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Cały czas",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "Pełny ekran",
                 "minimize_tooltip": "Zminimalizuj",
                 "preview_tooltip": "Podgląd",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": "Przywróć"
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Przejdź do głównej treści",
                 "toggle_sidenav_dropdown_accessible_label": "Przełącz menu rozwijane z nawigacją",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": "Czy na pewno chcesz oznaczyć dyskusje pasujące do bieżących filtrów jako odczytane?"
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "Oznacz jako odczytane",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Zobacz powiadomienia",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "Edytowany",
@@ -1178,6 +1186,10 @@
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": "LLL"
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "Usuń",
                 "replace_button": "Zmień obraz",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "Napisz odpowiedź…",
             "you": "Ty",
             "icon_image": "Obraz ikony",
-            "icon_image_text": "Obraz wyświetlany zamiast ikony. Ikona jest nadal używana tam, gdzie nie można wyświetlić obrazu. PNG, JPEG, GIF, WebP lub BMP; z obrazów animowanych zostaje zachowana pierwsza klatka."
+            "icon_image_text": "Obraz wyświetlany zamiast ikony. Ikona jest nadal używana tam, gdzie nie można wyświetlić obrazu. PNG, JPEG, GIF, WebP lub BMP; z obrazów animowanych zostaje zachowana pierwsza klatka.",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "Administrator",

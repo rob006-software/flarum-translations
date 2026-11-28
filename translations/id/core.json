@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "Penjadwalan",
                         "queue-driver": "Driver Antrian",
-                        "session-driver": "Driver Sesi"
+                        "session-driver": "Driver Sesi",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "Aktif",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Membuat Grup",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "Melihat forum (diskusi dan pengguna)",
                 "view_hidden_groups_label": "Melihat badge grup yang disembunyikan",
                 "view_last_seen_at_label": "Selalu melihat waktu terakhir dilihat pengguna",
-                "view_post_ips_label": "Melihat alamat IP postingan"
+                "view_post_ips_label": "Melihat alamat IP postingan",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Tanpa batas waktu",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "Layar Penuh",
                 "minimize_tooltip": "Minimalkan",
                 "preview_tooltip": "Pratinjau",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Langsung ke konten utama",
                 "toggle_sidenav_dropdown_accessible_label": "Tampilkan/Sembunyikan menu dropdown navigasi",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "Tandai sebagai Telah Dibaca",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Lihat notifikasi",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "Telah diedit",
@@ -1178,6 +1186,10 @@
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": "LLL"
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "Tulis Balasan...",
             "you": "Anda",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "Admin",

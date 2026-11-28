@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "Trình lên lịch",
                         "queue-driver": "Trình điều khiển Queue",
-                        "session-driver": "Trình điều khiển Session"
+                        "session-driver": "Trình điều khiển Session",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "Hoạt động",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Tạo nhóm",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "Xem diễn đàn (cuộc thảo luận và người dùng)",
                 "view_hidden_groups_label": "Xem huy hiệu nhóm bị ẩn",
                 "view_last_seen_at_label": "Luôn xem được thời gian truy cập gần nhất của người dùng",
-                "view_post_ips_label": "Xem địa chỉ IP bài viết"
+                "view_post_ips_label": "Xem địa chỉ IP bài viết",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Vô thời hạn",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "Toàn màn hình",
                 "minimize_tooltip": "Thu nhỏ",
                 "preview_tooltip": "Xem trước",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Chuyển tới nội dung chính",
                 "toggle_sidenav_dropdown_accessible_label": "Chuyển đổi menu thả xuống thanh điều hướng",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "Đánh dấu đã đọc",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Xem thông báo",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "Đã chỉnh sửa",
@@ -1178,6 +1186,10 @@
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": "LLL"
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "Viết câu trả lời...",
             "you": "Bạn",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "Quản trị viên",

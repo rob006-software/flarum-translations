@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "Ütemező",
                         "queue-driver": "Sor illesztőprogramja",
-                        "session-driver": "Munkamenet illesztőprogramja"
+                        "session-driver": "Munkamenet illesztőprogramja",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "Aktív",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Csoport létrehozása",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "Fórum megtekintése (témák és felhasználók)",
                 "view_hidden_groups_label": "Rejtett csoportjelvények megtekintése",
                 "view_last_seen_at_label": "Utolsó látogatás idejének megtekintése mindig",
-                "view_post_ips_label": "IP-címek megtekintése"
+                "view_post_ips_label": "IP-címek megtekintése",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Korlátlan ideig",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "Teljes képernyő",
                 "minimize_tooltip": "Minimalizálás",
                 "preview_tooltip": "Előnézet",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Ugrás a fő tartalomhoz",
                 "toggle_sidenav_dropdown_accessible_label": "Navigációs legördülő menü be/ki",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "Megjelölés olvasottként",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Értesítések megtekintése",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "Szerkesztve",
@@ -1178,6 +1186,10 @@
                 "scrubber": "YYYY. MMMM",
                 "userListJoinDate": "LLL"
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "Válasz írása…",
             "you": "Ön",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "Adminisztrátor",

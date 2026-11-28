@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "अनुसूचक",
                         "queue-driver": "कतार चालक",
-                        "session-driver": "सत्र चालक"
+                        "session-driver": "सत्र चालक",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "सक्रिय",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "समूह बनाएँ",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "फ़ोरम देखें (चर्चाएँ और उपयोगकर्ता)",
                 "view_hidden_groups_label": "छिपे हुए समूह बेडज देखें",
                 "view_last_seen_at_label": "उपयोगकर्ता को हमेशा अंतिम बार देखे जाने का समय देखें",
-                "view_post_ips_label": "पोस्ट आईपी पते देखें"
+                "view_post_ips_label": "पोस्ट आईपी पते देखें",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "अनिश्चित काल के लिए",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "पूर्ण स्क्रीन",
                 "minimize_tooltip": "छोटा करना",
                 "preview_tooltip": "पूर्वावलोकन",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "नेविगेशन ड्रॉपडाउन मेनू टॉगल करें",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "पढ़े हुए का चिह्न",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "सूचनाएं देखें",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "संपादित",
@@ -1178,6 +1186,10 @@
                 "scrubber": "",
                 "userListJoinDate": ""
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "जवाब लिखें...",
             "you": "आप",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "व्यवस्थापक",

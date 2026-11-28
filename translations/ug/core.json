@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "جەدۋەل",
                         "queue-driver": "ئۆچرەت باشقۇرۇش دېتالى",
-                        "session-driver": "ۋاقىت دېتالى"
+                        "session-driver": "ۋاقىت دېتالى",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "ئاكىتىپ",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "گۇرۇپپا قۇرۇش",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "مۇنبەرنى كۆرۈش (مۇھاكىمىلەر ۋە قوللانچىلار)",
                 "view_hidden_groups_label": "يوشۇرۇنغان گۇرۇپپىلارنى كۆرۈش",
                 "view_last_seen_at_label": "ھەر دائىم قوللانچىنىڭ ئاخىرقى توردىكى ۋاقتىنى كۆرسىتىش",
-                "view_post_ips_label": "يوللانمىنىڭ IP ئادرېسىنى كۆرسىتىش"
+                "view_post_ips_label": "يوللانمىنىڭ IP ئادرېسىنى كۆرسىتىش",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "چەكلەنمىگەن",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "پۈتۈن ئېكران",
                 "minimize_tooltip": "كېچىكلىتىش",
                 "preview_tooltip": "ئالدىن كۆرۈش",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "يول باشلاش تاللاشلىرىنى ئالماشتۇرۇش",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "ئوقۇلدى قىلىش",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "ئەسكەرتىشلەرنى كۆرۈش",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "تەھرىرلەندى",
@@ -1178,6 +1186,10 @@
                 "scrubber": "",
                 "userListJoinDate": ""
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "جاۋاب يېزىش...",
             "you": "سىز",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "باشقۇرغۇچى",

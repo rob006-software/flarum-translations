@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "ตัวกำหนดเวลา",
                         "queue-driver": "Queue Driver",
-                        "session-driver": "Session Driver"
+                        "session-driver": "Session Driver",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "ทำงานอยู่",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "สร้างกลุ่ม",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "ดูฟอรัม (โพสต์และผู้ใช้)",
                 "view_hidden_groups_label": "ดูป้ายกลุ่มที่ซ่อนอยู่",
                 "view_last_seen_at_label": "ดูเวลาออนไลน์ล่าสุดของผู้ใช้ได้เสมอ",
-                "view_post_ips_label": "ดูที่อยู่ IP ของโพสต์"
+                "view_post_ips_label": "ดูที่อยู่ IP ของโพสต์",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "ไม่จำกัดเวลา",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "โหมดเต็มจอ",
                 "minimize_tooltip": "ย่อ",
                 "preview_tooltip": "ดูตัวอย่าง",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "เปิด/ปิดเมนูนำทาง",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "ทำเครื่องหมายว่าอ่านแล้ว",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "ดูการแจ้งเตือน",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "แก้ไขแล้ว",
@@ -1178,6 +1186,10 @@
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": ""
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "เขียนข้อความตอบกลับ...",
             "you": "คุณ",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "แอดมิน",

@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "",
                         "queue-driver": "",
-                        "session-driver": ""
+                        "session-driver": "",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "ഗ്രൂപ്പ് സൃഷ്ടിക്കുക",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "ഫോറം കാണുക (ചർച്ചകളും ഉപയോക്താക്കളും)",
                 "view_hidden_groups_label": "മറഞ്ഞിരിക്കുന്ന ഗ്രൂപ്പ് ബാഡ്ജുകൾ കാണുക",
                 "view_last_seen_at_label": "ഉപയോക്താവ് അവസാനം വന്ന സമയം എപ്പോഴും കാണുക",
-                "view_post_ips_label": "പോസ്റ്റ് ന്റെ ഐപി വിലാസങ്ങൾ കാണുക"
+                "view_post_ips_label": "പോസ്റ്റ് ന്റെ ഐപി വിലാസങ്ങൾ കാണുക",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "അനിശ്ചിതമായി",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "പൂർണ്ണ സ്ക്രീൻ",
                 "minimize_tooltip": "ചെറുതാക്കുക",
                 "preview_tooltip": "പ്രിവ്യൂ",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "നാവിഗേഷൻ ഡ്രോപ്പ്ഡൗൺ മെനു ടോഗിൾ ചെയ്യുക",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "വായിച്ചതായി അടയാളപ്പെടുത്തുക",
                 "title": "",
                 "toggle_dropdown_accessible_label": "",
-                "tooltip": ""
+                "tooltip": "",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "",
@@ -1178,6 +1186,10 @@
                 "scrubber": "",
                 "userListJoinDate": ""
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "",
             "you": "",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "",

@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "Azioni programmate",
                         "queue-driver": "Driver Code",
-                        "session-driver": "Driver Sessione"
+                        "session-driver": "Driver Sessione",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "Attivo",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Crea gruppo",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "Guarda forum (discussioni e utenti)",
                 "view_hidden_groups_label": "Visualizzare i badge dei gruppi nascosti",
                 "view_last_seen_at_label": "Visualizza sempre l'ora dell'ultimo accesso di un utente",
-                "view_post_ips_label": "Visualizzare indirizzi IP di un messaggio"
+                "view_post_ips_label": "Visualizzare indirizzi IP di un messaggio",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitamente",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "Schermo intero",
                 "minimize_tooltip": "Minimizza",
                 "preview_tooltip": "Anteprima",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Attiva/disattiva il menu a discesa di navigazione",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "Segna come letto",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Vedi notifiche",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "Modificato",
@@ -1178,6 +1186,10 @@
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": ""
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "Rispondi alla discussione...",
             "you": "Tu",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "Admin",

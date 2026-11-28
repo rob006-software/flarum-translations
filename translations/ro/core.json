@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "Programator (Scheduler)",
                         "queue-driver": "Driver coadă (Queue Driver)",
-                        "session-driver": "Driver sesiune (Session Driver)"
+                        "session-driver": "Driver sesiune (Session Driver)",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "Activ",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Creare grup",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "Vizualizarea forumului (discuții și utilizatori)",
                 "view_hidden_groups_label": "Vizualizarea insignele de grup ascunse",
                 "view_last_seen_at_label": "Vizualizarea 'ultima dată văzut' a utilizatorului",
-                "view_post_ips_label": "Vizualizarea adreselor IP ale postărilor"
+                "view_post_ips_label": "Vizualizarea adreselor IP ale postărilor",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Pe o durată nedefinită",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "Ecran complet",
                 "minimize_tooltip": "Minimizare",
                 "preview_tooltip": "Pre-vizualizare",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Sari la conținutul principal",
                 "toggle_sidenav_dropdown_accessible_label": "Comutare meniul derulant de navigare",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "Marcare ca citit",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Vizualizare notificări",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "Modificat",
@@ -1178,6 +1186,10 @@
                 "scrubber": "MMMM YYYY",
                 "userListJoinDate": "LLL"
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "Scrieți un răspuns…",
             "you": "Dvs.",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "Administrator",

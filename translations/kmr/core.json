@@ -346,7 +346,8 @@
                     "headers": {
                         "scheduler-status": "Lêrastanîner",
                         "queue-driver": "Ajokara Terîk",
-                        "session-driver": "Ajokara danişîn"
+                        "session-driver": "Ajokara danişîn",
+                        "image-driver": ""
                     },
                     "scheduler": {
                         "active": "Çalak",
@@ -409,6 +410,7 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Komekî biafirîne",
                 "icon_image_label": "",
+                "icon_image_animated_webp_text": "",
                 "icon_image_text": ""
             },
             "edit_header": {
@@ -600,7 +602,8 @@
                 "view_forum_label": "Dîtina forumê (nîqaş û bikarhêneran)",
                 "view_hidden_groups_label": "Nîşanên komê yên veşartî bibînin",
                 "view_last_seen_at_label": "Her dem dema bikarhênerê ya paşîn dîtiye bibînin",
-                "view_post_ips_label": "Navnîşanên IP-ê yên postê bibînin"
+                "view_post_ips_label": "Navnîşanên IP-ê yên postê bibînin",
+                "remove_scope_button": ""
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Bêsînor",
@@ -715,6 +718,8 @@
                 "full_screen_tooltip": "Ekrana tije",
                 "minimize_tooltip": "Kêmkirin",
                 "preview_tooltip": "Pêşnerîn",
+                "discard_button": "",
+                "keep_writing_button": "",
                 "restore_tooltip": ""
             },
             "composer_discussion": {
@@ -792,6 +797,8 @@
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Menûya dakêşana navîgasyonê biguherînin",
+                "mark_all_as_read_button": "",
+                "mark_filtered_as_read_button": "",
                 "mark_filtered_as_read_confirmation": ""
             },
             "index_sort": {
@@ -824,7 +831,8 @@
                 "mark_as_read_tooltip": "Wek Xwendin nîşan bikin",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Daxuyaniyan bibînin",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_button": ""
             },
             "post": {
                 "edited_text": "edît kir",
@@ -1178,6 +1186,10 @@
                 "scrubber": "",
                 "userListJoinDate": ""
             },
+            "confirm_modal": {
+                "cancel_button": "",
+                "confirm_button": ""
+            },
             "icon_image_input": {
                 "remove_button": "",
                 "replace_button": "",
@@ -1429,7 +1441,8 @@
             "write_a_reply": "Bersivekê binivîse...",
             "you": "hûn",
             "icon_image": "",
-            "icon_image_text": ""
+            "icon_image_text": "",
+            "icon_image_animated_webp_text": ""
         },
         "group": {
             "admin": "Rêvebir",
