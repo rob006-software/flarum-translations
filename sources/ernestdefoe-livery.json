@@ -1,0 +1,82 @@
+{
+    "ernestdefoe-livery": {
+        "admin": {
+            "settings": {
+                "heading": "Forum-wide",
+                "dark_label": "Tag colors in dark mode",
+                "dark_help": "Same as light is how Flarum draws tags. Adjust automatically keeps each tag's hue but softens it so it sits well on a dark page. A tag can choose for itself in its Edit Tag dialog.",
+                "dark_same": "Same as light",
+                "dark_auto": "Adjust automatically",
+                "auto_text_label": "Readable tag text",
+                "auto_text_help": "Picks black or white text for each tag color by its real contrast (WCAG), where Flarum's own pick can leave text too faint on mid-tone colors like red, green and blue. A tag's own text color always wins."
+            },
+            "palette": {
+                "heading": "Color every tag",
+                "intro": "Pick a starting color and a scheme. Nothing is saved until you press Apply, and Apply can be undone.",
+                "base_label": "Start from",
+                "base_primary": "Forum primary color ({hex})",
+                "base_secondary": "Forum secondary color ({hex})",
+                "base_bespoke": "Bespoke brand color ({hex})",
+                "base_custom": "A color I pick",
+                "scheme_label": "Scheme",
+                "scheme_spread": "Spread (most distinct)",
+                "scheme_analogous": "Analogous",
+                "scheme_complementary": "Complementary",
+                "scheme_triadic": "Triadic",
+                "scheme_tonal": "One hue",
+                "scheme_random": "Random",
+                "shade_children": "Shade child tags from their parent",
+                "only_uncolored": "Only tags with no color yet",
+                "shuffle": "Shuffle",
+                "apply": "{count, plural, =0 {Nothing to apply} one {Apply to # tag} other {Apply to # tags}}",
+                "apply_help": "Locked tags keep their colors. Recolored tags go back to automatic text colors. Recent changes can be undone, newest first.",
+                "undo": "{count, plural, one {Undo last change (# tag, {time})} other {Undo last change (# tags, {time})}}",
+                "applied": "{count, plural, one {# tag recolored.} other {# tags recolored.}}",
+                "undone": "The last change was undone."
+            },
+            "preview": {
+                "tag": "Tag",
+                "now": "Now",
+                "light": "Light",
+                "dark": "Dark",
+                "none": "none",
+                "locked": "Locked",
+                "readable": "Readable (4.5:1 or more)",
+                "hard_to_read": "Hard to read (under 4.5:1)",
+                "summary": "{changed, plural, one {# tag changes} other {# tags change}}, {locked} locked.",
+                "summary_ok": "Every label's text reaches 4.5:1 contrast.",
+                "summary_low": "{count, plural, one {# label is} other {# labels are}} under 4.5:1 contrast; turn on Readable tag text, or give those tags their own text color."
+            },
+            "edit_tag": {
+                "random": "Random",
+                "random_light": "Light",
+                "random_dark": "Dark",
+                "text_label": "Text color",
+                "text_auto": "Automatic",
+                "text_custom": "My own colors",
+                "light_placeholder": "In light mode",
+                "dark_placeholder": "In dark mode",
+                "dark_label": "Color in dark mode",
+                "dark_default": "Forum setting ({choice})",
+                "dark_custom": "A color I pick",
+                "lock_label": "Lock this tag's colors",
+                "lock_help": "Color every tag skips a locked tag.",
+                "on_light": "Light",
+                "on_dark": "Dark",
+                "preview_needs_color": "Pick a color to see a preview.",
+                "low_contrast": "The text reaches only {ratio}:1 contrast; 4.5:1 is the minimum for readable text.",
+                "fix_contrast": "Adjust the color to fix it"
+            }
+        },
+        "api": {
+            "unknown_tag": "One of the tags no longer exists. Reload the page and try again.",
+            "locked_tag": "One of the tags is locked. Reload the page and try again.",
+            "bad_color": "Every color must be a six-digit hex color like #3a7bd5.",
+            "undo_newest_first": "Only the newest change can be undone. Undo the newer one first.",
+            "nothing_to_apply": "There are no tag colors to apply.",
+            "too_many": "Livery recolors up to {max} tags in one change. Lock some tags, or turn on Only tags with no color yet, and apply again.",
+            "already_undone": "That change was already undone.",
+            "busy": "Another color change is being saved. Try again in a moment."
+        }
+    }
+}

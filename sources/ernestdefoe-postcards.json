@@ -1,0 +1,105 @@
+{
+    "ernestdefoe-postcards": {
+        "forum": {
+            "card": {
+                "started": "started {ago}",
+                "views": "{count, plural, one {# view} other {# views}}",
+                "minutes": "{count}m",
+                "hours": "{count}h",
+                "days": "{count}d"
+            },
+            "toggle": {
+                "show_cards": "Show as cards",
+                "show_list": "Show as a list"
+            }
+        },
+        "admin": {
+            "settings": {
+                "layout": "Layout",
+                "layout_help": "Masonry keeps each picture's own shape. Grid gives every card the same shape. Wide puts one card on each row, with the picture on the left. Phones always show one column.",
+                "layout_options": {
+                    "masonry": "Masonry",
+                    "grid": "Grid",
+                    "wide": "Wide"
+                },
+                "masonry_order": "Masonry reading order",
+                "masonry_order_help": "Across places each card in the shortest column, in list order, so the newest discussions read left to right. Down is pure CSS: the list reads down each column. Down is also what members see before the page's script has run.",
+                "masonry_order_options": {
+                    "across": "Across (left to right)",
+                    "down": "Down each column"
+                },
+                "columns": "Columns on wide screens",
+                "columns_help": "Tablets show at most two, and phones one.",
+                "ratio": "Picture shape (Grid and Wide)",
+                "ratio_help": "Pictures are cropped to fit. Masonry uses each picture's own shape instead.",
+                "ratio_options": {
+                    "16_by_9": "16:9",
+                    "3_by_2": "3:2",
+                    "1_by_1": "1:1 (square)",
+                    "2_by_1": "2:1"
+                },
+                "excerpt": "Excerpt length",
+                "excerpt_help": "The most characters of the first post to show on a card. 0 shows no excerpt.",
+                "featured": "Lead card",
+                "featured_help": "One card that spans the full width at the top of the list.",
+                "featured_options": {
+                    "off": "None",
+                    "sticky": "The first sticky discussion",
+                    "first": "The first discussion"
+                },
+                "avatar": "Put the author's avatar over the picture",
+                "show_index": "Cards on All Discussions",
+                "show_help": "Each tag can also be set on its own in the Tags table below.",
+                "show_tags": "Cards on tag pages",
+                "show_following": "Cards on Following",
+                "show_search": "Cards in search results",
+                "show_user": "Cards on a member's Discussions tab",
+                "toggle": "Let members switch between cards and the list",
+                "toggle_help": "Adds a button to the toolbar above the list. Each member's choice is remembered.",
+                "foot_replies": "Show the reply count",
+                "foot_views": "Show the view count",
+                "foot_views_help": "Postcards counts views itself. If FoF Discussion Views or michaelbelgium's Discussion Views is enabled, cards show its count instead, and Postcards' counter stops.",
+                "foot_last": "Show who replied last"
+            },
+            "covers": {
+                "default_heading": "Default cover",
+                "default_help": "Shown on discussions that have no picture or video and no tag cover. Without one, they show their tag's color and the first letter of the title.",
+                "tags_heading": "Tags",
+                "tags_help": "Turn cards on or off for a tag, pick its layout, and upload a cover. A tag's cover is used when a discussion has no picture or video of its own, or always if you choose that. A child tag's settings come before its parent's.",
+                "tag": "Tag",
+                "cards": "Cards",
+                "layout": "Layout",
+                "cover": "Cover",
+                "use": "Use the cover",
+                "inherit": "Default",
+                "cards_on": "On",
+                "cards_off": "Off (list)",
+                "layout_masonry": "Masonry",
+                "layout_grid": "Grid",
+                "layout_wide": "Wide",
+                "use_empty": "When there's no picture or video",
+                "use_always": "Always, instead of the post's",
+                "upload": "Upload",
+                "replace": "Replace",
+                "remove": "Remove"
+            },
+            "tools": {
+                "heading": "Tools",
+                "rebuild_help": "Postcards picks each discussion's cover and excerpt when its first post is written or edited. Rebuild does it again for every discussion, for example after a big import.",
+                "rebuild": "Rebuild covers",
+                "rebuild_queued": "Rebuilding covers, 200 discussions at a time. With a queue worker it finishes in the background.",
+                "import_help": "Copies the view counts from FoF Discussion Views or michaelbelgium's Discussion Views into Postcards' counter, so you keep them if you remove that extension. Running it twice is safe.",
+                "import": "Import view counts",
+                "import_queued": "Importing view counts. With a queue worker it finishes in the background."
+            }
+        },
+        "api": {
+            "busy": "That cover is being changed right now. Please try again in a moment.",
+            "no_image": "Choose an image to upload.",
+            "too_large": "The image can be at most 5 MB.",
+            "bad_type": "The image must be a JPEG, PNG, WebP or GIF.",
+            "too_many_pixels": "The image is too big. It can be at most 25 megapixels.",
+            "no_views_to_import": "There are no view counts to import. FoF Discussion Views or michaelbelgium's Discussion Views must be installed."
+        }
+    }
+}

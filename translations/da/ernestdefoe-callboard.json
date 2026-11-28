@@ -1,0 +1,278 @@
+{
+    "ernestdefoe-callboard": {
+        "forum": {
+            "nav": "",
+            "board": {
+                "title": "",
+                "subtitle": "",
+                "new": "",
+                "mine": "",
+                "empty": "",
+                "empty_filtered": "",
+                "more": ""
+            },
+            "type": {
+                "looking": "",
+                "offering": "",
+                "specialist": "",
+                "project": ""
+            },
+            "type_short": {
+                "looking": "",
+                "offering": "",
+                "specialist": "",
+                "project": ""
+            },
+            "compensation": {
+                "paid": "",
+                "volunteer": ""
+            },
+            "state": {
+                "open": "",
+                "discussing": "",
+                "filled": "",
+                "closed": "",
+                "expired": "",
+                "hidden": ""
+            },
+            "colors": {
+                "yellow": "",
+                "green": "",
+                "blue": "",
+                "pink": "",
+                "lavender": ""
+            },
+            "note": {
+                "interested": "",
+                "ends_in": "",
+                "garage": ""
+            },
+            "filters": {
+                "all": "",
+                "search": "",
+                "button": "",
+                "title": "",
+                "skills": "",
+                "skills_placeholder": "",
+                "pay": "",
+                "any_pay": "",
+                "any": "",
+                "state": "",
+                "sort": "",
+                "clear": "",
+                "done": "",
+                "states": {
+                    "active": "",
+                    "open": "",
+                    "discussing": "",
+                    "filled": "",
+                    "closed": "",
+                    "expired": "",
+                    "ended": ""
+                },
+                "sorts": {
+                    "newest": "",
+                    "ending": "",
+                    "interest": "",
+                    "activity": ""
+                }
+            },
+            "skills": {
+                "placeholder": "",
+                "remove": ""
+            },
+            "form": {
+                "new_title": "",
+                "edit_title": "",
+                "title": "",
+                "summary": "",
+                "type": "",
+                "pay": "",
+                "pay_none": "",
+                "skills": "",
+                "details": "",
+                "details_placeholder": "",
+                "ends": "",
+                "ends_keep": "",
+                "ends_keep_none": "",
+                "ends_days": "",
+                "ends_never": "",
+                "color": "",
+                "discussion": "",
+                "discussion_always": "",
+                "submit": "",
+                "save": ""
+            },
+            "interest": {
+                "title": "",
+                "intro": "",
+                "skill": "",
+                "skill_none": "",
+                "message": "",
+                "message_placeholder": "",
+                "private": "",
+                "send": ""
+            },
+            "requests": {
+                "title_author": "",
+                "title_public": "",
+                "none": "",
+                "accept": "",
+                "decline": "",
+                "message": "",
+                "private": "",
+                "private_public": "",
+                "status": {
+                    "pending": "",
+                    "accepted": "",
+                    "declined": ""
+                },
+                "team": {
+                    "pending": "",
+                    "accepted": ""
+                }
+            },
+            "post": {
+                "back": "",
+                "ends": "",
+                "ended": "",
+                "discussion": "",
+                "replies": "",
+                "garage": "",
+                "garage_published": "",
+                "garage_draft": "",
+                "interested": "",
+                "cannot_request": "",
+                "not_open": "",
+                "withdraw": "",
+                "message_author": "",
+                "mine": {
+                    "pending": "",
+                    "accepted": "",
+                    "declined": ""
+                },
+                "yours": "",
+                "status": "",
+                "renew": "",
+                "edit": "",
+                "hide": "",
+                "unhide": "",
+                "delete": "",
+                "delete_confirm": ""
+            },
+            "steps": {
+                "title": "",
+                "discussion": "",
+                "corkboard": "",
+                "garage": "",
+                "invite": "",
+                "invite_after_publish": ""
+            },
+            "garage": {
+                "title": "",
+                "intro": "",
+                "category": "",
+                "create": ""
+            },
+            "profile": {
+                "nav": "",
+                "active": "",
+                "ended": "",
+                "joined": "",
+                "empty": "",
+                "empty_own": ""
+            },
+            "notifications": {
+                "interest": "",
+                "accepted": "",
+                "declined": "",
+                "expiring": "",
+                "interest_setting": "",
+                "answered_setting": "",
+                "expiring_setting": ""
+            }
+        },
+        "api": {
+            "too_many_posts": "",
+            "too_many_active": "",
+            "build_not_yours": "",
+            "cannot_request": "",
+            "too_many_requests": "",
+            "already_requested": "",
+            "skill_name": ""
+        },
+        "lib": {
+            "discussion_footer": "",
+            "discussion": {
+                "busy": "",
+                "already": "",
+                "needs_tag": "",
+                "cannot": ""
+            },
+            "gdpr": {
+                "export": "",
+                "delete": ""
+            }
+        },
+        "email": {
+            "interest": {
+                "subject": "",
+                "body": "",
+                "link": ""
+            },
+            "answered": {
+                "subject_accepted": "",
+                "subject_declined": "",
+                "body_accepted": "",
+                "body_declined": "",
+                "link": ""
+            },
+            "expiring": {
+                "subject": "",
+                "body": "",
+                "link": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "nav": "",
+                "type_looking": "",
+                "type_offering": "",
+                "type_specialist": "",
+                "type_project": "",
+                "default_days": "",
+                "default_days_help": "",
+                "max_days": "",
+                "max_days_help": "",
+                "max_active": "",
+                "max_active_help": "",
+                "posts_per_day": "",
+                "requests_per_day": "",
+                "public_interest": "",
+                "public_interest_help": "",
+                "discussion_mode": "",
+                "mode_click": "",
+                "mode_always": "",
+                "discussion_tag": "",
+                "discussion_tag_help": "",
+                "tag_none": ""
+            },
+            "permissions": {
+                "view": "",
+                "post": "",
+                "request": "",
+                "moderate": ""
+            },
+            "skills": {
+                "title": "",
+                "help": "",
+                "empty": "",
+                "rename": "",
+                "save": "",
+                "delete": "",
+                "uses": "",
+                "delete_confirm": ""
+            }
+        }
+    }
+}

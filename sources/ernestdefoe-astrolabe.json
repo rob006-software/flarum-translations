@@ -1,0 +1,54 @@
+{
+    "ernestdefoe-astrolabe": {
+        "lib": {
+            "calendars": {
+                "gregory": "Gregorian",
+                "persian": "Persian (Solar Hijri / Jalali)",
+                "islamic-umalqura": "Islamic (Hijri, Umm al-Qura)",
+                "hebrew": "Hebrew",
+                "japanese": "Japanese (imperial eras)",
+                "buddhist": "Buddhist (Thai solar)"
+            },
+            "numerals": {
+                "latn": "Western (0123456789)",
+                "arabext": "Persian (۰۱۲۳۴۵۶۷۸۹)",
+                "arab": "Arabic (٠١٢٣٤٥٦٧٨٩)",
+                "beng": "Bengali (০১২৩৪৫৬৭৮৯)",
+                "deva": "Devanagari (०१२३४५६७८९)"
+            },
+            "picker": {
+                "empty": "Choose a date",
+                "time": "Time",
+                "previous": "Previous month",
+                "next": "Next month",
+                "clear": "Clear"
+            }
+        },
+        "forum": {
+            "settings": {
+                "heading": "Dates and numbers",
+                "calendar": "Calendar",
+                "numerals": "Digits",
+                "forum_default": "The forum's choice",
+                "reload": "The page reloads to apply a change."
+            }
+        },
+        "admin": {
+            "calendar": "Calendar",
+            "calendar_help": "Every date on the forum is shown in this calendar, including relative times, tooltips and date pickers, in core and in other extensions. Dates are still stored as Gregorian/UTC.",
+            "numerals": "Digits",
+            "numerals_help": "The digits used for dates, times, counts and other interface numbers. Posts, titles and code are never changed.",
+            "second_calendar": "Second calendar",
+            "second_calendar_help": "Optional. Adds the date in this calendar to every date's tooltip.",
+            "second_none": "None",
+            "member_choice": "Let members choose their own",
+            "member_choice_help": "Adds \"Dates and numbers\" to each member's settings. A member who keeps the forum's choice follows yours.",
+            "preview": "Preview",
+            "fallback": "This browser can't show that calendar or those digits. It shows Gregorian dates or Western digits instead, and so will any visitor's browser that lacks them.",
+            "jalali_calendar_notice": "Jalali Calendar (mabioca/jalali-calendar) is also enabled. Astrolabe covers what it does, so don't run both."
+        },
+        "api": {
+            "unknown_system": "Choose one of the listed calendars or digits."
+        }
+    }
+}

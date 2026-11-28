@@ -1,0 +1,86 @@
+{
+    "ernestdefoe-mayfly": {
+        "lib": {
+            "off": "Off",
+            "duration": {
+                "300": "5 minutes",
+                "3600": "1 hour",
+                "86400": "1 day",
+                "604800": "1 week",
+                "2419200": "4 weeks"
+            }
+        },
+        "forum": {
+            "banner": {
+                "sent": "Messages disappear {duration} after they're sent.",
+                "read": "Messages disappear {duration} after they're read.",
+                "forced": "Set by the forum for every conversation.",
+                "change_button": "Change"
+            },
+            "controls": {
+                "timer_button": "Disappearing messages"
+            },
+            "timer_modal": {
+                "title": "Disappearing messages",
+                "intro": "New messages in this conversation delete themselves for everyone when the time runs out. Messages already sent keep the timer they were sent with.",
+                "duration_label": "Delete messages",
+                "mode_label": "Count from",
+                "mode_sent": "Sending",
+                "mode_sent_help": "Each message goes a set time after it was sent.",
+                "mode_read": "Reading",
+                "mode_read_help": "Each person's copy starts counting down when they first see it. A message nobody reads still goes after {duration}.",
+                "honesty": "Disappearing isn't the same as secret. Anyone in the conversation can still copy or screenshot a message, and a browser can't stop or detect that.",
+                "save_button": "Save"
+            },
+            "chip": {
+                "starts_when_read": "starts when read",
+                "label": "Disappears in {time}",
+                "days": "{count}d",
+                "hours": "{count}h",
+                "minutes": "{count}m"
+            },
+            "event": {
+                "on_sent": "{name} set messages to disappear {duration} after they're sent.",
+                "on_read": "{name} set messages to disappear {duration} after they're read.",
+                "off": "{name} turned off disappearing messages.",
+                "someone": "Someone"
+            },
+            "dialog_list": {
+                "no_messages": "No messages",
+                "disappeared": "Message disappeared",
+                "timed_label": "Disappearing messages are on"
+            }
+        },
+        "api": {
+            "not_allowed_message": "You can't change the timer in this conversation.",
+            "invalid_timer_message": "Choose one of the timers on offer."
+        },
+        "email": {
+            "plain_body": "{user_display_name} sent you a disappearing message. It isn't included in this email: read it in the conversation before it's gone.\n\n{url}\n\nYou won't receive any more emails about this conversation until you've read it.\n",
+            "html_body": "{user_display_name} sent you a [disappearing message]({url}). It isn't included in this email: read it in the conversation before it's gone.\n\nYou won't receive any more emails about this conversation until you've read it.\n"
+        },
+        "admin": {
+            "permissions": {
+                "set_timer_label": "Turn on disappearing messages"
+            },
+            "settings": {
+                "enabled_label": "Disappearing messages",
+                "enabled_help": "When this is off, new messages never disappear. Messages that were already given a timer still disappear when it runs out.",
+                "default_label": "Default timer for new conversations",
+                "default_help": "Conversations that already exist keep their own timer.",
+                "default_mode_label": "New conversations count from",
+                "max_label": "Longest timer members may choose",
+                "max_help": "This is also the safety cap. In \"from reading\" mode, a message nobody reads is still deleted once this time has passed.",
+                "read_mode_label": "Allow \"from reading\"",
+                "read_mode_help": "Each person's copy starts counting down when they first see it, as in Signal. When this is off, every timer counts from sending.",
+                "forced_label": "Force a timer on every conversation",
+                "forced_help": "For a privacy-first community. Members can't change or turn off a forced timer. Only messages sent after you turn it on disappear.",
+                "forced_mode_label": "The forced timer counts from",
+                "mode_sent": "Sending",
+                "mode_read": "Reading",
+                "limits_heading": "What disappearing can and can't do",
+                "limits_text": "Messages delete themselves from the forum, with their notifications, translations and mentions. Email notifications for them leave the message out, because an email that has gone can't be pulled back. Some things are out of reach: files uploaded into a message are not deleted, database backups and server logs keep what they kept, and anyone in a conversation can copy or screenshot a message. Expired messages are deleted by the forum's scheduler, which must be running (php flarum schedule:run every minute)."
+            }
+        }
+    }
+}

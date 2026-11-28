@@ -1,0 +1,278 @@
+{
+    "ernestdefoe-callboard": {
+        "forum": {
+            "nav": "Callboard",
+            "board": {
+                "title": "Callboard",
+                "subtitle": "Find people to build with, or offer what you do.",
+                "new": "New post",
+                "mine": "My posts",
+                "empty": "Nothing is pinned up yet. Be the first to post a call.",
+                "empty_filtered": "No posts match these filters.",
+                "more": "Load more"
+            },
+            "type": {
+                "looking": "Looking for collaborators",
+                "offering": "Offering to collaborate",
+                "specialist": "Looking for a specialist",
+                "project": "Project opportunity"
+            },
+            "type_short": {
+                "looking": "Looking",
+                "offering": "Offering",
+                "specialist": "Specialist",
+                "project": "Project"
+            },
+            "compensation": {
+                "paid": "Paid",
+                "volunteer": "Volunteer"
+            },
+            "state": {
+                "open": "Open",
+                "discussing": "In discussion",
+                "filled": "Filled",
+                "closed": "Closed",
+                "expired": "Ended",
+                "hidden": "Hidden"
+            },
+            "colors": {
+                "yellow": "Yellow",
+                "green": "Green",
+                "blue": "Blue",
+                "pink": "Pink",
+                "lavender": "Lavender"
+            },
+            "note": {
+                "interested": "{count, plural, one {# interested} other {# interested}}",
+                "ends_in": "{count, plural, =0 {ends today} one {ends tomorrow} other {ends in # days}}",
+                "garage": "Garage build"
+            },
+            "filters": {
+                "all": "All",
+                "search": "Search posts",
+                "button": "Filters",
+                "title": "Filters",
+                "skills": "Skills",
+                "skills_placeholder": "Filter by skill",
+                "pay": "Paid or volunteer",
+                "any_pay": "Paid or volunteer",
+                "any": "Any",
+                "state": "Status",
+                "sort": "Sort",
+                "clear": "Clear",
+                "done": "Done",
+                "states": {
+                    "active": "Open + In discussion",
+                    "open": "Open",
+                    "discussing": "In discussion",
+                    "filled": "Filled",
+                    "closed": "Closed",
+                    "expired": "Ended",
+                    "ended": "All that ended"
+                },
+                "sorts": {
+                    "newest": "Newest",
+                    "ending": "Ending soon",
+                    "interest": "Most interest",
+                    "activity": "Recently updated"
+                }
+            },
+            "skills": {
+                "placeholder": "Add a skill",
+                "remove": "Remove {name}"
+            },
+            "form": {
+                "new_title": "New post",
+                "edit_title": "Edit post",
+                "title": "Title",
+                "summary": "Short description",
+                "type": "Type",
+                "pay": "Paid or volunteer",
+                "pay_none": "Not stated",
+                "skills": "Skills",
+                "details": "Details",
+                "details_placeholder": "About the project, what you need, what they get…",
+                "ends": "Ends",
+                "ends_keep": "Keep the current end ({date})",
+                "ends_keep_none": "Keep (no end date)",
+                "ends_days": "{count, plural, one {In # day} other {In # days}}",
+                "ends_never": "No end date",
+                "color": "Note color",
+                "discussion": "Start a discussion for comments",
+                "discussion_always": "A discussion for comments is started with your post.",
+                "submit": "Post it",
+                "save": "Save changes"
+            },
+            "interest": {
+                "title": "I'm interested",
+                "intro": "Tell the author of “{title}” what you bring. Only they see your note.",
+                "skill": "The skill you bring",
+                "skill_none": "Not one in particular",
+                "message": "A short note",
+                "message_placeholder": "Your experience, your availability, how to reach you on the forum…",
+                "private": "Your note is private between you and the author. No email address is shared.",
+                "send": "Send"
+            },
+            "requests": {
+                "title_author": "Requests · only you see the notes",
+                "title_public": "Interested members",
+                "none": "No requests yet.",
+                "accept": "Accept",
+                "decline": "Decline",
+                "message": "Message",
+                "private": "Requests are private between you and each member. No email address is shared.",
+                "private_public": "Everyone sees who is interested; the notes stay between you and each member. No email address is shared.",
+                "status": {
+                    "pending": "waiting",
+                    "accepted": "accepted",
+                    "declined": "declined"
+                },
+                "team": {
+                    "pending": "invited to the team",
+                    "accepted": "on the team"
+                }
+            },
+            "post": {
+                "back": "Callboard",
+                "ends": "Ends {date}",
+                "ended": "Ended {date}",
+                "discussion": "Continue in the discussion",
+                "replies": "{count, plural, =0 {No replies yet} one {# reply} other {# replies}}",
+                "garage": "Became a Garage build: {title}",
+                "garage_published": "Published in Garage",
+                "garage_draft": "A draft in Garage, waiting for photos",
+                "interested": "I'm interested",
+                "cannot_request": "You can't send a request on this post.",
+                "not_open": "This post isn't taking requests.",
+                "withdraw": "Take back my request",
+                "message_author": "Message the author",
+                "mine": {
+                    "pending": "Your request was sent. The author will answer.",
+                    "accepted": "The author accepted your request.",
+                    "declined": "Not this time. The author declined your request."
+                },
+                "yours": "Your post",
+                "status": "Status",
+                "renew": "Renew",
+                "edit": "Edit",
+                "hide": "Hide",
+                "unhide": "Show again",
+                "delete": "Delete",
+                "delete_confirm": "Delete this post and the requests on it? This can't be undone."
+            },
+            "steps": {
+                "title": "Next steps",
+                "discussion": "Start a discussion for comments",
+                "corkboard": "Add to a Corkboard board",
+                "garage": "Turn into a Garage team build",
+                "invite": "{count, plural, one {Invite your accepted collaborator to the team} other {Invite your # accepted collaborators to the team}}",
+                "invite_after_publish": "Publish the build in Garage, then invite the members you accepted."
+            },
+            "garage": {
+                "title": "Turn into a Garage team build",
+                "intro": "Callboard makes a draft build from this post and takes you to it. Add photos and publish it there, then come back here to invite the members you accepted.",
+                "category": "Garage category",
+                "create": "Make the draft build"
+            },
+            "profile": {
+                "nav": "Callboard",
+                "active": "Open posts",
+                "ended": "Filled, closed or ended",
+                "joined": "Teams joined through Callboard",
+                "empty": "No posts yet.",
+                "empty_own": "You haven't posted a call yet."
+            },
+            "notifications": {
+                "interest": "{username} is interested in “{title}”",
+                "accepted": "{username} accepted your request on “{title}”",
+                "declined": "{username} declined your request on “{title}”",
+                "expiring": "Your post “{title}” ends soon. Renew it to keep it on the board.",
+                "interest_setting": "Someone is interested in my Callboard post",
+                "answered_setting": "My Callboard request is answered",
+                "expiring_setting": "My Callboard post is about to end"
+            }
+        },
+        "api": {
+            "too_many_posts": "You're posting too fast. Try again in a little while.",
+            "too_many_active": "{count, plural, one {You can have # open post at a time. Close one first.} other {You can have # open posts at a time. Close one first.}}",
+            "build_not_yours": "That isn't one of your Garage builds.",
+            "cannot_request": "You can't send a request on this post.",
+            "too_many_requests": "You're sending requests too fast. Try again in a little while.",
+            "already_requested": "You already sent a request on this post.",
+            "skill_name": "A skill needs a name with letters or numbers."
+        },
+        "lib": {
+            "discussion_footer": "Posted on the Callboard: {url}",
+            "discussion": {
+                "busy": "The discussion is being started. Try again in a moment.",
+                "already": "This post already has a discussion.",
+                "needs_tag": "An admin needs to choose the tag for Callboard discussions first.",
+                "cannot": "You can't start discussions on this forum."
+            },
+            "gdpr": {
+                "export": "Your Callboard posts and the requests you sent.",
+                "delete": "Your Callboard posts and the requests you sent are deleted."
+            }
+        },
+        "email": {
+            "interest": {
+                "subject": "Someone is interested in “{title}”",
+                "body": "Hi {recipient_display_name}, {member} is interested in your Callboard post “{title}”. Their note is waiting for you on the post.",
+                "link": "Read the request"
+            },
+            "answered": {
+                "subject_accepted": "Your request on “{title}” was accepted",
+                "subject_declined": "Your request on “{title}” was declined",
+                "body_accepted": "Hi {recipient_display_name}, {author} accepted your request on “{title}”.",
+                "body_declined": "Hi {recipient_display_name}, {author} declined your request on “{title}”. Thanks for offering.",
+                "link": "Open the post"
+            },
+            "expiring": {
+                "subject": "Your post “{title}” ends soon",
+                "body": "Hi {recipient_display_name}, your Callboard post “{title}” ends on {date}. Renew it if you're still looking.",
+                "link": "Open the post"
+            }
+        },
+        "admin": {
+            "settings": {
+                "nav": "Show Callboard in the forum's sidebar",
+                "type_looking": "Allow \"Looking for collaborators\" posts",
+                "type_offering": "Allow \"Offering to collaborate\" posts",
+                "type_specialist": "Allow \"Looking for a specialist\" posts",
+                "type_project": "Allow \"Project opportunity\" posts",
+                "default_days": "Days a new post runs",
+                "default_days_help": "What the form picks for a new post. 0 runs it until the longest the setting below allows.",
+                "max_days": "Longest a post may run, in days",
+                "max_days_help": "0 allows posts with no end date.",
+                "max_active": "Open posts a member may have at once",
+                "max_active_help": "0 for no limit. Moderators aren't limited.",
+                "posts_per_day": "New posts a member may write in a day",
+                "requests_per_day": "\"I'm interested\" requests a member may send in a day",
+                "public_interest": "Everyone sees who is interested in a post",
+                "public_interest_help": "Off, only the post's author (and moderators) see who sent a request. Either way, the notes stay private between the author and each member, and no email address is ever shown.",
+                "discussion_mode": "Discussions for comments",
+                "mode_click": "Started when the author asks",
+                "mode_always": "Started with every new post",
+                "discussion_tag": "Tag for Callboard discussions",
+                "discussion_tag_help": "Needed when your forum requires a tag on every discussion.",
+                "tag_none": "No tag"
+            },
+            "permissions": {
+                "view": "View the Callboard",
+                "post": "Post on the Callboard",
+                "request": "Send \"I'm interested\" requests",
+                "moderate": "Moderate the Callboard"
+            },
+            "skills": {
+                "title": "Skills",
+                "help": "The skills members have tagged, most used first. Renaming a skill to a name another skill has merges the two.",
+                "empty": "No skills yet.",
+                "rename": "Rename",
+                "save": "Save",
+                "delete": "Delete",
+                "uses": "{count, plural, one {# post} other {# posts}}",
+                "delete_confirm": "Delete “{name}” from every post?"
+            }
+        }
+    }
+}
