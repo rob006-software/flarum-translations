@@ -171,7 +171,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-cls-fix/v1.1.1/locale/en.yml',
 	],
 	'ekumanov-forum-widgets' => [
-		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.12/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.13/locale/en.yml',
 	],
 	'ekumanov-inline-audio' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v2.10.4/locale/en.yml',
