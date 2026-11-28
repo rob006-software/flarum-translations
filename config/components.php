@@ -423,6 +423,9 @@ return [
 	'ernestdefoe-masthead' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/masthead/1.9.2/locale/en.yml',
 	],
+	'ernestdefoe-mayfly' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mayfly/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-member-desk' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/member-desk/1.3.0/locale/en.yml',
 	],
