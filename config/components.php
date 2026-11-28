@@ -1432,6 +1432,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-rss/2.0.3/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'smstunnel-sms' => [
+		'tag' => 'https://raw.githubusercontent.com/narcisbodea/smstunnel-flarum/v1.0.0/locale/en.yml',
+	],
 	'stezkoy-ai-openreply' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/3.0.1/locale/en.yml',
 		'__builtInLanguages' => ['ru'],
