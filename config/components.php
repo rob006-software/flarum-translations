@@ -898,6 +898,9 @@ return [
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
+	'horngunnotes-horn-signals' => [
+		'tag' => 'https://gitlab.com/horngun-glossary/flarum-horn-signals/raw/v1.0.1/locale/en.yml',
+	],
 	'huoxin-auto-follow-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/1.0.0/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
